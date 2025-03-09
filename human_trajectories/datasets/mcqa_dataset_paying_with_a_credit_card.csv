@@ -1,0 +1,459 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Put credit card back in wallet', 'Get credit card out of wallet']",Get credit card out of wallet,1
+1,0.2,['Get credit card out of wallet'],"['Hand credit card to cashier', 'Hand credit card to cashier']",Hand credit card to cashier,1
+2,0.4,"['Get credit card out of wallet', 'Hand credit card to cashier']","['Put credit card back in wallet', 'Wait for cashier to give credit card back']",Wait for cashier to give credit card back,1
+3,0.6,"['Get credit card out of wallet', 'Hand credit card to cashier', 'Wait for cashier to give credit card back']","['Sign credit card slip given to me by cashier', 'Get credit card out of wallet']",Sign credit card slip given to me by cashier,0
+4,0.8,"['Get credit card out of wallet', 'Hand credit card to cashier', 'Wait for cashier to give credit card back', 'Sign credit card slip given to me by cashier']","['Hand credit card to cashier', 'Put credit card back in wallet']",Put credit card back in wallet,1
+0,0.0,[],"['walk to cashier or automated teller', 'approve fee']",walk to cashier or automated teller,0
+1,0.2,['walk to cashier or automated teller'],"['take out credit card', 'take out credit card']",take out credit card,1
+2,0.4,"['walk to cashier or automated teller', 'take out credit card']","['swipe card', 'approve fee']",swipe card,0
+3,0.6,"['walk to cashier or automated teller', 'take out credit card', 'swipe card']","['enter password', 'walk to cashier or automated teller']",enter password,0
+4,0.8,"['walk to cashier or automated teller', 'take out credit card', 'swipe card', 'enter password']","['walk to cashier or automated teller', 'approve fee']",approve fee,1
+0,0.0,[],"['Run card through machine', 'If debit, enter pin']",Run card through machine,0
+1,0.2,['Run card through machine'],"['Select debit or credit', 'Sign the machine']",Select debit or credit,0
+2,0.4,"['Run card through machine', 'Select debit or credit']","['Press enter', 'If debit, enter pin']","If debit, enter pin",1
+3,0.6,"['Run card through machine', 'Select debit or credit', 'If debit, enter pin']","['Run card through machine', 'Sign the machine']",Sign the machine,1
+4,0.8,"['Run card through machine', 'Select debit or credit', 'If debit, enter pin', 'Sign the machine']","['Select debit or credit', 'Press enter']",Press enter,1
+0,0.0,[],"['going to check out', 'going to the store']",going to the store,1
+1,0.2,['going to the store'],"['picking out product to buy', 'handing card to cashier']",picking out product to buy,0
+2,0.4,"['going to the store', 'picking out product to buy']","['going to check out', 'signing for purchase']",going to check out,0
+3,0.6,"['going to the store', 'picking out product to buy', 'going to check out']","['going to the store', 'handing card to cashier']",handing card to cashier,1
+4,0.8,"['going to the store', 'picking out product to buy', 'going to check out', 'handing card to cashier']","['picking out product to buy', 'signing for purchase']",signing for purchase,1
+0,0.0,[],"['Tell cashier you are paying with credit', 'Select credit card you want to use']",Select credit card you want to use,1
+1,0.2,['Select credit card you want to use'],"['Tell cashier you are paying with credit', 'Tell cashier you are paying with credit']",Tell cashier you are paying with credit,0
+2,0.4,"['Select credit card you want to use', 'Tell cashier you are paying with credit']","['Slide card through machine', 'Accept amount charged']",Slide card through machine,0
+3,0.6,"['Select credit card you want to use', 'Tell cashier you are paying with credit', 'Slide card through machine']","['Select credit card you want to use', 'Select option for credit']",Select option for credit,1
+4,0.8,"['Select credit card you want to use', 'Tell cashier you are paying with credit', 'Slide card through machine', 'Select option for credit']","['Accept amount charged', 'Select credit card you want to use']",Accept amount charged,0
+0,0.0,[],"['Apply for credit card', 'Go to store']",Apply for credit card,0
+1,0.2,['Apply for credit card'],"['Choose item', 'Wait for approval']",Wait for approval,1
+2,0.4,"['Apply for credit card', 'Wait for approval']","['Bring item to clerk', 'Go to store']",Go to store,1
+3,0.6,"['Apply for credit card', 'Wait for approval', 'Go to store']","['Choose item', 'Apply for credit card']",Choose item,0
+4,0.8,"['Apply for credit card', 'Wait for approval', 'Go to store', 'Choose item']","['Bring item to clerk', 'Wait for approval']",Bring item to clerk,0
+0,0.0,[],"['Select desired credit card.', 'Wait for receipts to print.']",Select desired credit card.,0
+1,0.2,['Select desired credit card.'],"['Withdraw from wallet.', 'Select desired credit card.']",Withdraw from wallet.,0
+2,0.4,"['Select desired credit card.', 'Withdraw from wallet.']","['Wait for receipts to print.', 'Hand to cashier.']",Hand to cashier.,1
+3,0.6,"['Select desired credit card.', 'Withdraw from wallet.', 'Hand to cashier.']","['Select desired credit card.', 'Hand over ID upon request.']",Hand over ID upon request.,1
+4,0.8,"['Select desired credit card.', 'Withdraw from wallet.', 'Hand to cashier.', 'Hand over ID upon request.']","['Select desired credit card.', 'Wait for receipts to print.']",Wait for receipts to print.,1
+0,0.0,[],"['Make sure your price is right', 'Type in your pin number or zipcode if prompted']",Make sure your price is right,0
+1,0.2,['Make sure your price is right'],"['Pull out your credit', 'Pull out your credit']",Pull out your credit,0
+2,0.4,"['Make sure your price is right', 'Pull out your credit']","['Either hand you card to the merchant to be swiped, or swipe the card yourself', 'Take your receipt']","Either hand you card to the merchant to be swiped, or swipe the card yourself",0
+3,0.6,"['Make sure your price is right', 'Pull out your credit', 'Either hand you card to the merchant to be swiped, or swipe the card yourself']","['Make sure your price is right', 'Type in your pin number or zipcode if prompted']",Type in your pin number or zipcode if prompted,1
+4,0.8,"['Make sure your price is right', 'Pull out your credit', 'Either hand you card to the merchant to be swiped, or swipe the card yourself', 'Type in your pin number or zipcode if prompted']","['Make sure your price is right', 'Take your receipt']",Take your receipt,1
+0,0.0,[],"['Bring selected merchandise to the till counter', 'Let the cashier scan all the items']",Bring selected merchandise to the till counter,0
+1,0.2,['Bring selected merchandise to the till counter'],"['Let the cashier scan all the items', 'Take out credit card']",Let the cashier scan all the items,0
+2,0.4,"['Bring selected merchandise to the till counter', 'Let the cashier scan all the items']","['Give the cashier your credit card', 'Take out credit card']",Take out credit card,1
+3,0.6,"['Bring selected merchandise to the till counter', 'Let the cashier scan all the items', 'Take out credit card']","['Bring selected merchandise to the till counter', 'Ask the cashier for payment with credit card']",Ask the cashier for payment with credit card,1
+4,0.8,"['Bring selected merchandise to the till counter', 'Let the cashier scan all the items', 'Take out credit card', 'Ask the cashier for payment with credit card']","['Bring selected merchandise to the till counter', 'Give the cashier your credit card']",Give the cashier your credit card,1
+0,0.0,[],"['Take the credit card', 'Get into a shop']",Get into a shop,1
+1,0.2,['Get into a shop'],"['choose the product', 'choose the product']",choose the product,1
+2,0.4,"['Get into a shop', 'choose the product']","['Enter the amount', 'Take the credit card']",Take the credit card,1
+3,0.6,"['Get into a shop', 'choose the product', 'Take the credit card']","['Get into a shop', 'Swipe your credit card for paying']",Swipe your credit card for paying,1
+4,0.8,"['Get into a shop', 'choose the product', 'Take the credit card', 'Swipe your credit card for paying']","['Enter the amount', 'Get into a shop']",Enter the amount,0
+0,0.0,[],"['Tell cashier you are paying with credit.', 'Wait for clerk to tell you your total,']","Wait for clerk to tell you your total,",1
+1,0.2,"['Wait for clerk to tell you your total,']","['Tell cashier you are paying with credit.', 'Tell cashier you are paying with credit.']",Tell cashier you are paying with credit.,0
+2,0.4,"['Wait for clerk to tell you your total,', 'Tell cashier you are paying with credit.']","['Swipe card.', 'Sign receipt.']",Swipe card.,0
+3,0.6,"['Wait for clerk to tell you your total,', 'Tell cashier you are paying with credit.', 'Swipe card.']","['Press the button for credit card.', 'Wait for clerk to tell you your total,']",Press the button for credit card.,0
+4,0.8,"['Wait for clerk to tell you your total,', 'Tell cashier you are paying with credit.', 'Swipe card.', 'Press the button for credit card.']","['Tell cashier you are paying with credit.', 'Sign receipt.']",Sign receipt.,1
+0,0.0,[],"['Find the item you want to buy', 'Input pin number']",Find the item you want to buy,0
+1,0.2,['Find the item you want to buy'],"['Bring item to checkout', 'Find the item you want to buy']",Bring item to checkout,0
+2,0.4,"['Find the item you want to buy', 'Bring item to checkout']","['Take out credit card', 'Input pin number']",Take out credit card,0
+3,0.6,"['Find the item you want to buy', 'Bring item to checkout', 'Take out credit card']","['Find the item you want to buy', 'Slide card through the reader']",Slide card through the reader,1
+4,0.8,"['Find the item you want to buy', 'Bring item to checkout', 'Take out credit card', 'Slide card through the reader']","['Bring item to checkout', 'Input pin number']",Input pin number,1
+0,0.0,[],"['Provide the credit card to the seller', 'Check the amount, how much we need to pay for our shopping']",Provide the credit card to the seller,0
+1,0.2,['Provide the credit card to the seller'],"['Check the amount, how much we need to pay for our shopping', 'Check the amount, how much we need to pay for our shopping']","Check the amount, how much we need to pay for our shopping",0
+2,0.4,"['Provide the credit card to the seller', 'Check the amount, how much we need to pay for our shopping']","['Check the transfer amount and enter the PIN Number', 'Make sure the amount was transferred correctly']",Check the transfer amount and enter the PIN Number,0
+3,0.6,"['Provide the credit card to the seller', 'Check the amount, how much we need to pay for our shopping', 'Check the transfer amount and enter the PIN Number']","['Collect the bill for money transfer', 'Provide the credit card to the seller']",Collect the bill for money transfer,0
+4,0.8,"['Provide the credit card to the seller', 'Check the amount, how much we need to pay for our shopping', 'Check the transfer amount and enter the PIN Number', 'Collect the bill for money transfer']","['Make sure the amount was transferred correctly', 'Provide the credit card to the seller']",Make sure the amount was transferred correctly,0
+0,0.0,[],"['Decide what items you would like to buy.', 'Confirm amount on screen.']",Decide what items you would like to buy.,0
+1,0.2,['Decide what items you would like to buy.'],"['Scan items.', 'Proceed to checkout.']",Proceed to checkout.,1
+2,0.4,"['Decide what items you would like to buy.', 'Proceed to checkout.']","['Confirm amount on screen.', 'Scan items.']",Scan items.,1
+3,0.6,"['Decide what items you would like to buy.', 'Proceed to checkout.', 'Scan items.']","['Decide what items you would like to buy.', 'Swipe card through reader.']",Swipe card through reader.,1
+4,0.8,"['Decide what items you would like to buy.', 'Proceed to checkout.', 'Scan items.', 'Swipe card through reader.']","['Confirm amount on screen.', 'Decide what items you would like to buy.']",Confirm amount on screen.,0
+0,0.0,[],"['Watch total, and remove credit card from wallet.', 'Find items you want to purchase.']",Find items you want to purchase.,1
+1,0.2,['Find items you want to purchase.'],"['Take items to cashier.', 'Watch total, and remove credit card from wallet.']",Take items to cashier.,0
+2,0.4,"['Find items you want to purchase.', 'Take items to cashier.']","['Watch total, and remove credit card from wallet.', 'Follow prompts on machine, hitting yes and no where appropriate.']","Watch total, and remove credit card from wallet.",0
+3,0.6,"['Find items you want to purchase.', 'Take items to cashier.', 'Watch total, and remove credit card from wallet.']","['Find items you want to purchase.', 'Slide credit card through payment machine.']",Slide credit card through payment machine.,1
+4,0.8,"['Find items you want to purchase.', 'Take items to cashier.', 'Watch total, and remove credit card from wallet.', 'Slide credit card through payment machine.']","['Take items to cashier.', 'Follow prompts on machine, hitting yes and no where appropriate.']","Follow prompts on machine, hitting yes and no where appropriate.",1
+0,0.0,[],"['Get your card out', 'take your receipt']",Get your card out,0
+1,0.2,['Get your card out'],"['take your receipt', 'slide it in the machine']",slide it in the machine,1
+2,0.4,"['Get your card out', 'slide it in the machine']","['wait than sign your name in box', 'take your receipt']",wait than sign your name in box,0
+3,0.6,"['Get your card out', 'slide it in the machine', 'wait than sign your name in box']","['put your card away', 'Get your card out']",put your card away,0
+4,0.8,"['Get your card out', 'slide it in the machine', 'wait than sign your name in box', 'put your card away']","['take your receipt', 'Get your card out']",take your receipt,0
+0,0.0,[],"['Sign receipt and get card back', 'Go to store']",Go to store,1
+1,0.2,['Go to store'],"['Pick out item you wish to purchase', 'Go to store']",Pick out item you wish to purchase,0
+2,0.4,"['Go to store', 'Pick out item you wish to purchase']","['Sign receipt and get card back', 'Take item to checkout counter']",Take item to checkout counter,1
+3,0.6,"['Go to store', 'Pick out item you wish to purchase', 'Take item to checkout counter']","['Go to store', 'Give cashier your credit card']",Give cashier your credit card,1
+4,0.8,"['Go to store', 'Pick out item you wish to purchase', 'Take item to checkout counter', 'Give cashier your credit card']","['Sign receipt and get card back', 'Pick out item you wish to purchase']",Sign receipt and get card back,0
+0,0.0,[],"['Give to cashier', 'Put items on cash wrap']",Put items on cash wrap,1
+1,0.2,['Put items on cash wrap'],"['Wait for approval', 'Retrieve card']",Retrieve card,1
+2,0.4,"['Put items on cash wrap', 'Retrieve card']","['Wait for approval', 'Give to cashier']",Give to cashier,1
+3,0.6,"['Put items on cash wrap', 'Retrieve card', 'Give to cashier']","['Cashier swipes', 'Put items on cash wrap']",Cashier swipes,0
+4,0.8,"['Put items on cash wrap', 'Retrieve card', 'Give to cashier', 'Cashier swipes']","['Put items on cash wrap', 'Wait for approval']",Wait for approval,1
+0,0.0,[],"['Receive a bill that you will be paying for.', 'Announce you will be paying by credit card.']",Receive a bill that you will be paying for.,0
+1,0.2,['Receive a bill that you will be paying for.'],"['Receive a bill that you will be paying for.', 'Announce you will be paying by credit card.']",Announce you will be paying by credit card.,1
+2,0.4,"['Receive a bill that you will be paying for.', 'Announce you will be paying by credit card.']","['Sign the receipt if needed.', 'Swipe the card or allow the cashier to swipe.']",Swipe the card or allow the cashier to swipe.,1
+3,0.6,"['Receive a bill that you will be paying for.', 'Announce you will be paying by credit card.', 'Swipe the card or allow the cashier to swipe.']","['Receive a bill that you will be paying for.', 'Wait for the transaction to be authorized.']",Wait for the transaction to be authorized.,1
+4,0.8,"['Receive a bill that you will be paying for.', 'Announce you will be paying by credit card.', 'Swipe the card or allow the cashier to swipe.', 'Wait for the transaction to be authorized.']","['Sign the receipt if needed.', 'Receive a bill that you will be paying for.']",Sign the receipt if needed.,0
+0,0.0,[],"['The cashier tells you the cash amount required for purchase', 'The cashier tells you the cash amount required for purchase']",The cashier tells you the cash amount required for purchase,0
+1,0.2,['The cashier tells you the cash amount required for purchase'],"['Take out credit card from wallet', 'The cashier tells you the cash amount required for purchase']",Take out credit card from wallet,0
+2,0.4,"['The cashier tells you the cash amount required for purchase', 'Take out credit card from wallet']","['Slide credit card on electronic card reader', 'Take your purchase']",Slide credit card on electronic card reader,0
+3,0.6,"['The cashier tells you the cash amount required for purchase', 'Take out credit card from wallet', 'Slide credit card on electronic card reader']","['Sign the receipt', 'The cashier tells you the cash amount required for purchase']",Sign the receipt,0
+4,0.8,"['The cashier tells you the cash amount required for purchase', 'Take out credit card from wallet', 'Slide credit card on electronic card reader', 'Sign the receipt']","['Take your purchase', 'Take out credit card from wallet']",Take your purchase,0
+0,0.0,[],"['Hand purchases to clerk.', 'Wait in line.']",Wait in line.,1
+1,0.2,['Wait in line.'],"['Get total charge amount from clerk.', 'Hand purchases to clerk.']",Hand purchases to clerk.,1
+2,0.4,"['Wait in line.', 'Hand purchases to clerk.']","['Wait for clerk to scan purchases.', 'Slide credit card through card reader.']",Wait for clerk to scan purchases.,0
+3,0.6,"['Wait in line.', 'Hand purchases to clerk.', 'Wait for clerk to scan purchases.']","['Get total charge amount from clerk.', 'Wait in line.']",Get total charge amount from clerk.,0
+4,0.8,"['Wait in line.', 'Hand purchases to clerk.', 'Wait for clerk to scan purchases.', 'Get total charge amount from clerk.']","['Slide credit card through card reader.', 'Hand purchases to clerk.']",Slide credit card through card reader.,0
+0,0.0,[],"['Enter store', 'Go to cashier']",Enter store,0
+1,0.2,['Enter store'],"['Choose a product', 'Choose a product']",Choose a product,1
+2,0.4,"['Enter store', 'Choose a product']","['Enter your pin', 'Go to cashier']",Go to cashier,1
+3,0.6,"['Enter store', 'Choose a product', 'Go to cashier']","['Enter store', 'Give credit card']",Give credit card,1
+4,0.8,"['Enter store', 'Choose a product', 'Go to cashier', 'Give credit card']","['Enter store', 'Enter your pin']",Enter your pin,1
+0,0.0,[],"['decide what you are going to purchase', 'the cashier will run it']",decide what you are going to purchase,0
+1,0.2,['decide what you are going to purchase'],"['the cashier will run it', 'Tell the cashier you are paying by credit']",Tell the cashier you are paying by credit,1
+2,0.4,"['decide what you are going to purchase', 'Tell the cashier you are paying by credit']","['wait for approval', 'give the card to the cashier']",give the card to the cashier,1
+3,0.6,"['decide what you are going to purchase', 'Tell the cashier you are paying by credit', 'give the card to the cashier']","['the cashier will run it', 'decide what you are going to purchase']",the cashier will run it,0
+4,0.8,"['decide what you are going to purchase', 'Tell the cashier you are paying by credit', 'give the card to the cashier', 'the cashier will run it']","['decide what you are going to purchase', 'wait for approval']",wait for approval,1
+0,0.0,[],"['Swipe credit card in payment console', 'Bring purchases to cashier']",Bring purchases to cashier,1
+1,0.2,['Bring purchases to cashier'],"['Cashier scans purchases', 'Cashier scans purchases']",Cashier scans purchases,1
+2,0.4,"['Bring purchases to cashier', 'Cashier scans purchases']","['Swipe credit card in payment console', 'Get total from cashier']",Get total from cashier,1
+3,0.6,"['Bring purchases to cashier', 'Cashier scans purchases', 'Get total from cashier']","['Take credit card out of wallet', 'Bring purchases to cashier']",Take credit card out of wallet,0
+4,0.8,"['Bring purchases to cashier', 'Cashier scans purchases', 'Get total from cashier', 'Take credit card out of wallet']","['Bring purchases to cashier', 'Swipe credit card in payment console']",Swipe credit card in payment console,1
+0,0.0,[],"['Enter expiration date (if online)', 'Pull out credit card']",Pull out credit card,1
+1,0.2,['Pull out credit card'],"['Swipe card in machine', 'Enter csc (if online)']",Swipe card in machine,0
+2,0.4,"['Pull out credit card', 'Swipe card in machine']","['Enter csc (if online)', 'Or enter numbers online (if online purchase)']",Or enter numbers online (if online purchase),1
+3,0.6,"['Pull out credit card', 'Swipe card in machine', 'Or enter numbers online (if online purchase)']","['Pull out credit card', 'Enter expiration date (if online)']",Enter expiration date (if online),1
+4,0.8,"['Pull out credit card', 'Swipe card in machine', 'Or enter numbers online (if online purchase)', 'Enter expiration date (if online)']","['Enter csc (if online)', 'Swipe card in machine']",Enter csc (if online),0
+0,0.0,[],"['Look for cash register', 'Look for cash register']",Look for cash register,1
+1,0.2,['Look for cash register'],"['Place items in front of cashier', 'Place items in front of cashier']",Place items in front of cashier,1
+2,0.4,"['Look for cash register', 'Place items in front of cashier']","['Show cashier identification and credit card', 'Wait until cashier is finished ringing up items']",Wait until cashier is finished ringing up items,1
+3,0.6,"['Look for cash register', 'Place items in front of cashier', 'Wait until cashier is finished ringing up items']","['Swipe credit card', 'Look for cash register']",Swipe credit card,0
+4,0.8,"['Look for cash register', 'Place items in front of cashier', 'Wait until cashier is finished ringing up items', 'Swipe credit card']","['Show cashier identification and credit card', 'Look for cash register']",Show cashier identification and credit card,0
+0,0.0,[],"['Take the items you would like to purchase to the register.', 'Swipe your card in the machine.']",Take the items you would like to purchase to the register.,0
+1,0.2,['Take the items you would like to purchase to the register.'],"['After they ring up the items they will give you a total.', 'Swipe your card in the machine.']",After they ring up the items they will give you a total.,0
+2,0.4,"['Take the items you would like to purchase to the register.', 'After they ring up the items they will give you a total.']","['Select the credit option.', 'Let them know you would like to pay with a credit card.']",Let them know you would like to pay with a credit card.,1
+3,0.6,"['Take the items you would like to purchase to the register.', 'After they ring up the items they will give you a total.', 'Let them know you would like to pay with a credit card.']","['Take the items you would like to purchase to the register.', 'Swipe your card in the machine.']",Swipe your card in the machine.,1
+4,0.8,"['Take the items you would like to purchase to the register.', 'After they ring up the items they will give you a total.', 'Let them know you would like to pay with a credit card.', 'Swipe your card in the machine.']","['After they ring up the items they will give you a total.', 'Select the credit option.']",Select the credit option.,1
+0,0.0,[],"['take back credit card', 'wait for cashier to ring up purchases']",wait for cashier to ring up purchases,1
+1,0.2,['wait for cashier to ring up purchases'],"['sign credit slip', 'give credit card to cashier']",give credit card to cashier,1
+2,0.4,"['wait for cashier to ring up purchases', 'give credit card to cashier']","['take back credit card', 'if asked show ID to cashier']",if asked show ID to cashier,1
+3,0.6,"['wait for cashier to ring up purchases', 'give credit card to cashier', 'if asked show ID to cashier']","['sign credit slip', 'wait for cashier to ring up purchases']",sign credit slip,0
+4,0.8,"['wait for cashier to ring up purchases', 'give credit card to cashier', 'if asked show ID to cashier', 'sign credit slip']","['wait for cashier to ring up purchases', 'take back credit card']",take back credit card,1
+0,0.0,[],"['swipe the card', 'After the cashier rings up your items, pull your card out']","After the cashier rings up your items, pull your card out",1
+1,0.2,"['After the cashier rings up your items, pull your card out']","['tell the cashier it is credit', 'tell the cashier it is credit']",tell the cashier it is credit,1
+2,0.4,"['After the cashier rings up your items, pull your card out', 'tell the cashier it is credit']","['swipe the card', 'wait until the transaction is authorized']",swipe the card,0
+3,0.6,"['After the cashier rings up your items, pull your card out', 'tell the cashier it is credit', 'swipe the card']","['sign the signature pad to accept the transaction', 'After the cashier rings up your items, pull your card out']",sign the signature pad to accept the transaction,0
+4,0.8,"['After the cashier rings up your items, pull your card out', 'tell the cashier it is credit', 'swipe the card', 'sign the signature pad to accept the transaction']","['tell the cashier it is credit', 'wait until the transaction is authorized']",wait until the transaction is authorized,1
+0,0.0,[],"['Slide the credit card through the reader', 'Find items to purchase']",Find items to purchase,1
+1,0.2,['Find items to purchase'],"['Clerk tallies up the amount', 'Take item to sales clerk']",Take item to sales clerk,1
+2,0.4,"['Find items to purchase', 'Take item to sales clerk']","['Sign your name on the reader', 'Clerk tallies up the amount']",Clerk tallies up the amount,1
+3,0.6,"['Find items to purchase', 'Take item to sales clerk', 'Clerk tallies up the amount']","['Slide the credit card through the reader', 'Find items to purchase']",Slide the credit card through the reader,0
+4,0.8,"['Find items to purchase', 'Take item to sales clerk', 'Clerk tallies up the amount', 'Slide the credit card through the reader']","['Sign your name on the reader', 'Take item to sales clerk']",Sign your name on the reader,0
+0,0.0,[],"['Get my credit card.', 'Swipe the card.']",Get my credit card.,0
+1,0.2,['Get my credit card.'],"['Swipe the card.', 'Hand it to the cashier.']",Hand it to the cashier.,1
+2,0.4,"['Get my credit card.', 'Hand it to the cashier.']","['Type in some information.', 'Cashier checks my ID.']",Cashier checks my ID.,1
+3,0.6,"['Get my credit card.', 'Hand it to the cashier.', 'Cashier checks my ID.']","['Get my credit card.', 'Swipe the card.']",Swipe the card.,1
+4,0.8,"['Get my credit card.', 'Hand it to the cashier.', 'Cashier checks my ID.', 'Swipe the card.']","['Type in some information.', 'Get my credit card.']",Type in some information.,0
+0,0.0,[],"['enter credit or debit', 'Open wallet and select a credit card']",Open wallet and select a credit card,1
+1,0.2,['Open wallet and select a credit card'],"['Pull out credit card and swipe in POS machine', 'Enter PIN if asked']",Pull out credit card and swipe in POS machine,0
+2,0.4,"['Open wallet and select a credit card', 'Pull out credit card and swipe in POS machine']","['wait for approval', 'enter credit or debit']",enter credit or debit,1
+3,0.6,"['Open wallet and select a credit card', 'Pull out credit card and swipe in POS machine', 'enter credit or debit']","['Enter PIN if asked', 'Open wallet and select a credit card']",Enter PIN if asked,0
+4,0.8,"['Open wallet and select a credit card', 'Pull out credit card and swipe in POS machine', 'enter credit or debit', 'Enter PIN if asked']","['Open wallet and select a credit card', 'wait for approval']",wait for approval,1
+0,0.0,[],"['Wait for your receipt', 'Swipe credit card']",Swipe credit card,1
+1,0.2,['Swipe credit card'],"['Take customer copy of receipt', 'Accept the charges']",Accept the charges,1
+2,0.4,"['Swipe credit card', 'Accept the charges']","['Take customer copy of receipt', 'Wait for your receipt']",Wait for your receipt,1
+3,0.6,"['Swipe credit card', 'Accept the charges', 'Wait for your receipt']","['Swipe credit card', 'Sign receipt']",Sign receipt,1
+4,0.8,"['Swipe credit card', 'Accept the charges', 'Wait for your receipt', 'Sign receipt']","['Accept the charges', 'Take customer copy of receipt']",Take customer copy of receipt,1
+0,0.0,[],"['sign for payment', 'pull out wallet']",pull out wallet,1
+1,0.2,['pull out wallet'],"['pull out wallet', 'grab credit card']",grab credit card,1
+2,0.4,"['pull out wallet', 'grab credit card']","['swipe through machine', 'insert card in wallet']",swipe through machine,0
+3,0.6,"['pull out wallet', 'grab credit card', 'swipe through machine']","['sign for payment', 'pull out wallet']",sign for payment,0
+4,0.8,"['pull out wallet', 'grab credit card', 'swipe through machine', 'sign for payment']","['grab credit card', 'insert card in wallet']",insert card in wallet,1
+0,0.0,[],"['Open wallet', 'Swipe my card']",Open wallet,0
+1,0.2,['Open wallet'],"['Swipe my card', 'Pull credit card out']",Pull credit card out,1
+2,0.4,"['Open wallet', 'Pull credit card out']","['Swipe my card', 'Put card back in my wallet']",Swipe my card,0
+3,0.6,"['Open wallet', 'Pull credit card out', 'Swipe my card']","['Open wallet', 'Put in my pin number']",Put in my pin number,1
+4,0.8,"['Open wallet', 'Pull credit card out', 'Swipe my card', 'Put in my pin number']","['Pull credit card out', 'Put card back in my wallet']",Put card back in my wallet,1
+0,0.0,[],"['Decide what to purchase', 'Put my credit card back in my wallet']",Decide what to purchase,0
+1,0.2,['Decide what to purchase'],"['Get my wallet out', 'Get my wallet out']",Get my wallet out,1
+2,0.4,"['Decide what to purchase', 'Get my wallet out']","['Put my credit card back in my wallet', 'Take out my credit card']",Take out my credit card,1
+3,0.6,"['Decide what to purchase', 'Get my wallet out', 'Take out my credit card']","['Decide what to purchase', 'Swipe my credit card']",Swipe my credit card,1
+4,0.8,"['Decide what to purchase', 'Get my wallet out', 'Take out my credit card', 'Swipe my credit card']","['Put my credit card back in my wallet', 'Decide what to purchase']",Put my credit card back in my wallet,0
+0,0.0,[],"['enter card number', 'enter card number']",enter card number,1
+1,0.2,['enter card number'],"['enter name on card', 'enter card number']",enter name on card,0
+2,0.4,"['enter card number', 'enter name on card']","['enter exp date', 'confirm purchase']",enter exp date,0
+3,0.6,"['enter card number', 'enter name on card', 'enter exp date']","['enter card number', 'enter verification code on back of card']",enter verification code on back of card,1
+4,0.8,"['enter card number', 'enter name on card', 'enter exp date', 'enter verification code on back of card']","['confirm purchase', 'enter name on card']",confirm purchase,0
+0,0.0,[],"['Open wallet.', 'Open wallet.']",Open wallet.,0
+1,0.2,['Open wallet.'],"['Take out credit card.', 'Take out credit card.']",Take out credit card.,1
+2,0.4,"['Open wallet.', 'Take out credit card.']","['Wait for receipt to print.', 'Swipe credit card.']",Swipe credit card.,1
+3,0.6,"['Open wallet.', 'Take out credit card.', 'Swipe credit card.']","['Open wallet.', 'Hit accept button.']",Hit accept button.,1
+4,0.8,"['Open wallet.', 'Take out credit card.', 'Swipe credit card.', 'Hit accept button.']","['Open wallet.', 'Wait for receipt to print.']",Wait for receipt to print.,1
+0,0.0,[],"['Answer any question the machine asks.', 'Take card from wallet.']",Take card from wallet.,1
+1,0.2,['Take card from wallet.'],"['Swipe card in the machine.', 'Press enter to confirm purchase.']",Swipe card in the machine.,0
+2,0.4,"['Take card from wallet.', 'Swipe card in the machine.']","['Wait for recipt.', 'Answer any question the machine asks.']",Answer any question the machine asks.,1
+3,0.6,"['Take card from wallet.', 'Swipe card in the machine.', 'Answer any question the machine asks.']","['Press enter to confirm purchase.', 'Take card from wallet.']",Press enter to confirm purchase.,0
+4,0.8,"['Take card from wallet.', 'Swipe card in the machine.', 'Answer any question the machine asks.', 'Press enter to confirm purchase.']","['Take card from wallet.', 'Wait for recipt.']",Wait for recipt.,1
+0,0.0,[],"['swipe through the credit card machine', 'Go to where you are buying an item']",Go to where you are buying an item,1
+1,0.2,['Go to where you are buying an item'],"['wait for cashier to give you a receipt to sign', 'get your credit card out of wallet']",get your credit card out of wallet,1
+2,0.4,"['Go to where you are buying an item', 'get your credit card out of wallet']","['sign the credit card reciept', 'swipe through the credit card machine']",swipe through the credit card machine,1
+3,0.6,"['Go to where you are buying an item', 'get your credit card out of wallet', 'swipe through the credit card machine']","['Go to where you are buying an item', 'wait for cashier to give you a receipt to sign']",wait for cashier to give you a receipt to sign,1
+4,0.8,"['Go to where you are buying an item', 'get your credit card out of wallet', 'swipe through the credit card machine', 'wait for cashier to give you a receipt to sign']","['get your credit card out of wallet', 'sign the credit card reciept']",sign the credit card reciept,1
+0,0.0,[],"['take out your wallet', 'sign the receipt']",take out your wallet,0
+1,0.2,['take out your wallet'],"['find your card', 'find your card']",find your card,0
+2,0.4,"['take out your wallet', 'find your card']","['present or swipe your card', 'sign the receipt']",present or swipe your card,0
+3,0.6,"['take out your wallet', 'find your card', 'present or swipe your card']","['verify the total', 'take out your wallet']",verify the total,0
+4,0.8,"['take out your wallet', 'find your card', 'present or swipe your card', 'verify the total']","['sign the receipt', 'take out your wallet']",sign the receipt,0
+0,0.0,[],"['select items to buy', 'select items to buy']",select items to buy,1
+1,0.2,['select items to buy'],"['get in check out line', 'get in check out line']",get in check out line,0
+2,0.4,"['select items to buy', 'get in check out line']","['give items to cashier', 'sign for purchase']",give items to cashier,0
+3,0.6,"['select items to buy', 'get in check out line', 'give items to cashier']","['select items to buy', 'slide credit card into machine']",slide credit card into machine,1
+4,0.8,"['select items to buy', 'get in check out line', 'give items to cashier', 'slide credit card into machine']","['sign for purchase', 'get in check out line']",sign for purchase,0
+0,0.0,[],"['Order an item', 'Order an item']",Order an item,0
+1,0.2,['Order an item'],"['Pull out wallet', 'Insert the pin number']",Pull out wallet,0
+2,0.4,"['Order an item', 'Pull out wallet']","['Pull out credit card from wallet', 'Insert the pin number']",Pull out credit card from wallet,0
+3,0.6,"['Order an item', 'Pull out wallet', 'Pull out credit card from wallet']","['Order an item', 'Swipe on the credit card machine']",Swipe on the credit card machine,1
+4,0.8,"['Order an item', 'Pull out wallet', 'Pull out credit card from wallet', 'Swipe on the credit card machine']","['Pull out wallet', 'Insert the pin number']",Insert the pin number,1
+0,0.0,[],"['Purchase items', 'Purchase items']",Purchase items,1
+1,0.2,['Purchase items'],"['Swipe credit card at register', 'Walk to check out']",Walk to check out,1
+2,0.4,"['Purchase items', 'Walk to check out']","['Press appropriate buttons upon swipe', 'Get credit card out of wallet']",Get credit card out of wallet,1
+3,0.6,"['Purchase items', 'Walk to check out', 'Get credit card out of wallet']","['Purchase items', 'Swipe credit card at register']",Swipe credit card at register,1
+4,0.8,"['Purchase items', 'Walk to check out', 'Get credit card out of wallet', 'Swipe credit card at register']","['Press appropriate buttons upon swipe', 'Purchase items']",Press appropriate buttons upon swipe,0
+0,0.0,[],"['place order', 'place order']",place order,0
+1,0.2,['place order'],"['get items you paid for', 'give card info by slideing or entering it online']",give card info by slideing or entering it online,1
+2,0.4,"['place order', 'give card info by slideing or entering it online']","['take note of money spent', 'wait for payment to happen']",wait for payment to happen,1
+3,0.6,"['place order', 'give card info by slideing or entering it online', 'wait for payment to happen']","['get items you paid for', 'place order']",get items you paid for,0
+4,0.8,"['place order', 'give card info by slideing or entering it online', 'wait for payment to happen', 'get items you paid for']","['take note of money spent', 'place order']",take note of money spent,0
+0,0.0,[],"['stand in line at counter', 'get total of purchase']",stand in line at counter,0
+1,0.2,['stand in line at counter'],"['get out credit card.', 'hand over items to cashier']",hand over items to cashier,1
+2,0.4,"['stand in line at counter', 'hand over items to cashier']","['watch prices as she scans items', 'get out credit card.']",watch prices as she scans items,0
+3,0.6,"['stand in line at counter', 'hand over items to cashier', 'watch prices as she scans items']","['stand in line at counter', 'get total of purchase']",get total of purchase,1
+4,0.8,"['stand in line at counter', 'hand over items to cashier', 'watch prices as she scans items', 'get total of purchase']","['stand in line at counter', 'get out credit card.']",get out credit card.,1
+0,0.0,[],"['Receipt will print.', 'Go to checkout.']",Go to checkout.,1
+1,0.2,['Go to checkout.'],"['Person will tell you the amount you owe.', 'Person will slide it through their machine.']",Person will tell you the amount you owe.,0
+2,0.4,"['Go to checkout.', 'Person will tell you the amount you owe.']","['Hand them your credit card.', 'Receipt will print.']",Hand them your credit card.,0
+3,0.6,"['Go to checkout.', 'Person will tell you the amount you owe.', 'Hand them your credit card.']","['Person will slide it through their machine.', 'Go to checkout.']",Person will slide it through their machine.,0
+4,0.8,"['Go to checkout.', 'Person will tell you the amount you owe.', 'Hand them your credit card.', 'Person will slide it through their machine.']","['Person will tell you the amount you owe.', 'Receipt will print.']",Receipt will print.,1
+0,0.0,[],"['Take out credit card.', 'Take out credit card.']",Take out credit card.,1
+1,0.2,['Take out credit card.'],"['Take receipt.', 'Swipe card in machine.']",Swipe card in machine.,1
+2,0.4,"['Take out credit card.', 'Swipe card in machine.']","['Put card and receipt back in wallet.', 'Sign authorization.']",Sign authorization.,1
+3,0.6,"['Take out credit card.', 'Swipe card in machine.', 'Sign authorization.']","['Take out credit card.', 'Take receipt.']",Take receipt.,1
+4,0.8,"['Take out credit card.', 'Swipe card in machine.', 'Sign authorization.', 'Take receipt.']","['Put card and receipt back in wallet.', 'Take out credit card.']",Put card and receipt back in wallet.,0
+0,0.0,[],"['find item you want in store', 'take items home']",find item you want in store,0
+1,0.25,['find item you want in store'],"['bring item to counter', 'slide card in reader']",bring item to counter,0
+3,0.75,"['find item you want in store', 'bring item to counter', 'slide card in reader']","['find item you want in store', 'take items home']",take items home,1
+0,0.0,[],"['Hand card to clerk', 'Get out your card']",Get out your card,1
+1,0.2,['Get out your card'],"['sign receipt', 'Hand bill to clerk']",Hand bill to clerk,1
+2,0.4,"['Get out your card', 'Hand bill to clerk']","['Put away card', 'Hand card to clerk']",Hand card to clerk,1
+3,0.6,"['Get out your card', 'Hand bill to clerk', 'Hand card to clerk']","['Get out your card', 'sign receipt']",sign receipt,1
+4,0.8,"['Get out your card', 'Hand bill to clerk', 'Hand card to clerk', 'sign receipt']","['Get out your card', 'Put away card']",Put away card,1
+0,0.0,[],"['Get bill', 'Get bill']",Get bill,1
+1,0.2,['Get bill'],"['Hand over credit card', 'Hand over credit card']",Hand over credit card,1
+2,0.4,"['Get bill', 'Hand over credit card']","['Let cashier swipe credit card', 'Hand receipt to cashier']",Let cashier swipe credit card,0
+3,0.6,"['Get bill', 'Hand over credit card', 'Let cashier swipe credit card']","['When receipt printed sign it', 'Get bill']",When receipt printed sign it,0
+4,0.8,"['Get bill', 'Hand over credit card', 'Let cashier swipe credit card', 'When receipt printed sign it']","['Get bill', 'Hand receipt to cashier']",Hand receipt to cashier,1
+0,0.0,[],"['get receipt', 'make purchase']",make purchase,1
+1,0.2,['make purchase'],"['make purchase', 'swipe card']",swipe card,1
+2,0.4,"['make purchase', 'swipe card']","['leave store', 'sign screen']",sign screen,1
+3,0.6,"['make purchase', 'swipe card', 'sign screen']","['make purchase', 'get receipt']",get receipt,1
+4,0.8,"['make purchase', 'swipe card', 'sign screen', 'get receipt']","['swipe card', 'leave store']",leave store,1
+0,0.0,[],"['Swipe credit card in reader', 'Pull out wallet']",Pull out wallet,1
+1,0.2,['Pull out wallet'],"['Pull out wallet', 'Select credit card from wallet']",Select credit card from wallet,1
+2,0.4,"['Pull out wallet', 'Select credit card from wallet']","['Sign your name', 'Swipe credit card in reader']",Swipe credit card in reader,1
+3,0.6,"['Pull out wallet', 'Select credit card from wallet', 'Swipe credit card in reader']","['Accept the total amount', 'Pull out wallet']",Accept the total amount,0
+4,0.8,"['Pull out wallet', 'Select credit card from wallet', 'Swipe credit card in reader', 'Accept the total amount']","['Sign your name', 'Pull out wallet']",Sign your name,0
+0,0.0,[],"['Pick correct options on machine', 'Take wallet out of pocket']",Take wallet out of pocket,1
+1,0.2,['Take wallet out of pocket'],"['Take credit card out of wallet', 'Pick correct options on machine']",Take credit card out of wallet,0
+2,0.4,"['Take wallet out of pocket', 'Take credit card out of wallet']","['Slide card into machine', 'Sign your name']",Slide card into machine,0
+3,0.6,"['Take wallet out of pocket', 'Take credit card out of wallet', 'Slide card into machine']","['Take wallet out of pocket', 'Pick correct options on machine']",Pick correct options on machine,1
+4,0.8,"['Take wallet out of pocket', 'Take credit card out of wallet', 'Slide card into machine', 'Pick correct options on machine']","['Sign your name', 'Take wallet out of pocket']",Sign your name,0
+0,0.0,[],"['GET CREDIT CARD', 'WHEN PROMPTED, SIGN YOUR NAME']",GET CREDIT CARD,0
+1,0.2,['GET CREDIT CARD'],"['WHEN PROMPTED, SIGN YOUR NAME', 'SWIPE THROUGH THE MACHINE']",SWIPE THROUGH THE MACHINE,1
+2,0.4,"['GET CREDIT CARD', 'SWIPE THROUGH THE MACHINE']","['FOLLOW ON-SCREEN INSTRUCTIONS', 'WAIT FOR THE PAYMENT TO BE PROCESSED']",FOLLOW ON-SCREEN INSTRUCTIONS,0
+3,0.6,"['GET CREDIT CARD', 'SWIPE THROUGH THE MACHINE', 'FOLLOW ON-SCREEN INSTRUCTIONS']","['WHEN PROMPTED, SIGN YOUR NAME', 'GET CREDIT CARD']","WHEN PROMPTED, SIGN YOUR NAME",0
+4,0.8,"['GET CREDIT CARD', 'SWIPE THROUGH THE MACHINE', 'FOLLOW ON-SCREEN INSTRUCTIONS', 'WHEN PROMPTED, SIGN YOUR NAME']","['SWIPE THROUGH THE MACHINE', 'WAIT FOR THE PAYMENT TO BE PROCESSED']",WAIT FOR THE PAYMENT TO BE PROCESSED,1
+0,0.0,[],"['Ring up purchases with cashier', 'Swipe credit card']",Ring up purchases with cashier,0
+1,0.2,['Ring up purchases with cashier'],"['Ring up purchases with cashier', 'Bag items']",Bag items,1
+2,0.4,"['Ring up purchases with cashier', 'Bag items']","['Sign receipt', 'Swipe credit card']",Swipe credit card,1
+3,0.6,"['Ring up purchases with cashier', 'Bag items', 'Swipe credit card']","['Wait for cashier to approve transaction', 'Ring up purchases with cashier']",Wait for cashier to approve transaction,0
+4,0.8,"['Ring up purchases with cashier', 'Bag items', 'Swipe credit card', 'Wait for cashier to approve transaction']","['Sign receipt', 'Ring up purchases with cashier']",Sign receipt,0
+0,0.0,[],"['Check total', 'Check total']",Check total,1
+1,0.2,['Check total'],"['Grab wallet', 'Grab wallet']",Grab wallet,1
+2,0.4,"['Check total', 'Grab wallet']","['Find card', 'Sign on screen']",Find card,0
+3,0.6,"['Check total', 'Grab wallet', 'Find card']","['Swipe card', 'Check total']",Swipe card,0
+4,0.8,"['Check total', 'Grab wallet', 'Find card', 'Swipe card']","['Grab wallet', 'Sign on screen']",Sign on screen,1
+0,0.0,[],"['drive to store', 'take items to checkout isle']",drive to store,0
+1,0.2,['drive to store'],"['choose items you want to purchase', 'take items to checkout isle']",choose items you want to purchase,0
+2,0.4,"['drive to store', 'choose items you want to purchase']","['take items to checkout isle', 'answer questions as prompted by machine']",take items to checkout isle,0
+3,0.6,"['drive to store', 'choose items you want to purchase', 'take items to checkout isle']","['after total is told to you slide card on credit card machine', 'drive to store']",after total is told to you slide card on credit card machine,0
+4,0.8,"['drive to store', 'choose items you want to purchase', 'take items to checkout isle', 'after total is told to you slide card on credit card machine']","['answer questions as prompted by machine', 'choose items you want to purchase']",answer questions as prompted by machine,0
+0,0.0,[],"['Find card that corresponds to brand accepted by merchant', 'See what brands the merchant accepts']",See what brands the merchant accepts,1
+1,0.2,['See what brands the merchant accepts'],"['Reach into pocket', 'Find card that corresponds to brand accepted by merchant']",Reach into pocket,0
+2,0.4,"['See what brands the merchant accepts', 'Reach into pocket']","['Pull wallet out of pocket', 'Pull card out of wallet']",Pull wallet out of pocket,0
+3,0.6,"['See what brands the merchant accepts', 'Reach into pocket', 'Pull wallet out of pocket']","['See what brands the merchant accepts', 'Find card that corresponds to brand accepted by merchant']",Find card that corresponds to brand accepted by merchant,1
+4,0.8,"['See what brands the merchant accepts', 'Reach into pocket', 'Pull wallet out of pocket', 'Find card that corresponds to brand accepted by merchant']","['Pull card out of wallet', 'See what brands the merchant accepts']",Pull card out of wallet,0
+0,0.0,[],"['Present your credit card as form of payment.', 'Review your bill for accuracy.']",Review your bill for accuracy.,1
+1,0.2,['Review your bill for accuracy.'],"['Remove your credit card from your wallet.', 'Present your credit card as form of payment.']",Remove your credit card from your wallet.,0
+2,0.4,"['Review your bill for accuracy.', 'Remove your credit card from your wallet.']","['Sign your name on receipt.', 'Present your credit card as form of payment.']",Present your credit card as form of payment.,1
+3,0.6,"['Review your bill for accuracy.', 'Remove your credit card from your wallet.', 'Present your credit card as form of payment.']","['Review your bill for accuracy.', 'Review receipt for accuracy.']",Review receipt for accuracy.,1
+4,0.8,"['Review your bill for accuracy.', 'Remove your credit card from your wallet.', 'Present your credit card as form of payment.', 'Review receipt for accuracy.']","['Sign your name on receipt.', 'Review your bill for accuracy.']",Sign your name on receipt.,0
+0,0.0,[],"['You give her your credit card.', 'You get something to buy and walk to cashier.']",You get something to buy and walk to cashier.,1
+1,0.2,['You get something to buy and walk to cashier.'],"['You give her your credit card.', 'Cashier rings it up.']",Cashier rings it up.,1
+2,0.4,"['You get something to buy and walk to cashier.', 'Cashier rings it up.']","['You put it in your purse.', 'You give her your credit card.']",You give her your credit card.,1
+3,0.6,"['You get something to buy and walk to cashier.', 'Cashier rings it up.', 'You give her your credit card.']","['She slides it and hands it back to you.', 'You get something to buy and walk to cashier.']",She slides it and hands it back to you.,0
+4,0.8,"['You get something to buy and walk to cashier.', 'Cashier rings it up.', 'You give her your credit card.', 'She slides it and hands it back to you.']","['You put it in your purse.', 'Cashier rings it up.']",You put it in your purse.,0
+0,0.0,[],"['Slide it with the number facing upwards', 'Remove card from wallet']",Remove card from wallet,1
+1,0.2,['Remove card from wallet'],"['Slide it with the number facing upwards', 'Slide it with the number facing upwards']",Slide it with the number facing upwards,0
+2,0.4,"['Remove card from wallet', 'Slide it with the number facing upwards']","['Receive your receipt', ""Input your pin number but don't let anyone see you doing it""]",Input your pin number but don't let anyone see you doing it,1
+3,0.6,"['Remove card from wallet', 'Slide it with the number facing upwards', ""Input your pin number but don't let anyone see you doing it""]","['Sign your name using the stylus', 'Remove card from wallet']",Sign your name using the stylus,0
+4,0.8,"['Remove card from wallet', 'Slide it with the number facing upwards', ""Input your pin number but don't let anyone see you doing it"", 'Sign your name using the stylus']","['Remove card from wallet', 'Receive your receipt']",Receive your receipt,1
+0,0.0,[],"['tell the worker that you wish to pay with credit', 'Choose what you wish to purchase']",Choose what you wish to purchase,1
+1,0.2,['Choose what you wish to purchase'],"['take it to the register', 'take it to the register']",take it to the register,1
+2,0.4,"['Choose what you wish to purchase', 'take it to the register']","['tell the worker that you wish to pay with credit', 'enter your pin number']",tell the worker that you wish to pay with credit,0
+3,0.6,"['Choose what you wish to purchase', 'take it to the register', 'tell the worker that you wish to pay with credit']","['Choose what you wish to purchase', 'hand over your card or swipe it yourself']",hand over your card or swipe it yourself,1
+4,0.8,"['Choose what you wish to purchase', 'take it to the register', 'tell the worker that you wish to pay with credit', 'hand over your card or swipe it yourself']","['enter your pin number', 'take it to the register']",enter your pin number,0
+0,0.0,[],"['Pick out item', 'Take card out of wallet']",Pick out item,0
+1,0.2,['Pick out item'],"['Take card out of wallet', 'Confirm the total']",Take card out of wallet,0
+2,0.4,"['Pick out item', 'Take card out of wallet']","['Sign on the screen', 'Slide card through scanner']",Slide card through scanner,1
+3,0.6,"['Pick out item', 'Take card out of wallet', 'Slide card through scanner']","['Confirm the total', 'Pick out item']",Confirm the total,0
+4,0.8,"['Pick out item', 'Take card out of wallet', 'Slide card through scanner', 'Confirm the total']","['Pick out item', 'Sign on the screen']",Sign on the screen,1
+0,0.0,[],"['Go shopping.', 'Go to the checkout.']",Go shopping.,0
+1,0.2,['Go shopping.'],"['Pick out goods.', 'Go to the checkout.']",Pick out goods.,0
+2,0.4,"['Go shopping.', 'Pick out goods.']","['Checkout with credit.', 'Go to the checkout.']",Go to the checkout.,1
+3,0.6,"['Go shopping.', 'Pick out goods.', 'Go to the checkout.']","['Go shopping.', 'Pull out credit card.']",Pull out credit card.,1
+4,0.8,"['Go shopping.', 'Pick out goods.', 'Go to the checkout.', 'Pull out credit card.']","['Checkout with credit.', 'Go shopping.']",Checkout with credit.,0
+0,0.0,[],"['Bring items you want to buy to register', 'Bring items you want to buy to register']",Bring items you want to buy to register,1
+1,0.2,['Bring items you want to buy to register'],"['Wait for clerk to tell you total', 'Swipe in credit card machine']",Wait for clerk to tell you total,0
+2,0.4,"['Bring items you want to buy to register', 'Wait for clerk to tell you total']","['Sign your name on credit card machine or receipt', 'Pull out credit card']",Pull out credit card,1
+3,0.6,"['Bring items you want to buy to register', 'Wait for clerk to tell you total', 'Pull out credit card']","['Swipe in credit card machine', 'Bring items you want to buy to register']",Swipe in credit card machine,0
+4,0.8,"['Bring items you want to buy to register', 'Wait for clerk to tell you total', 'Pull out credit card', 'Swipe in credit card machine']","['Sign your name on credit card machine or receipt', 'Bring items you want to buy to register']",Sign your name on credit card machine or receipt,0
+0,0.0,[],"['Remove card from wallet/purse.', 'Remove card from wallet/purse.']",Remove card from wallet/purse.,1
+1,0.2,['Remove card from wallet/purse.'],"['Approve the total.', 'Swipe card in available scanner.']",Swipe card in available scanner.,1
+2,0.4,"['Remove card from wallet/purse.', 'Swipe card in available scanner.']","['Sign receipt.', 'Approve the total.']",Approve the total.,1
+3,0.6,"['Remove card from wallet/purse.', 'Swipe card in available scanner.', 'Approve the total.']","['Remove card from wallet/purse.', 'Hit okay.']",Hit okay.,1
+4,0.8,"['Remove card from wallet/purse.', 'Swipe card in available scanner.', 'Approve the total.', 'Hit okay.']","['Remove card from wallet/purse.', 'Sign receipt.']",Sign receipt.,1
+0,0.0,[],"['Select items to purchase.', 'Input credit card type (Visa, Mastercard, etc) if asked.']",Select items to purchase.,0
+1,0.2,['Select items to purchase.'],"['Input credit card type (Visa, Mastercard, etc) if asked.', 'When asked if you are paying with credit or debit, choose credit.']","When asked if you are paying with credit or debit, choose credit.",1
+2,0.4,"['Select items to purchase.', 'When asked if you are paying with credit or debit, choose credit.']","['Input credit card type (Visa, Mastercard, etc) if asked.', 'Keep receipt from purchase for record-keeping.']","Input credit card type (Visa, Mastercard, etc) if asked.",0
+3,0.6,"['Select items to purchase.', 'When asked if you are paying with credit or debit, choose credit.', 'Input credit card type (Visa, Mastercard, etc) if asked.']","['Enter PIN number if required.', 'Select items to purchase.']",Enter PIN number if required.,0
+4,0.8,"['Select items to purchase.', 'When asked if you are paying with credit or debit, choose credit.', 'Input credit card type (Visa, Mastercard, etc) if asked.', 'Enter PIN number if required.']","['Keep receipt from purchase for record-keeping.', 'When asked if you are paying with credit or debit, choose credit.']",Keep receipt from purchase for record-keeping.,0
+0,0.0,[],"['go to cashier with what you are buying', 'ask for receipt']",go to cashier with what you are buying,0
+1,0.2,['go to cashier with what you are buying'],"['get credit card out of wallet/purse', 'make sure it goes through']",get credit card out of wallet/purse,0
+2,0.4,"['go to cashier with what you are buying', 'get credit card out of wallet/purse']","['hand credit card to cashier', 'ask for receipt']",hand credit card to cashier,0
+3,0.6,"['go to cashier with what you are buying', 'get credit card out of wallet/purse', 'hand credit card to cashier']","['go to cashier with what you are buying', 'make sure it goes through']",make sure it goes through,1
+4,0.8,"['go to cashier with what you are buying', 'get credit card out of wallet/purse', 'hand credit card to cashier', 'make sure it goes through']","['ask for receipt', 'get credit card out of wallet/purse']",ask for receipt,0
+0,0.0,[],"['Cashier swipes the card', 'Get the bill']",Get the bill,1
+1,0.2,['Get the bill'],"['Cashier swipes the card', 'Check the bill amount']",Check the bill amount,1
+2,0.4,"['Get the bill', 'Check the bill amount']","['Cashier swipes the card', 'Take out credit card from the wallet']",Take out credit card from the wallet,1
+3,0.6,"['Get the bill', 'Check the bill amount', 'Take out credit card from the wallet']","['Get the bill', 'Give the credit card to the cashier']",Give the credit card to the cashier,1
+4,0.8,"['Get the bill', 'Check the bill amount', 'Take out credit card from the wallet', 'Give the credit card to the cashier']","['Check the bill amount', 'Cashier swipes the card']",Cashier swipes the card,1
+0,0.0,[],"['Cashier rings up all your items', 'Slide your card through credit card console']",Cashier rings up all your items,0
+1,0.2,['Cashier rings up all your items'],"['Give you a subtotal', 'Give you a subtotal']",Give you a subtotal,1
+2,0.4,"['Cashier rings up all your items', 'Give you a subtotal']","['Slide your card through credit card console', 'Sign your name']",Slide your card through credit card console,0
+3,0.6,"['Cashier rings up all your items', 'Give you a subtotal', 'Slide your card through credit card console']","['Cashier rings up all your items', 'Click yes that you accept the charges']",Click yes that you accept the charges,1
+4,0.8,"['Cashier rings up all your items', 'Give you a subtotal', 'Slide your card through credit card console', 'Click yes that you accept the charges']","['Give you a subtotal', 'Sign your name']",Sign your name,1
+0,0.0,[],"['Hand credit card to clerk/ server', 'Have item (s) or meal charged at establishment']",Have item (s) or meal charged at establishment,1
+1,0.2,['Have item (s) or meal charged at establishment'],"['Determine cost', 'Have item (s) or meal charged at establishment']",Determine cost,0
+2,0.4,"['Have item (s) or meal charged at establishment', 'Determine cost']","['Get credit card from wallet', 'Produce ID if requested']",Get credit card from wallet,0
+3,0.6,"['Have item (s) or meal charged at establishment', 'Determine cost', 'Get credit card from wallet']","['Hand credit card to clerk/ server', 'Have item (s) or meal charged at establishment']",Hand credit card to clerk/ server,0
+4,0.8,"['Have item (s) or meal charged at establishment', 'Determine cost', 'Get credit card from wallet', 'Hand credit card to clerk/ server']","['Determine cost', 'Produce ID if requested']",Produce ID if requested,1
+0,0.0,[],"['Take wallet out of pocket', 'Remove credit card']",Take wallet out of pocket,0
+1,0.2,['Take wallet out of pocket'],"['Open wallet', 'Open wallet']",Open wallet,0
+2,0.4,"['Take wallet out of pocket', 'Open wallet']","['Verify amount is correct', 'Remove credit card']",Remove credit card,1
+3,0.6,"['Take wallet out of pocket', 'Open wallet', 'Remove credit card']","['Take wallet out of pocket', 'Swipe credit card']",Swipe credit card,1
+4,0.8,"['Take wallet out of pocket', 'Open wallet', 'Remove credit card', 'Swipe credit card']","['Verify amount is correct', 'Open wallet']",Verify amount is correct,0
+0,0.0,[],"['Take items to the counter', 'Swipe the card']",Take items to the counter,0
+1,0.2,['Take items to the counter'],"['Swipe the card', 'Sign the receipt']",Swipe the card,0
+2,0.4,"['Take items to the counter', 'Swipe the card']","['Sign the receipt', 'Take copy of the receipt']",Sign the receipt,0
+3,0.6,"['Take items to the counter', 'Swipe the card', 'Sign the receipt']","['Take bagged items', 'Take items to the counter']",Take bagged items,0
+4,0.8,"['Take items to the counter', 'Swipe the card', 'Sign the receipt', 'Take bagged items']","['Take items to the counter', 'Take copy of the receipt']",Take copy of the receipt,1
+0,0.0,[],"['Enter your PIN', 'Present your card to make payment']",Present your card to make payment,1
+1,0.2,['Present your card to make payment'],"['Swipe your card through the card machine', 'Present your card to make payment']",Swipe your card through the card machine,0
+2,0.4,"['Present your card to make payment', 'Swipe your card through the card machine']","['Sign your receipt', 'Enter your PIN']",Enter your PIN,1
+3,0.6,"['Present your card to make payment', 'Swipe your card through the card machine', 'Enter your PIN']","['Confirm the payment', 'Present your card to make payment']",Confirm the payment,0
+4,0.8,"['Present your card to make payment', 'Swipe your card through the card machine', 'Enter your PIN', 'Confirm the payment']","['Swipe your card through the card machine', 'Sign your receipt']",Sign your receipt,1
+0,0.0,[],"['Walk to checkout', 'Put items on counter']",Walk to checkout,0
+1,0.2,['Walk to checkout'],"['Put items on counter', 'Put items on counter']",Put items on counter,0
+2,0.4,"['Walk to checkout', 'Put items on counter']","['Cashier rings up and bags items', 'Confirm it is the correct total']",Cashier rings up and bags items,0
+3,0.6,"['Walk to checkout', 'Put items on counter', 'Cashier rings up and bags items']","['Look at your total on the card machine', 'Walk to checkout']",Look at your total on the card machine,0
+4,0.8,"['Walk to checkout', 'Put items on counter', 'Cashier rings up and bags items', 'Look at your total on the card machine']","['Confirm it is the correct total', 'Put items on counter']",Confirm it is the correct total,0
+0,0.0,[],"['Run credit card through scanner', 'Ring up items']",Ring up items,1
+1,0.2,['Ring up items'],"['Wait for total amount', 'Wait for total amount']",Wait for total amount,1
+2,0.4,"['Ring up items', 'Wait for total amount']","['Wait for approval', 'Pull credit card from wallet']",Pull credit card from wallet,1
+3,0.6,"['Ring up items', 'Wait for total amount', 'Pull credit card from wallet']","['Run credit card through scanner', 'Ring up items']",Run credit card through scanner,0
+4,0.8,"['Ring up items', 'Wait for total amount', 'Pull credit card from wallet', 'Run credit card through scanner']","['Wait for approval', 'Ring up items']",Wait for approval,0
+0,0.0,[],"['Take credit card from wallet', 'Take credit card from wallet']",Take credit card from wallet,1
+1,0.2,['Take credit card from wallet'],"['Swipe the card in the card reader', 'When prompted, sign on card reader screen using finger as pen']",Swipe the card in the card reader,0
+2,0.4,"['Take credit card from wallet', 'Swipe the card in the card reader']","['Examine receipt for accuracy', 'When prompted, sign on card reader screen using finger as pen']","When prompted, sign on card reader screen using finger as pen",1
+3,0.6,"['Take credit card from wallet', 'Swipe the card in the card reader', 'When prompted, sign on card reader screen using finger as pen']","['Remove paper receipt from printer', 'Take credit card from wallet']",Remove paper receipt from printer,0
+4,0.8,"['Take credit card from wallet', 'Swipe the card in the card reader', 'When prompted, sign on card reader screen using finger as pen', 'Remove paper receipt from printer']","['Take credit card from wallet', 'Examine receipt for accuracy']",Examine receipt for accuracy,1
+0,0.0,[],"[""Select 'pay with credit' option"", 'Swipe credit card']",Select 'pay with credit' option,0
+1,0.2,"[""Select 'pay with credit' option""]","['Sign your signature', 'Take credit card out of wallet']",Take credit card out of wallet,1
+2,0.4,"[""Select 'pay with credit' option"", 'Take credit card out of wallet']","['Put credit card back in wallet', 'Swipe credit card']",Swipe credit card,1
+3,0.6,"[""Select 'pay with credit' option"", 'Take credit card out of wallet', 'Swipe credit card']","[""Select 'pay with credit' option"", 'Sign your signature']",Sign your signature,1
+4,0.8,"[""Select 'pay with credit' option"", 'Take credit card out of wallet', 'Swipe credit card', 'Sign your signature']","[""Select 'pay with credit' option"", 'Put credit card back in wallet']",Put credit card back in wallet,1
+0,0.0,[],"['Put password in', 'Get card out wallet']",Get card out wallet,1
+1,0.2,['Get card out wallet'],"['Get card out wallet', 'Swipe card on machine']",Swipe card on machine,1
+2,0.4,"['Get card out wallet', 'Swipe card on machine']","['Get receipt', 'Put password in']",Put password in,1
+3,0.6,"['Get card out wallet', 'Swipe card on machine', 'Put password in']","['Get card out wallet', 'Answer questions']",Answer questions,1
+4,0.8,"['Get card out wallet', 'Swipe card on machine', 'Put password in', 'Answer questions']","['Get card out wallet', 'Get receipt']",Get receipt,1
+0,0.0,[],"['Take items to register', 'Take items to register']",Take items to register,0
+1,0.2,['Take items to register'],"['Give credit card to cashier', 'Cashier rings up items']",Cashier rings up items,1
+2,0.4,"['Take items to register', 'Cashier rings up items']","['Give credit card to cashier', 'Cashier gives back card and receipt']",Give credit card to cashier,0
+3,0.6,"['Take items to register', 'Cashier rings up items', 'Give credit card to cashier']","['Take items to register', 'Cashier swipes card']",Cashier swipes card,1
+4,0.8,"['Take items to register', 'Cashier rings up items', 'Give credit card to cashier', 'Cashier swipes card']","['Cashier rings up items', 'Cashier gives back card and receipt']",Cashier gives back card and receipt,1
+0,0.0,[],"['wait for the clerk to do things', 'Take out the credit card']",Take out the credit card,1
+1,0.2,['Take out the credit card'],"['Swipe the card', 'Take out the credit card']",Swipe the card,0
+2,0.4,"['Take out the credit card', 'Swipe the card']","['take receipt', 'wait for the clerk to do things']",wait for the clerk to do things,1
+3,0.6,"['Take out the credit card', 'Swipe the card', 'wait for the clerk to do things']","['hit the ok button or sign', 'Take out the credit card']",hit the ok button or sign,0
+4,0.8,"['Take out the credit card', 'Swipe the card', 'wait for the clerk to do things', 'hit the ok button or sign']","['Take out the credit card', 'take receipt']",take receipt,1
+0,0.0,[],"['find item you would like to purchase', 'swipe credit card through machine']",find item you would like to purchase,0
+1,0.2,['find item you would like to purchase'],"['swipe credit card through machine', 'take item to the cash register']",take item to the cash register,1
+2,0.4,"['find item you would like to purchase', 'take item to the cash register']","['approve the total', 'wait for cashier to ring up item']",wait for cashier to ring up item,1
+3,0.6,"['find item you would like to purchase', 'take item to the cash register', 'wait for cashier to ring up item']","['swipe credit card through machine', 'find item you would like to purchase']",swipe credit card through machine,0
+4,0.8,"['find item you would like to purchase', 'take item to the cash register', 'wait for cashier to ring up item', 'swipe credit card through machine']","['approve the total', 'find item you would like to purchase']",approve the total,0
+0,0.0,[],"['Sign when prompted.', 'Find a service or product needed.']",Find a service or product needed.,1
+1,0.2,['Find a service or product needed.'],"['Swipe card at register.', 'Swipe card at register.']",Swipe card at register.,1
+2,0.4,"['Find a service or product needed.', 'Swipe card at register.']","['Sign when prompted.', 'Type in your pin number.']",Type in your pin number.,1
+3,0.6,"['Find a service or product needed.', 'Swipe card at register.', 'Type in your pin number.']","['Find a service or product needed.', 'Press enter.']",Press enter.,1
+4,0.8,"['Find a service or product needed.', 'Swipe card at register.', 'Type in your pin number.', 'Press enter.']","['Sign when prompted.', 'Swipe card at register.']",Sign when prompted.,0
+0,0.0,[],"['take item to register', 'check credit card balance']",check credit card balance,1
+1,0.2,['check credit card balance'],"['find something to buy', 'hand cashier card']",find something to buy,0
+2,0.4,"['check credit card balance', 'find something to buy']","['sign for purchase', 'take item to register']",take item to register,1
+3,0.6,"['check credit card balance', 'find something to buy', 'take item to register']","['hand cashier card', 'check credit card balance']",hand cashier card,0
+4,0.8,"['check credit card balance', 'find something to buy', 'take item to register', 'hand cashier card']","['sign for purchase', 'find something to buy']",sign for purchase,0
+0,0.0,[],"['Drive to store', 'Have your purchases bagged']",Drive to store,0
+1,0.2,['Drive to store'],"['Pay with credit card', 'Select goods and merchandise']",Select goods and merchandise,1
+2,0.4,"['Drive to store', 'Select goods and merchandise']","['Pay with credit card', 'Take your purchases to check-out']",Take your purchases to check-out,1
+3,0.6,"['Drive to store', 'Select goods and merchandise', 'Take your purchases to check-out']","['Have your purchases bagged', 'Drive to store']",Have your purchases bagged,0
+4,0.8,"['Drive to store', 'Select goods and merchandise', 'Take your purchases to check-out', 'Have your purchases bagged']","['Drive to store', 'Pay with credit card']",Pay with credit card,1
+0,0.0,[],"['Receive total for items', 'Enter point of sale area']",Enter point of sale area,1
+1,0.2,['Enter point of sale area'],"['Enter point of sale area', 'Receive total for items']",Receive total for items,1
+2,0.4,"['Enter point of sale area', 'Receive total for items']","['Sign for charges when prompted', 'Select the card to pay with']",Select the card to pay with,1
+3,0.6,"['Enter point of sale area', 'Receive total for items', 'Select the card to pay with']","['Enter point of sale area', 'Swipe or hand card over as required']",Swipe or hand card over as required,1
+4,0.8,"['Enter point of sale area', 'Receive total for items', 'Select the card to pay with', 'Swipe or hand card over as required']","['Enter point of sale area', 'Sign for charges when prompted']",Sign for charges when prompted,1
+0,0.0,[],"['Pull out your credit card', 'Pull out your credit card']",Pull out your credit card,1
+1,0.2,['Pull out your credit card'],"['Hand it to the cashier', 'Wait for the clerk to swipe it']",Hand it to the cashier,0
+2,0.4,"['Pull out your credit card', 'Hand it to the cashier']","['Wait for the clerk to swipe it', 'Get the card back from the cashier']",Wait for the clerk to swipe it,0
+3,0.6,"['Pull out your credit card', 'Hand it to the cashier', 'Wait for the clerk to swipe it']","['Sign the slip of paper', 'Pull out your credit card']",Sign the slip of paper,0
+4,0.8,"['Pull out your credit card', 'Hand it to the cashier', 'Wait for the clerk to swipe it', 'Sign the slip of paper']","['Hand it to the cashier', 'Get the card back from the cashier']",Get the card back from the cashier,1
+0,0.0,[],"['Take items to checkout counter', 'Get the total price']",Take items to checkout counter,0
+1,0.2,['Take items to checkout counter'],"['Take items to checkout counter', 'Have the worker ring them up']",Have the worker ring them up,1
+2,0.4,"['Take items to checkout counter', 'Have the worker ring them up']","['Swipe the credit card through the card reader', 'Get the total price']",Get the total price,1
+3,0.6,"['Take items to checkout counter', 'Have the worker ring them up', 'Get the total price']","['Take items to checkout counter', 'Get your credit card out of your wallet']",Get your credit card out of your wallet,1
+4,0.8,"['Take items to checkout counter', 'Have the worker ring them up', 'Get the total price', 'Get your credit card out of your wallet']","['Swipe the credit card through the card reader', 'Take items to checkout counter']",Swipe the credit card through the card reader,0
+0,0.0,[],"['Pick the product you wish to buy', 'Approach the cashier']",Pick the product you wish to buy,0
+1,0.2,['Pick the product you wish to buy'],"['Pick the product you wish to buy', 'Approach the cashier']",Approach the cashier,1
+2,0.4,"['Pick the product you wish to buy', 'Approach the cashier']","['Take out your wallet', 'Collect Receipt']",Take out your wallet,0
+3,0.6,"['Pick the product you wish to buy', 'Approach the cashier', 'Take out your wallet']","['Pick the product you wish to buy', 'Slide your credit card']",Slide your credit card,1
+4,0.8,"['Pick the product you wish to buy', 'Approach the cashier', 'Take out your wallet', 'Slide your credit card']","['Pick the product you wish to buy', 'Collect Receipt']",Collect Receipt,1
+0,0.0,[],"['Wait in line', 'Go to check out']",Go to check out,1
+1,0.2,['Go to check out'],"['Wait in line', 'Scan card on credit thingy']",Wait in line,0
+2,0.4,"['Go to check out', 'Wait in line']","['Get receipt', 'Watch cashier ring up stuff']",Watch cashier ring up stuff,1
+3,0.6,"['Go to check out', 'Wait in line', 'Watch cashier ring up stuff']","['Scan card on credit thingy', 'Go to check out']",Scan card on credit thingy,0
+4,0.8,"['Go to check out', 'Wait in line', 'Watch cashier ring up stuff', 'Scan card on credit thingy']","['Get receipt', 'Go to check out']",Get receipt,0
+0,0.0,[],"['Bring item up to buy', 'Wait for the cashier to say the total']",Bring item up to buy,0
+1,0.2,['Bring item up to buy'],"['Give item to cashier', 'Give item to cashier']",Give item to cashier,1
+2,0.4,"['Bring item up to buy', 'Give item to cashier']","['give it to the cashier', 'Wait for the cashier to say the total']",Wait for the cashier to say the total,1
+3,0.6,"['Bring item up to buy', 'Give item to cashier', 'Wait for the cashier to say the total']","['Bring item up to buy', 'Get credit card out of purse/wallet']",Get credit card out of purse/wallet,1
+4,0.8,"['Bring item up to buy', 'Give item to cashier', 'Wait for the cashier to say the total', 'Get credit card out of purse/wallet']","['give it to the cashier', 'Bring item up to buy']",give it to the cashier,0

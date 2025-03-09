@@ -1,0 +1,517 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Follow instructions', 'Entering car']",Entering car,1
+1,0.16666666666666666,['Entering car'],"['Turning car on', 'Putting on seatbelt']",Turning car on,0
+2,0.3333333333333333,"['Entering car', 'Turning car on']","['Follow instructions', 'Putting on seatbelt']",Putting on seatbelt,1
+3,0.5,"['Entering car', 'Turning car on', 'Putting on seatbelt']","['Entering car', ""Listening to instructor's instructions""]",Listening to instructor's instructions,1
+4,0.6666666666666666,"['Entering car', 'Turning car on', 'Putting on seatbelt', ""Listening to instructor's instructions""]","['Turning car on', 'Follow instructions']",Follow instructions,1
+5,0.8333333333333334,"['Entering car', 'Turning car on', 'Putting on seatbelt', ""Listening to instructor's instructions"", 'Follow instructions']","['Drive car', 'Turning car on']",Drive car,0
+0,0.0,[],"['Enter the car', 'Enter the car']",Enter the car,1
+1,0.16666666666666666,['Enter the car'],"['Put left foot on accelerator', 'listen and act as per instructions of instructor']",Put left foot on accelerator,0
+2,0.3333333333333333,"['Enter the car', 'Put left foot on accelerator']","['Put right foot on brake', 'Press clutch']",Put right foot on brake,0
+3,0.5,"['Enter the car', 'Put left foot on accelerator', 'Put right foot on brake']","['Start the car', 'Press clutch']",Start the car,0
+4,0.6666666666666666,"['Enter the car', 'Put left foot on accelerator', 'Put right foot on brake', 'Start the car']","['Enter the car', 'listen and act as per instructions of instructor']",listen and act as per instructions of instructor,1
+5,0.8333333333333334,"['Enter the car', 'Put left foot on accelerator', 'Put right foot on brake', 'Start the car', 'listen and act as per instructions of instructor']","['Press clutch', 'Put right foot on brake']",Press clutch,0
+0,0.0,[],"['Go to the driving course', 'Enroll in the class, sign up if necessary']",Go to the driving course,0
+1,0.16666666666666666,['Go to the driving course'],"['Enroll in the class, sign up if necessary', 'Begin driving course']","Enroll in the class, sign up if necessary",0
+2,0.3333333333333333,"['Go to the driving course', 'Enroll in the class, sign up if necessary']","['Take an classes', 'Enter your car']",Take an classes,0
+3,0.5,"['Go to the driving course', 'Enroll in the class, sign up if necessary', 'Take an classes']","['Begin driving course', 'Go to the driving course']",Begin driving course,0
+4,0.6666666666666666,"['Go to the driving course', 'Enroll in the class, sign up if necessary', 'Take an classes', 'Begin driving course']","['Enter your car', 'Go to the driving course']",Enter your car,0
+5,0.8333333333333334,"['Go to the driving course', 'Enroll in the class, sign up if necessary', 'Take an classes', 'Begin driving course', 'Enter your car']","['Take a driving course with the instructor', 'Take an classes']",Take a driving course with the instructor,0
+0,0.0,[],"['Hire a driving instructor.', 'Make sure it is safe to pull out.']",Hire a driving instructor.,0
+1,0.16666666666666666,['Hire a driving instructor.'],"['Wait for time of driving lesson.', 'Listen to instructors instructions.']",Wait for time of driving lesson.,0
+2,0.3333333333333333,"['Hire a driving instructor.', 'Wait for time of driving lesson.']","['Make sure it is safe to pull out.', 'Get in drivers seat of car.']",Get in drivers seat of car.,1
+3,0.5,"['Hire a driving instructor.', 'Wait for time of driving lesson.', 'Get in drivers seat of car.']","['Listen to instructors instructions.', 'Hire a driving instructor.']",Listen to instructors instructions.,0
+4,0.6666666666666666,"['Hire a driving instructor.', 'Wait for time of driving lesson.', 'Get in drivers seat of car.', 'Listen to instructors instructions.']","['Wait for time of driving lesson.', 'Make sure it is safe to pull out.']",Make sure it is safe to pull out.,1
+5,0.8333333333333334,"['Hire a driving instructor.', 'Wait for time of driving lesson.', 'Get in drivers seat of car.', 'Listen to instructors instructions.', 'Make sure it is safe to pull out.']","['Get in drivers seat of car.', 'Start driving.']",Start driving.,1
+0,0.0,[],"['Make appointment', 'Call a driver training place']",Call a driver training place,1
+1,0.2,['Call a driver training place'],"['Wait for the teacher to arrive', 'Sign up for lessons']",Sign up for lessons,1
+2,0.4,"['Call a driver training place', 'Sign up for lessons']","['Follow instructions', 'Make appointment']",Make appointment,1
+3,0.6,"['Call a driver training place', 'Sign up for lessons', 'Make appointment']","['Wait for the teacher to arrive', 'Call a driver training place']",Wait for the teacher to arrive,0
+4,0.8,"['Call a driver training place', 'Sign up for lessons', 'Make appointment', 'Wait for the teacher to arrive']","['Follow instructions', 'Call a driver training place']",Follow instructions,0
+0,0.0,[],"['Start the vehicle and drive under the guidance of the instructor', 'Visit a good driving school, register and pay the fee.']","Visit a good driving school, register and pay the fee.",1
+1,0.16666666666666666,"['Visit a good driving school, register and pay the fee.']","['Attend the primary theory class with all attention', 'Attend the primary theory class with all attention']",Attend the primary theory class with all attention,0
+2,0.3333333333333333,"['Visit a good driving school, register and pay the fee.', 'Attend the primary theory class with all attention']","['Reach the driving school in time for all the allotted days', 'Always be alert on the road and follow the instructions from the instructor']",Reach the driving school in time for all the allotted days,0
+3,0.5,"['Visit a good driving school, register and pay the fee.', 'Attend the primary theory class with all attention', 'Reach the driving school in time for all the allotted days']","['Always be alert on the road and follow the instructions from the instructor', 'Start the vehicle and drive under the guidance of the instructor']",Start the vehicle and drive under the guidance of the instructor,1
+4,0.6666666666666666,"['Visit a good driving school, register and pay the fee.', 'Attend the primary theory class with all attention', 'Reach the driving school in time for all the allotted days', 'Start the vehicle and drive under the guidance of the instructor']","['Attend the primary theory class with all attention', 'Drive along the less congested roads and by-lanes']",Drive along the less congested roads and by-lanes,1
+5,0.8333333333333334,"['Visit a good driving school, register and pay the fee.', 'Attend the primary theory class with all attention', 'Reach the driving school in time for all the allotted days', 'Start the vehicle and drive under the guidance of the instructor', 'Drive along the less congested roads and by-lanes']","['Reach the driving school in time for all the allotted days', 'Always be alert on the road and follow the instructions from the instructor']",Always be alert on the road and follow the instructions from the instructor,1
+0,0.0,[],"['Have your mom or someone drive to the instructor', 'put your seat belt on']",Have your mom or someone drive to the instructor,0
+1,0.16666666666666666,['Have your mom or someone drive to the instructor'],"['get out meet your instructor', 'put key in ingition']",get out meet your instructor,0
+2,0.3333333333333333,"['Have your mom or someone drive to the instructor', 'get out meet your instructor']","['turn over key', 'get in car']",get in car,1
+3,0.5,"['Have your mom or someone drive to the instructor', 'get out meet your instructor', 'get in car']","['turn over key', 'put your seat belt on']",put your seat belt on,1
+4,0.6666666666666666,"['Have your mom or someone drive to the instructor', 'get out meet your instructor', 'get in car', 'put your seat belt on']","['Have your mom or someone drive to the instructor', 'put key in ingition']",put key in ingition,1
+5,0.8333333333333334,"['Have your mom or someone drive to the instructor', 'get out meet your instructor', 'get in car', 'put your seat belt on', 'put key in ingition']","['get out meet your instructor', 'turn over key']",turn over key,1
+0,0.0,[],"['Go to driving school.', 'Go to driving school.']",Go to driving school.,0
+1,0.16666666666666666,['Go to driving school.'],"['Pay instructor fee.', 'Listen to instructor.']",Pay instructor fee.,0
+2,0.3333333333333333,"['Go to driving school.', 'Pay instructor fee.']","['Wait for your turn.', 'Follow his directions.']",Wait for your turn.,0
+3,0.5,"['Go to driving school.', 'Pay instructor fee.', 'Wait for your turn.']","['Go to driving school.', 'When called go to lesson car.']",When called go to lesson car.,1
+4,0.6666666666666666,"['Go to driving school.', 'Pay instructor fee.', 'Wait for your turn.', 'When called go to lesson car.']","['Listen to instructor.', 'Go to driving school.']",Listen to instructor.,0
+5,0.8333333333333334,"['Go to driving school.', 'Pay instructor fee.', 'Wait for your turn.', 'When called go to lesson car.', 'Listen to instructor.']","['Go to driving school.', 'Follow his directions.']",Follow his directions.,1
+0,0.0,[],"['Go to the driving school', 'Go to the driving school']",Go to the driving school,1
+1,0.16666666666666666,['Go to the driving school'],"['Put on the seat belt', 'Get in the car with the instructor']",Get in the car with the instructor,1
+2,0.3333333333333333,"['Go to the driving school', 'Get in the car with the instructor']","[""Follow the instructor's directions"", ""Sit in the driver's seat""]",Sit in the driver's seat,1
+3,0.5,"['Go to the driving school', 'Get in the car with the instructor', ""Sit in the driver's seat""]","['Drive until the lesson ends', 'Put on the seat belt']",Put on the seat belt,1
+4,0.6666666666666666,"['Go to the driving school', 'Get in the car with the instructor', ""Sit in the driver's seat"", 'Put on the seat belt']","['Go to the driving school', ""Follow the instructor's directions""]",Follow the instructor's directions,1
+5,0.8333333333333334,"['Go to the driving school', 'Get in the car with the instructor', ""Sit in the driver's seat"", 'Put on the seat belt', ""Follow the instructor's directions""]","[""Sit in the driver's seat"", 'Drive until the lesson ends']",Drive until the lesson ends,1
+0,0.0,[],"['Put the car in drive', 'Arrive at the driving school']",Arrive at the driving school,1
+1,0.16666666666666666,['Arrive at the driving school'],"['Greet the instructor', 'Greet the instructor']",Greet the instructor,0
+2,0.3333333333333333,"['Arrive at the driving school', 'Greet the instructor']","['Get on to the road', 'Get behind the wheel']",Get behind the wheel,1
+3,0.5,"['Arrive at the driving school', 'Greet the instructor', 'Get behind the wheel']","[""Follow the instructor's directions and instructions"", 'Put the car in drive']",Put the car in drive,1
+4,0.6666666666666666,"['Arrive at the driving school', 'Greet the instructor', 'Get behind the wheel', 'Put the car in drive']","['Greet the instructor', 'Get on to the road']",Get on to the road,1
+5,0.8333333333333334,"['Arrive at the driving school', 'Greet the instructor', 'Get behind the wheel', 'Put the car in drive', 'Get on to the road']","[""Follow the instructor's directions and instructions"", 'Greet the instructor']",Follow the instructor's directions and instructions,0
+0,0.0,[],"['Get into passenger seat', 'put on seatbelt']",Get into passenger seat,0
+1,0.16666666666666666,['Get into passenger seat'],"['Carefully put car into gear', 'Allow instructor to demonstrate what you will do.']",Allow instructor to demonstrate what you will do.,1
+2,0.3333333333333333,"['Get into passenger seat', 'Allow instructor to demonstrate what you will do.']","['Put hands on steering wheel', 'Get out of car and switch seats with instructor']",Get out of car and switch seats with instructor,1
+3,0.5,"['Get into passenger seat', 'Allow instructor to demonstrate what you will do.', 'Get out of car and switch seats with instructor']","['put on seatbelt', 'Put hands on steering wheel']",put on seatbelt,0
+4,0.6666666666666666,"['Get into passenger seat', 'Allow instructor to demonstrate what you will do.', 'Get out of car and switch seats with instructor', 'put on seatbelt']","['Allow instructor to demonstrate what you will do.', 'Carefully put car into gear']",Carefully put car into gear,1
+5,0.8333333333333334,"['Get into passenger seat', 'Allow instructor to demonstrate what you will do.', 'Get out of car and switch seats with instructor', 'put on seatbelt', 'Carefully put car into gear']","['Get into passenger seat', 'Put hands on steering wheel']",Put hands on steering wheel,1
+0,0.0,[],"['Get in the car', 'Check your surroundings']",Get in the car,0
+1,0.16666666666666666,['Get in the car'],"['Buckle up', 'Buckle up']",Buckle up,1
+2,0.3333333333333333,"['Get in the car', 'Buckle up']","['Check your surroundings', 'wait for instructor to tell you to start driving']",Check your surroundings,0
+3,0.5,"['Get in the car', 'Buckle up', 'Check your surroundings']","['check your mirrors', 'Get in the car']",check your mirrors,0
+4,0.6666666666666666,"['Get in the car', 'Buckle up', 'Check your surroundings', 'check your mirrors']","['Get in the car', 'wait for instructor to tell you to start driving']",wait for instructor to tell you to start driving,1
+5,0.8333333333333334,"['Get in the car', 'Buckle up', 'Check your surroundings', 'check your mirrors', 'wait for instructor to tell you to start driving']","['Get in the car', 'start driving and follow all instructions from instructor']",start driving and follow all instructions from instructor,1
+0,0.0,[],"['Find a Driving lesson company on google', 'Go to the appointment']",Find a Driving lesson company on google,0
+1,0.2,['Find a Driving lesson company on google'],"['Set up an appointment', 'Set up an appointment']",Set up an appointment,1
+2,0.4,"['Find a Driving lesson company on google', 'Set up an appointment']","['Go to the appointment', 'follow the rules']",Go to the appointment,0
+3,0.6,"['Find a Driving lesson company on google', 'Set up an appointment', 'Go to the appointment']","['Find a Driving lesson company on google', 'Listen to the instructor']",Listen to the instructor,1
+4,0.8,"['Find a Driving lesson company on google', 'Set up an appointment', 'Go to the appointment', 'Listen to the instructor']","['Set up an appointment', 'follow the rules']",follow the rules,1
+0,0.0,[],"['Get in car', 'Find a driving school']",Find a driving school,1
+1,0.16666666666666666,['Find a driving school'],"['Ask instructor for directions', 'Get in car']",Get in car,1
+2,0.3333333333333333,"['Find a driving school', 'Get in car']","['Ask instructor for directions', 'Check mirrors']",Ask instructor for directions,0
+3,0.5,"['Find a driving school', 'Get in car', 'Ask instructor for directions']","['Wear the seat belt', 'Find a driving school']",Wear the seat belt,0
+4,0.6666666666666666,"['Find a driving school', 'Get in car', 'Ask instructor for directions', 'Wear the seat belt']","['Get in car', 'Check mirrors']",Check mirrors,1
+5,0.8333333333333334,"['Find a driving school', 'Get in car', 'Ask instructor for directions', 'Wear the seat belt', 'Check mirrors']","['Adjust the seat', 'Get in car']",Adjust the seat,0
+0,0.0,[],"['Get in car', 'Call driving instructor']",Call driving instructor,1
+1,0.2,['Call driving instructor'],"['Make appointment', 'Call driving instructor']",Make appointment,0
+2,0.4,"['Call driving instructor', 'Make appointment']","['Do what instructor says', 'Wait for instructor']",Wait for instructor,1
+3,0.6,"['Call driving instructor', 'Make appointment', 'Wait for instructor']","['Get in car', 'Call driving instructor']",Get in car,0
+4,0.8,"['Call driving instructor', 'Make appointment', 'Wait for instructor', 'Get in car']","['Make appointment', 'Do what instructor says']",Do what instructor says,1
+0,0.0,[],"['Check all of the signals, lights, and other safety features on the car.', 'Find a friend or relative to teach you.']",Find a friend or relative to teach you.,1
+1,0.16666666666666666,['Find a friend or relative to teach you.'],"['Fasten your seatbelts.', 'Get into the car with your friend or relative.']",Get into the car with your friend or relative.,1
+2,0.3333333333333333,"['Find a friend or relative to teach you.', 'Get into the car with your friend or relative.']","['If the car is a manual transmission, press in the clutch and start the ignition.', 'Fasten your seatbelts.']",Fasten your seatbelts.,1
+3,0.5,"['Find a friend or relative to teach you.', 'Get into the car with your friend or relative.', 'Fasten your seatbelts.']","['Check all of the signals, lights, and other safety features on the car.', 'Find a friend or relative to teach you.']","Check all of the signals, lights, and other safety features on the car.",0
+4,0.6666666666666666,"['Find a friend or relative to teach you.', 'Get into the car with your friend or relative.', 'Fasten your seatbelts.', 'Check all of the signals, lights, and other safety features on the car.']","['Get into the car with your friend or relative.', 'If the car is a manual transmission, press in the clutch and start the ignition.']","If the car is a manual transmission, press in the clutch and start the ignition.",1
+5,0.8333333333333334,"['Find a friend or relative to teach you.', 'Get into the car with your friend or relative.', 'Fasten your seatbelts.', 'Check all of the signals, lights, and other safety features on the car.', 'If the car is a manual transmission, press in the clutch and start the ignition.']","['Fasten your seatbelts.', 'Release the parking brake if necessary.']",Release the parking brake if necessary.,1
+0,0.0,[],"['Drive around doing testers instructions', 'Get into car']",Get into car,1
+1,0.16666666666666666,['Get into car'],"['Get into car', 'Test what the instructor says']",Test what the instructor says,1
+2,0.3333333333333333,"['Get into car', 'Test what the instructor says']","['Turn off car', 'Turn on car']",Turn on car,1
+3,0.5,"['Get into car', 'Test what the instructor says', 'Turn on car']","['Get into car', 'Drive around doing testers instructions']",Drive around doing testers instructions,1
+4,0.6666666666666666,"['Get into car', 'Test what the instructor says', 'Turn on car', 'Drive around doing testers instructions']","['Go back to station', 'Test what the instructor says']",Go back to station,0
+5,0.8333333333333334,"['Get into car', 'Test what the instructor says', 'Turn on car', 'Drive around doing testers instructions', 'Go back to station']","['Turn off car', 'Get into car']",Turn off car,0
+0,0.0,[],"['Get a ride to driving school', 'Check your mirrors']",Get a ride to driving school,0
+1,0.16666666666666666,['Get a ride to driving school'],"['Put on your seatbelt', 'Talk to instructor']",Talk to instructor,1
+2,0.3333333333333333,"['Get a ride to driving school', 'Talk to instructor']","['Start the car', 'Get in car with instructor']",Get in car with instructor,1
+3,0.5,"['Get a ride to driving school', 'Talk to instructor', 'Get in car with instructor']","['Get a ride to driving school', 'Check your mirrors']",Check your mirrors,1
+4,0.6666666666666666,"['Get a ride to driving school', 'Talk to instructor', 'Get in car with instructor', 'Check your mirrors']","['Get a ride to driving school', 'Put on your seatbelt']",Put on your seatbelt,1
+5,0.8333333333333334,"['Get a ride to driving school', 'Talk to instructor', 'Get in car with instructor', 'Check your mirrors', 'Put on your seatbelt']","['Start the car', 'Talk to instructor']",Start the car,0
+0,0.0,[],"['Put key in ignition.', 'Get in car with driving instructor.']",Get in car with driving instructor.,1
+1,0.16666666666666666,['Get in car with driving instructor.'],"['Put on seatbelt.', 'Put on seatbelt.']",Put on seatbelt.,0
+2,0.3333333333333333,"['Get in car with driving instructor.', 'Put on seatbelt.']","['Put key in ignition.', 'Listen to instructors rules.']",Put key in ignition.,0
+3,0.5,"['Get in car with driving instructor.', 'Put on seatbelt.', 'Put key in ignition.']","['Carefully pull out of parking spot.', 'Get in car with driving instructor.']",Carefully pull out of parking spot.,0
+4,0.6666666666666666,"['Get in car with driving instructor.', 'Put on seatbelt.', 'Put key in ignition.', 'Carefully pull out of parking spot.']","['Carefully check mirrors for other cars.', 'Get in car with driving instructor.']",Carefully check mirrors for other cars.,0
+5,0.8333333333333334,"['Get in car with driving instructor.', 'Put on seatbelt.', 'Put key in ignition.', 'Carefully pull out of parking spot.', 'Carefully check mirrors for other cars.']","['Listen to instructors rules.', 'Get in car with driving instructor.']",Listen to instructors rules.,0
+0,0.0,[],"['make sure you are comfortable in the car', 'make an appointment']",make an appointment,1
+1,0.16666666666666666,['make an appointment'],"['make sure you have all the proper documents for your lesson', 'wait for your instructor']",make sure you have all the proper documents for your lesson,0
+2,0.3333333333333333,"['make an appointment', 'make sure you have all the proper documents for your lesson']","['make sure you are comfortable in the car', 'wait for your instructor']",wait for your instructor,1
+3,0.5,"['make an appointment', 'make sure you have all the proper documents for your lesson', 'wait for your instructor']","['when your instructor arrives introduce yourself', 'listen to what your instructor has to say']",when your instructor arrives introduce yourself,0
+4,0.6666666666666666,"['make an appointment', 'make sure you have all the proper documents for your lesson', 'wait for your instructor', 'when your instructor arrives introduce yourself']","['make sure you are comfortable in the car', 'make sure you have all the proper documents for your lesson']",make sure you are comfortable in the car,0
+5,0.8333333333333334,"['make an appointment', 'make sure you have all the proper documents for your lesson', 'wait for your instructor', 'when your instructor arrives introduce yourself', 'make sure you are comfortable in the car']","['listen to what your instructor has to say', 'wait for your instructor']",listen to what your instructor has to say,0
+0,0.0,[],"['Get a car', 'Get a car']",Get a car,1
+1,0.16666666666666666,['Get a car'],"['Meet with driving instructor', 'Have your trainer get in the car with you']",Have your trainer get in the car with you,1
+2,0.3333333333333333,"['Get a car', 'Have your trainer get in the car with you']","[""Follow the instructor's instructions"", 'Drive to the DMV']",Drive to the DMV,1
+3,0.5,"['Get a car', 'Have your trainer get in the car with you', 'Drive to the DMV']","['Meet with driving instructor', 'Drive safely and perform the tasks as requested']",Meet with driving instructor,0
+4,0.6666666666666666,"['Get a car', 'Have your trainer get in the car with you', 'Drive to the DMV', 'Meet with driving instructor']","[""Follow the instructor's instructions"", 'Have your trainer get in the car with you']",Follow the instructor's instructions,0
+5,0.8333333333333334,"['Get a car', 'Have your trainer get in the car with you', 'Drive to the DMV', 'Meet with driving instructor', ""Follow the instructor's instructions""]","['Drive to the DMV', 'Drive safely and perform the tasks as requested']",Drive safely and perform the tasks as requested,1
+0,0.0,[],"['Ask appropriate driver for guidance', 'check mirrors and adjust seat']",Ask appropriate driver for guidance,0
+1,0.16666666666666666,['Ask appropriate driver for guidance'],"['check mirrors and adjust seat', 'Get into vehicle']",Get into vehicle,1
+2,0.3333333333333333,"['Ask appropriate driver for guidance', 'Get into vehicle']","['everyone buckle up', 'turn on vehicle']",everyone buckle up,0
+3,0.5,"['Ask appropriate driver for guidance', 'Get into vehicle', 'everyone buckle up']","['check mirrors and adjust seat', 'Ask appropriate driver for guidance']",check mirrors and adjust seat,0
+4,0.6666666666666666,"['Ask appropriate driver for guidance', 'Get into vehicle', 'everyone buckle up', 'check mirrors and adjust seat']","['turn on vehicle', 'Get into vehicle']",turn on vehicle,0
+5,0.8333333333333334,"['Ask appropriate driver for guidance', 'Get into vehicle', 'everyone buckle up', 'check mirrors and adjust seat', 'turn on vehicle']","['put into correct gear', 'everyone buckle up']",put into correct gear,0
+0,0.0,[],"['Find keys.', 'Get dressed.']",Get dressed.,1
+1,0.16666666666666666,['Get dressed.'],"['Find keys.', 'Get in']",Find keys.,0
+2,0.3333333333333333,"['Get dressed.', 'Find keys.']","['Start car', 'Wait for driving instructor']",Wait for driving instructor,1
+3,0.5,"['Get dressed.', 'Find keys.', 'Wait for driving instructor']","['Go outside to car', 'Get dressed.']",Go outside to car,0
+4,0.6666666666666666,"['Get dressed.', 'Find keys.', 'Wait for driving instructor', 'Go outside to car']","['Get in', 'Find keys.']",Get in,0
+5,0.8333333333333334,"['Get dressed.', 'Find keys.', 'Wait for driving instructor', 'Go outside to car', 'Get in']","['Start car', 'Find keys.']",Start car,0
+0,0.0,[],"['arrive driving location', 'drive off']",arrive driving location,0
+1,0.16666666666666666,['arrive driving location'],"['drive off', 'go over routine safety checks']",go over routine safety checks,1
+2,0.3333333333333333,"['arrive driving location', 'go over routine safety checks']","['start car', 'arrive destination']",start car,0
+3,0.5,"['arrive driving location', 'go over routine safety checks', 'start car']","['drive off', 'return to base']",drive off,0
+4,0.6666666666666666,"['arrive driving location', 'go over routine safety checks', 'start car', 'drive off']","['arrive destination', 'arrive driving location']",arrive destination,0
+5,0.8333333333333334,"['arrive driving location', 'go over routine safety checks', 'start car', 'drive off', 'arrive destination']","['return to base', 'go over routine safety checks']",return to base,0
+0,0.0,[],"['Go to driving school', 'Pay for lesson']",Go to driving school,0
+1,0.16666666666666666,['Go to driving school'],"['Meet instructor', 'Sign up for lesson']",Sign up for lesson,1
+2,0.3333333333333333,"['Go to driving school', 'Sign up for lesson']","['Wait for lesson', 'Meet instructor']",Wait for lesson,0
+3,0.5,"['Go to driving school', 'Sign up for lesson', 'Wait for lesson']","['Pay for lesson', 'Go to driving school']",Pay for lesson,0
+4,0.6666666666666666,"['Go to driving school', 'Sign up for lesson', 'Wait for lesson', 'Pay for lesson']","['Go to driving school', 'Meet instructor']",Meet instructor,1
+5,0.8333333333333334,"['Go to driving school', 'Sign up for lesson', 'Wait for lesson', 'Pay for lesson', 'Meet instructor']","['Go to driving school', 'Get into car with instructor']",Get into car with instructor,1
+0,0.0,[],"['Enter car.', 'Put on seatbelt.']",Enter car.,0
+1,0.16666666666666666,['Enter car.'],"['Put on seatbelt.', 'Shift into drive or first gear.']",Put on seatbelt.,0
+2,0.3333333333333333,"['Enter car.', 'Put on seatbelt.']","['Press gas pedal.', 'Check and adjust mirrors.']",Check and adjust mirrors.,1
+3,0.5,"['Enter car.', 'Put on seatbelt.', 'Check and adjust mirrors.']","['Enter car.', 'Start car.']",Start car.,1
+4,0.6666666666666666,"['Enter car.', 'Put on seatbelt.', 'Check and adjust mirrors.', 'Start car.']","['Shift into drive or first gear.', 'Put on seatbelt.']",Shift into drive or first gear.,0
+5,0.8333333333333334,"['Enter car.', 'Put on seatbelt.', 'Check and adjust mirrors.', 'Start car.', 'Shift into drive or first gear.']","['Put on seatbelt.', 'Press gas pedal.']",Press gas pedal.,1
+0,0.0,[],"['Get in car', 'Get in car']",Get in car,1
+1,0.16666666666666666,['Get in car'],"['Follow instructions', 'Buckle seat belt']",Buckle seat belt,1
+2,0.3333333333333333,"['Get in car', 'Buckle seat belt']","['Follow instructions', 'Adjust mirrors']",Adjust mirrors,1
+3,0.5,"['Get in car', 'Buckle seat belt', 'Adjust mirrors']","['Wait for instructions', 'Get in car']",Wait for instructions,0
+4,0.6666666666666666,"['Get in car', 'Buckle seat belt', 'Adjust mirrors', 'Wait for instructions']","['Get in car', 'Follow instructions']",Follow instructions,1
+5,0.8333333333333334,"['Get in car', 'Buckle seat belt', 'Adjust mirrors', 'Wait for instructions', 'Follow instructions']","['Park car', 'Get in car']",Park car,0
+0,0.0,[],"['get in car', 'turn on car']",get in car,0
+1,0.16666666666666666,['get in car'],"['listen to instructor', 'turn on car']",listen to instructor,0
+2,0.3333333333333333,"['get in car', 'listen to instructor']","['turn on car', 'begin driving']",turn on car,0
+3,0.5,"['get in car', 'listen to instructor', 'turn on car']","['get in car', 'check mirrors, gauges']","check mirrors, gauges",1
+4,0.6666666666666666,"['get in car', 'listen to instructor', 'turn on car', 'check mirrors, gauges']","['listen to instructor', 'begin driving']",begin driving,1
+5,0.8333333333333334,"['get in car', 'listen to instructor', 'turn on car', 'check mirrors, gauges', 'begin driving']","['learn to accelerate', 'turn on car']",learn to accelerate,0
+0,0.0,[],"['Getting feedback from the instructor', 'Going to the driving school']",Going to the driving school,1
+1,0.16666666666666666,['Going to the driving school'],"['Getting in the car', 'Starting the car']",Getting in the car,0
+2,0.3333333333333333,"['Going to the driving school', 'Getting in the car']","['Getting feedback from the instructor', 'Listening to the driving instructor']",Listening to the driving instructor,1
+3,0.5,"['Going to the driving school', 'Getting in the car', 'Listening to the driving instructor']","['Starting the car', 'Getting feedback from the instructor']",Starting the car,0
+4,0.6666666666666666,"['Going to the driving school', 'Getting in the car', 'Listening to the driving instructor', 'Starting the car']","['Driving around town', 'Getting in the car']",Driving around town,0
+5,0.8333333333333334,"['Going to the driving school', 'Getting in the car', 'Listening to the driving instructor', 'Starting the car', 'Driving around town']","['Going to the driving school', 'Getting feedback from the instructor']",Getting feedback from the instructor,1
+0,0.0,[],"['enter car', 'meet driving teacher']",meet driving teacher,1
+1,0.2,['meet driving teacher'],"['drive around', 'follow what they say']",follow what they say,1
+2,0.4,"['meet driving teacher', 'follow what they say']","[""make sure you're safe"", 'enter car']",enter car,1
+3,0.6,"['meet driving teacher', 'follow what they say', 'enter car']","['meet driving teacher', 'drive around']",drive around,1
+4,0.8,"['meet driving teacher', 'follow what they say', 'enter car', 'drive around']","['meet driving teacher', ""make sure you're safe""]",make sure you're safe,1
+0,0.0,[],"['Get out', 'Get in the car']",Get in the car,1
+1,0.16666666666666666,['Get in the car'],"['Listen to instructions', 'Get in the car']",Listen to instructions,0
+2,0.3333333333333333,"['Get in the car', 'Listen to instructions']","['Drive around', 'Return the car']",Drive around,0
+3,0.5,"['Get in the car', 'Listen to instructions', 'Drive around']","['Get out', 'Follow road rules']",Follow road rules,1
+4,0.6666666666666666,"['Get in the car', 'Listen to instructions', 'Drive around', 'Follow road rules']","['Return the car', 'Listen to instructions']",Return the car,0
+5,0.8333333333333334,"['Get in the car', 'Listen to instructions', 'Drive around', 'Follow road rules', 'Return the car']","['Get out', 'Get in the car']",Get out,0
+0,0.0,[],"['Sit in drivers seat', 'Start car']",Sit in drivers seat,0
+1,0.2,['Sit in drivers seat'],"['Say hello to instructor', 'Start car']",Say hello to instructor,0
+2,0.4,"['Sit in drivers seat', 'Say hello to instructor']","['Start car', 'Drive as instructed']",Start car,0
+3,0.6,"['Sit in drivers seat', 'Say hello to instructor', 'Start car']","['Listen to instructor directions', 'Sit in drivers seat']",Listen to instructor directions,0
+4,0.8,"['Sit in drivers seat', 'Say hello to instructor', 'Start car', 'Listen to instructor directions']","['Drive as instructed', 'Say hello to instructor']",Drive as instructed,0
+0,0.0,[],"['Get in driver seat next to instructor', 'Get in driver seat next to instructor']",Get in driver seat next to instructor,0
+1,0.2,['Get in driver seat next to instructor'],"['Get in driver seat next to instructor', 'Turn car on when instructed']",Turn car on when instructed,1
+2,0.4,"['Get in driver seat next to instructor', 'Turn car on when instructed']","['Drive where instructor tells you to drive', 'Drive back home']",Drive where instructor tells you to drive,0
+3,0.6,"['Get in driver seat next to instructor', 'Turn car on when instructed', 'Drive where instructor tells you to drive']","['Get in driver seat next to instructor', 'Listen to instructor feedback']",Listen to instructor feedback,1
+4,0.8,"['Get in driver seat next to instructor', 'Turn car on when instructed', 'Drive where instructor tells you to drive', 'Listen to instructor feedback']","['Turn car on when instructed', 'Drive back home']",Drive back home,1
+0,0.0,[],"['get to lesson on time', 'get out of car when done']",get to lesson on time,0
+1,0.16666666666666666,['get to lesson on time'],"['get in car with teacher', 'get to lesson on time']",get in car with teacher,0
+2,0.3333333333333333,"['get to lesson on time', 'get in car with teacher']","[""follow teacher's word"", 'go home']",follow teacher's word,0
+3,0.5,"['get to lesson on time', 'get in car with teacher', ""follow teacher's word""]","['get to lesson on time', 'dont crash car']",dont crash car,1
+4,0.6666666666666666,"['get to lesson on time', 'get in car with teacher', ""follow teacher's word"", 'dont crash car']","['get out of car when done', 'get to lesson on time']",get out of car when done,0
+5,0.8333333333333334,"['get to lesson on time', 'get in car with teacher', ""follow teacher's word"", 'dont crash car', 'get out of car when done']","['go home', 'get in car with teacher']",go home,0
+0,0.0,[],"['Ask someone to drive with you', 'Head back home']",Ask someone to drive with you,0
+1,0.16666666666666666,['Ask someone to drive with you'],"['Get in car', 'Drive on the high way']",Get in car,0
+2,0.3333333333333333,"['Ask someone to drive with you', 'Get in car']","['Drive around in low populated areas', 'Head back home']",Drive around in low populated areas,0
+3,0.5,"['Ask someone to drive with you', 'Get in car', 'Drive around in low populated areas']","['Ask someone to drive with you', 'Drive on public roads']",Drive on public roads,1
+4,0.6666666666666666,"['Ask someone to drive with you', 'Get in car', 'Drive around in low populated areas', 'Drive on public roads']","['Drive on the high way', 'Ask someone to drive with you']",Drive on the high way,0
+5,0.8333333333333334,"['Ask someone to drive with you', 'Get in car', 'Drive around in low populated areas', 'Drive on public roads', 'Drive on the high way']","['Ask someone to drive with you', 'Head back home']",Head back home,1
+0,0.0,[],"['wait for instructions for driving instructor.', 'Get in car.']",Get in car.,1
+1,0.2,['Get in car.'],"['Turn on car.', 'Put on seat belt.']",Put on seat belt.,1
+2,0.4,"['Get in car.', 'Put on seat belt.']","['wait for instructions for driving instructor.', 'Check mirrors.']",Check mirrors.,1
+3,0.6,"['Get in car.', 'Put on seat belt.', 'Check mirrors.']","['Turn on car.', 'Get in car.']",Turn on car.,0
+4,0.8,"['Get in car.', 'Put on seat belt.', 'Check mirrors.', 'Turn on car.']","['Get in car.', 'wait for instructions for driving instructor.']",wait for instructions for driving instructor.,1
+0,0.0,[],"['Put key in ignition.', 'Get into car with instructor.']",Get into car with instructor.,1
+1,0.2,['Get into car with instructor.'],"['Put key in ignition.', 'Get into car with instructor.']",Put key in ignition.,0
+2,0.4,"['Get into car with instructor.', 'Put key in ignition.']","['Listen to instructor.', 'Drive the car.']",Listen to instructor.,0
+3,0.6,"['Get into car with instructor.', 'Put key in ignition.', 'Listen to instructor.']","['Get into car with instructor.', 'Follow the instructions.']",Follow the instructions.,1
+4,0.8,"['Get into car with instructor.', 'Put key in ignition.', 'Listen to instructor.', 'Follow the instructions.']","['Put key in ignition.', 'Drive the car.']",Drive the car.,1
+0,0.0,[],"['listen to the instructor for directions', 'insert key']",listen to the instructor for directions,0
+1,0.16666666666666666,['listen to the instructor for directions'],"['start engine', 'put on seatbelt']",put on seatbelt,1
+2,0.3333333333333333,"['listen to the instructor for directions', 'put on seatbelt']","['insert key', 'adjust mirrors if necessary']",insert key,0
+3,0.5,"['listen to the instructor for directions', 'put on seatbelt', 'insert key']","['start engine', 'listen to the instructor for directions']",start engine,0
+4,0.6666666666666666,"['listen to the instructor for directions', 'put on seatbelt', 'insert key', 'start engine']","['listen to the instructor for directions', 'adjust mirrors if necessary']",adjust mirrors if necessary,1
+5,0.8333333333333334,"['listen to the instructor for directions', 'put on seatbelt', 'insert key', 'start engine', 'adjust mirrors if necessary']","['put foot on the brake', 'insert key']",put foot on the brake,0
+0,0.0,[],"['GET IN CAR', 'TURN CAR ON']",GET IN CAR,0
+1,0.16666666666666666,['GET IN CAR'],"['TURN CAR ON', 'FOLLOW INSTRUCTIONS']",TURN CAR ON,0
+2,0.3333333333333333,"['GET IN CAR', 'TURN CAR ON']","['LISTEN TO INSTRUCTIONS FROM INSTRUCTOR', 'FOLLOW INSTRUCTIONS']",LISTEN TO INSTRUCTIONS FROM INSTRUCTOR,0
+3,0.5,"['GET IN CAR', 'TURN CAR ON', 'LISTEN TO INSTRUCTIONS FROM INSTRUCTOR']","['START DRIVING', 'PARK UP']",START DRIVING,0
+4,0.6666666666666666,"['GET IN CAR', 'TURN CAR ON', 'LISTEN TO INSTRUCTIONS FROM INSTRUCTOR', 'START DRIVING']","['TURN CAR ON', 'FOLLOW INSTRUCTIONS']",FOLLOW INSTRUCTIONS,1
+5,0.8333333333333334,"['GET IN CAR', 'TURN CAR ON', 'LISTEN TO INSTRUCTIONS FROM INSTRUCTOR', 'START DRIVING', 'FOLLOW INSTRUCTIONS']","['LISTEN TO INSTRUCTIONS FROM INSTRUCTOR', 'PARK UP']",PARK UP,1
+0,0.0,[],"['Get to the driving school', 'Follow his instructions and drive']",Get to the driving school,0
+1,0.2,['Get to the driving school'],"['Enter the car with the instructor', 'Follow his instructions and drive']",Enter the car with the instructor,0
+2,0.4,"['Get to the driving school', 'Enter the car with the instructor']","['Wear your seat-belt', 'Follow his instructions and drive']",Wear your seat-belt,0
+3,0.6,"['Get to the driving school', 'Enter the car with the instructor', 'Wear your seat-belt']","['Listen to the instructor carefully', 'Get to the driving school']",Listen to the instructor carefully,0
+4,0.8,"['Get to the driving school', 'Enter the car with the instructor', 'Wear your seat-belt', 'Listen to the instructor carefully']","['Follow his instructions and drive', 'Enter the car with the instructor']",Follow his instructions and drive,0
+0,0.0,[],"['pay attention to what other traffic does', 'meet the instructor']",meet the instructor,1
+1,0.16666666666666666,['meet the instructor'],"['get in the drivers seat of the car', 'drive carefully']",get in the drivers seat of the car,0
+2,0.3333333333333333,"['meet the instructor', 'get in the drivers seat of the car']","['take direction from the instructor', 'pay attention to what other traffic does']",take direction from the instructor,0
+3,0.5,"['meet the instructor', 'get in the drivers seat of the car', 'take direction from the instructor']","['drive carefully', 'return to starting point']",drive carefully,0
+4,0.6666666666666666,"['meet the instructor', 'get in the drivers seat of the car', 'take direction from the instructor', 'drive carefully']","['pay attention to what other traffic does', 'get in the drivers seat of the car']",pay attention to what other traffic does,0
+5,0.8333333333333334,"['meet the instructor', 'get in the drivers seat of the car', 'take direction from the instructor', 'drive carefully', 'pay attention to what other traffic does']","['meet the instructor', 'return to starting point']",return to starting point,1
+0,0.0,[],"[""Get into driver's side of the car you will be using."", ""Get into driver's side of the car you will be using.""]",Get into driver's side of the car you will be using.,1
+1,0.2,"[""Get into driver's side of the car you will be using.""]","['Have the instructor sit in the passenger side of the car.', 'Have the instructor sit in the passenger side of the car.']",Have the instructor sit in the passenger side of the car.,1
+2,0.4,"[""Get into driver's side of the car you will be using."", 'Have the instructor sit in the passenger side of the car.']","[""Follow the instructor's directions on where to drive and how to do certain techniques."", 'Schedule more lessons with instructor until you are ready to take your driving test.']",Follow the instructor's directions on where to drive and how to do certain techniques.,0
+3,0.6,"[""Get into driver's side of the car you will be using."", 'Have the instructor sit in the passenger side of the car.', ""Follow the instructor's directions on where to drive and how to do certain techniques.""]","[""Listen and learn from the instructor's evaluations of your driving."", ""Get into driver's side of the car you will be using.""]",Listen and learn from the instructor's evaluations of your driving.,0
+4,0.8,"[""Get into driver's side of the car you will be using."", 'Have the instructor sit in the passenger side of the car.', ""Follow the instructor's directions on where to drive and how to do certain techniques."", ""Listen and learn from the instructor's evaluations of your driving.""]","[""Get into driver's side of the car you will be using."", 'Schedule more lessons with instructor until you are ready to take your driving test.']",Schedule more lessons with instructor until you are ready to take your driving test.,1
+0,0.0,[],"['Step on the brake and put the car in drive', 'Get into your car']",Get into your car,1
+1,0.16666666666666666,['Get into your car'],"['Put on your seat belt', 'Step on the brake and put the car in drive']",Put on your seat belt,0
+2,0.3333333333333333,"['Get into your car', 'Put on your seat belt']","['Pull out of your spot and onto the ride while watching all directions', 'Put the key in the ignition and start the car']",Put the key in the ignition and start the car,1
+3,0.5,"['Get into your car', 'Put on your seat belt', 'Put the key in the ignition and start the car']","['Check your wipers and turn signals to make sure they work', 'Get into your car']",Check your wipers and turn signals to make sure they work,0
+4,0.6666666666666666,"['Get into your car', 'Put on your seat belt', 'Put the key in the ignition and start the car', 'Check your wipers and turn signals to make sure they work']","['Step on the brake and put the car in drive', 'Put on your seat belt']",Step on the brake and put the car in drive,0
+5,0.8333333333333334,"['Get into your car', 'Put on your seat belt', 'Put the key in the ignition and start the car', 'Check your wipers and turn signals to make sure they work', 'Step on the brake and put the car in drive']","['Put the key in the ignition and start the car', 'Pull out of your spot and onto the ride while watching all directions']",Pull out of your spot and onto the ride while watching all directions,1
+0,0.0,[],"['Get someone to instruct you', 'Study driving manual']",Study driving manual,1
+1,0.16666666666666666,['Study driving manual'],"['Get into car', 'Inspect vehicle to be driven']",Inspect vehicle to be driven,1
+2,0.3333333333333333,"['Study driving manual', 'Inspect vehicle to be driven']","['Get someone to instruct you', 'Get into car']",Get someone to instruct you,0
+3,0.5,"['Study driving manual', 'Inspect vehicle to be driven', 'Get someone to instruct you']","['Study driving manual', 'Find route to drive']",Find route to drive,1
+4,0.6666666666666666,"['Study driving manual', 'Inspect vehicle to be driven', 'Get someone to instruct you', 'Find route to drive']","['Get into car', 'Study driving manual']",Get into car,0
+5,0.8333333333333334,"['Study driving manual', 'Inspect vehicle to be driven', 'Get someone to instruct you', 'Find route to drive', 'Get into car']","['Operate car according to manual', 'Inspect vehicle to be driven']",Operate car according to manual,0
+0,0.0,[],"['Walk in DMV.', 'Start car.']",Walk in DMV.,0
+1,0.16666666666666666,['Walk in DMV.'],"['Walk to car with instructor.', 'Walk to car with instructor.']",Walk to car with instructor.,0
+2,0.3333333333333333,"['Walk in DMV.', 'Walk to car with instructor.']","['Get in car.', 'Adjust mirrors and seat.']",Get in car.,0
+3,0.5,"['Walk in DMV.', 'Walk to car with instructor.', 'Get in car.']","['Put seat belts on.', 'Walk in DMV.']",Put seat belts on.,0
+4,0.6666666666666666,"['Walk in DMV.', 'Walk to car with instructor.', 'Get in car.', 'Put seat belts on.']","['Walk to car with instructor.', 'Adjust mirrors and seat.']",Adjust mirrors and seat.,1
+5,0.8333333333333334,"['Walk in DMV.', 'Walk to car with instructor.', 'Get in car.', 'Put seat belts on.', 'Adjust mirrors and seat.']","['Walk in DMV.', 'Start car.']",Start car.,1
+0,0.0,[],"['Sign up for driving lessons', 'Stay calm and listening for duration of lesson']",Sign up for driving lessons,0
+1,0.16666666666666666,['Sign up for driving lessons'],"['Show up to appropriate place at designated time', 'Stay calm and listening for duration of lesson']",Show up to appropriate place at designated time,0
+2,0.3333333333333333,"['Sign up for driving lessons', 'Show up to appropriate place at designated time']","['Stay calm and listening for duration of lesson', 'Sit down in car']",Sit down in car,1
+3,0.5,"['Sign up for driving lessons', 'Show up to appropriate place at designated time', 'Sit down in car']","['Listen to directions of instructor', 'Sign up for driving lessons']",Listen to directions of instructor,0
+4,0.6666666666666666,"['Sign up for driving lessons', 'Show up to appropriate place at designated time', 'Sit down in car', 'Listen to directions of instructor']","['Sign up for driving lessons', 'Stay calm and listening for duration of lesson']",Stay calm and listening for duration of lesson,1
+5,0.8333333333333334,"['Sign up for driving lessons', 'Show up to appropriate place at designated time', 'Sit down in car', 'Listen to directions of instructor', 'Stay calm and listening for duration of lesson']","['Show up to appropriate place at designated time', 'Exit car']",Exit car,1
+0,0.0,[],"['Grab my license.', 'Listen to the instructor.']",Grab my license.,0
+1,0.2,['Grab my license.'],"['Listen to the instructor.', 'Get in the car.']",Get in the car.,1
+2,0.4,"['Grab my license.', 'Get in the car.']","['Listen to the instructor.', 'Drive where he tells me to go.']",Listen to the instructor.,0
+3,0.6,"['Grab my license.', 'Get in the car.', 'Listen to the instructor.']","['Start the car.', 'Grab my license.']",Start the car.,0
+4,0.8,"['Grab my license.', 'Get in the car.', 'Listen to the instructor.', 'Start the car.']","['Grab my license.', 'Drive where he tells me to go.']",Drive where he tells me to go.,1
+0,0.0,[],"['get into car', 'get into car']",get into car,1
+1,0.16666666666666666,['get into car'],"['buckle seat belt', 'wait for instructor to get into car']",wait for instructor to get into car,1
+2,0.3333333333333333,"['get into car', 'wait for instructor to get into car']","['turn on car', 'buckle seat belt']",buckle seat belt,1
+3,0.5,"['get into car', 'wait for instructor to get into car', 'buckle seat belt']","['wait for instructor to buckle seat belt', 'get into car']",wait for instructor to buckle seat belt,0
+4,0.6666666666666666,"['get into car', 'wait for instructor to get into car', 'buckle seat belt', 'wait for instructor to buckle seat belt']","['check to make sure everything is adjusted correctly', 'wait for instructor to get into car']",check to make sure everything is adjusted correctly,0
+5,0.8333333333333334,"['get into car', 'wait for instructor to get into car', 'buckle seat belt', 'wait for instructor to buckle seat belt', 'check to make sure everything is adjusted correctly']","['turn on car', 'buckle seat belt']",turn on car,0
+0,0.0,[],"['Register for a course', 'use the brake to stop']",Register for a course,0
+1,0.16666666666666666,['Register for a course'],"['Wait for instructor to come pick you up', 'Get into car']",Wait for instructor to come pick you up,0
+2,0.3333333333333333,"['Register for a course', 'Wait for instructor to come pick you up']","['Get into car', 'use the brake to stop']",Get into car,0
+3,0.5,"['Register for a course', 'Wait for instructor to come pick you up', 'Get into car']","['use the brake to stop', 'follow instructions laid forth by instructor']",follow instructions laid forth by instructor,1
+4,0.6666666666666666,"['Register for a course', 'Wait for instructor to come pick you up', 'Get into car', 'follow instructions laid forth by instructor']","['Register for a course', 'Use the gas to move forward']",Use the gas to move forward,1
+5,0.8333333333333334,"['Register for a course', 'Wait for instructor to come pick you up', 'Get into car', 'follow instructions laid forth by instructor', 'Use the gas to move forward']","['use the brake to stop', 'Wait for instructor to come pick you up']",use the brake to stop,0
+0,0.0,[],"['Arrive at the location of the driving lesson.', 'Return in the vehicle to the starting point.']",Arrive at the location of the driving lesson.,0
+1,0.16666666666666666,['Arrive at the location of the driving lesson.'],"['Pay for the lesson.', 'Drive carefully, while listening to the input of the lesson instructor.']",Pay for the lesson.,0
+2,0.3333333333333333,"['Arrive at the location of the driving lesson.', 'Pay for the lesson.']","['Return in the vehicle to the starting point.', 'Take a seat in the vehicle.']",Take a seat in the vehicle.,1
+3,0.5,"['Arrive at the location of the driving lesson.', 'Pay for the lesson.', 'Take a seat in the vehicle.']","['Buckle your safety belt.', 'Return in the vehicle to the starting point.']",Buckle your safety belt.,0
+4,0.6666666666666666,"['Arrive at the location of the driving lesson.', 'Pay for the lesson.', 'Take a seat in the vehicle.', 'Buckle your safety belt.']","['Drive carefully, while listening to the input of the lesson instructor.', 'Pay for the lesson.']","Drive carefully, while listening to the input of the lesson instructor.",0
+5,0.8333333333333334,"['Arrive at the location of the driving lesson.', 'Pay for the lesson.', 'Take a seat in the vehicle.', 'Buckle your safety belt.', 'Drive carefully, while listening to the input of the lesson instructor.']","['Take a seat in the vehicle.', 'Return in the vehicle to the starting point.']",Return in the vehicle to the starting point.,1
+0,0.0,[],"['hop on vehicle with assigned personal', 'go to local DMV']",go to local DMV,1
+1,0.16666666666666666,['go to local DMV'],"['wait in line', 'arrive back to where you started to drive']",wait in line,0
+2,0.3333333333333333,"['go to local DMV', 'wait in line']","['arrive back to where you started to drive', 'wait for driving lesson']",wait for driving lesson,1
+3,0.5,"['go to local DMV', 'wait in line', 'wait for driving lesson']","['hop on vehicle with assigned personal', 'go to local DMV']",hop on vehicle with assigned personal,0
+4,0.6666666666666666,"['go to local DMV', 'wait in line', 'wait for driving lesson', 'hop on vehicle with assigned personal']","['drive around where they tell you to go', 'go to local DMV']",drive around where they tell you to go,0
+5,0.8333333333333334,"['go to local DMV', 'wait in line', 'wait for driving lesson', 'hop on vehicle with assigned personal', 'drive around where they tell you to go']","['arrive back to where you started to drive', 'wait in line']",arrive back to where you started to drive,0
+0,0.0,[],"['Meet your Instructor', ""Take your learner's license""]",Take your learner's license,1
+1,0.16666666666666666,"[""Take your learner's license""]","['Go to the driving school', ""Sit in the driver's seat of the car""]",Go to the driving school,0
+2,0.3333333333333333,"[""Take your learner's license"", 'Go to the driving school']","['Meet your Instructor', 'Wait for instructions']",Meet your Instructor,0
+3,0.5,"[""Take your learner's license"", 'Go to the driving school', 'Meet your Instructor']","['Go to the car allotted to you', ""Take your learner's license""]",Go to the car allotted to you,0
+4,0.6666666666666666,"[""Take your learner's license"", 'Go to the driving school', 'Meet your Instructor', 'Go to the car allotted to you']","[""Sit in the driver's seat of the car"", ""Take your learner's license""]",Sit in the driver's seat of the car,0
+5,0.8333333333333334,"[""Take your learner's license"", 'Go to the driving school', 'Meet your Instructor', 'Go to the car allotted to you', ""Sit in the driver's seat of the car""]","['Wait for instructions', ""Take your learner's license""]",Wait for instructions,0
+0,0.0,[],"['get in the car', 'go to the driving school']",go to the driving school,1
+1,0.16666666666666666,['go to the driving school'],"['go to the driving school', 'enroll in driving lessons']",enroll in driving lessons,1
+2,0.3333333333333333,"['go to the driving school', 'enroll in driving lessons']","['learn to drive', 'talk to the driving instructor']",talk to the driving instructor,1
+3,0.5,"['go to the driving school', 'enroll in driving lessons', 'talk to the driving instructor']","['go to the driving school', 'get in the car']",get in the car,1
+4,0.6666666666666666,"['go to the driving school', 'enroll in driving lessons', 'talk to the driving instructor', 'get in the car']","['follow instructions given by instructor', 'go to the driving school']",follow instructions given by instructor,0
+5,0.8333333333333334,"['go to the driving school', 'enroll in driving lessons', 'talk to the driving instructor', 'get in the car', 'follow instructions given by instructor']","['talk to the driving instructor', 'learn to drive']",learn to drive,1
+0,0.0,[],"['Arrive at the lesson', 'Start car']",Arrive at the lesson,0
+1,0.16666666666666666,['Arrive at the lesson'],"['Get in car with instructor', 'Buckle seatbelt']",Get in car with instructor,0
+2,0.3333333333333333,"['Arrive at the lesson', 'Get in car with instructor']","['Buckle seatbelt', 'Follow instructions']",Buckle seatbelt,0
+3,0.5,"['Arrive at the lesson', 'Get in car with instructor', 'Buckle seatbelt']","['Start car', 'Arrive at the lesson']",Start car,0
+4,0.6666666666666666,"['Arrive at the lesson', 'Get in car with instructor', 'Buckle seatbelt', 'Start car']","['Follow instructions', 'Arrive at the lesson']",Follow instructions,0
+5,0.8333333333333334,"['Arrive at the lesson', 'Get in car with instructor', 'Buckle seatbelt', 'Start car', 'Follow instructions']","['Park car', 'Buckle seatbelt']",Park car,0
+0,0.0,[],"['Get in car with driving instructor', 'Make sure permit is in the car']",Make sure permit is in the car,1
+1,0.16666666666666666,['Make sure permit is in the car'],"['Insert key into ignition', 'Get in car with driving instructor']",Get in car with driving instructor,1
+2,0.3333333333333333,"['Make sure permit is in the car', 'Get in car with driving instructor']","['Start car', 'Familiarize oneself with all dials, levers , knobs, etc in car']","Familiarize oneself with all dials, levers , knobs, etc in car",1
+3,0.5,"['Make sure permit is in the car', 'Get in car with driving instructor', 'Familiarize oneself with all dials, levers , knobs, etc in car']","['Adjust seat and mirrors', 'Start car']",Adjust seat and mirrors,0
+4,0.6666666666666666,"['Make sure permit is in the car', 'Get in car with driving instructor', 'Familiarize oneself with all dials, levers , knobs, etc in car', 'Adjust seat and mirrors']","['Insert key into ignition', 'Make sure permit is in the car']",Insert key into ignition,0
+5,0.8333333333333334,"['Make sure permit is in the car', 'Get in car with driving instructor', 'Familiarize oneself with all dials, levers , knobs, etc in car', 'Adjust seat and mirrors', 'Insert key into ignition']","['Make sure permit is in the car', 'Start car']",Start car,1
+0,0.0,[],"['Start car', 'Meet driving instructor']",Meet driving instructor,1
+1,0.16666666666666666,['Meet driving instructor'],"['Get into driver seat', 'Follow directions of instructor']",Get into driver seat,0
+2,0.3333333333333333,"['Meet driving instructor', 'Get into driver seat']","['Follow directions of instructor', 'Wait for instructor to get into passenger seat']",Wait for instructor to get into passenger seat,1
+3,0.5,"['Meet driving instructor', 'Get into driver seat', 'Wait for instructor to get into passenger seat']","['Start car', 'Meet driving instructor']",Start car,0
+4,0.6666666666666666,"['Meet driving instructor', 'Get into driver seat', 'Wait for instructor to get into passenger seat', 'Start car']","['Follow directions of instructor', 'Get into driver seat']",Follow directions of instructor,0
+5,0.8333333333333334,"['Meet driving instructor', 'Get into driver seat', 'Wait for instructor to get into passenger seat', 'Start car', 'Follow directions of instructor']","['At the end of lesson, stop car', 'Wait for instructor to get into passenger seat']","At the end of lesson, stop car",0
+0,0.0,[],"['Arrive on time', 'Follow your instructors instructions']",Arrive on time,0
+1,0.16666666666666666,['Arrive on time'],"['Put your seat-belt on', 'Greet your instructor']",Greet your instructor,1
+2,0.3333333333333333,"['Arrive on time', 'Greet your instructor']","['Follow your instructors instructions', 'Get into the car']",Get into the car,1
+3,0.5,"['Arrive on time', 'Greet your instructor', 'Get into the car']","['Put your seat-belt on', 'Arrive on time']",Put your seat-belt on,0
+4,0.6666666666666666,"['Arrive on time', 'Greet your instructor', 'Get into the car', 'Put your seat-belt on']","['Observe all safety rules', 'Arrive on time']",Observe all safety rules,0
+5,0.8333333333333334,"['Arrive on time', 'Greet your instructor', 'Get into the car', 'Put your seat-belt on', 'Observe all safety rules']","['Follow your instructors instructions', 'Get into the car']",Follow your instructors instructions,0
+0,0.0,[],"['Start driving', 'Get driving permit']",Get driving permit,1
+1,0.16666666666666666,['Get driving permit'],"['Wait for driving teacher', 'Start driving']",Wait for driving teacher,0
+2,0.3333333333333333,"['Get driving permit', 'Wait for driving teacher']","['Listen to instructor', 'Get into car']",Get into car,1
+3,0.5,"['Get driving permit', 'Wait for driving teacher', 'Get into car']","['Wait for instructions', 'Listen to instructor']",Wait for instructions,0
+4,0.6666666666666666,"['Get driving permit', 'Wait for driving teacher', 'Get into car', 'Wait for instructions']","['Get driving permit', 'Start driving']",Start driving,1
+5,0.8333333333333334,"['Get driving permit', 'Wait for driving teacher', 'Get into car', 'Wait for instructions', 'Start driving']","['Get into car', 'Listen to instructor']",Listen to instructor,1
+0,0.0,[],"['Sign necessary paperwork', 'Find a licensed driver']",Find a licensed driver,1
+1,0.16666666666666666,['Find a licensed driver'],"['Borrow a car', 'Borrow a car']",Borrow a car,1
+2,0.3333333333333333,"['Find a licensed driver', 'Borrow a car']","['Put on seatbelt', 'Sign necessary paperwork']",Sign necessary paperwork,1
+3,0.5,"['Find a licensed driver', 'Borrow a car', 'Sign necessary paperwork']","['Wait for instructions', ""Get into driver's seat""]",Get into driver's seat,1
+4,0.6666666666666666,"['Find a licensed driver', 'Borrow a car', 'Sign necessary paperwork', ""Get into driver's seat""]","['Find a licensed driver', 'Put on seatbelt']",Put on seatbelt,1
+5,0.8333333333333334,"['Find a licensed driver', 'Borrow a car', 'Sign necessary paperwork', ""Get into driver's seat"", 'Put on seatbelt']","['Borrow a car', 'Wait for instructions']",Wait for instructions,1
+0,0.0,[],"['Get in car when driving instructor arrives', 'Schedule driving lesson']",Schedule driving lesson,1
+1,0.2,['Schedule driving lesson'],"['Prepare for driving lesson', 'Prepare for driving lesson']",Prepare for driving lesson,1
+2,0.4,"['Schedule driving lesson', 'Prepare for driving lesson']","['Get in car when driving instructor arrives', 'Return home after lesson']",Get in car when driving instructor arrives,0
+3,0.6,"['Schedule driving lesson', 'Prepare for driving lesson', 'Get in car when driving instructor arrives']","['Listen to driving instructor and drive', 'Schedule driving lesson']",Listen to driving instructor and drive,0
+4,0.8,"['Schedule driving lesson', 'Prepare for driving lesson', 'Get in car when driving instructor arrives', 'Listen to driving instructor and drive']","['Return home after lesson', 'Schedule driving lesson']",Return home after lesson,0
+0,0.0,[],"[""Get into driver's seat."", 'Place key in ignition.']",Get into driver's seat.,0
+1,0.16666666666666666,"[""Get into driver's seat.""]","['Fasten Seat belt.', 'Drive safely.']",Fasten Seat belt.,0
+2,0.3333333333333333,"[""Get into driver's seat."", 'Fasten Seat belt.']","['Place key in ignition.', 'Drive safely.']",Place key in ignition.,0
+3,0.5,"[""Get into driver's seat."", 'Fasten Seat belt.', 'Place key in ignition.']","['Follow instructions of instructor.', 'Receive feedback.']",Follow instructions of instructor.,0
+4,0.6666666666666666,"[""Get into driver's seat."", 'Fasten Seat belt.', 'Place key in ignition.', 'Follow instructions of instructor.']","['Drive safely.', ""Get into driver's seat.""]",Drive safely.,0
+5,0.8333333333333334,"[""Get into driver's seat."", 'Fasten Seat belt.', 'Place key in ignition.', 'Follow instructions of instructor.', 'Drive safely.']","['Receive feedback.', 'Fasten Seat belt.']",Receive feedback.,0
+0,0.0,[],"[""Sit in the driver's seat"", 'Wait for the instructor to occupy the passenger seat']",Sit in the driver's seat,0
+1,0.16666666666666666,"[""Sit in the driver's seat""]","['When instructed, start the car', 'Adjust the seat and mirrors to suit']",Adjust the seat and mirrors to suit,1
+2,0.3333333333333333,"[""Sit in the driver's seat"", 'Adjust the seat and mirrors to suit']","['Wait for the instructor to occupy the passenger seat', 'When instructed, start the car']",Wait for the instructor to occupy the passenger seat,0
+3,0.5,"[""Sit in the driver's seat"", 'Adjust the seat and mirrors to suit', 'Wait for the instructor to occupy the passenger seat']","['Fasten seat belt and wait for instructor to fasten his or hers.', ""Sit in the driver's seat""]",Fasten seat belt and wait for instructor to fasten his or hers.,0
+4,0.6666666666666666,"[""Sit in the driver's seat"", 'Adjust the seat and mirrors to suit', 'Wait for the instructor to occupy the passenger seat', 'Fasten seat belt and wait for instructor to fasten his or hers.']","['When instructed, start the car', ""Sit in the driver's seat""]","When instructed, start the car",0
+5,0.8333333333333334,"[""Sit in the driver's seat"", 'Adjust the seat and mirrors to suit', 'Wait for the instructor to occupy the passenger seat', 'Fasten seat belt and wait for instructor to fasten his or hers.', 'When instructed, start the car']","['Follow instructions', 'Wait for the instructor to occupy the passenger seat']",Follow instructions,0
+0,0.0,[],"['Put the car in drive', 'Get in car']",Get in car,1
+1,0.16666666666666666,['Get in car'],"['Put pressure on gas pedal', 'Start the car']",Start the car,1
+2,0.3333333333333333,"['Get in car', 'Start the car']","['Put the car in drive', 'Instructor gives feedback']",Put the car in drive,0
+3,0.5,"['Get in car', 'Start the car', 'Put the car in drive']","['Get in car', 'Instructor gives directions']",Instructor gives directions,1
+4,0.6666666666666666,"['Get in car', 'Start the car', 'Put the car in drive', 'Instructor gives directions']","['Put pressure on gas pedal', 'Start the car']",Put pressure on gas pedal,0
+5,0.8333333333333334,"['Get in car', 'Start the car', 'Put the car in drive', 'Instructor gives directions', 'Put pressure on gas pedal']","['Instructor gives feedback', 'Put the car in drive']",Instructor gives feedback,0
+0,0.0,[],"['Enter your car', 'Enter your car']",Enter your car,0
+1,0.16666666666666666,['Enter your car'],"['Visit drivng instructor', 'Drive safely']",Visit drivng instructor,0
+2,0.3333333333333333,"['Enter your car', 'Visit drivng instructor']","['Follow his directions', 'Drop off instructor']",Follow his directions,0
+3,0.5,"['Enter your car', 'Visit drivng instructor', 'Follow his directions']","['Drive safely', 'Drop off instructor']",Drive safely,0
+4,0.6666666666666666,"['Enter your car', 'Visit drivng instructor', 'Follow his directions', 'Drive safely']","['Enter your car', 'Reach your destination']",Reach your destination,1
+5,0.8333333333333334,"['Enter your car', 'Visit drivng instructor', 'Follow his directions', 'Drive safely', 'Reach your destination']","['Follow his directions', 'Drop off instructor']",Drop off instructor,1
+0,0.0,[],"['Sign up for lessons.', 'Get in the car.']",Sign up for lessons.,0
+1,0.16666666666666666,['Sign up for lessons.'],"['Start the car.', 'Go to lessons.']",Go to lessons.,1
+2,0.3333333333333333,"['Sign up for lessons.', 'Go to lessons.']","['Listen to the instructor.', 'Get in the car.']",Get in the car.,1
+3,0.5,"['Sign up for lessons.', 'Go to lessons.', 'Get in the car.']","['Start the car.', 'Listen to the instructor.']",Start the car.,0
+4,0.6666666666666666,"['Sign up for lessons.', 'Go to lessons.', 'Get in the car.', 'Start the car.']","['Check the mirrors.', 'Go to lessons.']",Check the mirrors.,0
+5,0.8333333333333334,"['Sign up for lessons.', 'Go to lessons.', 'Get in the car.', 'Start the car.', 'Check the mirrors.']","['Get in the car.', 'Listen to the instructor.']",Listen to the instructor.,1
+0,0.0,[],"['Buckle seatbelt', 'Study driving instructions']",Study driving instructions,1
+1,0.16666666666666666,['Study driving instructions'],"['Buckle seatbelt', 'Listen to driving instructor']",Buckle seatbelt,0
+2,0.3333333333333333,"['Study driving instructions', 'Buckle seatbelt']","['Unbuckle seatbelt', 'Start up the vehicle']",Start up the vehicle,1
+3,0.5,"['Study driving instructions', 'Buckle seatbelt', 'Start up the vehicle']","['Listen to driving instructor', 'Study driving instructions']",Listen to driving instructor,0
+4,0.6666666666666666,"['Study driving instructions', 'Buckle seatbelt', 'Start up the vehicle', 'Listen to driving instructor']","['Buckle seatbelt', 'Turn off the car']",Turn off the car,1
+5,0.8333333333333334,"['Study driving instructions', 'Buckle seatbelt', 'Start up the vehicle', 'Listen to driving instructor', 'Turn off the car']","['Study driving instructions', 'Unbuckle seatbelt']",Unbuckle seatbelt,1
+0,0.0,[],"['get in the car', 'find a good instructor']",find a good instructor,1
+1,0.16666666666666666,['find a good instructor'],"['get in the car', 'get in the car']",get in the car,0
+2,0.3333333333333333,"['find a good instructor', 'get in the car']","['fasten the seat belt', ""follow the instructor's directions""]",fasten the seat belt,0
+3,0.5,"['find a good instructor', 'get in the car', 'fasten the seat belt']","['start the car', 'be careful']",start the car,0
+4,0.6666666666666666,"['find a good instructor', 'get in the car', 'fasten the seat belt', 'start the car']","['find a good instructor', ""follow the instructor's directions""]",follow the instructor's directions,1
+5,0.8333333333333334,"['find a good instructor', 'get in the car', 'fasten the seat belt', 'start the car', ""follow the instructor's directions""]","['be careful', 'fasten the seat belt']",be careful,0
+0,0.0,[],"['Do everything the instructor says', 'Go to driving school']",Go to driving school,1
+1,0.16666666666666666,['Go to driving school'],"['Wait for your turn to drive', 'Pay attention to the road']",Wait for your turn to drive,0
+2,0.3333333333333333,"['Go to driving school', 'Wait for your turn to drive']","['Pay attention to the road', 'Get in the car']",Get in the car,1
+3,0.5,"['Go to driving school', 'Wait for your turn to drive', 'Get in the car']","['Go to driving school', 'Do everything the instructor says']",Do everything the instructor says,1
+4,0.6666666666666666,"['Go to driving school', 'Wait for your turn to drive', 'Get in the car', 'Do everything the instructor says']","['Pay attention to the road', 'Go to driving school']",Pay attention to the road,0
+5,0.8333333333333334,"['Go to driving school', 'Wait for your turn to drive', 'Get in the car', 'Do everything the instructor says', 'Pay attention to the road']","['Get in the car', 'Drive the speed limit']",Drive the speed limit,1
+0,0.0,[],"['Pay for your lesson', 'Go to the place that gives driving instructions']",Go to the place that gives driving instructions,1
+1,0.16666666666666666,['Go to the place that gives driving instructions'],"['Get into the car', 'Get into the car']",Get into the car,0
+2,0.3333333333333333,"['Go to the place that gives driving instructions', 'Get into the car']","['Wait for the instructor to get into the car', 'Pay for your lesson']",Wait for the instructor to get into the car,0
+3,0.5,"['Go to the place that gives driving instructions', 'Get into the car', 'Wait for the instructor to get into the car']","['Follow the instructors directions for driving', 'Go to the place that gives driving instructions']",Follow the instructors directions for driving,0
+4,0.6666666666666666,"['Go to the place that gives driving instructions', 'Get into the car', 'Wait for the instructor to get into the car', 'Follow the instructors directions for driving']","['Go to the place that gives driving instructions', 'Practice whatever they have you practice']",Practice whatever they have you practice,1
+5,0.8333333333333334,"['Go to the place that gives driving instructions', 'Get into the car', 'Wait for the instructor to get into the car', 'Follow the instructors directions for driving', 'Practice whatever they have you practice']","['Wait for the instructor to get into the car', 'Pay for your lesson']",Pay for your lesson,1
+0,0.0,[],"['Meeting my teacher', 'Arriving at the school']",Arriving at the school,1
+1,0.16666666666666666,['Arriving at the school'],"['Going inside', 'Signing up']",Going inside,0
+2,0.3333333333333333,"['Arriving at the school', 'Going inside']","['Signing up', 'Learning to drive']",Signing up,0
+3,0.5,"['Arriving at the school', 'Going inside', 'Signing up']","['Meeting my teacher', 'Arriving at the school']",Meeting my teacher,0
+4,0.6666666666666666,"['Arriving at the school', 'Going inside', 'Signing up', 'Meeting my teacher']","['Getting in the car', 'Going inside']",Getting in the car,0
+5,0.8333333333333334,"['Arriving at the school', 'Going inside', 'Signing up', 'Meeting my teacher', 'Getting in the car']","['Signing up', 'Learning to drive']",Learning to drive,1
+0,0.0,[],"['Get in drivers seat.', 'Get in drivers seat.']",Get in drivers seat.,0
+1,0.16666666666666666,['Get in drivers seat.'],"['Put in key.', 'Listen to passenger tell you what to do.']",Put in key.,0
+2,0.3333333333333333,"['Get in drivers seat.', 'Put in key.']","['Turn key.', 'Make sure all seat belts are on.']",Turn key.,0
+3,0.5,"['Get in drivers seat.', 'Put in key.', 'Turn key.']","['Get in drivers seat.', 'Wait for other person to get in passenger seat.']",Wait for other person to get in passenger seat.,1
+4,0.6666666666666666,"['Get in drivers seat.', 'Put in key.', 'Turn key.', 'Wait for other person to get in passenger seat.']","['Make sure all seat belts are on.', 'Get in drivers seat.']",Make sure all seat belts are on.,0
+5,0.8333333333333334,"['Get in drivers seat.', 'Put in key.', 'Turn key.', 'Wait for other person to get in passenger seat.', 'Make sure all seat belts are on.']","['Get in drivers seat.', 'Listen to passenger tell you what to do.']",Listen to passenger tell you what to do.,1
+0,0.0,[],"['Check to ensure you can see correctly in mirrors.', 'Go to car.']",Go to car.,1
+1,0.16666666666666666,['Go to car.'],"['Start car.', ""Get in driver's seat.""]",Get in driver's seat.,1
+2,0.3333333333333333,"['Go to car.', ""Get in driver's seat.""]","['Start car.', 'Buckle seatbelt.']",Buckle seatbelt.,1
+3,0.5,"['Go to car.', ""Get in driver's seat."", 'Buckle seatbelt.']","['Go to car.', 'Check to ensure you can see correctly in mirrors.']",Check to ensure you can see correctly in mirrors.,1
+4,0.6666666666666666,"['Go to car.', ""Get in driver's seat."", 'Buckle seatbelt.', 'Check to ensure you can see correctly in mirrors.']","[""Get in driver's seat."", 'Check to ensure seat is the proper distance from the controls.']",Check to ensure seat is the proper distance from the controls.,1
+5,0.8333333333333334,"['Go to car.', ""Get in driver's seat."", 'Buckle seatbelt.', 'Check to ensure you can see correctly in mirrors.', 'Check to ensure seat is the proper distance from the controls.']","['Start car.', 'Go to car.']",Start car.,0
+0,0.0,[],"['Get in the car with driver', 'Find a driving school']",Find a driving school,1
+1,0.16666666666666666,['Find a driving school'],"['Call them and schedule an appointment', 'Listen to everything he says']",Call them and schedule an appointment,0
+2,0.3333333333333333,"['Find a driving school', 'Call them and schedule an appointment']","['Get in the car with driver', ""Drive until you're done learning""]",Get in the car with driver,0
+3,0.5,"['Find a driving school', 'Call them and schedule an appointment', 'Get in the car with driver']","['Listen to everything he says', 'Find a driving school']",Listen to everything he says,0
+4,0.6666666666666666,"['Find a driving school', 'Call them and schedule an appointment', 'Get in the car with driver', 'Listen to everything he says']","['Find a driving school', ""Don't get excited""]",Don't get excited,1
+5,0.8333333333333334,"['Find a driving school', 'Call them and schedule an appointment', 'Get in the car with driver', 'Listen to everything he says', ""Don't get excited""]","[""Drive until you're done learning"", 'Find a driving school']",Drive until you're done learning,0
+0,0.0,[],"['Walk into company that I am taking lesson with', 'Walk into company that I am taking lesson with']",Walk into company that I am taking lesson with,0
+1,0.16666666666666666,['Walk into company that I am taking lesson with'],"['Talk to person at desk', 'Talk to person at desk']",Talk to person at desk,0
+2,0.3333333333333333,"['Walk into company that I am taking lesson with', 'Talk to person at desk']","['Show instructor I know the basics of the car', 'Show identification']",Show identification,1
+3,0.5,"['Walk into company that I am taking lesson with', 'Talk to person at desk', 'Show identification']","['Turn on and off lights', 'Start the driving lesson']",Start the driving lesson,1
+4,0.6666666666666666,"['Walk into company that I am taking lesson with', 'Talk to person at desk', 'Show identification', 'Start the driving lesson']","['Show instructor I know the basics of the car', 'Walk into company that I am taking lesson with']",Show instructor I know the basics of the car,0
+5,0.8333333333333334,"['Walk into company that I am taking lesson with', 'Talk to person at desk', 'Show identification', 'Start the driving lesson', 'Show instructor I know the basics of the car']","['Show identification', 'Turn on and off lights']",Turn on and off lights,1
+0,0.0,[],"['Open the car door', 'Allow instructor to sit in the passenger seat']",Open the car door,0
+1,0.2,['Open the car door'],"['Open the car door', ""Sit in the driver's seat""]",Sit in the driver's seat,1
+2,0.4,"['Open the car door', ""Sit in the driver's seat""]","['Take advice and directions from the instructor.', 'Allow instructor to sit in the passenger seat']",Allow instructor to sit in the passenger seat,1
+3,0.6,"['Open the car door', ""Sit in the driver's seat"", 'Allow instructor to sit in the passenger seat']","['Open the car door', 'Begin driving the car']",Begin driving the car,1
+4,0.8,"['Open the car door', ""Sit in the driver's seat"", 'Allow instructor to sit in the passenger seat', 'Begin driving the car']","['Take advice and directions from the instructor.', ""Sit in the driver's seat""]",Take advice and directions from the instructor.,0
+0,0.0,[],"['find a location for the driving lesson', 'sign up for the lesson']",find a location for the driving lesson,0
+1,0.16666666666666666,['find a location for the driving lesson'],"['sign up for the lesson', 'sign up for the lesson']",sign up for the lesson,0
+2,0.3333333333333333,"['find a location for the driving lesson', 'sign up for the lesson']","['get transportation to the lesson', 'get in car']",get transportation to the lesson,0
+3,0.5,"['find a location for the driving lesson', 'sign up for the lesson', 'get transportation to the lesson']","['follow instructors instructions', 'check in with the instructor']",check in with the instructor,1
+4,0.6666666666666666,"['find a location for the driving lesson', 'sign up for the lesson', 'get transportation to the lesson', 'check in with the instructor']","['sign up for the lesson', 'get in car']",get in car,1
+5,0.8333333333333334,"['find a location for the driving lesson', 'sign up for the lesson', 'get transportation to the lesson', 'check in with the instructor', 'get in car']","['find a location for the driving lesson', 'follow instructors instructions']",follow instructors instructions,1
+0,0.0,[],"['Contact the driving school and make an appointment.', 'Do some research online to find a driving school.']",Do some research online to find a driving school.,1
+1,0.2,['Do some research online to find a driving school.'],"['Return to the origin location and make your payment.', 'Contact the driving school and make an appointment.']",Contact the driving school and make an appointment.,1
+2,0.4,"['Do some research online to find a driving school.', 'Contact the driving school and make an appointment.']","['Bring the vehicle you are going to use for the lesson to the appropriate place.', 'Return to the origin location and make your payment.']",Bring the vehicle you are going to use for the lesson to the appropriate place.,0
+3,0.6,"['Do some research online to find a driving school.', 'Contact the driving school and make an appointment.', 'Bring the vehicle you are going to use for the lesson to the appropriate place.']","['Do some research online to find a driving school.', ""Drive according to the teacher's instructions.""]",Drive according to the teacher's instructions.,1
+4,0.8,"['Do some research online to find a driving school.', 'Contact the driving school and make an appointment.', 'Bring the vehicle you are going to use for the lesson to the appropriate place.', ""Drive according to the teacher's instructions.""]","['Do some research online to find a driving school.', 'Return to the origin location and make your payment.']",Return to the origin location and make your payment.,1
+0,0.0,[],"['Arrive at appointment with instructor', 'Arrive at appointment with instructor']",Arrive at appointment with instructor,1
+1,0.16666666666666666,['Arrive at appointment with instructor'],"['Get into passenger seat', 'Get into passenger seat']",Get into passenger seat,1
+2,0.3333333333333333,"['Arrive at appointment with instructor', 'Get into passenger seat']","[""Follow instructor's instructions for driving lesson"", 'Learn']",Follow instructor's instructions for driving lesson,0
+3,0.5,"['Arrive at appointment with instructor', 'Get into passenger seat', ""Follow instructor's instructions for driving lesson""]","['Drive carefully', 'Leave driving lesson']",Drive carefully,0
+4,0.6666666666666666,"['Arrive at appointment with instructor', 'Get into passenger seat', ""Follow instructor's instructions for driving lesson"", 'Drive carefully']","['Learn', 'Arrive at appointment with instructor']",Learn,0
+5,0.8333333333333334,"['Arrive at appointment with instructor', 'Get into passenger seat', ""Follow instructor's instructions for driving lesson"", 'Drive carefully', 'Learn']","['Get into passenger seat', 'Leave driving lesson']",Leave driving lesson,1
+0,0.0,[],"['Pay money to the school', 'Go to driving school']",Go to driving school,1
+1,0.2,['Go to driving school'],"['Pay money to the school', 'Take the driving lesson']",Pay money to the school,0
+2,0.4,"['Go to driving school', 'Pay money to the school']","['Get in car with instructor', 'Get out of the car']",Get in car with instructor,0
+3,0.6,"['Go to driving school', 'Pay money to the school', 'Get in car with instructor']","['Take the driving lesson', 'Go to driving school']",Take the driving lesson,0
+4,0.8,"['Go to driving school', 'Pay money to the school', 'Get in car with instructor', 'Take the driving lesson']","['Get out of the car', 'Pay money to the school']",Get out of the car,0
+0,0.0,[],"['Get a ride to the lesson', 'Enter the car']",Get a ride to the lesson,0
+1,0.16666666666666666,['Get a ride to the lesson'],"['Get a ride to the lesson', 'Enter the driving school']",Enter the driving school,1
+2,0.3333333333333333,"['Get a ride to the lesson', 'Enter the driving school']","['Drive correctly', 'Say hello to the instructor']",Say hello to the instructor,1
+3,0.5,"['Get a ride to the lesson', 'Enter the driving school', 'Say hello to the instructor']","['Get a ride to the lesson', 'Enter the car']",Enter the car,1
+4,0.6666666666666666,"['Get a ride to the lesson', 'Enter the driving school', 'Say hello to the instructor', 'Enter the car']","['Drive correctly', 'Enter the driving school']",Drive correctly,0
+5,0.8333333333333334,"['Get a ride to the lesson', 'Enter the driving school', 'Say hello to the instructor', 'Enter the car', 'Drive correctly']","['Get a ride to the lesson', 'Learn from the instructor']",Learn from the instructor,1
+0,0.0,[],"['make an appointment with a driving lesson teacher', 'put on seat belt']",make an appointment with a driving lesson teacher,0
+1,0.16666666666666666,['make an appointment with a driving lesson teacher'],"['exit the vehicle', 'get into vehicle with the teacher']",get into vehicle with the teacher,1
+2,0.3333333333333333,"['make an appointment with a driving lesson teacher', 'get into vehicle with the teacher']","['put on seat belt', 'exit the vehicle']",put on seat belt,0
+3,0.5,"['make an appointment with a driving lesson teacher', 'get into vehicle with the teacher', 'put on seat belt']","['exit the vehicle', 'start driving lesson for certain amount of time']",start driving lesson for certain amount of time,1
+4,0.6666666666666666,"['make an appointment with a driving lesson teacher', 'get into vehicle with the teacher', 'put on seat belt', 'start driving lesson for certain amount of time']","['pay the teacher for the lesson', 'make an appointment with a driving lesson teacher']",pay the teacher for the lesson,0
+5,0.8333333333333334,"['make an appointment with a driving lesson teacher', 'get into vehicle with the teacher', 'put on seat belt', 'start driving lesson for certain amount of time', 'pay the teacher for the lesson']","['exit the vehicle', 'make an appointment with a driving lesson teacher']",exit the vehicle,0
+0,0.0,[],"['Put on your seatbelt.', 'Get in the car.']",Get in the car.,1
+1,0.16666666666666666,['Get in the car.'],"['Adjust your seat according to your need.', 'Put on your seatbelt.']",Put on your seatbelt.,1
+2,0.3333333333333333,"['Get in the car.', 'Put on your seatbelt.']","['Adjust your seat according to your need.', 'Check your mirrors.']",Check your mirrors.,1
+3,0.5,"['Get in the car.', 'Put on your seatbelt.', 'Check your mirrors.']","['Adjust mirrors according to your need.', 'Get in the car.']",Adjust mirrors according to your need.,0
+4,0.6666666666666666,"['Get in the car.', 'Put on your seatbelt.', 'Check your mirrors.', 'Adjust mirrors according to your need.']","['Adjust your seat according to your need.', 'Get in the car.']",Adjust your seat according to your need.,0
+5,0.8333333333333334,"['Get in the car.', 'Put on your seatbelt.', 'Check your mirrors.', 'Adjust mirrors according to your need.', 'Adjust your seat according to your need.']","['Turn on the engine.', 'Check your mirrors.']",Turn on the engine.,0
+0,0.0,[],"['Find out and drive to your nearest DMV/driving school.', 'After done, see your results, and see where you can go from there.']",Find out and drive to your nearest DMV/driving school.,0
+1,0.16666666666666666,['Find out and drive to your nearest DMV/driving school.'],"['Go to the counter after waiting in line and ask about driving lessons.', 'Listen to your instructor, and obey all traffic laws, driving laws, etc., in your area.']",Go to the counter after waiting in line and ask about driving lessons.,0
+2,0.3333333333333333,"['Find out and drive to your nearest DMV/driving school.', 'Go to the counter after waiting in line and ask about driving lessons.']","['When your name is called, go back to the counter and follow-up.', 'Listen to your instructor, and obey all traffic laws, driving laws, etc., in your area.']","When your name is called, go back to the counter and follow-up.",0
+3,0.5,"['Find out and drive to your nearest DMV/driving school.', 'Go to the counter after waiting in line and ask about driving lessons.', 'When your name is called, go back to the counter and follow-up.']","['When you are told to drive, go with your instructor and get in a car.', 'Find out and drive to your nearest DMV/driving school.']","When you are told to drive, go with your instructor and get in a car.",0
+4,0.6666666666666666,"['Find out and drive to your nearest DMV/driving school.', 'Go to the counter after waiting in line and ask about driving lessons.', 'When your name is called, go back to the counter and follow-up.', 'When you are told to drive, go with your instructor and get in a car.']","['Find out and drive to your nearest DMV/driving school.', 'Listen to your instructor, and obey all traffic laws, driving laws, etc., in your area.']","Listen to your instructor, and obey all traffic laws, driving laws, etc., in your area.",1
+5,0.8333333333333334,"['Find out and drive to your nearest DMV/driving school.', 'Go to the counter after waiting in line and ask about driving lessons.', 'When your name is called, go back to the counter and follow-up.', 'When you are told to drive, go with your instructor and get in a car.', 'Listen to your instructor, and obey all traffic laws, driving laws, etc., in your area.']","['After done, see your results, and see where you can go from there.', 'Go to the counter after waiting in line and ask about driving lessons.']","After done, see your results, and see where you can go from there.",0
+0,0.0,[],"['Set a date with your instructor', 'Set a date with your instructor']",Set a date with your instructor,0
+1,0.2,['Set a date with your instructor'],"['Set a date with your instructor', 'Wait for the date to arrive']",Wait for the date to arrive,1
+2,0.4,"['Set a date with your instructor', 'Wait for the date to arrive']","['Practice driving with your instructor', 'Put on comfortable shoes']",Put on comfortable shoes,1
+3,0.6,"['Set a date with your instructor', 'Wait for the date to arrive', 'Put on comfortable shoes']","['Go to the location where you are learning to drive', 'Set a date with your instructor']",Go to the location where you are learning to drive,0
+4,0.8,"['Set a date with your instructor', 'Wait for the date to arrive', 'Put on comfortable shoes', 'Go to the location where you are learning to drive']","['Wait for the date to arrive', 'Practice driving with your instructor']",Practice driving with your instructor,1
+0,0.0,[],"['schedule a time for driving lesson', 'hire a driving instructor']",hire a driving instructor,1
+1,0.2,['hire a driving instructor'],"['schedule a time for driving lesson', 'hire a driving instructor']",schedule a time for driving lesson,0
+2,0.4,"['hire a driving instructor', 'schedule a time for driving lesson']","['listen to instructor', 'arrive at driving lesson']",arrive at driving lesson,1
+3,0.6,"['hire a driving instructor', 'schedule a time for driving lesson', 'arrive at driving lesson']","['get in driving vehicle', 'hire a driving instructor']",get in driving vehicle,0
+4,0.8,"['hire a driving instructor', 'schedule a time for driving lesson', 'arrive at driving lesson', 'get in driving vehicle']","['hire a driving instructor', 'listen to instructor']",listen to instructor,1
+0,0.0,[],"['go to driving instructor', 'Get in car']",Get in car,1
+1,0.16666666666666666,['Get in car'],"['Be driven to drivers education class', 'walk to car with driving instructor']",Be driven to drivers education class,0
+2,0.3333333333333333,"['Get in car', 'Be driven to drivers education class']","['go to driving instructor', 'drive and learn from your driving instructor']",go to driving instructor,0
+3,0.5,"['Get in car', 'Be driven to drivers education class', 'go to driving instructor']","['drive and learn from your driving instructor', 'walk to car with driving instructor']",walk to car with driving instructor,1
+4,0.6666666666666666,"['Get in car', 'Be driven to drivers education class', 'go to driving instructor', 'walk to car with driving instructor']","[""sit in driver's side seat"", 'Get in car']",sit in driver's side seat,0
+5,0.8333333333333334,"['Get in car', 'Be driven to drivers education class', 'go to driving instructor', 'walk to car with driving instructor', ""sit in driver's side seat""]","['go to driving instructor', 'drive and learn from your driving instructor']",drive and learn from your driving instructor,1
+0,0.0,[],"['Acquire a car', 'Sign up with a driving instructor']",Acquire a car,0
+1,0.2,['Acquire a car'],"['Go over car controls', 'Sign up with a driving instructor']",Sign up with a driving instructor,1
+2,0.4,"['Acquire a car', 'Sign up with a driving instructor']","['Go over basic driving laws', 'Drive around with instructor in passenger seat']",Go over basic driving laws,0
+3,0.6,"['Acquire a car', 'Sign up with a driving instructor', 'Go over basic driving laws']","['Acquire a car', 'Go over car controls']",Go over car controls,1
+4,0.8,"['Acquire a car', 'Sign up with a driving instructor', 'Go over basic driving laws', 'Go over car controls']","['Drive around with instructor in passenger seat', 'Sign up with a driving instructor']",Drive around with instructor in passenger seat,0
+0,0.0,[],"['Keep eyes on road', 'Get in the car']",Get in the car,1
+1,0.16666666666666666,['Get in the car'],"['Get in the car', 'Navigate the road']",Navigate the road,1
+2,0.3333333333333333,"['Get in the car', 'Navigate the road']","['Accelerate when appropriate', 'Keep eyes on road']",Keep eyes on road,1
+3,0.5,"['Get in the car', 'Navigate the road', 'Keep eyes on road']","['Put seat belt on', 'Get in the car']",Put seat belt on,0
+4,0.6666666666666666,"['Get in the car', 'Navigate the road', 'Keep eyes on road', 'Put seat belt on']","['Put foot on the pedal', 'Get in the car']",Put foot on the pedal,0
+5,0.8333333333333334,"['Get in the car', 'Navigate the road', 'Keep eyes on road', 'Put seat belt on', 'Put foot on the pedal']","['Navigate the road', 'Accelerate when appropriate']",Accelerate when appropriate,1
+0,0.0,[],"['Meet your instructor at the car.', 'Meet your instructor at the car.']",Meet your instructor at the car.,1
+1,0.16666666666666666,['Meet your instructor at the car.'],"['Put your seat belt on.', 'Enter the car.']",Enter the car.,1
+2,0.3333333333333333,"['Meet your instructor at the car.', 'Enter the car.']","['Adjust mirrors if needed.', 'Adjust your seat if needed.']",Adjust your seat if needed.,1
+3,0.5,"['Meet your instructor at the car.', 'Enter the car.', 'Adjust your seat if needed.']","['Put your seat belt on.', 'Meet your instructor at the car.']",Put your seat belt on.,0
+4,0.6666666666666666,"['Meet your instructor at the car.', 'Enter the car.', 'Adjust your seat if needed.', 'Put your seat belt on.']","['Adjust mirrors if needed.', 'Meet your instructor at the car.']",Adjust mirrors if needed.,0
+5,0.8333333333333334,"['Meet your instructor at the car.', 'Enter the car.', 'Adjust your seat if needed.', 'Put your seat belt on.', 'Adjust mirrors if needed.']","['Start the car.', 'Enter the car.']",Start the car.,0

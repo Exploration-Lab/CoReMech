@@ -1,0 +1,557 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Replace battery cover on alarm clock', 'Pick up alarm clock and look for where batteries are located']",Pick up alarm clock and look for where batteries are located,1
+1,0.16666666666666666,['Pick up alarm clock and look for where batteries are located'],"['Remove cover from alarm clock where batteries are located', 'Pick up alarm clock and look for where batteries are located']",Remove cover from alarm clock where batteries are located,0
+2,0.3333333333333333,"['Pick up alarm clock and look for where batteries are located', 'Remove cover from alarm clock where batteries are located']","['Remove batteries', 'Put new batteries in alarm clock']",Remove batteries,0
+3,0.5,"['Pick up alarm clock and look for where batteries are located', 'Remove cover from alarm clock where batteries are located', 'Remove batteries']","['Buy replacement batteries of the same size', 'Replace battery cover on alarm clock']",Buy replacement batteries of the same size,0
+4,0.6666666666666666,"['Pick up alarm clock and look for where batteries are located', 'Remove cover from alarm clock where batteries are located', 'Remove batteries', 'Buy replacement batteries of the same size']","['Put new batteries in alarm clock', 'Pick up alarm clock and look for where batteries are located']",Put new batteries in alarm clock,0
+5,0.8333333333333334,"['Pick up alarm clock and look for where batteries are located', 'Remove cover from alarm clock where batteries are located', 'Remove batteries', 'Buy replacement batteries of the same size', 'Put new batteries in alarm clock']","['Replace battery cover on alarm clock', 'Remove batteries']",Replace battery cover on alarm clock,0
+0,0.0,[],"['Remove old batteries.', 'Go to the store and get batteries.']",Go to the store and get batteries.,1
+1,0.16666666666666666,['Go to the store and get batteries.'],"['Unplug clock.', 'Remove old batteries.']",Unplug clock.,0
+2,0.3333333333333333,"['Go to the store and get batteries.', 'Unplug clock.']","['Open area where batteries area.', 'Insert new batteries.']",Open area where batteries area.,0
+3,0.5,"['Go to the store and get batteries.', 'Unplug clock.', 'Open area where batteries area.']","['Remove old batteries.', 'Plug alarm clock back in.']",Remove old batteries.,0
+4,0.6666666666666666,"['Go to the store and get batteries.', 'Unplug clock.', 'Open area where batteries area.', 'Remove old batteries.']","['Go to the store and get batteries.', 'Insert new batteries.']",Insert new batteries.,1
+5,0.8333333333333334,"['Go to the store and get batteries.', 'Unplug clock.', 'Open area where batteries area.', 'Remove old batteries.', 'Insert new batteries.']","['Plug alarm clock back in.', 'Go to the store and get batteries.']",Plug alarm clock back in.,0
+0,0.0,[],"['Get new batteries', 'Open battery compartment']",Open battery compartment,1
+1,0.2,['Open battery compartment'],"['Take out old batteries', 'Get new batteries']",Take out old batteries,0
+2,0.4,"['Open battery compartment', 'Take out old batteries']","['Close battery compartment', 'Get new batteries']",Get new batteries,1
+3,0.6,"['Open battery compartment', 'Take out old batteries', 'Get new batteries']","['Put new batteries in', 'Open battery compartment']",Put new batteries in,0
+4,0.8,"['Open battery compartment', 'Take out old batteries', 'Get new batteries', 'Put new batteries in']","['Close battery compartment', 'Take out old batteries']",Close battery compartment,0
+0,0.0,[],"['Throw away old batteries', 'Take alarm clock off nightstand']",Take alarm clock off nightstand,1
+1,0.16666666666666666,['Take alarm clock off nightstand'],"['Open up cover', 'Throw away old batteries']",Open up cover,0
+2,0.3333333333333333,"['Take alarm clock off nightstand', 'Open up cover']","['Get new batteries', 'Take out old batteries']",Take out old batteries,1
+3,0.5,"['Take alarm clock off nightstand', 'Open up cover', 'Take out old batteries']","['Get new batteries', 'See what kind you need']",See what kind you need,1
+4,0.6666666666666666,"['Take alarm clock off nightstand', 'Open up cover', 'Take out old batteries', 'See what kind you need']","['Throw away old batteries', 'Take alarm clock off nightstand']",Throw away old batteries,0
+5,0.8333333333333334,"['Take alarm clock off nightstand', 'Open up cover', 'Take out old batteries', 'See what kind you need', 'Throw away old batteries']","['Get new batteries', 'Take alarm clock off nightstand']",Get new batteries,0
+0,0.0,[],"['Get new batteries', 'Open back cover of alarm clock']",Get new batteries,0
+1,0.16666666666666666,['Get new batteries'],"['Open back cover of alarm clock', 'Get new batteries']",Open back cover of alarm clock,0
+2,0.3333333333333333,"['Get new batteries', 'Open back cover of alarm clock']","['Remove old batteries', 'Put back cover on alarm clock']",Remove old batteries,0
+3,0.5,"['Get new batteries', 'Open back cover of alarm clock', 'Remove old batteries']","['Put new batteries in', 'Get new batteries']",Put new batteries in,0
+4,0.6666666666666666,"['Get new batteries', 'Open back cover of alarm clock', 'Remove old batteries', 'Put new batteries in']","['Make sure batteries are pointed right', 'Get new batteries']",Make sure batteries are pointed right,0
+5,0.8333333333333334,"['Get new batteries', 'Open back cover of alarm clock', 'Remove old batteries', 'Put new batteries in', 'Make sure batteries are pointed right']","['Put back cover on alarm clock', 'Remove old batteries']",Put back cover on alarm clock,0
+0,0.0,[],"['Locate the battery compartment', 'Put new batteries in']",Locate the battery compartment,0
+1,0.16666666666666666,['Locate the battery compartment'],"['Obtain tool, if necessary to open compartment', 'Obtain tool, if necessary to open compartment']","Obtain tool, if necessary to open compartment",1
+2,0.3333333333333333,"['Locate the battery compartment', 'Obtain tool, if necessary to open compartment']","['Put new batteries in', 'Open the battery compartment']",Open the battery compartment,1
+3,0.5,"['Locate the battery compartment', 'Obtain tool, if necessary to open compartment', 'Open the battery compartment']","['Locate the battery compartment', 'Remove battery']",Remove battery,1
+4,0.6666666666666666,"['Locate the battery compartment', 'Obtain tool, if necessary to open compartment', 'Open the battery compartment', 'Remove battery']","['Obtain tool, if necessary to open compartment', 'Obtain new battery']",Obtain new battery,1
+5,0.8333333333333334,"['Locate the battery compartment', 'Obtain tool, if necessary to open compartment', 'Open the battery compartment', 'Remove battery', 'Obtain new battery']","['Put new batteries in', 'Open the battery compartment']",Put new batteries in,0
+0,0.0,[],"['Find battery compartment on bottom or back of clock', 'Open new package of correct size batteries']",Find battery compartment on bottom or back of clock,0
+1,0.16666666666666666,['Find battery compartment on bottom or back of clock'],"['Open compartment', 'Open compartment']",Open compartment,0
+2,0.3333333333333333,"['Find battery compartment on bottom or back of clock', 'Open compartment']","['Take out used batteries, taking note of how they were placed inside', 'Close battery compartment']","Take out used batteries, taking note of how they were placed inside",0
+3,0.5,"['Find battery compartment on bottom or back of clock', 'Open compartment', 'Take out used batteries, taking note of how they were placed inside']","['Find battery compartment on bottom or back of clock', 'Open new package of correct size batteries']",Open new package of correct size batteries,1
+4,0.6666666666666666,"['Find battery compartment on bottom or back of clock', 'Open compartment', 'Take out used batteries, taking note of how they were placed inside', 'Open new package of correct size batteries']","['Find battery compartment on bottom or back of clock', 'Install proper size and amount of batteries, making sure they are in correctly']","Install proper size and amount of batteries, making sure they are in correctly",1
+5,0.8333333333333334,"['Find battery compartment on bottom or back of clock', 'Open compartment', 'Take out used batteries, taking note of how they were placed inside', 'Open new package of correct size batteries', 'Install proper size and amount of batteries, making sure they are in correctly']","['Close battery compartment', 'Open compartment']",Close battery compartment,0
+0,0.0,[],"['place alarm clock down', 'picking up the alarm clock']",picking up the alarm clock,1
+1,0.16666666666666666,['picking up the alarm clock'],"['opening battery compartment', 'taking out old batteries']",opening battery compartment,0
+2,0.3333333333333333,"['picking up the alarm clock', 'opening battery compartment']","['taking out old batteries', 'place alarm clock down']",taking out old batteries,0
+3,0.5,"['picking up the alarm clock', 'opening battery compartment', 'taking out old batteries']","['put in new batteries', 'picking up the alarm clock']",put in new batteries,0
+4,0.6666666666666666,"['picking up the alarm clock', 'opening battery compartment', 'taking out old batteries', 'put in new batteries']","['close battery compartment', 'opening battery compartment']",close battery compartment,0
+5,0.8333333333333334,"['picking up the alarm clock', 'opening battery compartment', 'taking out old batteries', 'put in new batteries', 'close battery compartment']","['picking up the alarm clock', 'place alarm clock down']",place alarm clock down,1
+0,0.0,[],"['Set the correct time', 'Go to the store']",Go to the store,1
+1,0.16666666666666666,['Go to the store'],"['Go to the store', 'Select batteries']",Select batteries,1
+2,0.3333333333333333,"['Go to the store', 'Select batteries']","['Purchase the batteries', 'Put in the new batteries inside the alarm clock']",Purchase the batteries,0
+3,0.5,"['Go to the store', 'Select batteries', 'Purchase the batteries']","['Take the old batteries out of the alarm clock', 'Set the correct time']",Take the old batteries out of the alarm clock,0
+4,0.6666666666666666,"['Go to the store', 'Select batteries', 'Purchase the batteries', 'Take the old batteries out of the alarm clock']","['Go to the store', 'Put in the new batteries inside the alarm clock']",Put in the new batteries inside the alarm clock,1
+5,0.8333333333333334,"['Go to the store', 'Select batteries', 'Purchase the batteries', 'Take the old batteries out of the alarm clock', 'Put in the new batteries inside the alarm clock']","['Select batteries', 'Set the correct time']",Set the correct time,1
+0,0.0,[],"['Buy batteries', 'Put new batteries in']",Buy batteries,0
+1,0.2,['Buy batteries'],"['Take batteries out of alarm clock', 'Reset time']",Take batteries out of alarm clock,0
+2,0.4,"['Buy batteries', 'Take batteries out of alarm clock']","['Throw old batteries away', 'Reset time']",Throw old batteries away,0
+3,0.6,"['Buy batteries', 'Take batteries out of alarm clock', 'Throw old batteries away']","['Put new batteries in', 'Buy batteries']",Put new batteries in,0
+4,0.8,"['Buy batteries', 'Take batteries out of alarm clock', 'Throw old batteries away', 'Put new batteries in']","['Buy batteries', 'Reset time']",Reset time,1
+0,0.0,[],"[""Unplug alarm clock if it's plugged in (if available)"", ""Unplug alarm clock if it's plugged in (if available)""]",Unplug alarm clock if it's plugged in (if available),0
+1,0.16666666666666666,"[""Unplug alarm clock if it's plugged in (if available)""]","['Open the cover to the battery (if available)', 'Open the cover to the battery (if available)']",Open the cover to the battery (if available),1
+2,0.3333333333333333,"[""Unplug alarm clock if it's plugged in (if available)"", 'Open the cover to the battery (if available)']","['Replace cover', 'Take out old batteries']",Take out old batteries,1
+3,0.5,"[""Unplug alarm clock if it's plugged in (if available)"", 'Open the cover to the battery (if available)', 'Take out old batteries']","['Replace old batteries with new batteries of same size', ""Unplug alarm clock if it's plugged in (if available)""]",Replace old batteries with new batteries of same size,0
+4,0.6666666666666666,"[""Unplug alarm clock if it's plugged in (if available)"", 'Open the cover to the battery (if available)', 'Take out old batteries', 'Replace old batteries with new batteries of same size']","['Replace cover', ""Unplug alarm clock if it's plugged in (if available)""]",Replace cover,0
+5,0.8333333333333334,"[""Unplug alarm clock if it's plugged in (if available)"", 'Open the cover to the battery (if available)', 'Take out old batteries', 'Replace old batteries with new batteries of same size', 'Replace cover']","['Open the cover to the battery (if available)', 'Plug back alarm clock (if available)']",Plug back alarm clock (if available),1
+0,0.0,[],"['Buy appropriate batteries', 'Fit the cover back']",Buy appropriate batteries,0
+1,0.16666666666666666,['Buy appropriate batteries'],"['Replace them with new batteries', 'Open the battery cover']",Open the battery cover,1
+2,0.3333333333333333,"['Buy appropriate batteries', 'Open the battery cover']","['Remove used batteries', 'Fit the cover back']",Remove used batteries,0
+3,0.5,"['Buy appropriate batteries', 'Open the battery cover', 'Remove used batteries']","['Replace them with new batteries', 'Dispose off the old batteries in safe place']",Replace them with new batteries,0
+4,0.6666666666666666,"['Buy appropriate batteries', 'Open the battery cover', 'Remove used batteries', 'Replace them with new batteries']","['Fit the cover back', 'Open the battery cover']",Fit the cover back,0
+5,0.8333333333333334,"['Buy appropriate batteries', 'Open the battery cover', 'Remove used batteries', 'Replace them with new batteries', 'Fit the cover back']","['Remove used batteries', 'Dispose off the old batteries in safe place']",Dispose off the old batteries in safe place,1
+0,0.0,[],"['Get new battery', 'Turn alarm clock over']",Turn alarm clock over,1
+1,0.16666666666666666,['Turn alarm clock over'],"['Get new battery', 'Locate battery compartment']",Locate battery compartment,1
+2,0.3333333333333333,"['Turn alarm clock over', 'Locate battery compartment']","['Remove from packaging', 'Open compartment']",Open compartment,1
+3,0.5,"['Turn alarm clock over', 'Locate battery compartment', 'Open compartment']","['Turn alarm clock over', 'Extract old battery']",Extract old battery,1
+4,0.6666666666666666,"['Turn alarm clock over', 'Locate battery compartment', 'Open compartment', 'Extract old battery']","['Turn alarm clock over', 'Get new battery']",Get new battery,1
+5,0.8333333333333334,"['Turn alarm clock over', 'Locate battery compartment', 'Open compartment', 'Extract old battery', 'Get new battery']","['Remove from packaging', 'Open compartment']",Remove from packaging,0
+0,0.0,[],"['Grab alarm clock', 'Put in new batteries']",Grab alarm clock,0
+1,0.2,['Grab alarm clock'],"['Take latch off the back', 'Take latch off the back']",Take latch off the back,0
+2,0.4,"['Grab alarm clock', 'Take latch off the back']","['Remove old batteries', 'Reset your settings']",Remove old batteries,0
+3,0.6,"['Grab alarm clock', 'Take latch off the back', 'Remove old batteries']","['Put in new batteries', 'Grab alarm clock']",Put in new batteries,0
+4,0.8,"['Grab alarm clock', 'Take latch off the back', 'Remove old batteries', 'Put in new batteries']","['Grab alarm clock', 'Reset your settings']",Reset your settings,1
+0,0.0,[],"['Take out old batteries', 'Set the time on the alarm clock']",Take out old batteries,0
+1,0.2,['Take out old batteries'],"['Put in new batteries', 'Put in new batteries']",Put in new batteries,1
+2,0.4,"['Take out old batteries', 'Put in new batteries']","['Check the time on another clock', 'Set any alarms you had before']",Check the time on another clock,0
+3,0.6,"['Take out old batteries', 'Put in new batteries', 'Check the time on another clock']","['Take out old batteries', 'Set the time on the alarm clock']",Set the time on the alarm clock,1
+4,0.8,"['Take out old batteries', 'Put in new batteries', 'Check the time on another clock', 'Set the time on the alarm clock']","['Put in new batteries', 'Set any alarms you had before']",Set any alarms you had before,1
+0,0.0,[],"['Secure holder.', 'Remove old batteries.']",Remove old batteries.,1
+1,0.2,['Remove old batteries.'],"['Obtain replacement batteries.', 'Obtain replacement batteries.']",Obtain replacement batteries.,1
+2,0.4,"['Remove old batteries.', 'Obtain replacement batteries.']","['Test to assure function.', 'Place new batteries into clock.']",Place new batteries into clock.,1
+3,0.6,"['Remove old batteries.', 'Obtain replacement batteries.', 'Place new batteries into clock.']","['Secure holder.', 'Remove old batteries.']",Secure holder.,0
+4,0.8,"['Remove old batteries.', 'Obtain replacement batteries.', 'Place new batteries into clock.', 'Secure holder.']","['Test to assure function.', 'Remove old batteries.']",Test to assure function.,0
+0,0.0,[],"['Turn over.', 'Pick up alarm clock.']",Pick up alarm clock.,1
+1,0.16666666666666666,['Pick up alarm clock.'],"['Turn over.', 'Pull battery cover off.']",Turn over.,0
+2,0.3333333333333333,"['Pick up alarm clock.', 'Turn over.']","['Use small screwdriver to unscrew tiny screws.', 'Take new battery and snap into place.']",Use small screwdriver to unscrew tiny screws.,0
+3,0.5,"['Pick up alarm clock.', 'Turn over.', 'Use small screwdriver to unscrew tiny screws.']","['Pull battery cover off.', 'Pick up alarm clock.']",Pull battery cover off.,0
+4,0.6666666666666666,"['Pick up alarm clock.', 'Turn over.', 'Use small screwdriver to unscrew tiny screws.', 'Pull battery cover off.']","['Pick up alarm clock.', 'Pull out old battery and disconnect from wires.']",Pull out old battery and disconnect from wires.,1
+5,0.8333333333333334,"['Pick up alarm clock.', 'Turn over.', 'Use small screwdriver to unscrew tiny screws.', 'Pull battery cover off.', 'Pull out old battery and disconnect from wires.']","['Take new battery and snap into place.', 'Pick up alarm clock.']",Take new battery and snap into place.,0
+0,0.0,[],"['put the back on the clock', 'Get batteries']",Get batteries,1
+1,0.2,['Get batteries'],"['take the old batteries out', 'dispose of the old batteries']",take the old batteries out,0
+2,0.4,"['Get batteries', 'take the old batteries out']","['put the new ones in', 'dispose of the old batteries']",put the new ones in,0
+3,0.6,"['Get batteries', 'take the old batteries out', 'put the new ones in']","['Get batteries', 'put the back on the clock']",put the back on the clock,1
+4,0.8,"['Get batteries', 'take the old batteries out', 'put the new ones in', 'put the back on the clock']","['dispose of the old batteries', 'take the old batteries out']",dispose of the old batteries,0
+0,0.0,[],"['Remove small plate covering batteries in clock', 'Buy the proper sized batteries for clock']",Buy the proper sized batteries for clock,1
+1,0.16666666666666666,['Buy the proper sized batteries for clock'],"['Buy the proper sized batteries for clock', 'Turn clock over']",Turn clock over,1
+2,0.3333333333333333,"['Buy the proper sized batteries for clock', 'Turn clock over']","['Put plate covering back on clock', 'Remove small plate covering batteries in clock']",Remove small plate covering batteries in clock,1
+3,0.5,"['Buy the proper sized batteries for clock', 'Turn clock over', 'Remove small plate covering batteries in clock']","['Remove old batteries and dispose of properly', 'Put plate covering back on clock']",Remove old batteries and dispose of properly,0
+4,0.6666666666666666,"['Buy the proper sized batteries for clock', 'Turn clock over', 'Remove small plate covering batteries in clock', 'Remove old batteries and dispose of properly']","['Insert new batteries, matching the + symbol to the +, and the - symbol to the - in clock', 'Buy the proper sized batteries for clock']","Insert new batteries, matching the + symbol to the +, and the - symbol to the - in clock",0
+5,0.8333333333333334,"['Buy the proper sized batteries for clock', 'Turn clock over', 'Remove small plate covering batteries in clock', 'Remove old batteries and dispose of properly', 'Insert new batteries, matching the + symbol to the +, and the - symbol to the - in clock']","['Put plate covering back on clock', 'Remove small plate covering batteries in clock']",Put plate covering back on clock,0
+0,0.0,[],"['Turn the alarm clock so that you can see the battery compartment', 'Turn the alarm clock so that you can see the battery compartment']",Turn the alarm clock so that you can see the battery compartment,1
+1,0.16666666666666666,['Turn the alarm clock so that you can see the battery compartment'],"['Open the battery compartment', 'Turn the alarm clock so that you can see the battery compartment']",Open the battery compartment,0
+2,0.3333333333333333,"['Turn the alarm clock so that you can see the battery compartment', 'Open the battery compartment']","['Remove old batteries', 'Place alarm clock back in useful position']",Remove old batteries,0
+3,0.5,"['Turn the alarm clock so that you can see the battery compartment', 'Open the battery compartment', 'Remove old batteries']","['Place alarm clock back in useful position', 'Place new batteries in the battery compartment']",Place new batteries in the battery compartment,1
+4,0.6666666666666666,"['Turn the alarm clock so that you can see the battery compartment', 'Open the battery compartment', 'Remove old batteries', 'Place new batteries in the battery compartment']","['Close battery compartment', 'Turn the alarm clock so that you can see the battery compartment']",Close battery compartment,0
+5,0.8333333333333334,"['Turn the alarm clock so that you can see the battery compartment', 'Open the battery compartment', 'Remove old batteries', 'Place new batteries in the battery compartment', 'Close battery compartment']","['Place alarm clock back in useful position', 'Open the battery compartment']",Place alarm clock back in useful position,0
+0,0.0,[],"['Grab clock', 'Remove batteries']",Grab clock,0
+1,0.16666666666666666,['Grab clock'],"['Unscrew/open back', 'Throw away']",Unscrew/open back,0
+2,0.3333333333333333,"['Grab clock', 'Unscrew/open back']","['Replace with new batteries', 'Remove batteries']",Remove batteries,1
+3,0.5,"['Grab clock', 'Unscrew/open back', 'Remove batteries']","['Grab clock', 'Throw away']",Throw away,1
+4,0.6666666666666666,"['Grab clock', 'Unscrew/open back', 'Remove batteries', 'Throw away']","['Unscrew/open back', 'Replace with new batteries']",Replace with new batteries,1
+5,0.8333333333333334,"['Grab clock', 'Unscrew/open back', 'Remove batteries', 'Throw away', 'Replace with new batteries']","['Grab clock', 'Close back']",Close back,1
+0,0.0,[],"['Put new batteries in the correct position.', 'Check old batteries for correct size.']",Check old batteries for correct size.,1
+1,0.16666666666666666,['Check old batteries for correct size.'],"['Remove old batteries.', 'Get new batteries of same size and type.']",Get new batteries of same size and type.,1
+2,0.3333333333333333,"['Check old batteries for correct size.', 'Get new batteries of same size and type.']","['Remove old batteries.', 'Reset time if necessary.']",Remove old batteries.,0
+3,0.5,"['Check old batteries for correct size.', 'Get new batteries of same size and type.', 'Remove old batteries.']","['Reset time if necessary.', 'Put new batteries in the correct position.']",Put new batteries in the correct position.,1
+4,0.6666666666666666,"['Check old batteries for correct size.', 'Get new batteries of same size and type.', 'Remove old batteries.', 'Put new batteries in the correct position.']","['Make sure battery cover is in place.', 'Get new batteries of same size and type.']",Make sure battery cover is in place.,0
+5,0.8333333333333334,"['Check old batteries for correct size.', 'Get new batteries of same size and type.', 'Remove old batteries.', 'Put new batteries in the correct position.', 'Make sure battery cover is in place.']","['Reset time if necessary.', 'Check old batteries for correct size.']",Reset time if necessary.,0
+0,0.0,[],"['Take out old one old battery', 'set alarm']",Take out old one old battery,0
+1,0.16666666666666666,['Take out old one old battery'],"['set date and time', ""replace with new battery'""]",replace with new battery',1
+2,0.3333333333333333,"['Take out old one old battery', ""replace with new battery'""]","['set date and time', 'see if that provides enough charge for clock to run']",see if that provides enough charge for clock to run,1
+3,0.5,"['Take out old one old battery', ""replace with new battery'"", 'see if that provides enough charge for clock to run']","['if not replace next battery and repeat process', 'set alarm']",if not replace next battery and repeat process,0
+4,0.6666666666666666,"['Take out old one old battery', ""replace with new battery'"", 'see if that provides enough charge for clock to run', 'if not replace next battery and repeat process']","['set date and time', ""replace with new battery'""]",set date and time,0
+5,0.8333333333333334,"['Take out old one old battery', ""replace with new battery'"", 'see if that provides enough charge for clock to run', 'if not replace next battery and repeat process', 'set date and time']","['set alarm', 'Take out old one old battery']",set alarm,0
+0,0.0,[],"['Put the cover back on.', 'Remove the back from the alarm clock.']",Remove the back from the alarm clock.,1
+1,0.2,['Remove the back from the alarm clock.'],"['Insert the new batteries.', 'Take out the old batteries.']",Take out the old batteries.,1
+2,0.4,"['Remove the back from the alarm clock.', 'Take out the old batteries.']","['Put the cover back on.', 'View where the plus and minus are.']",View where the plus and minus are.,1
+3,0.6,"['Remove the back from the alarm clock.', 'Take out the old batteries.', 'View where the plus and minus are.']","['Remove the back from the alarm clock.', 'Insert the new batteries.']",Insert the new batteries.,1
+4,0.8,"['Remove the back from the alarm clock.', 'Take out the old batteries.', 'View where the plus and minus are.', 'Insert the new batteries.']","['Put the cover back on.', 'Take out the old batteries.']",Put the cover back on.,0
+0,0.0,[],"['Take batteries off', 'Buy batteries']",Take batteries off,0
+1,0.16666666666666666,['Take batteries off'],"['Buy batteries', 'Look at type of batteries']",Look at type of batteries,1
+2,0.3333333333333333,"['Take batteries off', 'Look at type of batteries']","['Go to convenience store', 'Change batteries']",Go to convenience store,0
+3,0.5,"['Take batteries off', 'Look at type of batteries', 'Go to convenience store']","['Buy batteries', 'Change batteries']",Buy batteries,0
+4,0.6666666666666666,"['Take batteries off', 'Look at type of batteries', 'Go to convenience store', 'Buy batteries']","['Look at type of batteries', 'Return home']",Return home,1
+5,0.8333333333333334,"['Take batteries off', 'Look at type of batteries', 'Go to convenience store', 'Buy batteries', 'Return home']","['Change batteries', 'Take batteries off']",Change batteries,0
+0,0.0,[],"['look at alarm clock', 'locate where batteries are']",locate where batteries are,1
+1,0.16666666666666666,['locate where batteries are'],"['replace back', 'remove back']",remove back,1
+2,0.3333333333333333,"['locate where batteries are', 'remove back']","['look at alarm clock', 'take out old batteries']",take out old batteries,1
+3,0.5,"['locate where batteries are', 'remove back', 'take out old batteries']","['locate where batteries are', 'put in fresh batteries']",put in fresh batteries,1
+4,0.6666666666666666,"['locate where batteries are', 'remove back', 'take out old batteries', 'put in fresh batteries']","['locate where batteries are', 'replace back']",replace back,1
+5,0.8333333333333334,"['locate where batteries are', 'remove back', 'take out old batteries', 'put in fresh batteries', 'replace back']","['locate where batteries are', 'look at alarm clock']",look at alarm clock,1
+0,0.0,[],"['Turn alarm clock over.', 'Remove old batteries.']",Turn alarm clock over.,0
+1,0.16666666666666666,['Turn alarm clock over.'],"['Take battery cover off of alarm clock.', 'Get replacement batteries.']",Take battery cover off of alarm clock.,0
+2,0.3333333333333333,"['Turn alarm clock over.', 'Take battery cover off of alarm clock.']","['Put new batteries into alarm clock.', 'Remove old batteries.']",Remove old batteries.,1
+3,0.5,"['Turn alarm clock over.', 'Take battery cover off of alarm clock.', 'Remove old batteries.']","['Get replacement batteries.', 'Replace battery cover on clock.']",Get replacement batteries.,0
+4,0.6666666666666666,"['Turn alarm clock over.', 'Take battery cover off of alarm clock.', 'Remove old batteries.', 'Get replacement batteries.']","['Put new batteries into alarm clock.', 'Turn alarm clock over.']",Put new batteries into alarm clock.,0
+5,0.8333333333333334,"['Turn alarm clock over.', 'Take battery cover off of alarm clock.', 'Remove old batteries.', 'Get replacement batteries.', 'Put new batteries into alarm clock.']","['Replace battery cover on clock.', 'Take battery cover off of alarm clock.']",Replace battery cover on clock.,0
+0,0.0,[],"['Take old batteries out of alarm clock', 'Get new batteries']",Get new batteries,1
+1,0.16666666666666666,['Get new batteries'],"['Set time on alarm clock', 'Take cover off of battery compartment']",Take cover off of battery compartment,1
+2,0.3333333333333333,"['Get new batteries', 'Take cover off of battery compartment']","['Take old batteries out of alarm clock', 'Place cover back onto battery compartment']",Take old batteries out of alarm clock,0
+3,0.5,"['Get new batteries', 'Take cover off of battery compartment', 'Take old batteries out of alarm clock']","['Place new batteries into alarm clock', 'Set time on alarm clock']",Place new batteries into alarm clock,0
+4,0.6666666666666666,"['Get new batteries', 'Take cover off of battery compartment', 'Take old batteries out of alarm clock', 'Place new batteries into alarm clock']","['Place cover back onto battery compartment', 'Get new batteries']",Place cover back onto battery compartment,0
+5,0.8333333333333334,"['Get new batteries', 'Take cover off of battery compartment', 'Take old batteries out of alarm clock', 'Place new batteries into alarm clock', 'Place cover back onto battery compartment']","['Set time on alarm clock', 'Take old batteries out of alarm clock']",Set time on alarm clock,0
+0,0.0,[],"['Get new batteries', 'Get new batteries']",Get new batteries,1
+1,0.16666666666666666,['Get new batteries'],"['Take the alarm clock', 'Remove the previous batteries']",Take the alarm clock,0
+2,0.3333333333333333,"['Get new batteries', 'Take the alarm clock']","['Open the battery lid', 'Close the battery lid']",Open the battery lid,0
+3,0.5,"['Get new batteries', 'Take the alarm clock', 'Open the battery lid']","['Remove the previous batteries', 'Close the battery lid']",Remove the previous batteries,0
+4,0.6666666666666666,"['Get new batteries', 'Take the alarm clock', 'Open the battery lid', 'Remove the previous batteries']","['Take the alarm clock', 'Replace the new batteries']",Replace the new batteries,1
+5,0.8333333333333334,"['Get new batteries', 'Take the alarm clock', 'Open the battery lid', 'Remove the previous batteries', 'Replace the new batteries']","['Close the battery lid', 'Get new batteries']",Close the battery lid,0
+0,0.0,[],"['Open up alarm clock', 'Remove old batteries']",Open up alarm clock,0
+1,0.2,['Open up alarm clock'],"['Turn on', 'Remove old batteries']",Remove old batteries,1
+2,0.4,"['Open up alarm clock', 'Remove old batteries']","['Put new batteries in + and - in perspective areas', 'Turn on']",Put new batteries in + and - in perspective areas,0
+3,0.6,"['Open up alarm clock', 'Remove old batteries', 'Put new batteries in + and - in perspective areas']","['Open up alarm clock', 'Put cover back on alarm clock']",Put cover back on alarm clock,1
+4,0.8,"['Open up alarm clock', 'Remove old batteries', 'Put new batteries in + and - in perspective areas', 'Put cover back on alarm clock']","['Turn on', 'Open up alarm clock']",Turn on,0
+0,0.0,[],"['Grab alarm clock', 'Find battery compartment on alarm clock']",Grab alarm clock,0
+1,0.2,['Grab alarm clock'],"['Grab correct batteries for alarm clock', 'Grab alarm clock']",Grab correct batteries for alarm clock,0
+2,0.4,"['Grab alarm clock', 'Grab correct batteries for alarm clock']","['Insert new batteries', 'Find battery compartment on alarm clock']",Find battery compartment on alarm clock,1
+3,0.6,"['Grab alarm clock', 'Grab correct batteries for alarm clock', 'Find battery compartment on alarm clock']","['Remove old batteries', 'Grab alarm clock']",Remove old batteries,0
+4,0.8,"['Grab alarm clock', 'Grab correct batteries for alarm clock', 'Find battery compartment on alarm clock', 'Remove old batteries']","['Insert new batteries', 'Grab alarm clock']",Insert new batteries,0
+0,0.0,[],"['Take appropriate batteries to change the old battery in an alarm clock.', 'Close the cover and reset the clock to current timing.']",Take appropriate batteries to change the old battery in an alarm clock.,0
+1,0.16666666666666666,['Take appropriate batteries to change the old battery in an alarm clock.'],"['Open the box where the batteries are fixed.', 'Stick a small sticker in side mentioning the date of changed for future use.']",Open the box where the batteries are fixed.,0
+2,0.3333333333333333,"['Take appropriate batteries to change the old battery in an alarm clock.', 'Open the box where the batteries are fixed.']","['Stick a small sticker in side mentioning the date of changed for future use.', 'Take away old batteries and replace with new ones.']",Take away old batteries and replace with new ones.,1
+3,0.5,"['Take appropriate batteries to change the old battery in an alarm clock.', 'Open the box where the batteries are fixed.', 'Take away old batteries and replace with new ones.']","['Take appropriate batteries to change the old battery in an alarm clock.', 'Close the cover and reset the clock to current timing.']",Close the cover and reset the clock to current timing.,1
+4,0.6666666666666666,"['Take appropriate batteries to change the old battery in an alarm clock.', 'Open the box where the batteries are fixed.', 'Take away old batteries and replace with new ones.', 'Close the cover and reset the clock to current timing.']","['Stick a small sticker in side mentioning the date of changed for future use.', 'Open the box where the batteries are fixed.']",Stick a small sticker in side mentioning the date of changed for future use.,0
+5,0.8333333333333334,"['Take appropriate batteries to change the old battery in an alarm clock.', 'Open the box where the batteries are fixed.', 'Take away old batteries and replace with new ones.', 'Close the cover and reset the clock to current timing.', 'Stick a small sticker in side mentioning the date of changed for future use.']","['Hang or stand erect the clock.', 'Take appropriate batteries to change the old battery in an alarm clock.']",Hang or stand erect the clock.,0
+0,0.0,[],"['place new batteries into clock', 'Get batteries from drawer']",Get batteries from drawer,1
+1,0.16666666666666666,['Get batteries from drawer'],"['close drawer', 'remove battery cover from alarm clock']",close drawer,0
+2,0.3333333333333333,"['Get batteries from drawer', 'close drawer']","['remove old batteries', 'remove batteries from package']",remove batteries from package,1
+3,0.5,"['Get batteries from drawer', 'close drawer', 'remove batteries from package']","['remove battery cover from alarm clock', 'Get batteries from drawer']",remove battery cover from alarm clock,0
+4,0.6666666666666666,"['Get batteries from drawer', 'close drawer', 'remove batteries from package', 'remove battery cover from alarm clock']","['remove old batteries', 'close drawer']",remove old batteries,0
+5,0.8333333333333334,"['Get batteries from drawer', 'close drawer', 'remove batteries from package', 'remove battery cover from alarm clock', 'remove old batteries']","['place new batteries into clock', 'close drawer']",place new batteries into clock,0
+0,0.0,[],"['Open the battery cover in the back panel', 'Buy and bring home new batteries from store']",Buy and bring home new batteries from store,1
+1,0.16666666666666666,['Buy and bring home new batteries from store'],"['Buy and bring home new batteries from store', 'Take the alarm clock']",Take the alarm clock,1
+2,0.3333333333333333,"['Buy and bring home new batteries from store', 'Take the alarm clock']","['Open the battery cover in the back panel', 'Wipe the battery slot with a dry cloth']",Open the battery cover in the back panel,0
+3,0.5,"['Buy and bring home new batteries from store', 'Take the alarm clock', 'Open the battery cover in the back panel']","['Buy and bring home new batteries from store', 'Remove old batteries']",Remove old batteries,1
+4,0.6666666666666666,"['Buy and bring home new batteries from store', 'Take the alarm clock', 'Open the battery cover in the back panel', 'Remove old batteries']","['Take the alarm clock', 'Wipe the battery slot with a dry cloth']",Wipe the battery slot with a dry cloth,1
+5,0.8333333333333334,"['Buy and bring home new batteries from store', 'Take the alarm clock', 'Open the battery cover in the back panel', 'Remove old batteries', 'Wipe the battery slot with a dry cloth']","['Take the alarm clock', 'Insert the new batteries ensuring correct position of +ve and -ve points']",Insert the new batteries ensuring correct position of +ve and -ve points,1
+0,0.0,[],"['remove the old batteries', 'pick up the clock']",pick up the clock,1
+1,0.16666666666666666,['pick up the clock'],"['flip it over', 'remove the old batteries']",flip it over,0
+2,0.3333333333333333,"['pick up the clock', 'flip it over']","['remove the old batteries', 'find the battery compartment']",find the battery compartment,1
+3,0.5,"['pick up the clock', 'flip it over', 'find the battery compartment']","['remove the cover', 'insert the new batteries']",remove the cover,0
+4,0.6666666666666666,"['pick up the clock', 'flip it over', 'find the battery compartment', 'remove the cover']","['remove the old batteries', 'flip it over']",remove the old batteries,0
+5,0.8333333333333334,"['pick up the clock', 'flip it over', 'find the battery compartment', 'remove the cover', 'remove the old batteries']","['insert the new batteries', 'find the battery compartment']",insert the new batteries,0
+0,0.0,[],"['close battery compartment', 'grab new batteries']",grab new batteries,1
+1,0.16666666666666666,['grab new batteries'],"['insert new batteries', 'grab clock']",grab clock,1
+2,0.3333333333333333,"['grab new batteries', 'grab clock']","['open battery compartment', 'insert new batteries']",open battery compartment,0
+3,0.5,"['grab new batteries', 'grab clock', 'open battery compartment']","['close battery compartment', 'remove old batteries']",remove old batteries,1
+4,0.6666666666666666,"['grab new batteries', 'grab clock', 'open battery compartment', 'remove old batteries']","['grab clock', 'insert new batteries']",insert new batteries,1
+5,0.8333333333333334,"['grab new batteries', 'grab clock', 'open battery compartment', 'remove old batteries', 'insert new batteries']","['grab clock', 'close battery compartment']",close battery compartment,1
+0,0.0,[],"['open the battery slot on the clock', 'open the battery slot on the clock']",open the battery slot on the clock,1
+1,0.2,['open the battery slot on the clock'],"['check what the batteries are', 'turn on clock to make sure you put them in correctly']",check what the batteries are,0
+2,0.4,"['open the battery slot on the clock', 'check what the batteries are']","[' replace by following the diagram of positive negative sides', 'turn on clock to make sure you put them in correctly']", replace by following the diagram of positive negative sides,0
+3,0.6,"['open the battery slot on the clock', 'check what the batteries are', ' replace by following the diagram of positive negative sides']","['open the battery slot on the clock', 'put the clip back on to hold the batteries in place']",put the clip back on to hold the batteries in place,1
+4,0.8,"['open the battery slot on the clock', 'check what the batteries are', ' replace by following the diagram of positive negative sides', 'put the clip back on to hold the batteries in place']","['open the battery slot on the clock', 'turn on clock to make sure you put them in correctly']",turn on clock to make sure you put them in correctly,1
+0,0.0,[],"['Put new batteries in', 'Get batteries']",Get batteries,1
+1,0.16666666666666666,['Get batteries'],"['Open back of the alarm clock', 'Put new batteries in']",Open back of the alarm clock,0
+2,0.3333333333333333,"['Get batteries', 'Open back of the alarm clock']","['Take old batteries out', 'Close the back of the alarm clock']",Take old batteries out,0
+3,0.5,"['Get batteries', 'Open back of the alarm clock', 'Take old batteries out']","['Close the back of the alarm clock', 'Check to see what direction to put new batteries in']",Check to see what direction to put new batteries in,1
+4,0.6666666666666666,"['Get batteries', 'Open back of the alarm clock', 'Take old batteries out', 'Check to see what direction to put new batteries in']","['Get batteries', 'Put new batteries in']",Put new batteries in,1
+5,0.8333333333333334,"['Get batteries', 'Open back of the alarm clock', 'Take old batteries out', 'Check to see what direction to put new batteries in', 'Put new batteries in']","['Take old batteries out', 'Close the back of the alarm clock']",Close the back of the alarm clock,1
+0,0.0,[],"['Grab new ones', 'Grab alarm']",Grab alarm,1
+1,0.16666666666666666,['Grab alarm'],"['Turn it over', 'Throw old ones away']",Turn it over,0
+2,0.3333333333333333,"['Grab alarm', 'Turn it over']","['Put those in', 'Take out batteries']",Take out batteries,1
+3,0.5,"['Grab alarm', 'Turn it over', 'Take out batteries']","['Grab alarm', 'Grab new ones']",Grab new ones,1
+4,0.6666666666666666,"['Grab alarm', 'Turn it over', 'Take out batteries', 'Grab new ones']","['Put those in', 'Grab alarm']",Put those in,0
+5,0.8333333333333334,"['Grab alarm', 'Turn it over', 'Take out batteries', 'Grab new ones', 'Put those in']","['Take out batteries', 'Throw old ones away']",Throw old ones away,1
+0,0.0,[],"['Open the battery case.', 'Flip clock upside down.']",Flip clock upside down.,1
+1,0.16666666666666666,['Flip clock upside down.'],"['Open the battery case.', 'Remove old batteries.']",Open the battery case.,0
+2,0.3333333333333333,"['Flip clock upside down.', 'Open the battery case.']","['Close battery case.', 'Remove old batteries.']",Remove old batteries.,1
+3,0.5,"['Flip clock upside down.', 'Open the battery case.', 'Remove old batteries.']","['Place new batteries in battery case according directions on battery case.', 'Flip clock the right side up.']",Place new batteries in battery case according directions on battery case.,0
+4,0.6666666666666666,"['Flip clock upside down.', 'Open the battery case.', 'Remove old batteries.', 'Place new batteries in battery case according directions on battery case.']","['Close battery case.', 'Open the battery case.']",Close battery case.,0
+5,0.8333333333333334,"['Flip clock upside down.', 'Open the battery case.', 'Remove old batteries.', 'Place new batteries in battery case according directions on battery case.', 'Close battery case.']","['Open the battery case.', 'Flip clock the right side up.']",Flip clock the right side up.,1
+0,0.0,[],"['Removing old batteries', 'Securing new batteries']",Securing new batteries,1
+1,0.16666666666666666,['Securing new batteries'],"['Reset time on clock', 'Opening up alarm clock']",Opening up alarm clock,1
+2,0.3333333333333333,"['Securing new batteries', 'Opening up alarm clock']","['Removing old batteries', 'Ensure that clock works']",Removing old batteries,0
+3,0.5,"['Securing new batteries', 'Opening up alarm clock', 'Removing old batteries']","['Reset time on clock', 'Installing new batteries']",Installing new batteries,1
+4,0.6666666666666666,"['Securing new batteries', 'Opening up alarm clock', 'Removing old batteries', 'Installing new batteries']","['Ensure that clock works', 'Opening up alarm clock']",Ensure that clock works,0
+5,0.8333333333333334,"['Securing new batteries', 'Opening up alarm clock', 'Removing old batteries', 'Installing new batteries', 'Ensure that clock works']","['Opening up alarm clock', 'Reset time on clock']",Reset time on clock,1
+0,0.0,[],"['Take the back off the alarm clock.', 'Get new batteries.']",Take the back off the alarm clock.,0
+1,0.16666666666666666,['Take the back off the alarm clock.'],"['Take out the batteries.', 'Get new batteries.']",Take out the batteries.,0
+2,0.3333333333333333,"['Take the back off the alarm clock.', 'Take out the batteries.']","['Put the back on the alarm clock.', 'Get new batteries.']",Get new batteries.,1
+3,0.5,"['Take the back off the alarm clock.', 'Take out the batteries.', 'Get new batteries.']","['Put batteries in the alarm clock.', 'Reset the clock.']",Put batteries in the alarm clock.,0
+4,0.6666666666666666,"['Take the back off the alarm clock.', 'Take out the batteries.', 'Get new batteries.', 'Put batteries in the alarm clock.']","['Put the back on the alarm clock.', 'Take the back off the alarm clock.']",Put the back on the alarm clock.,0
+5,0.8333333333333334,"['Take the back off the alarm clock.', 'Take out the batteries.', 'Get new batteries.', 'Put batteries in the alarm clock.', 'Put the back on the alarm clock.']","['Reset the clock.', 'Take the back off the alarm clock.']",Reset the clock.,0
+0,0.0,[],"['Remove batteries', 'Get replacement batteries']",Get replacement batteries,1
+1,0.16666666666666666,['Get replacement batteries'],"['Get screwdriver', 'Remove battery cover']",Get screwdriver,0
+2,0.3333333333333333,"['Get replacement batteries', 'Get screwdriver']","['Flip alarm clock over', 'Remove batteries']",Flip alarm clock over,0
+3,0.5,"['Get replacement batteries', 'Get screwdriver', 'Flip alarm clock over']","['Get replacement batteries', 'Unscrew battery cover']",Unscrew battery cover,1
+4,0.6666666666666666,"['Get replacement batteries', 'Get screwdriver', 'Flip alarm clock over', 'Unscrew battery cover']","['Get replacement batteries', 'Remove battery cover']",Remove battery cover,1
+5,0.8333333333333334,"['Get replacement batteries', 'Get screwdriver', 'Flip alarm clock over', 'Unscrew battery cover', 'Remove battery cover']","['Remove batteries', 'Flip alarm clock over']",Remove batteries,0
+0,0.0,[],"['Find some new baterries', 'Get alarm clock']",Get alarm clock,1
+1,0.16666666666666666,['Get alarm clock'],"['Find some new baterries', 'Open alarm clock']",Find some new baterries,0
+2,0.3333333333333333,"['Get alarm clock', 'Find some new baterries']","['Close the battery lid on alarm clock', 'Open alarm clock']",Open alarm clock,1
+3,0.5,"['Get alarm clock', 'Find some new baterries', 'Open alarm clock']","['Close the battery lid on alarm clock', 'Take out old batteries']",Take out old batteries,1
+4,0.6666666666666666,"['Get alarm clock', 'Find some new baterries', 'Open alarm clock', 'Take out old batteries']","['Put in new batteries', 'Get alarm clock']",Put in new batteries,0
+5,0.8333333333333334,"['Get alarm clock', 'Find some new baterries', 'Open alarm clock', 'Take out old batteries', 'Put in new batteries']","['Close the battery lid on alarm clock', 'Get alarm clock']",Close the battery lid on alarm clock,0
+0,0.0,[],"['put new batteries in the alarm clock', 'take the back off the alarm clock']",take the back off the alarm clock,1
+1,0.2,['take the back off the alarm clock'],"['take old batteries out.', 'look for the right size batteries']",look for the right size batteries,1
+2,0.4,"['take the back off the alarm clock', 'look for the right size batteries']","['put the back of the alarm clock back on', 'take old batteries out.']",take old batteries out.,1
+3,0.6,"['take the back off the alarm clock', 'look for the right size batteries', 'take old batteries out.']","['put new batteries in the alarm clock', 'take the back off the alarm clock']",put new batteries in the alarm clock,0
+4,0.8,"['take the back off the alarm clock', 'look for the right size batteries', 'take old batteries out.', 'put new batteries in the alarm clock']","['put the back of the alarm clock back on', 'look for the right size batteries']",put the back of the alarm clock back on,0
+0,0.0,[],"['Pick up alarm clock', 'Add new batteries to the alarm clock']",Pick up alarm clock,0
+1,0.16666666666666666,['Pick up alarm clock'],"['Add new batteries to the alarm clock', 'Remove the battery opening']",Remove the battery opening,1
+2,0.3333333333333333,"['Pick up alarm clock', 'Remove the battery opening']","['Add new batteries to the alarm clock', 'Take out the batteries']",Take out the batteries,1
+3,0.5,"['Pick up alarm clock', 'Remove the battery opening', 'Take out the batteries']","['Put the back on', 'Find new batteries']",Find new batteries,1
+4,0.6666666666666666,"['Pick up alarm clock', 'Remove the battery opening', 'Take out the batteries', 'Find new batteries']","['Pick up alarm clock', 'Add new batteries to the alarm clock']",Add new batteries to the alarm clock,1
+5,0.8333333333333334,"['Pick up alarm clock', 'Remove the battery opening', 'Take out the batteries', 'Find new batteries', 'Add new batteries to the alarm clock']","['Take out the batteries', 'Put the back on']",Put the back on,1
+0,0.0,[],"['Remove old batteries.', 'Open battery compartment.']",Open battery compartment.,1
+1,0.16666666666666666,['Open battery compartment.'],"['Open battery compartment.', 'Check number and size of batteries required.']",Check number and size of batteries required.,1
+2,0.3333333333333333,"['Open battery compartment.', 'Check number and size of batteries required.']","['Get appropriate number of correctly-sized batteries.', 'Check polarity indicators.']",Get appropriate number of correctly-sized batteries.,0
+3,0.5,"['Open battery compartment.', 'Check number and size of batteries required.', 'Get appropriate number of correctly-sized batteries.']","['Open battery compartment.', 'Remove old batteries.']",Remove old batteries.,1
+4,0.6666666666666666,"['Open battery compartment.', 'Check number and size of batteries required.', 'Get appropriate number of correctly-sized batteries.', 'Remove old batteries.']","['Check number and size of batteries required.', 'Check polarity indicators.']",Check polarity indicators.,1
+5,0.8333333333333334,"['Open battery compartment.', 'Check number and size of batteries required.', 'Get appropriate number of correctly-sized batteries.', 'Remove old batteries.', 'Check polarity indicators.']","['Get appropriate number of correctly-sized batteries.', 'Put in new batteries.']",Put in new batteries.,1
+0,0.0,[],"['Get new batteries', 'Replace old batteries with fresh batteries']",Get new batteries,0
+1,0.16666666666666666,['Get new batteries'],"['Remove battery panel from clock', 'Replace battery panel']",Remove battery panel from clock,0
+2,0.3333333333333333,"['Get new batteries', 'Remove battery panel from clock']","['Remove old batteries', 'Reset clock to correct time']",Remove old batteries,0
+3,0.5,"['Get new batteries', 'Remove battery panel from clock', 'Remove old batteries']","['Replace old batteries with fresh batteries', 'Get new batteries']",Replace old batteries with fresh batteries,0
+4,0.6666666666666666,"['Get new batteries', 'Remove battery panel from clock', 'Remove old batteries', 'Replace old batteries with fresh batteries']","['Get new batteries', 'Replace battery panel']",Replace battery panel,1
+5,0.8333333333333334,"['Get new batteries', 'Remove battery panel from clock', 'Remove old batteries', 'Replace old batteries with fresh batteries', 'Replace battery panel']","['Remove battery panel from clock', 'Reset clock to correct time']",Reset clock to correct time,1
+0,0.0,[],"['Replace cover', 'Open alarm clock']",Open alarm clock,1
+1,0.16666666666666666,['Open alarm clock'],"['Find battery size', 'Insert new batteries']",Find battery size,0
+2,0.3333333333333333,"['Open alarm clock', 'Find battery size']","['Get batteries from drawer', 'Replace cover']",Get batteries from drawer,0
+3,0.5,"['Open alarm clock', 'Find battery size', 'Get batteries from drawer']","['Take old batteries out of alarm clock', 'Open alarm clock']",Take old batteries out of alarm clock,0
+4,0.6666666666666666,"['Open alarm clock', 'Find battery size', 'Get batteries from drawer', 'Take old batteries out of alarm clock']","['Find battery size', 'Insert new batteries']",Insert new batteries,1
+5,0.8333333333333334,"['Open alarm clock', 'Find battery size', 'Get batteries from drawer', 'Take old batteries out of alarm clock', 'Insert new batteries']","['Get batteries from drawer', 'Replace cover']",Replace cover,1
+0,0.0,[],"['Pick up alarm clock', 'Get fresh batteries of the correct type']",Pick up alarm clock,0
+1,0.16666666666666666,['Pick up alarm clock'],"['Close battery compartment', 'Open battery compartment']",Open battery compartment,1
+2,0.3333333333333333,"['Pick up alarm clock', 'Open battery compartment']","['Put new batteries in alarm clock', 'Remove batteries']",Remove batteries,1
+3,0.5,"['Pick up alarm clock', 'Open battery compartment', 'Remove batteries']","['Get fresh batteries of the correct type', 'Pick up alarm clock']",Get fresh batteries of the correct type,0
+4,0.6666666666666666,"['Pick up alarm clock', 'Open battery compartment', 'Remove batteries', 'Get fresh batteries of the correct type']","['Pick up alarm clock', 'Put new batteries in alarm clock']",Put new batteries in alarm clock,1
+5,0.8333333333333334,"['Pick up alarm clock', 'Open battery compartment', 'Remove batteries', 'Get fresh batteries of the correct type', 'Put new batteries in alarm clock']","['Close battery compartment', 'Open battery compartment']",Close battery compartment,0
+0,0.0,[],"['Pick up the clock.', 'Take out old batteries.']",Pick up the clock.,0
+1,0.16666666666666666,['Pick up the clock.'],"['Put them in the clock.', 'Open battery compartment.']",Open battery compartment.,1
+2,0.3333333333333333,"['Pick up the clock.', 'Open battery compartment.']","['Take out old batteries.', 'Put them in the clock.']",Take out old batteries.,0
+3,0.5,"['Pick up the clock.', 'Open battery compartment.', 'Take out old batteries.']","['Close battery compartment.', 'Find new batteries.']",Find new batteries.,1
+4,0.6666666666666666,"['Pick up the clock.', 'Open battery compartment.', 'Take out old batteries.', 'Find new batteries.']","['Put them in the clock.', 'Open battery compartment.']",Put them in the clock.,0
+5,0.8333333333333334,"['Pick up the clock.', 'Open battery compartment.', 'Take out old batteries.', 'Find new batteries.', 'Put them in the clock.']","['Close battery compartment.', 'Open battery compartment.']",Close battery compartment.,0
+0,0.0,[],"['replace case', 'make sure it is not plugged in']",make sure it is not plugged in,1
+1,0.16666666666666666,['make sure it is not plugged in'],"['open batteries case', 'remove old batteries']",open batteries case,0
+2,0.3333333333333333,"['make sure it is not plugged in', 'open batteries case']","['toss out old batteries', 'remove old batteries']",remove old batteries,1
+3,0.5,"['make sure it is not plugged in', 'open batteries case', 'remove old batteries']","['place new batteries in', 'make sure it is not plugged in']",place new batteries in,0
+4,0.6666666666666666,"['make sure it is not plugged in', 'open batteries case', 'remove old batteries', 'place new batteries in']","['replace case', 'open batteries case']",replace case,0
+5,0.8333333333333334,"['make sure it is not plugged in', 'open batteries case', 'remove old batteries', 'place new batteries in', 'replace case']","['open batteries case', 'toss out old batteries']",toss out old batteries,1
+0,0.0,[],"['Notice dead alarm clock', 'Notice dead alarm clock']",Notice dead alarm clock,1
+1,0.16666666666666666,['Notice dead alarm clock'],"['Remove battery cover', 'Notice dead alarm clock']",Remove battery cover,0
+2,0.3333333333333333,"['Notice dead alarm clock', 'Remove battery cover']","['Remove dead batteries', 'Set clock time']",Remove dead batteries,0
+3,0.5,"['Notice dead alarm clock', 'Remove battery cover', 'Remove dead batteries']","['Notice dead alarm clock', 'Place new batteries in clock']",Place new batteries in clock,1
+4,0.6666666666666666,"['Notice dead alarm clock', 'Remove battery cover', 'Remove dead batteries', 'Place new batteries in clock']","['Notice dead alarm clock', 'Replace battery cover']",Replace battery cover,1
+5,0.8333333333333334,"['Notice dead alarm clock', 'Remove battery cover', 'Remove dead batteries', 'Place new batteries in clock', 'Replace battery cover']","['Set clock time', 'Remove dead batteries']",Set clock time,0
+0,0.0,[],"['Remove the old battery', 'Check to see what size battery you need']",Check to see what size battery you need,1
+1,0.16666666666666666,['Check to see what size battery you need'],"['Find the correct size battery', 'Put the new battery in']",Find the correct size battery,0
+2,0.3333333333333333,"['Check to see what size battery you need', 'Find the correct size battery']","['Take the cover off', 'Put the new battery in']",Take the cover off,0
+3,0.5,"['Check to see what size battery you need', 'Find the correct size battery', 'Take the cover off']","['Check to see what size battery you need', 'Remove the old battery']",Remove the old battery,1
+4,0.6666666666666666,"['Check to see what size battery you need', 'Find the correct size battery', 'Take the cover off', 'Remove the old battery']","['Put the new battery in', 'Find the correct size battery']",Put the new battery in,0
+5,0.8333333333333334,"['Check to see what size battery you need', 'Find the correct size battery', 'Take the cover off', 'Remove the old battery', 'Put the new battery in']","['Find the correct size battery', 'Replace the cover']",Replace the cover,1
+0,0.0,[],"['replace back', 'take back off of clock']",take back off of clock,1
+1,0.2,['take back off of clock'],"['place in clock', 'remove old batteries']",remove old batteries,1
+2,0.4,"['take back off of clock', 'remove old batteries']","['replace back', 'get new batteries']",get new batteries,1
+3,0.6,"['take back off of clock', 'remove old batteries', 'get new batteries']","['take back off of clock', 'place in clock']",place in clock,1
+4,0.8,"['take back off of clock', 'remove old batteries', 'get new batteries', 'place in clock']","['replace back', 'remove old batteries']",replace back,0
+0,0.0,[],"['take new batteries out of package', 'notice clock no longer works']",notice clock no longer works,1
+1,0.16666666666666666,['notice clock no longer works'],"['take new batteries out of package', 'unscrew battery compartment']",unscrew battery compartment,1
+2,0.3333333333333333,"['notice clock no longer works', 'unscrew battery compartment']","['screw battery compartment back on', 'remove old batteries']",remove old batteries,1
+3,0.5,"['notice clock no longer works', 'unscrew battery compartment', 'remove old batteries']","['notice clock no longer works', 'take new batteries out of package']",take new batteries out of package,1
+4,0.6666666666666666,"['notice clock no longer works', 'unscrew battery compartment', 'remove old batteries', 'take new batteries out of package']","['unscrew battery compartment', 'replace old batteries with new one']",replace old batteries with new one,1
+5,0.8333333333333334,"['notice clock no longer works', 'unscrew battery compartment', 'remove old batteries', 'take new batteries out of package', 'replace old batteries with new one']","['notice clock no longer works', 'screw battery compartment back on']",screw battery compartment back on,1
+0,0.0,[],"['Buy the batteries you are in need of', 'Buy the batteries you are in need of']",Buy the batteries you are in need of,1
+1,0.16666666666666666,['Buy the batteries you are in need of'],"['Take apart the alarm clock', 'Take apart the alarm clock']",Take apart the alarm clock,1
+2,0.3333333333333333,"['Buy the batteries you are in need of', 'Take apart the alarm clock']","['Put the alarm clock back together', 'Take out the old batteries']",Take out the old batteries,1
+3,0.5,"['Buy the batteries you are in need of', 'Take apart the alarm clock', 'Take out the old batteries']","['Put in the new batteries', 'Buy the batteries you are in need of']",Put in the new batteries,0
+4,0.6666666666666666,"['Buy the batteries you are in need of', 'Take apart the alarm clock', 'Take out the old batteries', 'Put in the new batteries']","['Take apart the alarm clock', 'Put the alarm clock back together']",Put the alarm clock back together,1
+5,0.8333333333333334,"['Buy the batteries you are in need of', 'Take apart the alarm clock', 'Take out the old batteries', 'Put in the new batteries', 'Put the alarm clock back together']","['Turn on alarm clock', 'Take apart the alarm clock']",Turn on alarm clock,0
+0,0.0,[],"['Close the the battery compartment plate', 'Figure out what type of batteries the clock needs']",Figure out what type of batteries the clock needs,1
+1,0.16666666666666666,['Figure out what type of batteries the clock needs'],"['Buy the required batteries', 'Place in new batteries']",Buy the required batteries,0
+2,0.3333333333333333,"['Figure out what type of batteries the clock needs', 'Buy the required batteries']","['Place in new batteries', 'Remove the battery compartment plate']",Remove the battery compartment plate,1
+3,0.5,"['Figure out what type of batteries the clock needs', 'Buy the required batteries', 'Remove the battery compartment plate']","['Figure out what type of batteries the clock needs', 'Remove old batteries']",Remove old batteries,1
+4,0.6666666666666666,"['Figure out what type of batteries the clock needs', 'Buy the required batteries', 'Remove the battery compartment plate', 'Remove old batteries']","['Place in new batteries', 'Figure out what type of batteries the clock needs']",Place in new batteries,0
+5,0.8333333333333334,"['Figure out what type of batteries the clock needs', 'Buy the required batteries', 'Remove the battery compartment plate', 'Remove old batteries', 'Place in new batteries']","['Buy the required batteries', 'Close the the battery compartment plate']",Close the the battery compartment plate,1
+0,0.0,[],"['Remove cover to battery.', 'Find new battery from battery drawer.']",Remove cover to battery.,0
+1,0.2,['Remove cover to battery.'],"['Take out battery.', 'Take out battery.']",Take out battery.,0
+2,0.4,"['Remove cover to battery.', 'Take out battery.']","['Find new battery from battery drawer.', 'Put battery cover back on alarm clock.']",Find new battery from battery drawer.,0
+3,0.6,"['Remove cover to battery.', 'Take out battery.', 'Find new battery from battery drawer.']","['Replace battery.', 'Remove cover to battery.']",Replace battery.,0
+4,0.8,"['Remove cover to battery.', 'Take out battery.', 'Find new battery from battery drawer.', 'Replace battery.']","['Remove cover to battery.', 'Put battery cover back on alarm clock.']",Put battery cover back on alarm clock.,1
+0,0.0,[],"['Open battery compartment', 'Open battery compartment']",Open battery compartment,1
+1,0.2,['Open battery compartment'],"['Add new batteries', 'Remove old batteries']",Remove old batteries,1
+2,0.4,"['Open battery compartment', 'Remove old batteries']","['Throw away old batteries', 'Close battery compartment']",Throw away old batteries,0
+3,0.6,"['Open battery compartment', 'Remove old batteries', 'Throw away old batteries']","['Add new batteries', 'Open battery compartment']",Add new batteries,0
+4,0.8,"['Open battery compartment', 'Remove old batteries', 'Throw away old batteries', 'Add new batteries']","['Open battery compartment', 'Close battery compartment']",Close battery compartment,1
+0,0.0,[],"['take off battery cover on clock.', 'pick up alarm clock.']",pick up alarm clock.,1
+1,0.16666666666666666,['pick up alarm clock.'],"['Remove bad batteries.', 'unplug clock.']",unplug clock.,1
+2,0.3333333333333333,"['pick up alarm clock.', 'unplug clock.']","['take off battery cover on clock.', 'Replace battery cover.']",take off battery cover on clock.,0
+3,0.5,"['pick up alarm clock.', 'unplug clock.', 'take off battery cover on clock.']","['Replace battery cover.', 'Remove bad batteries.']",Remove bad batteries.,1
+4,0.6666666666666666,"['pick up alarm clock.', 'unplug clock.', 'take off battery cover on clock.', 'Remove bad batteries.']","['pick up alarm clock.', 'Replace with new batteries.']",Replace with new batteries.,1
+5,0.8333333333333334,"['pick up alarm clock.', 'unplug clock.', 'take off battery cover on clock.', 'Remove bad batteries.', 'Replace with new batteries.']","['Replace battery cover.', 'pick up alarm clock.']",Replace battery cover.,0
+0,0.0,[],"['turn clock upside-down', 'set time and alarm']",turn clock upside-down,0
+1,0.16666666666666666,['turn clock upside-down'],"['put in new batteries', 'remove battery cover']",remove battery cover,1
+2,0.3333333333333333,"['turn clock upside-down', 'remove battery cover']","['remove old batteries', 'replace battery cover']",remove old batteries,0
+3,0.5,"['turn clock upside-down', 'remove battery cover', 'remove old batteries']","['turn clock upside-down', 'put in new batteries']",put in new batteries,1
+4,0.6666666666666666,"['turn clock upside-down', 'remove battery cover', 'remove old batteries', 'put in new batteries']","['remove battery cover', 'replace battery cover']",replace battery cover,1
+5,0.8333333333333334,"['turn clock upside-down', 'remove battery cover', 'remove old batteries', 'put in new batteries', 'replace battery cover']","['remove old batteries', 'set time and alarm']",set time and alarm,1
+0,0.0,[],"['Unplug alarm clock', 'remove back cover which houses the batteries']",Unplug alarm clock,0
+1,0.16666666666666666,['Unplug alarm clock'],"['remove back cover which houses the batteries', 'remove back cover which houses the batteries']",remove back cover which houses the batteries,0
+2,0.3333333333333333,"['Unplug alarm clock', 'remove back cover which houses the batteries']","['remove batteries', 'open packet of new batteries']",remove batteries,0
+3,0.5,"['Unplug alarm clock', 'remove back cover which houses the batteries', 'remove batteries']","['replace batteries', 'inspect the housing unit to ensure no corrosion']",inspect the housing unit to ensure no corrosion,1
+4,0.6666666666666666,"['Unplug alarm clock', 'remove back cover which houses the batteries', 'remove batteries', 'inspect the housing unit to ensure no corrosion']","['open packet of new batteries', 'Unplug alarm clock']",open packet of new batteries,0
+5,0.8333333333333334,"['Unplug alarm clock', 'remove back cover which houses the batteries', 'remove batteries', 'inspect the housing unit to ensure no corrosion', 'open packet of new batteries']","['replace batteries', 'remove batteries']",replace batteries,0
+0,0.0,[],"['REMOVE THE BACK FROM THE ALARM CLOCK', 'REMOVE THE BACK FROM THE ALARM CLOCK']",REMOVE THE BACK FROM THE ALARM CLOCK,0
+1,0.2,['REMOVE THE BACK FROM THE ALARM CLOCK'],"['REMOVE THE BACK FROM THE ALARM CLOCK', 'REMOVE THE BATTERIES THAT HAVE EXPIRED']",REMOVE THE BATTERIES THAT HAVE EXPIRED,1
+2,0.4,"['REMOVE THE BACK FROM THE ALARM CLOCK', 'REMOVE THE BATTERIES THAT HAVE EXPIRED']","['REPLACE THE BACK OF THE ALARM CLOCK', 'DISCARD OF THEM']",DISCARD OF THEM,1
+3,0.6,"['REMOVE THE BACK FROM THE ALARM CLOCK', 'REMOVE THE BATTERIES THAT HAVE EXPIRED', 'DISCARD OF THEM']","['REMOVE THE BACK FROM THE ALARM CLOCK', 'PUT THE NEW BATTERIES IN']",PUT THE NEW BATTERIES IN,1
+4,0.8,"['REMOVE THE BACK FROM THE ALARM CLOCK', 'REMOVE THE BATTERIES THAT HAVE EXPIRED', 'DISCARD OF THEM', 'PUT THE NEW BATTERIES IN']","['REMOVE THE BATTERIES THAT HAVE EXPIRED', 'REPLACE THE BACK OF THE ALARM CLOCK']",REPLACE THE BACK OF THE ALARM CLOCK,1
+0,0.0,[],"['Put in new batteries.', 'Pick up clock.']",Pick up clock.,1
+1,0.16666666666666666,['Pick up clock.'],"['Reset time on clock.', 'Open battery door on bottom.']",Open battery door on bottom.,1
+2,0.3333333333333333,"['Pick up clock.', 'Open battery door on bottom.']","['Reset time on clock.', 'Remove old batteries.']",Remove old batteries.,1
+3,0.5,"['Pick up clock.', 'Open battery door on bottom.', 'Remove old batteries.']","['Put in new batteries.', 'Reset time on clock.']",Put in new batteries.,0
+4,0.6666666666666666,"['Pick up clock.', 'Open battery door on bottom.', 'Remove old batteries.', 'Put in new batteries.']","['Pick up clock.', 'Close battery door.']",Close battery door.,1
+5,0.8333333333333334,"['Pick up clock.', 'Open battery door on bottom.', 'Remove old batteries.', 'Put in new batteries.', 'Close battery door.']","['Reset time on clock.', 'Remove old batteries.']",Reset time on clock.,0
+0,0.0,[],"['Get the clock.', 'Open the clock.']",Get the clock.,0
+1,0.16666666666666666,['Get the clock.'],"['Place new batteries in the clock.', 'Find the latch where the batteries are.']",Find the latch where the batteries are.,1
+2,0.3333333333333333,"['Get the clock.', 'Find the latch where the batteries are.']","['Put the clock back.', 'Open the clock.']",Open the clock.,1
+3,0.5,"['Get the clock.', 'Find the latch where the batteries are.', 'Open the clock.']","['Put the clock back.', 'Take out the old batteries.']",Take out the old batteries.,1
+4,0.6666666666666666,"['Get the clock.', 'Find the latch where the batteries are.', 'Open the clock.', 'Take out the old batteries.']","['Place new batteries in the clock.', 'Get the clock.']",Place new batteries in the clock.,0
+5,0.8333333333333334,"['Get the clock.', 'Find the latch where the batteries are.', 'Open the clock.', 'Take out the old batteries.', 'Place new batteries in the clock.']","['Get the clock.', 'Put the clock back.']",Put the clock back.,1
+0,0.0,[],"['Purchase new batteries', 'Purchase new batteries']",Purchase new batteries,1
+1,0.16666666666666666,['Purchase new batteries'],"[""Open the alarm clock's battery hatch"", 'close hatch']",Open the alarm clock's battery hatch,0
+2,0.3333333333333333,"['Purchase new batteries', ""Open the alarm clock's battery hatch""]","['close hatch', 'remove batteries']",remove batteries,1
+3,0.5,"['Purchase new batteries', ""Open the alarm clock's battery hatch"", 'remove batteries']","['replace old batteries with new batteries', 'test alarm clock']",replace old batteries with new batteries,0
+4,0.6666666666666666,"['Purchase new batteries', ""Open the alarm clock's battery hatch"", 'remove batteries', 'replace old batteries with new batteries']","['Purchase new batteries', 'close hatch']",close hatch,1
+5,0.8333333333333334,"['Purchase new batteries', ""Open the alarm clock's battery hatch"", 'remove batteries', 'replace old batteries with new batteries', 'close hatch']","['test alarm clock', 'remove batteries']",test alarm clock,0
+0,0.0,[],"['Buy new batteries', 'Buy new batteries']",Buy new batteries,0
+1,0.2,['Buy new batteries'],"['Buy new batteries', 'Remove old batteries from the clock']",Remove old batteries from the clock,1
+2,0.4,"['Buy new batteries', 'Remove old batteries from the clock']","['Install new batteries properly', 'Place the clock at its desired location']",Install new batteries properly,0
+3,0.6,"['Buy new batteries', 'Remove old batteries from the clock', 'Install new batteries properly']","['Buy new batteries', 'Adjust the time to make it accurate']",Adjust the time to make it accurate,1
+4,0.8,"['Buy new batteries', 'Remove old batteries from the clock', 'Install new batteries properly', 'Adjust the time to make it accurate']","['Buy new batteries', 'Place the clock at its desired location']",Place the clock at its desired location,1
+0,0.0,[],"['remove old batteries from alarm clock', 'place new batteries in alarm clock']",remove old batteries from alarm clock,0
+1,0.16666666666666666,['remove old batteries from alarm clock'],"['dispose of old batteries properly', 'obtain new batteries']",obtain new batteries,1
+2,0.3333333333333333,"['remove old batteries from alarm clock', 'obtain new batteries']","['place new batteries in alarm clock', 'place alarm clock in original location']",place new batteries in alarm clock,0
+3,0.5,"['remove old batteries from alarm clock', 'obtain new batteries', 'place new batteries in alarm clock']","['remove old batteries from alarm clock', 'assure alarm clock turns on']",assure alarm clock turns on,1
+4,0.6666666666666666,"['remove old batteries from alarm clock', 'obtain new batteries', 'place new batteries in alarm clock', 'assure alarm clock turns on']","['dispose of old batteries properly', 'remove old batteries from alarm clock']",dispose of old batteries properly,0
+5,0.8333333333333334,"['remove old batteries from alarm clock', 'obtain new batteries', 'place new batteries in alarm clock', 'assure alarm clock turns on', 'dispose of old batteries properly']","['place alarm clock in original location', 'obtain new batteries']",place alarm clock in original location,0
+0,0.0,[],"['Locate the battery compartment on the alarm clock.', 'Remove the battery compartment cover.']",Locate the battery compartment on the alarm clock.,0
+1,0.16666666666666666,['Locate the battery compartment on the alarm clock.'],"['Replace the battery compartment cover.', 'Remove the battery compartment cover.']",Remove the battery compartment cover.,1
+2,0.3333333333333333,"['Locate the battery compartment on the alarm clock.', 'Remove the battery compartment cover.']","['Remove the old batteries.', 'Replace the battery compartment cover.']",Remove the old batteries.,0
+3,0.5,"['Locate the battery compartment on the alarm clock.', 'Remove the battery compartment cover.', 'Remove the old batteries.']","['Insert new fresh batteries.', 'Locate the battery compartment on the alarm clock.']",Insert new fresh batteries.,0
+4,0.6666666666666666,"['Locate the battery compartment on the alarm clock.', 'Remove the battery compartment cover.', 'Remove the old batteries.', 'Insert new fresh batteries.']","['Locate the battery compartment on the alarm clock.', 'Replace the battery compartment cover.']",Replace the battery compartment cover.,1
+5,0.8333333333333334,"['Locate the battery compartment on the alarm clock.', 'Remove the battery compartment cover.', 'Remove the old batteries.', 'Insert new fresh batteries.', 'Replace the battery compartment cover.']","['Remove the old batteries.', 'Set the clock for the proper time.']",Set the clock for the proper time.,1
+0,0.0,[],"['Take out bad batteries.', 'Open back of alarm clock.']",Open back of alarm clock.,1
+1,0.2,['Open back of alarm clock.'],"['Take out bad batteries.', 'Close back of alarm clock.']",Take out bad batteries.,0
+2,0.4,"['Open back of alarm clock.', 'Take out bad batteries.']","['Throw away bad batteries.', 'Close back of alarm clock.']",Throw away bad batteries.,0
+3,0.6,"['Open back of alarm clock.', 'Take out bad batteries.', 'Throw away bad batteries.']","['Open back of alarm clock.', 'Put in new batteries.']",Put in new batteries.,1
+4,0.8,"['Open back of alarm clock.', 'Take out bad batteries.', 'Throw away bad batteries.', 'Put in new batteries.']","['Close back of alarm clock.', 'Take out bad batteries.']",Close back of alarm clock.,0
+0,0.0,[],"['Get new batteries.', 'Slide battery cover off using the small tab.']",Get new batteries.,0
+1,0.16666666666666666,['Get new batteries.'],"['Slide battery cover off using the small tab.', 'Take alarm clock to an area with good lighting.']",Take alarm clock to an area with good lighting.,1
+2,0.3333333333333333,"['Get new batteries.', 'Take alarm clock to an area with good lighting.']","['Remove old batteries one by one.', 'Slide battery cover off using the small tab.']",Slide battery cover off using the small tab.,1
+3,0.5,"['Get new batteries.', 'Take alarm clock to an area with good lighting.', 'Slide battery cover off using the small tab.']","['Remember which way the batteries are facing before removing them.', 'Get new batteries.']",Remember which way the batteries are facing before removing them.,0
+4,0.6666666666666666,"['Get new batteries.', 'Take alarm clock to an area with good lighting.', 'Slide battery cover off using the small tab.', 'Remember which way the batteries are facing before removing them.']","['Remove old batteries one by one.', 'Get new batteries.']",Remove old batteries one by one.,0
+5,0.8333333333333334,"['Get new batteries.', 'Take alarm clock to an area with good lighting.', 'Slide battery cover off using the small tab.', 'Remember which way the batteries are facing before removing them.', 'Remove old batteries one by one.']","['Put new batteries in one by one as you remove old ones.', 'Get new batteries.']",Put new batteries in one by one as you remove old ones.,0
+0,0.0,[],"['Get new batteries', 'Place batteries in battery case']",Get new batteries,0
+1,0.16666666666666666,['Get new batteries'],"['Open battery case on alarm clock', 'Place batteries in battery case']",Open battery case on alarm clock,0
+2,0.3333333333333333,"['Get new batteries', 'Open battery case on alarm clock']","['Check proper alignment of batteries', 'Close battery case']",Check proper alignment of batteries,0
+3,0.5,"['Get new batteries', 'Open battery case on alarm clock', 'Check proper alignment of batteries']","['Get new batteries', 'Place batteries in battery case']",Place batteries in battery case,1
+4,0.6666666666666666,"['Get new batteries', 'Open battery case on alarm clock', 'Check proper alignment of batteries', 'Place batteries in battery case']","['Close battery case', 'Open battery case on alarm clock']",Close battery case,0
+5,0.8333333333333334,"['Get new batteries', 'Open battery case on alarm clock', 'Check proper alignment of batteries', 'Place batteries in battery case', 'Close battery case']","['Check that alarm clock is working properly', 'Get new batteries']",Check that alarm clock is working properly,0
+0,0.0,[],"['Close compartment.', 'Open up battery compartment.']",Open up battery compartment.,1
+1,0.16666666666666666,['Open up battery compartment.'],"['Take out old batteries.', 'Set alarm.']",Take out old batteries.,0
+2,0.3333333333333333,"['Open up battery compartment.', 'Take out old batteries.']","['Put new batteries in.', 'Set alarm.']",Put new batteries in.,0
+3,0.5,"['Open up battery compartment.', 'Take out old batteries.', 'Put new batteries in.']","['Close compartment.', 'Put on table.']",Close compartment.,0
+4,0.6666666666666666,"['Open up battery compartment.', 'Take out old batteries.', 'Put new batteries in.', 'Close compartment.']","['Set alarm.', 'Take out old batteries.']",Set alarm.,0
+5,0.8333333333333334,"['Open up battery compartment.', 'Take out old batteries.', 'Put new batteries in.', 'Close compartment.', 'Set alarm.']","['Put on table.', 'Take out old batteries.']",Put on table.,0
+0,0.0,[],"['Check which kind of batteries your clock takes', 'Get new batteries from the store']",Check which kind of batteries your clock takes,0
+1,0.16666666666666666,['Check which kind of batteries your clock takes'],"['Turn your clock over', 'Get new batteries from the store']",Get new batteries from the store,1
+2,0.3333333333333333,"['Check which kind of batteries your clock takes', 'Get new batteries from the store']","['Get your alarm clock', 'Open battery compartment']",Get your alarm clock,0
+3,0.5,"['Check which kind of batteries your clock takes', 'Get new batteries from the store', 'Get your alarm clock']","['Turn your clock over', 'Remove old batteries']",Turn your clock over,0
+4,0.6666666666666666,"['Check which kind of batteries your clock takes', 'Get new batteries from the store', 'Get your alarm clock', 'Turn your clock over']","['Open battery compartment', 'Check which kind of batteries your clock takes']",Open battery compartment,0
+5,0.8333333333333334,"['Check which kind of batteries your clock takes', 'Get new batteries from the store', 'Get your alarm clock', 'Turn your clock over', 'Open battery compartment']","['Remove old batteries', 'Get new batteries from the store']",Remove old batteries,0
+0,0.0,[],"['Open battery case', 'Put new batteries in alarm clock.']",Open battery case,0
+1,0.16666666666666666,['Open battery case'],"['Take dead batteries out of alarm clock.', 'Reset time on alarm clock.']",Take dead batteries out of alarm clock.,0
+2,0.3333333333333333,"['Open battery case', 'Take dead batteries out of alarm clock.']","['Open pack of batteries', 'Close battery case.']",Open pack of batteries,0
+3,0.5,"['Open battery case', 'Take dead batteries out of alarm clock.', 'Open pack of batteries']","['Put new batteries in alarm clock.', 'Reset time on alarm clock.']",Put new batteries in alarm clock.,0
+4,0.6666666666666666,"['Open battery case', 'Take dead batteries out of alarm clock.', 'Open pack of batteries', 'Put new batteries in alarm clock.']","['Close battery case.', 'Open battery case']",Close battery case.,0
+5,0.8333333333333334,"['Open battery case', 'Take dead batteries out of alarm clock.', 'Open pack of batteries', 'Put new batteries in alarm clock.', 'Close battery case.']","['Reset time on alarm clock.', 'Open pack of batteries']",Reset time on alarm clock.,0
+0,0.0,[],"['Get batteries ready', 'Put in the new batteries']",Get batteries ready,0
+1,0.16666666666666666,['Get batteries ready'],"['Take out the old batteries', 'Find the alarm clock']",Find the alarm clock,1
+2,0.3333333333333333,"['Get batteries ready', 'Find the alarm clock']","[""Remove the cover that's hiding the batteries"", 'Put in the new batteries']",Remove the cover that's hiding the batteries,0
+3,0.5,"['Get batteries ready', 'Find the alarm clock', ""Remove the cover that's hiding the batteries""]","['Take out the old batteries', 'Replace the cover']",Take out the old batteries,0
+4,0.6666666666666666,"['Get batteries ready', 'Find the alarm clock', ""Remove the cover that's hiding the batteries"", 'Take out the old batteries']","['Put in the new batteries', 'Find the alarm clock']",Put in the new batteries,0
+5,0.8333333333333334,"['Get batteries ready', 'Find the alarm clock', ""Remove the cover that's hiding the batteries"", 'Take out the old batteries', 'Put in the new batteries']","['Replace the cover', ""Remove the cover that's hiding the batteries""]",Replace the cover,0
+0,0.0,[],"['Put the new batteries in.', 'Get new batteries.']",Get new batteries.,1
+1,0.2,['Get new batteries.'],"['Test and see if it will work.', 'Take the old batteries out of an alarm clock.']",Take the old batteries out of an alarm clock.,1
+2,0.4,"['Get new batteries.', 'Take the old batteries out of an alarm clock.']","['Put the new batteries in.', 'Recycle the old batteries.']",Put the new batteries in.,0
+3,0.6,"['Get new batteries.', 'Take the old batteries out of an alarm clock.', 'Put the new batteries in.']","['Test and see if it will work.', 'Get new batteries.']",Test and see if it will work.,0
+4,0.8,"['Get new batteries.', 'Take the old batteries out of an alarm clock.', 'Put the new batteries in.', 'Test and see if it will work.']","['Recycle the old batteries.', 'Get new batteries.']",Recycle the old batteries.,0
+0,0.0,[],"['Open the battery slot.', 'Find some new batteries.']",Find some new batteries.,1
+1,0.16666666666666666,['Find some new batteries.'],"['Open the battery slot.', 'Grab the alarm clock.']",Grab the alarm clock.,1
+2,0.3333333333333333,"['Find some new batteries.', 'Grab the alarm clock.']","['Open the battery slot.', 'Place in the batteries.']",Open the battery slot.,0
+3,0.5,"['Find some new batteries.', 'Grab the alarm clock.', 'Open the battery slot.']","['Check the negative and positive ends.', 'Close the battery slot.']",Check the negative and positive ends.,0
+4,0.6666666666666666,"['Find some new batteries.', 'Grab the alarm clock.', 'Open the battery slot.', 'Check the negative and positive ends.']","['Place in the batteries.', 'Find some new batteries.']",Place in the batteries.,0
+5,0.8333333333333334,"['Find some new batteries.', 'Grab the alarm clock.', 'Open the battery slot.', 'Check the negative and positive ends.', 'Place in the batteries.']","['Close the battery slot.', 'Open the battery slot.']",Close the battery slot.,0
+0,0.0,[],"['open the back of the clock', 'get batteries']",get batteries,1
+1,0.16666666666666666,['get batteries'],"['pick up clock', 'look and see which way the batteries go in']",pick up clock,0
+2,0.3333333333333333,"['get batteries', 'pick up clock']","['open the back of the clock', 'look and see which way the batteries go in']",open the back of the clock,0
+3,0.5,"['get batteries', 'pick up clock', 'open the back of the clock']","['get batteries', 'take out old batteries']",take out old batteries,1
+4,0.6666666666666666,"['get batteries', 'pick up clock', 'open the back of the clock', 'take out old batteries']","['pick up clock', 'look and see which way the batteries go in']",look and see which way the batteries go in,1
+5,0.8333333333333334,"['get batteries', 'pick up clock', 'open the back of the clock', 'take out old batteries', 'look and see which way the batteries go in']","['open the back of the clock', 'place batteries into clock']",place batteries into clock,1
+0,0.0,[],"['Remove battery cover from clock.', 'Remove old batteries.']",Remove battery cover from clock.,0
+1,0.16666666666666666,['Remove battery cover from clock.'],"['Remove old batteries.', 'Check battery size.']",Check battery size.,1
+2,0.3333333333333333,"['Remove battery cover from clock.', 'Check battery size.']","['Remove old batteries.', 'Replace battery cover.']",Remove old batteries.,0
+3,0.5,"['Remove battery cover from clock.', 'Check battery size.', 'Remove old batteries.']","['Dispose of old batteries properly.', 'Remove battery cover from clock.']",Dispose of old batteries properly.,0
+4,0.6666666666666666,"['Remove battery cover from clock.', 'Check battery size.', 'Remove old batteries.', 'Dispose of old batteries properly.']","['Place new batteries into clock.', 'Remove battery cover from clock.']",Place new batteries into clock.,0
+5,0.8333333333333334,"['Remove battery cover from clock.', 'Check battery size.', 'Remove old batteries.', 'Dispose of old batteries properly.', 'Place new batteries into clock.']","['Check battery size.', 'Replace battery cover.']",Replace battery cover.,1
+0,0.0,[],"['Open battery compartment face-plate', 'Open battery compartment face-plate']",Open battery compartment face-plate,1
+1,0.2,['Open battery compartment face-plate'],"['Get new batteries', 'Remove old batteries']",Remove old batteries,1
+2,0.4,"['Open battery compartment face-plate', 'Remove old batteries']","['Replace compartment face-plate', 'Get new batteries']",Get new batteries,1
+3,0.6,"['Open battery compartment face-plate', 'Remove old batteries', 'Get new batteries']","['Open battery compartment face-plate', 'Put new batteries into compartment']",Put new batteries into compartment,1
+4,0.8,"['Open battery compartment face-plate', 'Remove old batteries', 'Get new batteries', 'Put new batteries into compartment']","['Remove old batteries', 'Replace compartment face-plate']",Replace compartment face-plate,1
+0,0.0,[],"['Get new battery', 'Remove battery cover']",Get new battery,0
+1,0.16666666666666666,['Get new battery'],"['Throw away cover', 'Check expiry date']",Check expiry date,1
+2,0.3333333333333333,"['Get new battery', 'Check expiry date']","['Remove battery cover', 'Remove old battery']",Remove battery cover,0
+3,0.5,"['Get new battery', 'Check expiry date', 'Remove battery cover']","['Throw away cover', 'Remove old battery']",Throw away cover,0
+4,0.6666666666666666,"['Get new battery', 'Check expiry date', 'Remove battery cover', 'Throw away cover']","['Take alarm clock', 'Get new battery']",Take alarm clock,0
+5,0.8333333333333334,"['Get new battery', 'Check expiry date', 'Remove battery cover', 'Throw away cover', 'Take alarm clock']","['Remove old battery', 'Remove battery cover']",Remove old battery,0
+0,0.0,[],"['Remove battery cover from the alarm clock.', 'Get batteries.']",Remove battery cover from the alarm clock.,0
+1,0.16666666666666666,['Remove battery cover from the alarm clock.'],"['Determine what type of batteries that you are going to need.', 'Remove battery cover from the alarm clock.']",Determine what type of batteries that you are going to need.,0
+2,0.3333333333333333,"['Remove battery cover from the alarm clock.', 'Determine what type of batteries that you are going to need.']","['Remove battery cover from the alarm clock.', 'Replace battery cover.']",Replace battery cover.,1
+3,0.5,"['Remove battery cover from the alarm clock.', 'Determine what type of batteries that you are going to need.', 'Replace battery cover.']","['Remove battery cover from the alarm clock.', 'Get batteries.']",Get batteries.,1
+4,0.6666666666666666,"['Remove battery cover from the alarm clock.', 'Determine what type of batteries that you are going to need.', 'Replace battery cover.', 'Get batteries.']","['Remove battery cover from the alarm clock.', 'Remove battery cover from the alarm clock.']",Remove battery cover from the alarm clock.,0
+5,0.8333333333333334,"['Remove battery cover from the alarm clock.', 'Determine what type of batteries that you are going to need.', 'Replace battery cover.', 'Get batteries.', 'Remove battery cover from the alarm clock.']","['Remove old batteries and dispose of properly (recycling, if possible).', 'Determine what type of batteries that you are going to need.']","Remove old batteries and dispose of properly (recycling, if possible).",0
+0,0.0,[],"['have new batteries available', 'put new batteries in alarm clock']",have new batteries available,0
+1,0.16666666666666666,['have new batteries available'],"['grab alarm clock', 'grab alarm clock']",grab alarm clock,1
+2,0.3333333333333333,"['have new batteries available', 'grab alarm clock']","['take old batteries out of alarm clock', 'turn on alarm clock and set desired time']",take old batteries out of alarm clock,0
+3,0.5,"['have new batteries available', 'grab alarm clock', 'take old batteries out of alarm clock']","['put new batteries in alarm clock', 'have new batteries available']",put new batteries in alarm clock,0
+4,0.6666666666666666,"['have new batteries available', 'grab alarm clock', 'take old batteries out of alarm clock', 'put new batteries in alarm clock']","['grab alarm clock', 'close alarm clock']",close alarm clock,1
+5,0.8333333333333334,"['have new batteries available', 'grab alarm clock', 'take old batteries out of alarm clock', 'put new batteries in alarm clock', 'close alarm clock']","['turn on alarm clock and set desired time', 'have new batteries available']",turn on alarm clock and set desired time,0
+0,0.0,[],"['Take out the exhausted batteries', 'Take the new batteries']",Take the new batteries,1
+1,0.16666666666666666,['Take the new batteries'],"['Take the new batteries', 'Open the back cover of the alarm clock']",Open the back cover of the alarm clock,1
+2,0.3333333333333333,"['Take the new batteries', 'Open the back cover of the alarm clock']","['Close the battery cover', 'Take out the exhausted batteries']",Take out the exhausted batteries,1
+3,0.5,"['Take the new batteries', 'Open the back cover of the alarm clock', 'Take out the exhausted batteries']","['Take out the batteries from their covers', 'Take the new batteries']",Take out the batteries from their covers,0
+4,0.6666666666666666,"['Take the new batteries', 'Open the back cover of the alarm clock', 'Take out the exhausted batteries', 'Take out the batteries from their covers']","['Open the back cover of the alarm clock', 'Insert new batteries in the alarm clock maintaining the correct polarity']",Insert new batteries in the alarm clock maintaining the correct polarity,1
+5,0.8333333333333334,"['Take the new batteries', 'Open the back cover of the alarm clock', 'Take out the exhausted batteries', 'Take out the batteries from their covers', 'Insert new batteries in the alarm clock maintaining the correct polarity']","['Open the back cover of the alarm clock', 'Close the battery cover']",Close the battery cover,1
+0,0.0,[],"['Get what batteries you need.', 'Open the battery compartment.']",Open the battery compartment.,1
+1,0.16666666666666666,['Open the battery compartment.'],"['Get what batteries you need.', 'Check to see what type and how many batteries you need.']",Check to see what type and how many batteries you need.,1
+2,0.3333333333333333,"['Open the battery compartment.', 'Check to see what type and how many batteries you need.']","['When installing batteries check to see which way they go in.', 'Get what batteries you need.']",Get what batteries you need.,1
+3,0.5,"['Open the battery compartment.', 'Check to see what type and how many batteries you need.', 'Get what batteries you need.']","['Open the battery compartment.', 'Install batteries.']",Install batteries.,1
+4,0.6666666666666666,"['Open the battery compartment.', 'Check to see what type and how many batteries you need.', 'Get what batteries you need.', 'Install batteries.']","['When installing batteries check to see which way they go in.', 'Open the battery compartment.']",When installing batteries check to see which way they go in.,0
+5,0.8333333333333334,"['Open the battery compartment.', 'Check to see what type and how many batteries you need.', 'Get what batteries you need.', 'Install batteries.', 'When installing batteries check to see which way they go in.']","['Open the battery compartment.', 'Close battery compartment.']",Close battery compartment.,1
+0,0.0,[],"['Remove battery cover', 'Set the alarm']",Remove battery cover,0
+1,0.16666666666666666,['Remove battery cover'],"['Remove battery cover', 'Remove old batteries']",Remove old batteries,1
+2,0.3333333333333333,"['Remove battery cover', 'Remove old batteries']","['Set the alarm', 'Insert new batteries']",Insert new batteries,1
+3,0.5,"['Remove battery cover', 'Remove old batteries', 'Insert new batteries']","['Replace battery cover', 'Remove battery cover']",Replace battery cover,0
+4,0.6666666666666666,"['Remove battery cover', 'Remove old batteries', 'Insert new batteries', 'Replace battery cover']","['Remove battery cover', 'Set the time']",Set the time,1
+5,0.8333333333333334,"['Remove battery cover', 'Remove old batteries', 'Insert new batteries', 'Replace battery cover', 'Set the time']","['Remove old batteries', 'Set the alarm']",Set the alarm,1
+0,0.0,[],"['set the alarm', 'take the alarm clock']",take the alarm clock,1
+1,0.16666666666666666,['take the alarm clock'],"['take out the old batteries', 'insert the new batteries into the alarm clock']",take out the old batteries,0
+2,0.3333333333333333,"['take the alarm clock', 'take out the old batteries']","['open the new batteries', 'switch on the alarm clock']",open the new batteries,0
+3,0.5,"['take the alarm clock', 'take out the old batteries', 'open the new batteries']","['set the alarm', 'insert the new batteries into the alarm clock']",insert the new batteries into the alarm clock,1
+4,0.6666666666666666,"['take the alarm clock', 'take out the old batteries', 'open the new batteries', 'insert the new batteries into the alarm clock']","['switch on the alarm clock', 'take out the old batteries']",switch on the alarm clock,0
+5,0.8333333333333334,"['take the alarm clock', 'take out the old batteries', 'open the new batteries', 'insert the new batteries into the alarm clock', 'switch on the alarm clock']","['set the alarm', 'open the new batteries']",set the alarm,0
+0,0.0,[],"['Place the new batteries into the clock', 'Take back off of alarm clock']",Take back off of alarm clock,1
+1,0.2,['Take back off of alarm clock'],"['Remove old batteries', 'Remove old batteries']",Remove old batteries,0
+2,0.4,"['Take back off of alarm clock', 'Remove old batteries']","['Update the time', 'Place the new batteries into the clock']",Place the new batteries into the clock,1
+3,0.6,"['Take back off of alarm clock', 'Remove old batteries', 'Place the new batteries into the clock']","['Replace cover', 'Take back off of alarm clock']",Replace cover,0
+4,0.8,"['Take back off of alarm clock', 'Remove old batteries', 'Place the new batteries into the clock', 'Replace cover']","['Take back off of alarm clock', 'Update the time']",Update the time,1
+0,0.0,[],"['Get new batteries of correct size', 'Take out old batteries']",Get new batteries of correct size,0
+1,0.16666666666666666,['Get new batteries of correct size'],"['Discard old batteries', 'Remove alarm clock battery cover']",Remove alarm clock battery cover,1
+2,0.3333333333333333,"['Get new batteries of correct size', 'Remove alarm clock battery cover']","['Insert new batteries', 'Take out old batteries']",Take out old batteries,1
+3,0.5,"['Get new batteries of correct size', 'Remove alarm clock battery cover', 'Take out old batteries']","['Replace clock cover', 'Discard old batteries']",Discard old batteries,1
+4,0.6666666666666666,"['Get new batteries of correct size', 'Remove alarm clock battery cover', 'Take out old batteries', 'Discard old batteries']","['Insert new batteries', 'Remove alarm clock battery cover']",Insert new batteries,0
+5,0.8333333333333334,"['Get new batteries of correct size', 'Remove alarm clock battery cover', 'Take out old batteries', 'Discard old batteries', 'Insert new batteries']","['Remove alarm clock battery cover', 'Replace clock cover']",Replace clock cover,1
+0,0.0,[],"['Get alarm clock', 'Remove old batteries']",Get alarm clock,0
+1,0.16666666666666666,['Get alarm clock'],"['Remove battery compartment hatch', 'Put new batteries in']",Remove battery compartment hatch,0
+2,0.3333333333333333,"['Get alarm clock', 'Remove battery compartment hatch']","['Put new batteries in', 'Remove old batteries']",Remove old batteries,1
+3,0.5,"['Get alarm clock', 'Remove battery compartment hatch', 'Remove old batteries']","['Replace battery compartment hatch', 'Discard old batteries']",Discard old batteries,1
+4,0.6666666666666666,"['Get alarm clock', 'Remove battery compartment hatch', 'Remove old batteries', 'Discard old batteries']","['Get alarm clock', 'Put new batteries in']",Put new batteries in,1
+5,0.8333333333333334,"['Get alarm clock', 'Remove battery compartment hatch', 'Remove old batteries', 'Discard old batteries', 'Put new batteries in']","['Get alarm clock', 'Replace battery compartment hatch']",Replace battery compartment hatch,1
+0,0.0,[],"['Open battery cover', 'Get clock']",Get clock,1
+1,0.16666666666666666,['Get clock'],"['Get new batteries', 'Open battery cover']",Open battery cover,1
+2,0.3333333333333333,"['Get clock', 'Open battery cover']","['Put batteries into clock', 'Take out old batteries']",Take out old batteries,1
+3,0.5,"['Get clock', 'Open battery cover', 'Take out old batteries']","['Get clock', 'Get new batteries']",Get new batteries,1
+4,0.6666666666666666,"['Get clock', 'Open battery cover', 'Take out old batteries', 'Get new batteries']","['Take them out of package', 'Open battery cover']",Take them out of package,0
+5,0.8333333333333334,"['Get clock', 'Open battery cover', 'Take out old batteries', 'Get new batteries', 'Take them out of package']","['Put batteries into clock', 'Take out old batteries']",Put batteries into clock,0
+0,0.0,[],"['Determine the battery size that is used by the alarm clock.', 'Get the appropriate number of correctly sized batteries from your storage location.']",Determine the battery size that is used by the alarm clock.,0
+1,0.16666666666666666,['Determine the battery size that is used by the alarm clock.'],"['Get the appropriate number of correctly sized batteries from your storage location.', 'Get the appropriate number of correctly sized batteries from your storage location.']",Get the appropriate number of correctly sized batteries from your storage location.,0
+2,0.3333333333333333,"['Determine the battery size that is used by the alarm clock.', 'Get the appropriate number of correctly sized batteries from your storage location.']","['Open the battery compartment on the alarm clock.', 'Remove the existing batteries.']",Open the battery compartment on the alarm clock.,0
+3,0.5,"['Determine the battery size that is used by the alarm clock.', 'Get the appropriate number of correctly sized batteries from your storage location.', 'Open the battery compartment on the alarm clock.']","['Note in which direction the existing batteries are installed.', 'Install the new batteries facing the same direction as the old batteries.']",Note in which direction the existing batteries are installed.,0
+4,0.6666666666666666,"['Determine the battery size that is used by the alarm clock.', 'Get the appropriate number of correctly sized batteries from your storage location.', 'Open the battery compartment on the alarm clock.', 'Note in which direction the existing batteries are installed.']","['Get the appropriate number of correctly sized batteries from your storage location.', 'Remove the existing batteries.']",Remove the existing batteries.,1
+5,0.8333333333333334,"['Determine the battery size that is used by the alarm clock.', 'Get the appropriate number of correctly sized batteries from your storage location.', 'Open the battery compartment on the alarm clock.', 'Note in which direction the existing batteries are installed.', 'Remove the existing batteries.']","['Install the new batteries facing the same direction as the old batteries.', 'Open the battery compartment on the alarm clock.']",Install the new batteries facing the same direction as the old batteries.,0
+0,0.0,[],"['Grab a screw driver', 'Take cover off of battery holder']",Grab a screw driver,0
+1,0.16666666666666666,['Grab a screw driver'],"['Grab some new batteries', 'Put cover back on']",Grab some new batteries,0
+2,0.3333333333333333,"['Grab a screw driver', 'Grab some new batteries']","['Put in new batteries', 'Take cover off of battery holder']",Take cover off of battery holder,1
+3,0.5,"['Grab a screw driver', 'Grab some new batteries', 'Take cover off of battery holder']","['Take out old batteries', 'Grab a screw driver']",Take out old batteries,0
+4,0.6666666666666666,"['Grab a screw driver', 'Grab some new batteries', 'Take cover off of battery holder', 'Take out old batteries']","['Put in new batteries', 'Grab some new batteries']",Put in new batteries,0
+5,0.8333333333333334,"['Grab a screw driver', 'Grab some new batteries', 'Take cover off of battery holder', 'Take out old batteries', 'Put in new batteries']","['Put cover back on', 'Take cover off of battery holder']",Put cover back on,0
+0,0.0,[],"['Open new battery back', 'Open battery compartment']",Open battery compartment,1
+1,0.16666666666666666,['Open battery compartment'],"['Dispose of old batteries', 'Take out old batteries']",Take out old batteries,1
+2,0.3333333333333333,"['Open battery compartment', 'Take out old batteries']","['Put new batteries in compartment', 'Dispose of old batteries']",Dispose of old batteries,1
+3,0.5,"['Open battery compartment', 'Take out old batteries', 'Dispose of old batteries']","['Open new battery back', 'Close battery compartment']",Open new battery back,0
+4,0.6666666666666666,"['Open battery compartment', 'Take out old batteries', 'Dispose of old batteries', 'Open new battery back']","['Take out old batteries', 'Put new batteries in compartment']",Put new batteries in compartment,1
+5,0.8333333333333334,"['Open battery compartment', 'Take out old batteries', 'Dispose of old batteries', 'Open new battery back', 'Put new batteries in compartment']","['Open battery compartment', 'Close battery compartment']",Close battery compartment,1

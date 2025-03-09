@@ -1,0 +1,461 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Enter the spa', 'take a seat']",Enter the spa,0
+1,0.2,['Enter the spa'],"['enter locker room', 'enter locker room']",enter locker room,0
+2,0.4,"['Enter the spa', 'enter locker room']","['get undressed or dressed correctly', 'take a seat']",get undressed or dressed correctly,0
+3,0.6,"['Enter the spa', 'enter locker room', 'get undressed or dressed correctly']","['enter the sauna room', 'Enter the spa']",enter the sauna room,0
+4,0.8,"['Enter the spa', 'enter locker room', 'get undressed or dressed correctly', 'enter the sauna room']","['Enter the spa', 'take a seat']",take a seat,1
+0,0.0,[],"['Pay for entry into sauna.', 'Getting clothes ready.']",Getting clothes ready.,1
+1,0.2,['Getting clothes ready.'],"['Pay for entry into sauna.', 'Get in your car.']",Get in your car.,1
+2,0.4,"['Getting clothes ready.', 'Get in your car.']","['Pay for entry into sauna.', 'Drive to sauna location.']",Drive to sauna location.,1
+3,0.6,"['Getting clothes ready.', 'Get in your car.', 'Drive to sauna location.']","['Get out of car.', 'Getting clothes ready.']",Get out of car.,0
+4,0.8,"['Getting clothes ready.', 'Get in your car.', 'Drive to sauna location.', 'Get out of car.']","['Getting clothes ready.', 'Pay for entry into sauna.']",Pay for entry into sauna.,1
+0,0.0,[],"['Go to the locker room', 'Go to the gym']",Go to the gym,1
+1,0.2,['Go to the gym'],"['Put on a robe', 'Go to the locker room']",Go to the locker room,1
+2,0.4,"['Go to the gym', 'Go to the locker room']","['Walk into the sauna', 'Take off your clothes']",Take off your clothes,1
+3,0.6,"['Go to the gym', 'Go to the locker room', 'Take off your clothes']","['Put on a robe', 'Go to the gym']",Put on a robe,0
+4,0.8,"['Go to the gym', 'Go to the locker room', 'Take off your clothes', 'Put on a robe']","['Walk into the sauna', 'Go to the gym']",Walk into the sauna,0
+0,0.0,[],"['Grab towel', 'Drive to sauna']",Grab towel,0
+1,0.2,['Grab towel'],"['Pay for services', 'Get in car']",Get in car,1
+2,0.4,"['Grab towel', 'Get in car']","['Use sauna', 'Drive to sauna']",Drive to sauna,1
+3,0.6,"['Grab towel', 'Get in car', 'Drive to sauna']","['Grab towel', 'Pay for services']",Pay for services,1
+4,0.8,"['Grab towel', 'Get in car', 'Drive to sauna', 'Pay for services']","['Grab towel', 'Use sauna']",Use sauna,1
+0,0.0,[],"['Take a shower', 'Show the membership card at the entry']",Take a shower,0
+1,0.2,['Take a shower'],"['Go to sauna facility', 'Put on swimming suit']",Put on swimming suit,1
+2,0.4,"['Take a shower', 'Put on swimming suit']","['Show the membership card at the entry', 'Put on track suit on top']",Put on track suit on top,1
+3,0.6,"['Take a shower', 'Put on swimming suit', 'Put on track suit on top']","['Take a shower', 'Go to sauna facility']",Go to sauna facility,1
+4,0.8,"['Take a shower', 'Put on swimming suit', 'Put on track suit on top', 'Go to sauna facility']","['Put on swimming suit', 'Show the membership card at the entry']",Show the membership card at the entry,1
+0,0.0,[],"['Drive to sauna', 'Drive to sauna']",Drive to sauna,0
+1,0.2,['Drive to sauna'],"['Park and get out of car', 'Walk inside the place']",Park and get out of car,0
+2,0.4,"['Drive to sauna', 'Park and get out of car']","['Go to locker room', 'Walk inside the place']",Walk inside the place,1
+3,0.6,"['Drive to sauna', 'Park and get out of car', 'Walk inside the place']","['Pay person at front desk', 'Drive to sauna']",Pay person at front desk,0
+4,0.8,"['Drive to sauna', 'Park and get out of car', 'Walk inside the place', 'Pay person at front desk']","['Go to locker room', 'Drive to sauna']",Go to locker room,0
+0,0.0,[],"['Schedule an appointment', 'Pick a sauna']",Pick a sauna,1
+1,0.2,['Pick a sauna'],"['Get the treatments done', 'Schedule an appointment']",Schedule an appointment,1
+2,0.4,"['Pick a sauna', 'Schedule an appointment']","['Get the treatments done', 'Go to sauna']",Go to sauna,1
+3,0.6,"['Pick a sauna', 'Schedule an appointment', 'Go to sauna']","['Pick a sauna', 'Choose what treatment you want']",Choose what treatment you want,1
+4,0.8,"['Pick a sauna', 'Schedule an appointment', 'Go to sauna', 'Choose what treatment you want']","['Get the treatments done', 'Schedule an appointment']",Get the treatments done,0
+0,0.0,[],"['Put on bikini', 'Secure house']",Put on bikini,0
+1,0.2,['Put on bikini'],"['Put on bikini', 'Get towel']",Get towel,1
+2,0.4,"['Put on bikini', 'Get towel']","['Put on flip-flops', 'Leave house']",Put on flip-flops,0
+3,0.6,"['Put on bikini', 'Get towel', 'Put on flip-flops']","['Put on bikini', 'Secure house']",Secure house,1
+4,0.8,"['Put on bikini', 'Get towel', 'Put on flip-flops', 'Secure house']","['Leave house', 'Get towel']",Leave house,0
+0,0.0,[],"['Go to locker room and strip down to bathing suit.', 'Drive to health club.']",Drive to health club.,1
+1,0.2,['Drive to health club.'],"['Show membership card to desk clerk.', 'Walk into sauna.']",Show membership card to desk clerk.,0
+2,0.4,"['Drive to health club.', 'Show membership card to desk clerk.']","['Walk into sauna.', 'Go to locker room and strip down to bathing suit.']",Go to locker room and strip down to bathing suit.,1
+3,0.6,"['Drive to health club.', 'Show membership card to desk clerk.', 'Go to locker room and strip down to bathing suit.']","['Grab towel.', 'Drive to health club.']",Grab towel.,0
+4,0.8,"['Drive to health club.', 'Show membership card to desk clerk.', 'Go to locker room and strip down to bathing suit.', 'Grab towel.']","['Drive to health club.', 'Walk into sauna.']",Walk into sauna.,1
+0,0.0,[],"['Get in car', 'drive to the sauna']",Get in car,0
+1,0.2,['Get in car'],"['go inside', 'drive to the sauna']",drive to the sauna,1
+2,0.4,"['Get in car', 'drive to the sauna']","['go inside', 'close the door set timer']",go inside,0
+3,0.6,"['Get in car', 'drive to the sauna', 'go inside']","['get in sauna', 'Get in car']",get in sauna,0
+4,0.8,"['Get in car', 'drive to the sauna', 'go inside', 'get in sauna']","['close the door set timer', 'drive to the sauna']",close the door set timer,0
+0,0.0,[],"['Change into bathing suit', 'Get a towel']",Change into bathing suit,0
+1,0.2,['Change into bathing suit'],"['Get a towel', 'Change into bathing suit']",Get a towel,0
+2,0.4,"['Change into bathing suit', 'Get a towel']","['sit or lie down', 'Go into sauna']",Go into sauna,1
+3,0.6,"['Change into bathing suit', 'Get a towel', 'Go into sauna']","['put towel down on seat', 'Change into bathing suit']",put towel down on seat,0
+4,0.8,"['Change into bathing suit', 'Get a towel', 'Go into sauna', 'put towel down on seat']","['sit or lie down', 'Change into bathing suit']",sit or lie down,0
+0,0.0,[],"['Go to sauna', 'Take a towel']",Take a towel,1
+1,0.2,['Take a towel'],"['Enter sauna', 'Leave home']",Leave home,1
+2,0.4,"['Take a towel', 'Leave home']","['Enter sauna', 'Go to sauna']",Go to sauna,1
+3,0.6,"['Take a towel', 'Leave home', 'Go to sauna']","['Take a towel', 'Get undressed']",Get undressed,1
+4,0.8,"['Take a towel', 'Leave home', 'Go to sauna', 'Get undressed']","['Take a towel', 'Enter sauna']",Enter sauna,1
+0,0.0,[],"['Find a local sauna at google', 'Pack a small bag with clothes']",Find a local sauna at google,0
+1,0.2,['Find a local sauna at google'],"['Drive to the sauna', 'Pack a small bag with clothes']",Pack a small bag with clothes,1
+2,0.4,"['Find a local sauna at google', 'Pack a small bag with clothes']","['Talk to the receptionist', 'Drive to the sauna']",Drive to the sauna,1
+3,0.6,"['Find a local sauna at google', 'Pack a small bag with clothes', 'Drive to the sauna']","['Enter the sauna', 'Find a local sauna at google']",Enter the sauna,0
+4,0.8,"['Find a local sauna at google', 'Pack a small bag with clothes', 'Drive to the sauna', 'Enter the sauna']","['Pack a small bag with clothes', 'Talk to the receptionist']",Talk to the receptionist,1
+0,0.0,[],"['Walk in', 'Walk in']",Walk in,0
+1,0.2,['Walk in'],"['Sit and sweat', 'Get undressed to shorts and t-shirt or bathing suit']",Get undressed to shorts and t-shirt or bathing suit,1
+2,0.4,"['Walk in', 'Get undressed to shorts and t-shirt or bathing suit']","['Turn heat to 70-90', 'Walk out']",Turn heat to 70-90,0
+3,0.6,"['Walk in', 'Get undressed to shorts and t-shirt or bathing suit', 'Turn heat to 70-90']","['Sit and sweat', 'Walk in']",Sit and sweat,0
+4,0.8,"['Walk in', 'Get undressed to shorts and t-shirt or bathing suit', 'Turn heat to 70-90', 'Sit and sweat']","['Walk in', 'Walk out']",Walk out,1
+0,0.0,[],"['find a sauna to go to', 'tell the receptionist your name']",find a sauna to go to,0
+1,0.2,['find a sauna to go to'],"['find a sauna to go to', 'book appointment']",book appointment,1
+2,0.4,"['find a sauna to go to', 'book appointment']","['arrive at sauna', 'wait']",arrive at sauna,0
+3,0.6,"['find a sauna to go to', 'book appointment', 'arrive at sauna']","['tell the receptionist your name', 'find a sauna to go to']",tell the receptionist your name,0
+4,0.8,"['find a sauna to go to', 'book appointment', 'arrive at sauna', 'tell the receptionist your name']","['find a sauna to go to', 'wait']",wait,1
+0,0.0,[],"['Turn on sauna', 'Put on appropriate clothing']",Put on appropriate clothing,1
+1,0.2,['Put on appropriate clothing'],"['Go to sauna', 'Get a towel']",Get a towel,1
+2,0.4,"['Put on appropriate clothing', 'Get a towel']","['Go into sauna', 'Go to sauna']",Go to sauna,1
+3,0.6,"['Put on appropriate clothing', 'Get a towel', 'Go to sauna']","['Put on appropriate clothing', 'Turn on sauna']",Turn on sauna,1
+4,0.8,"['Put on appropriate clothing', 'Get a towel', 'Go to sauna', 'Turn on sauna']","['Put on appropriate clothing', 'Go into sauna']",Go into sauna,1
+0,0.0,[],"['Go to locker room', 'Put towel over bare body']",Go to locker room,0
+1,0.2,['Go to locker room'],"['Get naked', 'Sit in sauna room']",Get naked,0
+2,0.4,"['Go to locker room', 'Get naked']","['Sit in sauna room', 'Put towel over bare body']",Put towel over bare body,1
+3,0.6,"['Go to locker room', 'Get naked', 'Put towel over bare body']","['Find sauna room', 'Go to locker room']",Find sauna room,0
+4,0.8,"['Go to locker room', 'Get naked', 'Put towel over bare body', 'Find sauna room']","['Get naked', 'Sit in sauna room']",Sit in sauna room,1
+0,0.0,[],"['Drive to sauna.', 'Drive to sauna.']",Drive to sauna.,1
+1,0.2,['Drive to sauna.'],"['Enter sauna quickly and close door.', 'Purchase time in sauna from receptionist.']",Purchase time in sauna from receptionist.,1
+2,0.4,"['Drive to sauna.', 'Purchase time in sauna from receptionist.']","['Adjust heat in sauna if desired.', 'Change clothes in locker room.']",Change clothes in locker room.,1
+3,0.6,"['Drive to sauna.', 'Purchase time in sauna from receptionist.', 'Change clothes in locker room.']","['Enter sauna quickly and close door.', 'Drive to sauna.']",Enter sauna quickly and close door.,0
+4,0.8,"['Drive to sauna.', 'Purchase time in sauna from receptionist.', 'Change clothes in locker room.', 'Enter sauna quickly and close door.']","['Adjust heat in sauna if desired.', 'Purchase time in sauna from receptionist.']",Adjust heat in sauna if desired.,0
+0,0.0,[],"['find car keys', 'undress in locker room']",find car keys,0
+1,0.2,['find car keys'],"['enter sauna', 'drive to sauna']",drive to sauna,1
+2,0.4,"['find car keys', 'drive to sauna']","['relax', 'undress in locker room']",undress in locker room,1
+3,0.6,"['find car keys', 'drive to sauna', 'undress in locker room']","['enter sauna', 'find car keys']",enter sauna,0
+4,0.8,"['find car keys', 'drive to sauna', 'undress in locker room', 'enter sauna']","['relax', 'find car keys']",relax,0
+0,0.0,[],"['Change your clothes and put on a towel in the locker room', 'Enter the sauna']",Enter the sauna,1
+1,0.2,['Enter the sauna'],"['Check in at the front desk and pay for the sauna', 'Enter the sauna room']",Check in at the front desk and pay for the sauna,0
+2,0.4,"['Enter the sauna', 'Check in at the front desk and pay for the sauna']","['Change your clothes and put on a towel in the locker room', 'Enjoy the heat and steam of the sauna for as long as you want and is safe']",Change your clothes and put on a towel in the locker room,0
+3,0.6,"['Enter the sauna', 'Check in at the front desk and pay for the sauna', 'Change your clothes and put on a towel in the locker room']","['Enter the sauna room', 'Enter the sauna']",Enter the sauna room,0
+4,0.8,"['Enter the sauna', 'Check in at the front desk and pay for the sauna', 'Change your clothes and put on a towel in the locker room', 'Enter the sauna room']","['Check in at the front desk and pay for the sauna', 'Enjoy the heat and steam of the sauna for as long as you want and is safe']",Enjoy the heat and steam of the sauna for as long as you want and is safe,1
+0,0.0,[],"['Find a good sauna', 'Leave to the sauna']",Find a good sauna,0
+1,0.2,['Find a good sauna'],"['Leave to the sauna', 'Purchase access to the sauna']",Leave to the sauna,0
+2,0.4,"['Find a good sauna', 'Leave to the sauna']","['Enter changing room', 'Enter the sauna']",Enter the sauna,1
+3,0.6,"['Find a good sauna', 'Leave to the sauna', 'Enter the sauna']","['Find a good sauna', 'Purchase access to the sauna']",Purchase access to the sauna,1
+4,0.8,"['Find a good sauna', 'Leave to the sauna', 'Enter the sauna', 'Purchase access to the sauna']","['Enter changing room', 'Find a good sauna']",Enter changing room,0
+0,0.0,[],"['Take off shirt', 'Enter the sauna location']",Enter the sauna location,1
+1,0.2,['Enter the sauna location'],"['Take off shirt', 'Take off shirt']",Take off shirt,0
+2,0.4,"['Enter the sauna location', 'Take off shirt']","['Take off shoes', 'Take off pants']",Take off shoes,0
+3,0.6,"['Enter the sauna location', 'Take off shirt', 'Take off shoes']","['Take off socks', 'Enter the sauna location']",Take off socks,0
+4,0.8,"['Enter the sauna location', 'Take off shirt', 'Take off shoes', 'Take off socks']","['Take off pants', 'Take off shirt']",Take off pants,0
+0,0.0,[],"['Get towel', 'Go to locker room']",Get towel,0
+1,0.2,['Get towel'],"['Go to gym', 'Turn on sauna']",Go to gym,0
+2,0.4,"['Get towel', 'Go to gym']","['Wait for sauna to heat up', 'Go to locker room']",Go to locker room,1
+3,0.6,"['Get towel', 'Go to gym', 'Go to locker room']","['Get towel', 'Turn on sauna']",Turn on sauna,1
+4,0.8,"['Get towel', 'Go to gym', 'Go to locker room', 'Turn on sauna']","['Get towel', 'Wait for sauna to heat up']",Wait for sauna to heat up,1
+0,0.0,[],"['Drive to the sauna.', 'Take off clothes and put on a towel.']",Drive to the sauna.,0
+1,0.2,['Drive to the sauna.'],"['Sign in at the front desk.', 'Take off clothes and put on a towel.']",Sign in at the front desk.,0
+2,0.4,"['Drive to the sauna.', 'Sign in at the front desk.']","['Go to the locker room.', 'Sit in the sauna.']",Go to the locker room.,0
+3,0.6,"['Drive to the sauna.', 'Sign in at the front desk.', 'Go to the locker room.']","['Take off clothes and put on a towel.', 'Drive to the sauna.']",Take off clothes and put on a towel.,0
+4,0.8,"['Drive to the sauna.', 'Sign in at the front desk.', 'Go to the locker room.', 'Take off clothes and put on a towel.']","['Sit in the sauna.', 'Sign in at the front desk.']",Sit in the sauna.,0
+0,0.0,[],"['Arrive at sauna.', 'Drink water before entering sauna.']",Arrive at sauna.,0
+1,0.2,['Arrive at sauna.'],"['Choose temperature you want sauna.', 'Choose temperature you want sauna.']",Choose temperature you want sauna.,1
+2,0.4,"['Arrive at sauna.', 'Choose temperature you want sauna.']","['Drink water before entering sauna.', 'Bring reading material or music in sauna.']",Drink water before entering sauna.,0
+3,0.6,"['Arrive at sauna.', 'Choose temperature you want sauna.', 'Drink water before entering sauna.']","['Bring towel into sauna.', 'Arrive at sauna.']",Bring towel into sauna.,0
+4,0.8,"['Arrive at sauna.', 'Choose temperature you want sauna.', 'Drink water before entering sauna.', 'Bring towel into sauna.']","['Arrive at sauna.', 'Bring reading material or music in sauna.']",Bring reading material or music in sauna.,1
+0,0.0,[],"['arrive at sauna', 'enter sauna']",arrive at sauna,0
+1,0.2,['arrive at sauna'],"['turn temperature up', 'wrap towel around body']",turn temperature up,0
+2,0.4,"['arrive at sauna', 'turn temperature up']","['take off clothes', 'enter sauna']",take off clothes,0
+3,0.6,"['arrive at sauna', 'turn temperature up', 'take off clothes']","['wrap towel around body', 'arrive at sauna']",wrap towel around body,0
+4,0.8,"['arrive at sauna', 'turn temperature up', 'take off clothes', 'wrap towel around body']","['enter sauna', 'turn temperature up']",enter sauna,0
+0,0.0,[],"['go to sauna room', 'go to sauna room']",go to sauna room,1
+1,0.2,['go to sauna room'],"['take towel with you', 'change into sauna clothes']",change into sauna clothes,1
+2,0.4,"['go to sauna room', 'change into sauna clothes']","['take towel with you', 'take sauna bath']",take towel with you,0
+3,0.6,"['go to sauna room', 'change into sauna clothes', 'take towel with you']","['apply cream on body', 'go to sauna room']",apply cream on body,0
+4,0.8,"['go to sauna room', 'change into sauna clothes', 'take towel with you', 'apply cream on body']","['change into sauna clothes', 'take sauna bath']",take sauna bath,1
+0,0.0,[],"['arrive sauna', 'arrive sauna']",arrive sauna,1
+1,0.2,['arrive sauna'],"['arrive sauna', 'book sauna time']",book sauna time,1
+2,0.4,"['arrive sauna', 'book sauna time']","['enter sauna remove clothes', 'shower']",enter sauna remove clothes,0
+3,0.6,"['arrive sauna', 'book sauna time', 'enter sauna remove clothes']","['sweat', 'arrive sauna']",sweat,0
+4,0.8,"['arrive sauna', 'book sauna time', 'enter sauna remove clothes', 'sweat']","['arrive sauna', 'shower']",shower,1
+0,0.0,[],"['Sit and sweat', 'Find a swimsuit or other light clothing']",Find a swimsuit or other light clothing,1
+1,0.2,['Find a swimsuit or other light clothing'],"['Find a swimsuit or other light clothing', 'Pack a water bottle']",Pack a water bottle,1
+2,0.4,"['Find a swimsuit or other light clothing', 'Pack a water bottle']","['Go to sauna', 'Make sure to hydrate']",Go to sauna,0
+3,0.6,"['Find a swimsuit or other light clothing', 'Pack a water bottle', 'Go to sauna']","['Find a swimsuit or other light clothing', 'Sit and sweat']",Sit and sweat,1
+4,0.8,"['Find a swimsuit or other light clothing', 'Pack a water bottle', 'Go to sauna', 'Sit and sweat']","['Make sure to hydrate', 'Find a swimsuit or other light clothing']",Make sure to hydrate,0
+0,0.0,[],"['Put on your sauna attire', 'Bring appropriate attire']",Bring appropriate attire,1
+1,0.2,['Bring appropriate attire'],"['Go to the sauna', 'Go to the sauna']",Go to the sauna,0
+2,0.4,"['Bring appropriate attire', 'Go to the sauna']","['Put on your sauna attire', 'Sit down and relax']",Put on your sauna attire,0
+3,0.6,"['Bring appropriate attire', 'Go to the sauna', 'Put on your sauna attire']","['Go inside the sauna', 'Bring appropriate attire']",Go inside the sauna,0
+4,0.8,"['Bring appropriate attire', 'Go to the sauna', 'Put on your sauna attire', 'Go inside the sauna']","['Sit down and relax', 'Bring appropriate attire']",Sit down and relax,0
+0,0.0,[],"['pay for pass at gym', 'cover self with towel']",pay for pass at gym,0
+1,0.2,['pay for pass at gym'],"['remove clothing in locker room', 'enter sauna']",remove clothing in locker room,0
+2,0.4,"['pay for pass at gym', 'remove clothing in locker room']","['add water to coals', 'cover self with towel']",cover self with towel,1
+3,0.6,"['pay for pass at gym', 'remove clothing in locker room', 'cover self with towel']","['enter sauna', 'pay for pass at gym']",enter sauna,0
+4,0.8,"['pay for pass at gym', 'remove clothing in locker room', 'cover self with towel', 'enter sauna']","['add water to coals', 'pay for pass at gym']",add water to coals,0
+0,0.0,[],"['Gather bathing suit and towel', 'Get into your car with items']",Gather bathing suit and towel,0
+1,0.2,['Gather bathing suit and towel'],"['Get into your car with items', 'Drive to the Sauna spa']",Get into your car with items,0
+2,0.4,"['Gather bathing suit and towel', 'Get into your car with items']","['Go into the Sauna spa', 'Drive to the Sauna spa']",Drive to the Sauna spa,1
+3,0.6,"['Gather bathing suit and towel', 'Get into your car with items', 'Drive to the Sauna spa']","['Park your car', 'Gather bathing suit and towel']",Park your car,0
+4,0.8,"['Gather bathing suit and towel', 'Get into your car with items', 'Drive to the Sauna spa', 'Park your car']","['Get into your car with items', 'Go into the Sauna spa']",Go into the Sauna spa,1
+0,0.0,[],"['Sit on bench in sauna room', 'Walk to sauna']",Walk to sauna,1
+1,0.2,['Walk to sauna'],"['Walk to sauna', 'Take clothes off in locker room']",Take clothes off in locker room,1
+2,0.4,"['Walk to sauna', 'Take clothes off in locker room']","['Wrap towel around self', 'Leave when desired.']",Wrap towel around self,0
+3,0.6,"['Walk to sauna', 'Take clothes off in locker room', 'Wrap towel around self']","['Sit on bench in sauna room', 'Walk to sauna']",Sit on bench in sauna room,0
+4,0.8,"['Walk to sauna', 'Take clothes off in locker room', 'Wrap towel around self', 'Sit on bench in sauna room']","['Leave when desired.', 'Take clothes off in locker room']",Leave when desired.,0
+0,0.0,[],"['Get in car.', 'Get in car.']",Get in car.,0
+1,0.2,['Get in car.'],"['Drive to sauna.', 'Go into the sauna.']",Drive to sauna.,0
+2,0.4,"['Get in car.', 'Drive to sauna.']","['Get out of the car.', 'Relax.']",Get out of the car.,0
+3,0.6,"['Get in car.', 'Drive to sauna.', 'Get out of the car.']","['Go into the sauna.', 'Get in car.']",Go into the sauna.,0
+4,0.8,"['Get in car.', 'Drive to sauna.', 'Get out of the car.', 'Go into the sauna.']","['Relax.', 'Get in car.']",Relax.,0
+0,0.0,[],"['Go to the room remove all clothes', 'Call the health club and fix an appointment']",Call the health club and fix an appointment,1
+1,0.2,['Call the health club and fix an appointment'],"['Visit the health club, make the payment', 'Call the health club and fix an appointment']","Visit the health club, make the payment",0
+2,0.4,"['Call the health club and fix an appointment', 'Visit the health club, make the payment']","['Go to the room remove all clothes', 'Have a glass of water']",Go to the room remove all clothes,0
+3,0.6,"['Call the health club and fix an appointment', 'Visit the health club, make the payment', 'Go to the room remove all clothes']","['Call the health club and fix an appointment', 'Wear a thick thong shorts']",Wear a thick thong shorts,1
+4,0.8,"['Call the health club and fix an appointment', 'Visit the health club, make the payment', 'Go to the room remove all clothes', 'Wear a thick thong shorts']","['Have a glass of water', 'Visit the health club, make the payment']",Have a glass of water,0
+0,0.0,[],"['GO TO CHANGING ROOMS', 'GET IN THE CAR']",GET IN THE CAR,1
+1,0.2,['GET IN THE CAR'],"['REMOVE CLOTHES, PUT TOWEL ON', 'DRIVE TO THE SAUNA']",DRIVE TO THE SAUNA,1
+2,0.4,"['GET IN THE CAR', 'DRIVE TO THE SAUNA']","['GO INTO SAUNA', 'GO TO CHANGING ROOMS']",GO TO CHANGING ROOMS,1
+3,0.6,"['GET IN THE CAR', 'DRIVE TO THE SAUNA', 'GO TO CHANGING ROOMS']","['GET IN THE CAR', 'REMOVE CLOTHES, PUT TOWEL ON']","REMOVE CLOTHES, PUT TOWEL ON",1
+4,0.8,"['GET IN THE CAR', 'DRIVE TO THE SAUNA', 'GO TO CHANGING ROOMS', 'REMOVE CLOTHES, PUT TOWEL ON']","['GET IN THE CAR', 'GO INTO SAUNA']",GO INTO SAUNA,1
+0,0.0,[],"['drive to sauna', 'drive to sauna']",drive to sauna,0
+1,0.2,['drive to sauna'],"['get undressed', 'get towel']",get undressed,0
+2,0.4,"['drive to sauna', 'get undressed']","['get towel', 'sweat']",get towel,0
+3,0.6,"['drive to sauna', 'get undressed', 'get towel']","['drive to sauna', 'enter sauna']",enter sauna,1
+4,0.8,"['drive to sauna', 'get undressed', 'get towel', 'enter sauna']","['sweat', 'drive to sauna']",sweat,0
+0,0.0,[],"['Leave from your home', 'Get to the place with sauna']",Leave from your home,0
+1,0.2,['Leave from your home'],"['Get to the place with sauna', 'Get dressed and leave']",Get to the place with sauna,0
+2,0.4,"['Leave from your home', 'Get to the place with sauna']","['Get dressed and leave', 'Get undressed']",Get undressed,1
+3,0.6,"['Leave from your home', 'Get to the place with sauna', 'Get undressed']","['Enjoy your sauna bath', 'Leave from your home']",Enjoy your sauna bath,0
+4,0.8,"['Leave from your home', 'Get to the place with sauna', 'Get undressed', 'Enjoy your sauna bath']","['Get to the place with sauna', 'Get dressed and leave']",Get dressed and leave,1
+0,0.0,[],"['remove all clothing except for towel to cover body', 'drive to sauna']",drive to sauna,1
+1,0.2,['drive to sauna'],"['choose a place to sit down', 'outside of sauna assure that it is on and at desired temperature']",outside of sauna assure that it is on and at desired temperature,1
+2,0.4,"['drive to sauna', 'outside of sauna assure that it is on and at desired temperature']","['remove all clothing except for towel to cover body', 'choose a place to sit down']",remove all clothing except for towel to cover body,0
+3,0.6,"['drive to sauna', 'outside of sauna assure that it is on and at desired temperature', 'remove all clothing except for towel to cover body']","['drive to sauna', 'enter sauna']",enter sauna,1
+4,0.8,"['drive to sauna', 'outside of sauna assure that it is on and at desired temperature', 'remove all clothing except for towel to cover body', 'enter sauna']","['outside of sauna assure that it is on and at desired temperature', 'choose a place to sit down']",choose a place to sit down,1
+0,0.0,[],"['Go to the club where the sauna is located.', 'Go to the club where the sauna is located.']",Go to the club where the sauna is located.,0
+1,0.2,['Go to the club where the sauna is located.'],"['Remove your shoes and clothing.', 'Check in at the club.']",Check in at the club.,1
+2,0.4,"['Go to the club where the sauna is located.', 'Check in at the club.']","['Put your belongings in a locker.', 'Go to the locker room.']",Go to the locker room.,1
+3,0.6,"['Go to the club where the sauna is located.', 'Check in at the club.', 'Go to the locker room.']","['Go to the club where the sauna is located.', 'Remove your shoes and clothing.']",Remove your shoes and clothing.,1
+4,0.8,"['Go to the club where the sauna is located.', 'Check in at the club.', 'Go to the locker room.', 'Remove your shoes and clothing.']","['Put your belongings in a locker.', 'Check in at the club.']",Put your belongings in a locker.,0
+0,0.0,[],"['Dress in swim trunks or shorts', 'Enter sauna']",Dress in swim trunks or shorts,0
+1,0.2,['Dress in swim trunks or shorts'],"['Tie a towel around your waist', 'Dress in swim trunks or shorts']",Tie a towel around your waist,0
+2,0.4,"['Dress in swim trunks or shorts', 'Tie a towel around your waist']","['Enter sauna', 'Sit and enjoy the sauna']",Enter sauna,0
+3,0.6,"['Dress in swim trunks or shorts', 'Tie a towel around your waist', 'Enter sauna']","['Remove towel', 'Dress in swim trunks or shorts']",Remove towel,0
+4,0.8,"['Dress in swim trunks or shorts', 'Tie a towel around your waist', 'Enter sauna', 'Remove towel']","['Dress in swim trunks or shorts', 'Sit and enjoy the sauna']",Sit and enjoy the sauna,1
+0,0.0,[],"['Walk into building with sauna.', 'Walk into building with sauna.']",Walk into building with sauna.,1
+1,0.2,['Walk into building with sauna.'],"['Take clothes off in dressing room.', 'Enter sauna.']",Take clothes off in dressing room.,0
+2,0.4,"['Walk into building with sauna.', 'Take clothes off in dressing room.']","['Sit down and relax in sauna', 'Wrap self in towel']",Wrap self in towel,1
+3,0.6,"['Walk into building with sauna.', 'Take clothes off in dressing room.', 'Wrap self in towel']","['Enter sauna.', 'Walk into building with sauna.']",Enter sauna.,0
+4,0.8,"['Walk into building with sauna.', 'Take clothes off in dressing room.', 'Wrap self in towel', 'Enter sauna.']","['Walk into building with sauna.', 'Sit down and relax in sauna']",Sit down and relax in sauna,1
+0,0.0,[],"['Go to the locker room', 'Enter the sauna']",Enter the sauna,1
+1,0.2,['Enter the sauna'],"['Pay at the front desk', 'Go to the steam room']",Pay at the front desk,0
+2,0.4,"['Enter the sauna', 'Pay at the front desk']","['Go to the locker room', 'Go to the steam room']",Go to the locker room,0
+3,0.6,"['Enter the sauna', 'Pay at the front desk', 'Go to the locker room']","['Change into a towel', 'Enter the sauna']",Change into a towel,0
+4,0.8,"['Enter the sauna', 'Pay at the front desk', 'Go to the locker room', 'Change into a towel']","['Enter the sauna', 'Go to the steam room']",Go to the steam room,1
+0,0.0,[],"['get into car', 'go into sauna']",get into car,0
+1,0.2,['get into car'],"['go into sauna', 'drive to sauna']",drive to sauna,1
+2,0.4,"['get into car', 'drive to sauna']","['tell them you are there', 'get out of car']",get out of car,1
+3,0.6,"['get into car', 'drive to sauna', 'get out of car']","['get into car', 'go into sauna']",go into sauna,1
+4,0.8,"['get into car', 'drive to sauna', 'get out of car', 'go into sauna']","['get into car', 'tell them you are there']",tell them you are there,1
+0,0.0,[],"['Prepare a bag.', 'Take a shower.']",Take a shower.,1
+1,0.2,['Take a shower.'],"['Place on my bathing suit.', 'Prepare a bag.']",Prepare a bag.,1
+2,0.4,"['Take a shower.', 'Prepare a bag.']","['Sit in the sauna.', 'Go to the sauna.']",Go to the sauna.,1
+3,0.6,"['Take a shower.', 'Prepare a bag.', 'Go to the sauna.']","['Place on my bathing suit.', 'Take a shower.']",Place on my bathing suit.,0
+4,0.8,"['Take a shower.', 'Prepare a bag.', 'Go to the sauna.', 'Place on my bathing suit.']","['Sit in the sauna.', 'Take a shower.']",Sit in the sauna.,0
+0,0.0,[],"['go to the locker room', 'Go to the spa']",Go to the spa,1
+1,0.2,['Go to the spa'],"['Check in with receptionist', 'walk into sauna']",Check in with receptionist,0
+2,0.4,"['Go to the spa', 'Check in with receptionist']","['go to the locker room', 'walk into sauna']",go to the locker room,0
+3,0.6,"['Go to the spa', 'Check in with receptionist', 'go to the locker room']","[""Change into whatever you're comfortable wearing in sauna"", 'Go to the spa']",Change into whatever you're comfortable wearing in sauna,0
+4,0.8,"['Go to the spa', 'Check in with receptionist', 'go to the locker room', ""Change into whatever you're comfortable wearing in sauna""]","['walk into sauna', 'Check in with receptionist']",walk into sauna,0
+0,0.0,[],"['Go to the sauna.', 'Gather clean clothes to wear after the sauna and something to wear in the sauna.']",Gather clean clothes to wear after the sauna and something to wear in the sauna.,1
+1,0.2,['Gather clean clothes to wear after the sauna and something to wear in the sauna.'],"['Go to the sauna.', 'Go to the sauna.']",Go to the sauna.,1
+2,0.4,"['Gather clean clothes to wear after the sauna and something to wear in the sauna.', 'Go to the sauna.']","['Sit in the sauna and relax.', 'After you are finished relaxing in the sauna, take a shower.']",Sit in the sauna and relax.,0
+3,0.6,"['Gather clean clothes to wear after the sauna and something to wear in the sauna.', 'Go to the sauna.', 'Sit in the sauna and relax.']","['Do not stay in the sauna for too long, lest you become sick from it.', 'Gather clean clothes to wear after the sauna and something to wear in the sauna.']","Do not stay in the sauna for too long, lest you become sick from it.",0
+4,0.8,"['Gather clean clothes to wear after the sauna and something to wear in the sauna.', 'Go to the sauna.', 'Sit in the sauna and relax.', 'Do not stay in the sauna for too long, lest you become sick from it.']","['After you are finished relaxing in the sauna, take a shower.', 'Go to the sauna.']","After you are finished relaxing in the sauna, take a shower.",0
+0,0.0,[],"['drive to a gym or where there is a sauna', 'step into sauna']",drive to a gym or where there is a sauna,0
+1,0.2,['drive to a gym or where there is a sauna'],"['drive to a gym or where there is a sauna', 'be hydrated with water']",be hydrated with water,1
+2,0.4,"['drive to a gym or where there is a sauna', 'be hydrated with water']","['undress to comfort level', 'enjoy and relax']",undress to comfort level,0
+3,0.6,"['drive to a gym or where there is a sauna', 'be hydrated with water', 'undress to comfort level']","['step into sauna', 'drive to a gym or where there is a sauna']",step into sauna,0
+4,0.8,"['drive to a gym or where there is a sauna', 'be hydrated with water', 'undress to comfort level', 'step into sauna']","['be hydrated with water', 'enjoy and relax']",enjoy and relax,1
+0,0.0,[],"['Change in locker room', 'Enter the spa']",Enter the spa,1
+1,0.2,['Enter the spa'],"['Enter the spa', 'Check in at register']",Check in at register,1
+2,0.4,"['Enter the spa', 'Check in at register']","['Go into sauna and find a seat', 'Change in locker room']",Change in locker room,1
+3,0.6,"['Enter the spa', 'Check in at register', 'Change in locker room']","['Find sauna room', 'Enter the spa']",Find sauna room,0
+4,0.8,"['Enter the spa', 'Check in at register', 'Change in locker room', 'Find sauna room']","['Go into sauna and find a seat', 'Enter the spa']",Go into sauna and find a seat,0
+0,0.0,[],"['Open the garage', 'Drive to Sauna Center']",Open the garage,0
+1,0.2,['Open the garage'],"['Register with receptionist', 'Get inside the car']",Get inside the car,1
+2,0.4,"['Open the garage', 'Get inside the car']","['Start the car', 'Register with receptionist']",Start the car,0
+3,0.6,"['Open the garage', 'Get inside the car', 'Start the car']","['Drive to Sauna Center', 'Open the garage']",Drive to Sauna Center,0
+4,0.8,"['Open the garage', 'Get inside the car', 'Start the car', 'Drive to Sauna Center']","['Register with receptionist', 'Get inside the car']",Register with receptionist,0
+0,0.0,[],"['Pick the temperature for your sauna', 'Get undressed']",Pick the temperature for your sauna,0
+1,0.2,['Pick the temperature for your sauna'],"['Get undressed', 'Take a glass of water with you']",Get undressed,0
+2,0.4,"['Pick the temperature for your sauna', 'Get undressed']","['Take a glass of water with you', 'Wrap yourself in towel']",Wrap yourself in towel,1
+3,0.6,"['Pick the temperature for your sauna', 'Get undressed', 'Wrap yourself in towel']","['Pick the temperature for your sauna', 'Take a towel with you into the sauna']",Take a towel with you into the sauna,1
+4,0.8,"['Pick the temperature for your sauna', 'Get undressed', 'Wrap yourself in towel', 'Take a towel with you into the sauna']","['Take a glass of water with you', 'Pick the temperature for your sauna']",Take a glass of water with you,0
+0,0.0,[],"['Enter locker room.', 'Put up hair.']",Enter locker room.,0
+1,0.2,['Enter locker room.'],"['Turn on sauna if not already on.', 'Enter locker room.']",Turn on sauna if not already on.,0
+2,0.4,"['Enter locker room.', 'Turn on sauna if not already on.']","['Remove clothing.', 'Open sauna door.']",Remove clothing.,0
+3,0.6,"['Enter locker room.', 'Turn on sauna if not already on.', 'Remove clothing.']","['Put up hair.', 'Enter locker room.']",Put up hair.,0
+4,0.8,"['Enter locker room.', 'Turn on sauna if not already on.', 'Remove clothing.', 'Put up hair.']","['Enter locker room.', 'Open sauna door.']",Open sauna door.,1
+0,0.0,[],"['Undress', 'Drive to the sauna']",Drive to the sauna,1
+1,0.2,['Drive to the sauna'],"['Check in at sauna', 'Sit in sauna']",Check in at sauna,0
+2,0.4,"['Drive to the sauna', 'Check in at sauna']","['Relax', 'Undress']",Undress,1
+3,0.6,"['Drive to the sauna', 'Check in at sauna', 'Undress']","['Drive to the sauna', 'Sit in sauna']",Sit in sauna,1
+4,0.8,"['Drive to the sauna', 'Check in at sauna', 'Undress', 'Sit in sauna']","['Drive to the sauna', 'Relax']",Relax,1
+0,0.0,[],"['Place clothing in locker', 'Go the the gym dressing room.']",Go the the gym dressing room.,1
+1,0.2,['Go the the gym dressing room.'],"['Undress', 'Wrap lower torso in towel']",Undress,0
+2,0.4,"['Go the the gym dressing room.', 'Undress']","['Place clothing in locker', 'Walk to the sauna']",Place clothing in locker,0
+3,0.6,"['Go the the gym dressing room.', 'Undress', 'Place clothing in locker']","['Wrap lower torso in towel', 'Go the the gym dressing room.']",Wrap lower torso in towel,0
+4,0.8,"['Go the the gym dressing room.', 'Undress', 'Place clothing in locker', 'Wrap lower torso in towel']","['Walk to the sauna', 'Undress']",Walk to the sauna,0
+0,0.0,[],"['Pack a towel', 'Pack a towel']",Pack a towel,0
+1,0.2,['Pack a towel'],"['Pack a change of clothes', 'Drive to sauna']",Pack a change of clothes,0
+2,0.4,"['Pack a towel', 'Pack a change of clothes']","['Drive to sauna', 'Go to locker room']",Drive to sauna,0
+3,0.6,"['Pack a towel', 'Pack a change of clothes', 'Drive to sauna']","['Check in at front desk', 'Pack a towel']",Check in at front desk,0
+4,0.8,"['Pack a towel', 'Pack a change of clothes', 'Drive to sauna', 'Check in at front desk']","['Go to locker room', 'Pack a towel']",Go to locker room,0
+0,0.0,[],"['Put on a bathing suit', 'Put on a bathing suit']",Put on a bathing suit,1
+1,0.2,['Put on a bathing suit'],"['Go to locker room', 'Put on a cover up']",Put on a cover up,1
+2,0.4,"['Put on a bathing suit', 'Put on a cover up']","['Arrive at sauna', 'Take off cover up']",Arrive at sauna,0
+3,0.6,"['Put on a bathing suit', 'Put on a cover up', 'Arrive at sauna']","['Put on a bathing suit', 'Go to locker room']",Go to locker room,1
+4,0.8,"['Put on a bathing suit', 'Put on a cover up', 'Arrive at sauna', 'Go to locker room']","['Take off cover up', 'Put on a bathing suit']",Take off cover up,0
+0,0.0,[],"['Getting into the car', 'Getting into the car']",Getting into the car,1
+1,0.2,['Getting into the car'],"['entering sauna', 'driving to the place with the sauna']",driving to the place with the sauna,1
+2,0.4,"['Getting into the car', 'driving to the place with the sauna']","['entering sauna', 'walking into the locker room']",walking into the locker room,1
+3,0.6,"['Getting into the car', 'driving to the place with the sauna', 'walking into the locker room']","['Getting into the car', 'getting naked']",getting naked,1
+4,0.8,"['Getting into the car', 'driving to the place with the sauna', 'walking into the locker room', 'getting naked']","['entering sauna', 'Getting into the car']",entering sauna,0
+0,0.0,[],"['Wear either bathing suit or towel tied tight around body', 'Drive to gym with sauna']",Drive to gym with sauna,1
+1,0.2,['Drive to gym with sauna'],"['Get changed in changing area', 'Get changed in changing area']",Get changed in changing area,1
+2,0.4,"['Drive to gym with sauna', 'Get changed in changing area']","['Sit down', 'Wear either bathing suit or towel tied tight around body']",Wear either bathing suit or towel tied tight around body,1
+3,0.6,"['Drive to gym with sauna', 'Get changed in changing area', 'Wear either bathing suit or towel tied tight around body']","['Go into sauna and close door', 'Drive to gym with sauna']",Go into sauna and close door,0
+4,0.8,"['Drive to gym with sauna', 'Get changed in changing area', 'Wear either bathing suit or towel tied tight around body', 'Go into sauna and close door']","['Sit down', 'Drive to gym with sauna']",Sit down,0
+0,0.0,[],"['Drive to the gym', 'Sign up for membership if necessary']",Drive to the gym,0
+1,0.2,['Drive to the gym'],"['Sign up for membership if necessary', 'Sign up for membership if necessary']",Sign up for membership if necessary,0
+2,0.4,"['Drive to the gym', 'Sign up for membership if necessary']","['Enter locker room', 'Keep towel or underwear on if preferred']",Enter locker room,0
+3,0.6,"['Drive to the gym', 'Sign up for membership if necessary', 'Enter locker room']","['Disrobe', 'Drive to the gym']",Disrobe,0
+4,0.8,"['Drive to the gym', 'Sign up for membership if necessary', 'Enter locker room', 'Disrobe']","['Sign up for membership if necessary', 'Keep towel or underwear on if preferred']",Keep towel or underwear on if preferred,1
+0,0.0,[],"['Enter the sauna', 'Go to the gym']",Go to the gym,1
+1,0.2,['Go to the gym'],"['Enter the gym', 'Go to the sauna']",Enter the gym,0
+2,0.4,"['Go to the gym', 'Enter the gym']","['Grab towels from the reception desk', 'Enter the sauna']",Grab towels from the reception desk,0
+3,0.6,"['Go to the gym', 'Enter the gym', 'Grab towels from the reception desk']","['Go to the sauna', 'Go to the gym']",Go to the sauna,0
+4,0.8,"['Go to the gym', 'Enter the gym', 'Grab towels from the reception desk', 'Go to the sauna']","['Go to the gym', 'Enter the sauna']",Enter the sauna,1
+0,0.0,[],"['Go into a locker room', 'Wrap a towel around yourself']",Go into a locker room,0
+1,0.2,['Go into a locker room'],"['Go into a locker room', 'Take off clothes']",Take off clothes,1
+2,0.4,"['Go into a locker room', 'Take off clothes']","['Sit and breathe', 'Wrap a towel around yourself']",Wrap a towel around yourself,1
+3,0.6,"['Go into a locker room', 'Take off clothes', 'Wrap a towel around yourself']","['Go into a locker room', 'Go into sauna']",Go into sauna,1
+4,0.8,"['Go into a locker room', 'Take off clothes', 'Wrap a towel around yourself', 'Go into sauna']","['Go into a locker room', 'Sit and breathe']",Sit and breathe,1
+0,0.0,[],"['Put towel and a change of clothes in a bag.', 'Go into changing area and change into swimming suit.']",Put towel and a change of clothes in a bag.,0
+1,0.2,['Put towel and a change of clothes in a bag.'],"['Go into changing area and change into swimming suit.', 'Find a spa that has a sauna.']",Find a spa that has a sauna.,1
+2,0.4,"['Put towel and a change of clothes in a bag.', 'Find a spa that has a sauna.']","['Pay for membership.', 'Take towel with you.']",Pay for membership.,0
+3,0.6,"['Put towel and a change of clothes in a bag.', 'Find a spa that has a sauna.', 'Pay for membership.']","['Put towel and a change of clothes in a bag.', 'Go into changing area and change into swimming suit.']",Go into changing area and change into swimming suit.,1
+4,0.8,"['Put towel and a change of clothes in a bag.', 'Find a spa that has a sauna.', 'Pay for membership.', 'Go into changing area and change into swimming suit.']","['Take towel with you.', 'Put towel and a change of clothes in a bag.']",Take towel with you.,0
+0,0.0,[],"['bring a bottle of water', 'find a clean sauna']",find a clean sauna,1
+1,0.2,['find a clean sauna'],"['drink plenty of water', 'bring a towel']",bring a towel,1
+2,0.4,"['find a clean sauna', 'bring a towel']","['bring a bottle of water', 'drink plenty of water']",bring a bottle of water,0
+3,0.6,"['find a clean sauna', 'bring a towel', 'bring a bottle of water']","['sit in the sauna', 'find a clean sauna']",sit in the sauna,0
+4,0.8,"['find a clean sauna', 'bring a towel', 'bring a bottle of water', 'sit in the sauna']","['drink plenty of water', 'find a clean sauna']",drink plenty of water,0
+0,0.0,[],"['Go to the gym', 'Go to the gym']",Go to the gym,0
+1,0.2,['Go to the gym'],"['Take a shower', 'Change out of your clothes and put on a towel']",Change out of your clothes and put on a towel,1
+2,0.4,"['Go to the gym', 'Change out of your clothes and put on a towel']","['Sit in the sauna', 'Take a shower']",Sit in the sauna,0
+3,0.6,"['Go to the gym', 'Change out of your clothes and put on a towel', 'Sit in the sauna']","['Go to the gym', 'Get out of the sauna when you are ready']",Get out of the sauna when you are ready,1
+4,0.8,"['Go to the gym', 'Change out of your clothes and put on a towel', 'Sit in the sauna', 'Get out of the sauna when you are ready']","['Change out of your clothes and put on a towel', 'Take a shower']",Take a shower,1
+0,0.0,[],"['Get together a bag with clothes, towel, shower items, shoes for the sauna', 'Get together a bag with clothes, towel, shower items, shoes for the sauna']","Get together a bag with clothes, towel, shower items, shoes for the sauna",1
+1,0.2,"['Get together a bag with clothes, towel, shower items, shoes for the sauna']","['Check in at the front desk.', 'Travel to the sauna']",Travel to the sauna,1
+2,0.4,"['Get together a bag with clothes, towel, shower items, shoes for the sauna', 'Travel to the sauna']","['Change your clothes', 'Check in at the front desk.']",Check in at the front desk.,1
+3,0.6,"['Get together a bag with clothes, towel, shower items, shoes for the sauna', 'Travel to the sauna', 'Check in at the front desk.']","['Get together a bag with clothes, towel, shower items, shoes for the sauna', 'Get a key for one of the lockers']",Get a key for one of the lockers,1
+4,0.8,"['Get together a bag with clothes, towel, shower items, shoes for the sauna', 'Travel to the sauna', 'Check in at the front desk.', 'Get a key for one of the lockers']","['Change your clothes', 'Get together a bag with clothes, towel, shower items, shoes for the sauna']",Change your clothes,0
+0,0.0,[],"['Grab towel', 'Get on swimsuit']",Get on swimsuit,1
+1,0.2,['Get on swimsuit'],"['Grab towel', 'Go home']",Grab towel,0
+2,0.4,"['Get on swimsuit', 'Grab towel']","['Go into sauna', 'Go home']",Go into sauna,0
+3,0.6,"['Get on swimsuit', 'Grab towel', 'Go into sauna']","['Sit and sweat', 'Get on swimsuit']",Sit and sweat,0
+4,0.8,"['Get on swimsuit', 'Grab towel', 'Go into sauna', 'Sit and sweat']","['Grab towel', 'Go home']",Go home,1
+0,0.0,[],"['Strip clothes off', 'Open sauna door']",Strip clothes off,0
+1,0.2,['Strip clothes off'],"['Wrap towel around self', 'Walk into sauna']",Wrap towel around self,0
+2,0.4,"['Strip clothes off', 'Wrap towel around self']","['Close sauna door', 'Open sauna door']",Open sauna door,1
+3,0.6,"['Strip clothes off', 'Wrap towel around self', 'Open sauna door']","['Strip clothes off', 'Walk into sauna']",Walk into sauna,1
+4,0.8,"['Strip clothes off', 'Wrap towel around self', 'Open sauna door', 'Walk into sauna']","['Close sauna door', 'Wrap towel around self']",Close sauna door,0
+0,0.0,[],"['Make an appointment', 'Make an appointment']",Make an appointment,1
+1,0.2,['Make an appointment'],"['Drive to the spa/sauna', 'Change into bathing suit']",Drive to the spa/sauna,0
+2,0.4,"['Make an appointment', 'Drive to the spa/sauna']","['Go into the changing room', 'Enter sauna for approximately 30 minutes']",Go into the changing room,0
+3,0.6,"['Make an appointment', 'Drive to the spa/sauna', 'Go into the changing room']","['Make an appointment', 'Change into bathing suit']",Change into bathing suit,1
+4,0.8,"['Make an appointment', 'Drive to the spa/sauna', 'Go into the changing room', 'Change into bathing suit']","['Enter sauna for approximately 30 minutes', 'Drive to the spa/sauna']",Enter sauna for approximately 30 minutes,0
+0,0.0,[],"['Get a towel', 'Put on appropriate clothing']",Get a towel,0
+1,0.2,['Get a towel'],"['Go to sauna room', 'Put on appropriate clothing']",Put on appropriate clothing,1
+2,0.4,"['Get a towel', 'Put on appropriate clothing']","['Make sure room is properly heated', 'Arrive at sauna']",Arrive at sauna,1
+3,0.6,"['Get a towel', 'Put on appropriate clothing', 'Arrive at sauna']","['Go to sauna room', 'Get a towel']",Go to sauna room,0
+4,0.8,"['Get a towel', 'Put on appropriate clothing', 'Arrive at sauna', 'Go to sauna room']","['Make sure room is properly heated', 'Put on appropriate clothing']",Make sure room is properly heated,0
+0,0.0,[],"['Remove clothes in changing room (naked or to underwear/swimwear).', 'Remove clothes in changing room (naked or to underwear/swimwear).']",Remove clothes in changing room (naked or to underwear/swimwear).,1
+1,0.2,['Remove clothes in changing room (naked or to underwear/swimwear).'],"['Get towel(s).', 'Sit on benches.']",Get towel(s).,0
+2,0.4,"['Remove clothes in changing room (naked or to underwear/swimwear).', 'Get towel(s).']","['Sit on benches.', 'Go to sauna.']",Go to sauna.,1
+3,0.6,"['Remove clothes in changing room (naked or to underwear/swimwear).', 'Get towel(s).', 'Go to sauna.']","['Remove clothes in changing room (naked or to underwear/swimwear).', 'Add water to hot rocks, if desired.']","Add water to hot rocks, if desired.",1
+4,0.8,"['Remove clothes in changing room (naked or to underwear/swimwear).', 'Get towel(s).', 'Go to sauna.', 'Add water to hot rocks, if desired.']","['Sit on benches.', 'Get towel(s).']",Sit on benches.,0
+0,0.0,[],"['Sit and relax for desired amount of time', 'Enter the locker room']",Enter the locker room,1
+1,0.2,['Enter the locker room'],"['Enter the locker room', 'Change clothes']",Change clothes,1
+2,0.4,"['Enter the locker room', 'Change clothes']","['Place towel or robe on', 'Sit and relax for desired amount of time']",Place towel or robe on,0
+3,0.6,"['Enter the locker room', 'Change clothes', 'Place towel or robe on']","['Enter the locker room', 'Enter sauna room']",Enter sauna room,1
+4,0.8,"['Enter the locker room', 'Change clothes', 'Place towel or robe on', 'Enter sauna room']","['Sit and relax for desired amount of time', 'Change clothes']",Sit and relax for desired amount of time,0
+0,0.0,[],"['decide when sauna to visit', 'enter sauna']",decide when sauna to visit,0
+1,0.2,['decide when sauna to visit'],"['drive to sauna', 'wait to be called to enter']",drive to sauna,0
+2,0.4,"['decide when sauna to visit', 'drive to sauna']","['enter sauna', 'wait to be called to enter']",enter sauna,0
+3,0.6,"['decide when sauna to visit', 'drive to sauna', 'enter sauna']","['decide when sauna to visit', 'check in at desk']",check in at desk,1
+4,0.8,"['decide when sauna to visit', 'drive to sauna', 'enter sauna', 'check in at desk']","['wait to be called to enter', 'decide when sauna to visit']",wait to be called to enter,0
+0,0.0,[],"['Grab a towel', 'Take off your clothes']",Grab a towel,0
+1,0.2,['Grab a towel'],"['Grab a towel', 'Take off your clothes']",Take off your clothes,1
+2,0.4,"['Grab a towel', 'Take off your clothes']","['Put on a bathing suit', 'Adjust the heat level by pouring water onto the heating element']",Put on a bathing suit,0
+3,0.6,"['Grab a towel', 'Take off your clothes', 'Put on a bathing suit']","['Enter the sauna', 'Grab a towel']",Enter the sauna,0
+4,0.8,"['Grab a towel', 'Take off your clothes', 'Put on a bathing suit', 'Enter the sauna']","['Take off your clothes', 'Adjust the heat level by pouring water onto the heating element']",Adjust the heat level by pouring water onto the heating element,1
+0,0.0,[],"['Arrive at sauna.', 'Put on towel.']",Arrive at sauna.,0
+1,0.2,['Arrive at sauna.'],"['Go into sauna.', 'Change out of clothes']",Change out of clothes,1
+2,0.4,"['Arrive at sauna.', 'Change out of clothes']","['Put on towel.', 'remove towel']",Put on towel.,0
+3,0.6,"['Arrive at sauna.', 'Change out of clothes', 'Put on towel.']","['Arrive at sauna.', 'Go into sauna.']",Go into sauna.,1
+4,0.8,"['Arrive at sauna.', 'Change out of clothes', 'Put on towel.', 'Go into sauna.']","['Change out of clothes', 'remove towel']",remove towel,1
+0,0.0,[],"['Get out of normal clothes', 'Get out of normal clothes']",Get out of normal clothes,0
+1,0.2,['Get out of normal clothes'],"['Wear bathing suit or towel', 'Enter sauna']",Wear bathing suit or towel,0
+2,0.4,"['Get out of normal clothes', 'Wear bathing suit or towel']","['Wear slippers', 'Sit down']",Wear slippers,0
+3,0.6,"['Get out of normal clothes', 'Wear bathing suit or towel', 'Wear slippers']","['Get out of normal clothes', 'Enter sauna']",Enter sauna,1
+4,0.8,"['Get out of normal clothes', 'Wear bathing suit or towel', 'Wear slippers', 'Enter sauna']","['Sit down', 'Get out of normal clothes']",Sit down,0
+0,0.0,[],"['sit in sauna room for fixed amount of time', 'pack sauna wear']",pack sauna wear,1
+1,0.2,['pack sauna wear'],"['take transportation to the sauna location', 'take transportation to the sauna location']",take transportation to the sauna location,1
+2,0.4,"['pack sauna wear', 'take transportation to the sauna location']","['change into sauna wear at the sauna location', 'sit in sauna room for fixed amount of time']",change into sauna wear at the sauna location,0
+3,0.6,"['pack sauna wear', 'take transportation to the sauna location', 'change into sauna wear at the sauna location']","['pack sauna wear', 'go into sauna']",go into sauna,1
+4,0.8,"['pack sauna wear', 'take transportation to the sauna location', 'change into sauna wear at the sauna location', 'go into sauna']","['sit in sauna room for fixed amount of time', 'take transportation to the sauna location']",sit in sauna room for fixed amount of time,0
+0,0.0,[],"['Bring a towel.', 'Sit patiently and relax.']",Bring a towel.,0
+1,0.2,['Bring a towel.'],"['Bring shorts.', 'Bring shorts.']",Bring shorts.,0
+2,0.4,"['Bring a towel.', 'Bring shorts.']","['Hydrate properly afterwards.', 'Turn the sauna on to desired temperature.']",Turn the sauna on to desired temperature.,1
+3,0.6,"['Bring a towel.', 'Bring shorts.', 'Turn the sauna on to desired temperature.']","['Bring a towel.', 'Sit patiently and relax.']",Sit patiently and relax.,1
+4,0.8,"['Bring a towel.', 'Bring shorts.', 'Turn the sauna on to desired temperature.', 'Sit patiently and relax.']","['Hydrate properly afterwards.', 'Bring shorts.']",Hydrate properly afterwards.,0
+0,0.0,[],"['Be well hydrated', 'Have a shower and leave the house']",Be well hydrated,0
+1,0.2,['Be well hydrated'],"['Arrive at the gym or spa', 'Have a shower and leave the house']",Have a shower and leave the house,1
+2,0.4,"['Be well hydrated', 'Have a shower and leave the house']","['Arrive at the gym or spa', 'Enter the sauna and relax']",Arrive at the gym or spa,0
+3,0.6,"['Be well hydrated', 'Have a shower and leave the house', 'Arrive at the gym or spa']","['Go to the locker room and change into water resistant clothing, or a towel', 'Be well hydrated']","Go to the locker room and change into water resistant clothing, or a towel",0
+4,0.8,"['Be well hydrated', 'Have a shower and leave the house', 'Arrive at the gym or spa', 'Go to the locker room and change into water resistant clothing, or a towel']","['Enter the sauna and relax', 'Be well hydrated']",Enter the sauna and relax,0
+0,0.0,[],"['turn on heat', 'Put on bathing suit']",Put on bathing suit,1
+1,0.2,['Put on bathing suit'],"['grab towel', 'add water to heat to make steam']",grab towel,0
+2,0.4,"['Put on bathing suit', 'grab towel']","['add water to heat to make steam', 'open door of sauna']",open door of sauna,1
+3,0.6,"['Put on bathing suit', 'grab towel', 'open door of sauna']","['turn on heat', 'Put on bathing suit']",turn on heat,0
+4,0.8,"['Put on bathing suit', 'grab towel', 'open door of sauna', 'turn on heat']","['grab towel', 'add water to heat to make steam']",add water to heat to make steam,1
+0,0.0,[],"['Get in car', 'Drive to gym']",Get in car,0
+1,0.2,['Get in car'],"['Get in car', 'Drive to gym']",Drive to gym,1
+2,0.4,"['Get in car', 'Drive to gym']","['Sign in', 'Place belongings in locker']",Sign in,0
+3,0.6,"['Get in car', 'Drive to gym', 'Sign in']","['Get in car', 'Walk to locker room']",Walk to locker room,1
+4,0.8,"['Get in car', 'Drive to gym', 'Sign in', 'Walk to locker room']","['Drive to gym', 'Place belongings in locker']",Place belongings in locker,1
+0,0.0,[],"['Shower.', 'Drive to the sauna.']",Drive to the sauna.,1
+1,0.2,['Drive to the sauna.'],"['Undress.', 'Drive to the sauna.']",Undress.,0
+2,0.4,"['Drive to the sauna.', 'Undress.']","['Shower.', 'Step into sauna.']",Step into sauna.,1
+3,0.6,"['Drive to the sauna.', 'Undress.', 'Step into sauna.']","['Drive to the sauna.', 'Relax in the steam.']",Relax in the steam.,1
+4,0.8,"['Drive to the sauna.', 'Undress.', 'Step into sauna.', 'Relax in the steam.']","['Undress.', 'Shower.']",Shower.,1
+0,0.0,[],"['Decide which sauna you would like to go to.', 'Enter into the building.']",Decide which sauna you would like to go to.,0
+1,0.2,['Decide which sauna you would like to go to.'],"['Get in the car and drive to the sauna.', 'Go to the locker room and change into the clothing you will wear into the sauna.']",Get in the car and drive to the sauna.,0
+2,0.4,"['Decide which sauna you would like to go to.', 'Get in the car and drive to the sauna.']","['Enter into the building.', 'Enter the sauna and sit down.']",Enter into the building.,0
+3,0.6,"['Decide which sauna you would like to go to.', 'Get in the car and drive to the sauna.', 'Enter into the building.']","['Go to the locker room and change into the clothing you will wear into the sauna.', 'Decide which sauna you would like to go to.']",Go to the locker room and change into the clothing you will wear into the sauna.,0
+4,0.8,"['Decide which sauna you would like to go to.', 'Get in the car and drive to the sauna.', 'Enter into the building.', 'Go to the locker room and change into the clothing you will wear into the sauna.']","['Get in the car and drive to the sauna.', 'Enter the sauna and sit down.']",Enter the sauna and sit down.,1
+0,0.0,[],"[""Additionally, if it's a combo spa/sauna, you can get massages too."", 'Find a local sauna or spa/sauna place.']",Find a local sauna or spa/sauna place.,1
+1,0.2,['Find a local sauna or spa/sauna place.'],"['Maybe grab a friend/etc. and drive there.', 'Find a local sauna or spa/sauna place.']",Maybe grab a friend/etc. and drive there.,0
+2,0.4,"['Find a local sauna or spa/sauna place.', 'Maybe grab a friend/etc. and drive there.']","['Order the package you want, whether it be deluxe, regular, etc.', ""Additionally, if it's a combo spa/sauna, you can get massages too.""]","Order the package you want, whether it be deluxe, regular, etc.",0
+3,0.6,"['Find a local sauna or spa/sauna place.', 'Maybe grab a friend/etc. and drive there.', 'Order the package you want, whether it be deluxe, regular, etc.']","['Wait until your turn(s), and then enter the relaxing, steamy facility.', 'Find a local sauna or spa/sauna place.']","Wait until your turn(s), and then enter the relaxing, steamy facility.",0
+4,0.8,"['Find a local sauna or spa/sauna place.', 'Maybe grab a friend/etc. and drive there.', 'Order the package you want, whether it be deluxe, regular, etc.', 'Wait until your turn(s), and then enter the relaxing, steamy facility.']","[""Additionally, if it's a combo spa/sauna, you can get massages too."", 'Maybe grab a friend/etc. and drive there.']","Additionally, if it's a combo spa/sauna, you can get massages too.",0
+0,0.0,[],"['drive to sauna', 'Pack up personal hygiene products']",Pack up personal hygiene products,1
+1,0.2,['Pack up personal hygiene products'],"['go into changing room', 'pack towel']",pack towel,1
+2,0.4,"['Pack up personal hygiene products', 'pack towel']","['get undressed', 'drive to sauna']",drive to sauna,1
+3,0.6,"['Pack up personal hygiene products', 'pack towel', 'drive to sauna']","['Pack up personal hygiene products', 'go into changing room']",go into changing room,1
+4,0.8,"['Pack up personal hygiene products', 'pack towel', 'drive to sauna', 'go into changing room']","['get undressed', 'pack towel']",get undressed,0
+0,0.0,[],"['Pack gym bag with towel and supplies', 'Go to locker room']",Pack gym bag with towel and supplies,0
+1,0.2,['Pack gym bag with towel and supplies'],"['Put hair up in pony tail', 'Drive to sauna']",Drive to sauna,1
+2,0.4,"['Pack gym bag with towel and supplies', 'Drive to sauna']","['Go to locker room', 'Put hair up in pony tail']",Go to locker room,0
+3,0.6,"['Pack gym bag with towel and supplies', 'Drive to sauna', 'Go to locker room']","['Pack gym bag with towel and supplies', 'Change into bathing suit']",Change into bathing suit,1
+4,0.8,"['Pack gym bag with towel and supplies', 'Drive to sauna', 'Go to locker room', 'Change into bathing suit']","['Put hair up in pony tail', 'Drive to sauna']",Put hair up in pony tail,0
+0,0.0,[],"['Drive to the local gym that has a sauna.', 'Drive to the local gym that has a sauna.']",Drive to the local gym that has a sauna.,0
+1,0.2,['Drive to the local gym that has a sauna.'],"['Put clothes in locker.', 'Take off your clothes in the locker room.']",Take off your clothes in the locker room.,1
+2,0.4,"['Drive to the local gym that has a sauna.', 'Take off your clothes in the locker room.']","['Walk into sauna wearing a towel.', 'Put clothes in locker.']",Put clothes in locker.,1
+3,0.6,"['Drive to the local gym that has a sauna.', 'Take off your clothes in the locker room.', 'Put clothes in locker.']","['Drive to the local gym that has a sauna.', 'Lock locker.']",Lock locker.,1
+4,0.8,"['Drive to the local gym that has a sauna.', 'Take off your clothes in the locker room.', 'Put clothes in locker.', 'Lock locker.']","['Walk into sauna wearing a towel.', 'Take off your clothes in the locker room.']",Walk into sauna wearing a towel.,0
+0,0.0,[],"['Begin taking off clothes', 'View what time the sauna closes']",View what time the sauna closes,1
+1,0.2,['View what time the sauna closes'],"['Wear your swim trunks', 'Begin taking off clothes']",Begin taking off clothes,1
+2,0.4,"['View what time the sauna closes', 'Begin taking off clothes']","['Bring a towel', 'Wear your swim trunks']",Wear your swim trunks,1
+3,0.6,"['View what time the sauna closes', 'Begin taking off clothes', 'Wear your swim trunks']","['Wear sandals', 'View what time the sauna closes']",Wear sandals,0
+4,0.8,"['View what time the sauna closes', 'Begin taking off clothes', 'Wear your swim trunks', 'Wear sandals']","['View what time the sauna closes', 'Bring a towel']",Bring a towel,1
+0,0.0,[],"['put on clothes', 'get in the car and drive to the sauna']",put on clothes,0
+1,0.2,['put on clothes'],"['call ahead and make sure there is an opening for a walk in', 'check in at reception']",call ahead and make sure there is an opening for a walk in,0
+2,0.4,"['put on clothes', 'call ahead and make sure there is an opening for a walk in']","['go to the locker room and get changed', 'get in the car and drive to the sauna']",get in the car and drive to the sauna,1
+3,0.6,"['put on clothes', 'call ahead and make sure there is an opening for a walk in', 'get in the car and drive to the sauna']","['check in at reception', 'put on clothes']",check in at reception,0
+4,0.8,"['put on clothes', 'call ahead and make sure there is an opening for a walk in', 'get in the car and drive to the sauna', 'check in at reception']","['call ahead and make sure there is an opening for a walk in', 'go to the locker room and get changed']",go to the locker room and get changed,1
+0,0.0,[],"['Take a shower', 'Strip in locker room']",Take a shower,0
+1,0.2,['Take a shower'],"['Drive to sauna', 'Get dressed in sweats']",Get dressed in sweats,1
+2,0.4,"['Take a shower', 'Get dressed in sweats']","['Drive to sauna', 'Strip in locker room']",Drive to sauna,0
+3,0.6,"['Take a shower', 'Get dressed in sweats', 'Drive to sauna']","['Take a shower', 'Show identification to desk person']",Show identification to desk person,1
+4,0.8,"['Take a shower', 'Get dressed in sweats', 'Drive to sauna', 'Show identification to desk person']","['Strip in locker room', 'Get dressed in sweats']",Strip in locker room,0
+0,0.0,[],"['Take off clothes and put towels on', 'Call sauna to see if they are open']",Call sauna to see if they are open,1
+1,0.2,['Call sauna to see if they are open'],"['Get wallet and car keys', 'Get wallet and car keys']",Get wallet and car keys,0
+2,0.4,"['Call sauna to see if they are open', 'Get wallet and car keys']","['Take off clothes and put towels on', 'Drive to sauna']",Drive to sauna,1
+3,0.6,"['Call sauna to see if they are open', 'Get wallet and car keys', 'Drive to sauna']","['Call sauna to see if they are open', 'Talk to worker to get access to sauna']",Talk to worker to get access to sauna,1
+4,0.8,"['Call sauna to see if they are open', 'Get wallet and car keys', 'Drive to sauna', 'Talk to worker to get access to sauna']","['Take off clothes and put towels on', 'Get wallet and car keys']",Take off clothes and put towels on,0
+0,0.0,[],"['Put on a swimsuit or robe', 'Drink water']",Drink water,1
+1,0.2,['Drink water'],"['Put on a swimsuit or robe', 'Set the timer on the sauna']",Put on a swimsuit or robe,0
+2,0.4,"['Drink water', 'Put on a swimsuit or robe']","['Get into sauna', 'Relax']",Get into sauna,0
+3,0.6,"['Drink water', 'Put on a swimsuit or robe', 'Get into sauna']","['Drink water', 'Set the timer on the sauna']",Set the timer on the sauna,1
+4,0.8,"['Drink water', 'Put on a swimsuit or robe', 'Get into sauna', 'Set the timer on the sauna']","['Relax', 'Put on a swimsuit or robe']",Relax,0
+0,0.0,[],"['Arrive at sauna of your choice', 'Store possessions and street clothes in locker']",Arrive at sauna of your choice,0
+1,0.2,['Arrive at sauna of your choice'],"['Check in at the front desk', 'Check in at the front desk']",Check in at the front desk,0
+2,0.4,"['Arrive at sauna of your choice', 'Check in at the front desk']","['Change into bathing clothes or undress entirely', 'Enter steam room']",Change into bathing clothes or undress entirely,0
+3,0.6,"['Arrive at sauna of your choice', 'Check in at the front desk', 'Change into bathing clothes or undress entirely']","['Arrive at sauna of your choice', 'Store possessions and street clothes in locker']",Store possessions and street clothes in locker,1
+4,0.8,"['Arrive at sauna of your choice', 'Check in at the front desk', 'Change into bathing clothes or undress entirely', 'Store possessions and street clothes in locker']","['Enter steam room', 'Check in at the front desk']",Enter steam room,0

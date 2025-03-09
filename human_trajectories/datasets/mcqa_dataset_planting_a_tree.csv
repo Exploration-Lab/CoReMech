@@ -1,0 +1,576 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Place tree in hole', 'Purchase a tree to plant']",Purchase a tree to plant,1
+1,0.16666666666666666,['Purchase a tree to plant'],"['Fill hole back in with dirt', 'Find a location to plant tree']",Find a location to plant tree,1
+2,0.3333333333333333,"['Purchase a tree to plant', 'Find a location to plant tree']","['Dig hole in ground about 16 inches deep', 'Fill hole back in with dirt']",Dig hole in ground about 16 inches deep,0
+3,0.5,"['Purchase a tree to plant', 'Find a location to plant tree', 'Dig hole in ground about 16 inches deep']","['Place tree in hole', 'Water tree']",Place tree in hole,0
+4,0.6666666666666666,"['Purchase a tree to plant', 'Find a location to plant tree', 'Dig hole in ground about 16 inches deep', 'Place tree in hole']","['Fill hole back in with dirt', 'Find a location to plant tree']",Fill hole back in with dirt,0
+5,0.8333333333333334,"['Purchase a tree to plant', 'Find a location to plant tree', 'Dig hole in ground about 16 inches deep', 'Place tree in hole', 'Fill hole back in with dirt']","['Purchase a tree to plant', 'Water tree']",Water tree,1
+0,0.0,[],"['Get soil', 'Place tree in hole']",Get soil,0
+1,0.16666666666666666,['Get soil'],"['Place tree in hole', 'Get tree in pot']",Get tree in pot,1
+2,0.3333333333333333,"['Get soil', 'Get tree in pot']","['Find a spot to plant tree', 'Place tree in hole']",Find a spot to plant tree,0
+3,0.5,"['Get soil', 'Get tree in pot', 'Find a spot to plant tree']","['Dig a hole with shovel', 'Fill hole with soil']",Dig a hole with shovel,0
+4,0.6666666666666666,"['Get soil', 'Get tree in pot', 'Find a spot to plant tree', 'Dig a hole with shovel']","['Place tree in hole', 'Get soil']",Place tree in hole,0
+5,0.8333333333333334,"['Get soil', 'Get tree in pot', 'Find a spot to plant tree', 'Dig a hole with shovel', 'Place tree in hole']","['Get soil', 'Fill hole with soil']",Fill hole with soil,1
+0,0.0,[],"['Cover the seed loosely with soil', 'Locate the spot to plant the tree']",Locate the spot to plant the tree,1
+1,0.2,['Locate the spot to plant the tree'],"['Plant the seed in the soil', 'Dig the soil about two fingers deep']",Dig the soil about two fingers deep,1
+2,0.4,"['Locate the spot to plant the tree', 'Dig the soil about two fingers deep']","['Pour some water over the covered seed', 'Plant the seed in the soil']",Plant the seed in the soil,1
+3,0.6,"['Locate the spot to plant the tree', 'Dig the soil about two fingers deep', 'Plant the seed in the soil']","['Locate the spot to plant the tree', 'Cover the seed loosely with soil']",Cover the seed loosely with soil,1
+4,0.8,"['Locate the spot to plant the tree', 'Dig the soil about two fingers deep', 'Plant the seed in the soil', 'Cover the seed loosely with soil']","['Locate the spot to plant the tree', 'Pour some water over the covered seed']",Pour some water over the covered seed,1
+0,0.0,[],"['Go to garden center', 'Make sure your spot is not too close to your house, allowing roots plenty of room']",Go to garden center,0
+1,0.16666666666666666,['Go to garden center'],"['Pick out a sapling that you like', 'Place sapling into hole']",Pick out a sapling that you like,0
+2,0.3333333333333333,"['Go to garden center', 'Pick out a sapling that you like']","['Go home and pick out a nice place to plant your tree', 'Dig a hole deep and wide enough to accommodate the roots']",Go home and pick out a nice place to plant your tree,0
+3,0.5,"['Go to garden center', 'Pick out a sapling that you like', 'Go home and pick out a nice place to plant your tree']","['Place sapling into hole', 'Make sure your spot is not too close to your house, allowing roots plenty of room']","Make sure your spot is not too close to your house, allowing roots plenty of room",1
+4,0.6666666666666666,"['Go to garden center', 'Pick out a sapling that you like', 'Go home and pick out a nice place to plant your tree', 'Make sure your spot is not too close to your house, allowing roots plenty of room']","['Pick out a sapling that you like', 'Dig a hole deep and wide enough to accommodate the roots']",Dig a hole deep and wide enough to accommodate the roots,1
+5,0.8333333333333334,"['Go to garden center', 'Pick out a sapling that you like', 'Go home and pick out a nice place to plant your tree', 'Make sure your spot is not too close to your house, allowing roots plenty of room', 'Dig a hole deep and wide enough to accommodate the roots']","['Place sapling into hole', 'Go home and pick out a nice place to plant your tree']",Place sapling into hole,0
+0,0.0,[],"['digging in the ground', 'watering the dirt']",digging in the ground,0
+1,0.2,['digging in the ground'],"['preparing the dirt', 'digging in the ground']",preparing the dirt,0
+2,0.4,"['digging in the ground', 'preparing the dirt']","['placing the seeds in the ground', 'watering the dirt']",placing the seeds in the ground,0
+3,0.6,"['digging in the ground', 'preparing the dirt', 'placing the seeds in the ground']","['digging in the ground', 'putting dirt over the seeds']",putting dirt over the seeds,1
+4,0.8,"['digging in the ground', 'preparing the dirt', 'placing the seeds in the ground', 'putting dirt over the seeds']","['watering the dirt', 'preparing the dirt']",watering the dirt,0
+0,0.0,[],"['Choose a tree that you want to grow', 'Use a shovel to dig a hole into the ground']",Choose a tree that you want to grow,0
+1,0.16666666666666666,['Choose a tree that you want to grow'],"['Place the tree inside the whole', 'Purchase the tree']",Purchase the tree,1
+2,0.3333333333333333,"['Choose a tree that you want to grow', 'Purchase the tree']","['Place the tree inside the whole', 'Use a shovel to dig a hole into the ground']",Use a shovel to dig a hole into the ground,1
+3,0.5,"['Choose a tree that you want to grow', 'Purchase the tree', 'Use a shovel to dig a hole into the ground']","['Cover the hole with topsoil', 'Put fertilizer in the hole']",Put fertilizer in the hole,1
+4,0.6666666666666666,"['Choose a tree that you want to grow', 'Purchase the tree', 'Use a shovel to dig a hole into the ground', 'Put fertilizer in the hole']","['Choose a tree that you want to grow', 'Place the tree inside the whole']",Place the tree inside the whole,1
+5,0.8333333333333334,"['Choose a tree that you want to grow', 'Purchase the tree', 'Use a shovel to dig a hole into the ground', 'Put fertilizer in the hole', 'Place the tree inside the whole']","['Choose a tree that you want to grow', 'Cover the hole with topsoil']",Cover the hole with topsoil,1
+0,0.0,[],"['Dig hole', 'Go to nursery']",Go to nursery,1
+1,0.16666666666666666,['Go to nursery'],"['Buy sapling', 'Put sapling in hole']",Buy sapling,0
+2,0.3333333333333333,"['Go to nursery', 'Buy sapling']","['Go outside', 'Cover hole']",Go outside,0
+3,0.5,"['Go to nursery', 'Buy sapling', 'Go outside']","['Dig hole', 'Go to nursery']",Dig hole,0
+4,0.6666666666666666,"['Go to nursery', 'Buy sapling', 'Go outside', 'Dig hole']","['Put sapling in hole', 'Go to nursery']",Put sapling in hole,0
+5,0.8333333333333334,"['Go to nursery', 'Buy sapling', 'Go outside', 'Dig hole', 'Put sapling in hole']","['Cover hole', 'Buy sapling']",Cover hole,0
+0,0.0,[],"['Prepare soil.', 'Prepare soil.']",Prepare soil.,1
+1,0.16666666666666666,['Prepare soil.'],"['Cover hole with soil.', 'Dig the hole for the tree.']",Dig the hole for the tree.,1
+2,0.3333333333333333,"['Prepare soil.', 'Dig the hole for the tree.']","['Stake the tree.', 'Place tree in hole.']",Place tree in hole.,1
+3,0.5,"['Prepare soil.', 'Dig the hole for the tree.', 'Place tree in hole.']","['Stake the tree.', 'Cover hole with soil.']",Cover hole with soil.,1
+4,0.6666666666666666,"['Prepare soil.', 'Dig the hole for the tree.', 'Place tree in hole.', 'Cover hole with soil.']","['Prepare soil.', 'Water it.']",Water it.,1
+5,0.8333333333333334,"['Prepare soil.', 'Dig the hole for the tree.', 'Place tree in hole.', 'Cover hole with soil.', 'Water it.']","['Stake the tree.', 'Prepare soil.']",Stake the tree.,0
+0,0.0,[],"['get seeds, seedling, or bush', 'dig hole']","get seeds, seedling, or bush",0
+1,0.2,"['get seeds, seedling, or bush']","['dig hole', 'get seeds, seedling, or bush']",dig hole,0
+2,0.4,"['get seeds, seedling, or bush', 'dig hole']","['plant seed, seedling, or bush', 'water the tree']","plant seed, seedling, or bush",0
+3,0.6,"['get seeds, seedling, or bush', 'dig hole', 'plant seed, seedling, or bush']","['get seeds, seedling, or bush', 'fill hole with dirt around the tree']",fill hole with dirt around the tree,1
+4,0.8,"['get seeds, seedling, or bush', 'dig hole', 'plant seed, seedling, or bush', 'fill hole with dirt around the tree']","['water the tree', 'dig hole']",water the tree,0
+0,0.0,[],"['Dig a hole into the ground', 'Get shovel and tree sapling']",Get shovel and tree sapling,1
+1,0.16666666666666666,['Get shovel and tree sapling'],"['Dig a hole into the ground', 'Dig a hole into the ground']",Dig a hole into the ground,1
+2,0.3333333333333333,"['Get shovel and tree sapling', 'Dig a hole into the ground']","['Place tree sapling into hole', 'Water the tree generously']",Place tree sapling into hole,0
+3,0.5,"['Get shovel and tree sapling', 'Dig a hole into the ground', 'Place tree sapling into hole']","['Put dirt back into hole', 'Get shovel and tree sapling']",Put dirt back into hole,0
+4,0.6666666666666666,"['Get shovel and tree sapling', 'Dig a hole into the ground', 'Place tree sapling into hole', 'Put dirt back into hole']","['Get shovel and tree sapling', 'Press dirt firmly around root ball as hole is filled in']",Press dirt firmly around root ball as hole is filled in,1
+5,0.8333333333333334,"['Get shovel and tree sapling', 'Dig a hole into the ground', 'Place tree sapling into hole', 'Put dirt back into hole', 'Press dirt firmly around root ball as hole is filled in']","['Dig a hole into the ground', 'Water the tree generously']",Water the tree generously,1
+0,0.0,[],"['Buy a young tree.', 'Fill the hole back with dirt.']",Buy a young tree.,0
+1,0.16666666666666666,['Buy a young tree.'],"['Dig a hole where you want to plant tree.', 'Take it home.']",Take it home.,1
+2,0.3333333333333333,"['Buy a young tree.', 'Take it home.']","['Dig a hole where you want to plant tree.', 'Fill the hole back with dirt.']",Dig a hole where you want to plant tree.,0
+3,0.5,"['Buy a young tree.', 'Take it home.', 'Dig a hole where you want to plant tree.']","['Watch tree grow.', 'Put the tree in the hole.']",Put the tree in the hole.,1
+4,0.6666666666666666,"['Buy a young tree.', 'Take it home.', 'Dig a hole where you want to plant tree.', 'Put the tree in the hole.']","['Fill the hole back with dirt.', 'Buy a young tree.']",Fill the hole back with dirt.,0
+5,0.8333333333333334,"['Buy a young tree.', 'Take it home.', 'Dig a hole where you want to plant tree.', 'Put the tree in the hole.', 'Fill the hole back with dirt.']","['Watch tree grow.', 'Dig a hole where you want to plant tree.']",Watch tree grow.,0
+0,0.0,[],"['Dig a hole', 'Buy a tree sapling']",Buy a tree sapling,1
+1,0.2,['Buy a tree sapling'],"['Place sapling in hole', 'Dig a hole']",Dig a hole,1
+2,0.4,"['Buy a tree sapling', 'Dig a hole']","['Water the tree every day', 'Place sapling in hole']",Place sapling in hole,1
+3,0.6,"['Buy a tree sapling', 'Dig a hole', 'Place sapling in hole']","['Fill hole with dirt', 'Buy a tree sapling']",Fill hole with dirt,0
+4,0.8,"['Buy a tree sapling', 'Dig a hole', 'Place sapling in hole', 'Fill hole with dirt']","['Dig a hole', 'Water the tree every day']",Water the tree every day,1
+0,0.0,[],"['Buy some seeds of desired tree', 'Buy some seeds of desired tree']",Buy some seeds of desired tree,0
+1,0.16666666666666666,['Buy some seeds of desired tree'],"['Select a spot where to plant a tree preferably in good exposure to sunlight', 'Dig about 6 inches deep or as desired']",Select a spot where to plant a tree preferably in good exposure to sunlight,0
+2,0.3333333333333333,"['Buy some seeds of desired tree', 'Select a spot where to plant a tree preferably in good exposure to sunlight']","['Secure the boundary of the circle with fence of rounded river stones', 'Take a shovel']",Take a shovel,1
+3,0.5,"['Buy some seeds of desired tree', 'Select a spot where to plant a tree preferably in good exposure to sunlight', 'Take a shovel']","['Dig about 6 inches deep or as desired', 'Secure the boundary of the circle with fence of rounded river stones']",Dig about 6 inches deep or as desired,0
+4,0.6666666666666666,"['Buy some seeds of desired tree', 'Select a spot where to plant a tree preferably in good exposure to sunlight', 'Take a shovel', 'Dig about 6 inches deep or as desired']","['Select a spot where to plant a tree preferably in good exposure to sunlight', 'Dig in a circle all around the spot']",Dig in a circle all around the spot,1
+5,0.8333333333333334,"['Buy some seeds of desired tree', 'Select a spot where to plant a tree preferably in good exposure to sunlight', 'Take a shovel', 'Dig about 6 inches deep or as desired', 'Dig in a circle all around the spot']","['Select a spot where to plant a tree preferably in good exposure to sunlight', 'Secure the boundary of the circle with fence of rounded river stones']",Secure the boundary of the circle with fence of rounded river stones,1
+0,0.0,[],"['Put on gloves and sunglasses', 'Get gloves']",Get gloves,1
+1,0.16666666666666666,['Get gloves'],"['Get gloves', 'Get sunglasses']",Get sunglasses,1
+2,0.3333333333333333,"['Get gloves', 'Get sunglasses']","['Put on hat', 'Walk outside']",Put on hat,0
+3,0.5,"['Get gloves', 'Get sunglasses', 'Put on hat']","['Walk outside', 'Get garden supplies']",Get garden supplies,1
+4,0.6666666666666666,"['Get gloves', 'Get sunglasses', 'Put on hat', 'Get garden supplies']","['Get sunglasses', 'Put on gloves and sunglasses']",Put on gloves and sunglasses,1
+5,0.8333333333333334,"['Get gloves', 'Get sunglasses', 'Put on hat', 'Get garden supplies', 'Put on gloves and sunglasses']","['Walk outside', 'Put on hat']",Walk outside,0
+0,0.0,[],"['Find a shovel.', 'Fill in any gaps in the hole with soil.']",Find a shovel.,0
+1,0.16666666666666666,['Find a shovel.'],"['Dig a hole the same size as the container holding the tree.', 'Place the tree in the hole.']",Dig a hole the same size as the container holding the tree.,0
+2,0.3333333333333333,"['Find a shovel.', 'Dig a hole the same size as the container holding the tree.']","['Take the tree out of the container.', 'Watch your tree grow over the years.']",Take the tree out of the container.,0
+3,0.5,"['Find a shovel.', 'Dig a hole the same size as the container holding the tree.', 'Take the tree out of the container.']","['Place the tree in the hole.', 'Watch your tree grow over the years.']",Place the tree in the hole.,0
+4,0.6666666666666666,"['Find a shovel.', 'Dig a hole the same size as the container holding the tree.', 'Take the tree out of the container.', 'Place the tree in the hole.']","['Find a shovel.', 'Fill in any gaps in the hole with soil.']",Fill in any gaps in the hole with soil.,1
+5,0.8333333333333334,"['Find a shovel.', 'Dig a hole the same size as the container holding the tree.', 'Take the tree out of the container.', 'Place the tree in the hole.', 'Fill in any gaps in the hole with soil.']","['Dig a hole the same size as the container holding the tree.', 'Watch your tree grow over the years.']",Watch your tree grow over the years.,1
+0,0.0,[],"['Water regularly.', 'Obtain seedling.']",Obtain seedling.,1
+1,0.16666666666666666,['Obtain seedling.'],"['Choose spot for planting.', 'Cover roots with dirt.']",Choose spot for planting.,0
+2,0.3333333333333333,"['Obtain seedling.', 'Choose spot for planting.']","['Water regularly.', 'Dig hole big enough for seedling.']",Dig hole big enough for seedling.,1
+3,0.5,"['Obtain seedling.', 'Choose spot for planting.', 'Dig hole big enough for seedling.']","['Place seedling into hole.', 'Water regularly.']",Place seedling into hole.,0
+4,0.6666666666666666,"['Obtain seedling.', 'Choose spot for planting.', 'Dig hole big enough for seedling.', 'Place seedling into hole.']","['Cover roots with dirt.', 'Obtain seedling.']",Cover roots with dirt.,0
+5,0.8333333333333334,"['Obtain seedling.', 'Choose spot for planting.', 'Dig hole big enough for seedling.', 'Place seedling into hole.', 'Cover roots with dirt.']","['Choose spot for planting.', 'Water regularly.']",Water regularly.,1
+0,0.0,[],"['Put on gloves', 'Get a sapling, shovel and garden gloves.']","Get a sapling, shovel and garden gloves.",1
+1,0.16666666666666666,"['Get a sapling, shovel and garden gloves.']","['Get a sapling, shovel and garden gloves.', 'Put on gloves']",Put on gloves,1
+2,0.3333333333333333,"['Get a sapling, shovel and garden gloves.', 'Put on gloves']","['take off gloves and put away with shovel', 'dig hole for tree']",dig hole for tree,1
+3,0.5,"['Get a sapling, shovel and garden gloves.', 'Put on gloves', 'dig hole for tree']","['put sapling in hole', 'Get a sapling, shovel and garden gloves.']",put sapling in hole,0
+4,0.6666666666666666,"['Get a sapling, shovel and garden gloves.', 'Put on gloves', 'dig hole for tree', 'put sapling in hole']","['Put on gloves', 'cover with dirt']",cover with dirt,1
+5,0.8333333333333334,"['Get a sapling, shovel and garden gloves.', 'Put on gloves', 'dig hole for tree', 'put sapling in hole', 'cover with dirt']","['dig hole for tree', 'take off gloves and put away with shovel']",take off gloves and put away with shovel,1
+0,0.0,[],"['Take tree seed outside.', 'Water.']",Take tree seed outside.,0
+1,0.16666666666666666,['Take tree seed outside.'],"['Place seed in hole.', 'With small shovel dig hole.']",With small shovel dig hole.,1
+2,0.3333333333333333,"['Take tree seed outside.', 'With small shovel dig hole.']","['Wait patiently.', 'Place seed in hole.']",Place seed in hole.,1
+3,0.5,"['Take tree seed outside.', 'With small shovel dig hole.', 'Place seed in hole.']","['cover with soil.', 'Wait patiently.']",cover with soil.,0
+4,0.6666666666666666,"['Take tree seed outside.', 'With small shovel dig hole.', 'Place seed in hole.', 'cover with soil.']","['With small shovel dig hole.', 'Water.']",Water.,1
+5,0.8333333333333334,"['Take tree seed outside.', 'With small shovel dig hole.', 'Place seed in hole.', 'cover with soil.', 'Water.']","['Take tree seed outside.', 'Wait patiently.']",Wait patiently.,1
+0,0.0,[],"['Select a correct place in my backyard', 'Buy a sapling from nursery']",Buy a sapling from nursery,1
+1,0.16666666666666666,['Buy a sapling from nursery'],"['Ensure the hole is not too deep and not too narrow', 'Select a correct place in my backyard']",Select a correct place in my backyard,1
+2,0.3333333333333333,"['Buy a sapling from nursery', 'Select a correct place in my backyard']","['Dig a hole according to the size of the sapling', 'Hold it with one hand firmly and refill the soil']",Dig a hole according to the size of the sapling,0
+3,0.5,"['Buy a sapling from nursery', 'Select a correct place in my backyard', 'Dig a hole according to the size of the sapling']","['Buy a sapling from nursery', 'Ensure the hole is not too deep and not too narrow']",Ensure the hole is not too deep and not too narrow,1
+4,0.6666666666666666,"['Buy a sapling from nursery', 'Select a correct place in my backyard', 'Dig a hole according to the size of the sapling', 'Ensure the hole is not too deep and not too narrow']","['Buy a sapling from nursery', 'Place the tree sapling into the hole']",Place the tree sapling into the hole,1
+5,0.8333333333333334,"['Buy a sapling from nursery', 'Select a correct place in my backyard', 'Dig a hole according to the size of the sapling', 'Ensure the hole is not too deep and not too narrow', 'Place the tree sapling into the hole']","['Dig a hole according to the size of the sapling', 'Hold it with one hand firmly and refill the soil']",Hold it with one hand firmly and refill the soil,1
+0,0.0,[],"['fill in with dirt', 'go buy a tree']",go buy a tree,1
+1,0.2,['go buy a tree'],"['dig a hole twice as wide as the pot', 'dig a hole twice as wide as the pot']",dig a hole twice as wide as the pot,0
+2,0.4,"['go buy a tree', 'dig a hole twice as wide as the pot']","['dig hole deep enough for the roots', 'water very well']",dig hole deep enough for the roots,0
+3,0.6,"['go buy a tree', 'dig a hole twice as wide as the pot', 'dig hole deep enough for the roots']","['fill in with dirt', 'go buy a tree']",fill in with dirt,0
+4,0.8,"['go buy a tree', 'dig a hole twice as wide as the pot', 'dig hole deep enough for the roots', 'fill in with dirt']","['dig a hole twice as wide as the pot', 'water very well']",water very well,1
+0,0.0,[],"['Get a shovel', 'Get a tree']",Get a tree,1
+1,0.16666666666666666,['Get a tree'],"['Get a shovel', 'Fill up the rest of the hole with dirt']",Get a shovel,0
+2,0.3333333333333333,"['Get a tree', 'Get a shovel']","['Go to a field or a yard', 'Fill up the rest of the hole with dirt']",Go to a field or a yard,0
+3,0.5,"['Get a tree', 'Get a shovel', 'Go to a field or a yard']","['Dig a hole deep enough to plant the tree roots', 'Get a tree']",Dig a hole deep enough to plant the tree roots,0
+4,0.6666666666666666,"['Get a tree', 'Get a shovel', 'Go to a field or a yard', 'Dig a hole deep enough to plant the tree roots']","['Get a shovel', 'Put the tree in the hole']",Put the tree in the hole,1
+5,0.8333333333333334,"['Get a tree', 'Get a shovel', 'Go to a field or a yard', 'Dig a hole deep enough to plant the tree roots', 'Put the tree in the hole']","['Get a tree', 'Fill up the rest of the hole with dirt']",Fill up the rest of the hole with dirt,1
+0,0.0,[],"['Buy a small tree at a nursery', 'Cover tree roots with dirt']",Buy a small tree at a nursery,0
+1,0.16666666666666666,['Buy a small tree at a nursery'],"['Get a shovel', 'Put tree into hole']",Get a shovel,0
+2,0.3333333333333333,"['Buy a small tree at a nursery', 'Get a shovel']","['Dig a hole large enough to place the tree into', 'Cover tree roots with dirt']",Dig a hole large enough to place the tree into,0
+3,0.5,"['Buy a small tree at a nursery', 'Get a shovel', 'Dig a hole large enough to place the tree into']","['Put tree into hole', 'Pack down the dirt around the tree']",Put tree into hole,0
+4,0.6666666666666666,"['Buy a small tree at a nursery', 'Get a shovel', 'Dig a hole large enough to place the tree into', 'Put tree into hole']","['Cover tree roots with dirt', 'Buy a small tree at a nursery']",Cover tree roots with dirt,0
+5,0.8333333333333334,"['Buy a small tree at a nursery', 'Get a shovel', 'Dig a hole large enough to place the tree into', 'Put tree into hole', 'Cover tree roots with dirt']","['Pack down the dirt around the tree', 'Buy a small tree at a nursery']",Pack down the dirt around the tree,0
+0,0.0,[],"['Dig a very deep hole with a shovel.', 'Choose type of tree.']",Choose type of tree.,1
+1,0.16666666666666666,['Choose type of tree.'],"['Purchase tree.', 'Purchase tree.']",Purchase tree.,1
+2,0.3333333333333333,"['Choose type of tree.', 'Purchase tree.']","['Cover with dirt.', 'Pick location.']",Pick location.,1
+3,0.5,"['Choose type of tree.', 'Purchase tree.', 'Pick location.']","['Cover with dirt.', 'Dig a very deep hole with a shovel.']",Dig a very deep hole with a shovel.,1
+4,0.6666666666666666,"['Choose type of tree.', 'Purchase tree.', 'Pick location.', 'Dig a very deep hole with a shovel.']","['Place tree in hole.', 'Choose type of tree.']",Place tree in hole.,0
+5,0.8333333333333334,"['Choose type of tree.', 'Purchase tree.', 'Pick location.', 'Dig a very deep hole with a shovel.', 'Place tree in hole.']","['Purchase tree.', 'Cover with dirt.']",Cover with dirt.,1
+0,0.0,[],"['Place tree or seed in hole', 'Get baby tree to plant or seed']",Get baby tree to plant or seed,1
+1,0.16666666666666666,['Get baby tree to plant or seed'],"['Place tree or seed in hole', 'Find spot to plant tree']",Find spot to plant tree,1
+2,0.3333333333333333,"['Get baby tree to plant or seed', 'Find spot to plant tree']","['Dig a hole', 'Pat lightly']",Dig a hole,0
+3,0.5,"['Get baby tree to plant or seed', 'Find spot to plant tree', 'Dig a hole']","['Get baby tree to plant or seed', 'Place tree or seed in hole']",Place tree or seed in hole,1
+4,0.6666666666666666,"['Get baby tree to plant or seed', 'Find spot to plant tree', 'Dig a hole', 'Place tree or seed in hole']","['Put soil back in hole around tree', 'Find spot to plant tree']",Put soil back in hole around tree,0
+5,0.8333333333333334,"['Get baby tree to plant or seed', 'Find spot to plant tree', 'Dig a hole', 'Place tree or seed in hole', 'Put soil back in hole around tree']","['Pat lightly', 'Dig a hole']",Pat lightly,0
+0,0.0,[],"['Buy a tree', 'Water the tree']",Buy a tree,0
+1,0.16666666666666666,['Buy a tree'],"['Make sure it is stable', 'Transport it home']",Transport it home,1
+2,0.3333333333333333,"['Buy a tree', 'Transport it home']","['Water the tree', 'Make a hole']",Make a hole,1
+3,0.5,"['Buy a tree', 'Transport it home', 'Make a hole']","['Buy a tree', 'Plant the tree']",Plant the tree,1
+4,0.6666666666666666,"['Buy a tree', 'Transport it home', 'Make a hole', 'Plant the tree']","['Make sure it is stable', 'Buy a tree']",Make sure it is stable,0
+5,0.8333333333333334,"['Buy a tree', 'Transport it home', 'Make a hole', 'Plant the tree', 'Make sure it is stable']","['Water the tree', 'Buy a tree']",Water the tree,0
+0,0.0,[],"['Buy the tree', 'Dig a hole three times the save as the root ball']",Buy the tree,0
+1,0.16666666666666666,['Buy the tree'],"['Place the tree at the top of the hole', 'Select a site to plant the tree']",Select a site to plant the tree,1
+2,0.3333333333333333,"['Buy the tree', 'Select a site to plant the tree']","['Get a shovel', 'Place the tree at the top of the hole']",Get a shovel,0
+3,0.5,"['Buy the tree', 'Select a site to plant the tree', 'Get a shovel']","['Dig a hole three times the save as the root ball', 'Fill in dirt around the tree gently']",Dig a hole three times the save as the root ball,0
+4,0.6666666666666666,"['Buy the tree', 'Select a site to plant the tree', 'Get a shovel', 'Dig a hole three times the save as the root ball']","['Buy the tree', 'Place the tree at the top of the hole']",Place the tree at the top of the hole,1
+5,0.8333333333333334,"['Buy the tree', 'Select a site to plant the tree', 'Get a shovel', 'Dig a hole three times the save as the root ball', 'Place the tree at the top of the hole']","['Get a shovel', 'Fill in dirt around the tree gently']",Fill in dirt around the tree gently,1
+0,0.0,[],"['place tree in hole', 'choose tree and spot to plant']",choose tree and spot to plant,1
+1,0.16666666666666666,['choose tree and spot to plant'],"['dig hole big enough for tree to grow', 'place tree in hole']",dig hole big enough for tree to grow,0
+2,0.3333333333333333,"['choose tree and spot to plant', 'dig hole big enough for tree to grow']","['water the tree', 'place tree in hole']",place tree in hole,1
+3,0.5,"['choose tree and spot to plant', 'dig hole big enough for tree to grow', 'place tree in hole']","['replace the dirt', 'choose tree and spot to plant']",replace the dirt,0
+4,0.6666666666666666,"['choose tree and spot to plant', 'dig hole big enough for tree to grow', 'place tree in hole', 'replace the dirt']","['water the tree', 'choose tree and spot to plant']",water the tree,0
+5,0.8333333333333334,"['choose tree and spot to plant', 'dig hole big enough for tree to grow', 'place tree in hole', 'replace the dirt', 'water the tree']","['wait for the tree to grow', 'place tree in hole']",wait for the tree to grow,0
+0,0.0,[],"['Fill hole up with soil that you used to dig the hole.', 'Get tree seeds.']",Get tree seeds.,1
+1,0.16666666666666666,['Get tree seeds.'],"['Wait and watch as it blossoms.', 'Dig a hole in the ground.']",Dig a hole in the ground.,1
+2,0.3333333333333333,"['Get tree seeds.', 'Dig a hole in the ground.']","['Plant seed in ground.', 'Water it.']",Plant seed in ground.,0
+3,0.5,"['Get tree seeds.', 'Dig a hole in the ground.', 'Plant seed in ground.']","['Fill hole up with soil that you used to dig the hole.', 'Wait and watch as it blossoms.']",Fill hole up with soil that you used to dig the hole.,0
+4,0.6666666666666666,"['Get tree seeds.', 'Dig a hole in the ground.', 'Plant seed in ground.', 'Fill hole up with soil that you used to dig the hole.']","['Water it.', 'Get tree seeds.']",Water it.,0
+5,0.8333333333333334,"['Get tree seeds.', 'Dig a hole in the ground.', 'Plant seed in ground.', 'Fill hole up with soil that you used to dig the hole.', 'Water it.']","['Plant seed in ground.', 'Wait and watch as it blossoms.']",Wait and watch as it blossoms.,1
+0,0.0,[],"['Find place in ground with enough space for tree.', 'Fill hole with dirt and fertilizer.']",Find place in ground with enough space for tree.,0
+1,0.2,['Find place in ground with enough space for tree.'],"['Fill hole with dirt and fertilizer.', 'Dig hole in the ground.']",Dig hole in the ground.,1
+2,0.4,"['Find place in ground with enough space for tree.', 'Dig hole in the ground.']","['Put tree seedling into hole.', 'Water tree daily.']",Put tree seedling into hole.,0
+3,0.6,"['Find place in ground with enough space for tree.', 'Dig hole in the ground.', 'Put tree seedling into hole.']","['Find place in ground with enough space for tree.', 'Fill hole with dirt and fertilizer.']",Fill hole with dirt and fertilizer.,1
+4,0.8,"['Find place in ground with enough space for tree.', 'Dig hole in the ground.', 'Put tree seedling into hole.', 'Fill hole with dirt and fertilizer.']","['Water tree daily.', 'Find place in ground with enough space for tree.']",Water tree daily.,0
+0,0.0,[],"['Put sapling in hole', 'Go to nursery']",Go to nursery,1
+1,0.16666666666666666,['Go to nursery'],"['Buy tree sapling', 'Get a shovel']",Buy tree sapling,0
+2,0.3333333333333333,"['Go to nursery', 'Buy tree sapling']","['Put sapling in hole', 'Take tree sapling to place you want to plant it']",Take tree sapling to place you want to plant it,1
+3,0.5,"['Go to nursery', 'Buy tree sapling', 'Take tree sapling to place you want to plant it']","['Go to nursery', 'Get a shovel']",Get a shovel,1
+4,0.6666666666666666,"['Go to nursery', 'Buy tree sapling', 'Take tree sapling to place you want to plant it', 'Get a shovel']","['Dig a hole', 'Buy tree sapling']",Dig a hole,0
+5,0.8333333333333334,"['Go to nursery', 'Buy tree sapling', 'Take tree sapling to place you want to plant it', 'Get a shovel', 'Dig a hole']","['Buy tree sapling', 'Put sapling in hole']",Put sapling in hole,1
+0,0.0,[],"['Grab shovel', 'Put tree into hole in ground']",Grab shovel,0
+1,0.2,['Grab shovel'],"['Put tree into hole in ground', 'dig hole in ground']",dig hole in ground,1
+2,0.4,"['Grab shovel', 'dig hole in ground']","['Put tree into hole in ground', 'Water tree']",Put tree into hole in ground,0
+3,0.6,"['Grab shovel', 'dig hole in ground', 'Put tree into hole in ground']","['Add shoveled dirt back into hole', 'Grab shovel']",Add shoveled dirt back into hole,0
+4,0.8,"['Grab shovel', 'dig hole in ground', 'Put tree into hole in ground', 'Add shoveled dirt back into hole']","['Grab shovel', 'Water tree']",Water tree,1
+0,0.0,[],"['Get the tree and take it out into the yard.', 'Water the tree.']",Get the tree and take it out into the yard.,0
+1,0.16666666666666666,['Get the tree and take it out into the yard.'],"['Choose a spot to plant the tree.', 'Water the tree.']",Choose a spot to plant the tree.,0
+2,0.3333333333333333,"['Get the tree and take it out into the yard.', 'Choose a spot to plant the tree.']","['Water the tree.', 'Get a shovel and dig a hole where you want to plant the tree.']",Get a shovel and dig a hole where you want to plant the tree.,1
+3,0.5,"['Get the tree and take it out into the yard.', 'Choose a spot to plant the tree.', 'Get a shovel and dig a hole where you want to plant the tree.']","['Water the tree.', 'Place the roots of the tree into the hole you have dug.']",Place the roots of the tree into the hole you have dug.,1
+4,0.6666666666666666,"['Get the tree and take it out into the yard.', 'Choose a spot to plant the tree.', 'Get a shovel and dig a hole where you want to plant the tree.', 'Place the roots of the tree into the hole you have dug.']","['Cover the roots with surrounding dirt.', 'Choose a spot to plant the tree.']",Cover the roots with surrounding dirt.,0
+5,0.8333333333333334,"['Get the tree and take it out into the yard.', 'Choose a spot to plant the tree.', 'Get a shovel and dig a hole where you want to plant the tree.', 'Place the roots of the tree into the hole you have dug.', 'Cover the roots with surrounding dirt.']","['Get a shovel and dig a hole where you want to plant the tree.', 'Water the tree.']",Water the tree.,1
+0,0.0,[],"['acquire sapling', 'acquire sapling']",acquire sapling,1
+1,0.16666666666666666,['acquire sapling'],"['determine where to plant it', 'determine where to plant it']",determine where to plant it,0
+2,0.3333333333333333,"['acquire sapling', 'determine where to plant it']","['dig a small hole, keep the displaced dirt accessible', 'replace displaced dirt']","dig a small hole, keep the displaced dirt accessible",0
+3,0.5,"['acquire sapling', 'determine where to plant it', 'dig a small hole, keep the displaced dirt accessible']","['place sapling in hole, roots down', 'pack dirt around tree']","place sapling in hole, roots down",0
+4,0.6666666666666666,"['acquire sapling', 'determine where to plant it', 'dig a small hole, keep the displaced dirt accessible', 'place sapling in hole, roots down']","['replace displaced dirt', 'acquire sapling']",replace displaced dirt,0
+5,0.8333333333333334,"['acquire sapling', 'determine where to plant it', 'dig a small hole, keep the displaced dirt accessible', 'place sapling in hole, roots down', 'replace displaced dirt']","['determine where to plant it', 'pack dirt around tree']",pack dirt around tree,1
+0,0.0,[],"['Purchase a tree', 'Take tree out of container']",Purchase a tree,0
+1,0.16666666666666666,['Purchase a tree'],"['Dig a hole where you want the tree planted', 'Take tree out of container']",Dig a hole where you want the tree planted,0
+2,0.3333333333333333,"['Purchase a tree', 'Dig a hole where you want the tree planted']","['Put some water in the hole', 'Cover the tree with the dirt you took out of the hole']",Put some water in the hole,0
+3,0.5,"['Purchase a tree', 'Dig a hole where you want the tree planted', 'Put some water in the hole']","['Take tree out of container', 'Cover the tree with the dirt you took out of the hole']",Take tree out of container,0
+4,0.6666666666666666,"['Purchase a tree', 'Dig a hole where you want the tree planted', 'Put some water in the hole', 'Take tree out of container']","['Dig a hole where you want the tree planted', 'Put in the ground']",Put in the ground,1
+5,0.8333333333333334,"['Purchase a tree', 'Dig a hole where you want the tree planted', 'Put some water in the hole', 'Take tree out of container', 'Put in the ground']","['Cover the tree with the dirt you took out of the hole', 'Dig a hole where you want the tree planted']",Cover the tree with the dirt you took out of the hole,0
+0,0.0,[],"['Go outside', 'Go outside']",Go outside,1
+1,0.16666666666666666,['Go outside'],"['Find a suitable area', 'Use shovel to dig hole']",Find a suitable area,0
+2,0.3333333333333333,"['Go outside', 'Find a suitable area']","['Refill hole with remaining dirt', 'Measure depth of required hole']",Measure depth of required hole,1
+3,0.5,"['Go outside', 'Find a suitable area', 'Measure depth of required hole']","['Go outside', 'Use shovel to dig hole']",Use shovel to dig hole,1
+4,0.6666666666666666,"['Go outside', 'Find a suitable area', 'Measure depth of required hole', 'Use shovel to dig hole']","['Place sapling into the hole', 'Go outside']",Place sapling into the hole,0
+5,0.8333333333333334,"['Go outside', 'Find a suitable area', 'Measure depth of required hole', 'Use shovel to dig hole', 'Place sapling into the hole']","['Measure depth of required hole', 'Refill hole with remaining dirt']",Refill hole with remaining dirt,1
+0,0.0,[],"['Find shovel', 'Find shovel']",Find shovel,0
+1,0.16666666666666666,['Find shovel'],"['Put tree roots into hole', 'Dig hole']",Dig hole,1
+2,0.3333333333333333,"['Find shovel', 'Dig hole']","['Fill hole so that only top of tree is above ground', 'Get tree']",Get tree,1
+3,0.5,"['Find shovel', 'Dig hole', 'Get tree']","['Put tree roots into hole', 'Fill hole so that only top of tree is above ground']",Put tree roots into hole,0
+4,0.6666666666666666,"['Find shovel', 'Dig hole', 'Get tree', 'Put tree roots into hole']","['Dig hole', 'Put loose dirt around roots']",Put loose dirt around roots,1
+5,0.8333333333333334,"['Find shovel', 'Dig hole', 'Get tree', 'Put tree roots into hole', 'Put loose dirt around roots']","['Dig hole', 'Fill hole so that only top of tree is above ground']",Fill hole so that only top of tree is above ground,1
+0,0.0,[],"['Get shovel and watering can', 'Acquire sapling']",Acquire sapling,1
+1,0.16666666666666666,['Acquire sapling'],"['Dig hole', 'Get shovel and watering can']",Get shovel and watering can,1
+2,0.3333333333333333,"['Acquire sapling', 'Get shovel and watering can']","['Fill watering can', 'Place sapling in hole']",Fill watering can,0
+3,0.5,"['Acquire sapling', 'Get shovel and watering can', 'Fill watering can']","['Go outside', 'Acquire sapling']",Go outside,0
+4,0.6666666666666666,"['Acquire sapling', 'Get shovel and watering can', 'Fill watering can', 'Go outside']","['Acquire sapling', 'Dig hole']",Dig hole,1
+5,0.8333333333333334,"['Acquire sapling', 'Get shovel and watering can', 'Fill watering can', 'Go outside', 'Dig hole']","['Place sapling in hole', 'Fill watering can']",Place sapling in hole,0
+0,0.0,[],"['Dig hole', 'Buy seeds']",Buy seeds,1
+1,0.16666666666666666,['Buy seeds'],"['Water the seed', 'Go to garden']",Go to garden,1
+2,0.3333333333333333,"['Buy seeds', 'Go to garden']","['Dig hole', 'Cover hole']",Dig hole,0
+3,0.5,"['Buy seeds', 'Go to garden', 'Dig hole']","['Put seed in hole', 'Cover hole']",Put seed in hole,0
+4,0.6666666666666666,"['Buy seeds', 'Go to garden', 'Dig hole', 'Put seed in hole']","['Buy seeds', 'Water the seed']",Water the seed,1
+5,0.8333333333333334,"['Buy seeds', 'Go to garden', 'Dig hole', 'Put seed in hole', 'Water the seed']","['Cover hole', 'Dig hole']",Cover hole,0
+0,0.0,[],"['Put a small amount of water in hole', 'Selecting the site to plant tree']",Selecting the site to plant tree,1
+1,0.16666666666666666,['Selecting the site to plant tree'],"['Dig hole for tree', 'Put a small amount of water in hole']",Dig hole for tree,0
+2,0.3333333333333333,"['Selecting the site to plant tree', 'Dig hole for tree']","['Cover hole with soil', 'Put a small amount of water in hole']",Put a small amount of water in hole,1
+3,0.5,"['Selecting the site to plant tree', 'Dig hole for tree', 'Put a small amount of water in hole']","['Selecting the site to plant tree', 'Score roots to ensure good root growth']",Score roots to ensure good root growth,1
+4,0.6666666666666666,"['Selecting the site to plant tree', 'Dig hole for tree', 'Put a small amount of water in hole', 'Score roots to ensure good root growth']","['Dig hole for tree', 'Place tree in hole']",Place tree in hole,1
+5,0.8333333333333334,"['Selecting the site to plant tree', 'Dig hole for tree', 'Put a small amount of water in hole', 'Score roots to ensure good root growth', 'Place tree in hole']","['Selecting the site to plant tree', 'Cover hole with soil']",Cover hole with soil,1
+0,0.0,[],"['get seeds', 'get seeds']",get seeds,1
+1,0.2,['get seeds'],"['dig a hole', 'dig a hole']",dig a hole,1
+2,0.4,"['get seeds', 'dig a hole']","['water the soil', 'insert some seeds']",insert some seeds,1
+3,0.6,"['get seeds', 'dig a hole', 'insert some seeds']","['cover up hole', 'get seeds']",cover up hole,0
+4,0.8,"['get seeds', 'dig a hole', 'insert some seeds', 'cover up hole']","['water the soil', 'dig a hole']",water the soil,0
+0,0.0,[],"['Buy seeds', 'Place seed into hole']",Buy seeds,0
+1,0.16666666666666666,['Buy seeds'],"['Dig a hole into the ground', 'Take some water']",Dig a hole into the ground,0
+2,0.3333333333333333,"['Buy seeds', 'Dig a hole into the ground']","['Place seed into hole', 'Water the seed everyday']",Place seed into hole,0
+3,0.5,"['Buy seeds', 'Dig a hole into the ground', 'Place seed into hole']","['Water the seed everyday', 'Cover hole back up']",Cover hole back up,1
+4,0.6666666666666666,"['Buy seeds', 'Dig a hole into the ground', 'Place seed into hole', 'Cover hole back up']","['Take some water', 'Dig a hole into the ground']",Take some water,0
+5,0.8333333333333334,"['Buy seeds', 'Dig a hole into the ground', 'Place seed into hole', 'Cover hole back up', 'Take some water']","['Water the seed everyday', 'Buy seeds']",Water the seed everyday,0
+0,0.0,[],"['get shovel', 'start digging']",get shovel,0
+1,0.16666666666666666,['get shovel'],"['cover back up with dirt', 'dig hole at least 5 inches bigger then the root ball of tree']",dig hole at least 5 inches bigger then the root ball of tree,1
+2,0.3333333333333333,"['get shovel', 'dig hole at least 5 inches bigger then the root ball of tree']","['put tree in hole', 'start digging']",start digging,1
+3,0.5,"['get shovel', 'dig hole at least 5 inches bigger then the root ball of tree', 'start digging']","['get shovel', 'put water and fertilizer in hole']",put water and fertilizer in hole,1
+4,0.6666666666666666,"['get shovel', 'dig hole at least 5 inches bigger then the root ball of tree', 'start digging', 'put water and fertilizer in hole']","['dig hole at least 5 inches bigger then the root ball of tree', 'put tree in hole']",put tree in hole,1
+5,0.8333333333333334,"['get shovel', 'dig hole at least 5 inches bigger then the root ball of tree', 'start digging', 'put water and fertilizer in hole', 'put tree in hole']","['cover back up with dirt', 'get shovel']",cover back up with dirt,0
+0,0.0,[],"['Purchase seeds.', 'Dig hole for tree with shovel.']",Purchase seeds.,0
+1,0.16666666666666666,['Purchase seeds.'],"['Get shovel and water ready.', 'Cover seeds over with soil.']",Get shovel and water ready.,0
+2,0.3333333333333333,"['Purchase seeds.', 'Get shovel and water ready.']","['Go outside to find spot for tree.', 'Cover seeds over with soil.']",Go outside to find spot for tree.,0
+3,0.5,"['Purchase seeds.', 'Get shovel and water ready.', 'Go outside to find spot for tree.']","['Dig hole for tree with shovel.', 'Purchase seeds.']",Dig hole for tree with shovel.,0
+4,0.6666666666666666,"['Purchase seeds.', 'Get shovel and water ready.', 'Go outside to find spot for tree.', 'Dig hole for tree with shovel.']","['Place seeds in hole.', 'Get shovel and water ready.']",Place seeds in hole.,0
+5,0.8333333333333334,"['Purchase seeds.', 'Get shovel and water ready.', 'Go outside to find spot for tree.', 'Dig hole for tree with shovel.', 'Place seeds in hole.']","['Cover seeds over with soil.', 'Get shovel and water ready.']",Cover seeds over with soil.,0
+0,0.0,[],"['Place the tree in the hole', 'Get tree and shovel']",Get tree and shovel,1
+1,0.16666666666666666,['Get tree and shovel'],"['Hold the tree upright while filling the hole back up', 'Dig an appropriate sized hole for the tree']",Dig an appropriate sized hole for the tree,1
+2,0.3333333333333333,"['Get tree and shovel', 'Dig an appropriate sized hole for the tree']","['Place a stabilizing stick if need', 'Place the tree in the hole']",Place the tree in the hole,1
+3,0.5,"['Get tree and shovel', 'Dig an appropriate sized hole for the tree', 'Place the tree in the hole']","['Hold the tree upright while filling the hole back up', 'Water the tree']",Hold the tree upright while filling the hole back up,0
+4,0.6666666666666666,"['Get tree and shovel', 'Dig an appropriate sized hole for the tree', 'Place the tree in the hole', 'Hold the tree upright while filling the hole back up']","['Place a stabilizing stick if need', 'Get tree and shovel']",Place a stabilizing stick if need,0
+5,0.8333333333333334,"['Get tree and shovel', 'Dig an appropriate sized hole for the tree', 'Place the tree in the hole', 'Hold the tree upright while filling the hole back up', 'Place a stabilizing stick if need']","['Water the tree', 'Dig an appropriate sized hole for the tree']",Water the tree,0
+0,0.0,[],"['Buy tree seed', 'Place seed in hole']",Buy tree seed,0
+1,0.2,['Buy tree seed'],"['Buy tree seed', 'Dig small hole in dirt']",Dig small hole in dirt,1
+2,0.4,"['Buy tree seed', 'Dig small hole in dirt']","['Place seed in hole', 'Water seed every day']",Place seed in hole,0
+3,0.6,"['Buy tree seed', 'Dig small hole in dirt', 'Place seed in hole']","['Cover hole', 'Buy tree seed']",Cover hole,0
+4,0.8,"['Buy tree seed', 'Dig small hole in dirt', 'Place seed in hole', 'Cover hole']","['Water seed every day', 'Buy tree seed']",Water seed every day,0
+0,0.0,[],"['Dig hole', 'Find place for tree']",Find place for tree,1
+1,0.16666666666666666,['Find place for tree'],"['Water tree', 'Get shovel']",Get shovel,1
+2,0.3333333333333333,"['Find place for tree', 'Get shovel']","['Dig hole', 'Fill hole with dirt']",Dig hole,0
+3,0.5,"['Find place for tree', 'Get shovel', 'Dig hole']","['Water tree', 'Place tree in hole']",Place tree in hole,1
+4,0.6666666666666666,"['Find place for tree', 'Get shovel', 'Dig hole', 'Place tree in hole']","['Fill hole with dirt', 'Find place for tree']",Fill hole with dirt,0
+5,0.8333333333333334,"['Find place for tree', 'Get shovel', 'Dig hole', 'Place tree in hole', 'Fill hole with dirt']","['Water tree', 'Dig hole']",Water tree,0
+0,0.0,[],"['get tree seed', 'get tree seed']",get tree seed,1
+1,0.2,['get tree seed'],"['place seed in hole', 'dig a hole']",dig a hole,1
+2,0.4,"['get tree seed', 'dig a hole']","['water and care for tree', 'place seed in hole']",place seed in hole,1
+3,0.6,"['get tree seed', 'dig a hole', 'place seed in hole']","['cover hole with dirt', 'get tree seed']",cover hole with dirt,0
+4,0.8,"['get tree seed', 'dig a hole', 'place seed in hole', 'cover hole with dirt']","['water and care for tree', 'dig a hole']",water and care for tree,0
+0,0.0,[],"['get shovel', 'go to store']",go to store,1
+1,0.16666666666666666,['go to store'],"['buy sapling', 'dig hole']",buy sapling,0
+2,0.3333333333333333,"['go to store', 'buy sapling']","['go home', 'dig hole']",go home,0
+3,0.5,"['go to store', 'buy sapling', 'go home']","['dig hole', 'get shovel']",get shovel,1
+4,0.6666666666666666,"['go to store', 'buy sapling', 'go home', 'get shovel']","['select location', 'go to store']",select location,0
+5,0.8333333333333334,"['go to store', 'buy sapling', 'go home', 'get shovel', 'select location']","['dig hole', 'buy sapling']",dig hole,0
+0,0.0,[],"['Buy a tree.', 'Buy a tree.']",Buy a tree.,1
+1,0.16666666666666666,['Buy a tree.'],"['Find the shovel.', 'Put it in the hole.']",Find the shovel.,0
+2,0.3333333333333333,"['Buy a tree.', 'Find the shovel.']","['Cover the roots with dirt.', 'Dig a hole in the yard.']",Dig a hole in the yard.,1
+3,0.5,"['Buy a tree.', 'Find the shovel.', 'Dig a hole in the yard.']","['Buy a tree.', 'Take the tree out of its container.']",Take the tree out of its container.,1
+4,0.6666666666666666,"['Buy a tree.', 'Find the shovel.', 'Dig a hole in the yard.', 'Take the tree out of its container.']","['Find the shovel.', 'Put it in the hole.']",Put it in the hole.,1
+5,0.8333333333333334,"['Buy a tree.', 'Find the shovel.', 'Dig a hole in the yard.', 'Take the tree out of its container.', 'Put it in the hole.']","['Buy a tree.', 'Cover the roots with dirt.']",Cover the roots with dirt.,1
+0,0.0,[],"['Pick a spot in the yard for the tree.', 'Water the area daily.']",Pick a spot in the yard for the tree.,0
+1,0.2,['Pick a spot in the yard for the tree.'],"['Pick a spot in the yard for the tree.', 'Buy or get a seed.']",Buy or get a seed.,1
+2,0.4,"['Pick a spot in the yard for the tree.', 'Buy or get a seed.']","['As the tree grows, remove any weeds that may grow from the area.', 'Plant tree seed about 4 inches in the dirt.']",Plant tree seed about 4 inches in the dirt.,1
+3,0.6,"['Pick a spot in the yard for the tree.', 'Buy or get a seed.', 'Plant tree seed about 4 inches in the dirt.']","['Pick a spot in the yard for the tree.', 'Water the area daily.']",Water the area daily.,1
+4,0.8,"['Pick a spot in the yard for the tree.', 'Buy or get a seed.', 'Plant tree seed about 4 inches in the dirt.', 'Water the area daily.']","['As the tree grows, remove any weeds that may grow from the area.', 'Buy or get a seed.']","As the tree grows, remove any weeds that may grow from the area.",0
+0,0.0,[],"['water seed', 'dig a small hole']",dig a small hole,1
+1,0.2,['dig a small hole'],"['place seed in hole', 'place seed in hole']",place seed in hole,1
+2,0.4,"['dig a small hole', 'place seed in hole']","['cover hole with dirt', 'keep watch to make sure it grows']",cover hole with dirt,0
+3,0.6,"['dig a small hole', 'place seed in hole', 'cover hole with dirt']","['dig a small hole', 'water seed']",water seed,1
+4,0.8,"['dig a small hole', 'place seed in hole', 'cover hole with dirt', 'water seed']","['keep watch to make sure it grows', 'place seed in hole']",keep watch to make sure it grows,0
+0,0.0,[],"['pick a spot for the tree', 'pick a spot for the tree']",pick a spot for the tree,0
+1,0.16666666666666666,['pick a spot for the tree'],"['put root ball into the hole', 'dig a hole']",dig a hole,1
+2,0.3333333333333333,"['pick a spot for the tree', 'dig a hole']","['put root ball into the hole', 'water the tree']",put root ball into the hole,0
+3,0.5,"['pick a spot for the tree', 'dig a hole', 'put root ball into the hole']","['fill in the rest of the hole with dirt', 'pick a spot for the tree']",fill in the rest of the hole with dirt,0
+4,0.6666666666666666,"['pick a spot for the tree', 'dig a hole', 'put root ball into the hole', 'fill in the rest of the hole with dirt']","['remove left over dirt', 'pick a spot for the tree']",remove left over dirt,0
+5,0.8333333333333334,"['pick a spot for the tree', 'dig a hole', 'put root ball into the hole', 'fill in the rest of the hole with dirt', 'remove left over dirt']","['water the tree', 'pick a spot for the tree']",water the tree,0
+0,0.0,[],"['Buy seedling.', 'Dig hole.']",Buy seedling.,0
+1,0.16666666666666666,['Buy seedling.'],"['Pick spot in yard.', 'Buy seedling.']",Pick spot in yard.,0
+2,0.3333333333333333,"['Buy seedling.', 'Pick spot in yard.']","['Bury with dirt.', 'Get shovel.']",Get shovel.,1
+3,0.5,"['Buy seedling.', 'Pick spot in yard.', 'Get shovel.']","['Buy seedling.', 'Dig hole.']",Dig hole.,1
+4,0.6666666666666666,"['Buy seedling.', 'Pick spot in yard.', 'Get shovel.', 'Dig hole.']","['Place seedling in whole.', 'Buy seedling.']",Place seedling in whole.,0
+5,0.8333333333333334,"['Buy seedling.', 'Pick spot in yard.', 'Get shovel.', 'Dig hole.', 'Place seedling in whole.']","['Get shovel.', 'Bury with dirt.']",Bury with dirt.,1
+0,0.0,[],"['Dig a hole', 'Pick out the tree']",Pick out the tree,1
+1,0.16666666666666666,['Pick out the tree'],"['Find the right spot', 'Find the right spot']",Find the right spot,0
+2,0.3333333333333333,"['Pick out the tree', 'Find the right spot']","['Cover roots with dirt', 'Dig a hole']",Dig a hole,1
+3,0.5,"['Pick out the tree', 'Find the right spot', 'Dig a hole']","['Cover roots with dirt', 'Unbind the roots']",Unbind the roots,1
+4,0.6666666666666666,"['Pick out the tree', 'Find the right spot', 'Dig a hole', 'Unbind the roots']","['Place tree into hole', 'Pick out the tree']",Place tree into hole,0
+5,0.8333333333333334,"['Pick out the tree', 'Find the right spot', 'Dig a hole', 'Unbind the roots', 'Place tree into hole']","['Cover roots with dirt', 'Find the right spot']",Cover roots with dirt,0
+0,0.0,[],"['Find a spot for the tree', 'Place tree in it']",Find a spot for the tree,0
+1,0.2,['Find a spot for the tree'],"['Dig a spot in the ground', 'Fill the hole with dirt']",Dig a spot in the ground,0
+2,0.4,"['Find a spot for the tree', 'Dig a spot in the ground']","['Add water', 'Place tree in it']",Place tree in it,1
+3,0.6,"['Find a spot for the tree', 'Dig a spot in the ground', 'Place tree in it']","['Find a spot for the tree', 'Fill the hole with dirt']",Fill the hole with dirt,1
+4,0.8,"['Find a spot for the tree', 'Dig a spot in the ground', 'Place tree in it', 'Fill the hole with dirt']","['Find a spot for the tree', 'Add water']",Add water,1
+0,0.0,[],"['Add compost', 'Dig hole']",Dig hole,1
+1,0.16666666666666666,['Dig hole'],"['When hole is deep enough, put tree in hole', 'Add compost']","When hole is deep enough, put tree in hole",0
+2,0.3333333333333333,"['Dig hole', 'When hole is deep enough, put tree in hole']","['Finish filling in hole', 'Make sure tree is upright']",Make sure tree is upright,1
+3,0.5,"['Dig hole', 'When hole is deep enough, put tree in hole', 'Make sure tree is upright']","['Start filling in hole with dirt', 'Dig hole']",Start filling in hole with dirt,0
+4,0.6666666666666666,"['Dig hole', 'When hole is deep enough, put tree in hole', 'Make sure tree is upright', 'Start filling in hole with dirt']","['Dig hole', 'Add compost']",Add compost,1
+5,0.8333333333333334,"['Dig hole', 'When hole is deep enough, put tree in hole', 'Make sure tree is upright', 'Start filling in hole with dirt', 'Add compost']","['Finish filling in hole', 'When hole is deep enough, put tree in hole']",Finish filling in hole,0
+0,0.0,[],"['find empty grass field', 'cover hole']",find empty grass field,0
+1,0.16666666666666666,['find empty grass field'],"['dig a hole', 'find empty grass field']",dig a hole,0
+2,0.3333333333333333,"['find empty grass field', 'dig a hole']","['visit tree', 'put a seed in the hole']",put a seed in the hole,1
+3,0.5,"['find empty grass field', 'dig a hole', 'put a seed in the hole']","['cover hole', 'visit tree']",cover hole,0
+4,0.6666666666666666,"['find empty grass field', 'dig a hole', 'put a seed in the hole', 'cover hole']","['wait 20 years', 'dig a hole']",wait 20 years,0
+5,0.8333333333333334,"['find empty grass field', 'dig a hole', 'put a seed in the hole', 'cover hole', 'wait 20 years']","['put a seed in the hole', 'visit tree']",visit tree,1
+0,0.0,[],"['Go outside', 'Get a shovel']",Go outside,0
+1,0.16666666666666666,['Go outside'],"['Get a shovel', 'Cover the roots with dirt']",Get a shovel,0
+2,0.3333333333333333,"['Go outside', 'Get a shovel']","['Water the tree', 'Dig a hole']",Dig a hole,1
+3,0.5,"['Go outside', 'Get a shovel', 'Dig a hole']","['Put a nerd in it, I mean the tree', 'Water the tree']","Put a nerd in it, I mean the tree",0
+4,0.6666666666666666,"['Go outside', 'Get a shovel', 'Dig a hole', 'Put a nerd in it, I mean the tree']","['Go outside', 'Cover the roots with dirt']",Cover the roots with dirt,1
+5,0.8333333333333334,"['Go outside', 'Get a shovel', 'Dig a hole', 'Put a nerd in it, I mean the tree', 'Cover the roots with dirt']","['Go outside', 'Water the tree']",Water the tree,1
+0,0.0,[],"['Get seeds', 'Water the top']",Get seeds,0
+1,0.16666666666666666,['Get seeds'],"['Find a place to plant the tree', 'Dig up soil']",Find a place to plant the tree,0
+2,0.3333333333333333,"['Get seeds', 'Find a place to plant the tree']","['Water the top', 'Dig up soil']",Dig up soil,1
+3,0.5,"['Get seeds', 'Find a place to plant the tree', 'Dig up soil']","['Place seeds in hole', 'Get seeds']",Place seeds in hole,0
+4,0.6666666666666666,"['Get seeds', 'Find a place to plant the tree', 'Dig up soil', 'Place seeds in hole']","['Find a place to plant the tree', 'Cover the hole']",Cover the hole,1
+5,0.8333333333333334,"['Get seeds', 'Find a place to plant the tree', 'Dig up soil', 'Place seeds in hole', 'Cover the hole']","['Water the top', 'Get seeds']",Water the top,0
+0,0.0,[],"['CHOOSE LOCATION FOR THE TREE', 'DIG UP THE SOIL WHERE THE TREE SHOULD GO']",CHOOSE LOCATION FOR THE TREE,0
+1,0.2,['CHOOSE LOCATION FOR THE TREE'],"['PLANT THE TREE OR THE SEEDS', 'DIG UP THE SOIL WHERE THE TREE SHOULD GO']",DIG UP THE SOIL WHERE THE TREE SHOULD GO,1
+2,0.4,"['CHOOSE LOCATION FOR THE TREE', 'DIG UP THE SOIL WHERE THE TREE SHOULD GO']","['PLANT THE TREE OR THE SEEDS', 'WATER THE PATCH OF LAND TO HELP IT GROW.']",PLANT THE TREE OR THE SEEDS,0
+3,0.6,"['CHOOSE LOCATION FOR THE TREE', 'DIG UP THE SOIL WHERE THE TREE SHOULD GO', 'PLANT THE TREE OR THE SEEDS']","['CHOOSE LOCATION FOR THE TREE', 'COVER BACK OVER WITH SOIL']",COVER BACK OVER WITH SOIL,1
+4,0.8,"['CHOOSE LOCATION FOR THE TREE', 'DIG UP THE SOIL WHERE THE TREE SHOULD GO', 'PLANT THE TREE OR THE SEEDS', 'COVER BACK OVER WITH SOIL']","['WATER THE PATCH OF LAND TO HELP IT GROW.', 'DIG UP THE SOIL WHERE THE TREE SHOULD GO']",WATER THE PATCH OF LAND TO HELP IT GROW.,0
+0,0.0,[],"['Get your tree ready', 'Dig a hole in a reasonable area']",Dig a hole in a reasonable area,1
+1,0.16666666666666666,['Dig a hole in a reasonable area'],"['cover hole up with dirt and pat it down', 'Get your tree ready']",Get your tree ready,1
+2,0.3333333333333333,"['Dig a hole in a reasonable area', 'Get your tree ready']","['Insert tree root-first into the hole', 'wait for it to grow']",Insert tree root-first into the hole,0
+3,0.5,"['Dig a hole in a reasonable area', 'Get your tree ready', 'Insert tree root-first into the hole']","['wait for it to grow', 'cover hole up with dirt and pat it down']",cover hole up with dirt and pat it down,1
+4,0.6666666666666666,"['Dig a hole in a reasonable area', 'Get your tree ready', 'Insert tree root-first into the hole', 'cover hole up with dirt and pat it down']","['water plant', 'Get your tree ready']",water plant,0
+5,0.8333333333333334,"['Dig a hole in a reasonable area', 'Get your tree ready', 'Insert tree root-first into the hole', 'cover hole up with dirt and pat it down', 'water plant']","['Dig a hole in a reasonable area', 'wait for it to grow']",wait for it to grow,1
+0,0.0,[],"['Select a tree', 'Select a tree']",Select a tree,0
+1,0.16666666666666666,['Select a tree'],"['Put tree in hole', 'Select a location']",Select a location,1
+2,0.3333333333333333,"['Select a tree', 'Select a location']","['Dig a hole', 'Water tree']",Dig a hole,0
+3,0.5,"['Select a tree', 'Select a location', 'Dig a hole']","['Water tree', 'Put tree in hole']",Put tree in hole,1
+4,0.6666666666666666,"['Select a tree', 'Select a location', 'Dig a hole', 'Put tree in hole']","['Select a location', 'Cover hole']",Cover hole,1
+5,0.8333333333333334,"['Select a tree', 'Select a location', 'Dig a hole', 'Put tree in hole', 'Cover hole']","['Select a location', 'Water tree']",Water tree,1
+0,0.0,[],"['Buy a tree', 'Find a place to plant the tree']",Buy a tree,0
+1,0.16666666666666666,['Buy a tree'],"['Dig the hole', 'Get a shovel']",Get a shovel,1
+2,0.3333333333333333,"['Buy a tree', 'Get a shovel']","['Find a place to plant the tree', 'Sit the tree inside the whole']",Find a place to plant the tree,0
+3,0.5,"['Buy a tree', 'Get a shovel', 'Find a place to plant the tree']","['Buy a tree', 'Dig the hole']",Dig the hole,1
+4,0.6666666666666666,"['Buy a tree', 'Get a shovel', 'Find a place to plant the tree', 'Dig the hole']","['Sit the tree inside the whole', 'Buy a tree']",Sit the tree inside the whole,0
+5,0.8333333333333334,"['Buy a tree', 'Get a shovel', 'Find a place to plant the tree', 'Dig the hole', 'Sit the tree inside the whole']","['Fill the hole with the shovel', 'Get a shovel']",Fill the hole with the shovel,0
+0,0.0,[],"['cover up hole with soil', 'buy mature tree at nursery']",buy mature tree at nursery,1
+1,0.16666666666666666,['buy mature tree at nursery'],"['have tree delivered to house', 'cover up hole with soil']",have tree delivered to house,0
+2,0.3333333333333333,"['buy mature tree at nursery', 'have tree delivered to house']","['place root of tree in hole', 'choose location of where tree will be planted']",choose location of where tree will be planted,1
+3,0.5,"['buy mature tree at nursery', 'have tree delivered to house', 'choose location of where tree will be planted']","['cover up hole with soil', 'dig hole at location']",dig hole at location,1
+4,0.6666666666666666,"['buy mature tree at nursery', 'have tree delivered to house', 'choose location of where tree will be planted', 'dig hole at location']","['place root of tree in hole', 'have tree delivered to house']",place root of tree in hole,0
+5,0.8333333333333334,"['buy mature tree at nursery', 'have tree delivered to house', 'choose location of where tree will be planted', 'dig hole at location', 'place root of tree in hole']","['cover up hole with soil', 'choose location of where tree will be planted']",cover up hole with soil,0
+0,0.0,[],"['Water tree', 'Get shovel']",Get shovel,1
+1,0.16666666666666666,['Get shovel'],"['Dig hole in the ground', 'Put dirt back in hole around tree roots']",Dig hole in the ground,0
+2,0.3333333333333333,"['Get shovel', 'Dig hole in the ground']","['Water tree', 'Get suitable tree for planting']",Get suitable tree for planting,1
+3,0.5,"['Get shovel', 'Dig hole in the ground', 'Get suitable tree for planting']","['Place tree in hole securely', 'Get shovel']",Place tree in hole securely,0
+4,0.6666666666666666,"['Get shovel', 'Dig hole in the ground', 'Get suitable tree for planting', 'Place tree in hole securely']","['Get shovel', 'Put dirt back in hole around tree roots']",Put dirt back in hole around tree roots,1
+5,0.8333333333333334,"['Get shovel', 'Dig hole in the ground', 'Get suitable tree for planting', 'Place tree in hole securely', 'Put dirt back in hole around tree roots']","['Dig hole in the ground', 'Water tree']",Water tree,1
+0,0.0,[],"['Decide where the tree will be planted.', 'Water the hole well.']",Decide where the tree will be planted.,0
+1,0.16666666666666666,['Decide where the tree will be planted.'],"['Using a shovel, dig a hole deep enough to place the tree roots.', 'Place the tree roots in the hole.']","Using a shovel, dig a hole deep enough to place the tree roots.",0
+2,0.3333333333333333,"['Decide where the tree will be planted.', 'Using a shovel, dig a hole deep enough to place the tree roots.']","['Water the hole well.', 'Water the newly planted tree well.']",Water the hole well.,0
+3,0.5,"['Decide where the tree will be planted.', 'Using a shovel, dig a hole deep enough to place the tree roots.', 'Water the hole well.']","['Water the newly planted tree well.', 'Place the tree roots in the hole.']",Place the tree roots in the hole.,1
+4,0.6666666666666666,"['Decide where the tree will be planted.', 'Using a shovel, dig a hole deep enough to place the tree roots.', 'Water the hole well.', 'Place the tree roots in the hole.']","['Pack loose soil firmly around the base of the tree and top of the hole.', 'Using a shovel, dig a hole deep enough to place the tree roots.']",Pack loose soil firmly around the base of the tree and top of the hole.,0
+5,0.8333333333333334,"['Decide where the tree will be planted.', 'Using a shovel, dig a hole deep enough to place the tree roots.', 'Water the hole well.', 'Place the tree roots in the hole.', 'Pack loose soil firmly around the base of the tree and top of the hole.']","['Water the newly planted tree well.', 'Decide where the tree will be planted.']",Water the newly planted tree well.,0
+0,0.0,[],"['Fill rest of hole back up with dirt.', 'Dig a hole in the ground.']",Dig a hole in the ground.,1
+1,0.2,['Dig a hole in the ground.'],"['Pat dirt in.', 'Put the roots of the tree in the ground.']",Put the roots of the tree in the ground.,1
+2,0.4,"['Dig a hole in the ground.', 'Put the roots of the tree in the ground.']","['Water the dirt and tree.', 'Fill rest of hole back up with dirt.']",Fill rest of hole back up with dirt.,1
+3,0.6,"['Dig a hole in the ground.', 'Put the roots of the tree in the ground.', 'Fill rest of hole back up with dirt.']","['Pat dirt in.', 'Dig a hole in the ground.']",Pat dirt in.,0
+4,0.8,"['Dig a hole in the ground.', 'Put the roots of the tree in the ground.', 'Fill rest of hole back up with dirt.', 'Pat dirt in.']","['Put the roots of the tree in the ground.', 'Water the dirt and tree.']",Water the dirt and tree.,1
+0,0.0,[],"['Go to garden center and buy small tree.', 'Find area to plant tree.']",Go to garden center and buy small tree.,0
+1,0.16666666666666666,['Go to garden center and buy small tree.'],"['Find area to plant tree.', 'Go to garden center and buy small tree.']",Find area to plant tree.,0
+2,0.3333333333333333,"['Go to garden center and buy small tree.', 'Find area to plant tree.']","['Use shovel to dig hole large enough for entire root of tree.', 'Place root of tree in hole.']",Use shovel to dig hole large enough for entire root of tree.,0
+3,0.5,"['Go to garden center and buy small tree.', 'Find area to plant tree.', 'Use shovel to dig hole large enough for entire root of tree.']","['Save dirt to fill hole.', 'Place root of tree in hole.']",Save dirt to fill hole.,0
+4,0.6666666666666666,"['Go to garden center and buy small tree.', 'Find area to plant tree.', 'Use shovel to dig hole large enough for entire root of tree.', 'Save dirt to fill hole.']","['Go to garden center and buy small tree.', 'Water hole with hose.']",Water hole with hose.,1
+5,0.8333333333333334,"['Go to garden center and buy small tree.', 'Find area to plant tree.', 'Use shovel to dig hole large enough for entire root of tree.', 'Save dirt to fill hole.', 'Water hole with hose.']","['Place root of tree in hole.', 'Use shovel to dig hole large enough for entire root of tree.']",Place root of tree in hole.,0
+0,0.0,[],"['Buy a baby tree', 'Fill hole with soil']",Buy a baby tree,0
+1,0.16666666666666666,['Buy a baby tree'],"['Place tree in hole, making sure trunk is above ground', 'Buy soil']",Buy soil,1
+2,0.3333333333333333,"['Buy a baby tree', 'Buy soil']","['Find a plot to plant it', 'Fill hole with soil']",Find a plot to plant it,0
+3,0.5,"['Buy a baby tree', 'Buy soil', 'Find a plot to plant it']","['Fill hole with soil', 'Dig up hole for tree']",Dig up hole for tree,1
+4,0.6666666666666666,"['Buy a baby tree', 'Buy soil', 'Find a plot to plant it', 'Dig up hole for tree']","['Buy a baby tree', 'Place tree in hole, making sure trunk is above ground']","Place tree in hole, making sure trunk is above ground",1
+5,0.8333333333333334,"['Buy a baby tree', 'Buy soil', 'Find a plot to plant it', 'Dig up hole for tree', 'Place tree in hole, making sure trunk is above ground']","['Buy a baby tree', 'Fill hole with soil']",Fill hole with soil,1
+0,0.0,[],"['Bury the seeds.', 'Find a packet of seeds.']",Find a packet of seeds.,1
+1,0.16666666666666666,['Find a packet of seeds.'],"['Find a packet of seeds.', 'Go outside.']",Go outside.,1
+2,0.3333333333333333,"['Find a packet of seeds.', 'Go outside.']","['Place seeds.', 'Scope for a good spot.']",Scope for a good spot.,1
+3,0.5,"['Find a packet of seeds.', 'Go outside.', 'Scope for a good spot.']","['Dig a hole.', 'Find a packet of seeds.']",Dig a hole.,0
+4,0.6666666666666666,"['Find a packet of seeds.', 'Go outside.', 'Scope for a good spot.', 'Dig a hole.']","['Place seeds.', 'Go outside.']",Place seeds.,0
+5,0.8333333333333334,"['Find a packet of seeds.', 'Go outside.', 'Scope for a good spot.', 'Dig a hole.', 'Place seeds.']","['Bury the seeds.', 'Scope for a good spot.']",Bury the seeds.,0
+0,0.0,[],"['Get a tree.', ""Dig a hole big enough to cover the tree's roots and the base of the tree.""]",Get a tree.,0
+1,0.16666666666666666,['Get a tree.'],"[""Dig a hole big enough to cover the tree's roots and the base of the tree."", 'Remove the tree from any pot or container that it is in.']",Dig a hole big enough to cover the tree's roots and the base of the tree.,0
+2,0.3333333333333333,"['Get a tree.', ""Dig a hole big enough to cover the tree's roots and the base of the tree.""]","['Water the tree so that its roots can take hold and begin to grow.', 'Remove the tree from any pot or container that it is in.']",Remove the tree from any pot or container that it is in.,1
+3,0.5,"['Get a tree.', ""Dig a hole big enough to cover the tree's roots and the base of the tree."", 'Remove the tree from any pot or container that it is in.']","['Get a tree.', 'Place the tree in the hole.']",Place the tree in the hole.,1
+4,0.6666666666666666,"['Get a tree.', ""Dig a hole big enough to cover the tree's roots and the base of the tree."", 'Remove the tree from any pot or container that it is in.', 'Place the tree in the hole.']","['Replace the soil that was removed from the hole.', ""Dig a hole big enough to cover the tree's roots and the base of the tree.""]",Replace the soil that was removed from the hole.,0
+5,0.8333333333333334,"['Get a tree.', ""Dig a hole big enough to cover the tree's roots and the base of the tree."", 'Remove the tree from any pot or container that it is in.', 'Place the tree in the hole.', 'Replace the soil that was removed from the hole.']","['Water the tree so that its roots can take hold and begin to grow.', 'Get a tree.']",Water the tree so that its roots can take hold and begin to grow.,0
+0,0.0,[],"['Select tree seedling.', 'Select tree seedling.']",Select tree seedling.,0
+1,0.16666666666666666,['Select tree seedling.'],"['Fill in and pack dirt around seedling.', 'Find perfect spot to grow.']",Find perfect spot to grow.,1
+2,0.3333333333333333,"['Select tree seedling.', 'Find perfect spot to grow.']","['Place in hole.', 'Dig hole.']",Dig hole.,1
+3,0.5,"['Select tree seedling.', 'Find perfect spot to grow.', 'Dig hole.']","['Remove seedling from container.', 'Fill in and pack dirt around seedling.']",Remove seedling from container.,0
+4,0.6666666666666666,"['Select tree seedling.', 'Find perfect spot to grow.', 'Dig hole.', 'Remove seedling from container.']","['Place in hole.', 'Find perfect spot to grow.']",Place in hole.,0
+5,0.8333333333333334,"['Select tree seedling.', 'Find perfect spot to grow.', 'Dig hole.', 'Remove seedling from container.', 'Place in hole.']","['Fill in and pack dirt around seedling.', 'Select tree seedling.']",Fill in and pack dirt around seedling.,0
+0,0.0,[],"['Buy a tree.', 'Put tree in hole.']",Buy a tree.,0
+1,0.16666666666666666,['Buy a tree.'],"['Get shovel out of garage.', 'Get shovel out of garage.']",Get shovel out of garage.,0
+2,0.3333333333333333,"['Buy a tree.', 'Get shovel out of garage.']","['Dig a hole.', 'Put shovel away.']",Dig a hole.,0
+3,0.5,"['Buy a tree.', 'Get shovel out of garage.', 'Dig a hole.']","['Put tree in hole.', 'Put shovel away.']",Put tree in hole.,0
+4,0.6666666666666666,"['Buy a tree.', 'Get shovel out of garage.', 'Dig a hole.', 'Put tree in hole.']","['Get shovel out of garage.', 'Fill hole with dirt.']",Fill hole with dirt.,1
+5,0.8333333333333334,"['Buy a tree.', 'Get shovel out of garage.', 'Dig a hole.', 'Put tree in hole.', 'Fill hole with dirt.']","['Buy a tree.', 'Put shovel away.']",Put shovel away.,1
+0,0.0,[],"['Put tree seedling in hole', 'Get a shovel']",Get a shovel,1
+1,0.16666666666666666,['Get a shovel'],"['Put tree seedling in hole', 'Dig a small hole in the ground']",Dig a small hole in the ground,1
+2,0.3333333333333333,"['Get a shovel', 'Dig a small hole in the ground']","['Get a tree seedling', 'Bury seedling roots with removed dirt']",Get a tree seedling,0
+3,0.5,"['Get a shovel', 'Dig a small hole in the ground', 'Get a tree seedling']","['Get a shovel', 'Put tree seedling in hole']",Put tree seedling in hole,1
+4,0.6666666666666666,"['Get a shovel', 'Dig a small hole in the ground', 'Get a tree seedling', 'Put tree seedling in hole']","['Get a shovel', 'Bury seedling roots with removed dirt']",Bury seedling roots with removed dirt,1
+5,0.8333333333333334,"['Get a shovel', 'Dig a small hole in the ground', 'Get a tree seedling', 'Put tree seedling in hole', 'Bury seedling roots with removed dirt']","['Water seedling', 'Get a tree seedling']",Water seedling,0
+0,0.0,[],"['Get tiny tree from a store', 'Fill the hole back up']",Get tiny tree from a store,0
+1,0.16666666666666666,['Get tiny tree from a store'],"[""Go to area where you're planting"", 'Get tiny tree from a store']",Go to area where you're planting,0
+2,0.3333333333333333,"['Get tiny tree from a store', ""Go to area where you're planting""]","['Put the tree into the hole', 'Dig a whole big enough and deep enough to fit tree']",Dig a whole big enough and deep enough to fit tree,1
+3,0.5,"['Get tiny tree from a store', ""Go to area where you're planting"", 'Dig a whole big enough and deep enough to fit tree']","['Take tree out of pot', 'Get tiny tree from a store']",Take tree out of pot,0
+4,0.6666666666666666,"['Get tiny tree from a store', ""Go to area where you're planting"", 'Dig a whole big enough and deep enough to fit tree', 'Take tree out of pot']","['Get tiny tree from a store', 'Put the tree into the hole']",Put the tree into the hole,1
+5,0.8333333333333334,"['Get tiny tree from a store', ""Go to area where you're planting"", 'Dig a whole big enough and deep enough to fit tree', 'Take tree out of pot', 'Put the tree into the hole']","['Fill the hole back up', 'Dig a whole big enough and deep enough to fit tree']",Fill the hole back up,0
+0,0.0,[],"['Visit a plant nursery and choose a tree.', 'Put the roots of the tree into the hole.']",Visit a plant nursery and choose a tree.,0
+1,0.16666666666666666,['Visit a plant nursery and choose a tree.'],"['Put the roots of the tree into the hole.', 'Transport the tree to where you will plant it.']",Transport the tree to where you will plant it.,1
+2,0.3333333333333333,"['Visit a plant nursery and choose a tree.', 'Transport the tree to where you will plant it.']","['Replace the dirt, ensuring that roots are well covered.', 'Dig a hole in the ground large enough to accommodate the root ball of the tree.']",Dig a hole in the ground large enough to accommodate the root ball of the tree.,1
+3,0.5,"['Visit a plant nursery and choose a tree.', 'Transport the tree to where you will plant it.', 'Dig a hole in the ground large enough to accommodate the root ball of the tree.']","['Replace the dirt, ensuring that roots are well covered.', 'Add a bit of water to the hole before planting the tree.']",Add a bit of water to the hole before planting the tree.,1
+4,0.6666666666666666,"['Visit a plant nursery and choose a tree.', 'Transport the tree to where you will plant it.', 'Dig a hole in the ground large enough to accommodate the root ball of the tree.', 'Add a bit of water to the hole before planting the tree.']","['Transport the tree to where you will plant it.', 'Put the roots of the tree into the hole.']",Put the roots of the tree into the hole.,1
+5,0.8333333333333334,"['Visit a plant nursery and choose a tree.', 'Transport the tree to where you will plant it.', 'Dig a hole in the ground large enough to accommodate the root ball of the tree.', 'Add a bit of water to the hole before planting the tree.', 'Put the roots of the tree into the hole.']","['Visit a plant nursery and choose a tree.', 'Replace the dirt, ensuring that roots are well covered.']","Replace the dirt, ensuring that roots are well covered.",1
+0,0.0,[],"['cover the tree with dirt', 'Dig a hole']",Dig a hole,1
+1,0.16666666666666666,['Dig a hole'],"['water the hole', 'fertilize']",water the hole,0
+2,0.3333333333333333,"['Dig a hole', 'water the hole']","['fertilize', 'put the tree in hole']",put the tree in hole,1
+3,0.5,"['Dig a hole', 'water the hole', 'put the tree in hole']","['Dig a hole', 'cover the tree with dirt']",cover the tree with dirt,1
+4,0.6666666666666666,"['Dig a hole', 'water the hole', 'put the tree in hole', 'cover the tree with dirt']","['Dig a hole', 'fertilize']",fertilize,1
+5,0.8333333333333334,"['Dig a hole', 'water the hole', 'put the tree in hole', 'cover the tree with dirt', 'fertilize']","['put the tree in hole', 'water again']",water again,1
+0,0.0,[],"['Shovel soil back around tree', 'Dig whole']",Dig whole,1
+1,0.16666666666666666,['Dig whole'],"['Pat down the soil', 'Water ground so it is nice and moist']",Water ground so it is nice and moist,1
+2,0.3333333333333333,"['Dig whole', 'Water ground so it is nice and moist']","['Pat down the soil', 'Put tree in roots down']",Put tree in roots down,1
+3,0.5,"['Dig whole', 'Water ground so it is nice and moist', 'Put tree in roots down']","['Shovel soil back around tree', 'Water the soil again']",Shovel soil back around tree,0
+4,0.6666666666666666,"['Dig whole', 'Water ground so it is nice and moist', 'Put tree in roots down', 'Shovel soil back around tree']","['Water ground so it is nice and moist', 'Pat down the soil']",Pat down the soil,1
+5,0.8333333333333334,"['Dig whole', 'Water ground so it is nice and moist', 'Put tree in roots down', 'Shovel soil back around tree', 'Pat down the soil']","['Water the soil again', 'Dig whole']",Water the soil again,0
+0,0.0,[],"['Get a spade', 'Dig a small pit']",Get a spade,0
+1,0.16666666666666666,['Get a spade'],"['Take the tree', 'Get a spade']",Take the tree,0
+2,0.3333333333333333,"['Get a spade', 'Take the tree']","['Go to the location planned for the plant', 'Put a small quantity of organic fertilizer in the pit']",Go to the location planned for the plant,0
+3,0.5,"['Get a spade', 'Take the tree', 'Go to the location planned for the plant']","['Dig a small pit', 'Put some water in the pit']",Dig a small pit,0
+4,0.6666666666666666,"['Get a spade', 'Take the tree', 'Go to the location planned for the plant', 'Dig a small pit']","['Get a spade', 'Put a small quantity of organic fertilizer in the pit']",Put a small quantity of organic fertilizer in the pit,1
+5,0.8333333333333334,"['Get a spade', 'Take the tree', 'Go to the location planned for the plant', 'Dig a small pit', 'Put a small quantity of organic fertilizer in the pit']","['Put some water in the pit', 'Get a spade']",Put some water in the pit,0
+0,0.0,[],"['Go to a nursery.', 'Go to a nursery.']",Go to a nursery.,1
+1,0.16666666666666666,['Go to a nursery.'],"['Dig a hole deep enough for the plant.', 'Purchase a young seedling.']",Purchase a young seedling.,1
+2,0.3333333333333333,"['Go to a nursery.', 'Purchase a young seedling.']","['Return home or wherever you will be planting.', 'Gently place the young tree into the hole.']",Return home or wherever you will be planting.,0
+3,0.5,"['Go to a nursery.', 'Purchase a young seedling.', 'Return home or wherever you will be planting.']","['Go to a nursery.', 'Find a shovel.']",Find a shovel.,1
+4,0.6666666666666666,"['Go to a nursery.', 'Purchase a young seedling.', 'Return home or wherever you will be planting.', 'Find a shovel.']","['Dig a hole deep enough for the plant.', 'Purchase a young seedling.']",Dig a hole deep enough for the plant.,0
+5,0.8333333333333334,"['Go to a nursery.', 'Purchase a young seedling.', 'Return home or wherever you will be planting.', 'Find a shovel.', 'Dig a hole deep enough for the plant.']","['Go to a nursery.', 'Gently place the young tree into the hole.']",Gently place the young tree into the hole.,1
+0,0.0,[],"['Go to nursery to pick out a tree.', 'Take tree home.']",Go to nursery to pick out a tree.,0
+1,0.16666666666666666,['Go to nursery to pick out a tree.'],"['Take tree home.', 'Place tree in hole.']",Take tree home.,0
+2,0.3333333333333333,"['Go to nursery to pick out a tree.', 'Take tree home.']","['Fill the hole', 'Look for the best place for the tree']",Look for the best place for the tree,1
+3,0.5,"['Go to nursery to pick out a tree.', 'Take tree home.', 'Look for the best place for the tree']","['Dig a deep hole.', 'Fill the hole']",Dig a deep hole.,0
+4,0.6666666666666666,"['Go to nursery to pick out a tree.', 'Take tree home.', 'Look for the best place for the tree', 'Dig a deep hole.']","['Go to nursery to pick out a tree.', 'Place tree in hole.']",Place tree in hole.,1
+5,0.8333333333333334,"['Go to nursery to pick out a tree.', 'Take tree home.', 'Look for the best place for the tree', 'Dig a deep hole.', 'Place tree in hole.']","['Go to nursery to pick out a tree.', 'Fill the hole']",Fill the hole,1
+0,0.0,[],"['take a sapling', 'take a sapling']",take a sapling,1
+1,0.16666666666666666,['take a sapling'],"['dig hole in the ground', 'place the sapling']",dig hole in the ground,0
+2,0.3333333333333333,"['take a sapling', 'dig hole in the ground']","['water regularly', 'place the sapling']",place the sapling,1
+3,0.5,"['take a sapling', 'dig hole in the ground', 'place the sapling']","['place it in the hole', 'take a sapling']",place it in the hole,0
+4,0.6666666666666666,"['take a sapling', 'dig hole in the ground', 'place the sapling', 'place it in the hole']","['cover with soil', 'take a sapling']",cover with soil,0
+5,0.8333333333333334,"['take a sapling', 'dig hole in the ground', 'place the sapling', 'place it in the hole', 'cover with soil']","['water regularly', 'dig hole in the ground']",water regularly,0
+0,0.0,[],"['take a sapling', 'take a sapling']",take a sapling,1
+1,0.16666666666666666,['take a sapling'],"['dig hole in the ground', 'dig hole in the ground']",dig hole in the ground,1
+2,0.3333333333333333,"['take a sapling', 'dig hole in the ground']","['cover with soil', 'place the sapling']",place the sapling,1
+3,0.5,"['take a sapling', 'dig hole in the ground', 'place the sapling']","['take a sapling', 'place it in the hole']",place it in the hole,1
+4,0.6666666666666666,"['take a sapling', 'dig hole in the ground', 'place the sapling', 'place it in the hole']","['cover with soil', 'take a sapling']",cover with soil,0
+5,0.8333333333333334,"['take a sapling', 'dig hole in the ground', 'place the sapling', 'place it in the hole', 'cover with soil']","['water regularly', 'take a sapling']",water regularly,0
+0,0.0,[],"['Select the right time of a year to plant a tree', 'Select the right time of a year to plant a tree']",Select the right time of a year to plant a tree,1
+1,0.16666666666666666,['Select the right time of a year to plant a tree'],"['Prepare the tree for planting', 'check any local requirement before digging hole']",check any local requirement before digging hole,1
+2,0.3333333333333333,"['Select the right time of a year to plant a tree', 'check any local requirement before digging hole']","['select suitable tree for climate and region', 'Use a seed for planting']",select suitable tree for climate and region,0
+3,0.5,"['Select the right time of a year to plant a tree', 'check any local requirement before digging hole', 'select suitable tree for climate and region']","['Use a seed for planting', 'Prepare the hole']",Prepare the hole,1
+4,0.6666666666666666,"['Select the right time of a year to plant a tree', 'check any local requirement before digging hole', 'select suitable tree for climate and region', 'Prepare the hole']","['Prepare the tree for planting', 'check any local requirement before digging hole']",Prepare the tree for planting,0
+5,0.8333333333333334,"['Select the right time of a year to plant a tree', 'check any local requirement before digging hole', 'select suitable tree for climate and region', 'Prepare the hole', 'Prepare the tree for planting']","['check any local requirement before digging hole', 'Use a seed for planting']",Use a seed for planting,1
+0,0.0,[],"['Find a good spot to plant tree', 'Water tree']",Find a good spot to plant tree,0
+1,0.2,['Find a good spot to plant tree'],"['Place tree roots in hole', 'Dig a hole deep enough and wide enough']",Dig a hole deep enough and wide enough,1
+2,0.4,"['Find a good spot to plant tree', 'Dig a hole deep enough and wide enough']","['Place tree roots in hole', 'Water tree']",Place tree roots in hole,0
+3,0.6,"['Find a good spot to plant tree', 'Dig a hole deep enough and wide enough', 'Place tree roots in hole']","['Fill in dirt', 'Find a good spot to plant tree']",Fill in dirt,0
+4,0.8,"['Find a good spot to plant tree', 'Dig a hole deep enough and wide enough', 'Place tree roots in hole', 'Fill in dirt']","['Find a good spot to plant tree', 'Water tree']",Water tree,1
+0,0.0,[],"['Dig a hole', 'Cover with dirt']",Dig a hole,0
+1,0.2,['Dig a hole'],"['Loosen soil around hole', 'Loosen soil around hole']",Loosen soil around hole,0
+2,0.4,"['Dig a hole', 'Loosen soil around hole']","['Cover with dirt', 'Remove tree from container']",Remove tree from container,1
+3,0.6,"['Dig a hole', 'Loosen soil around hole', 'Remove tree from container']","['Dig a hole', 'Place tree in hole']",Place tree in hole,1
+4,0.8,"['Dig a hole', 'Loosen soil around hole', 'Remove tree from container', 'Place tree in hole']","['Cover with dirt', 'Loosen soil around hole']",Cover with dirt,0
+0,0.0,[],"['Put tree into hole', 'Get a sapling']",Get a sapling,1
+1,0.16666666666666666,['Get a sapling'],"['Fill the rest of hole with topsoil', 'Dig hole, larger than root ball of sapling']","Dig hole, larger than root ball of sapling",1
+2,0.3333333333333333,"['Get a sapling', 'Dig hole, larger than root ball of sapling']","['Add some topsoil and compost into bottom of hole', 'Add some fertilizer into topsoil']",Add some topsoil and compost into bottom of hole,0
+3,0.5,"['Get a sapling', 'Dig hole, larger than root ball of sapling', 'Add some topsoil and compost into bottom of hole']","['Put tree into hole', 'Get a sapling']",Put tree into hole,0
+4,0.6666666666666666,"['Get a sapling', 'Dig hole, larger than root ball of sapling', 'Add some topsoil and compost into bottom of hole', 'Put tree into hole']","['Fill the rest of hole with topsoil', 'Dig hole, larger than root ball of sapling']",Fill the rest of hole with topsoil,0
+5,0.8333333333333334,"['Get a sapling', 'Dig hole, larger than root ball of sapling', 'Add some topsoil and compost into bottom of hole', 'Put tree into hole', 'Fill the rest of hole with topsoil']","['Add some topsoil and compost into bottom of hole', 'Add some fertilizer into topsoil']",Add some fertilizer into topsoil,1
+0,0.0,[],"['Get your tree', 'Dig a hole']",Get your tree,0
+1,0.16666666666666666,['Get your tree'],"['Get a shovel', 'Place tree in hole']",Get a shovel,0
+2,0.3333333333333333,"['Get your tree', 'Get a shovel']","['Find the right spot in your garden or park', 'Remove tree from pot']",Find the right spot in your garden or park,0
+3,0.5,"['Get your tree', 'Get a shovel', 'Find the right spot in your garden or park']","['Dig a hole', 'Get your tree']",Dig a hole,0
+4,0.6666666666666666,"['Get your tree', 'Get a shovel', 'Find the right spot in your garden or park', 'Dig a hole']","['Remove tree from pot', 'Get a shovel']",Remove tree from pot,0
+5,0.8333333333333334,"['Get your tree', 'Get a shovel', 'Find the right spot in your garden or park', 'Dig a hole', 'Remove tree from pot']","['Get a shovel', 'Place tree in hole']",Place tree in hole,1
+0,0.0,[],"['Get a tree', 'Place tree in hole']",Get a tree,0
+1,0.2,['Get a tree'],"['Dig a hole', 'Fill hole with dirt']",Dig a hole,0
+2,0.4,"['Get a tree', 'Dig a hole']","['Place tree in hole', 'Water tree']",Place tree in hole,0
+3,0.6,"['Get a tree', 'Dig a hole', 'Place tree in hole']","['Fill hole with dirt', 'Get a tree']",Fill hole with dirt,0
+4,0.8,"['Get a tree', 'Dig a hole', 'Place tree in hole', 'Fill hole with dirt']","['Water tree', 'Dig a hole']",Water tree,0
+0,0.0,[],"['Buy a tree', 'Dig a hole']",Buy a tree,0
+1,0.16666666666666666,['Buy a tree'],"['Pick a spot to plant it', 'Dig a hole']",Pick a spot to plant it,0
+2,0.3333333333333333,"['Buy a tree', 'Pick a spot to plant it']","['Get a shovel', 'Fill around it with dirt']",Get a shovel,0
+3,0.5,"['Buy a tree', 'Pick a spot to plant it', 'Get a shovel']","['Dig a hole', 'Fill around it with dirt']",Dig a hole,0
+4,0.6666666666666666,"['Buy a tree', 'Pick a spot to plant it', 'Get a shovel', 'Dig a hole']","['Buy a tree', 'Put the tree in']",Put the tree in,1
+5,0.8333333333333334,"['Buy a tree', 'Pick a spot to plant it', 'Get a shovel', 'Dig a hole', 'Put the tree in']","['Pick a spot to plant it', 'Fill around it with dirt']",Fill around it with dirt,1
+0,0.0,[],"['Find a sapling', 'Fill the dirt in around it']",Find a sapling,0
+1,0.16666666666666666,['Find a sapling'],"['Find a place to plant it', 'Dig a small hole in ground']",Find a place to plant it,0
+2,0.3333333333333333,"['Find a sapling', 'Find a place to plant it']","['Dig a small hole in ground', 'Fill the dirt in around it']",Dig a small hole in ground,0
+3,0.5,"['Find a sapling', 'Find a place to plant it', 'Dig a small hole in ground']","['Remove sapling from old pot', 'Fill the dirt in around it']",Remove sapling from old pot,0
+4,0.6666666666666666,"['Find a sapling', 'Find a place to plant it', 'Dig a small hole in ground', 'Remove sapling from old pot']","['Find a sapling', 'Set sapling in the ground']",Set sapling in the ground,1
+5,0.8333333333333334,"['Find a sapling', 'Find a place to plant it', 'Dig a small hole in ground', 'Remove sapling from old pot', 'Set sapling in the ground']","['Dig a small hole in ground', 'Fill the dirt in around it']",Fill the dirt in around it,1
+0,0.0,[],"['Grab a shovel', 'Grab a shovel']",Grab a shovel,1
+1,0.16666666666666666,['Grab a shovel'],"['Dig a hole', 'Grab a shovel']",Dig a hole,0
+2,0.3333333333333333,"['Grab a shovel', 'Dig a hole']","['Put tree in hole', 'Wait']",Put tree in hole,0
+3,0.5,"['Grab a shovel', 'Dig a hole', 'Put tree in hole']","['Cover up hole', 'Wait']",Cover up hole,0
+4,0.6666666666666666,"['Grab a shovel', 'Dig a hole', 'Put tree in hole', 'Cover up hole']","['Water tree', 'Dig a hole']",Water tree,0
+5,0.8333333333333334,"['Grab a shovel', 'Dig a hole', 'Put tree in hole', 'Cover up hole', 'Water tree']","['Wait', 'Grab a shovel']",Wait,0
+0,0.0,[],"['Select location for the tree', 'Dig a hole bigger than the ball on the tree']",Select location for the tree,0
+1,0.16666666666666666,['Select location for the tree'],"['Unwrap the ball of the tree', 'Get a shovel']",Get a shovel,1
+2,0.3333333333333333,"['Select location for the tree', 'Get a shovel']","['Unwrap the ball of the tree', 'Dig a hole bigger than the ball on the tree']",Dig a hole bigger than the ball on the tree,1
+3,0.5,"['Select location for the tree', 'Get a shovel', 'Dig a hole bigger than the ball on the tree']","['Place the ball of the tree into the hole', 'Fill part of the hole with good soil']",Fill part of the hole with good soil,1
+4,0.6666666666666666,"['Select location for the tree', 'Get a shovel', 'Dig a hole bigger than the ball on the tree', 'Fill part of the hole with good soil']","['Get a shovel', 'Unwrap the ball of the tree']",Unwrap the ball of the tree,1
+5,0.8333333333333334,"['Select location for the tree', 'Get a shovel', 'Dig a hole bigger than the ball on the tree', 'Fill part of the hole with good soil', 'Unwrap the ball of the tree']","['Place the ball of the tree into the hole', 'Select location for the tree']",Place the ball of the tree into the hole,0
+0,0.0,[],"['Buy a tree to plant from a flower supply company', 'Hold the tree upright as you shovel topsoil into the hole']",Buy a tree to plant from a flower supply company,0
+1,0.16666666666666666,['Buy a tree to plant from a flower supply company'],"['Hold the tree upright as you shovel topsoil into the hole', 'Buy topsoil']",Buy topsoil,1
+2,0.3333333333333333,"['Buy a tree to plant from a flower supply company', 'Buy topsoil']","['Buy mulch', 'Hold the tree upright as you shovel topsoil into the hole']",Buy mulch,0
+3,0.5,"['Buy a tree to plant from a flower supply company', 'Buy topsoil', 'Buy mulch']","['Buy a tree to plant from a flower supply company', 'Buy fertilizer']",Buy fertilizer,1
+4,0.6666666666666666,"['Buy a tree to plant from a flower supply company', 'Buy topsoil', 'Buy mulch', 'Buy fertilizer']","['Buy topsoil', 'Dig a hole for the tree']",Dig a hole for the tree,1
+5,0.8333333333333334,"['Buy a tree to plant from a flower supply company', 'Buy topsoil', 'Buy mulch', 'Buy fertilizer', 'Dig a hole for the tree']","['Buy mulch', 'Hold the tree upright as you shovel topsoil into the hole']",Hold the tree upright as you shovel topsoil into the hole,1
+0,0.0,[],"['Buy some tree seeds or purchase a small tree.', 'Use a shovel to dig a hole']",Buy some tree seeds or purchase a small tree.,0
+1,0.16666666666666666,['Buy some tree seeds or purchase a small tree.'],"['Use a shovel to dig a hole', 'Water tree']",Use a shovel to dig a hole,0
+2,0.3333333333333333,"['Buy some tree seeds or purchase a small tree.', 'Use a shovel to dig a hole']","['Place tree into hole carefully.', 'Water tree']",Place tree into hole carefully.,0
+3,0.5,"['Buy some tree seeds or purchase a small tree.', 'Use a shovel to dig a hole', 'Place tree into hole carefully.']","['Add some compost', 'Buy some tree seeds or purchase a small tree.']",Add some compost,0
+4,0.6666666666666666,"['Buy some tree seeds or purchase a small tree.', 'Use a shovel to dig a hole', 'Place tree into hole carefully.', 'Add some compost']","['Water tree', 'Buy some tree seeds or purchase a small tree.']",Water tree,0
+5,0.8333333333333334,"['Buy some tree seeds or purchase a small tree.', 'Use a shovel to dig a hole', 'Place tree into hole carefully.', 'Add some compost', 'Water tree']","['Use a shovel to dig a hole', 'Add stakes to tree if necessary over the years.']",Add stakes to tree if necessary over the years.,1
+0,0.0,[],"['Buy a seedling', 'Buy a seedling']",Buy a seedling,0
+1,0.16666666666666666,['Buy a seedling'],"['Put dirt back around hole', 'Dig a hole']",Dig a hole,1
+2,0.3333333333333333,"['Buy a seedling', 'Dig a hole']","['Put dirt back around hole', 'Put fertilizer in the hole']",Put fertilizer in the hole,1
+3,0.5,"['Buy a seedling', 'Dig a hole', 'Put fertilizer in the hole']","['Buy a seedling', 'Plant the seedling']",Plant the seedling,1
+4,0.6666666666666666,"['Buy a seedling', 'Dig a hole', 'Put fertilizer in the hole', 'Plant the seedling']","['Put dirt back around hole', 'Dig a hole']",Put dirt back around hole,0
+5,0.8333333333333334,"['Buy a seedling', 'Dig a hole', 'Put fertilizer in the hole', 'Plant the seedling', 'Put dirt back around hole']","['Put fertilizer in the hole', 'Water the seedling']",Water the seedling,1
+0,0.0,[],"['Buy the tree of your choice.', 'Buy the tree of your choice.']",Buy the tree of your choice.,0
+1,0.16666666666666666,['Buy the tree of your choice.'],"['Put tree into hole.', 'Find a good spot that gets plenty of sun.']",Find a good spot that gets plenty of sun.,1
+2,0.3333333333333333,"['Buy the tree of your choice.', 'Find a good spot that gets plenty of sun.']","['Dig a hole to accommodate the size you need.', 'Put tree into hole.']",Dig a hole to accommodate the size you need.,0
+3,0.5,"['Buy the tree of your choice.', 'Find a good spot that gets plenty of sun.', 'Dig a hole to accommodate the size you need.']","['Buy the tree of your choice.', 'Take tree out with roots exposed.']",Take tree out with roots exposed.,1
+4,0.6666666666666666,"['Buy the tree of your choice.', 'Find a good spot that gets plenty of sun.', 'Dig a hole to accommodate the size you need.', 'Take tree out with roots exposed.']","['Put tree into hole.', 'Find a good spot that gets plenty of sun.']",Put tree into hole.,0
+5,0.8333333333333334,"['Buy the tree of your choice.', 'Find a good spot that gets plenty of sun.', 'Dig a hole to accommodate the size you need.', 'Take tree out with roots exposed.', 'Put tree into hole.']","['Dig a hole to accommodate the size you need.', 'Softly put dirt into hole.']",Softly put dirt into hole.,1
+0,0.0,[],"['fill hole back up', 'dig hole']",dig hole,1
+1,0.2,['dig hole'],"['plant seed', 'dig hole']",plant seed,0
+2,0.4,"['dig hole', 'plant seed']","['wait for the tree to grow', 'fill hole back up']",fill hole back up,1
+3,0.6,"['dig hole', 'plant seed', 'fill hole back up']","['water the spot every day.', 'dig hole']",water the spot every day.,0
+4,0.8,"['dig hole', 'plant seed', 'fill hole back up', 'water the spot every day.']","['dig hole', 'wait for the tree to grow']",wait for the tree to grow,1
+0,0.0,[],"['buy a tree', 'water']",buy a tree,0
+1,0.16666666666666666,['buy a tree'],"['put the tree in the hole', 'find a place for it']",find a place for it,1
+2,0.3333333333333333,"['buy a tree', 'find a place for it']","['dig a hole', 'cover the hole']",dig a hole,0
+3,0.5,"['buy a tree', 'find a place for it', 'dig a hole']","['water', 'put the tree in the hole']",put the tree in the hole,1
+4,0.6666666666666666,"['buy a tree', 'find a place for it', 'dig a hole', 'put the tree in the hole']","['buy a tree', 'cover the hole']",cover the hole,1
+5,0.8333333333333334,"['buy a tree', 'find a place for it', 'dig a hole', 'put the tree in the hole', 'cover the hole']","['buy a tree', 'water']",water,1

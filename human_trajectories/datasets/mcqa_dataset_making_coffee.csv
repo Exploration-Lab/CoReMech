@@ -1,0 +1,501 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Place pot in coffee machine', 'Fill coffee pot with water']",Fill coffee pot with water,1
+1,0.2,['Fill coffee pot with water'],"['Dump water into coffee machine', 'Place pot in coffee machine']",Dump water into coffee machine,0
+2,0.4,"['Fill coffee pot with water', 'Dump water into coffee machine']","['Turn on coffee machine to brew', 'Put coffee grounds in filter']",Put coffee grounds in filter,1
+3,0.6,"['Fill coffee pot with water', 'Dump water into coffee machine', 'Put coffee grounds in filter']","['Place pot in coffee machine', 'Fill coffee pot with water']",Place pot in coffee machine,0
+4,0.8,"['Fill coffee pot with water', 'Dump water into coffee machine', 'Put coffee grounds in filter', 'Place pot in coffee machine']","['Fill coffee pot with water', 'Turn on coffee machine to brew']",Turn on coffee machine to brew,1
+0,0.0,[],"['Gather coffee and coffee filter', 'Decide how many cups of coffee you want to make']",Decide how many cups of coffee you want to make,1
+1,0.2,['Decide how many cups of coffee you want to make'],"['Put water in coffee maker', 'Gather coffee and coffee filter']",Gather coffee and coffee filter,1
+2,0.4,"['Decide how many cups of coffee you want to make', 'Gather coffee and coffee filter']","['Fill coffee urn with desired amount of water', 'Put filter in coffee maker']",Fill coffee urn with desired amount of water,0
+3,0.6,"['Decide how many cups of coffee you want to make', 'Gather coffee and coffee filter', 'Fill coffee urn with desired amount of water']","['Decide how many cups of coffee you want to make', 'Put water in coffee maker']",Put water in coffee maker,1
+4,0.8,"['Decide how many cups of coffee you want to make', 'Gather coffee and coffee filter', 'Fill coffee urn with desired amount of water', 'Put water in coffee maker']","['Decide how many cups of coffee you want to make', 'Put filter in coffee maker']",Put filter in coffee maker,1
+0,0.0,[],"['Wait for coffee maker to finish brewing.', 'Fill the coffee maker with water.']",Fill the coffee maker with water.,1
+1,0.2,['Fill the coffee maker with water.'],"['Wait for coffee maker to finish brewing.', 'Put filter in basket.']",Put filter in basket.,1
+2,0.4,"['Fill the coffee maker with water.', 'Put filter in basket.']","['Wait for coffee maker to finish brewing.', 'Fill basket with ground coffee.']",Fill basket with ground coffee.,1
+3,0.6,"['Fill the coffee maker with water.', 'Put filter in basket.', 'Fill basket with ground coffee.']","['Fill the coffee maker with water.', 'Plug in coffee maker.']",Plug in coffee maker.,1
+4,0.8,"['Fill the coffee maker with water.', 'Put filter in basket.', 'Fill basket with ground coffee.', 'Plug in coffee maker.']","['Wait for coffee maker to finish brewing.', 'Fill the coffee maker with water.']",Wait for coffee maker to finish brewing.,0
+0,0.0,[],"['Fill carafe with water', 'Pour in top of coffee maker']",Fill carafe with water,0
+1,0.2,['Fill carafe with water'],"['Throw away old filter', 'Pour in top of coffee maker']",Pour in top of coffee maker,1
+2,0.4,"['Fill carafe with water', 'Pour in top of coffee maker']","['Put carafe on burner', 'Put new filter in']",Put carafe on burner,0
+3,0.6,"['Fill carafe with water', 'Pour in top of coffee maker', 'Put carafe on burner']","['Throw away old filter', 'Fill carafe with water']",Throw away old filter,0
+4,0.8,"['Fill carafe with water', 'Pour in top of coffee maker', 'Put carafe on burner', 'Throw away old filter']","['Put new filter in', 'Pour in top of coffee maker']",Put new filter in,0
+0,0.0,[],"['Replace filter holder cup', 'Locate coffee maker.']",Locate coffee maker.,1
+1,0.2,['Locate coffee maker.'],"['Remove the filter holder cup.', 'Replace filter holder cup']",Remove the filter holder cup.,0
+2,0.4,"['Locate coffee maker.', 'Remove the filter holder cup.']","['Dispose of old filter if necessary', 'Place new filter in filter cup']",Dispose of old filter if necessary,0
+3,0.6,"['Locate coffee maker.', 'Remove the filter holder cup.', 'Dispose of old filter if necessary']","['Locate coffee maker.', 'Replace filter holder cup']",Replace filter holder cup,1
+4,0.8,"['Locate coffee maker.', 'Remove the filter holder cup.', 'Dispose of old filter if necessary', 'Replace filter holder cup']","['Remove the filter holder cup.', 'Place new filter in filter cup']",Place new filter in filter cup,1
+0,0.0,[],"['fill coffee pot with water', 'add coffee to filter']",fill coffee pot with water,0
+1,0.2,['fill coffee pot with water'],"['add coffee to filter', 'put filter in coffee pot']",put filter in coffee pot,1
+2,0.4,"['fill coffee pot with water', 'put filter in coffee pot']","['add coffee to filter', 'turn on coffee pot']",add coffee to filter,0
+3,0.6,"['fill coffee pot with water', 'put filter in coffee pot', 'add coffee to filter']","['fill coffee pot with water', 'plug in coffee pot']",plug in coffee pot,1
+4,0.8,"['fill coffee pot with water', 'put filter in coffee pot', 'add coffee to filter', 'plug in coffee pot']","['put filter in coffee pot', 'turn on coffee pot']",turn on coffee pot,1
+0,0.0,[],"['get coffee bean', 'fill coffee grinder']",get coffee bean,0
+1,0.2,['get coffee bean'],"['get coffee bean', 'fill coffee grinder']",fill coffee grinder,1
+2,0.4,"['get coffee bean', 'fill coffee grinder']","['Grind them finely', 'fill water reservoir']",Grind them finely,0
+3,0.6,"['get coffee bean', 'fill coffee grinder', 'Grind them finely']","['get coffee maker', 'get coffee bean']",get coffee maker,0
+4,0.8,"['get coffee bean', 'fill coffee grinder', 'Grind them finely', 'get coffee maker']","['fill water reservoir', 'fill coffee grinder']",fill water reservoir,0
+0,0.0,[],"['Get the coffee from the cabinet', 'Pour the boiling water into a cup']",Get the coffee from the cabinet,0
+1,0.2,['Get the coffee from the cabinet'],"['Pour sugar into the coffee', 'Boil the water']",Boil the water,1
+2,0.4,"['Get the coffee from the cabinet', 'Boil the water']","['Pour sugar into the coffee', 'Pour the boiling water into a cup']",Pour the boiling water into a cup,1
+3,0.6,"['Get the coffee from the cabinet', 'Boil the water', 'Pour the boiling water into a cup']","['Get the coffee from the cabinet', 'Spoon some coffee into the cup']",Spoon some coffee into the cup,1
+4,0.8,"['Get the coffee from the cabinet', 'Boil the water', 'Pour the boiling water into a cup', 'Spoon some coffee into the cup']","['Pour sugar into the coffee', 'Get the coffee from the cabinet']",Pour sugar into the coffee,0
+0,0.0,[],"['Buy coffee maker', 'Buy coffee grounds']",Buy coffee grounds,1
+1,0.2,['Buy coffee grounds'],"['Put filter in maker', 'Buy coffee maker']",Buy coffee maker,1
+2,0.4,"['Buy coffee grounds', 'Buy coffee maker']","['Buy coffee filters', 'Put grounds in filter']",Buy coffee filters,0
+3,0.6,"['Buy coffee grounds', 'Buy coffee maker', 'Buy coffee filters']","['Put filter in maker', 'Buy coffee grounds']",Put filter in maker,0
+4,0.8,"['Buy coffee grounds', 'Buy coffee maker', 'Buy coffee filters', 'Put filter in maker']","['Buy coffee maker', 'Put grounds in filter']",Put grounds in filter,1
+0,0.0,[],"['Add water to the machine', 'Get coffee']",Get coffee,1
+1,0.2,['Get coffee'],"['Get coffee filter', 'Get coffee filter']",Get coffee filter,1
+2,0.4,"['Get coffee', 'Get coffee filter']","['Put filter with coffee into the machine', 'Turn on the coffee machine with pot in holster']",Put filter with coffee into the machine,0
+3,0.6,"['Get coffee', 'Get coffee filter', 'Put filter with coffee into the machine']","['Add water to the machine', 'Get coffee']",Add water to the machine,0
+4,0.8,"['Get coffee', 'Get coffee filter', 'Put filter with coffee into the machine', 'Add water to the machine']","['Turn on the coffee machine with pot in holster', 'Get coffee']",Turn on the coffee machine with pot in holster,0
+0,0.0,[],"['Open coffee can', 'Fill coffee pot with water']",Fill coffee pot with water,1
+1,0.2,['Fill coffee pot with water'],"['Open coffee can', 'Put water in reservoir']",Put water in reservoir,1
+2,0.4,"['Fill coffee pot with water', 'Put water in reservoir']","['Place filter in basket', 'Scoop grounds into basket']",Place filter in basket,0
+3,0.6,"['Fill coffee pot with water', 'Put water in reservoir', 'Place filter in basket']","['Open coffee can', 'Fill coffee pot with water']",Open coffee can,0
+4,0.8,"['Fill coffee pot with water', 'Put water in reservoir', 'Place filter in basket', 'Open coffee can']","['Fill coffee pot with water', 'Scoop grounds into basket']",Scoop grounds into basket,1
+0,0.0,[],"['Open coffee can.', 'Pour the water into a pan.']",Pour the water into a pan.,1
+1,0.2,['Pour the water into a pan.'],"['Heat the stove.', 'Open coffee can.']",Heat the stove.,0
+2,0.4,"['Pour the water into a pan.', 'Heat the stove.']","['Open coffee can.', 'Rip a pack of sugar.']",Open coffee can.,0
+3,0.6,"['Pour the water into a pan.', 'Heat the stove.', 'Open coffee can.']","['Pour a spoonful of coffee power into cup.', 'Pour the water into a pan.']",Pour a spoonful of coffee power into cup.,0
+4,0.8,"['Pour the water into a pan.', 'Heat the stove.', 'Open coffee can.', 'Pour a spoonful of coffee power into cup.']","['Rip a pack of sugar.', 'Pour the water into a pan.']",Rip a pack of sugar.,0
+0,0.0,[],"['Put Milk, sugar, and coffee in respective compartments', 'Go to kitchen']",Go to kitchen,1
+1,0.2,['Go to kitchen'],"['Switch on the coffee maker', 'Go to kitchen']",Switch on the coffee maker,0
+2,0.4,"['Go to kitchen', 'Switch on the coffee maker']","['Put Milk, sugar, and coffee in respective compartments', 'Let the coffee brew']","Put Milk, sugar, and coffee in respective compartments",0
+3,0.6,"['Go to kitchen', 'Switch on the coffee maker', 'Put Milk, sugar, and coffee in respective compartments']","['Press the desired settings buttons', 'Go to kitchen']",Press the desired settings buttons,0
+4,0.8,"['Go to kitchen', 'Switch on the coffee maker', 'Put Milk, sugar, and coffee in respective compartments', 'Press the desired settings buttons']","['Go to kitchen', 'Let the coffee brew']",Let the coffee brew,1
+0,0.0,[],"['Get coffee.', 'Get coffee.']",Get coffee.,0
+1,0.2,['Get coffee.'],"['Put coffee in coffee filter.', 'Put container for coffee in coffee maker under spout.']",Put coffee in coffee filter.,0
+2,0.4,"['Get coffee.', 'Put coffee in coffee filter.']","['Turn on coffee maker.', 'Put water in coffee maker.']",Put water in coffee maker.,1
+3,0.6,"['Get coffee.', 'Put coffee in coffee filter.', 'Put water in coffee maker.']","['Put container for coffee in coffee maker under spout.', 'Get coffee.']",Put container for coffee in coffee maker under spout.,0
+4,0.8,"['Get coffee.', 'Put coffee in coffee filter.', 'Put water in coffee maker.', 'Put container for coffee in coffee maker under spout.']","['Turn on coffee maker.', 'Get coffee.']",Turn on coffee maker.,0
+0,0.0,[],"['Put water in machine', 'Put water in machine']",Put water in machine,0
+1,0.2,['Put water in machine'],"['Put coffee grinds in machine', 'Put coffee grinds in machine']",Put coffee grinds in machine,1
+2,0.4,"['Put water in machine', 'Put coffee grinds in machine']","['Turn on machine', 'Drink the coffee']",Turn on machine,0
+3,0.6,"['Put water in machine', 'Put coffee grinds in machine', 'Turn on machine']","['Put water in machine', 'Wait for coffee to be done']",Wait for coffee to be done,1
+4,0.8,"['Put water in machine', 'Put coffee grinds in machine', 'Turn on machine', 'Wait for coffee to be done']","['Drink the coffee', 'Put coffee grinds in machine']",Drink the coffee,0
+0,0.0,[],"['Get a mug, grounds, and filter', 'Fill Coffee pot with water']","Get a mug, grounds, and filter",0
+1,0.2,"['Get a mug, grounds, and filter']","['Place coffee pot in brewer', 'Place filter in coffee pot.']",Place coffee pot in brewer,0
+2,0.4,"['Get a mug, grounds, and filter', 'Place coffee pot in brewer']","['Fill Coffee pot with water', 'Place a scoop of grounds into the filter']",Fill Coffee pot with water,0
+3,0.6,"['Get a mug, grounds, and filter', 'Place coffee pot in brewer', 'Fill Coffee pot with water']","['Get a mug, grounds, and filter', 'Place filter in coffee pot.']",Place filter in coffee pot.,1
+4,0.8,"['Get a mug, grounds, and filter', 'Place coffee pot in brewer', 'Fill Coffee pot with water', 'Place filter in coffee pot.']","['Place a scoop of grounds into the filter', 'Place coffee pot in brewer']",Place a scoop of grounds into the filter,0
+0,0.0,[],"['Place the filter in the coffee maker.', 'Get some coffee']",Get some coffee,1
+1,0.2,['Get some coffee'],"['Get a filter.', 'Get some coffee']",Get a filter.,0
+2,0.4,"['Get some coffee', 'Get a filter.']","['Pour water into the reservoir.', 'Place the filter in the coffee maker.']",Place the filter in the coffee maker.,1
+3,0.6,"['Get some coffee', 'Get a filter.', 'Place the filter in the coffee maker.']","['Get some coffee', 'Place the coffee into the filter.']",Place the coffee into the filter.,1
+4,0.8,"['Get some coffee', 'Get a filter.', 'Place the filter in the coffee maker.', 'Place the coffee into the filter.']","['Pour water into the reservoir.', 'Get some coffee']",Pour water into the reservoir.,0
+0,0.0,[],"['Pour cup of water in a Bowl', 'Mixed it well']",Pour cup of water in a Bowl,0
+1,0.2,['Pour cup of water in a Bowl'],"['Mixed it well', 'Put into the Gas stove and make that hot']",Put into the Gas stove and make that hot,1
+2,0.4,"['Pour cup of water in a Bowl', 'Put into the Gas stove and make that hot']","['Put one or tow teaspoon of coffee powder in that bowl', 'Now taste the coffee, how taste it is']",Put one or tow teaspoon of coffee powder in that bowl,0
+3,0.6,"['Pour cup of water in a Bowl', 'Put into the Gas stove and make that hot', 'Put one or tow teaspoon of coffee powder in that bowl']","['Mixed it well', 'Pour cup of water in a Bowl']",Mixed it well,0
+4,0.8,"['Pour cup of water in a Bowl', 'Put into the Gas stove and make that hot', 'Put one or tow teaspoon of coffee powder in that bowl', 'Mixed it well']","['Pour cup of water in a Bowl', 'Now taste the coffee, how taste it is']","Now taste the coffee, how taste it is",1
+0,0.0,[],"['Take a dish and wash', 'Take a dish and wash']",Take a dish and wash,0
+1,0.2,['Take a dish and wash'],"['Put one cup of milk and little water', 'Add required amount of coffee powder']",Put one cup of milk and little water,0
+2,0.4,"['Take a dish and wash', 'Put one cup of milk and little water']","['Place the dish on the gas stove and ignite', 'Add a teaspoon of sugar']",Add a teaspoon of sugar,1
+3,0.6,"['Take a dish and wash', 'Put one cup of milk and little water', 'Add a teaspoon of sugar']","['Add required amount of coffee powder', 'Take a dish and wash']",Add required amount of coffee powder,0
+4,0.8,"['Take a dish and wash', 'Put one cup of milk and little water', 'Add a teaspoon of sugar', 'Add required amount of coffee powder']","['Place the dish on the gas stove and ignite', 'Take a dish and wash']",Place the dish on the gas stove and ignite,0
+0,0.0,[],"['Turn on coffee maker', 'put in machine']",Turn on coffee maker,0
+1,0.2,['Turn on coffee maker'],"['fill pot with water', 'put in coffee filter']",fill pot with water,0
+2,0.4,"['Turn on coffee maker', 'fill pot with water']","['measure and pour ground coffee into machine', 'put in machine']",put in machine,1
+3,0.6,"['Turn on coffee maker', 'fill pot with water', 'put in machine']","['put in coffee filter', 'Turn on coffee maker']",put in coffee filter,0
+4,0.8,"['Turn on coffee maker', 'fill pot with water', 'put in machine', 'put in coffee filter']","['fill pot with water', 'measure and pour ground coffee into machine']",measure and pour ground coffee into machine,1
+0,0.0,[],"['Get coffee out', 'fill pot with water']",Get coffee out,0
+1,0.2,['Get coffee out'],"['get a filter', 'place in the basket put one table spoon per 2 cups']",get a filter,0
+2,0.4,"['Get coffee out', 'get a filter']","['pour water into the top of coffee pot', 'place in the basket put one table spoon per 2 cups']",place in the basket put one table spoon per 2 cups,1
+3,0.6,"['Get coffee out', 'get a filter', 'place in the basket put one table spoon per 2 cups']","['Get coffee out', 'fill pot with water']",fill pot with water,1
+4,0.8,"['Get coffee out', 'get a filter', 'place in the basket put one table spoon per 2 cups', 'fill pot with water']","['pour water into the top of coffee pot', 'get a filter']",pour water into the top of coffee pot,0
+0,0.0,[],"['Fill coffee pot with water.', 'Fill coffee pot with water.']",Fill coffee pot with water.,1
+1,0.2,['Fill coffee pot with water.'],"['Open filter tray, remove old filter and replace.', 'Measure ground coffee into filter.']","Open filter tray, remove old filter and replace.",0
+2,0.4,"['Fill coffee pot with water.', 'Open filter tray, remove old filter and replace.']","['Hit brew button.', 'Measure ground coffee into filter.']",Measure ground coffee into filter.,1
+3,0.6,"['Fill coffee pot with water.', 'Open filter tray, remove old filter and replace.', 'Measure ground coffee into filter.']","['Close filter.', 'Fill coffee pot with water.']",Close filter.,0
+4,0.8,"['Fill coffee pot with water.', 'Open filter tray, remove old filter and replace.', 'Measure ground coffee into filter.', 'Close filter.']","['Fill coffee pot with water.', 'Hit brew button.']",Hit brew button.,1
+0,0.0,[],"['Pick coffee flavor', 'Put mug under dispenser']",Pick coffee flavor,0
+1,0.2,['Pick coffee flavor'],"['Get coffee mug', 'Load flavoring']",Get coffee mug,0
+2,0.4,"['Pick coffee flavor', 'Get coffee mug']","['Put mug under dispenser', 'Press start']",Put mug under dispenser,0
+3,0.6,"['Pick coffee flavor', 'Get coffee mug', 'Put mug under dispenser']","['Load flavoring', 'Pick coffee flavor']",Load flavoring,0
+4,0.8,"['Pick coffee flavor', 'Get coffee mug', 'Put mug under dispenser', 'Load flavoring']","['Pick coffee flavor', 'Press start']",Press start,1
+0,0.0,[],"['Grind coffee beans', 'wait']",Grind coffee beans,0
+1,0.2,['Grind coffee beans'],"['Put boiling water in coffee press', 'Boil water']",Boil water,1
+2,0.4,"['Grind coffee beans', 'Boil water']","['wait', 'Put grounds in coffee press']",Put grounds in coffee press,1
+3,0.6,"['Grind coffee beans', 'Boil water', 'Put grounds in coffee press']","['Put boiling water in coffee press', 'Grind coffee beans']",Put boiling water in coffee press,0
+4,0.8,"['Grind coffee beans', 'Boil water', 'Put grounds in coffee press', 'Put boiling water in coffee press']","['Grind coffee beans', 'wait']",wait,1
+0,0.0,[],"['Add measured amount of water to the carafe', 'Get coffee']",Get coffee,1
+1,0.2,['Get coffee'],"['Put coffee filter into coffee machine', 'Open container of coffee']",Put coffee filter into coffee machine,0
+2,0.4,"['Get coffee', 'Put coffee filter into coffee machine']","['Add measured amount of water to the carafe', 'Open container of coffee']",Open container of coffee,1
+3,0.6,"['Get coffee', 'Put coffee filter into coffee machine', 'Open container of coffee']","['Add measured amount of coffee to coffee filter', 'Get coffee']",Add measured amount of coffee to coffee filter,0
+4,0.8,"['Get coffee', 'Put coffee filter into coffee machine', 'Open container of coffee', 'Add measured amount of coffee to coffee filter']","['Add measured amount of water to the carafe', 'Get coffee']",Add measured amount of water to the carafe,0
+0,0.0,[],"['Pour water into coffee maker', 'Put coffee filter in coffee maker filter basket']",Put coffee filter in coffee maker filter basket,1
+1,0.2,['Put coffee filter in coffee maker filter basket'],"['Put desired amount of coffee into filter', 'Open coffee can']",Open coffee can,1
+2,0.4,"['Put coffee filter in coffee maker filter basket', 'Open coffee can']","['Pour water into coffee maker', 'Put desired amount of coffee into filter']",Put desired amount of coffee into filter,1
+3,0.6,"['Put coffee filter in coffee maker filter basket', 'Open coffee can', 'Put desired amount of coffee into filter']","['Put coffee filter in coffee maker filter basket', 'Fill coffee carafe with water']",Fill coffee carafe with water,1
+4,0.8,"['Put coffee filter in coffee maker filter basket', 'Open coffee can', 'Put desired amount of coffee into filter', 'Fill coffee carafe with water']","['Pour water into coffee maker', 'Put coffee filter in coffee maker filter basket']",Pour water into coffee maker,0
+0,0.0,[],"['To make good coffee first choose good beans.', 'Smell the good aroma when finished roasting.']",To make good coffee first choose good beans.,0
+1,0.2,['To make good coffee first choose good beans.'],"['Roast the beans in correct temperature.', 'Now grind the roasted beans into powder and store it in a dry air tight container.']",Roast the beans in correct temperature.,0
+2,0.4,"['To make good coffee first choose good beans.', 'Roast the beans in correct temperature.']","['When you want to have a nice coffee take the coffee powder from container.', 'Smell the good aroma when finished roasting.']",Smell the good aroma when finished roasting.,1
+3,0.6,"['To make good coffee first choose good beans.', 'Roast the beans in correct temperature.', 'Smell the good aroma when finished roasting.']","['To make good coffee first choose good beans.', 'Now grind the roasted beans into powder and store it in a dry air tight container.']",Now grind the roasted beans into powder and store it in a dry air tight container.,1
+4,0.8,"['To make good coffee first choose good beans.', 'Roast the beans in correct temperature.', 'Smell the good aroma when finished roasting.', 'Now grind the roasted beans into powder and store it in a dry air tight container.']","['When you want to have a nice coffee take the coffee powder from container.', 'Roast the beans in correct temperature.']",When you want to have a nice coffee take the coffee powder from container.,0
+0,0.0,[],"['Measure coffee carefully and add to coffee pot.', 'Fill coffee pot with water.']",Fill coffee pot with water.,1
+1,0.2,['Fill coffee pot with water.'],"['Get coffee.', 'Turn coffee pot on.']",Get coffee.,0
+2,0.4,"['Fill coffee pot with water.', 'Get coffee.']","['Once coffee is done brewing, pour coffee into cup.', 'Measure coffee carefully and add to coffee pot.']",Measure coffee carefully and add to coffee pot.,1
+3,0.6,"['Fill coffee pot with water.', 'Get coffee.', 'Measure coffee carefully and add to coffee pot.']","['Fill coffee pot with water.', 'Turn coffee pot on.']",Turn coffee pot on.,1
+4,0.8,"['Fill coffee pot with water.', 'Get coffee.', 'Measure coffee carefully and add to coffee pot.', 'Turn coffee pot on.']","['Get coffee.', 'Once coffee is done brewing, pour coffee into cup.']","Once coffee is done brewing, pour coffee into cup.",1
+0,0.0,[],"['Get ingredients', 'Get ingredients']",Get ingredients,0
+1,0.2,['Get ingredients'],"['Grind coffee beans', 'Fill with water']",Grind coffee beans,0
+2,0.4,"['Get ingredients', 'Grind coffee beans']","['Fill with water', 'Place filter']",Place filter,1
+3,0.6,"['Get ingredients', 'Grind coffee beans', 'Place filter']","['Add the grounds', 'Get ingredients']",Add the grounds,0
+4,0.8,"['Get ingredients', 'Grind coffee beans', 'Place filter', 'Add the grounds']","['Grind coffee beans', 'Fill with water']",Fill with water,1
+0,0.0,[],"['Put the coffee pot in the coffee maker.', 'Grind coffee beans.']",Grind coffee beans.,1
+1,0.2,['Grind coffee beans.'],"['Put the filter in the coffee maker.', 'Fill the coffee maker with water.']",Put the filter in the coffee maker.,0
+2,0.4,"['Grind coffee beans.', 'Put the filter in the coffee maker.']","['Put the coffee grinds into the filter.', 'Put the coffee pot in the coffee maker.']",Put the coffee grinds into the filter.,0
+3,0.6,"['Grind coffee beans.', 'Put the filter in the coffee maker.', 'Put the coffee grinds into the filter.']","['Fill the coffee maker with water.', 'Grind coffee beans.']",Fill the coffee maker with water.,0
+4,0.8,"['Grind coffee beans.', 'Put the filter in the coffee maker.', 'Put the coffee grinds into the filter.', 'Fill the coffee maker with water.']","['Grind coffee beans.', 'Put the coffee pot in the coffee maker.']",Put the coffee pot in the coffee maker.,1
+0,0.0,[],"['Add 1/4 cup coffee to filter.', 'Fill the reservoir with water.']",Fill the reservoir with water.,1
+1,0.2,['Fill the reservoir with water.'],"['Put the carafe on the pot.', 'Put in a filter.']",Put in a filter.,1
+2,0.4,"['Fill the reservoir with water.', 'Put in a filter.']","['Add 1/4 cup coffee to filter.', 'Turn the pot on.']",Add 1/4 cup coffee to filter.,0
+3,0.6,"['Fill the reservoir with water.', 'Put in a filter.', 'Add 1/4 cup coffee to filter.']","['Fill the reservoir with water.', 'Put the carafe on the pot.']",Put the carafe on the pot.,1
+4,0.8,"['Fill the reservoir with water.', 'Put in a filter.', 'Add 1/4 cup coffee to filter.', 'Put the carafe on the pot.']","['Turn the pot on.', 'Fill the reservoir with water.']",Turn the pot on.,0
+0,0.0,[],"['Grind the coffee beans.', 'Put the coffee bean grinds into the filter.']",Grind the coffee beans.,0
+1,0.2,['Grind the coffee beans.'],"['Fill the coffee maker up with water.', 'Put a filter in the coffee maker.']",Put a filter in the coffee maker.,1
+2,0.4,"['Grind the coffee beans.', 'Put a filter in the coffee maker.']","['Put the coffee pot on the coffee maker.', 'Put the coffee bean grinds into the filter.']",Put the coffee bean grinds into the filter.,1
+3,0.6,"['Grind the coffee beans.', 'Put a filter in the coffee maker.', 'Put the coffee bean grinds into the filter.']","['Grind the coffee beans.', 'Fill the coffee maker up with water.']",Fill the coffee maker up with water.,1
+4,0.8,"['Grind the coffee beans.', 'Put a filter in the coffee maker.', 'Put the coffee bean grinds into the filter.', 'Fill the coffee maker up with water.']","['Put the coffee pot on the coffee maker.', 'Grind the coffee beans.']",Put the coffee pot on the coffee maker.,0
+0,0.0,[],"['Get coffee.', 'Turn pot on.']",Get coffee.,0
+1,0.2,['Get coffee.'],"['Add water to coffee pot.', 'Turn pot on.']",Add water to coffee pot.,0
+2,0.4,"['Get coffee.', 'Add water to coffee pot.']","['Wait until pot is filling up with coffee.', 'Add desired amount of grounds to pot.']",Add desired amount of grounds to pot.,1
+3,0.6,"['Get coffee.', 'Add water to coffee pot.', 'Add desired amount of grounds to pot.']","['Turn pot on.', 'Get coffee.']",Turn pot on.,0
+4,0.8,"['Get coffee.', 'Add water to coffee pot.', 'Add desired amount of grounds to pot.', 'Turn pot on.']","['Wait until pot is filling up with coffee.', 'Add water to coffee pot.']",Wait until pot is filling up with coffee.,0
+0,0.0,[],"['Turn on coffee machine.', 'Wait for water to heat up.']",Turn on coffee machine.,0
+1,0.2,['Turn on coffee machine.'],"['Open lid of coffee machine.', 'Add water to water reservoir in coffee maker.']",Add water to water reservoir in coffee maker.,1
+2,0.4,"['Turn on coffee machine.', 'Add water to water reservoir in coffee maker.']","['Wait for water to heat up.', 'Choose coffee pod to make.']",Wait for water to heat up.,0
+3,0.6,"['Turn on coffee machine.', 'Add water to water reservoir in coffee maker.', 'Wait for water to heat up.']","['Open lid of coffee machine.', 'Turn on coffee machine.']",Open lid of coffee machine.,0
+4,0.8,"['Turn on coffee machine.', 'Add water to water reservoir in coffee maker.', 'Wait for water to heat up.', 'Open lid of coffee machine.']","['Add water to water reservoir in coffee maker.', 'Choose coffee pod to make.']",Choose coffee pod to make.,1
+0,0.0,[],"['Put coffee pot into coffee maker', 'Pour water into coffee maker']",Pour water into coffee maker,1
+1,0.2,['Pour water into coffee maker'],"['Put coffee pot into coffee maker', 'Put coffee filter into coffee maker']",Put coffee filter into coffee maker,1
+2,0.4,"['Pour water into coffee maker', 'Put coffee filter into coffee maker']","['Start coffee maker', 'Put ground coffee into filter']",Put ground coffee into filter,1
+3,0.6,"['Pour water into coffee maker', 'Put coffee filter into coffee maker', 'Put ground coffee into filter']","['Put coffee pot into coffee maker', 'Pour water into coffee maker']",Put coffee pot into coffee maker,0
+4,0.8,"['Pour water into coffee maker', 'Put coffee filter into coffee maker', 'Put ground coffee into filter', 'Put coffee pot into coffee maker']","['Start coffee maker', 'Put coffee filter into coffee maker']",Start coffee maker,0
+0,0.0,[],"['Get a coffee filter', 'Poor water in']",Get a coffee filter,0
+1,0.2,['Get a coffee filter'],"['Put coffee grounds in filter', 'Close cover']",Put coffee grounds in filter,0
+2,0.4,"['Get a coffee filter', 'Put coffee grounds in filter']","['Put pot on coffee maker', 'Poor water in']",Poor water in,1
+3,0.6,"['Get a coffee filter', 'Put coffee grounds in filter', 'Poor water in']","['Get a coffee filter', 'Close cover']",Close cover,1
+4,0.8,"['Get a coffee filter', 'Put coffee grounds in filter', 'Poor water in', 'Close cover']","['Get a coffee filter', 'Put pot on coffee maker']",Put pot on coffee maker,1
+0,0.0,[],"['fill up coffee pot with water and place water in coffee maker', 'wait for coffee']",fill up coffee pot with water and place water in coffee maker,0
+1,0.2,['fill up coffee pot with water and place water in coffee maker'],"['turn on coffee maker', 'take a  coffee liner and place in coffee maker']",take a  coffee liner and place in coffee maker,1
+2,0.4,"['fill up coffee pot with water and place water in coffee maker', 'take a  coffee liner and place in coffee maker']","['wait for coffee', 'scoop out coffee and place in coffee maker']",scoop out coffee and place in coffee maker,1
+3,0.6,"['fill up coffee pot with water and place water in coffee maker', 'take a  coffee liner and place in coffee maker', 'scoop out coffee and place in coffee maker']","['turn on coffee maker', 'fill up coffee pot with water and place water in coffee maker']",turn on coffee maker,0
+4,0.8,"['fill up coffee pot with water and place water in coffee maker', 'take a  coffee liner and place in coffee maker', 'scoop out coffee and place in coffee maker', 'turn on coffee maker']","['wait for coffee', 'take a  coffee liner and place in coffee maker']",wait for coffee,0
+0,0.0,[],"['Boil water in pot', 'Grab instant coffee']",Grab instant coffee,1
+1,0.2,['Grab instant coffee'],"['Boil water in pot', 'Boil water in pot']",Boil water in pot,1
+2,0.4,"['Grab instant coffee', 'Boil water in pot']","['Pour instant coffee into mug', 'Grab coffee mug']",Grab coffee mug,1
+3,0.6,"['Grab instant coffee', 'Boil water in pot', 'Grab coffee mug']","['Gather sugar and cream', 'Grab instant coffee']",Gather sugar and cream,0
+4,0.8,"['Grab instant coffee', 'Boil water in pot', 'Grab coffee mug', 'Gather sugar and cream']","['Pour instant coffee into mug', 'Grab instant coffee']",Pour instant coffee into mug,0
+0,0.0,[],"['add filter to coffee machine', 'select beans you wish to brew from']",select beans you wish to brew from,1
+1,0.2,['select beans you wish to brew from'],"['turn on machine', 'if unground, grind beans in grinder']","if unground, grind beans in grinder",1
+2,0.4,"['select beans you wish to brew from', 'if unground, grind beans in grinder']","['add filter to coffee machine', 'turn on machine']",add filter to coffee machine,0
+3,0.6,"['select beans you wish to brew from', 'if unground, grind beans in grinder', 'add filter to coffee machine']","['place grounds in filter', 'select beans you wish to brew from']",place grounds in filter,0
+4,0.8,"['select beans you wish to brew from', 'if unground, grind beans in grinder', 'add filter to coffee machine', 'place grounds in filter']","['select beans you wish to brew from', 'turn on machine']",turn on machine,1
+0,0.0,[],"['Go to cabinet', 'Go to cabinet']",Go to cabinet,1
+1,0.2,['Go to cabinet'],"['Get coffee out', 'scoop out some']",Get coffee out,0
+2,0.4,"['Go to cabinet', 'Get coffee out']","['put it in the maker', 'Open coffee']",Open coffee,1
+3,0.6,"['Go to cabinet', 'Get coffee out', 'Open coffee']","['Go to cabinet', 'scoop out some']",scoop out some,1
+4,0.8,"['Go to cabinet', 'Get coffee out', 'Open coffee', 'scoop out some']","['Get coffee out', 'put it in the maker']",put it in the maker,1
+0,0.0,[],"['put coffee beans in machine', 'get coffee']",put coffee beans in machine,0
+1,0.2,['put coffee beans in machine'],"['put coffee beans in machine', 'add water']",add water,1
+2,0.4,"['put coffee beans in machine', 'add water']","['get coffee', 'put on machine']",put on machine,1
+3,0.6,"['put coffee beans in machine', 'add water', 'put on machine']","['grab mug', 'put coffee beans in machine']",grab mug,0
+4,0.8,"['put coffee beans in machine', 'add water', 'put on machine', 'grab mug']","['get coffee', 'put coffee beans in machine']",get coffee,0
+0,0.0,[],"['Put water in pot.', 'Add coffee grinds.']",Put water in pot.,0
+1,0.2,['Put water in pot.'],"['Add coffee grinds.', 'Pour in top of coffee maker.']",Pour in top of coffee maker.,1
+2,0.4,"['Put water in pot.', 'Pour in top of coffee maker.']","['Put new filter in.', 'Put filter holder into maker.']",Put new filter in.,0
+3,0.6,"['Put water in pot.', 'Pour in top of coffee maker.', 'Put new filter in.']","['Add coffee grinds.', 'Put water in pot.']",Add coffee grinds.,0
+4,0.8,"['Put water in pot.', 'Pour in top of coffee maker.', 'Put new filter in.', 'Add coffee grinds.']","['Pour in top of coffee maker.', 'Put filter holder into maker.']",Put filter holder into maker.,1
+0,0.0,[],"['Rinse the carafe', 'Rinse the carafe']",Rinse the carafe,0
+1,0.2,['Rinse the carafe'],"['get the coffee out of the pantry', 'open the container']",get the coffee out of the pantry,0
+2,0.4,"['Rinse the carafe', 'get the coffee out of the pantry']","['get the filter', 'open the container']",get the filter,0
+3,0.6,"['Rinse the carafe', 'get the coffee out of the pantry', 'get the filter']","['place the filter in the basket', 'Rinse the carafe']",place the filter in the basket,0
+4,0.8,"['Rinse the carafe', 'get the coffee out of the pantry', 'get the filter', 'place the filter in the basket']","['open the container', 'get the coffee out of the pantry']",open the container,0
+0,0.0,[],"['Grind coffee beans', 'Filter boiling water through beans']",Grind coffee beans,0
+1,0.2,['Grind coffee beans'],"['Measure coffee and place it in filter', 'Filter boiling water through beans']",Measure coffee and place it in filter,0
+2,0.4,"['Grind coffee beans', 'Measure coffee and place it in filter']","['Pour coffee into a mug.', 'Fill brewer with water']",Fill brewer with water,1
+3,0.6,"['Grind coffee beans', 'Measure coffee and place it in filter', 'Fill brewer with water']","['Grind coffee beans', 'Filter boiling water through beans']",Filter boiling water through beans,1
+4,0.8,"['Grind coffee beans', 'Measure coffee and place it in filter', 'Fill brewer with water', 'Filter boiling water through beans']","['Pour coffee into a mug.', 'Grind coffee beans']",Pour coffee into a mug.,0
+0,0.0,[],"['Get coffee bag', 'Grind coffee beans']",Get coffee bag,0
+1,0.2,['Get coffee bag'],"['Grind coffee beans', 'Measure out coffee beans and put in grinder']",Measure out coffee beans and put in grinder,1
+2,0.4,"['Get coffee bag', 'Measure out coffee beans and put in grinder']","['Grind coffee beans', 'Pour ground coffee into coffee basket']",Grind coffee beans,0
+3,0.6,"['Get coffee bag', 'Measure out coffee beans and put in grinder', 'Grind coffee beans']","['Put filter paper in machine', 'Get coffee bag']",Put filter paper in machine,0
+4,0.8,"['Get coffee bag', 'Measure out coffee beans and put in grinder', 'Grind coffee beans', 'Put filter paper in machine']","['Measure out coffee beans and put in grinder', 'Pour ground coffee into coffee basket']",Pour ground coffee into coffee basket,1
+0,0.0,[],"['Fill kettle', 'Get French press']",Get French press,1
+1,0.2,['Get French press'],"['Get coffee', 'Boil water']",Get coffee,0
+2,0.4,"['Get French press', 'Get coffee']","['Put coffee in press', 'Fill kettle']",Fill kettle,1
+3,0.6,"['Get French press', 'Get coffee', 'Fill kettle']","['Boil water', 'Get French press']",Boil water,0
+4,0.8,"['Get French press', 'Get coffee', 'Fill kettle', 'Boil water']","['Put coffee in press', 'Get coffee']",Put coffee in press,0
+0,0.0,[],"['Get coffee grounds', 'Get water']",Get coffee grounds,0
+1,0.2,['Get coffee grounds'],"['Fill coffee pot with water.', 'Get water']",Get water,1
+2,0.4,"['Get coffee grounds', 'Get water']","['Start coffee pot.', 'Fill coffee pot with coffee grounds']",Fill coffee pot with coffee grounds,1
+3,0.6,"['Get coffee grounds', 'Get water', 'Fill coffee pot with coffee grounds']","['Get coffee grounds', 'Fill coffee pot with water.']",Fill coffee pot with water.,1
+4,0.8,"['Get coffee grounds', 'Get water', 'Fill coffee pot with coffee grounds', 'Fill coffee pot with water.']","['Start coffee pot.', 'Get water']",Start coffee pot.,0
+0,0.0,[],"['Open fridge', 'Open fridge']",Open fridge,1
+1,0.2,['Open fridge'],"['Take out coffee', 'Open fridge']",Take out coffee,0
+2,0.4,"['Open fridge', 'Take out coffee']","['Turn on machine', 'Fill coffee machine with water']",Fill coffee machine with water,1
+3,0.6,"['Open fridge', 'Take out coffee', 'Fill coffee machine with water']","['Fill coffee filter with fresh coffee', 'Open fridge']",Fill coffee filter with fresh coffee,0
+4,0.8,"['Open fridge', 'Take out coffee', 'Fill coffee machine with water', 'Fill coffee filter with fresh coffee']","['Open fridge', 'Turn on machine']",Turn on machine,1
+0,0.0,[],"['Put coffee beans in cup', 'Put coffee beans in cup']",Put coffee beans in cup,1
+1,0.2,['Put coffee beans in cup'],"['Pour in some milk', 'Put coffee beans in cup']",Pour in some milk,0
+2,0.4,"['Put coffee beans in cup', 'Pour in some milk']","['Add some sugar', 'Pour in hot water']",Add some sugar,0
+3,0.6,"['Put coffee beans in cup', 'Pour in some milk', 'Add some sugar']","['Put coffee beans in cup', 'Add some cream']",Add some cream,1
+4,0.8,"['Put coffee beans in cup', 'Pour in some milk', 'Add some sugar', 'Add some cream']","['Put coffee beans in cup', 'Pour in hot water']",Pour in hot water,1
+0,0.0,[],"['Taking out coffee beans', 'Grinding beans']",Taking out coffee beans,0
+1,0.2,['Taking out coffee beans'],"['Heating up water', 'Putting beans into grinder']",Putting beans into grinder,1
+2,0.4,"['Taking out coffee beans', 'Putting beans into grinder']","['Heating up water', 'Grinding beans']",Grinding beans,1
+3,0.6,"['Taking out coffee beans', 'Putting beans into grinder', 'Grinding beans']","['Putting water on stove', 'Taking out coffee beans']",Putting water on stove,0
+4,0.8,"['Taking out coffee beans', 'Putting beans into grinder', 'Grinding beans', 'Putting water on stove']","['Taking out coffee beans', 'Heating up water']",Heating up water,1
+0,0.0,[],"['Put water on stove', 'Grind beans']",Put water on stove,0
+1,0.2,['Put water on stove'],"['Measure coffee beans', 'Measure coffee beans']",Measure coffee beans,1
+2,0.4,"['Put water on stove', 'Measure coffee beans']","['Get mug and aeropress', 'Put beans in grinder']",Put beans in grinder,1
+3,0.6,"['Put water on stove', 'Measure coffee beans', 'Put beans in grinder']","['Put water on stove', 'Grind beans']",Grind beans,1
+4,0.8,"['Put water on stove', 'Measure coffee beans', 'Put beans in grinder', 'Grind beans']","['Measure coffee beans', 'Get mug and aeropress']",Get mug and aeropress,1
+0,0.0,[],"['Fill carafe with water', 'Pour into coffee pot']",Fill carafe with water,0
+1,0.2,['Fill carafe with water'],"['Pour into coffee pot', 'Add proper amount of coffee']",Pour into coffee pot,0
+2,0.4,"['Fill carafe with water', 'Pour into coffee pot']","['Add a coffee filter', 'Turn coffee pot on']",Add a coffee filter,0
+3,0.6,"['Fill carafe with water', 'Pour into coffee pot', 'Add a coffee filter']","['Add proper amount of coffee', 'Fill carafe with water']",Add proper amount of coffee,0
+4,0.8,"['Fill carafe with water', 'Pour into coffee pot', 'Add a coffee filter', 'Add proper amount of coffee']","['Fill carafe with water', 'Turn coffee pot on']",Turn coffee pot on,1
+0,0.0,[],"['Put coffee filter in coffee maker.', 'Put coffee filter in coffee maker.']",Put coffee filter in coffee maker.,0
+1,0.2,['Put coffee filter in coffee maker.'],"['Put coffee filter in coffee maker.', 'Fill with coffee grounds']",Fill with coffee grounds,1
+2,0.4,"['Put coffee filter in coffee maker.', 'Fill with coffee grounds']","['Make sure the maker has enough water.', 'Watch coffee drip into pot']",Make sure the maker has enough water.,0
+3,0.6,"['Put coffee filter in coffee maker.', 'Fill with coffee grounds', 'Make sure the maker has enough water.']","['Turn on coffee maker', 'Put coffee filter in coffee maker.']",Turn on coffee maker,0
+4,0.8,"['Put coffee filter in coffee maker.', 'Fill with coffee grounds', 'Make sure the maker has enough water.', 'Turn on coffee maker']","['Watch coffee drip into pot', 'Fill with coffee grounds']",Watch coffee drip into pot,0
+0,0.0,[],"['Remove coffee pot from maker', 'pour water into coffee maker']",Remove coffee pot from maker,0
+1,0.2,['Remove coffee pot from maker'],"['Fill pot with water', 'Fill pot with water']",Fill pot with water,0
+2,0.4,"['Remove coffee pot from maker', 'Fill pot with water']","['fill filter with desired amount of coffee', 'pour water into coffee maker']",pour water into coffee maker,1
+3,0.6,"['Remove coffee pot from maker', 'Fill pot with water', 'pour water into coffee maker']","['Remove coffee pot from maker', 'pull out 1 coffee filter and place it into the maker']",pull out 1 coffee filter and place it into the maker,1
+4,0.8,"['Remove coffee pot from maker', 'Fill pot with water', 'pour water into coffee maker', 'pull out 1 coffee filter and place it into the maker']","['Remove coffee pot from maker', 'fill filter with desired amount of coffee']",fill filter with desired amount of coffee,1
+0,0.0,[],"['Fill carafe with water', 'Get coffee out of cupboard']",Get coffee out of cupboard,1
+1,0.2,['Get coffee out of cupboard'],"['Pour water into coffee maker', 'Add coffee grounds to coffee maker']",Add coffee grounds to coffee maker,1
+2,0.4,"['Get coffee out of cupboard', 'Add coffee grounds to coffee maker']","['Turn coffee maker on', 'Fill carafe with water']",Fill carafe with water,1
+3,0.6,"['Get coffee out of cupboard', 'Add coffee grounds to coffee maker', 'Fill carafe with water']","['Pour water into coffee maker', 'Get coffee out of cupboard']",Pour water into coffee maker,0
+4,0.8,"['Get coffee out of cupboard', 'Add coffee grounds to coffee maker', 'Fill carafe with water', 'Pour water into coffee maker']","['Add coffee grounds to coffee maker', 'Turn coffee maker on']",Turn coffee maker on,1
+0,0.0,[],"['brew coffee', 'brew coffee']",brew coffee,1
+1,0.2,['brew coffee'],"['put a pot on', 'put a pot on']",put a pot on,0
+2,0.4,"['brew coffee', 'put a pot on']","['make a pot of coffee', 'grind some beans']",make a pot of coffee,0
+3,0.6,"['brew coffee', 'put a pot on', 'make a pot of coffee']","['brew coffee', 'brew a pot of coffee']",brew a pot of coffee,1
+4,0.8,"['brew coffee', 'put a pot on', 'make a pot of coffee', 'brew a pot of coffee']","['grind some beans', 'brew coffee']",grind some beans,0
+0,0.0,[],"['Open coffeemaker.', 'Open coffeemaker.']",Open coffeemaker.,1
+1,0.2,['Open coffeemaker.'],"['Put filter in basket.', 'Put filter in basket.']",Put filter in basket.,1
+2,0.4,"['Open coffeemaker.', 'Put filter in basket.']","['Get pitcher.', 'Get out coffee.']",Get out coffee.,1
+3,0.6,"['Open coffeemaker.', 'Put filter in basket.', 'Get out coffee.']","['Open coffeemaker.', 'Measure coffee into basket.']",Measure coffee into basket.,1
+4,0.8,"['Open coffeemaker.', 'Put filter in basket.', 'Get out coffee.', 'Measure coffee into basket.']","['Put filter in basket.', 'Get pitcher.']",Get pitcher.,1
+0,0.0,[],"['put new filter in coffee maker', 'put new filter in coffee maker']",put new filter in coffee maker,1
+1,0.2,['put new filter in coffee maker'],"['put coffee into filter', 'put coffee into filter']",put coffee into filter,0
+2,0.4,"['put new filter in coffee maker', 'put coffee into filter']","['put water into machine', 'wait for coffee to drip']",put water into machine,0
+3,0.6,"['put new filter in coffee maker', 'put coffee into filter', 'put water into machine']","['turn machine on', 'put new filter in coffee maker']",turn machine on,0
+4,0.8,"['put new filter in coffee maker', 'put coffee into filter', 'put water into machine', 'turn machine on']","['put coffee into filter', 'wait for coffee to drip']",wait for coffee to drip,1
+0,0.0,[],"['clean out pot', 'fill pot with water']",clean out pot,0
+1,0.2,['clean out pot'],"['place coffee in in filter', 'fill pot with water']",place coffee in in filter,0
+2,0.4,"['clean out pot', 'place coffee in in filter']","['place pot under coffee maker', 'fill pot with water']",fill pot with water,1
+3,0.6,"['clean out pot', 'place coffee in in filter', 'fill pot with water']","['fill coffee maker with that water in pot', 'clean out pot']",fill coffee maker with that water in pot,0
+4,0.8,"['clean out pot', 'place coffee in in filter', 'fill pot with water', 'fill coffee maker with that water in pot']","['place pot under coffee maker', 'place coffee in in filter']",place pot under coffee maker,0
+0,0.0,[],"['Fill it with water', 'Go to the kitchen']",Go to the kitchen,1
+1,0.2,['Go to the kitchen'],"['Pour in the coffee', 'Plug in the coffee maker']",Plug in the coffee maker,1
+2,0.4,"['Go to the kitchen', 'Plug in the coffee maker']","['Fill it with water', 'Pour in the coffee']",Fill it with water,0
+3,0.6,"['Go to the kitchen', 'Plug in the coffee maker', 'Fill it with water']","['Go to the kitchen', 'Get a coffee filter']",Get a coffee filter,1
+4,0.8,"['Go to the kitchen', 'Plug in the coffee maker', 'Fill it with water', 'Get a coffee filter']","['Pour in the coffee', 'Go to the kitchen']",Pour in the coffee,0
+0,0.0,[],"['Allow coffee maker to drip into pot', 'Open coffee grounds']",Open coffee grounds,1
+1,0.2,['Open coffee grounds'],"['Allow coffee maker to drip into pot', 'Fill up coffee filter with grounds']",Fill up coffee filter with grounds,1
+2,0.4,"['Open coffee grounds', 'Fill up coffee filter with grounds']","['Allow coffee maker to drip into pot', 'Place filter inside coffee maker']",Place filter inside coffee maker,1
+3,0.6,"['Open coffee grounds', 'Fill up coffee filter with grounds', 'Place filter inside coffee maker']","['Open coffee grounds', 'Hit start']",Hit start,1
+4,0.8,"['Open coffee grounds', 'Fill up coffee filter with grounds', 'Place filter inside coffee maker', 'Hit start']","['Allow coffee maker to drip into pot', 'Fill up coffee filter with grounds']",Allow coffee maker to drip into pot,0
+0,0.0,[],"['Wait for coffee to brew', 'Add water to coffee maker']",Add water to coffee maker,1
+1,0.2,['Add water to coffee maker'],"['Put in coffee filter', 'Add coffee grounds to filter']",Put in coffee filter,0
+2,0.4,"['Add water to coffee maker', 'Put in coffee filter']","['Wait for coffee to brew', 'Add coffee grounds to filter']",Add coffee grounds to filter,1
+3,0.6,"['Add water to coffee maker', 'Put in coffee filter', 'Add coffee grounds to filter']","['Add water to coffee maker', 'Turn on']",Turn on,1
+4,0.8,"['Add water to coffee maker', 'Put in coffee filter', 'Add coffee grounds to filter', 'Turn on']","['Wait for coffee to brew', 'Put in coffee filter']",Wait for coffee to brew,0
+0,0.0,[],"['get coffee beans', 'get water']",get coffee beans,0
+1,0.2,['get coffee beans'],"['turn on coffee pot', 'get water']",turn on coffee pot,0
+2,0.4,"['get coffee beans', 'turn on coffee pot']","['get water', 'grind coffee beans']",get water,0
+3,0.6,"['get coffee beans', 'turn on coffee pot', 'get water']","['pour water in coffee pot', 'get coffee beans']",pour water in coffee pot,0
+4,0.8,"['get coffee beans', 'turn on coffee pot', 'get water', 'pour water in coffee pot']","['get coffee beans', 'grind coffee beans']",grind coffee beans,1
+0,0.0,[],"['add water to the coffee pot', 'insert the filter']",add water to the coffee pot,0
+1,0.2,['add water to the coffee pot'],"['insert the filter', 'insert the filter']",insert the filter,0
+2,0.4,"['add water to the coffee pot', 'insert the filter']","['choose settings', 'measure the amount of coffee']",measure the amount of coffee,1
+3,0.6,"['add water to the coffee pot', 'insert the filter', 'measure the amount of coffee']","['add water to the coffee pot', 'add the coffee inside the filter']",add the coffee inside the filter,1
+4,0.8,"['add water to the coffee pot', 'insert the filter', 'measure the amount of coffee', 'add the coffee inside the filter']","['insert the filter', 'choose settings']",choose settings,1
+0,0.0,[],"['PUT INSTANT COFFEE IN A MUG', 'PUT INSTANT COFFEE IN A MUG']",PUT INSTANT COFFEE IN A MUG,1
+1,0.2,['PUT INSTANT COFFEE IN A MUG'],"['BOIL THE KETTLE', 'PUT WATER IN THE KETTLE']",PUT WATER IN THE KETTLE,1
+2,0.4,"['PUT INSTANT COFFEE IN A MUG', 'PUT WATER IN THE KETTLE']","['BOIL THE KETTLE', 'WHEN THE KETTLE IS BOILED, ADD WATER TO MUG']",BOIL THE KETTLE,0
+3,0.6,"['PUT INSTANT COFFEE IN A MUG', 'PUT WATER IN THE KETTLE', 'BOIL THE KETTLE']","['PUT INSTANT COFFEE IN A MUG', 'ADD SOME SUGAR TO THE COFFEE']",ADD SOME SUGAR TO THE COFFEE,1
+4,0.8,"['PUT INSTANT COFFEE IN A MUG', 'PUT WATER IN THE KETTLE', 'BOIL THE KETTLE', 'ADD SOME SUGAR TO THE COFFEE']","['PUT WATER IN THE KETTLE', 'WHEN THE KETTLE IS BOILED, ADD WATER TO MUG']","WHEN THE KETTLE IS BOILED, ADD WATER TO MUG",1
+0,0.0,[],"['Put coffee into the machine', 'Add cream and sugar.']",Put coffee into the machine,0
+1,0.2,['Put coffee into the machine'],"['Pour coffee into a cup', 'Fill the water compartment with water']",Fill the water compartment with water,1
+2,0.4,"['Put coffee into the machine', 'Fill the water compartment with water']","['Add cream and sugar.', 'Brew the coffee']",Brew the coffee,1
+3,0.6,"['Put coffee into the machine', 'Fill the water compartment with water', 'Brew the coffee']","['Put coffee into the machine', 'Pour coffee into a cup']",Pour coffee into a cup,1
+4,0.8,"['Put coffee into the machine', 'Fill the water compartment with water', 'Brew the coffee', 'Pour coffee into a cup']","['Add cream and sugar.', 'Put coffee into the machine']",Add cream and sugar.,0
+0,0.0,[],"['Get coffee out', 'Get coffee out']",Get coffee out,0
+1,0.2,['Get coffee out'],"['Put coffee filter in coffee maker', 'Pull coffee make near sink']",Pull coffee make near sink,1
+2,0.4,"['Get coffee out', 'Pull coffee make near sink']","['Fill coffee maker with water', 'Add measured amount of coffee']",Fill coffee maker with water,0
+3,0.6,"['Get coffee out', 'Pull coffee make near sink', 'Fill coffee maker with water']","['Get coffee out', 'Put coffee filter in coffee maker']",Put coffee filter in coffee maker,1
+4,0.8,"['Get coffee out', 'Pull coffee make near sink', 'Fill coffee maker with water', 'Put coffee filter in coffee maker']","['Get coffee out', 'Add measured amount of coffee']",Add measured amount of coffee,1
+0,0.0,[],"['Take out fresh coffee grounds and a filter.', 'Add fresh coffee grounds into the filter.']",Take out fresh coffee grounds and a filter.,0
+1,0.2,['Take out fresh coffee grounds and a filter.'],"['Take out fresh coffee grounds and a filter.', 'Put the filter into the basket of the coffee maker.']",Put the filter into the basket of the coffee maker.,1
+2,0.4,"['Take out fresh coffee grounds and a filter.', 'Put the filter into the basket of the coffee maker.']","[""Add the desired amount of water to the coffee maker's water chamber."", 'Add fresh coffee grounds into the filter.']",Add fresh coffee grounds into the filter.,1
+3,0.6,"['Take out fresh coffee grounds and a filter.', 'Put the filter into the basket of the coffee maker.', 'Add fresh coffee grounds into the filter.']","['Take out fresh coffee grounds and a filter.', 'Close the basket compartment.']",Close the basket compartment.,1
+4,0.8,"['Take out fresh coffee grounds and a filter.', 'Put the filter into the basket of the coffee maker.', 'Add fresh coffee grounds into the filter.', 'Close the basket compartment.']","[""Add the desired amount of water to the coffee maker's water chamber."", 'Take out fresh coffee grounds and a filter.']",Add the desired amount of water to the coffee maker's water chamber.,0
+0,0.0,[],"['Shut the top over the K cup', 'Turn on the Keurig coffee machine']",Turn on the Keurig coffee machine,1
+1,0.2,['Turn on the Keurig coffee machine'],"['Turn on the Keurig coffee machine', 'Fill the machine with water']",Fill the machine with water,1
+2,0.4,"['Turn on the Keurig coffee machine', 'Fill the machine with water']","['Chose the cup size', 'Put the K cup inside the machine']",Put the K cup inside the machine,1
+3,0.6,"['Turn on the Keurig coffee machine', 'Fill the machine with water', 'Put the K cup inside the machine']","['Turn on the Keurig coffee machine', 'Shut the top over the K cup']",Shut the top over the K cup,1
+4,0.8,"['Turn on the Keurig coffee machine', 'Fill the machine with water', 'Put the K cup inside the machine', 'Shut the top over the K cup']","['Turn on the Keurig coffee machine', 'Chose the cup size']",Chose the cup size,1
+0,0.0,[],"['place coffee filter in coffee dispenser', 'dump old coffee']",dump old coffee,1
+1,0.2,['dump old coffee'],"['place coffee on coffee filter', 'fill water dispenser with water']",fill water dispenser with water,1
+2,0.4,"['dump old coffee', 'fill water dispenser with water']","['turn on coffee pot', 'place coffee filter in coffee dispenser']",place coffee filter in coffee dispenser,1
+3,0.6,"['dump old coffee', 'fill water dispenser with water', 'place coffee filter in coffee dispenser']","['dump old coffee', 'place coffee on coffee filter']",place coffee on coffee filter,1
+4,0.8,"['dump old coffee', 'fill water dispenser with water', 'place coffee filter in coffee dispenser', 'place coffee on coffee filter']","['turn on coffee pot', 'fill water dispenser with water']",turn on coffee pot,0
+0,0.0,[],"['Place desired amount of ground coffee in coffee filter', 'Get coffee filter']",Get coffee filter,1
+1,0.2,['Get coffee filter'],"['Place coffee filter in coffee maker', 'Fill receptacle with desired amount of water']",Place coffee filter in coffee maker,0
+2,0.4,"['Get coffee filter', 'Place coffee filter in coffee maker']","['Close top of coffee maker', 'Fill receptacle with desired amount of water']",Fill receptacle with desired amount of water,1
+3,0.6,"['Get coffee filter', 'Place coffee filter in coffee maker', 'Fill receptacle with desired amount of water']","['Get coffee filter', 'Place desired amount of ground coffee in coffee filter']",Place desired amount of ground coffee in coffee filter,1
+4,0.8,"['Get coffee filter', 'Place coffee filter in coffee maker', 'Fill receptacle with desired amount of water', 'Place desired amount of ground coffee in coffee filter']","['Get coffee filter', 'Close top of coffee maker']",Close top of coffee maker,1
+0,0.0,[],"['Put in filter.', 'Get coffee grounds.']",Get coffee grounds.,1
+1,0.2,['Get coffee grounds.'],"['Get a coffee filter.', 'Get coffee grounds.']",Get a coffee filter.,0
+2,0.4,"['Get coffee grounds.', 'Get a coffee filter.']","['Scoop coffee and put in filter.', 'Open coffee maker.']",Open coffee maker.,1
+3,0.6,"['Get coffee grounds.', 'Get a coffee filter.', 'Open coffee maker.']","['Get coffee grounds.', 'Put in filter.']",Put in filter.,1
+4,0.8,"['Get coffee grounds.', 'Get a coffee filter.', 'Open coffee maker.', 'Put in filter.']","['Get coffee grounds.', 'Scoop coffee and put in filter.']",Scoop coffee and put in filter.,1
+0,0.0,[],"['Put filter into coffee maker', 'Put filter into coffee maker']",Put filter into coffee maker,1
+1,0.2,['Put filter into coffee maker'],"['Grind beans in coffee grinder', 'Grind beans in coffee grinder']",Grind beans in coffee grinder,1
+2,0.4,"['Put filter into coffee maker', 'Grind beans in coffee grinder']","['Put grounds into filter', 'Pour water into reservoir of coffee maker']",Put grounds into filter,0
+3,0.6,"['Put filter into coffee maker', 'Grind beans in coffee grinder', 'Put grounds into filter']","['Put filter into coffee maker', 'Fill up pot with water']",Fill up pot with water,1
+4,0.8,"['Put filter into coffee maker', 'Grind beans in coffee grinder', 'Put grounds into filter', 'Fill up pot with water']","['Pour water into reservoir of coffee maker', 'Put filter into coffee maker']",Pour water into reservoir of coffee maker,0
+0,0.0,[],"['Place water in the coffee maker.', 'Measure coffee.']",Place water in the coffee maker.,0
+1,0.2,['Place water in the coffee maker.'],"['Change the filter.', 'Change the filter.']",Change the filter.,0
+2,0.4,"['Place water in the coffee maker.', 'Change the filter.']","['Measure coffee.', 'Start machine.']",Measure coffee.,0
+3,0.6,"['Place water in the coffee maker.', 'Change the filter.', 'Measure coffee.']","['Put coffee in the new filter.', 'Place water in the coffee maker.']",Put coffee in the new filter.,0
+4,0.8,"['Place water in the coffee maker.', 'Change the filter.', 'Measure coffee.', 'Put coffee in the new filter.']","['Change the filter.', 'Start machine.']",Start machine.,1
+0,0.0,[],"['put filter in coffee machine', 'open coffee bag']",open coffee bag,1
+1,0.2,['open coffee bag'],"['open top of coffee machine', 'place desired amount of coffee grounds into cone']",open top of coffee machine,0
+2,0.4,"['open coffee bag', 'open top of coffee machine']","['close the cone', 'put filter in coffee machine']",put filter in coffee machine,1
+3,0.6,"['open coffee bag', 'open top of coffee machine', 'put filter in coffee machine']","['place desired amount of coffee grounds into cone', 'open coffee bag']",place desired amount of coffee grounds into cone,0
+4,0.8,"['open coffee bag', 'open top of coffee machine', 'put filter in coffee machine', 'place desired amount of coffee grounds into cone']","['close the cone', 'open coffee bag']",close the cone,0
+0,0.0,[],"['Place filter in coffee maker basket', 'Get out coffee and filters']",Get out coffee and filters,1
+1,0.2,['Get out coffee and filters'],"['Place filter in coffee maker basket', 'Open coffee maker basket']",Open coffee maker basket,1
+2,0.4,"['Get out coffee and filters', 'Open coffee maker basket']","['Close coffee maker basket', 'Place filter in coffee maker basket']",Place filter in coffee maker basket,1
+3,0.6,"['Get out coffee and filters', 'Open coffee maker basket', 'Place filter in coffee maker basket']","['Measure out coffee into basket', 'Get out coffee and filters']",Measure out coffee into basket,0
+4,0.8,"['Get out coffee and filters', 'Open coffee maker basket', 'Place filter in coffee maker basket', 'Measure out coffee into basket']","['Get out coffee and filters', 'Close coffee maker basket']",Close coffee maker basket,1
+0,0.0,[],"['Pour milk into the bowl', 'Get milk']",Get milk,1
+1,0.2,['Get milk'],"['Pour milk into the bowl', 'Get coffee powder']",Get coffee powder,1
+2,0.4,"['Get milk', 'Get coffee powder']","['Pour milk into the bowl', 'Ignite the stove']",Pour milk into the bowl,0
+3,0.6,"['Get milk', 'Get coffee powder', 'Pour milk into the bowl']","['Place the bowl in stove', 'Get milk']",Place the bowl in stove,0
+4,0.8,"['Get milk', 'Get coffee powder', 'Pour milk into the bowl', 'Place the bowl in stove']","['Ignite the stove', 'Get milk']",Ignite the stove,0
+0,0.0,[],"['Get large cup and fill with water.', 'Open coffee maker lid.']",Open coffee maker lid.,1
+1,0.2,['Open coffee maker lid.'],"['Get large cup and fill with water.', 'Pour water into coffee maker tank.']",Get large cup and fill with water.,0
+2,0.4,"['Open coffee maker lid.', 'Get large cup and fill with water.']","['Get coffee can.', 'Pour water into coffee maker tank.']",Pour water into coffee maker tank.,1
+3,0.6,"['Open coffee maker lid.', 'Get large cup and fill with water.', 'Pour water into coffee maker tank.']","['Open coffee maker lid.', 'Get coffee filter and put into basket inside coffee maker.']",Get coffee filter and put into basket inside coffee maker.,1
+4,0.8,"['Open coffee maker lid.', 'Get large cup and fill with water.', 'Pour water into coffee maker tank.', 'Get coffee filter and put into basket inside coffee maker.']","['Open coffee maker lid.', 'Get coffee can.']",Get coffee can.,1
+0,0.0,[],"['Turn the pot on', 'Add water to coffee pot']",Add water to coffee pot,1
+1,0.2,['Add water to coffee pot'],"['Put coffee bag on top', 'Put coffee bag on top']",Put coffee bag on top,1
+2,0.4,"['Add water to coffee pot', 'Put coffee bag on top']","['Turn the pot on', 'Put coffee in cup']",Turn the pot on,0
+3,0.6,"['Add water to coffee pot', 'Put coffee bag on top', 'Turn the pot on']","['Wait for the water to finish', 'Add water to coffee pot']",Wait for the water to finish,0
+4,0.8,"['Add water to coffee pot', 'Put coffee bag on top', 'Turn the pot on', 'Wait for the water to finish']","['Put coffee in cup', 'Put coffee bag on top']",Put coffee in cup,0
+0,0.0,[],"['turn coffee machine on', 'put water into machine jar']",turn coffee machine on,0
+1,0.2,['turn coffee machine on'],"['put coffee ground into machine', 'choose desired coffee']",choose desired coffee,1
+2,0.4,"['turn coffee machine on', 'choose desired coffee']","['put coffee ground into machine', 'let machine do its cycle']",put coffee ground into machine,0
+3,0.6,"['turn coffee machine on', 'choose desired coffee', 'put coffee ground into machine']","['turn coffee machine on', 'put water into machine jar']",put water into machine jar,1
+4,0.8,"['turn coffee machine on', 'choose desired coffee', 'put coffee ground into machine', 'put water into machine jar']","['turn coffee machine on', 'let machine do its cycle']",let machine do its cycle,1
+0,0.0,[],"['Turn coffee maker on.', 'Put filter into coffee maker.']",Put filter into coffee maker.,1
+1,0.2,['Put filter into coffee maker.'],"['Measure coffee and put into filter.', 'Turn coffee maker on.']",Measure coffee and put into filter.,0
+2,0.4,"['Put filter into coffee maker.', 'Measure coffee and put into filter.']","['Turn coffee maker on.', 'Measure water and set into coffee maker.']",Measure water and set into coffee maker.,1
+3,0.6,"['Put filter into coffee maker.', 'Measure coffee and put into filter.', 'Measure water and set into coffee maker.']","['Put coffee pot in drip location.', 'Put filter into coffee maker.']",Put coffee pot in drip location.,0
+4,0.8,"['Put filter into coffee maker.', 'Measure coffee and put into filter.', 'Measure water and set into coffee maker.', 'Put coffee pot in drip location.']","['Put filter into coffee maker.', 'Turn coffee maker on.']",Turn coffee maker on.,1
+0,0.0,[],"['Buy preferred brand of coffee', 'Buy preferred brand of coffee']",Buy preferred brand of coffee,0
+1,0.2,['Buy preferred brand of coffee'],"['Put coffee in compartment', 'Open coffee']",Open coffee,1
+2,0.4,"['Buy preferred brand of coffee', 'Open coffee']","['Add water to pot', 'Get coffee pot']",Get coffee pot,1
+3,0.6,"['Buy preferred brand of coffee', 'Open coffee', 'Get coffee pot']","['Put coffee in compartment', 'Buy preferred brand of coffee']",Put coffee in compartment,0
+4,0.8,"['Buy preferred brand of coffee', 'Open coffee', 'Get coffee pot', 'Put coffee in compartment']","['Add water to pot', 'Buy preferred brand of coffee']",Add water to pot,0
+0,0.0,[],"['Fill coffee pitcher with water', 'Get coffee filter']",Get coffee filter,1
+1,0.2,['Get coffee filter'],"['Place coffee filter inside coffee maker', 'Place coffee filter inside coffee maker']",Place coffee filter inside coffee maker,1
+2,0.4,"['Get coffee filter', 'Place coffee filter inside coffee maker']","['Get your favorite coffee', 'Fill coffee pitcher with water']",Get your favorite coffee,0
+3,0.6,"['Get coffee filter', 'Place coffee filter inside coffee maker', 'Get your favorite coffee']","['Get coffee filter', 'Scoop coffee into coffee filter']",Scoop coffee into coffee filter,1
+4,0.8,"['Get coffee filter', 'Place coffee filter inside coffee maker', 'Get your favorite coffee', 'Scoop coffee into coffee filter']","['Place coffee filter inside coffee maker', 'Fill coffee pitcher with water']",Fill coffee pitcher with water,1
+0,0.0,[],"['Take Coffee kettle', 'Wait for water to boil']",Take Coffee kettle,0
+1,0.2,['Take Coffee kettle'],"['Take Coffee kettle', 'Pour some water']",Pour some water,1
+2,0.4,"['Take Coffee kettle', 'Pour some water']","['Wait for water to boil', 'Keep kettle on stove']",Keep kettle on stove,1
+3,0.6,"['Take Coffee kettle', 'Pour some water', 'Keep kettle on stove']","['Light the stove', 'Take Coffee kettle']",Light the stove,0
+4,0.8,"['Take Coffee kettle', 'Pour some water', 'Keep kettle on stove', 'Light the stove']","['Pour some water', 'Wait for water to boil']",Wait for water to boil,1
+0,0.0,[],"['ADD COFFEE POWDER', 'TAKE MILK']",TAKE MILK,1
+1,0.2,['TAKE MILK'],"['FILL THE MILK IN SAUCER', 'SWITCH ON THE STOVE']",SWITCH ON THE STOVE,1
+2,0.4,"['TAKE MILK', 'SWITCH ON THE STOVE']","['BOILING THE MILK', 'ADD COFFEE POWDER']",BOILING THE MILK,0
+3,0.6,"['TAKE MILK', 'SWITCH ON THE STOVE', 'BOILING THE MILK']","['FILL THE MILK IN SAUCER', 'TAKE MILK']",FILL THE MILK IN SAUCER,0
+4,0.8,"['TAKE MILK', 'SWITCH ON THE STOVE', 'BOILING THE MILK', 'FILL THE MILK IN SAUCER']","['ADD COFFEE POWDER', 'SWITCH ON THE STOVE']",ADD COFFEE POWDER,0
+0,0.0,[],"['Plug in coffee maker', 'Add water']",Plug in coffee maker,0
+1,0.2,['Plug in coffee maker'],"['Push buttons on machine', 'Add coffee beans']",Add coffee beans,1
+2,0.4,"['Plug in coffee maker', 'Add coffee beans']","['Wait for it to make coffee', 'Add water']",Add water,1
+3,0.6,"['Plug in coffee maker', 'Add coffee beans', 'Add water']","['Plug in coffee maker', 'Push buttons on machine']",Push buttons on machine,1
+4,0.8,"['Plug in coffee maker', 'Add coffee beans', 'Add water', 'Push buttons on machine']","['Add coffee beans', 'Wait for it to make coffee']",Wait for it to make coffee,1
+0,0.0,[],"['Add water to coffee maker reservoir', 'Get coffee grounds and coffee maker (and filter if necessary)']",Get coffee grounds and coffee maker (and filter if necessary),1
+1,0.2,['Get coffee grounds and coffee maker (and filter if necessary)'],"['Add coffee grounds (and filter, depending on type of coffee maker) to basket', 'Plug in coffee maker']",Plug in coffee maker,1
+2,0.4,"['Get coffee grounds and coffee maker (and filter if necessary)', 'Plug in coffee maker']","['Place basket in coffee maker', 'Add water to coffee maker reservoir']",Add water to coffee maker reservoir,1
+3,0.6,"['Get coffee grounds and coffee maker (and filter if necessary)', 'Plug in coffee maker', 'Add water to coffee maker reservoir']","['Add coffee grounds (and filter, depending on type of coffee maker) to basket', 'Get coffee grounds and coffee maker (and filter if necessary)']","Add coffee grounds (and filter, depending on type of coffee maker) to basket",0
+4,0.8,"['Get coffee grounds and coffee maker (and filter if necessary)', 'Plug in coffee maker', 'Add water to coffee maker reservoir', 'Add coffee grounds (and filter, depending on type of coffee maker) to basket']","['Plug in coffee maker', 'Place basket in coffee maker']",Place basket in coffee maker,1
+0,0.0,[],"['Place filter in appropriate receptacle', 'Turn on Keurig coffee maker']",Turn on Keurig coffee maker,1
+1,0.2,['Turn on Keurig coffee maker'],"['Remove coffee grounds from freezer', 'Place mug under receptacle']",Remove coffee grounds from freezer,0
+2,0.4,"['Turn on Keurig coffee maker', 'Remove coffee grounds from freezer']","['Fill coffee filter with grounds', 'Place mug under receptacle']",Fill coffee filter with grounds,0
+3,0.6,"['Turn on Keurig coffee maker', 'Remove coffee grounds from freezer', 'Fill coffee filter with grounds']","['Turn on Keurig coffee maker', 'Place filter in appropriate receptacle']",Place filter in appropriate receptacle,1
+4,0.8,"['Turn on Keurig coffee maker', 'Remove coffee grounds from freezer', 'Fill coffee filter with grounds', 'Place filter in appropriate receptacle']","['Turn on Keurig coffee maker', 'Place mug under receptacle']",Place mug under receptacle,1
+0,0.0,[],"['Add sugar and milk', 'Boil water in a pan']",Boil water in a pan,1
+1,0.2,['Boil water in a pan'],"['Add coffee powder', 'Add sugar and milk']",Add sugar and milk,1
+2,0.4,"['Boil water in a pan', 'Add sugar and milk']","['Add coffee powder', 'Pour and serve']",Add coffee powder,0
+3,0.6,"['Boil water in a pan', 'Add sugar and milk', 'Add coffee powder']","['Stir the mixture and let it boil', 'Boil water in a pan']",Stir the mixture and let it boil,0
+4,0.8,"['Boil water in a pan', 'Add sugar and milk', 'Add coffee powder', 'Stir the mixture and let it boil']","['Boil water in a pan', 'Pour and serve']",Pour and serve,1
+0,0.0,[],"['Make fire', 'Take the milk']",Make fire,0
+1,0.2,['Make fire'],"['Take the milk', 'Taste the coffee']",Take the milk,0
+2,0.4,"['Make fire', 'Take the milk']","['Last ready for good filter coffee', 'Adding sugar']",Adding sugar,1
+3,0.6,"['Make fire', 'Take the milk', 'Adding sugar']","['Make fire', 'Taste the coffee']",Taste the coffee,1
+4,0.8,"['Make fire', 'Take the milk', 'Adding sugar', 'Taste the coffee']","['Last ready for good filter coffee', 'Take the milk']",Last ready for good filter coffee,0
+0,0.0,[],"['fill carafe with water and put water into the coffee machine', 'grab coffee filter and place in the machine']",grab coffee filter and place in the machine,1
+1,0.2,['grab coffee filter and place in the machine'],"['measure out coffee grinds', 'turn machine on']",measure out coffee grinds,0
+2,0.4,"['grab coffee filter and place in the machine', 'measure out coffee grinds']","['fill carafe with water and put water into the coffee machine', 'turn machine on']",fill carafe with water and put water into the coffee machine,0
+3,0.6,"['grab coffee filter and place in the machine', 'measure out coffee grinds', 'fill carafe with water and put water into the coffee machine']","['put coffee carafe back in position', 'grab coffee filter and place in the machine']",put coffee carafe back in position,0
+4,0.8,"['grab coffee filter and place in the machine', 'measure out coffee grinds', 'fill carafe with water and put water into the coffee machine', 'put coffee carafe back in position']","['turn machine on', 'measure out coffee grinds']",turn machine on,0
+0,0.0,[],"['Close the coffee maker.', 'Measure 4 coffee scoops of whole coffee beans into a grinder.']",Measure 4 coffee scoops of whole coffee beans into a grinder.,1
+1,0.2,['Measure 4 coffee scoops of whole coffee beans into a grinder.'],"['Measure 4 coffee scoops of whole coffee beans into a grinder.', 'Grinder the beans into a fine ground.']",Grinder the beans into a fine ground.,1
+2,0.4,"['Measure 4 coffee scoops of whole coffee beans into a grinder.', 'Grinder the beans into a fine ground.']","['Close the coffee maker.', 'Place a paper filter into the proper location of the coffee maker.']",Place a paper filter into the proper location of the coffee maker.,1
+3,0.6,"['Measure 4 coffee scoops of whole coffee beans into a grinder.', 'Grinder the beans into a fine ground.', 'Place a paper filter into the proper location of the coffee maker.']","['Measure 4 coffee scoops of whole coffee beans into a grinder.', 'Fill the filter with the ground coffee.']",Fill the filter with the ground coffee.,1
+4,0.8,"['Measure 4 coffee scoops of whole coffee beans into a grinder.', 'Grinder the beans into a fine ground.', 'Place a paper filter into the proper location of the coffee maker.', 'Fill the filter with the ground coffee.']","['Grinder the beans into a fine ground.', 'Close the coffee maker.']",Close the coffee maker.,1
+0,0.0,[],"['Open coffee', 'Plug in coffee-maker']",Plug in coffee-maker,1
+1,0.2,['Plug in coffee-maker'],"['Get filter', 'Get filter']",Get filter,0
+2,0.4,"['Plug in coffee-maker', 'Get filter']","['Put coffee in filter', 'Put filter in coffee-maker']",Put filter in coffee-maker,1
+3,0.6,"['Plug in coffee-maker', 'Get filter', 'Put filter in coffee-maker']","['Plug in coffee-maker', 'Open coffee']",Open coffee,1
+4,0.8,"['Plug in coffee-maker', 'Get filter', 'Put filter in coffee-maker', 'Open coffee']","['Put coffee in filter', 'Get filter']",Put coffee in filter,0
+0,0.0,[],"['Get coffee beans', 'Put in coffee maker']",Get coffee beans,0
+1,0.2,['Get coffee beans'],"['Get coffee beans', 'Get coffee filter']",Get coffee filter,1
+2,0.4,"['Get coffee beans', 'Get coffee filter']","['Put in coffee maker', 'Get coffee mug']",Put in coffee maker,0
+3,0.6,"['Get coffee beans', 'Get coffee filter', 'Put in coffee maker']","['Run the coffee maker', 'Get coffee beans']",Run the coffee maker,0
+4,0.8,"['Get coffee beans', 'Get coffee filter', 'Put in coffee maker', 'Run the coffee maker']","['Get coffee beans', 'Get coffee mug']",Get coffee mug,1
+0,0.0,[],"['Take out coffee canister', 'Take out coffee canister']",Take out coffee canister,0
+1,0.2,['Take out coffee canister'],"['Take out filter', 'Measure out two tablespoons']",Take out filter,0
+2,0.4,"['Take out coffee canister', 'Take out filter']","['Put filter in coffee maker', 'Pour coffee grounds into filter']",Put filter in coffee maker,0
+3,0.6,"['Take out coffee canister', 'Take out filter', 'Put filter in coffee maker']","['Take out coffee canister', 'Measure out two tablespoons']",Measure out two tablespoons,1
+4,0.8,"['Take out coffee canister', 'Take out filter', 'Put filter in coffee maker', 'Measure out two tablespoons']","['Take out filter', 'Pour coffee grounds into filter']",Pour coffee grounds into filter,1
+0,0.0,[],"['Get mug', 'Get mug']",Get mug,1
+1,0.2,['Get mug'],"['Get instant coffee', 'Put coffee into mug']",Get instant coffee,0
+2,0.4,"['Get mug', 'Get instant coffee']","['Put coffee into mug', 'Pour water into mug']",Put coffee into mug,0
+3,0.6,"['Get mug', 'Get instant coffee', 'Put coffee into mug']","['Get mug', 'Boil water']",Boil water,1
+4,0.8,"['Get mug', 'Get instant coffee', 'Put coffee into mug', 'Boil water']","['Get instant coffee', 'Pour water into mug']",Pour water into mug,1
+0,0.0,[],"['Get a coffee filter.', 'Pour water into reservoir.']",Get a coffee filter.,0
+1,0.2,['Get a coffee filter.'],"['Pour water into reservoir.', 'Measure out enough for 8 cups.']",Measure out enough for 8 cups.,1
+2,0.4,"['Get a coffee filter.', 'Measure out enough for 8 cups.']","['Pour water into reservoir.', 'Put coffee filter into slot.']",Put coffee filter into slot.,1
+3,0.6,"['Get a coffee filter.', 'Measure out enough for 8 cups.', 'Put coffee filter into slot.']","['Fill pot with water.', 'Get a coffee filter.']",Fill pot with water.,0
+4,0.8,"['Get a coffee filter.', 'Measure out enough for 8 cups.', 'Put coffee filter into slot.', 'Fill pot with water.']","['Measure out enough for 8 cups.', 'Pour water into reservoir.']",Pour water into reservoir.,1
+0,0.0,[],"['Get coffee grounds.', 'Put coffee grounds into coffee maker.']",Get coffee grounds.,0
+1,0.2,['Get coffee grounds.'],"['Get coffee filter.', 'Put filter into coffee maker.']",Get coffee filter.,0
+2,0.4,"['Get coffee grounds.', 'Get coffee filter.']","['Put coffee grounds into coffee maker.', 'Pour water into coffee maker.']",Pour water into coffee maker.,1
+3,0.6,"['Get coffee grounds.', 'Get coffee filter.', 'Pour water into coffee maker.']","['Get coffee grounds.', 'Put filter into coffee maker.']",Put filter into coffee maker.,1
+4,0.8,"['Get coffee grounds.', 'Get coffee filter.', 'Pour water into coffee maker.', 'Put filter into coffee maker.']","['Get coffee grounds.', 'Put coffee grounds into coffee maker.']",Put coffee grounds into coffee maker.,1
+0,0.0,[],"['Get in the car.', 'Wait in line.']",Get in the car.,0
+1,0.2,['Get in the car.'],"['Wait in line.', 'Enter the starbucks.']",Enter the starbucks.,1
+2,0.4,"['Get in the car.', 'Enter the starbucks.']","['Savoir in the mediocre goodness.', 'Wait in line.']",Wait in line.,1
+3,0.6,"['Get in the car.', 'Enter the starbucks.', 'Wait in line.']","['Give my order.', 'Get in the car.']",Give my order.,0
+4,0.8,"['Get in the car.', 'Enter the starbucks.', 'Wait in line.', 'Give my order.']","['Enter the starbucks.', 'Savoir in the mediocre goodness.']",Savoir in the mediocre goodness.,1
+0,0.0,[],"['add water to tank', 'plug in coffee maker']",plug in coffee maker,1
+1,0.2,['plug in coffee maker'],"['select flavor of coffee', 'press start']",select flavor of coffee,0
+2,0.4,"['plug in coffee maker', 'select flavor of coffee']","['press start', 'add water to tank']",add water to tank,1
+3,0.6,"['plug in coffee maker', 'select flavor of coffee', 'add water to tank']","['plug in coffee maker', 'close lid ']",close lid ,1
+4,0.8,"['plug in coffee maker', 'select flavor of coffee', 'add water to tank', 'close lid ']","['plug in coffee maker', 'press start']",press start,1

@@ -1,0 +1,650 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['go to bus stop', 'sit down']",go to bus stop,0
+1,0.125,['go to bus stop'],"['wait for bus to arrive', 'wait for bus to arrive']",wait for bus to arrive,0
+2,0.25,"['go to bus stop', 'wait for bus to arrive']","['enter bus', 'wait for bus to arrive at stop']",enter bus,0
+3,0.375,"['go to bus stop', 'wait for bus to arrive', 'enter bus']","['pay fare', 'exit bus']",pay fare,0
+4,0.5,"['go to bus stop', 'wait for bus to arrive', 'enter bus', 'pay fare']","['sit down', 'exit bus']",sit down,0
+5,0.625,"['go to bus stop', 'wait for bus to arrive', 'enter bus', 'pay fare', 'sit down']","['exit bus', 'wait for bus to arrive at stop']",wait for bus to arrive at stop,1
+6,0.75,"['go to bus stop', 'wait for bus to arrive', 'enter bus', 'pay fare', 'sit down', 'wait for bus to arrive at stop']","['wait for bus to arrive', 'stand up']",stand up,1
+7,0.875,"['go to bus stop', 'wait for bus to arrive', 'enter bus', 'pay fare', 'sit down', 'wait for bus to arrive at stop', 'stand up']","['exit bus', 'wait for bus to arrive']",exit bus,0
+0,0.0,[],"['Get a local bus map or bus schedule.', 'When you see your bus approaching, signal to the driver to stop.']",Get a local bus map or bus schedule.,0
+1,0.125,['Get a local bus map or bus schedule.'],"['When you are ready to leave, go to the nearest bus stop and wait for the next bus.', 'Check the bus schedule to make sure that the bus route stops by destination.']",Check the bus schedule to make sure that the bus route stops by destination.,1
+2,0.25,"['Get a local bus map or bus schedule.', 'Check the bus schedule to make sure that the bus route stops by destination.']","['Find the bus stop nearest to your location.', 'When the driver opens the door, board the bus.']",Find the bus stop nearest to your location.,0
+3,0.375,"['Get a local bus map or bus schedule.', 'Check the bus schedule to make sure that the bus route stops by destination.', 'Find the bus stop nearest to your location.']","['When you see your bus approaching, signal to the driver to stop.', 'Check the bus schedule to find the times that the bus stops by your location.']",Check the bus schedule to find the times that the bus stops by your location.,1
+4,0.5,"['Get a local bus map or bus schedule.', 'Check the bus schedule to make sure that the bus route stops by destination.', 'Find the bus stop nearest to your location.', 'Check the bus schedule to find the times that the bus stops by your location.']","['Get a local bus map or bus schedule.', 'When you are ready to leave, go to the nearest bus stop and wait for the next bus.']","When you are ready to leave, go to the nearest bus stop and wait for the next bus.",1
+5,0.625,"['Get a local bus map or bus schedule.', 'Check the bus schedule to make sure that the bus route stops by destination.', 'Find the bus stop nearest to your location.', 'Check the bus schedule to find the times that the bus stops by your location.', 'When you are ready to leave, go to the nearest bus stop and wait for the next bus.']","['When you see your bus approaching, signal to the driver to stop.', 'Get a local bus map or bus schedule.']","When you see your bus approaching, signal to the driver to stop.",0
+6,0.75,"['Get a local bus map or bus schedule.', 'Check the bus schedule to make sure that the bus route stops by destination.', 'Find the bus stop nearest to your location.', 'Check the bus schedule to find the times that the bus stops by your location.', 'When you are ready to leave, go to the nearest bus stop and wait for the next bus.', 'When you see your bus approaching, signal to the driver to stop.']","['When the driver opens the door, board the bus.', 'Check the bus schedule to make sure that the bus route stops by destination.']","When the driver opens the door, board the bus.",0
+7,0.875,"['Get a local bus map or bus schedule.', 'Check the bus schedule to make sure that the bus route stops by destination.', 'Find the bus stop nearest to your location.', 'Check the bus schedule to find the times that the bus stops by your location.', 'When you are ready to leave, go to the nearest bus stop and wait for the next bus.', 'When you see your bus approaching, signal to the driver to stop.', 'When the driver opens the door, board the bus.']","['Pay your bus fare.', 'Get a local bus map or bus schedule.']",Pay your bus fare.,0
+0,0.0,[],"['Find out when bus leaves.', 'Find out what bus to take.']",Find out what bus to take.,1
+1,0.125,['Find out what bus to take.'],"['Find a seat.', 'Find out when bus leaves.']",Find out when bus leaves.,1
+2,0.25,"['Find out what bus to take.', 'Find out when bus leaves.']","['Wait for your stop to be announced.', 'Go to bus stop at designated time.']",Go to bus stop at designated time.,1
+3,0.375,"['Find out what bus to take.', 'Find out when bus leaves.', 'Go to bus stop at designated time.']","['Board bus when it arrives.', 'Get off bus at destination.']",Board bus when it arrives.,0
+4,0.5,"['Find out what bus to take.', 'Find out when bus leaves.', 'Go to bus stop at designated time.', 'Board bus when it arrives.']","['Insert money for ticket.', 'Find out what bus to take.']",Insert money for ticket.,0
+5,0.625,"['Find out what bus to take.', 'Find out when bus leaves.', 'Go to bus stop at designated time.', 'Board bus when it arrives.', 'Insert money for ticket.']","['Find a seat.', 'Get off bus at destination.']",Find a seat.,0
+6,0.75,"['Find out what bus to take.', 'Find out when bus leaves.', 'Go to bus stop at designated time.', 'Board bus when it arrives.', 'Insert money for ticket.', 'Find a seat.']","['Find out what bus to take.', 'Wait for your stop to be announced.']",Wait for your stop to be announced.,1
+7,0.875,"['Find out what bus to take.', 'Find out when bus leaves.', 'Go to bus stop at designated time.', 'Board bus when it arrives.', 'Insert money for ticket.', 'Find a seat.', 'Wait for your stop to be announced.']","['Get off bus at destination.', 'Insert money for ticket.']",Get off bus at destination.,0
+0,0.0,[],"['take available seat', 'walk to bus stop']",walk to bus stop,1
+1,0.125,['walk to bus stop'],"['when bus arrives, enter', 'signal by bell for stop']","when bus arrives, enter",0
+2,0.25,"['walk to bus stop', 'when bus arrives, enter']","['climb bus steps', 'go to door']",climb bus steps,0
+3,0.375,"['walk to bus stop', 'when bus arrives, enter', 'climb bus steps']","['walk to bus stop', 'pay fare']",pay fare,1
+4,0.5,"['walk to bus stop', 'when bus arrives, enter', 'climb bus steps', 'pay fare']","['go to door', 'take available seat']",take available seat,1
+5,0.625,"['walk to bus stop', 'when bus arrives, enter', 'climb bus steps', 'pay fare', 'take available seat']","['ride', 'when bus arrives, enter']",ride,0
+6,0.75,"['walk to bus stop', 'when bus arrives, enter', 'climb bus steps', 'pay fare', 'take available seat', 'ride']","['climb bus steps', 'signal by bell for stop']",signal by bell for stop,1
+7,0.875,"['walk to bus stop', 'when bus arrives, enter', 'climb bus steps', 'pay fare', 'take available seat', 'ride', 'signal by bell for stop']","['when bus arrives, enter', 'go to door']",go to door,1
+0,0.0,[],"['Pick a seat', 'Go to a bus stop']",Go to a bus stop,1
+1,0.14285714285714285,['Go to a bus stop'],"['Wait for the bus to arrive', 'Wait for the bus to arrive']",Wait for the bus to arrive,1
+2,0.2857142857142857,"['Go to a bus stop', 'Wait for the bus to arrive']","['Pick a seat', 'Get on the bus']",Get on the bus,1
+3,0.42857142857142855,"['Go to a bus stop', 'Wait for the bus to arrive', 'Get on the bus']","['Go to a bus stop', 'Give your money to the driver']",Give your money to the driver,1
+4,0.5714285714285714,"['Go to a bus stop', 'Wait for the bus to arrive', 'Get on the bus', 'Give your money to the driver']","['Pick a seat', 'Wait for the bus to arrive']",Pick a seat,0
+5,0.7142857142857143,"['Go to a bus stop', 'Wait for the bus to arrive', 'Get on the bus', 'Give your money to the driver', 'Pick a seat']","['Go to a bus stop', 'Sit down']",Sit down,1
+6,0.8571428571428571,"['Go to a bus stop', 'Wait for the bus to arrive', 'Get on the bus', 'Give your money to the driver', 'Pick a seat', 'Sit down']","['Give your money to the driver', 'Watch until you see your stop to get off']",Watch until you see your stop to get off,1
+0,0.0,[],"['sit in seat', 'wait for bus']",wait for bus,1
+1,0.2,['wait for bus'],"['step onto bus when arrives', 'step onto bus when arrives']",step onto bus when arrives,1
+2,0.4,"['wait for bus', 'step onto bus when arrives']","['pay bus fair', 'sit in seat']",pay bus fair,0
+3,0.6,"['wait for bus', 'step onto bus when arrives', 'pay bus fair']","['wait for bus', 'starting walking to seat on bus']",starting walking to seat on bus,1
+4,0.8,"['wait for bus', 'step onto bus when arrives', 'pay bus fair', 'starting walking to seat on bus']","['sit in seat', 'step onto bus when arrives']",sit in seat,0
+0,0.0,[],"['Pay the fee', 'Get a bus schedule']",Get a bus schedule,1
+1,0.125,['Get a bus schedule'],"['Wait for the bus', 'Decide which bus']",Decide which bus,1
+2,0.25,"['Get a bus schedule', 'Decide which bus']","['Sit down', 'Wait for the bus']",Wait for the bus,1
+3,0.375,"['Get a bus schedule', 'Decide which bus', 'Wait for the bus']","['Get a bus schedule', 'Get on the bus']",Get on the bus,1
+4,0.5,"['Get a bus schedule', 'Decide which bus', 'Wait for the bus', 'Get on the bus']","['Pay the fee', 'Wait for your stop']",Pay the fee,0
+5,0.625,"['Get a bus schedule', 'Decide which bus', 'Wait for the bus', 'Get on the bus', 'Pay the fee']","['Sit down', 'Get a bus schedule']",Sit down,0
+6,0.75,"['Get a bus schedule', 'Decide which bus', 'Wait for the bus', 'Get on the bus', 'Pay the fee', 'Sit down']","['Wait for your stop', 'Get a bus schedule']",Wait for your stop,0
+7,0.875,"['Get a bus schedule', 'Decide which bus', 'Wait for the bus', 'Get on the bus', 'Pay the fee', 'Sit down', 'Wait for your stop']","['Say thank you to the driver', 'Get a bus schedule']",Say thank you to the driver,0
+0,0.0,[],"['Make sure you have money', 'Pay for your fare']",Make sure you have money,0
+1,0.2,['Make sure you have money'],"['Get on bus', 'Get on bus']",Get on bus,1
+2,0.4,"['Make sure you have money', 'Get on bus']","['Pay for your fare', 'Depart when you arrive at your destination']",Pay for your fare,0
+3,0.6,"['Make sure you have money', 'Get on bus', 'Pay for your fare']","['Sit down', 'Make sure you have money']",Sit down,0
+4,0.8,"['Make sure you have money', 'Get on bus', 'Pay for your fare', 'Sit down']","['Get on bus', 'Depart when you arrive at your destination']",Depart when you arrive at your destination,1
+0,0.0,[],"['Go to the bus stop/Bus stand', 'When your bus comes climb in it']",Go to the bus stop/Bus stand,0
+1,0.16666666666666666,['Go to the bus stop/Bus stand'],"['When your bus comes climb in it', 'Keep looking for your bus']",Keep looking for your bus,1
+2,0.3333333333333333,"['Go to the bus stop/Bus stand', 'Keep looking for your bus']","['Get down once the destination is reached', 'When your bus comes climb in it']",When your bus comes climb in it,1
+3,0.5,"['Go to the bus stop/Bus stand', 'Keep looking for your bus', 'When your bus comes climb in it']","['Go to the bus stop/Bus stand', 'Buy ticket for your destination']",Buy ticket for your destination,1
+4,0.6666666666666666,"['Go to the bus stop/Bus stand', 'Keep looking for your bus', 'When your bus comes climb in it', 'Buy ticket for your destination']","['Sit on a seat', 'Go to the bus stop/Bus stand']",Sit on a seat,0
+5,0.8333333333333334,"['Go to the bus stop/Bus stand', 'Keep looking for your bus', 'When your bus comes climb in it', 'Buy ticket for your destination', 'Sit on a seat']","['Get down once the destination is reached', 'Keep looking for your bus']",Get down once the destination is reached,0
+0,0.0,[],"['Walk to bus stop', 'Walk to bus stop']",Walk to bus stop,1
+1,0.16666666666666666,['Walk to bus stop'],"['Wait for bus', 'Ride to destination']",Wait for bus,0
+2,0.3333333333333333,"['Walk to bus stop', 'Wait for bus']","['Step onto arriving bus', 'Find seat on bus']",Step onto arriving bus,0
+3,0.5,"['Walk to bus stop', 'Wait for bus', 'Step onto arriving bus']","['Swipe bus pass', 'Ride to destination']",Swipe bus pass,0
+4,0.6666666666666666,"['Walk to bus stop', 'Wait for bus', 'Step onto arriving bus', 'Swipe bus pass']","['Walk to bus stop', 'Find seat on bus']",Find seat on bus,1
+5,0.8333333333333334,"['Walk to bus stop', 'Wait for bus', 'Step onto arriving bus', 'Swipe bus pass', 'Find seat on bus']","['Ride to destination', 'Walk to bus stop']",Ride to destination,0
+0,0.0,[],"['Wait for the Bus', 'Figure out the place you want to reach']",Figure out the place you want to reach,1
+1,0.125,['Figure out the place you want to reach'],"['Bus arrives', 'Go to the bus stop']",Go to the bus stop,1
+2,0.25,"['Figure out the place you want to reach', 'Go to the bus stop']","['Take the tickets', 'Wait for the Bus']",Wait for the Bus,1
+3,0.375,"['Figure out the place you want to reach', 'Go to the bus stop', 'Wait for the Bus']","['Bus arrives', 'Take a seat']",Bus arrives,0
+4,0.5,"['Figure out the place you want to reach', 'Go to the bus stop', 'Wait for the Bus', 'Bus arrives']","['Figure out the place you want to reach', 'Get into the bus']",Get into the bus,1
+5,0.625,"['Figure out the place you want to reach', 'Go to the bus stop', 'Wait for the Bus', 'Bus arrives', 'Get into the bus']","['Take a seat', 'Go to the bus stop']",Take a seat,0
+6,0.75,"['Figure out the place you want to reach', 'Go to the bus stop', 'Wait for the Bus', 'Bus arrives', 'Get into the bus', 'Take a seat']","['Wait for the Bus', 'Take the tickets']",Take the tickets,1
+7,0.875,"['Figure out the place you want to reach', 'Go to the bus stop', 'Wait for the Bus', 'Bus arrives', 'Get into the bus', 'Take a seat', 'Take the tickets']","['Pay for the ride', 'Get into the bus']",Pay for the ride,0
+0,0.0,[],"['Step on bus', 'Walk to bus stop']",Walk to bus stop,1
+1,0.2,['Walk to bus stop'],"['Wait for bus', 'Walk to bus stop']",Wait for bus,0
+2,0.4,"['Walk to bus stop', 'Wait for bus']","['Take your seat', 'Step on bus']",Step on bus,1
+3,0.6,"['Walk to bus stop', 'Wait for bus', 'Step on bus']","['Walk to bus stop', 'Pay the bus driver']",Pay the bus driver,1
+4,0.8,"['Walk to bus stop', 'Wait for bus', 'Step on bus', 'Pay the bus driver']","['Take your seat', 'Wait for bus']",Take your seat,0
+0,0.0,[],"['Wait at bus stop', 'Sit down']",Wait at bus stop,0
+1,0.14285714285714285,['Wait at bus stop'],"['Sit down', 'Get on bus']",Get on bus,1
+2,0.2857142857142857,"['Wait at bus stop', 'Get on bus']","['Show bus driver your ticket', 'Sit down']",Show bus driver your ticket,0
+3,0.42857142857142855,"['Wait at bus stop', 'Get on bus', 'Show bus driver your ticket']","['Find an open seat', 'Get off at your stop']",Find an open seat,0
+4,0.5714285714285714,"['Wait at bus stop', 'Get on bus', 'Show bus driver your ticket', 'Find an open seat']","['Get on bus', 'Sit down']",Sit down,1
+5,0.7142857142857143,"['Wait at bus stop', 'Get on bus', 'Show bus driver your ticket', 'Find an open seat', 'Sit down']","['Show bus driver your ticket', 'Wait for bus to reach your stop']",Wait for bus to reach your stop,1
+6,0.8571428571428571,"['Wait at bus stop', 'Get on bus', 'Show bus driver your ticket', 'Find an open seat', 'Sit down', 'Wait for bus to reach your stop']","['Get off at your stop', 'Get on bus']",Get off at your stop,0
+0,0.0,[],"['pay the driver', 'Get dressed']",Get dressed,1
+1,0.125,['Get dressed'],"['exit bus when arrive', 'go to the nearest bus stop']",go to the nearest bus stop,1
+2,0.25,"['Get dressed', 'go to the nearest bus stop']","['wait for the bus', 'sit down']",wait for the bus,0
+3,0.375,"['Get dressed', 'go to the nearest bus stop', 'wait for the bus']","['Get dressed', 'when it arrives get on']",when it arrives get on,1
+4,0.5,"['Get dressed', 'go to the nearest bus stop', 'wait for the bus', 'when it arrives get on']","['tell the driver where you are going', 'go to the nearest bus stop']",tell the driver where you are going,0
+5,0.625,"['Get dressed', 'go to the nearest bus stop', 'wait for the bus', 'when it arrives get on', 'tell the driver where you are going']","['pay the driver', 'go to the nearest bus stop']",pay the driver,0
+6,0.75,"['Get dressed', 'go to the nearest bus stop', 'wait for the bus', 'when it arrives get on', 'tell the driver where you are going', 'pay the driver']","['sit down', 'go to the nearest bus stop']",sit down,0
+7,0.875,"['Get dressed', 'go to the nearest bus stop', 'wait for the bus', 'when it arrives get on', 'tell the driver where you are going', 'pay the driver', 'sit down']","['exit bus when arrive', 'go to the nearest bus stop']",exit bus when arrive,0
+0,0.0,[],"['When bus arrives, step on board.', 'Grab purse, jacket, and other items needed for the day.']","Grab purse, jacket, and other items needed for the day.",1
+1,0.125,"['Grab purse, jacket, and other items needed for the day.']","['When your stop approaches, pull cord.', 'Go to bus stop.']",Go to bus stop.,1
+2,0.25,"['Grab purse, jacket, and other items needed for the day.', 'Go to bus stop.']","['Stand, exit bus.', 'When bus arrives, step on board.']","When bus arrives, step on board.",1
+3,0.375,"['Grab purse, jacket, and other items needed for the day.', 'Go to bus stop.', 'When bus arrives, step on board.']","['Grab purse, jacket, and other items needed for the day.', 'Drop change into money machine.']",Drop change into money machine.,1
+4,0.5,"['Grab purse, jacket, and other items needed for the day.', 'Go to bus stop.', 'When bus arrives, step on board.', 'Drop change into money machine.']","['When your stop approaches, pull cord.', 'Find empty seat to sit in.']",Find empty seat to sit in.,1
+5,0.625,"['Grab purse, jacket, and other items needed for the day.', 'Go to bus stop.', 'When bus arrives, step on board.', 'Drop change into money machine.', 'Find empty seat to sit in.']","['When bus arrives, step on board.', 'Watch stops out window.']",Watch stops out window.,1
+6,0.75,"['Grab purse, jacket, and other items needed for the day.', 'Go to bus stop.', 'When bus arrives, step on board.', 'Drop change into money machine.', 'Find empty seat to sit in.', 'Watch stops out window.']","['When your stop approaches, pull cord.', 'When bus arrives, step on board.']","When your stop approaches, pull cord.",0
+7,0.875,"['Grab purse, jacket, and other items needed for the day.', 'Go to bus stop.', 'When bus arrives, step on board.', 'Drop change into money machine.', 'Find empty seat to sit in.', 'Watch stops out window.', 'When your stop approaches, pull cord.']","['Find empty seat to sit in.', 'Stand, exit bus.']","Stand, exit bus.",1
+0,0.0,[],"['Pay the toll', 'Wait at bus stop']",Wait at bus stop,1
+1,0.14285714285714285,['Wait at bus stop'],"['When bus comes wait for doors to open', 'Sit in seat']",When bus comes wait for doors to open,0
+2,0.2857142857142857,"['Wait at bus stop', 'When bus comes wait for doors to open']","['Pay the toll', 'Sit in seat']",Pay the toll,0
+3,0.42857142857142855,"['Wait at bus stop', 'When bus comes wait for doors to open', 'Pay the toll']","['Go through doors and up the steps', 'Sit in seat']",Go through doors and up the steps,0
+4,0.5714285714285714,"['Wait at bus stop', 'When bus comes wait for doors to open', 'Pay the toll', 'Go through doors and up the steps']","['Walk down center of bus to find a seat', 'Once you arrive at destination, get off the bus']",Walk down center of bus to find a seat,0
+5,0.7142857142857143,"['Wait at bus stop', 'When bus comes wait for doors to open', 'Pay the toll', 'Go through doors and up the steps', 'Walk down center of bus to find a seat']","['When bus comes wait for doors to open', 'Sit in seat']",Sit in seat,1
+6,0.8571428571428571,"['Wait at bus stop', 'When bus comes wait for doors to open', 'Pay the toll', 'Go through doors and up the steps', 'Walk down center of bus to find a seat', 'Sit in seat']","['Once you arrive at destination, get off the bus', 'When bus comes wait for doors to open']","Once you arrive at destination, get off the bus",0
+0,0.0,[],"['Wait at bus stop', 'Get on bus']",Wait at bus stop,0
+1,0.125,['Wait at bus stop'],"['Retrieve ticket from machine', 'Bus arrives']",Bus arrives,1
+2,0.25,"['Wait at bus stop', 'Bus arrives']","['Get on bus', 'Wait for bus stop destination']",Get on bus,0
+3,0.375,"['Wait at bus stop', 'Bus arrives', 'Get on bus']","['Retrieve ticket from machine', 'Get off bus']",Retrieve ticket from machine,0
+4,0.5,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Retrieve ticket from machine']","['Bus arrives', 'Find a seat']",Find a seat,1
+5,0.625,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Retrieve ticket from machine', 'Find a seat']","['Wait for bus stop destination', 'Get off bus']",Wait for bus stop destination,0
+6,0.75,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Retrieve ticket from machine', 'Find a seat', 'Wait for bus stop destination']","['Press stop button', 'Retrieve ticket from machine']",Press stop button,0
+7,0.875,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Retrieve ticket from machine', 'Find a seat', 'Wait for bus stop destination', 'Press stop button']","['Find a seat', 'Get off bus']",Get off bus,1
+0,0.0,[],"[""Arrive at bus stop prior to bus's arrival."", ""Arrive at bus stop prior to bus's arrival.""]",Arrive at bus stop prior to bus's arrival.,0
+1,0.16666666666666666,"[""Arrive at bus stop prior to bus's arrival.""]","['Wait for bus to arrive.', 'Wait for bus to arrive.']",Wait for bus to arrive.,1
+2,0.3333333333333333,"[""Arrive at bus stop prior to bus's arrival."", 'Wait for bus to arrive.']","['Board bus.', 'Wait for your stop.']",Board bus.,0
+3,0.5,"[""Arrive at bus stop prior to bus's arrival."", 'Wait for bus to arrive.', 'Board bus.']","['Find a seat if available or stand if necessary.', ""Arrive at bus stop prior to bus's arrival.""]",Find a seat if available or stand if necessary.,0
+4,0.6666666666666666,"[""Arrive at bus stop prior to bus's arrival."", 'Wait for bus to arrive.', 'Board bus.', 'Find a seat if available or stand if necessary.']","['Wait for bus to arrive.', 'Wait for your stop.']",Wait for your stop.,1
+5,0.8333333333333334,"[""Arrive at bus stop prior to bus's arrival."", 'Wait for bus to arrive.', 'Board bus.', 'Find a seat if available or stand if necessary.', 'Wait for your stop.']","['Get off bus when doors open.', 'Board bus.']",Get off bus when doors open.,0
+0,0.0,[],"['Pay the fare.', 'Check to bus schedule to see when the bus is running.']",Check to bus schedule to see when the bus is running.,1
+1,0.14285714285714285,['Check to bus schedule to see when the bus is running.'],"['Find a vacant seat (if possible).', 'Walk to the bus stop.']",Walk to the bus stop.,1
+2,0.2857142857142857,"['Check to bus schedule to see when the bus is running.', 'Walk to the bus stop.']","['Make sure that you have your bus fair ready.', 'Pay the fare.']",Make sure that you have your bus fair ready.,0
+3,0.42857142857142855,"['Check to bus schedule to see when the bus is running.', 'Walk to the bus stop.', 'Make sure that you have your bus fair ready.']","['Get onto the bus when it reaches the stop.', 'Check to bus schedule to see when the bus is running.']",Get onto the bus when it reaches the stop.,0
+4,0.5714285714285714,"['Check to bus schedule to see when the bus is running.', 'Walk to the bus stop.', 'Make sure that you have your bus fair ready.', 'Get onto the bus when it reaches the stop.']","['Pay the fare.', 'Walk to the bus stop.']",Pay the fare.,0
+5,0.7142857142857143,"['Check to bus schedule to see when the bus is running.', 'Walk to the bus stop.', 'Make sure that you have your bus fair ready.', 'Get onto the bus when it reaches the stop.', 'Pay the fare.']","['Find a vacant seat (if possible).', 'Make sure that you have your bus fair ready.']",Find a vacant seat (if possible).,0
+6,0.8571428571428571,"['Check to bus schedule to see when the bus is running.', 'Walk to the bus stop.', 'Make sure that you have your bus fair ready.', 'Get onto the bus when it reaches the stop.', 'Pay the fare.', 'Find a vacant seat (if possible).']","['Get onto the bus when it reaches the stop.', 'Exit the bus at your desired location.']",Exit the bus at your desired location.,1
+0,0.0,[],"['Board the bus', 'Find bus schedule information']",Find bus schedule information,1
+1,0.16666666666666666,['Find bus schedule information'],"['Go to the bus station', 'Board the bus']",Go to the bus station,0
+2,0.3333333333333333,"['Find bus schedule information', 'Go to the bus station']","['Take a seat in the bus', 'Pay for fare']",Pay for fare,1
+3,0.5,"['Find bus schedule information', 'Go to the bus station', 'Pay for fare']","['Board the bus', 'Ride on the bus']",Board the bus,0
+4,0.6666666666666666,"['Find bus schedule information', 'Go to the bus station', 'Pay for fare', 'Board the bus']","['Find bus schedule information', 'Take a seat in the bus']",Take a seat in the bus,1
+5,0.8333333333333334,"['Find bus schedule information', 'Go to the bus station', 'Pay for fare', 'Board the bus', 'Take a seat in the bus']","['Ride on the bus', 'Find bus schedule information']",Ride on the bus,0
+0,0.0,[],"['Wait for bus at bus stop', 'Sit or stand to location']",Wait for bus at bus stop,0
+1,0.16666666666666666,['Wait for bus at bus stop'],"['Sit or stand to location', 'Get on bus']",Get on bus,1
+2,0.3333333333333333,"['Wait for bus at bus stop', 'Get on bus']","['Wait for stop', 'Give money']",Give money,1
+3,0.5,"['Wait for bus at bus stop', 'Get on bus', 'Give money']","['Wait for bus at bus stop', 'Sit or stand to location']",Sit or stand to location,1
+4,0.6666666666666666,"['Wait for bus at bus stop', 'Get on bus', 'Give money', 'Sit or stand to location']","['Get on bus', 'Wait for stop']",Wait for stop,1
+5,0.8333333333333334,"['Wait for bus at bus stop', 'Get on bus', 'Give money', 'Sit or stand to location', 'Wait for stop']","['Get off bus', 'Give money']",Get off bus,0
+0,0.0,[],"['Buy bus ticket', 'Enter bus']",Buy bus ticket,0
+1,0.16666666666666666,['Buy bus ticket'],"['Go to bus station', 'Go to bus station']",Go to bus station,0
+2,0.3333333333333333,"['Buy bus ticket', 'Go to bus station']","['Wait for correct stop', 'Wait for bus']",Wait for bus,1
+3,0.5,"['Buy bus ticket', 'Go to bus station', 'Wait for bus']","['Enter bus', 'Leave bus']",Enter bus,0
+4,0.6666666666666666,"['Buy bus ticket', 'Go to bus station', 'Wait for bus', 'Enter bus']","['Buy bus ticket', 'Wait for correct stop']",Wait for correct stop,1
+5,0.8333333333333334,"['Buy bus ticket', 'Go to bus station', 'Wait for bus', 'Enter bus', 'Wait for correct stop']","['Buy bus ticket', 'Leave bus']",Leave bus,1
+0,0.0,[],"['choose the route you want to take', 'choose the route you want to take']",choose the route you want to take,1
+1,0.125,['choose the route you want to take'],"['find the bus stop', 'receive ticket']",find the bus stop,0
+2,0.25,"['choose the route you want to take', 'find the bus stop']","['receive ticket', 'wait for the bus']",wait for the bus,1
+3,0.375,"['choose the route you want to take', 'find the bus stop', 'wait for the bus']","['receive ticket', 'make sure you have exact change for fare']",make sure you have exact change for fare,1
+4,0.5,"['choose the route you want to take', 'find the bus stop', 'wait for the bus', 'make sure you have exact change for fare']","['board bus', 'receive ticket']",board bus,0
+5,0.625,"['choose the route you want to take', 'find the bus stop', 'wait for the bus', 'make sure you have exact change for fare', 'board bus']","['give your fare to the bus driver', 'find the bus stop']",give your fare to the bus driver,0
+6,0.75,"['choose the route you want to take', 'find the bus stop', 'wait for the bus', 'make sure you have exact change for fare', 'board bus', 'give your fare to the bus driver']","['find the bus stop', 'receive ticket']",receive ticket,1
+7,0.875,"['choose the route you want to take', 'find the bus stop', 'wait for the bus', 'make sure you have exact change for fare', 'board bus', 'give your fare to the bus driver', 'receive ticket']","['pay attention for your stop', 'choose the route you want to take']",pay attention for your stop,0
+0,0.0,[],"['Find a seat', 'Wait at bus stop']",Wait at bus stop,1
+1,0.125,['Wait at bus stop'],"['Get off bus', 'Bus arrives']",Bus arrives,1
+2,0.25,"['Wait at bus stop', 'Bus arrives']","['Find a seat', 'Get on bus']",Get on bus,1
+3,0.375,"['Wait at bus stop', 'Bus arrives', 'Get on bus']","['Pay bus fare', 'Wait at bus stop']",Pay bus fare,0
+4,0.5,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Pay bus fare']","['Bus arrives', 'Find a seat']",Find a seat,1
+5,0.625,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Pay bus fare', 'Find a seat']","['Bus leaves', 'Wait at bus stop']",Bus leaves,0
+6,0.75,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Pay bus fare', 'Find a seat', 'Bus leaves']","['Pay bus fare', 'Bus stops at your destination']",Bus stops at your destination,1
+7,0.875,"['Wait at bus stop', 'Bus arrives', 'Get on bus', 'Pay bus fare', 'Find a seat', 'Bus leaves', 'Bus stops at your destination']","['Bus arrives', 'Get off bus']",Get off bus,1
+0,0.0,[],"['Get off bus', 'Go to bus stop']",Go to bus stop,1
+1,0.16666666666666666,['Go to bus stop'],"['Wait for bus to arrive', 'Get off bus']",Wait for bus to arrive,0
+2,0.3333333333333333,"['Go to bus stop', 'Wait for bus to arrive']","['Get on bus', 'Get off bus']",Get on bus,0
+3,0.5,"['Go to bus stop', 'Wait for bus to arrive', 'Get on bus']","['Get off bus', 'Pay fee']",Pay fee,1
+4,0.6666666666666666,"['Go to bus stop', 'Wait for bus to arrive', 'Get on bus', 'Pay fee']","['Wait to get to destination', 'Wait for bus to arrive']",Wait to get to destination,0
+5,0.8333333333333334,"['Go to bus stop', 'Wait for bus to arrive', 'Get on bus', 'Pay fee', 'Wait to get to destination']","['Wait for bus to arrive', 'Get off bus']",Get off bus,1
+0,0.0,[],"['find the nearest bus stop', 'sit patiently until the bus reaches your destination bus stop']",find the nearest bus stop,0
+1,0.14285714285714285,['find the nearest bus stop'],"['thank the driver, possibly tip', 'wait there for the bus to arrive']",wait there for the bus to arrive,1
+2,0.2857142857142857,"['find the nearest bus stop', 'wait there for the bus to arrive']","['sit patiently until the bus reaches your destination bus stop', 'while boarding, pay the driver the required fee or show a pass']","while boarding, pay the driver the required fee or show a pass",1
+3,0.42857142857142855,"['find the nearest bus stop', 'wait there for the bus to arrive', 'while boarding, pay the driver the required fee or show a pass']","['thank the driver, possibly tip', 'choose a seat']",choose a seat,1
+4,0.5714285714285714,"['find the nearest bus stop', 'wait there for the bus to arrive', 'while boarding, pay the driver the required fee or show a pass', 'choose a seat']","['wait there for the bus to arrive', 'sit patiently until the bus reaches your destination bus stop']",sit patiently until the bus reaches your destination bus stop,1
+5,0.7142857142857143,"['find the nearest bus stop', 'wait there for the bus to arrive', 'while boarding, pay the driver the required fee or show a pass', 'choose a seat', 'sit patiently until the bus reaches your destination bus stop']","['stand up and depart the bus', 'wait there for the bus to arrive']",stand up and depart the bus,0
+6,0.8571428571428571,"['find the nearest bus stop', 'wait there for the bus to arrive', 'while boarding, pay the driver the required fee or show a pass', 'choose a seat', 'sit patiently until the bus reaches your destination bus stop', 'stand up and depart the bus']","['wait there for the bus to arrive', 'thank the driver, possibly tip']","thank the driver, possibly tip",1
+0,0.0,[],"['Decide what time you need to arrive at bus stop.', 'Look at bus schedule.']",Look at bus schedule.,1
+1,0.16666666666666666,['Look at bus schedule.'],"['Decide what time you need to arrive at bus stop.', 'Pay fare when boarding bus.']",Decide what time you need to arrive at bus stop.,0
+2,0.3333333333333333,"['Look at bus schedule.', 'Decide what time you need to arrive at bus stop.']","['Exit bus at your destination.', 'Get to bus stop early and wait for bus.']",Get to bus stop early and wait for bus.,1
+3,0.5,"['Look at bus schedule.', 'Decide what time you need to arrive at bus stop.', 'Get to bus stop early and wait for bus.']","['Pay fare when boarding bus.', 'Look at bus schedule.']",Pay fare when boarding bus.,0
+4,0.6666666666666666,"['Look at bus schedule.', 'Decide what time you need to arrive at bus stop.', 'Get to bus stop early and wait for bus.', 'Pay fare when boarding bus.']","['Look at bus schedule.', 'Sit down and wait for your desired stop.']",Sit down and wait for your desired stop.,1
+5,0.8333333333333334,"['Look at bus schedule.', 'Decide what time you need to arrive at bus stop.', 'Get to bus stop early and wait for bus.', 'Pay fare when boarding bus.', 'Sit down and wait for your desired stop.']","['Exit bus at your destination.', 'Look at bus schedule.']",Exit bus at your destination.,0
+0,0.0,[],"['Ring the bell when you see your destination', 'Walk to the bus stop']",Walk to the bus stop,1
+1,0.125,['Walk to the bus stop'],"['Find a seat', 'Wait for the bus']",Wait for the bus,1
+2,0.25,"['Walk to the bus stop', 'Wait for the bus']","['Wait for your stop', 'Walk up the steps of the bus']",Walk up the steps of the bus,1
+3,0.375,"['Walk to the bus stop', 'Wait for the bus', 'Walk up the steps of the bus']","['Pay the fare', 'Ring the bell when you see your destination']",Pay the fare,0
+4,0.5,"['Walk to the bus stop', 'Wait for the bus', 'Walk up the steps of the bus', 'Pay the fare']","['Wait for the bus', 'Find a seat']",Find a seat,1
+5,0.625,"['Walk to the bus stop', 'Wait for the bus', 'Walk up the steps of the bus', 'Pay the fare', 'Find a seat']","['Wait for the bus', 'Sit down']",Sit down,1
+6,0.75,"['Walk to the bus stop', 'Wait for the bus', 'Walk up the steps of the bus', 'Pay the fare', 'Find a seat', 'Sit down']","['Wait for your stop', 'Pay the fare']",Wait for your stop,0
+7,0.875,"['Walk to the bus stop', 'Wait for the bus', 'Walk up the steps of the bus', 'Pay the fare', 'Find a seat', 'Sit down', 'Wait for your stop']","['Ring the bell when you see your destination', 'Walk up the steps of the bus']",Ring the bell when you see your destination,0
+0,0.0,[],"['wait till my stop is approaching', 'Check bus schedule']",Check bus schedule,1
+1,0.14285714285714285,['Check bus schedule'],"['wait till my stop is approaching', 'wait at bus stop']",wait at bus stop,1
+2,0.2857142857142857,"['Check bus schedule', 'wait at bus stop']","['signal for a stop where i want to get off', 'Buy bus pass on buss']",Buy bus pass on buss,1
+3,0.42857142857142855,"['Check bus schedule', 'wait at bus stop', 'Buy bus pass on buss']","['Check bus schedule', 'Find a empty seat']",Find a empty seat,1
+4,0.5714285714285714,"['Check bus schedule', 'wait at bus stop', 'Buy bus pass on buss', 'Find a empty seat']","['wait till my stop is approaching', 'Get off the bus']",wait till my stop is approaching,0
+5,0.7142857142857143,"['Check bus schedule', 'wait at bus stop', 'Buy bus pass on buss', 'Find a empty seat', 'wait till my stop is approaching']","['signal for a stop where i want to get off', 'wait at bus stop']",signal for a stop where i want to get off,0
+6,0.8571428571428571,"['Check bus schedule', 'wait at bus stop', 'Buy bus pass on buss', 'Find a empty seat', 'wait till my stop is approaching', 'signal for a stop where i want to get off']","['Buy bus pass on buss', 'Get off the bus']",Get off the bus,1
+0,0.0,[],"['Get my wallet', 'Get dressed']",Get dressed,1
+1,0.14285714285714285,['Get dressed'],"['Wait for the bus', 'Get my wallet']",Get my wallet,1
+2,0.2857142857142857,"['Get dressed', 'Get my wallet']","['Go outside', 'Get on the bus']",Go outside,0
+3,0.42857142857142855,"['Get dressed', 'Get my wallet', 'Go outside']","['Walk to the bus stop', 'Get on the bus']",Walk to the bus stop,0
+4,0.5714285714285714,"['Get dressed', 'Get my wallet', 'Go outside', 'Walk to the bus stop']","['Wait for the bus', 'Get my wallet']",Wait for the bus,0
+5,0.7142857142857143,"['Get dressed', 'Get my wallet', 'Go outside', 'Walk to the bus stop', 'Wait for the bus']","['Get my wallet', 'Get on the bus']",Get on the bus,1
+6,0.8571428571428571,"['Get dressed', 'Get my wallet', 'Go outside', 'Walk to the bus stop', 'Wait for the bus', 'Get on the bus']","['Walk to the bus stop', 'Sit down']",Sit down,1
+0,0.0,[],"['walk to bus stop', 'find a seat or stand']",walk to bus stop,0
+1,0.2,['walk to bus stop'],"['wait for bus to arrive', 'get on bus']",wait for bus to arrive,0
+2,0.4,"['walk to bus stop', 'wait for bus to arrive']","['find a seat or stand', 'have your ticket or change ready']",have your ticket or change ready,1
+3,0.6,"['walk to bus stop', 'wait for bus to arrive', 'have your ticket or change ready']","['get on bus', 'walk to bus stop']",get on bus,0
+4,0.8,"['walk to bus stop', 'wait for bus to arrive', 'have your ticket or change ready', 'get on bus']","['wait for bus to arrive', 'find a seat or stand']",find a seat or stand,1
+0,0.0,[],"['get in bus', 'go to bus stop']",go to bus stop,1
+1,0.14285714285714285,['go to bus stop'],"['wait for bus', 'sit in bus']",wait for bus,0
+2,0.2857142857142857,"['go to bus stop', 'wait for bus']","['sit in bus', 'get in bus']",get in bus,1
+3,0.42857142857142855,"['go to bus stop', 'wait for bus', 'get in bus']","['Bus has arrived on destination', 'pay bus fare']",pay bus fare,1
+4,0.5714285714285714,"['go to bus stop', 'wait for bus', 'get in bus', 'pay bus fare']","['wait for bus', 'sit in bus']",sit in bus,1
+5,0.7142857142857143,"['go to bus stop', 'wait for bus', 'get in bus', 'pay bus fare', 'sit in bus']","['Bus has arrived on destination', 'wait for bus']",Bus has arrived on destination,0
+6,0.8571428571428571,"['go to bus stop', 'wait for bus', 'get in bus', 'pay bus fare', 'sit in bus', 'Bus has arrived on destination']","['get in bus', 'get off']",get off,1
+0,0.0,[],"['Walk to bus stop', 'Get off bus']",Walk to bus stop,0
+1,0.2,['Walk to bus stop'],"['Wait for bus', 'Wait for bus']",Wait for bus,0
+2,0.4,"['Walk to bus stop', 'Wait for bus']","['Get off bus', 'Get on bus']",Get on bus,1
+3,0.6,"['Walk to bus stop', 'Wait for bus', 'Get on bus']","['Ride to desired destination', 'Walk to bus stop']",Ride to desired destination,0
+4,0.8,"['Walk to bus stop', 'Wait for bus', 'Get on bus', 'Ride to desired destination']","['Walk to bus stop', 'Get off bus']",Get off bus,1
+0,0.0,[],"['Get off bus', 'Go to bus stop']",Go to bus stop,1
+1,0.14285714285714285,['Go to bus stop'],"['Go to bus stop', 'Wait for bus']",Wait for bus,1
+2,0.2857142857142857,"['Go to bus stop', 'Wait for bus']","['Get on bus', 'Find a seat']",Get on bus,0
+3,0.42857142857142855,"['Go to bus stop', 'Wait for bus', 'Get on bus']","['Pay fare', 'Get off bus']",Pay fare,0
+4,0.5714285714285714,"['Go to bus stop', 'Wait for bus', 'Get on bus', 'Pay fare']","['Wait for bus', 'Find a seat']",Find a seat,1
+5,0.7142857142857143,"['Go to bus stop', 'Wait for bus', 'Get on bus', 'Pay fare', 'Find a seat']","['Get on bus', 'Wait for destination']",Wait for destination,1
+6,0.8571428571428571,"['Go to bus stop', 'Wait for bus', 'Get on bus', 'Pay fare', 'Find a seat', 'Wait for destination']","['Go to bus stop', 'Get off bus']",Get off bus,1
+0,0.0,[],"['Enter bus.', 'Exit bus.']",Enter bus.,0
+1,0.16666666666666666,['Enter bus.'],"['Place change in receptor.', 'Sit down.']",Place change in receptor.,0
+2,0.3333333333333333,"['Enter bus.', 'Place change in receptor.']","['Exit bus.', 'Find a seat.']",Find a seat.,1
+3,0.5,"['Enter bus.', 'Place change in receptor.', 'Find a seat.']","['Sit down.', 'Exit bus.']",Sit down.,0
+4,0.6666666666666666,"['Enter bus.', 'Place change in receptor.', 'Find a seat.', 'Sit down.']","['Wait for your stop.', 'Place change in receptor.']",Wait for your stop.,0
+5,0.8333333333333334,"['Enter bus.', 'Place change in receptor.', 'Find a seat.', 'Sit down.', 'Wait for your stop.']","['Exit bus.', 'Enter bus.']",Exit bus.,0
+0,0.0,[],"['Wait at your bus stop', 'Exit at your destination when the bus stops']",Wait at your bus stop,0
+1,0.16666666666666666,['Wait at your bus stop'],"['Sit in a seat until you see your destination', 'Board the bus when it arrives']",Board the bus when it arrives,1
+2,0.3333333333333333,"['Wait at your bus stop', 'Board the bus when it arrives']","['Pull the cord alerting the driver to stop', 'Pay the fare to ride the bus']",Pay the fare to ride the bus,1
+3,0.5,"['Wait at your bus stop', 'Board the bus when it arrives', 'Pay the fare to ride the bus']","['Wait at your bus stop', 'Sit in a seat until you see your destination']",Sit in a seat until you see your destination,1
+4,0.6666666666666666,"['Wait at your bus stop', 'Board the bus when it arrives', 'Pay the fare to ride the bus', 'Sit in a seat until you see your destination']","['Board the bus when it arrives', 'Pull the cord alerting the driver to stop']",Pull the cord alerting the driver to stop,1
+5,0.8333333333333334,"['Wait at your bus stop', 'Board the bus when it arrives', 'Pay the fare to ride the bus', 'Sit in a seat until you see your destination', 'Pull the cord alerting the driver to stop']","['Exit at your destination when the bus stops', 'Wait at your bus stop']",Exit at your destination when the bus stops,0
+0,0.0,[],"['get on the bus', 'go to the bus stop']",go to the bus stop,1
+1,0.125,['go to the bus stop'],"['sit down', 'check the schedule']",check the schedule,1
+2,0.25,"['go to the bus stop', 'check the schedule']","['pay the fare', 'prepare the fare']",prepare the fare,1
+3,0.375,"['go to the bus stop', 'check the schedule', 'prepare the fare']","['wait', 'wait for my stop']",wait,0
+4,0.5,"['go to the bus stop', 'check the schedule', 'prepare the fare', 'wait']","['go to the bus stop', 'get on the bus']",get on the bus,1
+5,0.625,"['go to the bus stop', 'check the schedule', 'prepare the fare', 'wait', 'get on the bus']","['go to the bus stop', 'pay the fare']",pay the fare,1
+6,0.75,"['go to the bus stop', 'check the schedule', 'prepare the fare', 'wait', 'get on the bus', 'pay the fare']","['sit down', 'prepare the fare']",sit down,0
+7,0.875,"['go to the bus stop', 'check the schedule', 'prepare the fare', 'wait', 'get on the bus', 'pay the fare', 'sit down']","['wait', 'wait for my stop']",wait for my stop,1
+0,0.0,[],"['Pay the bus driver', 'Head to the bus stop']",Head to the bus stop,1
+1,0.16666666666666666,['Head to the bus stop'],"['Wait on the bench until the bus arrives', 'Pay the bus driver']",Wait on the bench until the bus arrives,0
+2,0.3333333333333333,"['Head to the bus stop', 'Wait on the bench until the bus arrives']","['When the bus comes enter the bus', 'Find a seat on the bus']",When the bus comes enter the bus,0
+3,0.5,"['Head to the bus stop', 'Wait on the bench until the bus arrives', 'When the bus comes enter the bus']","['Pay the bus driver', 'When your stop comes get up and go the exit door of bus']",Pay the bus driver,0
+4,0.6666666666666666,"['Head to the bus stop', 'Wait on the bench until the bus arrives', 'When the bus comes enter the bus', 'Pay the bus driver']","['Wait on the bench until the bus arrives', 'Find a seat on the bus']",Find a seat on the bus,1
+5,0.8333333333333334,"['Head to the bus stop', 'Wait on the bench until the bus arrives', 'When the bus comes enter the bus', 'Pay the bus driver', 'Find a seat on the bus']","['Head to the bus stop', 'When your stop comes get up and go the exit door of bus']",When your stop comes get up and go the exit door of bus,1
+0,0.0,[],"['Get on bus', 'Walk up to bus stop']",Walk up to bus stop,1
+1,0.14285714285714285,['Walk up to bus stop'],"['Ride to destination', 'Wait for bus to arrive']",Wait for bus to arrive,1
+2,0.2857142857142857,"['Walk up to bus stop', 'Wait for bus to arrive']","['Watch bus arrive', 'Get off bus']",Watch bus arrive,0
+3,0.42857142857142855,"['Walk up to bus stop', 'Wait for bus to arrive', 'Watch bus arrive']","['See bus leave', 'Get on bus']",Get on bus,1
+4,0.5714285714285714,"['Walk up to bus stop', 'Wait for bus to arrive', 'Watch bus arrive', 'Get on bus']","['See bus leave', 'Ride to destination']",Ride to destination,1
+5,0.7142857142857143,"['Walk up to bus stop', 'Wait for bus to arrive', 'Watch bus arrive', 'Get on bus', 'Ride to destination']","['Get off bus', 'Watch bus arrive']",Get off bus,0
+6,0.8571428571428571,"['Walk up to bus stop', 'Wait for bus to arrive', 'Watch bus arrive', 'Get on bus', 'Ride to destination', 'Get off bus']","['Watch bus arrive', 'See bus leave']",See bus leave,1
+0,0.0,[],"['Wait for the stop you want to go to', 'Wait at a bus stop']",Wait at a bus stop,1
+1,0.16666666666666666,['Wait at a bus stop'],"['Wait at a bus stop', 'When the bus arrives get on']",When the bus arrives get on,1
+2,0.3333333333333333,"['Wait at a bus stop', 'When the bus arrives get on']","['Pay the driver', 'Exit the bus']",Pay the driver,0
+3,0.5,"['Wait at a bus stop', 'When the bus arrives get on', 'Pay the driver']","['Find a seat', 'Wait at a bus stop']",Find a seat,0
+4,0.6666666666666666,"['Wait at a bus stop', 'When the bus arrives get on', 'Pay the driver', 'Find a seat']","['Wait for the stop you want to go to', 'Wait at a bus stop']",Wait for the stop you want to go to,0
+5,0.8333333333333334,"['Wait at a bus stop', 'When the bus arrives get on', 'Pay the driver', 'Find a seat', 'Wait for the stop you want to go to']","['Wait at a bus stop', 'Exit the bus']",Exit the bus,1
+0,0.0,[],"['Get on the bus', 'Wait for the bus']",Wait for the bus,1
+1,0.14285714285714285,['Wait for the bus'],"['Sit down', 'Get on the bus']",Get on the bus,1
+2,0.2857142857142857,"['Wait for the bus', 'Get on the bus']","['Pay fare', 'Sit down']",Pay fare,0
+3,0.42857142857142855,"['Wait for the bus', 'Get on the bus', 'Pay fare']","['Stop bus at destination', 'Find a seat']",Find a seat,1
+4,0.5714285714285714,"['Wait for the bus', 'Get on the bus', 'Pay fare', 'Find a seat']","['Sit down', 'Wait for the bus']",Sit down,0
+5,0.7142857142857143,"['Wait for the bus', 'Get on the bus', 'Pay fare', 'Find a seat', 'Sit down']","['Stop bus at destination', 'Wait for the bus']",Stop bus at destination,0
+6,0.8571428571428571,"['Wait for the bus', 'Get on the bus', 'Pay fare', 'Find a seat', 'Sit down', 'Stop bus at destination']","['Find a seat', 'Get off the bus']",Get off the bus,1
+0,0.0,[],"['Pay the fare.', 'Go to the bus stop.']",Go to the bus stop.,1
+1,0.16666666666666666,['Go to the bus stop.'],"['Go to the bus stop.', 'Wait for the bus to arrive.']",Wait for the bus to arrive.,1
+2,0.3333333333333333,"['Go to the bus stop.', 'Wait for the bus to arrive.']","['Get on the bus.', 'Get off the bus at your stop.']",Get on the bus.,0
+3,0.5,"['Go to the bus stop.', 'Wait for the bus to arrive.', 'Get on the bus.']","['Go to the bus stop.', 'Pay the fare.']",Pay the fare.,1
+4,0.6666666666666666,"['Go to the bus stop.', 'Wait for the bus to arrive.', 'Get on the bus.', 'Pay the fare.']","['Go to the bus stop.', 'Take a seat.']",Take a seat.,1
+5,0.8333333333333334,"['Go to the bus stop.', 'Wait for the bus to arrive.', 'Get on the bus.', 'Pay the fare.', 'Take a seat.']","['Get off the bus at your stop.', 'Wait for the bus to arrive.']",Get off the bus at your stop.,0
+0,0.0,[],"['get on bus when it comes', 'make your way to bus stop']",make your way to bus stop,1
+1,0.14285714285714285,['make your way to bus stop'],"['wait for bus', 'get off bus']",wait for bus,0
+2,0.2857142857142857,"['make your way to bus stop', 'wait for bus']","['get on bus when it comes', 'sit down']",get on bus when it comes,0
+3,0.42857142857142855,"['make your way to bus stop', 'wait for bus', 'get on bus when it comes']","['get off bus', 'pay fair']",pay fair,1
+4,0.5714285714285714,"['make your way to bus stop', 'wait for bus', 'get on bus when it comes', 'pay fair']","['sit down', 'get off bus']",sit down,0
+5,0.7142857142857143,"['make your way to bus stop', 'wait for bus', 'get on bus when it comes', 'pay fair', 'sit down']","['wait for bus', 'pull rope when your stop comes']",pull rope when your stop comes,1
+6,0.8571428571428571,"['make your way to bus stop', 'wait for bus', 'get on bus when it comes', 'pay fair', 'sit down', 'pull rope when your stop comes']","['make your way to bus stop', 'get off bus']",get off bus,1
+0,0.0,[],"['go to bus stop', 'find a seat']",go to bus stop,0
+1,0.14285714285714285,['go to bus stop'],"['go to bus stop', 'wait on bench']",wait on bench,1
+2,0.2857142857142857,"['go to bus stop', 'wait on bench']","['get on bus', 'find a seat']",get on bus,0
+3,0.42857142857142855,"['go to bus stop', 'wait on bench', 'get on bus']","['wait for your stop', 'pay the driver']",pay the driver,1
+4,0.5714285714285714,"['go to bus stop', 'wait on bench', 'get on bus', 'pay the driver']","['find a seat', 'wait on bench']",find a seat,0
+5,0.7142857142857143,"['go to bus stop', 'wait on bench', 'get on bus', 'pay the driver', 'find a seat']","['wait for your stop', 'wait on bench']",wait for your stop,0
+6,0.8571428571428571,"['go to bus stop', 'wait on bench', 'get on bus', 'pay the driver', 'find a seat', 'wait for your stop']","['get on bus', 'exit bus']",exit bus,1
+0,0.0,[],"['Find a seat.', 'Wait at the bus stop.']",Wait at the bus stop.,1
+1,0.2,['Wait at the bus stop.'],"['Enter the bus.', 'Enter the bus.']",Enter the bus.,0
+2,0.4,"['Wait at the bus stop.', 'Enter the bus.']","['Exit the bus.', 'Find a seat.']",Find a seat.,1
+3,0.6,"['Wait at the bus stop.', 'Enter the bus.', 'Find a seat.']","['Wait at the bus stop.', 'Use my phone until I get to my destination.']",Use my phone until I get to my destination.,1
+4,0.8,"['Wait at the bus stop.', 'Enter the bus.', 'Find a seat.', 'Use my phone until I get to my destination.']","['Enter the bus.', 'Exit the bus.']",Exit the bus.,1
+0,0.0,[],"['Line up for bus', 'Sit on seat']",Line up for bus,0
+1,0.125,['Line up for bus'],"['Wait for bus stop', 'Wait for bus']",Wait for bus,1
+2,0.25,"['Line up for bus', 'Wait for bus']","['Sit on seat', 'When bus arrives, step on bus']","When bus arrives, step on bus",1
+3,0.375,"['Line up for bus', 'Wait for bus', 'When bus arrives, step on bus']","['Line up for bus', 'Pay for ticket']",Pay for ticket,1
+4,0.5,"['Line up for bus', 'Wait for bus', 'When bus arrives, step on bus', 'Pay for ticket']","['Wait for bus', 'Sit on seat']",Sit on seat,1
+5,0.625,"['Line up for bus', 'Wait for bus', 'When bus arrives, step on bus', 'Pay for ticket', 'Sit on seat']","['Wait for bus', 'Wait for bus stop']",Wait for bus stop,1
+6,0.75,"['Line up for bus', 'Wait for bus', 'When bus arrives, step on bus', 'Pay for ticket', 'Sit on seat', 'Wait for bus stop']","['Press buzzer when close to stop', 'Line up for bus']",Press buzzer when close to stop,0
+7,0.875,"['Line up for bus', 'Wait for bus', 'When bus arrives, step on bus', 'Pay for ticket', 'Sit on seat', 'Wait for bus stop', 'Press buzzer when close to stop']","['Sit on seat', 'When bus stops, get off bus']","When bus stops, get off bus",1
+0,0.0,[],"['Buy ticket.', 'Buy ticket.']",Buy ticket.,0
+1,0.2,['Buy ticket.'],"['Enjoy your bus ride.', 'Wait at bus stop.']",Wait at bus stop.,1
+2,0.4,"['Buy ticket.', 'Wait at bus stop.']","['Enjoy your bus ride.', 'When bus arrives give ticket to bus driver.']",When bus arrives give ticket to bus driver.,1
+3,0.6,"['Buy ticket.', 'Wait at bus stop.', 'When bus arrives give ticket to bus driver.']","['Buy ticket.', 'Pick a seat.']",Pick a seat.,1
+4,0.8,"['Buy ticket.', 'Wait at bus stop.', 'When bus arrives give ticket to bus driver.', 'Pick a seat.']","['Buy ticket.', 'Enjoy your bus ride.']",Enjoy your bus ride.,1
+0,0.0,[],"['Find a seat', 'Wait for bus at bus stop']",Wait for bus at bus stop,1
+1,0.16666666666666666,['Wait for bus at bus stop'],"['Find a seat', 'Get on bus']",Get on bus,1
+2,0.3333333333333333,"['Wait for bus at bus stop', 'Get on bus']","['Get off Bus', 'Pay fare or show bus pass']",Pay fare or show bus pass,1
+3,0.5,"['Wait for bus at bus stop', 'Get on bus', 'Pay fare or show bus pass']","['Get off Bus', 'Find a seat']",Find a seat,1
+4,0.6666666666666666,"['Wait for bus at bus stop', 'Get on bus', 'Pay fare or show bus pass', 'Find a seat']","['Wait till stop', 'Get on bus']",Wait till stop,0
+5,0.8333333333333334,"['Wait for bus at bus stop', 'Get on bus', 'Pay fare or show bus pass', 'Find a seat', 'Wait till stop']","['Pay fare or show bus pass', 'Get off Bus']",Get off Bus,1
+0,0.0,[],"['Wait at bus stop', 'Wait at bus stop']",Wait at bus stop,0
+1,0.2,['Wait at bus stop'],"['Board the bus', 'Find a seat on the bus']",Board the bus,0
+2,0.4,"['Wait at bus stop', 'Board the bus']","['Give bus driver token or money', 'Depart at appropriate destination']",Give bus driver token or money,0
+3,0.6,"['Wait at bus stop', 'Board the bus', 'Give bus driver token or money']","['Wait at bus stop', 'Find a seat on the bus']",Find a seat on the bus,1
+4,0.8,"['Wait at bus stop', 'Board the bus', 'Give bus driver token or money', 'Find a seat on the bus']","['Wait at bus stop', 'Depart at appropriate destination']",Depart at appropriate destination,1
+0,0.0,[],"['Wait at bus station for bus.', 'Enter bus when arrives.']",Wait at bus station for bus.,0
+1,0.2,['Wait at bus station for bus.'],"['Enter bus when arrives.', 'Sit in seat.']",Enter bus when arrives.,0
+2,0.4,"['Wait at bus station for bus.', 'Enter bus when arrives.']","['Get off bus at correct stop.', 'Pay bus driver.']",Pay bus driver.,1
+3,0.6,"['Wait at bus station for bus.', 'Enter bus when arrives.', 'Pay bus driver.']","['Sit in seat.', 'Wait at bus station for bus.']",Sit in seat.,0
+4,0.8,"['Wait at bus station for bus.', 'Enter bus when arrives.', 'Pay bus driver.', 'Sit in seat.']","['Get off bus at correct stop.', 'Wait at bus station for bus.']",Get off bus at correct stop.,0
+0,0.0,[],"['Walk to the bus stop', 'Pay the driver']",Walk to the bus stop,0
+1,0.16666666666666666,['Walk to the bus stop'],"['Board the bus', 'Board the bus']",Board the bus,1
+2,0.3333333333333333,"['Walk to the bus stop', 'Board the bus']","['Sit down', 'Pay the driver']",Pay the driver,1
+3,0.5,"['Walk to the bus stop', 'Board the bus', 'Pay the driver']","['Walk down the aisle', 'Sit down']",Walk down the aisle,0
+4,0.6666666666666666,"['Walk to the bus stop', 'Board the bus', 'Pay the driver', 'Walk down the aisle']","['Find a seat', 'Board the bus']",Find a seat,0
+5,0.8333333333333334,"['Walk to the bus stop', 'Board the bus', 'Pay the driver', 'Walk down the aisle', 'Find a seat']","['Board the bus', 'Sit down']",Sit down,1
+0,0.0,[],"['determine the time the bus arrives', 'determine the time the bus arrives']",determine the time the bus arrives,1
+1,0.14285714285714285,['determine the time the bus arrives'],"['arrive at the pickup point', 'pay the driver']",arrive at the pickup point,0
+2,0.2857142857142857,"['determine the time the bus arrives', 'arrive at the pickup point']","['enter the bus once it arrives', 'wait for your stop to arrive and exit the bus']",enter the bus once it arrives,0
+3,0.42857142857142855,"['determine the time the bus arrives', 'arrive at the pickup point', 'enter the bus once it arrives']","['pay the driver', 'hold on or buckle your seatbelt']",pay the driver,0
+4,0.5714285714285714,"['determine the time the bus arrives', 'arrive at the pickup point', 'enter the bus once it arrives', 'pay the driver']","['arrive at the pickup point', 'locate a seat to sit in']",locate a seat to sit in,1
+5,0.7142857142857143,"['determine the time the bus arrives', 'arrive at the pickup point', 'enter the bus once it arrives', 'pay the driver', 'locate a seat to sit in']","['hold on or buckle your seatbelt', 'arrive at the pickup point']",hold on or buckle your seatbelt,0
+6,0.8571428571428571,"['determine the time the bus arrives', 'arrive at the pickup point', 'enter the bus once it arrives', 'pay the driver', 'locate a seat to sit in', 'hold on or buckle your seatbelt']","['pay the driver', 'wait for your stop to arrive and exit the bus']",wait for your stop to arrive and exit the bus,1
+0,0.0,[],"[""Visit the bus travel operator's website"", 'On the day of travel pack baggage']",Visit the bus travel operator's website,0
+1,0.125,"[""Visit the bus travel operator's website""]","[""Visit the bus travel operator's website"", 'Book ticket online']",Book ticket online,1
+2,0.25,"[""Visit the bus travel operator's website"", 'Book ticket online']","['On the day of travel pack baggage', 'Bus arrives']",On the day of travel pack baggage,0
+3,0.375,"[""Visit the bus travel operator's website"", 'Book ticket online', 'On the day of travel pack baggage']","[""Go to the Travel operator's office(boarding point)"", ""Visit the bus travel operator's website""]",Go to the Travel operator's office(boarding point),0
+4,0.5,"[""Visit the bus travel operator's website"", 'Book ticket online', 'On the day of travel pack baggage', ""Go to the Travel operator's office(boarding point)""]","['Show the ticket to the counter staff and confirm', 'Book ticket online']",Show the ticket to the counter staff and confirm,0
+5,0.625,"[""Visit the bus travel operator's website"", 'Book ticket online', 'On the day of travel pack baggage', ""Go to the Travel operator's office(boarding point)"", 'Show the ticket to the counter staff and confirm']","['Wait in the lounge for the bus to come', 'Book ticket online']",Wait in the lounge for the bus to come,0
+6,0.75,"[""Visit the bus travel operator's website"", 'Book ticket online', 'On the day of travel pack baggage', ""Go to the Travel operator's office(boarding point)"", 'Show the ticket to the counter staff and confirm', 'Wait in the lounge for the bus to come']","['Bus arrives', ""Visit the bus travel operator's website""]",Bus arrives,0
+7,0.875,"[""Visit the bus travel operator's website"", 'Book ticket online', 'On the day of travel pack baggage', ""Go to the Travel operator's office(boarding point)"", 'Show the ticket to the counter staff and confirm', 'Wait in the lounge for the bus to come', 'Bus arrives']","['Board the bus, locate seat number', ""Go to the Travel operator's office(boarding point)""]","Board the bus, locate seat number",0
+0,0.0,[],"['WAIT AT THE BUS STOP', 'WAIT AT THE BUS STOP']",WAIT AT THE BUS STOP,1
+1,0.14285714285714285,['WAIT AT THE BUS STOP'],"['WHEN BUS ARRIVES, FLAG IT DOWN TO STOP', 'BOARD THE BUS']","WHEN BUS ARRIVES, FLAG IT DOWN TO STOP",0
+2,0.2857142857142857,"['WAIT AT THE BUS STOP', 'WHEN BUS ARRIVES, FLAG IT DOWN TO STOP']","['BOARD THE BUS', 'ALIGHT THE BUS AT YOUR STOP']",BOARD THE BUS,0
+3,0.42857142857142855,"['WAIT AT THE BUS STOP', 'WHEN BUS ARRIVES, FLAG IT DOWN TO STOP', 'BOARD THE BUS']","['PAY FOR YOUR TICKET', 'WAIT AT THE BUS STOP']",PAY FOR YOUR TICKET,0
+4,0.5714285714285714,"['WAIT AT THE BUS STOP', 'WHEN BUS ARRIVES, FLAG IT DOWN TO STOP', 'BOARD THE BUS', 'PAY FOR YOUR TICKET']","['WHEN BUS ARRIVES, FLAG IT DOWN TO STOP', 'SIT DOWN']",SIT DOWN,1
+5,0.7142857142857143,"['WAIT AT THE BUS STOP', 'WHEN BUS ARRIVES, FLAG IT DOWN TO STOP', 'BOARD THE BUS', 'PAY FOR YOUR TICKET', 'SIT DOWN']","['WHEN AT YOUR STOP, PRESS THE BELL TO STOP BUS', 'BOARD THE BUS']","WHEN AT YOUR STOP, PRESS THE BELL TO STOP BUS",0
+6,0.8571428571428571,"['WAIT AT THE BUS STOP', 'WHEN BUS ARRIVES, FLAG IT DOWN TO STOP', 'BOARD THE BUS', 'PAY FOR YOUR TICKET', 'SIT DOWN', 'WHEN AT YOUR STOP, PRESS THE BELL TO STOP BUS']","['ALIGHT THE BUS AT YOUR STOP', 'BOARD THE BUS']",ALIGHT THE BUS AT YOUR STOP,0
+0,0.0,[],"['Get onto the bus and hand the card or money to the driver', 'Walk to the bus stop']",Walk to the bus stop,1
+1,0.16666666666666666,['Walk to the bus stop'],"['Wait for the bus', 'When the bus pulls out pull out either a bus card or money']",Wait for the bus,0
+2,0.3333333333333333,"['Walk to the bus stop', 'Wait for the bus']","['Get up at your stop and exit the bus', 'When the bus pulls out pull out either a bus card or money']",When the bus pulls out pull out either a bus card or money,1
+3,0.5,"['Walk to the bus stop', 'Wait for the bus', 'When the bus pulls out pull out either a bus card or money']","['Get onto the bus and hand the card or money to the driver', 'Walk to the bus stop']",Get onto the bus and hand the card or money to the driver,0
+4,0.6666666666666666,"['Walk to the bus stop', 'Wait for the bus', 'When the bus pulls out pull out either a bus card or money', 'Get onto the bus and hand the card or money to the driver']","['Sit in a seat and enjoy the ride', 'Wait for the bus']",Sit in a seat and enjoy the ride,0
+5,0.8333333333333334,"['Walk to the bus stop', 'Wait for the bus', 'When the bus pulls out pull out either a bus card or money', 'Get onto the bus and hand the card or money to the driver', 'Sit in a seat and enjoy the ride']","['Get up at your stop and exit the bus', 'Wait for the bus']",Get up at your stop and exit the bus,0
+0,0.0,[],"['Buy a ticket', 'Wait at the bus stop']",Wait at the bus stop,1
+1,0.2,['Wait at the bus stop'],"['Buy a ticket', 'Board the bus']",Board the bus,1
+2,0.4,"['Wait at the bus stop', 'Board the bus']","['Get down at your desired location', 'Buy a ticket']",Buy a ticket,1
+3,0.6,"['Wait at the bus stop', 'Board the bus', 'Buy a ticket']","['Take your seat', 'Wait at the bus stop']",Take your seat,0
+4,0.8,"['Wait at the bus stop', 'Board the bus', 'Buy a ticket', 'Take your seat']","['Board the bus', 'Get down at your desired location']",Get down at your desired location,1
+0,0.0,[],"['Find a bus stop', 'Find a bus stop']",Find a bus stop,1
+1,0.16666666666666666,['Find a bus stop'],"['Find a bus stop', 'Sit at the stop and wait for the bus']",Sit at the stop and wait for the bus,1
+2,0.3333333333333333,"['Find a bus stop', 'Sit at the stop and wait for the bus']","['Get on the bus when it arrives', 'Get off the bus']",Get on the bus when it arrives,0
+3,0.5,"['Find a bus stop', 'Sit at the stop and wait for the bus', 'Get on the bus when it arrives']","['Pay the toll', 'Find a bus stop']",Pay the toll,0
+4,0.6666666666666666,"['Find a bus stop', 'Sit at the stop and wait for the bus', 'Get on the bus when it arrives', 'Pay the toll']","['Find a bus stop', 'Sit on the bus and wait for your stop']",Sit on the bus and wait for your stop,1
+5,0.8333333333333334,"['Find a bus stop', 'Sit at the stop and wait for the bus', 'Get on the bus when it arrives', 'Pay the toll', 'Sit on the bus and wait for your stop']","['Find a bus stop', 'Get off the bus']",Get off the bus,1
+0,0.0,[],"['Ride the bus to your destination.', 'Decide where to go on the bus.']",Decide where to go on the bus.,1
+1,0.125,['Decide where to go on the bus.'],"['Go to the nearest bus stop.', 'Buy a ticket or pay your fare.']",Go to the nearest bus stop.,0
+2,0.25,"['Decide where to go on the bus.', 'Go to the nearest bus stop.']","['Wait for the bus to arrive.', 'Make a connection if required.']",Wait for the bus to arrive.,0
+3,0.375,"['Decide where to go on the bus.', 'Go to the nearest bus stop.', 'Wait for the bus to arrive.']","['Board the bus.', 'Make a connection if required.']",Board the bus.,0
+4,0.5,"['Decide where to go on the bus.', 'Go to the nearest bus stop.', 'Wait for the bus to arrive.', 'Board the bus.']","['Buy a ticket or pay your fare.', 'Go to the nearest bus stop.']",Buy a ticket or pay your fare.,0
+5,0.625,"['Decide where to go on the bus.', 'Go to the nearest bus stop.', 'Wait for the bus to arrive.', 'Board the bus.', 'Buy a ticket or pay your fare.']","['Wait for the bus to arrive.', 'Ride the bus to your destination.']",Ride the bus to your destination.,1
+6,0.75,"['Decide where to go on the bus.', 'Go to the nearest bus stop.', 'Wait for the bus to arrive.', 'Board the bus.', 'Buy a ticket or pay your fare.', 'Ride the bus to your destination.']","['Wait for the bus to arrive.', 'Make a connection if required.']",Make a connection if required.,1
+7,0.875,"['Decide where to go on the bus.', 'Go to the nearest bus stop.', 'Wait for the bus to arrive.', 'Board the bus.', 'Buy a ticket or pay your fare.', 'Ride the bus to your destination.', 'Make a connection if required.']","['Exit the bus when you arrive at your destination.', 'Buy a ticket or pay your fare.']",Exit the bus when you arrive at your destination.,0
+0,0.0,[],"['choose location you desire to go to', 'choose location you desire to go to']",choose location you desire to go to,1
+1,0.14285714285714285,['choose location you desire to go to'],"['choose location you desire to go to', 'find correct bus that will take you to location']",find correct bus that will take you to location,1
+2,0.2857142857142857,"['choose location you desire to go to', 'find correct bus that will take you to location']","['get on bus', 'sit in seat until desired location arrives']",get on bus,0
+3,0.42857142857142855,"['choose location you desire to go to', 'find correct bus that will take you to location', 'get on bus']","['pay bus fare', 'choose location you desire to go to']",pay bus fare,0
+4,0.5714285714285714,"['choose location you desire to go to', 'find correct bus that will take you to location', 'get on bus', 'pay bus fare']","['choose seat to sit in', 'choose location you desire to go to']",choose seat to sit in,0
+5,0.7142857142857143,"['choose location you desire to go to', 'find correct bus that will take you to location', 'get on bus', 'pay bus fare', 'choose seat to sit in']","['choose location you desire to go to', 'sit in seat until desired location arrives']",sit in seat until desired location arrives,1
+6,0.8571428571428571,"['choose location you desire to go to', 'find correct bus that will take you to location', 'get on bus', 'pay bus fare', 'choose seat to sit in', 'sit in seat until desired location arrives']","['get off bus at desired location', 'pay bus fare']",get off bus at desired location,0
+0,0.0,[],"['Stand up.', 'Approach bus.']",Approach bus.,1
+1,0.125,['Approach bus.'],"['Wait for bus to stop.', 'Approach bus.']",Wait for bus to stop.,0
+2,0.25,"['Approach bus.', 'Wait for bus to stop.']","['Wait for people to get off bus.', 'Get off bus at the bus stop you want to get off at.']",Wait for people to get off bus.,0
+3,0.375,"['Approach bus.', 'Wait for bus to stop.', 'Wait for people to get off bus.']","['Get on bus through door.', 'Stand up.']",Get on bus through door.,0
+4,0.5,"['Approach bus.', 'Wait for bus to stop.', 'Wait for people to get off bus.', 'Get on bus through door.']","['Approach bus.', 'Find a seat and sit down.']",Find a seat and sit down.,1
+5,0.625,"['Approach bus.', 'Wait for bus to stop.', 'Wait for people to get off bus.', 'Get on bus through door.', 'Find a seat and sit down.']","['Pull cord when you are ready to stop and get off bus.', 'Wait for people to get off bus.']",Pull cord when you are ready to stop and get off bus.,0
+6,0.75,"['Approach bus.', 'Wait for bus to stop.', 'Wait for people to get off bus.', 'Get on bus through door.', 'Find a seat and sit down.', 'Pull cord when you are ready to stop and get off bus.']","['Get on bus through door.', 'Stand up.']",Stand up.,1
+7,0.875,"['Approach bus.', 'Wait for bus to stop.', 'Wait for people to get off bus.', 'Get on bus through door.', 'Find a seat and sit down.', 'Pull cord when you are ready to stop and get off bus.', 'Stand up.']","['Get off bus at the bus stop you want to get off at.', 'Find a seat and sit down.']",Get off bus at the bus stop you want to get off at.,0
+0,0.0,[],"['Wait at bus stop for bus', 'Find correct bus stop']",Find correct bus stop,1
+1,0.16666666666666666,['Find correct bus stop'],"['Wait at bus stop for bus', 'Wait at bus stop for bus']",Wait at bus stop for bus,1
+2,0.3333333333333333,"['Find correct bus stop', 'Wait at bus stop for bus']","['Sit safely in bus', 'Pay bus fare']",Pay bus fare,1
+3,0.5,"['Find correct bus stop', 'Wait at bus stop for bus', 'Pay bus fare']","['Find seat on bus', 'Find correct bus stop']",Find seat on bus,0
+4,0.6666666666666666,"['Find correct bus stop', 'Wait at bus stop for bus', 'Pay bus fare', 'Find seat on bus']","['Find correct bus stop', 'Sit safely in bus']",Sit safely in bus,1
+5,0.8333333333333334,"['Find correct bus stop', 'Wait at bus stop for bus', 'Pay bus fare', 'Find seat on bus', 'Sit safely in bus']","['Exit bus at destination', 'Find correct bus stop']",Exit bus at destination,0
+0,0.0,[],"['Go to bus stop.', 'Get up and walk off the bus.']",Go to bus stop.,0
+1,0.14285714285714285,['Go to bus stop.'],"['Get on bus.', 'Sit down.']",Get on bus.,0
+2,0.2857142857142857,"['Go to bus stop.', 'Get on bus.']","['Give driver bus money.', 'Get up and walk off the bus.']",Give driver bus money.,0
+3,0.42857142857142855,"['Go to bus stop.', 'Get on bus.', 'Give driver bus money.']","['Go to bus stop.', 'Find a seat.']",Find a seat.,1
+4,0.5714285714285714,"['Go to bus stop.', 'Get on bus.', 'Give driver bus money.', 'Find a seat.']","['Get up and walk off the bus.', 'Sit down.']",Sit down.,1
+5,0.7142857142857143,"['Go to bus stop.', 'Get on bus.', 'Give driver bus money.', 'Find a seat.', 'Sit down.']","['Pull lever to ring a stop.', 'Give driver bus money.']",Pull lever to ring a stop.,0
+6,0.8571428571428571,"['Go to bus stop.', 'Get on bus.', 'Give driver bus money.', 'Find a seat.', 'Sit down.', 'Pull lever to ring a stop.']","['Get up and walk off the bus.', 'Get on bus.']",Get up and walk off the bus.,0
+0,0.0,[],"['Wait for the bus to arrive', 'Get off']",Wait for the bus to arrive,0
+1,0.16666666666666666,['Wait for the bus to arrive'],"['Wait for the bus to get to your stop', 'Get on the bus']",Get on the bus,1
+2,0.3333333333333333,"['Wait for the bus to arrive', 'Get on the bus']","['Pay the fee', 'Wait for the bus to get to your stop']",Pay the fee,0
+3,0.5,"['Wait for the bus to arrive', 'Get on the bus', 'Pay the fee']","['Find a seat', 'Wait for the bus to arrive']",Find a seat,0
+4,0.6666666666666666,"['Wait for the bus to arrive', 'Get on the bus', 'Pay the fee', 'Find a seat']","['Get on the bus', 'Wait for the bus to get to your stop']",Wait for the bus to get to your stop,1
+5,0.8333333333333334,"['Wait for the bus to arrive', 'Get on the bus', 'Pay the fee', 'Find a seat', 'Wait for the bus to get to your stop']","['Wait for the bus to arrive', 'Get off']",Get off,1
+0,0.0,[],"['Wait at bus stop', 'Wait at bus stop']",Wait at bus stop,1
+1,0.16666666666666666,['Wait at bus stop'],"['Pay for ride with quarters or prepaid pass', 'When bus arrives, step onto bus']","When bus arrives, step onto bus",1
+2,0.3333333333333333,"['Wait at bus stop', 'When bus arrives, step onto bus']","['Pay for ride with quarters or prepaid pass', 'Wait until bus arrives at destination']",Pay for ride with quarters or prepaid pass,0
+3,0.5,"['Wait at bus stop', 'When bus arrives, step onto bus', 'Pay for ride with quarters or prepaid pass']","['find seat on bus', 'Wait at bus stop']",find seat on bus,0
+4,0.6666666666666666,"['Wait at bus stop', 'When bus arrives, step onto bus', 'Pay for ride with quarters or prepaid pass', 'find seat on bus']","['When bus arrives, step onto bus', 'Wait until bus arrives at destination']",Wait until bus arrives at destination,1
+5,0.8333333333333334,"['Wait at bus stop', 'When bus arrives, step onto bus', 'Pay for ride with quarters or prepaid pass', 'find seat on bus', 'Wait until bus arrives at destination']","['Walk off the bus', 'Wait at bus stop']",Walk off the bus,0
+0,0.0,[],"['Wait for passengers to exit the bus', 'Go to the bus stop']",Go to the bus stop,1
+1,0.125,['Go to the bus stop'],"['Get on the bus', 'Get your bus pass or fare ready']",Get your bus pass or fare ready,1
+2,0.25,"['Go to the bus stop', 'Get your bus pass or fare ready']","['Pay your fare', 'When bus approaches, wave so they know you want to get on']","When bus approaches, wave so they know you want to get on",1
+3,0.375,"['Go to the bus stop', 'Get your bus pass or fare ready', 'When bus approaches, wave so they know you want to get on']","['Wait for passengers to exit the bus', 'Sit down']",Wait for passengers to exit the bus,0
+4,0.5,"['Go to the bus stop', 'Get your bus pass or fare ready', 'When bus approaches, wave so they know you want to get on', 'Wait for passengers to exit the bus']","['Go to the bus stop', 'Get on the bus']",Get on the bus,1
+5,0.625,"['Go to the bus stop', 'Get your bus pass or fare ready', 'When bus approaches, wave so they know you want to get on', 'Wait for passengers to exit the bus', 'Get on the bus']","['Pay your fare', 'Get your bus pass or fare ready']",Pay your fare,0
+6,0.75,"['Go to the bus stop', 'Get your bus pass or fare ready', 'When bus approaches, wave so they know you want to get on', 'Wait for passengers to exit the bus', 'Get on the bus', 'Pay your fare']","['Get your bus pass or fare ready', 'Find an empty seat']",Find an empty seat,1
+7,0.875,"['Go to the bus stop', 'Get your bus pass or fare ready', 'When bus approaches, wave so they know you want to get on', 'Wait for passengers to exit the bus', 'Get on the bus', 'Pay your fare', 'Find an empty seat']","['Sit down', 'When bus approaches, wave so they know you want to get on']",Sit down,0
+0,0.0,[],"['Grab my bus ticket.', 'Find a seat by the window.']",Grab my bus ticket.,0
+1,0.2,['Grab my bus ticket.'],"['Find a seat by the window.', 'Wait at the bus stop.']",Wait at the bus stop.,1
+2,0.4,"['Grab my bus ticket.', 'Wait at the bus stop.']","['Sit quietly.', 'Get on the bus.']",Get on the bus.,1
+3,0.6,"['Grab my bus ticket.', 'Wait at the bus stop.', 'Get on the bus.']","['Find a seat by the window.', 'Grab my bus ticket.']",Find a seat by the window.,0
+4,0.8,"['Grab my bus ticket.', 'Wait at the bus stop.', 'Get on the bus.', 'Find a seat by the window.']","['Sit quietly.', 'Grab my bus ticket.']",Sit quietly.,0
+0,0.0,[],"['Find a bus stop.', 'Find a seat.']",Find a bus stop.,0
+1,0.125,['Find a bus stop.'],"['Wait on the bus.', 'Ride the bus until you are at your destination.']",Wait on the bus.,0
+2,0.25,"['Find a bus stop.', 'Wait on the bus.']","['Make sure the bus is going to your destination.', 'Exit the bus.']",Make sure the bus is going to your destination.,0
+3,0.375,"['Find a bus stop.', 'Wait on the bus.', 'Make sure the bus is going to your destination.']","['Walk onto the bus.', 'Find a seat.']",Walk onto the bus.,0
+4,0.5,"['Find a bus stop.', 'Wait on the bus.', 'Make sure the bus is going to your destination.', 'Walk onto the bus.']","['Pay the fare.', 'Ride the bus until you are at your destination.']",Pay the fare.,0
+5,0.625,"['Find a bus stop.', 'Wait on the bus.', 'Make sure the bus is going to your destination.', 'Walk onto the bus.', 'Pay the fare.']","['Find a bus stop.', 'Find a seat.']",Find a seat.,1
+6,0.75,"['Find a bus stop.', 'Wait on the bus.', 'Make sure the bus is going to your destination.', 'Walk onto the bus.', 'Pay the fare.', 'Find a seat.']","['Ride the bus until you are at your destination.', 'Make sure the bus is going to your destination.']",Ride the bus until you are at your destination.,0
+7,0.875,"['Find a bus stop.', 'Wait on the bus.', 'Make sure the bus is going to your destination.', 'Walk onto the bus.', 'Pay the fare.', 'Find a seat.', 'Ride the bus until you are at your destination.']","['Exit the bus.', 'Make sure the bus is going to your destination.']",Exit the bus.,0
+0,0.0,[],"['Get onto bus', 'Get onto bus']",Get onto bus,1
+1,0.16666666666666666,['Get onto bus'],"['Sit in that seat', 'Put bus fare in fare slot']",Put bus fare in fare slot,1
+2,0.3333333333333333,"['Get onto bus', 'Put bus fare in fare slot']","['Find an unoccupied seat', 'Stand up when bus stops at your stop']",Find an unoccupied seat,0
+3,0.5,"['Get onto bus', 'Put bus fare in fare slot', 'Find an unoccupied seat']","['Sit in that seat', 'Get onto bus']",Sit in that seat,0
+4,0.6666666666666666,"['Get onto bus', 'Put bus fare in fare slot', 'Find an unoccupied seat', 'Sit in that seat']","['Put bus fare in fare slot', 'Stand up when bus stops at your stop']",Stand up when bus stops at your stop,1
+5,0.8333333333333334,"['Get onto bus', 'Put bus fare in fare slot', 'Find an unoccupied seat', 'Sit in that seat', 'Stand up when bus stops at your stop']","['Get onto bus', 'Walk off bus']",Walk off bus,1
+0,0.0,[],"['go to bus stop', 'drop coins into slot']",go to bus stop,0
+1,0.125,['go to bus stop'],"['wait for stop', 'wait for bus to arrive']",wait for bus to arrive,1
+2,0.25,"['go to bus stop', 'wait for bus to arrive']","['wait for bus to stop', 'walk to middle of bus']",wait for bus to stop,0
+3,0.375,"['go to bus stop', 'wait for bus to arrive', 'wait for bus to stop']","['wait for stop', 'get on bus']",get on bus,1
+4,0.5,"['go to bus stop', 'wait for bus to arrive', 'wait for bus to stop', 'get on bus']","['drop coins into slot', 'go to bus stop']",drop coins into slot,0
+5,0.625,"['go to bus stop', 'wait for bus to arrive', 'wait for bus to stop', 'get on bus', 'drop coins into slot']","['wait for bus to arrive', 'walk to middle of bus']",walk to middle of bus,1
+6,0.75,"['go to bus stop', 'wait for bus to arrive', 'wait for bus to stop', 'get on bus', 'drop coins into slot', 'walk to middle of bus']","['sit down', 'get on bus']",sit down,0
+7,0.875,"['go to bus stop', 'wait for bus to arrive', 'wait for bus to stop', 'get on bus', 'drop coins into slot', 'walk to middle of bus', 'sit down']","['wait for stop', 'wait for bus to stop']",wait for stop,0
+0,0.0,[],"['Enter into the bus', 'Get off at your stop']",Enter into the bus,0
+1,0.14285714285714285,['Enter into the bus'],"['Enter into the bus', 'Find a seat and occupy it']",Find a seat and occupy it,1
+2,0.2857142857142857,"['Enter into the bus', 'Find a seat and occupy it']","['Tell your stop name to conductor', 'Get the ticket']",Tell your stop name to conductor,0
+3,0.42857142857142855,"['Enter into the bus', 'Find a seat and occupy it', 'Tell your stop name to conductor']","['Get off at your stop', 'Pay your fare']",Pay your fare,1
+4,0.5714285714285714,"['Enter into the bus', 'Find a seat and occupy it', 'Tell your stop name to conductor', 'Pay your fare']","['Get the ticket', 'Get off at your stop']",Get the ticket,0
+5,0.7142857142857143,"['Enter into the bus', 'Find a seat and occupy it', 'Tell your stop name to conductor', 'Pay your fare', 'Get the ticket']","['Wait for your stop', 'Find a seat and occupy it']",Wait for your stop,0
+6,0.8571428571428571,"['Enter into the bus', 'Find a seat and occupy it', 'Tell your stop name to conductor', 'Pay your fare', 'Get the ticket', 'Wait for your stop']","['Get off at your stop', 'Find a seat and occupy it']",Get off at your stop,0
+0,0.0,[],"['wait in line to board bus', 'Choose bus route with desired destination']",Choose bus route with desired destination,1
+1,0.125,['Choose bus route with desired destination'],"['wait at bus spot for pre chosen bus', 'pay bus fare']",wait at bus spot for pre chosen bus,0
+2,0.25,"['Choose bus route with desired destination', 'wait at bus spot for pre chosen bus']","['exit at bus stop at desired destination', 'wait in line to board bus']",wait in line to board bus,1
+3,0.375,"['Choose bus route with desired destination', 'wait at bus spot for pre chosen bus', 'wait in line to board bus']","['Choose bus route with desired destination', 'pay bus fare']",pay bus fare,1
+4,0.5,"['Choose bus route with desired destination', 'wait at bus spot for pre chosen bus', 'wait in line to board bus', 'pay bus fare']","['signal driver of wish to exit', 'choose seat']",choose seat,1
+5,0.625,"['Choose bus route with desired destination', 'wait at bus spot for pre chosen bus', 'wait in line to board bus', 'pay bus fare', 'choose seat']","['wait in line to board bus', 'sit until close to your destination']",sit until close to your destination,1
+6,0.75,"['Choose bus route with desired destination', 'wait at bus spot for pre chosen bus', 'wait in line to board bus', 'pay bus fare', 'choose seat', 'sit until close to your destination']","['Choose bus route with desired destination', 'signal driver of wish to exit']",signal driver of wish to exit,1
+7,0.875,"['Choose bus route with desired destination', 'wait at bus spot for pre chosen bus', 'wait in line to board bus', 'pay bus fare', 'choose seat', 'sit until close to your destination', 'signal driver of wish to exit']","['wait at bus spot for pre chosen bus', 'exit at bus stop at desired destination']",exit at bus stop at desired destination,1
+0,0.0,[],"['Wait at a bus station.', 'Pay the ticket.']",Wait at a bus station.,0
+1,0.16666666666666666,['Wait at a bus station.'],"['Find a seat.', 'Get on the bus when the bus stops at the station.']",Get on the bus when the bus stops at the station.,1
+2,0.3333333333333333,"['Wait at a bus station.', 'Get on the bus when the bus stops at the station.']","['Pay the ticket.', 'Pull the string to let the driver know when you arrive at the destination.']",Pay the ticket.,0
+3,0.5,"['Wait at a bus station.', 'Get on the bus when the bus stops at the station.', 'Pay the ticket.']","['Wait at a bus station.', 'Find a seat.']",Find a seat.,1
+4,0.6666666666666666,"['Wait at a bus station.', 'Get on the bus when the bus stops at the station.', 'Pay the ticket.', 'Find a seat.']","['Pull the string to let the driver know when you arrive at the destination.', 'Wait at a bus station.']",Pull the string to let the driver know when you arrive at the destination.,0
+5,0.8333333333333334,"['Wait at a bus station.', 'Get on the bus when the bus stops at the station.', 'Pay the ticket.', 'Find a seat.', 'Pull the string to let the driver know when you arrive at the destination.']","['Wait at a bus station.', 'Get off the bus.']",Get off the bus.,1
+0,0.0,[],"['Pay the bus driver if there is a fee.', 'Wait for the bus to arrive.']",Wait for the bus to arrive.,1
+1,0.125,['Wait for the bus to arrive.'],"['Get on the bus.', 'Let the driver know when you would like to get off of the bus.']",Get on the bus.,0
+2,0.25,"['Wait for the bus to arrive.', 'Get on the bus.']","['Let the driver know when you would like to get off of the bus.', 'Pay the bus driver if there is a fee.']",Pay the bus driver if there is a fee.,1
+3,0.375,"['Wait for the bus to arrive.', 'Get on the bus.', 'Pay the bus driver if there is a fee.']","['Wait for the bus to arrive.', 'Choose a vacant seat.']",Choose a vacant seat.,1
+4,0.5,"['Wait for the bus to arrive.', 'Get on the bus.', 'Pay the bus driver if there is a fee.', 'Choose a vacant seat.']","['Wear a seat belt, if provided one.', 'Get off the bus at your destination.']","Wear a seat belt, if provided one.",0
+5,0.625,"['Wait for the bus to arrive.', 'Get on the bus.', 'Pay the bus driver if there is a fee.', 'Choose a vacant seat.', 'Wear a seat belt, if provided one.']","['Ride the bus.', 'Get off the bus at your destination.']",Ride the bus.,0
+6,0.75,"['Wait for the bus to arrive.', 'Get on the bus.', 'Pay the bus driver if there is a fee.', 'Choose a vacant seat.', 'Wear a seat belt, if provided one.', 'Ride the bus.']","['Pay the bus driver if there is a fee.', 'Let the driver know when you would like to get off of the bus.']",Let the driver know when you would like to get off of the bus.,1
+7,0.875,"['Wait for the bus to arrive.', 'Get on the bus.', 'Pay the bus driver if there is a fee.', 'Choose a vacant seat.', 'Wear a seat belt, if provided one.', 'Ride the bus.', 'Let the driver know when you would like to get off of the bus.']","['Get off the bus at your destination.', 'Get on the bus.']",Get off the bus at your destination.,0
+0,0.0,[],"['get on board of a bus', 'arrive to destination on bus']",get on board of a bus,0
+1,0.2,['get on board of a bus'],"['sing if desired', 'sit on the bus']",sit on the bus,1
+2,0.4,"['get on board of a bus', 'sit on the bus']","['arrive to destination on bus', 'enjoy ride on bus']",enjoy ride on bus,1
+3,0.6,"['get on board of a bus', 'sit on the bus', 'enjoy ride on bus']","['sing if desired', 'get on board of a bus']",sing if desired,0
+4,0.8,"['get on board of a bus', 'sit on the bus', 'enjoy ride on bus', 'sing if desired']","['sit on the bus', 'arrive to destination on bus']",arrive to destination on bus,1
+0,0.0,[],"['Go to to the bus station', 'Go to to the bus station']",Go to to the bus station,1
+1,0.125,['Go to to the bus station'],"['Stand in ticket counter queue', 'Get down at your destination']",Stand in ticket counter queue,0
+2,0.25,"['Go to to the bus station', 'Stand in ticket counter queue']","['Sit in your seat', 'Purchase a ticket']",Purchase a ticket,1
+3,0.375,"['Go to to the bus station', 'Stand in ticket counter queue', 'Purchase a ticket']","['Go to the bus bay', 'Go to to the bus station']",Go to the bus bay,0
+4,0.5,"['Go to to the bus station', 'Stand in ticket counter queue', 'Purchase a ticket', 'Go to the bus bay']","['Go to to the bus station', 'Board the bus']",Board the bus,1
+5,0.625,"['Go to to the bus station', 'Stand in ticket counter queue', 'Purchase a ticket', 'Go to the bus bay', 'Board the bus']","['Stand in ticket counter queue', 'Sit in your seat']",Sit in your seat,1
+6,0.75,"['Go to to the bus station', 'Stand in ticket counter queue', 'Purchase a ticket', 'Go to the bus bay', 'Board the bus', 'Sit in your seat']","['Travel', 'Go to to the bus station']",Travel,0
+7,0.875,"['Go to to the bus station', 'Stand in ticket counter queue', 'Purchase a ticket', 'Go to the bus bay', 'Board the bus', 'Sit in your seat', 'Travel']","['Purchase a ticket', 'Get down at your destination']",Get down at your destination,1
+0,0.0,[],"['Wait for bus at bus stop', 'Take a seat']",Wait for bus at bus stop,0
+1,0.125,['Wait for bus at bus stop'],"['When bus stops, board bus', 'Take a seat']","When bus stops, board bus",0
+2,0.25,"['Wait for bus at bus stop', 'When bus stops, board bus']","['Pay bus fare or show pass', 'Exit bus']",Pay bus fare or show pass,0
+3,0.375,"['Wait for bus at bus stop', 'When bus stops, board bus', 'Pay bus fare or show pass']","['Exit bus', 'Take a seat']",Take a seat,1
+4,0.5,"['Wait for bus at bus stop', 'When bus stops, board bus', 'Pay bus fare or show pass', 'Take a seat']","['Exit bus', 'Watch for desired location']",Watch for desired location,1
+5,0.625,"['Wait for bus at bus stop', 'When bus stops, board bus', 'Pay bus fare or show pass', 'Take a seat', 'Watch for desired location']","['Press stop indicator', 'When bus stops, board bus']",Press stop indicator,0
+6,0.75,"['Wait for bus at bus stop', 'When bus stops, board bus', 'Pay bus fare or show pass', 'Take a seat', 'Watch for desired location', 'Press stop indicator']","['Wait for bus to stop', 'Wait for bus at bus stop']",Wait for bus to stop,0
+7,0.875,"['Wait for bus at bus stop', 'When bus stops, board bus', 'Pay bus fare or show pass', 'Take a seat', 'Watch for desired location', 'Press stop indicator', 'Wait for bus to stop']","['When bus stops, board bus', 'Exit bus']",Exit bus,1
+0,0.0,[],"['GET ON THE BUS', 'GET ON THE BUS']",GET ON THE BUS,0
+1,0.16666666666666666,['GET ON THE BUS'],"['READING BOOKS', 'GET A TICKET FROM CONDUCTOR']",GET A TICKET FROM CONDUCTOR,1
+2,0.3333333333333333,"['GET ON THE BUS', 'GET A TICKET FROM CONDUCTOR']","['FIND THE SEAT AND SIT', 'WHEN REACHING THE PLACE GET OFF THE BUS']",FIND THE SEAT AND SIT,0
+3,0.5,"['GET ON THE BUS', 'GET A TICKET FROM CONDUCTOR', 'FIND THE SEAT AND SIT']","['PLAYING GAMES', 'WHEN REACHING THE PLACE GET OFF THE BUS']",PLAYING GAMES,0
+4,0.6666666666666666,"['GET ON THE BUS', 'GET A TICKET FROM CONDUCTOR', 'FIND THE SEAT AND SIT', 'PLAYING GAMES']","['READING BOOKS', 'GET A TICKET FROM CONDUCTOR']",READING BOOKS,0
+5,0.8333333333333334,"['GET ON THE BUS', 'GET A TICKET FROM CONDUCTOR', 'FIND THE SEAT AND SIT', 'PLAYING GAMES', 'READING BOOKS']","['WHEN REACHING THE PLACE GET OFF THE BUS', 'FIND THE SEAT AND SIT']",WHEN REACHING THE PLACE GET OFF THE BUS,0
+0,0.0,[],"['Get off bus', 'Walk up to bus']",Walk up to bus,1
+1,0.16666666666666666,['Walk up to bus'],"['Walk up bus stairs', 'Sit on bus until its your stop']",Walk up bus stairs,0
+2,0.3333333333333333,"['Walk up to bus', 'Walk up bus stairs']","['Pay for bus ride', 'Get off bus']",Pay for bus ride,0
+3,0.5,"['Walk up to bus', 'Walk up bus stairs', 'Pay for bus ride']","['Get off bus', 'Find a seat']",Find a seat,1
+4,0.6666666666666666,"['Walk up to bus', 'Walk up bus stairs', 'Pay for bus ride', 'Find a seat']","['Walk up to bus', 'Sit on bus until its your stop']",Sit on bus until its your stop,1
+5,0.8333333333333334,"['Walk up to bus', 'Walk up bus stairs', 'Pay for bus ride', 'Find a seat', 'Sit on bus until its your stop']","['Get off bus', 'Walk up to bus']",Get off bus,0
+0,0.0,[],"['Locate correct bus to board', 'Find an available seat']",Locate correct bus to board,0
+1,0.125,['Locate correct bus to board'],"['Pay fare or give ticket if needed', 'Approach bus from curb and do not step in front of bus or traffic']",Approach bus from curb and do not step in front of bus or traffic,1
+2,0.25,"['Locate correct bus to board', 'Approach bus from curb and do not step in front of bus or traffic']","['When bus doors open, board bus', 'Wait for bus to reach destination']","When bus doors open, board bus",0
+3,0.375,"['Locate correct bus to board', 'Approach bus from curb and do not step in front of bus or traffic', 'When bus doors open, board bus']","['Pay fare or give ticket if needed', 'Pull cord if needed to signal driver to stop']",Pay fare or give ticket if needed,0
+4,0.5,"['Locate correct bus to board', 'Approach bus from curb and do not step in front of bus or traffic', 'When bus doors open, board bus', 'Pay fare or give ticket if needed']","['Pull cord if needed to signal driver to stop', 'Find an available seat']",Find an available seat,1
+5,0.625,"['Locate correct bus to board', 'Approach bus from curb and do not step in front of bus or traffic', 'When bus doors open, board bus', 'Pay fare or give ticket if needed', 'Find an available seat']","['Sit down', 'Locate correct bus to board']",Sit down,0
+6,0.75,"['Locate correct bus to board', 'Approach bus from curb and do not step in front of bus or traffic', 'When bus doors open, board bus', 'Pay fare or give ticket if needed', 'Find an available seat', 'Sit down']","['Pay fare or give ticket if needed', 'Wait for bus to reach destination']",Wait for bus to reach destination,1
+7,0.875,"['Locate correct bus to board', 'Approach bus from curb and do not step in front of bus or traffic', 'When bus doors open, board bus', 'Pay fare or give ticket if needed', 'Find an available seat', 'Sit down', 'Wait for bus to reach destination']","['When bus doors open, board bus', 'Pull cord if needed to signal driver to stop']",Pull cord if needed to signal driver to stop,1
+0,0.0,[],"['Go to bus stop', 'Determine destination']",Determine destination,1
+1,0.125,['Determine destination'],"['Wait for bus', 'Determine bus number, and route from bus company']","Determine bus number, and route from bus company",1
+2,0.25,"['Determine destination', 'Determine bus number, and route from bus company']","['Look on bus schedule for closest stop and desired times', 'Sit down']",Look on bus schedule for closest stop and desired times,0
+3,0.375,"['Determine destination', 'Determine bus number, and route from bus company', 'Look on bus schedule for closest stop and desired times']","['Pay driver or give prepaid card or ticket', 'Go to bus stop']",Go to bus stop,1
+4,0.5,"['Determine destination', 'Determine bus number, and route from bus company', 'Look on bus schedule for closest stop and desired times', 'Go to bus stop']","['Sit down', 'Wait for bus']",Wait for bus,1
+5,0.625,"['Determine destination', 'Determine bus number, and route from bus company', 'Look on bus schedule for closest stop and desired times', 'Go to bus stop', 'Wait for bus']","['When bus arrives, board bus', 'Determine bus number, and route from bus company']","When bus arrives, board bus",0
+6,0.75,"['Determine destination', 'Determine bus number, and route from bus company', 'Look on bus schedule for closest stop and desired times', 'Go to bus stop', 'Wait for bus', 'When bus arrives, board bus']","['Pay driver or give prepaid card or ticket', 'Go to bus stop']",Pay driver or give prepaid card or ticket,0
+7,0.875,"['Determine destination', 'Determine bus number, and route from bus company', 'Look on bus schedule for closest stop and desired times', 'Go to bus stop', 'Wait for bus', 'When bus arrives, board bus', 'Pay driver or give prepaid card or ticket']","['Sit down', 'Determine destination']",Sit down,0
+0,0.0,[],"['Wait at bus stop for bus arrival', 'Keep oneself entertained with cell phone while bus travels']",Wait at bus stop for bus arrival,0
+1,0.14285714285714285,['Wait at bus stop for bus arrival'],"['Wait at bus stop for bus arrival', 'Board bus']",Board bus,1
+2,0.2857142857142857,"['Wait at bus stop for bus arrival', 'Board bus']","['Stay in seat until bus arrives at destination', 'Pay appropriate fare']",Pay appropriate fare,1
+3,0.42857142857142855,"['Wait at bus stop for bus arrival', 'Board bus', 'Pay appropriate fare']","['Find vacant seat', 'Stay in seat until bus arrives at destination']",Find vacant seat,0
+4,0.5714285714285714,"['Wait at bus stop for bus arrival', 'Board bus', 'Pay appropriate fare', 'Find vacant seat']","['Keep oneself entertained with cell phone while bus travels', 'Wait at bus stop for bus arrival']",Keep oneself entertained with cell phone while bus travels,0
+5,0.7142857142857143,"['Wait at bus stop for bus arrival', 'Board bus', 'Pay appropriate fare', 'Find vacant seat', 'Keep oneself entertained with cell phone while bus travels']","['Pay appropriate fare', 'Stay in seat until bus arrives at destination']",Stay in seat until bus arrives at destination,1
+6,0.8571428571428571,"['Wait at bus stop for bus arrival', 'Board bus', 'Pay appropriate fare', 'Find vacant seat', 'Keep oneself entertained with cell phone while bus travels', 'Stay in seat until bus arrives at destination']","['Get off bus', 'Board bus']",Get off bus,0
+0,0.0,[],"['Board the bus', 'Wait to arrive at your destination']",Board the bus,0
+1,0.16666666666666666,['Board the bus'],"['Place your luggage overhead or beneath seat', 'Have a snack']",Place your luggage overhead or beneath seat,0
+2,0.3333333333333333,"['Board the bus', 'Place your luggage overhead or beneath seat']","['Have a snack', 'Get comfortable']",Get comfortable,1
+3,0.5,"['Board the bus', 'Place your luggage overhead or beneath seat', 'Get comfortable']","['Board the bus', 'Read a book, watch a movie or take a nap']","Read a book, watch a movie or take a nap",1
+4,0.6666666666666666,"['Board the bus', 'Place your luggage overhead or beneath seat', 'Get comfortable', 'Read a book, watch a movie or take a nap']","['Board the bus', 'Have a snack']",Have a snack,1
+5,0.8333333333333334,"['Board the bus', 'Place your luggage overhead or beneath seat', 'Get comfortable', 'Read a book, watch a movie or take a nap', 'Have a snack']","['Wait to arrive at your destination', 'Board the bus']",Wait to arrive at your destination,0
+0,0.0,[],"['When the correct destination is announced prepare to exit.', 'Determine the bus that goes to your desired location.']",Determine the bus that goes to your desired location.,1
+1,0.14285714285714285,['Determine the bus that goes to your desired location.'],"['Wait at the appropriate bus stop for the bus to arrive.', 'Take a seat on the bus.']",Wait at the appropriate bus stop for the bus to arrive.,0
+2,0.2857142857142857,"['Determine the bus that goes to your desired location.', 'Wait at the appropriate bus stop for the bus to arrive.']","['When the bus and the door of the bus opens, enter it.', 'When the correct destination is announced prepare to exit.']","When the bus and the door of the bus opens, enter it.",0
+3,0.42857142857142855,"['Determine the bus that goes to your desired location.', 'Wait at the appropriate bus stop for the bus to arrive.', 'When the bus and the door of the bus opens, enter it.']","['Deposit the fare into the container.', 'When the bus stops get off.']",Deposit the fare into the container.,0
+4,0.5714285714285714,"['Determine the bus that goes to your desired location.', 'Wait at the appropriate bus stop for the bus to arrive.', 'When the bus and the door of the bus opens, enter it.', 'Deposit the fare into the container.']","['Determine the bus that goes to your desired location.', 'Take a seat on the bus.']",Take a seat on the bus.,1
+5,0.7142857142857143,"['Determine the bus that goes to your desired location.', 'Wait at the appropriate bus stop for the bus to arrive.', 'When the bus and the door of the bus opens, enter it.', 'Deposit the fare into the container.', 'Take a seat on the bus.']","['When the correct destination is announced prepare to exit.', 'Determine the bus that goes to your desired location.']",When the correct destination is announced prepare to exit.,0
+6,0.8571428571428571,"['Determine the bus that goes to your desired location.', 'Wait at the appropriate bus stop for the bus to arrive.', 'When the bus and the door of the bus opens, enter it.', 'Deposit the fare into the container.', 'Take a seat on the bus.', 'When the correct destination is announced prepare to exit.']","['When the bus stops get off.', 'When the bus and the door of the bus opens, enter it.']",When the bus stops get off.,0
+0,0.0,[],"['Pay fare', 'Go to bus stop']",Go to bus stop,1
+1,0.125,['Go to bus stop'],"['Sit down', 'Wait for bus']",Wait for bus,1
+2,0.25,"['Go to bus stop', 'Wait for bus']","['Find seat', 'Go on bus']",Go on bus,1
+3,0.375,"['Go to bus stop', 'Wait for bus', 'Go on bus']","['Pay fare', 'Go to bus stop']",Pay fare,0
+4,0.5,"['Go to bus stop', 'Wait for bus', 'Go on bus', 'Pay fare']","['Get off', 'Find seat']",Find seat,1
+5,0.625,"['Go to bus stop', 'Wait for bus', 'Go on bus', 'Pay fare', 'Find seat']","['Go on bus', 'Sit down']",Sit down,1
+6,0.75,"['Go to bus stop', 'Wait for bus', 'Go on bus', 'Pay fare', 'Find seat', 'Sit down']","['Ring bell to stop at destination', 'Go on bus']",Ring bell to stop at destination,0
+7,0.875,"['Go to bus stop', 'Wait for bus', 'Go on bus', 'Pay fare', 'Find seat', 'Sit down', 'Ring bell to stop at destination']","['Get off', 'Go to bus stop']",Get off,0
+0,0.0,[],"['Walk to a seat', 'Walk to the bus stop']",Walk to the bus stop,1
+1,0.125,['Walk to the bus stop'],"['Wait for the bus to arrive', 'Wait for the bus to arrive']",Wait for the bus to arrive,0
+2,0.25,"['Walk to the bus stop', 'Wait for the bus to arrive']","['Pay for ticket', 'Step onto bus']",Step onto bus,1
+3,0.375,"['Walk to the bus stop', 'Wait for the bus to arrive', 'Step onto bus']","['Walk to the bus stop', 'Greet bus driver']",Greet bus driver,1
+4,0.5,"['Walk to the bus stop', 'Wait for the bus to arrive', 'Step onto bus', 'Greet bus driver']","['Pay for ticket', 'Walk to the bus stop']",Pay for ticket,0
+5,0.625,"['Walk to the bus stop', 'Wait for the bus to arrive', 'Step onto bus', 'Greet bus driver', 'Pay for ticket']","['Walk to the bus stop', 'Take ticket']",Take ticket,1
+6,0.75,"['Walk to the bus stop', 'Wait for the bus to arrive', 'Step onto bus', 'Greet bus driver', 'Pay for ticket', 'Take ticket']","['Walk to a seat', 'Greet bus driver']",Walk to a seat,0
+7,0.875,"['Walk to the bus stop', 'Wait for the bus to arrive', 'Step onto bus', 'Greet bus driver', 'Pay for ticket', 'Take ticket', 'Walk to a seat']","['Greet bus driver', 'Sit down in seat']",Sit down in seat,1
+0,0.0,[],"['Go to the bus stop', 'Go to the bus stop']",Go to the bus stop,0
+1,0.125,['Go to the bus stop'],"['Look for a seat', 'Wait for the bus']",Wait for the bus,1
+2,0.25,"['Go to the bus stop', 'Wait for the bus']","['Board the bus', 'Look for a seat']",Board the bus,0
+3,0.375,"['Go to the bus stop', 'Wait for the bus', 'Board the bus']","['Look around', 'Pay for the bus']",Pay for the bus,1
+4,0.5,"['Go to the bus stop', 'Wait for the bus', 'Board the bus', 'Pay for the bus']","['Look for a seat', 'Get off bus at destination']",Look for a seat,0
+5,0.625,"['Go to the bus stop', 'Wait for the bus', 'Board the bus', 'Pay for the bus', 'Look for a seat']","['Stand if there are no seats, sit if there are seats', 'Wait for the bus']","Stand if there are no seats, sit if there are seats",0
+6,0.75,"['Go to the bus stop', 'Wait for the bus', 'Board the bus', 'Pay for the bus', 'Look for a seat', 'Stand if there are no seats, sit if there are seats']","['Look around', 'Go to the bus stop']",Look around,0
+7,0.875,"['Go to the bus stop', 'Wait for the bus', 'Board the bus', 'Pay for the bus', 'Look for a seat', 'Stand if there are no seats, sit if there are seats', 'Look around']","['Board the bus', 'Get off bus at destination']",Get off bus at destination,1
+0,0.0,[],"['Sit on the bench', 'Go to the bus stop']",Go to the bus stop,1
+1,0.125,['Go to the bus stop'],"['Sit on the bench', 'Bus arrives']",Sit on the bench,0
+2,0.25,"['Go to the bus stop', 'Sit on the bench']","['Pay the fare', 'Wait for the bus']",Wait for the bus,1
+3,0.375,"['Go to the bus stop', 'Sit on the bench', 'Wait for the bus']","['Bus arrives', 'Pay the fare']",Bus arrives,0
+4,0.5,"['Go to the bus stop', 'Sit on the bench', 'Wait for the bus', 'Bus arrives']","['Sit on the seat', 'Get on the bus']",Get on the bus,1
+5,0.625,"['Go to the bus stop', 'Sit on the bench', 'Wait for the bus', 'Bus arrives', 'Get on the bus']","['Pay the fare', 'Wait for stop']",Pay the fare,0
+6,0.75,"['Go to the bus stop', 'Sit on the bench', 'Wait for the bus', 'Bus arrives', 'Get on the bus', 'Pay the fare']","['Go to the bus stop', 'Sit on the seat']",Sit on the seat,1
+7,0.875,"['Go to the bus stop', 'Sit on the bench', 'Wait for the bus', 'Bus arrives', 'Get on the bus', 'Pay the fare', 'Sit on the seat']","['Wait for stop', 'Go to the bus stop']",Wait for stop,0
+0,0.0,[],"['Walk to bus stop', 'Wait for bus to stop']",Walk to bus stop,0
+1,0.125,['Walk to bus stop'],"['Pull the cord', 'Purchase one-way or transfer ticket']",Purchase one-way or transfer ticket,1
+2,0.25,"['Walk to bus stop', 'Purchase one-way or transfer ticket']","['Wait for bus to stop', 'Seat yourself']",Seat yourself,1
+3,0.375,"['Walk to bus stop', 'Purchase one-way or transfer ticket', 'Seat yourself']","['Pull the cord', 'Take out book and read as bus travels']",Take out book and read as bus travels,1
+4,0.5,"['Walk to bus stop', 'Purchase one-way or transfer ticket', 'Seat yourself', 'Take out book and read as bus travels']","['Look out for your destination', 'Wait for bus to stop']",Look out for your destination,0
+5,0.625,"['Walk to bus stop', 'Purchase one-way or transfer ticket', 'Seat yourself', 'Take out book and read as bus travels', 'Look out for your destination']","['Pull the cord', 'Walk to bus stop']",Pull the cord,0
+6,0.75,"['Walk to bus stop', 'Purchase one-way or transfer ticket', 'Seat yourself', 'Take out book and read as bus travels', 'Look out for your destination', 'Pull the cord']","['Purchase one-way or transfer ticket', 'Listen for the ding']",Listen for the ding,1
+7,0.875,"['Walk to bus stop', 'Purchase one-way or transfer ticket', 'Seat yourself', 'Take out book and read as bus travels', 'Look out for your destination', 'Pull the cord', 'Listen for the ding']","['Wait for bus to stop', 'Walk to bus stop']",Wait for bus to stop,0
+0,0.0,[],"['Find a seat.', 'Wait for bus on a bench.']",Wait for bus on a bench.,1
+1,0.14285714285714285,['Wait for bus on a bench.'],"['Arrive at destination.', 'When bus arrives get in.']",When bus arrives get in.,1
+2,0.2857142857142857,"['Wait for bus on a bench.', 'When bus arrives get in.']","['Pay fare.', 'Sit down.']",Pay fare.,0
+3,0.42857142857142855,"['Wait for bus on a bench.', 'When bus arrives get in.', 'Pay fare.']","['Find a seat.', 'Wait for bus on a bench.']",Find a seat.,0
+4,0.5714285714285714,"['Wait for bus on a bench.', 'When bus arrives get in.', 'Pay fare.', 'Find a seat.']","['Sit down.', 'When bus arrives get in.']",Sit down.,0
+5,0.7142857142857143,"['Wait for bus on a bench.', 'When bus arrives get in.', 'Pay fare.', 'Find a seat.', 'Sit down.']","['Pay fare.', 'Arrive at destination.']",Arrive at destination.,1
+6,0.8571428571428571,"['Wait for bus on a bench.', 'When bus arrives get in.', 'Pay fare.', 'Find a seat.', 'Sit down.', 'Arrive at destination.']","['When bus arrives get in.', 'Exit bus.']",Exit bus.,1
+0,0.0,[],"['Go to the bus stop', 'Ride to your destination']",Go to the bus stop,0
+1,0.16666666666666666,['Go to the bus stop'],"['Wait for the bus', 'Wait for the bus']",Wait for the bus,1
+2,0.3333333333333333,"['Go to the bus stop', 'Wait for the bus']","['Get on the bus', 'Get off the bus']",Get on the bus,0
+3,0.5,"['Go to the bus stop', 'Wait for the bus', 'Get on the bus']","['Get off the bus', 'Pay the fare']",Pay the fare,1
+4,0.6666666666666666,"['Go to the bus stop', 'Wait for the bus', 'Get on the bus', 'Pay the fare']","['Ride to your destination', 'Go to the bus stop']",Ride to your destination,0
+5,0.8333333333333334,"['Go to the bus stop', 'Wait for the bus', 'Get on the bus', 'Pay the fare', 'Ride to your destination']","['Wait for the bus', 'Get off the bus']",Get off the bus,1
+0,0.0,[],"['Wait at the bus stop', 'Wait at the bus stop']",Wait at the bus stop,0
+1,0.16666666666666666,['Wait at the bus stop'],"['Ride the bus to your destination', 'Get on the bus when it arrives']",Get on the bus when it arrives,1
+2,0.3333333333333333,"['Wait at the bus stop', 'Get on the bus when it arrives']","['Get off the bus', 'Pay the fare']",Pay the fare,1
+3,0.5,"['Wait at the bus stop', 'Get on the bus when it arrives', 'Pay the fare']","['Find a seat', 'Get off the bus']",Find a seat,0
+4,0.6666666666666666,"['Wait at the bus stop', 'Get on the bus when it arrives', 'Pay the fare', 'Find a seat']","['Ride the bus to your destination', 'Wait at the bus stop']",Ride the bus to your destination,0
+5,0.8333333333333334,"['Wait at the bus stop', 'Get on the bus when it arrives', 'Pay the fare', 'Find a seat', 'Ride the bus to your destination']","['Get off the bus', 'Wait at the bus stop']",Get off the bus,0
+0,0.0,[],"['Pay fare', 'Walk to bus stop']",Walk to bus stop,1
+1,0.14285714285714285,['Walk to bus stop'],"['Wait for a very long time', 'Bus comes']",Wait for a very long time,0
+2,0.2857142857142857,"['Walk to bus stop', 'Wait for a very long time']","['Think you missed bus', 'Ride bus']",Think you missed bus,0
+3,0.42857142857142855,"['Walk to bus stop', 'Wait for a very long time', 'Think you missed bus']","['Ride bus', 'Bus comes']",Bus comes,1
+4,0.5714285714285714,"['Walk to bus stop', 'Wait for a very long time', 'Think you missed bus', 'Bus comes']","['Ride bus', 'Pay fare']",Pay fare,1
+5,0.7142857142857143,"['Walk to bus stop', 'Wait for a very long time', 'Think you missed bus', 'Bus comes', 'Pay fare']","['Think you missed bus', 'Find a seat']",Find a seat,1
+6,0.8571428571428571,"['Walk to bus stop', 'Wait for a very long time', 'Think you missed bus', 'Bus comes', 'Pay fare', 'Find a seat']","['Ride bus', 'Walk to bus stop']",Ride bus,0
+0,0.0,[],"['Find a seat.', 'Decide which bus is needed to get to the destination.']",Decide which bus is needed to get to the destination.,1
+1,0.125,['Decide which bus is needed to get to the destination.'],"['Find a seat.', 'At the appropriate time walk to the bus stop.']",At the appropriate time walk to the bus stop.,1
+2,0.25,"['Decide which bus is needed to get to the destination.', 'At the appropriate time walk to the bus stop.']","['Wait for bus.', 'Pay the appropriate fare.']",Wait for bus.,0
+3,0.375,"['Decide which bus is needed to get to the destination.', 'At the appropriate time walk to the bus stop.', 'Wait for bus.']","['Sit in the bus until you get near your bus stop.', 'When bus arrives board the bus.']",When bus arrives board the bus.,1
+4,0.5,"['Decide which bus is needed to get to the destination.', 'At the appropriate time walk to the bus stop.', 'Wait for bus.', 'When bus arrives board the bus.']","['Sit in the bus until you get near your bus stop.', 'Pay the appropriate fare.']",Pay the appropriate fare.,1
+5,0.625,"['Decide which bus is needed to get to the destination.', 'At the appropriate time walk to the bus stop.', 'Wait for bus.', 'When bus arrives board the bus.', 'Pay the appropriate fare.']","['Find a seat.', 'Pull the cord.']",Find a seat.,0
+6,0.75,"['Decide which bus is needed to get to the destination.', 'At the appropriate time walk to the bus stop.', 'Wait for bus.', 'When bus arrives board the bus.', 'Pay the appropriate fare.', 'Find a seat.']","['Wait for bus.', 'Sit in the bus until you get near your bus stop.']",Sit in the bus until you get near your bus stop.,1
+7,0.875,"['Decide which bus is needed to get to the destination.', 'At the appropriate time walk to the bus stop.', 'Wait for bus.', 'When bus arrives board the bus.', 'Pay the appropriate fare.', 'Find a seat.', 'Sit in the bus until you get near your bus stop.']","['Pay the appropriate fare.', 'Pull the cord.']",Pull the cord.,1
+0,0.0,[],"['Approach the bus stop', 'Board the bus']",Approach the bus stop,0
+1,0.16666666666666666,['Approach the bus stop'],"['Buy a ticket', 'Wait for the bus']",Wait for the bus,1
+2,0.3333333333333333,"['Approach the bus stop', 'Wait for the bus']","['Ride', 'Buy a ticket']",Buy a ticket,1
+3,0.5,"['Approach the bus stop', 'Wait for the bus', 'Buy a ticket']","['Ride', 'Board the bus']",Board the bus,1
+4,0.6666666666666666,"['Approach the bus stop', 'Wait for the bus', 'Buy a ticket', 'Board the bus']","['Sit down', 'Wait for the bus']",Sit down,0
+5,0.8333333333333334,"['Approach the bus stop', 'Wait for the bus', 'Buy a ticket', 'Board the bus', 'Sit down']","['Ride', 'Wait for the bus']",Ride,0
+0,0.0,[],"['Enter the bus', 'Take the ticket']",Enter the bus,0
+1,0.16666666666666666,['Enter the bus'],"['Find the seat', 'Take the ticket']",Find the seat,0
+2,0.3333333333333333,"['Enter the bus', 'Find the seat']","['Leave the bus', 'occupy the seat']",occupy the seat,1
+3,0.5,"['Enter the bus', 'Find the seat', 'occupy the seat']","['Enter the bus', 'Take the ticket']",Take the ticket,1
+4,0.6666666666666666,"['Enter the bus', 'Find the seat', 'occupy the seat', 'Take the ticket']","['Find the seat', 'Wait for our place']",Wait for our place,1
+5,0.8333333333333334,"['Enter the bus', 'Find the seat', 'occupy the seat', 'Take the ticket', 'Wait for our place']","['Enter the bus', 'Leave the bus']",Leave the bus,1
+0,0.0,[],"['sit and wait for stop', 'Stand at bus stop']",Stand at bus stop,1
+1,0.2,['Stand at bus stop'],"['When bus arrives, get on', 'sit and wait for stop']","When bus arrives, get on",0
+2,0.4,"['Stand at bus stop', 'When bus arrives, get on']","['Get off when ready', 'Give money or ticket to the bus driver']",Give money or ticket to the bus driver,1
+3,0.6,"['Stand at bus stop', 'When bus arrives, get on', 'Give money or ticket to the bus driver']","['sit and wait for stop', 'Stand at bus stop']",sit and wait for stop,0
+4,0.8,"['Stand at bus stop', 'When bus arrives, get on', 'Give money or ticket to the bus driver', 'sit and wait for stop']","['Get off when ready', 'When bus arrives, get on']",Get off when ready,0

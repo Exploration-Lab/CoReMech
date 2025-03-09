@@ -1,0 +1,496 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Gather wood in a location outside', 'Get a lighter or matches']",Gather wood in a location outside,0
+1,0.2,['Gather wood in a location outside'],"['Stack wood in a pile', 'Stack wood in a pile']",Stack wood in a pile,1
+2,0.4,"['Gather wood in a location outside', 'Stack wood in a pile']","['Light wood pile with a lighter', 'Get a lighter or matches']",Get a lighter or matches,1
+3,0.6,"['Gather wood in a location outside', 'Stack wood in a pile', 'Get a lighter or matches']","['Gather wood in a location outside', 'Spray lighter fluid on wood pile']",Spray lighter fluid on wood pile,1
+4,0.8,"['Gather wood in a location outside', 'Stack wood in a pile', 'Get a lighter or matches', 'Spray lighter fluid on wood pile']","['Gather wood in a location outside', 'Light wood pile with a lighter']",Light wood pile with a lighter,1
+0,0.0,[],"['Gather dry sticks of various sizes', 'Find an open area of ground.']",Find an open area of ground.,1
+1,0.2,['Find an open area of ground.'],"['Gather rocks and place in a 3 ft circle on open ground.', 'Gather dry sticks of various sizes']",Gather rocks and place in a 3 ft circle on open ground.,0
+2,0.4,"['Find an open area of ground.', 'Gather rocks and place in a 3 ft circle on open ground.']","['Gather dry sticks of various sizes', 'Light a match']",Gather dry sticks of various sizes,0
+3,0.6,"['Find an open area of ground.', 'Gather rocks and place in a 3 ft circle on open ground.', 'Gather dry sticks of various sizes']","['Find an open area of ground.', 'Place the sticks in a pile, on the ground, inside the circle']","Place the sticks in a pile, on the ground, inside the circle",1
+4,0.8,"['Find an open area of ground.', 'Gather rocks and place in a 3 ft circle on open ground.', 'Gather dry sticks of various sizes', 'Place the sticks in a pile, on the ground, inside the circle']","['Find an open area of ground.', 'Light a match']",Light a match,1
+0,0.0,[],"['Place the fuel woods', 'Pick a spot']",Pick a spot,1
+1,0.2,['Pick a spot'],"['Place the fuel woods', 'Grab a bunch of dry twigs']",Grab a bunch of dry twigs,1
+2,0.4,"['Pick a spot', 'Grab a bunch of dry twigs']","['Dig a shallow pit.', 'Place the fuel woods']",Dig a shallow pit.,0
+3,0.6,"['Pick a spot', 'Grab a bunch of dry twigs', 'Dig a shallow pit.']","['Pick a spot', 'Surround the pit with bricks or stones']",Surround the pit with bricks or stones,1
+4,0.8,"['Pick a spot', 'Grab a bunch of dry twigs', 'Dig a shallow pit.', 'Surround the pit with bricks or stones']","['Place the fuel woods', 'Grab a bunch of dry twigs']",Place the fuel woods,0
+0,0.0,[],"['Gather wood', 'Add more wood to keep fire going']",Gather wood,0
+1,0.2,['Gather wood'],"['Place wood in pile', 'Gather wood']",Place wood in pile,0
+2,0.4,"['Gather wood', 'Place wood in pile']","['Light wood on fire', 'Help fire catch on']",Light wood on fire,0
+3,0.6,"['Gather wood', 'Place wood in pile', 'Light wood on fire']","['Gather wood', 'Add more wood to keep fire going']",Add more wood to keep fire going,1
+4,0.8,"['Gather wood', 'Place wood in pile', 'Light wood on fire', 'Add more wood to keep fire going']","['Place wood in pile', 'Help fire catch on']",Help fire catch on,1
+0,0.0,[],"['Clear an area', 'Get lighter']",Clear an area,0
+1,0.2,['Clear an area'],"['Get newspaper', 'Get kindling']",Get kindling,1
+2,0.4,"['Clear an area', 'Get kindling']","['Get newspaper', 'Arrange kindling in a pile']",Arrange kindling in a pile,1
+3,0.6,"['Clear an area', 'Get kindling', 'Arrange kindling in a pile']","['Clear an area', 'Get lighter']",Get lighter,1
+4,0.8,"['Clear an area', 'Get kindling', 'Arrange kindling in a pile', 'Get lighter']","['Get kindling', 'Get newspaper']",Get newspaper,1
+0,0.0,[],"['Gather wood and newspaper', 'Place newspaper on ground']",Gather wood and newspaper,0
+1,0.2,['Gather wood and newspaper'],"['Place newspaper on ground', 'Place newspaper on ground']",Place newspaper on ground,1
+2,0.4,"['Gather wood and newspaper', 'Place newspaper on ground']","['Blow gently on fire as it begins to catch', 'Put small kindling on top of newspaper']",Put small kindling on top of newspaper,1
+3,0.6,"['Gather wood and newspaper', 'Place newspaper on ground', 'Put small kindling on top of newspaper']","['Gather wood and newspaper', 'Use lighter or match to light paper on fire']",Use lighter or match to light paper on fire,1
+4,0.8,"['Gather wood and newspaper', 'Place newspaper on ground', 'Put small kindling on top of newspaper', 'Use lighter or match to light paper on fire']","['Blow gently on fire as it begins to catch', 'Gather wood and newspaper']",Blow gently on fire as it begins to catch,0
+0,0.0,[],"['Once your fire is burning well, add larger sticks', 'Gather sticks and logs for your fire']",Gather sticks and logs for your fire,1
+1,0.2,['Gather sticks and logs for your fire'],"['Gather sticks and logs for your fire', 'Start your fire by building the classic pyramid of twigs']",Start your fire by building the classic pyramid of twigs,1
+2,0.4,"['Gather sticks and logs for your fire', 'Start your fire by building the classic pyramid of twigs']","['Stuff some rolled paper inside your pyramid', 'Once your fire is burning well, add larger sticks']",Stuff some rolled paper inside your pyramid,0
+3,0.6,"['Gather sticks and logs for your fire', 'Start your fire by building the classic pyramid of twigs', 'Stuff some rolled paper inside your pyramid']","['Light the paper and blow until the twigs catch', 'Gather sticks and logs for your fire']",Light the paper and blow until the twigs catch,0
+4,0.8,"['Gather sticks and logs for your fire', 'Start your fire by building the classic pyramid of twigs', 'Stuff some rolled paper inside your pyramid', 'Light the paper and blow until the twigs catch']","['Gather sticks and logs for your fire', 'Once your fire is burning well, add larger sticks']","Once your fire is burning well, add larger sticks",1
+0,0.0,[],"['Get wood', 'Place wood vertically supporting each other']",Get wood,0
+1,0.2,['Get wood'],"['Place wood vertically supporting each other', 'Get matchbox']",Get matchbox,1
+2,0.4,"['Get wood', 'Get matchbox']","['Place wood vertically supporting each other', 'Put some newspaper in the wood']",Place wood vertically supporting each other,0
+3,0.6,"['Get wood', 'Get matchbox', 'Place wood vertically supporting each other']","['Get wood', 'Light the match stick']",Light the match stick,1
+4,0.8,"['Get wood', 'Get matchbox', 'Place wood vertically supporting each other', 'Light the match stick']","['Get matchbox', 'Put some newspaper in the wood']",Put some newspaper in the wood,1
+0,0.0,[],"['Gather firewood', 'throw match or light paper and throw it on the wood']",Gather firewood,0
+1,0.2,['Gather firewood'],"['Pile firewood outdoors', 'Provide oxygen to the fire until the embers are hot enough to consume the wood']",Pile firewood outdoors,0
+2,0.4,"['Gather firewood', 'Pile firewood outdoors']","['Optional, put accelerant on the fire', 'Provide oxygen to the fire until the embers are hot enough to consume the wood']","Optional, put accelerant on the fire",0
+3,0.6,"['Gather firewood', 'Pile firewood outdoors', 'Optional, put accelerant on the fire']","['throw match or light paper and throw it on the wood', 'Gather firewood']",throw match or light paper and throw it on the wood,0
+4,0.8,"['Gather firewood', 'Pile firewood outdoors', 'Optional, put accelerant on the fire', 'throw match or light paper and throw it on the wood']","['Gather firewood', 'Provide oxygen to the fire until the embers are hot enough to consume the wood']",Provide oxygen to the fire until the embers are hot enough to consume the wood,1
+0,0.0,[],"['Use a match or lighter to light tinder, place it under the kindling', 'dig/clear an area so the fire remains in control']",dig/clear an area so the fire remains in control,1
+1,0.2,['dig/clear an area so the fire remains in control'],"[""place kindling in such a fashion that you'll be able to put the tinder underneath"", 'If flame goes out, blow on coals to reignite']",place kindling in such a fashion that you'll be able to put the tinder underneath,0
+2,0.4,"['dig/clear an area so the fire remains in control', ""place kindling in such a fashion that you'll be able to put the tinder underneath""]","['If flame goes out, blow on coals to reignite', 'Use a match or lighter to light tinder, place it under the kindling']","Use a match or lighter to light tinder, place it under the kindling",1
+3,0.6,"['dig/clear an area so the fire remains in control', ""place kindling in such a fashion that you'll be able to put the tinder underneath"", 'Use a match or lighter to light tinder, place it under the kindling']","['add progressively larger wood to the stack', 'dig/clear an area so the fire remains in control']",add progressively larger wood to the stack,0
+4,0.8,"['dig/clear an area so the fire remains in control', ""place kindling in such a fashion that you'll be able to put the tinder underneath"", 'Use a match or lighter to light tinder, place it under the kindling', 'add progressively larger wood to the stack']","['If flame goes out, blow on coals to reignite', 'dig/clear an area so the fire remains in control']","If flame goes out, blow on coals to reignite",0
+0,0.0,[],"['Fill the center with wood chippings/ twigs/ newspaper. Only use dry leaves', 'create a fire pit or use a ready made one available in stores.']",create a fire pit or use a ready made one available in stores.,1
+1,0.2,['create a fire pit or use a ready made one available in stores.'],"['Stack wood in a log cabin fashion inside of the pit, building upwards.', 'create a fire pit or use a ready made one available in stores.']","Stack wood in a log cabin fashion inside of the pit, building upwards.",0
+2,0.4,"['create a fire pit or use a ready made one available in stores.', 'Stack wood in a log cabin fashion inside of the pit, building upwards.']","['Fill the center with wood chippings/ twigs/ newspaper. Only use dry leaves', 'Add additional kindling until center logs catch on fire and embers are created.']",Fill the center with wood chippings/ twigs/ newspaper. Only use dry leaves,0
+3,0.6,"['create a fire pit or use a ready made one available in stores.', 'Stack wood in a log cabin fashion inside of the pit, building upwards.', 'Fill the center with wood chippings/ twigs/ newspaper. Only use dry leaves']","['Use matches to light different points in the center.', 'create a fire pit or use a ready made one available in stores.']",Use matches to light different points in the center.,0
+4,0.8,"['create a fire pit or use a ready made one available in stores.', 'Stack wood in a log cabin fashion inside of the pit, building upwards.', 'Fill the center with wood chippings/ twigs/ newspaper. Only use dry leaves', 'Use matches to light different points in the center.']","['Add additional kindling until center logs catch on fire and embers are created.', 'Stack wood in a log cabin fashion inside of the pit, building upwards.']",Add additional kindling until center logs catch on fire and embers are created.,0
+0,0.0,[],"['Light a match', 'Gather firewood']",Gather firewood,1
+1,0.2,['Gather firewood'],"[""Place the match's flame on the wood"", 'Arrange wood into a pile']",Arrange wood into a pile,1
+2,0.4,"['Gather firewood', 'Arrange wood into a pile']","[""Place the match's flame on the wood"", 'Pour lighter fluid on the wood']",Pour lighter fluid on the wood,1
+3,0.6,"['Gather firewood', 'Arrange wood into a pile', 'Pour lighter fluid on the wood']","['Light a match', 'Gather firewood']",Light a match,0
+4,0.8,"['Gather firewood', 'Arrange wood into a pile', 'Pour lighter fluid on the wood', 'Light a match']","[""Place the match's flame on the wood"", 'Arrange wood into a pile']",Place the match's flame on the wood,0
+0,0.0,[],"['Gather kindling', 'Light kindling on fire']",Gather kindling,0
+1,0.2,['Gather kindling'],"['Add twigs and small branches to get fire bigger', 'Put kindling in a pit surrounded by rocks']",Put kindling in a pit surrounded by rocks,1
+2,0.4,"['Gather kindling', 'Put kindling in a pit surrounded by rocks']","['Once fire is big enough start to add logs', 'Light kindling on fire']",Light kindling on fire,1
+3,0.6,"['Gather kindling', 'Put kindling in a pit surrounded by rocks', 'Light kindling on fire']","['Add twigs and small branches to get fire bigger', 'Gather kindling']",Add twigs and small branches to get fire bigger,0
+4,0.8,"['Gather kindling', 'Put kindling in a pit surrounded by rocks', 'Light kindling on fire', 'Add twigs and small branches to get fire bigger']","['Once fire is big enough start to add logs', 'Put kindling in a pit surrounded by rocks']",Once fire is big enough start to add logs,0
+0,0.0,[],"['Place small logs on fire', 'Make a small pile of kindling']",Make a small pile of kindling,1
+1,0.2,['Make a small pile of kindling'],"['Light the kindling on fire', 'Place larger sticks on fire']",Light the kindling on fire,0
+2,0.4,"['Make a small pile of kindling', 'Light the kindling on fire']","['Place small sticks on fire', 'Place small logs on fire']",Place small sticks on fire,0
+3,0.6,"['Make a small pile of kindling', 'Light the kindling on fire', 'Place small sticks on fire']","['Place larger sticks on fire', 'Make a small pile of kindling']",Place larger sticks on fire,0
+4,0.8,"['Make a small pile of kindling', 'Light the kindling on fire', 'Place small sticks on fire', 'Place larger sticks on fire']","['Place small logs on fire', 'Light the kindling on fire']",Place small logs on fire,0
+0,0.0,[],"['Find safe place away from buildings.', 'Gather wood.']",Gather wood.,1
+1,0.2,['Gather wood.'],"['Find safe place away from buildings.', 'Fan flames.']",Find safe place away from buildings.,0
+2,0.4,"['Gather wood.', 'Find safe place away from buildings.']","['Pile wood into pyre.', 'Fan flames.']",Pile wood into pyre.,0
+3,0.6,"['Gather wood.', 'Find safe place away from buildings.', 'Pile wood into pyre.']","['Light small kindling.', 'Gather wood.']",Light small kindling.,0
+4,0.8,"['Gather wood.', 'Find safe place away from buildings.', 'Pile wood into pyre.', 'Light small kindling.']","['Fan flames.', 'Find safe place away from buildings.']",Fan flames.,0
+0,0.0,[],"['place some small rocks and stones around the pit', 'Collect fire wood small twigs and leaves']",Collect fire wood small twigs and leaves,1
+1,0.2,['Collect fire wood small twigs and leaves'],"['Select a center spot in my back yard', 'Dig a hole with 50 cm circumference and depth']",Select a center spot in my back yard,0
+2,0.4,"['Collect fire wood small twigs and leaves', 'Select a center spot in my back yard']","['Dig a hole with 50 cm circumference and depth', 'Place some dry leaves and twigs in the pit']",Dig a hole with 50 cm circumference and depth,0
+3,0.6,"['Collect fire wood small twigs and leaves', 'Select a center spot in my back yard', 'Dig a hole with 50 cm circumference and depth']","['place some small rocks and stones around the pit', 'Collect fire wood small twigs and leaves']",place some small rocks and stones around the pit,0
+4,0.8,"['Collect fire wood small twigs and leaves', 'Select a center spot in my back yard', 'Dig a hole with 50 cm circumference and depth', 'place some small rocks and stones around the pit']","['Place some dry leaves and twigs in the pit', 'Collect fire wood small twigs and leaves']",Place some dry leaves and twigs in the pit,0
+0,0.0,[],"['Gather a bunch of dry wood', 'light with a lighter']",Gather a bunch of dry wood,0
+1,0.2,['Gather a bunch of dry wood'],"['Gather a bunch of dry wood', 'get some news papers']",get some news papers,1
+2,0.4,"['Gather a bunch of dry wood', 'get some news papers']","['light with a lighter', 'invite friends over']",light with a lighter,0
+3,0.6,"['Gather a bunch of dry wood', 'get some news papers', 'light with a lighter']","['place under some dry twigs', 'Gather a bunch of dry wood']",place under some dry twigs,0
+4,0.8,"['Gather a bunch of dry wood', 'get some news papers', 'light with a lighter', 'place under some dry twigs']","['get some news papers', 'invite friends over']",invite friends over,1
+0,0.0,[],"['Go outside into the backyard, or front yard, but usually done in the back', 'Gather any logs or kindling that will be used for the fire']","Go outside into the backyard, or front yard, but usually done in the back",0
+1,0.2,"['Go outside into the backyard, or front yard, but usually done in the back']","['Set the leaves and smaller sticks on fire', 'Gather any logs or kindling that will be used for the fire']",Gather any logs or kindling that will be used for the fire,1
+2,0.4,"['Go outside into the backyard, or front yard, but usually done in the back', 'Gather any logs or kindling that will be used for the fire']","['Watch the fire spread up to the rest of the wood', 'Put leaves underneath the wood to serve as the initial firestarter']",Put leaves underneath the wood to serve as the initial firestarter,1
+3,0.6,"['Go outside into the backyard, or front yard, but usually done in the back', 'Gather any logs or kindling that will be used for the fire', 'Put leaves underneath the wood to serve as the initial firestarter']","['Set the leaves and smaller sticks on fire', 'Go outside into the backyard, or front yard, but usually done in the back']",Set the leaves and smaller sticks on fire,0
+4,0.8,"['Go outside into the backyard, or front yard, but usually done in the back', 'Gather any logs or kindling that will be used for the fire', 'Put leaves underneath the wood to serve as the initial firestarter', 'Set the leaves and smaller sticks on fire']","['Watch the fire spread up to the rest of the wood', 'Go outside into the backyard, or front yard, but usually done in the back']",Watch the fire spread up to the rest of the wood,0
+0,0.0,[],"['Choose an appropriate safe wide open space away from buildings or trees', 'Place small kindling together in a tee pee shape']",Choose an appropriate safe wide open space away from buildings or trees,0
+1,0.2,['Choose an appropriate safe wide open space away from buildings or trees'],"['Place small kindling together in a tee pee shape', 'Gather lumber and wood']",Gather lumber and wood,1
+2,0.4,"['Choose an appropriate safe wide open space away from buildings or trees', 'Gather lumber and wood']","['Once caught on fire place larger logs and wood around flames', 'Place small kindling together in a tee pee shape']",Place small kindling together in a tee pee shape,1
+3,0.6,"['Choose an appropriate safe wide open space away from buildings or trees', 'Gather lumber and wood', 'Place small kindling together in a tee pee shape']","['Place paper inside and light', 'Choose an appropriate safe wide open space away from buildings or trees']",Place paper inside and light,0
+4,0.8,"['Choose an appropriate safe wide open space away from buildings or trees', 'Gather lumber and wood', 'Place small kindling together in a tee pee shape', 'Place paper inside and light']","['Choose an appropriate safe wide open space away from buildings or trees', 'Once caught on fire place larger logs and wood around flames']",Once caught on fire place larger logs and wood around flames,1
+0,0.0,[],"['Call friends', 'Choose a spot']",Choose a spot,1
+1,0.2,['Choose a spot'],"['Choose a spot', 'Lay down logs']",Lay down logs,1
+2,0.4,"['Choose a spot', 'Lay down logs']","['Spark fire', 'Call friends']",Spark fire,0
+3,0.6,"['Choose a spot', 'Lay down logs', 'Spark fire']","['Choose a spot', 'Ignite flames']",Ignite flames,1
+4,0.8,"['Choose a spot', 'Lay down logs', 'Spark fire', 'Ignite flames']","['Call friends', 'Choose a spot']",Call friends,0
+0,0.0,[],"['Pick a spot', 'light wood on fire']",Pick a spot,0
+1,0.2,['Pick a spot'],"['Dig a pit if needed', 'Gather wood into a pile']",Dig a pit if needed,0
+2,0.4,"['Pick a spot', 'Dig a pit if needed']","['light wood on fire', 'Gather wood into a pile']",Gather wood into a pile,1
+3,0.6,"['Pick a spot', 'Dig a pit if needed', 'Gather wood into a pile']","['surround with rocks', 'Pick a spot']",surround with rocks,0
+4,0.8,"['Pick a spot', 'Dig a pit if needed', 'Gather wood into a pile', 'surround with rocks']","['light wood on fire', 'Dig a pit if needed']",light wood on fire,0
+0,0.0,[],"['Wait for nightfall', 'Gather kindling']",Wait for nightfall,0
+1,0.2,['Wait for nightfall'],"['Wait for nightfall', 'Find a spot']",Find a spot,1
+2,0.4,"['Wait for nightfall', 'Find a spot']","['Gather logs', 'Gather kindling']",Gather kindling,1
+3,0.6,"['Wait for nightfall', 'Find a spot', 'Gather kindling']","['Wait for nightfall', 'Gather tinder']",Gather tinder,1
+4,0.8,"['Wait for nightfall', 'Find a spot', 'Gather kindling', 'Gather tinder']","['Gather logs', 'Wait for nightfall']",Gather logs,0
+0,0.0,[],"['Stack wood and branches in area where you want bonfire.', 'Gather wood and branches.']",Gather wood and branches.,1
+1,0.2,['Gather wood and branches.'],"['Stack wood and branches in area where you want bonfire.', 'Put leaves or paper under the biggest pieces of wood.']",Stack wood and branches in area where you want bonfire.,0
+2,0.4,"['Gather wood and branches.', 'Stack wood and branches in area where you want bonfire.']","['Put leaves or paper under the biggest pieces of wood.', 'Stand back.']",Put leaves or paper under the biggest pieces of wood.,0
+3,0.6,"['Gather wood and branches.', 'Stack wood and branches in area where you want bonfire.', 'Put leaves or paper under the biggest pieces of wood.']","['Light the kindling.', 'Gather wood and branches.']",Light the kindling.,0
+4,0.8,"['Gather wood and branches.', 'Stack wood and branches in area where you want bonfire.', 'Put leaves or paper under the biggest pieces of wood.', 'Light the kindling.']","['Stack wood and branches in area where you want bonfire.', 'Stand back.']",Stand back.,1
+0,0.0,[],"['Purchase fire wood.', 'Pull out matches.']",Purchase fire wood.,0
+1,0.2,['Purchase fire wood.'],"['Lay small pieces of wood down.', 'Place tinder under the larger pieces.']",Lay small pieces of wood down.,0
+2,0.4,"['Purchase fire wood.', 'Lay small pieces of wood down.']","['Pull out matches.', 'Put larger pieces of wood over the smaller pieces.']",Put larger pieces of wood over the smaller pieces.,1
+3,0.6,"['Purchase fire wood.', 'Lay small pieces of wood down.', 'Put larger pieces of wood over the smaller pieces.']","['Place tinder under the larger pieces.', 'Purchase fire wood.']",Place tinder under the larger pieces.,0
+4,0.8,"['Purchase fire wood.', 'Lay small pieces of wood down.', 'Put larger pieces of wood over the smaller pieces.', 'Place tinder under the larger pieces.']","['Pull out matches.', 'Lay small pieces of wood down.']",Pull out matches.,0
+0,0.0,[],"['Gather sticks and wood', 'Place in pit with rocks/stones around']",Gather sticks and wood,0
+1,0.2,['Gather sticks and wood'],"['Put some fuel on wood', 'Place in pit with rocks/stones around']",Place in pit with rocks/stones around,1
+2,0.4,"['Gather sticks and wood', 'Place in pit with rocks/stones around']","['Put some fuel on wood', 'Light paper on fire']",Put some fuel on wood,0
+3,0.6,"['Gather sticks and wood', 'Place in pit with rocks/stones around', 'Put some fuel on wood']","['Gather sticks and wood', 'Get paper']",Get paper,1
+4,0.8,"['Gather sticks and wood', 'Place in pit with rocks/stones around', 'Put some fuel on wood', 'Get paper']","['Gather sticks and wood', 'Light paper on fire']",Light paper on fire,1
+0,0.0,[],"['Dig a pit.', 'Arrange the larger pieces of wood in a teepee formation.']",Dig a pit.,0
+1,0.2,['Dig a pit.'],"['Add smaller pieces of wood inside the teepee.', 'Place stones around the edge.']",Place stones around the edge.,1
+2,0.4,"['Dig a pit.', 'Place stones around the edge.']","['Add smaller pieces of wood inside the teepee.', 'Find dry wood in varying sizes.']",Find dry wood in varying sizes.,1
+3,0.6,"['Dig a pit.', 'Place stones around the edge.', 'Find dry wood in varying sizes.']","['Arrange the larger pieces of wood in a teepee formation.', 'Dig a pit.']",Arrange the larger pieces of wood in a teepee formation.,0
+4,0.8,"['Dig a pit.', 'Place stones around the edge.', 'Find dry wood in varying sizes.', 'Arrange the larger pieces of wood in a teepee formation.']","['Place stones around the edge.', 'Add smaller pieces of wood inside the teepee.']",Add smaller pieces of wood inside the teepee.,1
+0,0.0,[],"['Clean space on ground.', 'Be careful to keep fire contained in fire ring.']",Clean space on ground.,0
+1,0.2,['Clean space on ground.'],"['Stack up firewood.', 'Clean space on ground.']",Stack up firewood.,0
+2,0.4,"['Clean space on ground.', 'Stack up firewood.']","['Get small tinder to start fire.', 'Be careful to keep fire contained in fire ring.']",Get small tinder to start fire.,0
+3,0.6,"['Clean space on ground.', 'Stack up firewood.', 'Get small tinder to start fire.']","['Light newspaper and use it to light tinder.', 'Clean space on ground.']",Light newspaper and use it to light tinder.,0
+4,0.8,"['Clean space on ground.', 'Stack up firewood.', 'Get small tinder to start fire.', 'Light newspaper and use it to light tinder.']","['Be careful to keep fire contained in fire ring.', 'Clean space on ground.']",Be careful to keep fire contained in fire ring.,0
+0,0.0,[],"['find a dry space', 'strike a match']",find a dry space,0
+1,0.2,['find a dry space'],"['gather wood', 'gather wood']",gather wood,0
+2,0.4,"['find a dry space', 'gather wood']","['light kindling and wood', 'gather kindling']",gather kindling,1
+3,0.6,"['find a dry space', 'gather wood', 'gather kindling']","['strike a match', 'find a dry space']",strike a match,0
+4,0.8,"['find a dry space', 'gather wood', 'gather kindling', 'strike a match']","['find a dry space', 'light kindling and wood']",light kindling and wood,1
+0,0.0,[],"['Kindling catches on fire', 'Clear large area in backyard']",Clear large area in backyard,1
+1,0.2,['Clear large area in backyard'],"['Gather some kindling into a pile', 'Gather some kindling into a pile']",Gather some kindling into a pile,0
+2,0.4,"['Clear large area in backyard', 'Gather some kindling into a pile']","['Light match', 'Kindling catches on fire']",Light match,0
+3,0.6,"['Clear large area in backyard', 'Gather some kindling into a pile', 'Light match']","['Clear large area in backyard', 'Put lit match on kindling']",Put lit match on kindling,1
+4,0.8,"['Clear large area in backyard', 'Gather some kindling into a pile', 'Light match', 'Put lit match on kindling']","['Clear large area in backyard', 'Kindling catches on fire']",Kindling catches on fire,1
+0,0.0,[],"['Collect wood and kindling.', 'Bring water hose close.']",Collect wood and kindling.,0
+1,0.2,['Collect wood and kindling.'],"['Stack wood and kindling.', 'Collect matches/lighter.']",Collect matches/lighter.,1
+2,0.4,"['Collect wood and kindling.', 'Collect matches/lighter.']","['Bring water hose close.', 'Light wood and kindling.']",Bring water hose close.,0
+3,0.6,"['Collect wood and kindling.', 'Collect matches/lighter.', 'Bring water hose close.']","['Stack wood and kindling.', 'Collect wood and kindling.']",Stack wood and kindling.,0
+4,0.8,"['Collect wood and kindling.', 'Collect matches/lighter.', 'Bring water hose close.', 'Stack wood and kindling.']","['Light wood and kindling.', 'Collect matches/lighter.']",Light wood and kindling.,0
+0,0.0,[],"['Go outside', 'Throw wood into one pile']",Go outside,0
+1,0.2,['Go outside'],"['Douse pile with gasoline', 'Gather wood']",Gather wood,1
+2,0.4,"['Go outside', 'Gather wood']","['Throw wood into one pile', 'Light on fire']",Throw wood into one pile,0
+3,0.6,"['Go outside', 'Gather wood', 'Throw wood into one pile']","['Go outside', 'Douse pile with gasoline']",Douse pile with gasoline,1
+4,0.8,"['Go outside', 'Gather wood', 'Throw wood into one pile', 'Douse pile with gasoline']","['Gather wood', 'Light on fire']",Light on fire,1
+0,0.0,[],"['Gather items to burn', 'Gather items to burn']",Gather items to burn,1
+1,0.2,['Gather items to burn'],"['Get lighter', 'Make a pile of items']",Make a pile of items,1
+2,0.4,"['Gather items to burn', 'Make a pile of items']","['Set light to paper', 'Put some newspaper in the pile, near the bottom']","Put some newspaper in the pile, near the bottom",1
+3,0.6,"['Gather items to burn', 'Make a pile of items', 'Put some newspaper in the pile, near the bottom']","['Gather items to burn', 'Get lighter']",Get lighter,1
+4,0.8,"['Gather items to burn', 'Make a pile of items', 'Put some newspaper in the pile, near the bottom', 'Get lighter']","['Set light to paper', 'Gather items to burn']",Set light to paper,0
+0,0.0,[],"['Gather kindling', 'Gather paper']",Gather kindling,0
+1,0.2,['Gather kindling'],"['Put paper, kindling and wood in stack', 'Gather larger wood']",Gather larger wood,1
+2,0.4,"['Gather kindling', 'Gather larger wood']","['Light paper on fire', 'Gather paper']",Gather paper,1
+3,0.6,"['Gather kindling', 'Gather larger wood', 'Gather paper']","['Put paper, kindling and wood in stack', 'Gather kindling']","Put paper, kindling and wood in stack",0
+4,0.8,"['Gather kindling', 'Gather larger wood', 'Gather paper', 'Put paper, kindling and wood in stack']","['Gather larger wood', 'Light paper on fire']",Light paper on fire,1
+0,0.0,[],"['Go to forest', 'Put wood in pit']",Go to forest,0
+1,0.2,['Go to forest'],"['Light a match', 'Get wood']",Get wood,1
+2,0.4,"['Go to forest', 'Get wood']","['Put wood in pit', 'Throw match on wood']",Put wood in pit,0
+3,0.6,"['Go to forest', 'Get wood', 'Put wood in pit']","['Go to forest', 'Light a match']",Light a match,1
+4,0.8,"['Go to forest', 'Get wood', 'Put wood in pit', 'Light a match']","['Go to forest', 'Throw match on wood']",Throw match on wood,1
+0,0.0,[],"['Keep a safe distance.', 'Gather wood.']",Gather wood.,1
+1,0.2,['Gather wood.'],"['Arrange it in a pile.', 'Gather wood.']",Arrange it in a pile.,0
+2,0.4,"['Gather wood.', 'Arrange it in a pile.']","['Throw in more wood as needed.', 'Ignite it with a flame.']",Ignite it with a flame.,1
+3,0.6,"['Gather wood.', 'Arrange it in a pile.', 'Ignite it with a flame.']","['Keep a safe distance.', 'Gather wood.']",Keep a safe distance.,0
+4,0.8,"['Gather wood.', 'Arrange it in a pile.', 'Ignite it with a flame.', 'Keep a safe distance.']","['Gather wood.', 'Throw in more wood as needed.']",Throw in more wood as needed.,1
+0,0.0,[],"['Find a safe location to make a bonfire', 'Stack large pieces of wood together']",Find a safe location to make a bonfire,0
+1,0.2,['Find a safe location to make a bonfire'],"['Stack large pieces of wood together', 'Clear the area of any flammable material']",Clear the area of any flammable material,1
+2,0.4,"['Find a safe location to make a bonfire', 'Clear the area of any flammable material']","['Stack large pieces of wood together', 'Throw a match on the wood to start the fire']",Stack large pieces of wood together,0
+3,0.6,"['Find a safe location to make a bonfire', 'Clear the area of any flammable material', 'Stack large pieces of wood together']","['Find a safe location to make a bonfire', 'Squirt lighter fluid on the wood']",Squirt lighter fluid on the wood,1
+4,0.8,"['Find a safe location to make a bonfire', 'Clear the area of any flammable material', 'Stack large pieces of wood together', 'Squirt lighter fluid on the wood']","['Throw a match on the wood to start the fire', 'Clear the area of any flammable material']",Throw a match on the wood to start the fire,0
+0,0.0,[],"['Gather wood.', 'Throw match into wood.']",Gather wood.,0
+1,0.2,['Gather wood.'],"['Fan the wood so it burns nicely.', 'Place wood together on ground.']",Place wood together on ground.,1
+2,0.4,"['Gather wood.', 'Place wood together on ground.']","['Find a match.', 'Fan the wood so it burns nicely.']",Find a match.,0
+3,0.6,"['Gather wood.', 'Place wood together on ground.', 'Find a match.']","['Gather wood.', 'Throw match into wood.']",Throw match into wood.,1
+4,0.8,"['Gather wood.', 'Place wood together on ground.', 'Find a match.', 'Throw match into wood.']","['Gather wood.', 'Fan the wood so it burns nicely.']",Fan the wood so it burns nicely.,1
+0,0.0,[],"['Fill fire pit with kindling and logs', 'Go to the forest']",Go to the forest,1
+1,0.2,['Go to the forest'],"['Dig fire pit', 'Wait for fire to catch']",Dig fire pit,0
+2,0.4,"['Go to the forest', 'Dig fire pit']","['Fill fire pit with kindling and logs', 'Wait for fire to catch']",Fill fire pit with kindling and logs,0
+3,0.6,"['Go to the forest', 'Dig fire pit', 'Fill fire pit with kindling and logs']","['Light fire', 'Go to the forest']",Light fire,0
+4,0.8,"['Go to the forest', 'Dig fire pit', 'Fill fire pit with kindling and logs', 'Light fire']","['Dig fire pit', 'Wait for fire to catch']",Wait for fire to catch,1
+0,0.0,[],"['Gather fire wood', 'Make a fire pit']",Make a fire pit,1
+1,0.2,['Make a fire pit'],"['Gather fire wood', 'Gather fire wood']",Gather fire wood,1
+2,0.4,"['Make a fire pit', 'Gather fire wood']","['Spray wood with lighter fluid', 'Sit back and enjoy the bonfire']",Spray wood with lighter fluid,0
+3,0.6,"['Make a fire pit', 'Gather fire wood', 'Spray wood with lighter fluid']","['Make a fire pit', 'Throw a match onto the light fluid soaked wood']",Throw a match onto the light fluid soaked wood,1
+4,0.8,"['Make a fire pit', 'Gather fire wood', 'Spray wood with lighter fluid', 'Throw a match onto the light fluid soaked wood']","['Sit back and enjoy the bonfire', 'Gather fire wood']",Sit back and enjoy the bonfire,0
+0,0.0,[],"['Get newspaper and matches', 'Gather small branches and leaves']",Gather small branches and leaves,1
+1,0.2,['Gather small branches and leaves'],"['Put these in a fire pit', 'Put these in a fire pit']",Put these in a fire pit,0
+2,0.4,"['Gather small branches and leaves', 'Put these in a fire pit']","['Get newspaper and matches', 'Get small pieces of wood and leaves burning good']",Get newspaper and matches,0
+3,0.6,"['Gather small branches and leaves', 'Put these in a fire pit', 'Get newspaper and matches']","['Light', 'Gather small branches and leaves']",Light,0
+4,0.8,"['Gather small branches and leaves', 'Put these in a fire pit', 'Get newspaper and matches', 'Light']","['Put these in a fire pit', 'Get small pieces of wood and leaves burning good']",Get small pieces of wood and leaves burning good,1
+0,0.0,[],"['Ignite pile of wood', 'Dig a fire pit']",Dig a fire pit,1
+1,0.2,['Dig a fire pit'],"['Find paper to start fire', 'Find wood']",Find wood,1
+2,0.4,"['Dig a fire pit', 'Find wood']","['Ignite pile of wood', 'Find paper to start fire']",Find paper to start fire,1
+3,0.6,"['Dig a fire pit', 'Find wood', 'Find paper to start fire']","['Build pile of wood', 'Dig a fire pit']",Build pile of wood,0
+4,0.8,"['Dig a fire pit', 'Find wood', 'Find paper to start fire', 'Build pile of wood']","['Dig a fire pit', 'Ignite pile of wood']",Ignite pile of wood,1
+0,0.0,[],"['Obtain wood', 'Clear debris from area']",Obtain wood,0
+1,0.2,['Obtain wood'],"['Locate a good spot for a fire', 'Make sure area is enclosed by bricks or rocks']",Locate a good spot for a fire,0
+2,0.4,"['Obtain wood', 'Locate a good spot for a fire']","['Clear debris from area', 'Place wood in the middle']",Clear debris from area,0
+3,0.6,"['Obtain wood', 'Locate a good spot for a fire', 'Clear debris from area']","['Obtain wood', 'Make sure area is enclosed by bricks or rocks']",Make sure area is enclosed by bricks or rocks,1
+4,0.8,"['Obtain wood', 'Locate a good spot for a fire', 'Clear debris from area', 'Make sure area is enclosed by bricks or rocks']","['Obtain wood', 'Place wood in the middle']",Place wood in the middle,1
+0,0.0,[],"['pile wood at angle', 'gather nice wood']",gather nice wood,1
+1,0.2,['gather nice wood'],"['splash some lighter fluid', 'pile wood at angle']",pile wood at angle,1
+2,0.4,"['gather nice wood', 'pile wood at angle']","['splash some lighter fluid', 'enjoy bonfire']",splash some lighter fluid,0
+3,0.6,"['gather nice wood', 'pile wood at angle', 'splash some lighter fluid']","['fire up wood', 'gather nice wood']",fire up wood,0
+4,0.8,"['gather nice wood', 'pile wood at angle', 'splash some lighter fluid', 'fire up wood']","['enjoy bonfire', 'gather nice wood']",enjoy bonfire,0
+0,0.0,[],"['get wood', 'add paper or gas']",get wood,0
+1,0.2,['get wood'],"['light on fire', 'place wood in pile']",place wood in pile,1
+2,0.4,"['get wood', 'place wood in pile']","['add more wood as needed', 'add paper or gas']",add paper or gas,1
+3,0.6,"['get wood', 'place wood in pile', 'add paper or gas']","['get wood', 'light on fire']",light on fire,1
+4,0.8,"['get wood', 'place wood in pile', 'add paper or gas', 'light on fire']","['get wood', 'add more wood as needed']",add more wood as needed,1
+0,0.0,[],"['get lots of wood', 'get lots of wood']",get lots of wood,1
+1,0.2,['get lots of wood'],"['make sure the wood catches', 'put wood in place']",put wood in place,1
+2,0.4,"['get lots of wood', 'put wood in place']","['make sure the wood catches', 'add somthing to help it burn like paper']",add somthing to help it burn like paper,1
+3,0.6,"['get lots of wood', 'put wood in place', 'add somthing to help it burn like paper']","['light with match or lighter', 'get lots of wood']",light with match or lighter,0
+4,0.8,"['get lots of wood', 'put wood in place', 'add somthing to help it burn like paper', 'light with match or lighter']","['put wood in place', 'make sure the wood catches']",make sure the wood catches,1
+0,0.0,[],"['Place wood in a pile in the cleared space.', 'Collect wood.']",Collect wood.,1
+1,0.2,['Collect wood.'],"['Clear space for bonfire.', 'Light newspaper with lighter.']",Clear space for bonfire.,0
+2,0.4,"['Collect wood.', 'Clear space for bonfire.']","['Light newspaper with lighter.', 'Place wood in a pile in the cleared space.']",Place wood in a pile in the cleared space.,1
+3,0.6,"['Collect wood.', 'Clear space for bonfire.', 'Place wood in a pile in the cleared space.']","['Find some newspaper to get fire started.', 'Collect wood.']",Find some newspaper to get fire started.,0
+4,0.8,"['Collect wood.', 'Clear space for bonfire.', 'Place wood in a pile in the cleared space.', 'Find some newspaper to get fire started.']","['Collect wood.', 'Light newspaper with lighter.']",Light newspaper with lighter.,1
+0,0.0,[],"['Add kindling to firestarter', 'Pile wood by bonfire pit']",Pile wood by bonfire pit,1
+1,0.2,['Pile wood by bonfire pit'],"['Light firestarter log', 'Stoke fire']",Light firestarter log,0
+2,0.4,"['Pile wood by bonfire pit', 'Light firestarter log']","['Add more wood as needed', 'Add kindling to firestarter']",Add kindling to firestarter,1
+3,0.6,"['Pile wood by bonfire pit', 'Light firestarter log', 'Add kindling to firestarter']","['Stoke fire', 'Pile wood by bonfire pit']",Stoke fire,0
+4,0.8,"['Pile wood by bonfire pit', 'Light firestarter log', 'Add kindling to firestarter', 'Stoke fire']","['Add more wood as needed', 'Pile wood by bonfire pit']",Add more wood as needed,0
+0,0.0,[],"['Collect twigs and extra sticks in the backyward', 'Put paper around and under the twigs/sticks']",Collect twigs and extra sticks in the backyward,0
+1,0.2,['Collect twigs and extra sticks in the backyward'],"['Put twigs/sticks in a fire pit', 'Put twigs/sticks in a fire pit']",Put twigs/sticks in a fire pit,1
+2,0.4,"['Collect twigs and extra sticks in the backyward', 'Put twigs/sticks in a fire pit']","['Put paper around and under the twigs/sticks', 'Sit back and roast marshmallows or hotdogs']",Put paper around and under the twigs/sticks,0
+3,0.6,"['Collect twigs and extra sticks in the backyward', 'Put twigs/sticks in a fire pit', 'Put paper around and under the twigs/sticks']","['Collect twigs and extra sticks in the backyward', 'Light the paper on fire']",Light the paper on fire,1
+4,0.8,"['Collect twigs and extra sticks in the backyward', 'Put twigs/sticks in a fire pit', 'Put paper around and under the twigs/sticks', 'Light the paper on fire']","['Put twigs/sticks in a fire pit', 'Sit back and roast marshmallows or hotdogs']",Sit back and roast marshmallows or hotdogs,1
+0,0.0,[],"['Light the fire on one side', 'Go to the forest']",Go to the forest,1
+1,0.2,['Go to the forest'],"['Gather wood', 'Go to the forest']",Gather wood,0
+2,0.4,"['Go to the forest', 'Gather wood']","['Light the fire on one side', 'Drive to bonfire area']",Drive to bonfire area,1
+3,0.6,"['Go to the forest', 'Gather wood', 'Drive to bonfire area']","['Go to the forest', 'Make a large pile with the wood']",Make a large pile with the wood,1
+4,0.8,"['Go to the forest', 'Gather wood', 'Drive to bonfire area', 'Make a large pile with the wood']","['Gather wood', 'Light the fire on one side']",Light the fire on one side,1
+0,0.0,[],"['pour lighter fluid onto pile', 'pile up sticks and logs and wood']",pile up sticks and logs and wood,1
+1,0.2,['pile up sticks and logs and wood'],"['add additional kindling', 'add additional kindling']",add additional kindling,1
+2,0.4,"['pile up sticks and logs and wood', 'add additional kindling']","['pour lighter fluid onto pile', 'light match']",pour lighter fluid onto pile,0
+3,0.6,"['pile up sticks and logs and wood', 'add additional kindling', 'pour lighter fluid onto pile']","['design a way to contain the bonfire', 'pile up sticks and logs and wood']",design a way to contain the bonfire,0
+4,0.8,"['pile up sticks and logs and wood', 'add additional kindling', 'pour lighter fluid onto pile', 'design a way to contain the bonfire']","['light match', 'add additional kindling']",light match,0
+0,0.0,[],"['Grab kindling.', 'Sit around fire drinking beer with friends.']",Grab kindling.,0
+1,0.2,['Grab kindling.'],"['Gather fire wood.', 'Gather fire wood.']",Gather fire wood.,0
+2,0.4,"['Grab kindling.', 'Gather fire wood.']","['Sit around fire drinking beer with friends.', 'Use kerosene to help start fire.']",Use kerosene to help start fire.,1
+3,0.6,"['Grab kindling.', 'Gather fire wood.', 'Use kerosene to help start fire.']","['Light kindling with lighter.', 'Grab kindling.']",Light kindling with lighter.,0
+4,0.8,"['Grab kindling.', 'Gather fire wood.', 'Use kerosene to help start fire.', 'Light kindling with lighter.']","['Sit around fire drinking beer with friends.', 'Gather fire wood.']",Sit around fire drinking beer with friends.,0
+0,0.0,[],"['Place wood in pile in open field', 'Watch fire grow']",Place wood in pile in open field,0
+1,0.2,['Place wood in pile in open field'],"['Add wood as needed to keep fire burning', 'Pour gasoline over wood']",Pour gasoline over wood,1
+2,0.4,"['Place wood in pile in open field', 'Pour gasoline over wood']","['Add wood as needed to keep fire burning', 'Throw lit match on top of wood']",Throw lit match on top of wood,1
+3,0.6,"['Place wood in pile in open field', 'Pour gasoline over wood', 'Throw lit match on top of wood']","['Watch fire grow', 'Place wood in pile in open field']",Watch fire grow,0
+4,0.8,"['Place wood in pile in open field', 'Pour gasoline over wood', 'Throw lit match on top of wood', 'Watch fire grow']","['Add wood as needed to keep fire burning', 'Pour gasoline over wood']",Add wood as needed to keep fire burning,0
+0,0.0,[],"['make fire pit', 'make fire pit']",make fire pit,0
+1,0.2,['make fire pit'],"['gather kindling', 'gather kindling']",gather kindling,0
+2,0.4,"['make fire pit', 'gather kindling']","['light kindling', 'play guitar']",light kindling,0
+3,0.6,"['make fire pit', 'gather kindling', 'light kindling']","['add wood on top', 'make fire pit']",add wood on top,0
+4,0.8,"['make fire pit', 'gather kindling', 'light kindling', 'add wood on top']","['make fire pit', 'play guitar']",play guitar,1
+0,0.0,[],"['Secure the campsite', 'Build a fire pit']",Secure the campsite,0
+1,0.2,['Secure the campsite'],"['Secure the campsite', 'Gather wood']",Gather wood,1
+2,0.4,"['Secure the campsite', 'Gather wood']","['Build a fire pit', 'Watch it burn']",Build a fire pit,0
+3,0.6,"['Secure the campsite', 'Gather wood', 'Build a fire pit']","['Secure the campsite', 'Ignite the wood']",Ignite the wood,1
+4,0.8,"['Secure the campsite', 'Gather wood', 'Build a fire pit', 'Ignite the wood']","['Gather wood', 'Watch it burn']",Watch it burn,1
+0,0.0,[],"['Add kindling', 'Gather wood for fire']",Gather wood for fire,1
+1,0.2,['Gather wood for fire'],"['Place a ring of stones around the edge', 'Dig the fire pit']",Dig the fire pit,1
+2,0.4,"['Gather wood for fire', 'Dig the fire pit']","['Add kindling', 'Place a ring of stones around the edge']",Place a ring of stones around the edge,1
+3,0.6,"['Gather wood for fire', 'Dig the fire pit', 'Place a ring of stones around the edge']","['Gather wood for fire', 'Stack the wood']",Stack the wood,1
+4,0.8,"['Gather wood for fire', 'Dig the fire pit', 'Place a ring of stones around the edge', 'Stack the wood']","['Add kindling', 'Gather wood for fire']",Add kindling,0
+0,0.0,[],"['Gather fallen wood and twigs', 'Gather fallen wood and twigs']",Gather fallen wood and twigs,1
+1,0.2,['Gather fallen wood and twigs'],"['Add some kindling like newspaper to catch the fire', 'Take them to a nearby fire pit']",Take them to a nearby fire pit,1
+2,0.4,"['Gather fallen wood and twigs', 'Take them to a nearby fire pit']","['Light the kindling and wait for the wood to catch.', 'Place the twigs in the fire pit']",Place the twigs in the fire pit,1
+3,0.6,"['Gather fallen wood and twigs', 'Take them to a nearby fire pit', 'Place the twigs in the fire pit']","['Gather fallen wood and twigs', 'Add some kindling like newspaper to catch the fire']",Add some kindling like newspaper to catch the fire,1
+4,0.8,"['Gather fallen wood and twigs', 'Take them to a nearby fire pit', 'Place the twigs in the fire pit', 'Add some kindling like newspaper to catch the fire']","['Light the kindling and wait for the wood to catch.', 'Take them to a nearby fire pit']",Light the kindling and wait for the wood to catch.,0
+0,0.0,[],"['Get plenty of firewood.', 'Get plenty of firewood.']",Get plenty of firewood.,1
+1,0.2,['Get plenty of firewood.'],"['Place your firewood into the hole.', 'Dig a hole.']",Dig a hole.,1
+2,0.4,"['Get plenty of firewood.', 'Dig a hole.']","['Light your wood.', 'Place your firewood into the hole.']",Place your firewood into the hole.,1
+3,0.6,"['Get plenty of firewood.', 'Dig a hole.', 'Place your firewood into the hole.']","['Get plenty of firewood.', ""Be sure to clear debris around your hole so you don't catch anything else on fire.""]",Be sure to clear debris around your hole so you don't catch anything else on fire.,1
+4,0.8,"['Get plenty of firewood.', 'Dig a hole.', 'Place your firewood into the hole.', ""Be sure to clear debris around your hole so you don't catch anything else on fire.""]","['Dig a hole.', 'Light your wood.']",Light your wood.,1
+0,0.0,[],"['GATHER WOOD FOR FIRE', 'GATHER WOOD FOR FIRE']",GATHER WOOD FOR FIRE,0
+1,0.2,['GATHER WOOD FOR FIRE'],"['SET FIRE TO THE WOOD', 'MAKE SURE THE WOOD IS DRY']",MAKE SURE THE WOOD IS DRY,1
+2,0.4,"['GATHER WOOD FOR FIRE', 'MAKE SURE THE WOOD IS DRY']","['ASSEMBLE INTO A BONFIRE', 'WATCH THE BONFIRE BURN']",ASSEMBLE INTO A BONFIRE,0
+3,0.6,"['GATHER WOOD FOR FIRE', 'MAKE SURE THE WOOD IS DRY', 'ASSEMBLE INTO A BONFIRE']","['GATHER WOOD FOR FIRE', 'SET FIRE TO THE WOOD']",SET FIRE TO THE WOOD,1
+4,0.8,"['GATHER WOOD FOR FIRE', 'MAKE SURE THE WOOD IS DRY', 'ASSEMBLE INTO A BONFIRE', 'SET FIRE TO THE WOOD']","['WATCH THE BONFIRE BURN', 'GATHER WOOD FOR FIRE']",WATCH THE BONFIRE BURN,0
+0,0.0,[],"['Keep an extra pile of dead twigs to stoke fire later.', 'Go to an open field.']",Go to an open field.,1
+1,0.2,['Go to an open field.'],"['Search for small, dead twigs and place in a large pile.', 'Go to an open field.']","Search for small, dead twigs and place in a large pile.",0
+2,0.4,"['Go to an open field.', 'Search for small, dead twigs and place in a large pile.']","['Search for large, dead branches.', 'Keep an extra pile of dead twigs to stoke fire later.']",Keep an extra pile of dead twigs to stoke fire later.,1
+3,0.6,"['Go to an open field.', 'Search for small, dead twigs and place in a large pile.', 'Keep an extra pile of dead twigs to stoke fire later.']","['Add crumpled paper between the twigs and underneath them.', 'Go to an open field.']",Add crumpled paper between the twigs and underneath them.,0
+4,0.8,"['Go to an open field.', 'Search for small, dead twigs and place in a large pile.', 'Keep an extra pile of dead twigs to stoke fire later.', 'Add crumpled paper between the twigs and underneath them.']","['Search for small, dead twigs and place in a large pile.', 'Search for large, dead branches.']","Search for large, dead branches.",1
+0,0.0,[],"['gather some wood', 'clear a circular area to make the fire']",gather some wood,0
+1,0.2,['gather some wood'],"['gather dry leaves', 'gather dry leaves']",gather dry leaves,1
+2,0.4,"['gather some wood', 'gather dry leaves']","['clear a circular area to make the fire', 'light a match to start a fire']",clear a circular area to make the fire,0
+3,0.6,"['gather some wood', 'gather dry leaves', 'clear a circular area to make the fire']","['gather some wood', 'pile the kindling together']",pile the kindling together,1
+4,0.8,"['gather some wood', 'gather dry leaves', 'clear a circular area to make the fire', 'pile the kindling together']","['gather dry leaves', 'light a match to start a fire']",light a match to start a fire,1
+0,0.0,[],"['Find a flat land area', 'Pour a small amount of lighter fluid at center of wood']",Find a flat land area,0
+1,0.2,['Find a flat land area'],"['Place wood on ground', 'Place wood on ground']",Place wood on ground,1
+2,0.4,"['Find a flat land area', 'Place wood on ground']","['Light wood with a match or lighter', 'Place rocks around wood']",Place rocks around wood,1
+3,0.6,"['Find a flat land area', 'Place wood on ground', 'Place rocks around wood']","['Find a flat land area', 'Pour a small amount of lighter fluid at center of wood']",Pour a small amount of lighter fluid at center of wood,1
+4,0.8,"['Find a flat land area', 'Place wood on ground', 'Place rocks around wood', 'Pour a small amount of lighter fluid at center of wood']","['Place wood on ground', 'Light wood with a match or lighter']",Light wood with a match or lighter,1
+0,0.0,[],"['Pile these items in a pile.', 'Gather dry sticks, branches, logs and wood.']","Gather dry sticks, branches, logs and wood.",1
+1,0.2,"['Gather dry sticks, branches, logs and wood.']","['Pile these items in a pile.', 'Pile these items in a pile.']",Pile these items in a pile.,1
+2,0.4,"['Gather dry sticks, branches, logs and wood.', 'Pile these items in a pile.']","['Light them with matches or a lighter.', 'Enjoy the glow.']",Light them with matches or a lighter.,0
+3,0.6,"['Gather dry sticks, branches, logs and wood.', 'Pile these items in a pile.', 'Light them with matches or a lighter.']","['Keep the bonfire going by adding more wood or leaves.', 'Gather dry sticks, branches, logs and wood.']",Keep the bonfire going by adding more wood or leaves.,0
+4,0.8,"['Gather dry sticks, branches, logs and wood.', 'Pile these items in a pile.', 'Light them with matches or a lighter.', 'Keep the bonfire going by adding more wood or leaves.']","['Gather dry sticks, branches, logs and wood.', 'Enjoy the glow.']",Enjoy the glow.,1
+0,0.0,[],"['Gather kindling', 'Add wood to fire to keep fire going']",Gather kindling,0
+1,0.2,['Gather kindling'],"['Add larger pieces of wood to fire', 'Place kindling in fire pit']",Place kindling in fire pit,1
+2,0.4,"['Gather kindling', 'Place kindling in fire pit']","['Light kindling to get fire started', 'Add wood to fire to keep fire going']",Light kindling to get fire started,0
+3,0.6,"['Gather kindling', 'Place kindling in fire pit', 'Light kindling to get fire started']","['Gather kindling', 'Add larger pieces of wood to fire']",Add larger pieces of wood to fire,1
+4,0.8,"['Gather kindling', 'Place kindling in fire pit', 'Light kindling to get fire started', 'Add larger pieces of wood to fire']","['Add wood to fire to keep fire going', 'Gather kindling']",Add wood to fire to keep fire going,0
+0,0.0,[],"['Look around for wood.', 'Place all wood in a pile.']",Look around for wood.,0
+1,0.2,['Look around for wood.'],"['Place all wood in a pile.', 'Light a match.']",Place all wood in a pile.,0
+2,0.4,"['Look around for wood.', 'Place all wood in a pile.']","['Put some dry weeds in wood.', 'Light weeds and wood.']",Put some dry weeds in wood.,0
+3,0.6,"['Look around for wood.', 'Place all wood in a pile.', 'Put some dry weeds in wood.']","['Light a match.', 'Look around for wood.']",Light a match.,0
+4,0.8,"['Look around for wood.', 'Place all wood in a pile.', 'Put some dry weeds in wood.', 'Light a match.']","['Place all wood in a pile.', 'Light weeds and wood.']",Light weeds and wood.,1
+0,0.0,[],"['gather kindling', 'gather kindling']",gather kindling,0
+1,0.2,['gather kindling'],"['gather thicker wood', 'put fire starter in pit']",gather thicker wood,0
+2,0.4,"['gather kindling', 'gather thicker wood']","['put some kindling in a tepee shape with starter under', 'get a fire starter']",get a fire starter,1
+3,0.6,"['gather kindling', 'gather thicker wood', 'get a fire starter']","['gather kindling', 'put fire starter in pit']",put fire starter in pit,1
+4,0.8,"['gather kindling', 'gather thicker wood', 'get a fire starter', 'put fire starter in pit']","['gather kindling', 'put some kindling in a tepee shape with starter under']",put some kindling in a tepee shape with starter under,1
+0,0.0,[],"['Gather wood.', 'Gather wood.']",Gather wood.,1
+1,0.2,['Gather wood.'],"['Chop wood into kindling.', 'Gather wood.']",Chop wood into kindling.,0
+2,0.4,"['Gather wood.', 'Chop wood into kindling.']","['Light with a match.', 'Place small wood in a fire.']",Place small wood in a fire.,1
+3,0.6,"['Gather wood.', 'Chop wood into kindling.', 'Place small wood in a fire.']","['Place paper on the fire.', 'Gather wood.']",Place paper on the fire.,0
+4,0.8,"['Gather wood.', 'Chop wood into kindling.', 'Place small wood in a fire.', 'Place paper on the fire.']","['Light with a match.', 'Chop wood into kindling.']",Light with a match.,0
+0,0.0,[],"['Create a fire pit', 'Gather wood']",Create a fire pit,0
+1,0.2,['Create a fire pit'],"['Create a fire pit', 'Gather wood']",Gather wood,1
+2,0.4,"['Create a fire pit', 'Gather wood']","['Place wood in fire pit', 'Get starter for fire']",Place wood in fire pit,0
+3,0.6,"['Create a fire pit', 'Gather wood', 'Place wood in fire pit']","['Get water to place near fire pit in case of emergency', 'Create a fire pit']",Get water to place near fire pit in case of emergency,0
+4,0.8,"['Create a fire pit', 'Gather wood', 'Place wood in fire pit', 'Get water to place near fire pit in case of emergency']","['Get starter for fire', 'Gather wood']",Get starter for fire,0
+0,0.0,[],"['Gather sticks', 'Buy some logs from a store']",Gather sticks,0
+1,0.2,['Gather sticks'],"['Buy some logs from a store', 'Gather sticks']",Buy some logs from a store,0
+2,0.4,"['Gather sticks', 'Buy some logs from a store']","['Stack sticks on top', 'Line an area with stones']",Line an area with stones,1
+3,0.6,"['Gather sticks', 'Buy some logs from a store', 'Line an area with stones']","['Gather sticks', 'Put logs on bottom']",Put logs on bottom,1
+4,0.8,"['Gather sticks', 'Buy some logs from a store', 'Line an area with stones', 'Put logs on bottom']","['Stack sticks on top', 'Gather sticks']",Stack sticks on top,0
+0,0.0,[],"['Determine where you would like to have your bonfire.', 'Set afire.']",Determine where you would like to have your bonfire.,0
+1,0.2,['Determine where you would like to have your bonfire.'],"['Pile wood up in chosen area.', ""Check area to make sure that nothing you don't want to burn is around.""]",Check area to make sure that nothing you don't want to burn is around.,1
+2,0.4,"['Determine where you would like to have your bonfire.', ""Check area to make sure that nothing you don't want to burn is around.""]","['Gather dry and/or dead wood for bonfire.', 'Set afire.']",Gather dry and/or dead wood for bonfire.,0
+3,0.6,"['Determine where you would like to have your bonfire.', ""Check area to make sure that nothing you don't want to burn is around."", 'Gather dry and/or dead wood for bonfire.']","['Pile wood up in chosen area.', 'Determine where you would like to have your bonfire.']",Pile wood up in chosen area.,0
+4,0.8,"['Determine where you would like to have your bonfire.', ""Check area to make sure that nothing you don't want to burn is around."", 'Gather dry and/or dead wood for bonfire.', 'Pile wood up in chosen area.']","['Set afire.', 'Determine where you would like to have your bonfire.']",Set afire.,0
+0,0.0,[],"['grab wood as much desired', 'have a family reunion or friends over']",have a family reunion or friends over,1
+1,0.2,['have a family reunion or friends over'],"['make a round shape with rocks', 'grab wood as much desired']",make a round shape with rocks,0
+2,0.4,"['have a family reunion or friends over', 'make a round shape with rocks']","['grab wood as much desired', 'turn wood on fire']",grab wood as much desired,0
+3,0.6,"['have a family reunion or friends over', 'make a round shape with rocks', 'grab wood as much desired']","['use fire utensil', 'have a family reunion or friends over']",use fire utensil,0
+4,0.8,"['have a family reunion or friends over', 'make a round shape with rocks', 'grab wood as much desired', 'use fire utensil']","['make a round shape with rocks', 'turn wood on fire']",turn wood on fire,1
+0,0.0,[],"['arrange them in a heap', 'collect the firewood']",collect the firewood,1
+1,0.2,['collect the firewood'],"['arrange them in a heap', 'arrange them in a heap']",arrange them in a heap,1
+2,0.4,"['collect the firewood', 'arrange them in a heap']","['surround it with sand', 'pour kerosine over the firewood']",surround it with sand,0
+3,0.6,"['collect the firewood', 'arrange them in a heap', 'surround it with sand']","['make a circle around with bricks', 'collect the firewood']",make a circle around with bricks,0
+4,0.8,"['collect the firewood', 'arrange them in a heap', 'surround it with sand', 'make a circle around with bricks']","['pour kerosine over the firewood', 'arrange them in a heap']",pour kerosine over the firewood,0
+0,0.0,[],"['Collect fire wood', 'Collect fire wood']",Collect fire wood,0
+1,0.2,['Collect fire wood'],"['Collect scrap wood and sticks', 'Collect scrap wood and sticks']",Collect scrap wood and sticks,0
+2,0.4,"['Collect fire wood', 'Collect scrap wood and sticks']","['Stack wood into a pile', 'Use lit wood to catch pile on fire']",Stack wood into a pile,0
+3,0.6,"['Collect fire wood', 'Collect scrap wood and sticks', 'Stack wood into a pile']","['Collect fire wood', 'Light a piece of wood with matches']",Light a piece of wood with matches,1
+4,0.8,"['Collect fire wood', 'Collect scrap wood and sticks', 'Stack wood into a pile', 'Light a piece of wood with matches']","['Collect scrap wood and sticks', 'Use lit wood to catch pile on fire']",Use lit wood to catch pile on fire,1
+0,0.0,[],"['Find a large area suitable for a bonfire', 'Make sure there is no dry grass or brush nearby that can catch fire']",Find a large area suitable for a bonfire,0
+1,0.2,['Find a large area suitable for a bonfire'],"['Make sure there is no dry grass or brush nearby that can catch fire', 'Place rocks in large circle surrounding where the fire will be']",Make sure there is no dry grass or brush nearby that can catch fire,0
+2,0.4,"['Find a large area suitable for a bonfire', 'Make sure there is no dry grass or brush nearby that can catch fire']","['Place rocks in large circle surrounding where the fire will be', 'Place larger pieces in the middle']",Place rocks in large circle surrounding where the fire will be,0
+3,0.6,"['Find a large area suitable for a bonfire', 'Make sure there is no dry grass or brush nearby that can catch fire', 'Place rocks in large circle surrounding where the fire will be']","['Find a large area suitable for a bonfire', 'Gather wood to be burned in the fire']",Gather wood to be burned in the fire,1
+4,0.8,"['Find a large area suitable for a bonfire', 'Make sure there is no dry grass or brush nearby that can catch fire', 'Place rocks in large circle surrounding where the fire will be', 'Gather wood to be burned in the fire']","['Place larger pieces in the middle', 'Make sure there is no dry grass or brush nearby that can catch fire']",Place larger pieces in the middle,0
+0,0.0,[],"['Collect tinder (leaves, dry grass, small twigs, paper, etc.)', 'Gather wood']",Gather wood,1
+1,0.2,['Gather wood'],"['Arrange wood in pile', 'Gather wood']",Arrange wood in pile,0
+2,0.4,"['Gather wood', 'Arrange wood in pile']","['Light match or lighter', 'Collect tinder (leaves, dry grass, small twigs, paper, etc.)']","Collect tinder (leaves, dry grass, small twigs, paper, etc.)",1
+3,0.6,"['Gather wood', 'Arrange wood in pile', 'Collect tinder (leaves, dry grass, small twigs, paper, etc.)']","['Put tinder under wood pile', 'Gather wood']",Put tinder under wood pile,0
+4,0.8,"['Gather wood', 'Arrange wood in pile', 'Collect tinder (leaves, dry grass, small twigs, paper, etc.)', 'Put tinder under wood pile']","['Gather wood', 'Light match or lighter']",Light match or lighter,1
+0,0.0,[],"['Dig a pit', 'Select the spot']",Select the spot,1
+1,0.2,['Select the spot'],"['Get some twigs, leaves, sticks and unwanted wood', 'Make a boarder for pit with stones']","Get some twigs, leaves, sticks and unwanted wood",0
+2,0.4,"['Select the spot', 'Get some twigs, leaves, sticks and unwanted wood']","[' Place the woods', 'Dig a pit']",Dig a pit,1
+3,0.6,"['Select the spot', 'Get some twigs, leaves, sticks and unwanted wood', 'Dig a pit']","['Select the spot', 'Make a boarder for pit with stones']",Make a boarder for pit with stones,1
+4,0.8,"['Select the spot', 'Get some twigs, leaves, sticks and unwanted wood', 'Dig a pit', 'Make a boarder for pit with stones']","['Select the spot', ' Place the woods']", Place the woods,1
+0,0.0,[],"['Get some dry wood', 'Ball up kindling into a small cup']",Get some dry wood,0
+1,0.2,['Get some dry wood'],"['Stack a few pieces of wood into small pile with air gap underneath', 'Generate spark to light kindling']",Stack a few pieces of wood into small pile with air gap underneath,0
+2,0.4,"['Get some dry wood', 'Stack a few pieces of wood into small pile with air gap underneath']","['Generate spark to light kindling', 'Collect kindling']",Collect kindling,1
+3,0.6,"['Get some dry wood', 'Stack a few pieces of wood into small pile with air gap underneath', 'Collect kindling']","['Ball up kindling into a small cup', 'Get some dry wood']",Ball up kindling into a small cup,0
+4,0.8,"['Get some dry wood', 'Stack a few pieces of wood into small pile with air gap underneath', 'Collect kindling', 'Ball up kindling into a small cup']","['Generate spark to light kindling', 'Stack a few pieces of wood into small pile with air gap underneath']",Generate spark to light kindling,0
+0,0.0,[],"['Good place match for bonfire', 'Make bonfire']",Good place match for bonfire,0
+1,0.2,['Good place match for bonfire'],"['Bring the wood', 'Take the match box.']",Bring the wood,0
+2,0.4,"['Good place match for bonfire', 'Bring the wood']","['Make bonfire', 'One by one arranging']",One by one arranging,1
+3,0.6,"['Good place match for bonfire', 'Bring the wood', 'One by one arranging']","['Take the match box.', 'Good place match for bonfire']",Take the match box.,0
+4,0.8,"['Good place match for bonfire', 'Bring the wood', 'One by one arranging', 'Take the match box.']","['Good place match for bonfire', 'Make bonfire']",Make bonfire,1
+0,0.0,[],"['Collect pieces of dry wood', 'Collect pieces of dry wood']",Collect pieces of dry wood,1
+1,0.2,['Collect pieces of dry wood'],"['Arrange the wood in the fireplace', 'Arrange the wood in the fireplace']",Arrange the wood in the fireplace,1
+2,0.4,"['Collect pieces of dry wood', 'Arrange the wood in the fireplace']","['Sit around the fire and enjoy', 'Sprinkle some fuel on the wood']",Sprinkle some fuel on the wood,1
+3,0.6,"['Collect pieces of dry wood', 'Arrange the wood in the fireplace', 'Sprinkle some fuel on the wood']","['Collect pieces of dry wood', 'Light the fire']",Light the fire,1
+4,0.8,"['Collect pieces of dry wood', 'Arrange the wood in the fireplace', 'Sprinkle some fuel on the wood', 'Light the fire']","['Sit around the fire and enjoy', 'Arrange the wood in the fireplace']",Sit around the fire and enjoy,0
+0,0.0,[],"['Find location to start the bonfire', 'make sure anything flammable is safe distance away']",Find location to start the bonfire,0
+1,0.2,['Find location to start the bonfire'],"['Gather wood', 'Gather wood']",Gather wood,1
+2,0.4,"['Find location to start the bonfire', 'Gather wood']","['Pile wood on location/ fire pit', 'Ignite the wood']",Pile wood on location/ fire pit,0
+3,0.6,"['Find location to start the bonfire', 'Gather wood', 'Pile wood on location/ fire pit']","['Find location to start the bonfire', 'make sure anything flammable is safe distance away']",make sure anything flammable is safe distance away,1
+4,0.8,"['Find location to start the bonfire', 'Gather wood', 'Pile wood on location/ fire pit', 'make sure anything flammable is safe distance away']","['Gather wood', 'Ignite the wood']",Ignite the wood,1
+0,0.0,[],"['Gather as much wood as possible', 'Gather as much wood as possible']",Gather as much wood as possible,1
+1,0.2,['Gather as much wood as possible'],"['Get matches', 'Get fire extinguisher']",Get matches,0
+2,0.4,"['Gather as much wood as possible', 'Get matches']","['Get lighter fluid', 'Arrange wood in pile']",Get lighter fluid,0
+3,0.6,"['Gather as much wood as possible', 'Get matches', 'Get lighter fluid']","['Gather as much wood as possible', 'Get fire extinguisher']",Get fire extinguisher,1
+4,0.8,"['Gather as much wood as possible', 'Get matches', 'Get lighter fluid', 'Get fire extinguisher']","['Arrange wood in pile', 'Gather as much wood as possible']",Arrange wood in pile,0
+0,0.0,[],"['Find a fire-pit', 'Find a fire-pit']",Find a fire-pit,0
+1,0.2,['Find a fire-pit'],"['Gather kindling', 'Build a tent shape with the small wood pieces over the kindling']",Gather kindling,0
+2,0.4,"['Find a fire-pit', 'Gather kindling']","['Build a tent shape with the small wood pieces over the kindling', 'Put kindling in pit']",Put kindling in pit,1
+3,0.6,"['Find a fire-pit', 'Gather kindling', 'Put kindling in pit']","['Find a fire-pit', 'Gather small, dry wood pieces']","Gather small, dry wood pieces",1
+4,0.8,"['Find a fire-pit', 'Gather kindling', 'Put kindling in pit', 'Gather small, dry wood pieces']","['Find a fire-pit', 'Build a tent shape with the small wood pieces over the kindling']",Build a tent shape with the small wood pieces over the kindling,1
+0,0.0,[],"['Dig a pit', 'Place rocks around hole']",Dig a pit,0
+1,0.2,['Dig a pit'],"['Dig a pit', 'Place rocks around hole']",Place rocks around hole,1
+2,0.4,"['Dig a pit', 'Place rocks around hole']","['Tame fire', 'Put wood in hole']",Put wood in hole,1
+3,0.6,"['Dig a pit', 'Place rocks around hole', 'Put wood in hole']","['Dig a pit', 'Light firewood']",Light firewood,1
+4,0.8,"['Dig a pit', 'Place rocks around hole', 'Put wood in hole', 'Light firewood']","['Tame fire', 'Dig a pit']",Tame fire,0
+0,0.0,[],"['Light the newspaper', 'Collect wood']",Collect wood,1
+1,0.2,['Collect wood'],"['Put it in a spot that has no grass', 'Add some newspaper']",Put it in a spot that has no grass,0
+2,0.4,"['Collect wood', 'Put it in a spot that has no grass']","['Light the newspaper', 'Arrange the wood']",Arrange the wood,1
+3,0.6,"['Collect wood', 'Put it in a spot that has no grass', 'Arrange the wood']","['Add some newspaper', 'Collect wood']",Add some newspaper,0
+4,0.8,"['Collect wood', 'Put it in a spot that has no grass', 'Arrange the wood', 'Add some newspaper']","['Collect wood', 'Light the newspaper']",Light the newspaper,1
+0,0.0,[],"['Gather sticks and logs', 'Find a clearing']",Find a clearing,1
+1,0.2,['Find a clearing'],"['Gather sticks and logs', 'Put logs and sticks into pile']",Gather sticks and logs,0
+2,0.4,"['Find a clearing', 'Gather sticks and logs']","['Add small brush', 'Gather small brush']",Gather small brush,1
+3,0.6,"['Find a clearing', 'Gather sticks and logs', 'Gather small brush']","['Find a clearing', 'Put logs and sticks into pile']",Put logs and sticks into pile,1
+4,0.8,"['Find a clearing', 'Gather sticks and logs', 'Gather small brush', 'Put logs and sticks into pile']","['Find a clearing', 'Add small brush']",Add small brush,1
+0,0.0,[],"['Add more wood once the fire is getting bigger', 'Gather dry wood']",Gather dry wood,1
+1,0.2,['Gather dry wood'],"['Gather dry wood', 'Get some matches']",Get some matches,1
+2,0.4,"['Gather dry wood', 'Get some matches']","['Add more wood once the fire is getting bigger', 'Light some tinder under the wood']",Light some tinder under the wood,1
+3,0.6,"['Gather dry wood', 'Get some matches', 'Light some tinder under the wood']","['Gather dry wood', 'Tend to the fire to get it going']",Tend to the fire to get it going,1
+4,0.8,"['Gather dry wood', 'Get some matches', 'Light some tinder under the wood', 'Tend to the fire to get it going']","['Get some matches', 'Add more wood once the fire is getting bigger']",Add more wood once the fire is getting bigger,1
+0,0.0,[],"['Identify location', 'Identify location']",Identify location,0
+1,0.2,['Identify location'],"['Obtain permit if required', 'Stack the wood safely leaving air space']",Obtain permit if required,0
+2,0.4,"['Identify location', 'Obtain permit if required']","['Accumulate bonfire materials, primarily wood', 'Place kindling at the foot of the stack of wood']","Accumulate bonfire materials, primarily wood",0
+3,0.6,"['Identify location', 'Obtain permit if required', 'Accumulate bonfire materials, primarily wood']","['Identify location', 'Stack the wood safely leaving air space']",Stack the wood safely leaving air space,1
+4,0.8,"['Identify location', 'Obtain permit if required', 'Accumulate bonfire materials, primarily wood', 'Stack the wood safely leaving air space']","['Obtain permit if required', 'Place kindling at the foot of the stack of wood']",Place kindling at the foot of the stack of wood,1
+0,0.0,[],"['Go to the woods', 'Stack wood, tinder and kindling']",Go to the woods,0
+1,0.2,['Go to the woods'],"['Stack wood, tinder and kindling', 'Clear a spot for the fire']",Clear a spot for the fire,1
+2,0.4,"['Go to the woods', 'Clear a spot for the fire']","['Gather wood and tinder', 'Light the kindling on fire']",Gather wood and tinder,0
+3,0.6,"['Go to the woods', 'Clear a spot for the fire', 'Gather wood and tinder']","['Go to the woods', 'Stack wood, tinder and kindling']","Stack wood, tinder and kindling",1
+4,0.8,"['Go to the woods', 'Clear a spot for the fire', 'Gather wood and tinder', 'Stack wood, tinder and kindling']","['Light the kindling on fire', 'Go to the woods']",Light the kindling on fire,0
+0,0.0,[],"['Get a lighter.', 'Put wood or sticks in fire pit.']",Get a lighter.,0
+1,0.2,['Get a lighter.'],"['Find wood or sticks.', 'Get lighter fluid.']",Get lighter fluid.,1
+2,0.4,"['Get a lighter.', 'Get lighter fluid.']","['Find wood or sticks.', 'Put wood or sticks in fire pit.']",Find wood or sticks.,0
+3,0.6,"['Get a lighter.', 'Get lighter fluid.', 'Find wood or sticks.']","['Get a lighter.', 'Find a fire pit.']",Find a fire pit.,1
+4,0.8,"['Get a lighter.', 'Get lighter fluid.', 'Find wood or sticks.', 'Find a fire pit.']","['Get lighter fluid.', 'Put wood or sticks in fire pit.']",Put wood or sticks in fire pit.,1
+0,0.0,[],"['collect wood', 'set up wood in a pit']",collect wood,0
+1,0.2,['collect wood'],"['Get some matches', 'set up wood in a pit']",set up wood in a pit,1
+2,0.4,"['collect wood', 'set up wood in a pit']","['Get some matches', 'Feed fire till it catches the rest of the wood']",Get some matches,0
+3,0.6,"['collect wood', 'set up wood in a pit', 'Get some matches']","['collect wood', 'Light a small bit of kindling and place it under the Wood']",Light a small bit of kindling and place it under the Wood,1
+4,0.8,"['collect wood', 'set up wood in a pit', 'Get some matches', 'Light a small bit of kindling and place it under the Wood']","['set up wood in a pit', 'Feed fire till it catches the rest of the wood']",Feed fire till it catches the rest of the wood,1
+0,0.0,[],"['stack small branches', 'Find a safe area']",Find a safe area,1
+1,0.2,['Find a safe area'],"['stack larger branches', 'clear the area for space']",clear the area for space,1
+2,0.4,"['Find a safe area', 'clear the area for space']","['stack small branches', 'add an incendiary']",stack small branches,0
+3,0.6,"['Find a safe area', 'clear the area for space', 'stack small branches']","['stack larger branches', 'Find a safe area']",stack larger branches,0
+4,0.8,"['Find a safe area', 'clear the area for space', 'stack small branches', 'stack larger branches']","['Find a safe area', 'add an incendiary']",add an incendiary,1
+0,0.0,[],"['Put up gas.', 'Dig out a hole.']",Dig out a hole.,1
+1,0.2,['Dig out a hole.'],"['Dig out a hole.', 'Put wood into hole.']",Put wood into hole.,1
+2,0.4,"['Dig out a hole.', 'Put wood into hole.']","['Put gas on the wood.', 'Put up gas.']",Put gas on the wood.,0
+3,0.6,"['Dig out a hole.', 'Put wood into hole.', 'Put gas on the wood.']","['Dig out a hole.', 'Light the wood.']",Light the wood.,1
+4,0.8,"['Dig out a hole.', 'Put wood into hole.', 'Put gas on the wood.', 'Light the wood.']","['Put up gas.', 'Put wood into hole.']",Put up gas.,0
+0,0.0,[],"['Wait for the fire to spread', 'Get as much wood as you can']",Get as much wood as you can,1
+1,0.2,['Get as much wood as you can'],"['Put wood in a pile', 'Put wood in a pile']",Put wood in a pile,0
+2,0.4,"['Get as much wood as you can', 'Put wood in a pile']","['Start a fire at the bottom of the pile', 'Enjoy the light and heat of the fire']",Start a fire at the bottom of the pile,0
+3,0.6,"['Get as much wood as you can', 'Put wood in a pile', 'Start a fire at the bottom of the pile']","['Get as much wood as you can', 'Wait for the fire to spread']",Wait for the fire to spread,1
+4,0.8,"['Get as much wood as you can', 'Put wood in a pile', 'Start a fire at the bottom of the pile', 'Wait for the fire to spread']","['Enjoy the light and heat of the fire', 'Put wood in a pile']",Enjoy the light and heat of the fire,0
+0,0.0,[],"['Gather logs and kindling', 'Use lighting fluid if necessary']",Gather logs and kindling,0
+1,0.2,['Gather logs and kindling'],"['Set light to kindling or paper', 'Build conical shape with wood']",Build conical shape with wood,1
+2,0.4,"['Gather logs and kindling', 'Build conical shape with wood']","['Stoke bonfire once it is lit', 'Set light to kindling or paper']",Set light to kindling or paper,1
+3,0.6,"['Gather logs and kindling', 'Build conical shape with wood', 'Set light to kindling or paper']","['Use lighting fluid if necessary', 'Gather logs and kindling']",Use lighting fluid if necessary,0
+4,0.8,"['Gather logs and kindling', 'Build conical shape with wood', 'Set light to kindling or paper', 'Use lighting fluid if necessary']","['Stoke bonfire once it is lit', 'Gather logs and kindling']",Stoke bonfire once it is lit,0
+0,0.0,[],"['Light the kindling', 'Create a place for the fire by clearing out plants and place rocks around the outside']",Create a place for the fire by clearing out plants and place rocks around the outside,1
+1,0.2,['Create a place for the fire by clearing out plants and place rocks around the outside'],"['Gather up dry wood of all sizes, from kindling up to logs', 'Gather up dry wood of all sizes, from kindling up to logs']","Gather up dry wood of all sizes, from kindling up to logs",0
+2,0.4,"['Create a place for the fire by clearing out plants and place rocks around the outside', 'Gather up dry wood of all sizes, from kindling up to logs']","['Start to build a little tent of wood, with kindling underneath and some twigs over that.', 'As the twigs start to catch fire, start added wood on top, allowing space for air']","Start to build a little tent of wood, with kindling underneath and some twigs over that.",0
+3,0.6,"['Create a place for the fire by clearing out plants and place rocks around the outside', 'Gather up dry wood of all sizes, from kindling up to logs', 'Start to build a little tent of wood, with kindling underneath and some twigs over that.']","['Light the kindling', 'Create a place for the fire by clearing out plants and place rocks around the outside']",Light the kindling,0
+4,0.8,"['Create a place for the fire by clearing out plants and place rocks around the outside', 'Gather up dry wood of all sizes, from kindling up to logs', 'Start to build a little tent of wood, with kindling underneath and some twigs over that.', 'Light the kindling']","['Create a place for the fire by clearing out plants and place rocks around the outside', 'As the twigs start to catch fire, start added wood on top, allowing space for air']","As the twigs start to catch fire, start added wood on top, allowing space for air",1
+0,0.0,[],"['Select the location for your fire', 'Soak kindling in lighter fluid']",Select the location for your fire,0
+1,0.2,['Select the location for your fire'],"['Light a match', 'Set up kindling']",Set up kindling,1
+2,0.4,"['Select the location for your fire', 'Set up kindling']","['Set fire to kindling', 'Soak kindling in lighter fluid']",Soak kindling in lighter fluid,1
+3,0.6,"['Select the location for your fire', 'Set up kindling', 'Soak kindling in lighter fluid']","['Light a match', 'Select the location for your fire']",Light a match,0
+4,0.8,"['Select the location for your fire', 'Set up kindling', 'Soak kindling in lighter fluid', 'Light a match']","['Select the location for your fire', 'Set fire to kindling']",Set fire to kindling,1
+0,0.0,[],"['Lighting the pile', 'Gathering wood']",Gathering wood,1
+1,0.2,['Gathering wood'],"['Lighting the pile', 'Putting the wood in a pile']",Putting the wood in a pile,1
+2,0.4,"['Gathering wood', 'Putting the wood in a pile']","['Watching it burn', 'Pouring lighter fluid on the pile']",Pouring lighter fluid on the pile,1
+3,0.6,"['Gathering wood', 'Putting the wood in a pile', 'Pouring lighter fluid on the pile']","['Lighting the pile', 'Gathering wood']",Lighting the pile,0
+4,0.8,"['Gathering wood', 'Putting the wood in a pile', 'Pouring lighter fluid on the pile', 'Lighting the pile']","['Watching it burn', 'Gathering wood']",Watching it burn,0
+0,0.0,[],"['Stuff paper between the wood at the bottom of wood pile.', 'Gather a large amount of dry firewood.']",Gather a large amount of dry firewood.,1
+1,0.2,['Gather a large amount of dry firewood.'],"['Stuff paper between the wood at the bottom of wood pile.', 'Put wood in a safe venue for a fire.']",Put wood in a safe venue for a fire.,1
+2,0.4,"['Gather a large amount of dry firewood.', 'Put wood in a safe venue for a fire.']","['Stuff paper between the wood at the bottom of wood pile.', 'Use a match to light the paper.']",Stuff paper between the wood at the bottom of wood pile.,0
+3,0.6,"['Gather a large amount of dry firewood.', 'Put wood in a safe venue for a fire.', 'Stuff paper between the wood at the bottom of wood pile.']","['Put lighter fluid on wood.', 'Gather a large amount of dry firewood.']",Put lighter fluid on wood.,0
+4,0.8,"['Gather a large amount of dry firewood.', 'Put wood in a safe venue for a fire.', 'Stuff paper between the wood at the bottom of wood pile.', 'Put lighter fluid on wood.']","['Use a match to light the paper.', 'Gather a large amount of dry firewood.']",Use a match to light the paper.,0
+0,0.0,[],"['Gather dry wood.', 'Light newspaper on fire.']",Gather dry wood.,0
+1,0.2,['Gather dry wood.'],"['Stack wood in pyramid shape.', 'Gather dry wood.']",Stack wood in pyramid shape.,0
+2,0.4,"['Gather dry wood.', 'Stack wood in pyramid shape.']","['Tuck kindling and newspaper around wood.', 'Light newspaper on fire.']",Tuck kindling and newspaper around wood.,0
+3,0.6,"['Gather dry wood.', 'Stack wood in pyramid shape.', 'Tuck kindling and newspaper around wood.']","['Pour lighter fluid on wood.', 'Gather dry wood.']",Pour lighter fluid on wood.,0
+4,0.8,"['Gather dry wood.', 'Stack wood in pyramid shape.', 'Tuck kindling and newspaper around wood.', 'Pour lighter fluid on wood.']","['Gather dry wood.', 'Light newspaper on fire.']",Light newspaper on fire.,1
+0,0.0,[],"['load up all the wood into a pile', 'use a safe flammable ']",load up all the wood into a pile,0
+1,0.2,['load up all the wood into a pile'],"['light ', 'stack as tall as possible safely']",stack as tall as possible safely,1
+2,0.4,"['load up all the wood into a pile', 'stack as tall as possible safely']","['stay far back to avoid getting burned', 'use a safe flammable ']",use a safe flammable ,1
+3,0.6,"['load up all the wood into a pile', 'stack as tall as possible safely', 'use a safe flammable ']","['load up all the wood into a pile', 'light ']",light ,1
+4,0.8,"['load up all the wood into a pile', 'stack as tall as possible safely', 'use a safe flammable ', 'light ']","['stay far back to avoid getting burned', 'stack as tall as possible safely']",stay far back to avoid getting burned,0

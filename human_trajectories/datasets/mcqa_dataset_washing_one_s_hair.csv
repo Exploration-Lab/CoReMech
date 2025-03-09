@@ -1,0 +1,737 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Pour shampoo into hand', 'Remove clothing']",Remove clothing,1
+1,0.1,['Remove clothing'],"['Hair is clean', 'Step into shower']",Step into shower,1
+2,0.2,"['Remove clothing', 'Step into shower']","['Turn on water', 'Pour shampoo into hand']",Turn on water,0
+3,0.3,"['Remove clothing', 'Step into shower', 'Turn on water']","['Remove clothing', 'Get hair and body wet']",Get hair and body wet,1
+4,0.4,"['Remove clothing', 'Step into shower', 'Turn on water', 'Get hair and body wet']","['Pour shampoo into hand', 'Hair is clean']",Pour shampoo into hand,0
+5,0.5,"['Remove clothing', 'Step into shower', 'Turn on water', 'Get hair and body wet', 'Pour shampoo into hand']","['Rinse shampoo out of hair', 'Lather shampoo into hair']",Lather shampoo into hair,1
+6,0.6,"['Remove clothing', 'Step into shower', 'Turn on water', 'Get hair and body wet', 'Pour shampoo into hand', 'Lather shampoo into hair']","['Massage shampoo into hair for at least a minute', 'Hair is clean']",Massage shampoo into hair for at least a minute,0
+7,0.7,"['Remove clothing', 'Step into shower', 'Turn on water', 'Get hair and body wet', 'Pour shampoo into hand', 'Lather shampoo into hair', 'Massage shampoo into hair for at least a minute']","['Hair is clean', 'Rinse shampoo out of hair']",Rinse shampoo out of hair,1
+8,0.8,"['Remove clothing', 'Step into shower', 'Turn on water', 'Get hair and body wet', 'Pour shampoo into hand', 'Lather shampoo into hair', 'Massage shampoo into hair for at least a minute', 'Rinse shampoo out of hair']","['Turn off water', 'Get hair and body wet']",Turn off water,0
+9,0.9,"['Remove clothing', 'Step into shower', 'Turn on water', 'Get hair and body wet', 'Pour shampoo into hand', 'Lather shampoo into hair', 'Massage shampoo into hair for at least a minute', 'Rinse shampoo out of hair', 'Turn off water']","['Hair is clean', 'Turn on water']",Hair is clean,0
+0,0.0,[],"['Scrub with shampoo', 'Get towel']",Get towel,1
+1,0.1,['Get towel'],"['Rinse out', 'Get shampoo']",Get shampoo,1
+2,0.2,"['Get towel', 'Get shampoo']","['Get conditioner', 'Towel dry hair']",Get conditioner,0
+3,0.3,"['Get towel', 'Get shampoo', 'Get conditioner']","['Wet hair down in sink', 'Towel dry hair']",Wet hair down in sink,0
+4,0.4,"['Get towel', 'Get shampoo', 'Get conditioner', 'Wet hair down in sink']","['Scrub with shampoo', 'Towel dry hair']",Scrub with shampoo,0
+5,0.5,"['Get towel', 'Get shampoo', 'Get conditioner', 'Wet hair down in sink', 'Scrub with shampoo']","['Rinse hair', 'Towel dry hair']",Rinse hair,0
+6,0.6,"['Get towel', 'Get shampoo', 'Get conditioner', 'Wet hair down in sink', 'Scrub with shampoo', 'Rinse hair']","['Towel dry hair', 'Put conditioner in']",Put conditioner in,1
+7,0.7,"['Get towel', 'Get shampoo', 'Get conditioner', 'Wet hair down in sink', 'Scrub with shampoo', 'Rinse hair', 'Put conditioner in']","['Rinse out', 'Wet hair down in sink']",Rinse out,0
+8,0.8,"['Get towel', 'Get shampoo', 'Get conditioner', 'Wet hair down in sink', 'Scrub with shampoo', 'Rinse hair', 'Put conditioner in', 'Rinse out']","['Towel dry hair', 'Rinse hair']",Towel dry hair,0
+9,0.9,"['Get towel', 'Get shampoo', 'Get conditioner', 'Wet hair down in sink', 'Scrub with shampoo', 'Rinse hair', 'Put conditioner in', 'Rinse out', 'Towel dry hair']","['Get shampoo', 'Comb hair']",Comb hair,1
+0,0.0,[],"['enter bathroom', 'run warm water into sink']",enter bathroom,0
+1,0.1,['enter bathroom'],"['turn off water', 'run warm water into sink']",run warm water into sink,1
+2,0.2,"['enter bathroom', 'run warm water into sink']","['dip up water', 'remove clothes']",remove clothes,1
+3,0.3,"['enter bathroom', 'run warm water into sink', 'remove clothes']","['place towel nearby', 'dip up water']",place towel nearby,0
+4,0.4,"['enter bathroom', 'run warm water into sink', 'remove clothes', 'place towel nearby']","['step up to sink', 'run warm water into sink']",step up to sink,0
+5,0.5,"['enter bathroom', 'run warm water into sink', 'remove clothes', 'place towel nearby', 'step up to sink']","['turn off water', 'run warm water into sink']",turn off water,0
+6,0.6,"['enter bathroom', 'run warm water into sink', 'remove clothes', 'place towel nearby', 'step up to sink', 'turn off water']","['get shampoo off rack', 'place towel nearby']",get shampoo off rack,0
+7,0.7,"['enter bathroom', 'run warm water into sink', 'remove clothes', 'place towel nearby', 'step up to sink', 'turn off water', 'get shampoo off rack']","['dip up water', 'place towel nearby']",dip up water,0
+8,0.8,"['enter bathroom', 'run warm water into sink', 'remove clothes', 'place towel nearby', 'step up to sink', 'turn off water', 'get shampoo off rack', 'dip up water']","['turn off water', 'splash onto hair']",splash onto hair,1
+9,0.9,"['enter bathroom', 'run warm water into sink', 'remove clothes', 'place towel nearby', 'step up to sink', 'turn off water', 'get shampoo off rack', 'dip up water', 'splash onto hair']","['enter bathroom', 'shampoo hair']",shampoo hair,1
+0,0.0,[],"['wetting hair', 'rinse conditioner']",wetting hair,0
+1,0.14285714285714285,['wetting hair'],"['repeat lather and rinse', 'applying shampoo to hair']",applying shampoo to hair,1
+2,0.2857142857142857,"['wetting hair', 'applying shampoo to hair']","['apply conditioner', 'lathering shampoo']",lathering shampoo,1
+3,0.42857142857142855,"['wetting hair', 'applying shampoo to hair', 'lathering shampoo']","['rinsing shampoo', 'apply conditioner']",rinsing shampoo,0
+4,0.5714285714285714,"['wetting hair', 'applying shampoo to hair', 'lathering shampoo', 'rinsing shampoo']","['repeat lather and rinse', 'wetting hair']",repeat lather and rinse,0
+5,0.7142857142857143,"['wetting hair', 'applying shampoo to hair', 'lathering shampoo', 'rinsing shampoo', 'repeat lather and rinse']","['applying shampoo to hair', 'apply conditioner']",apply conditioner,1
+6,0.8571428571428571,"['wetting hair', 'applying shampoo to hair', 'lathering shampoo', 'rinsing shampoo', 'repeat lather and rinse', 'apply conditioner']","['applying shampoo to hair', 'rinse conditioner']",rinse conditioner,1
+0,0.0,[],"['Wet your hair thoroughly down to the scalp', 'Style hair as desired']",Wet your hair thoroughly down to the scalp,0
+1,0.14285714285714285,['Wet your hair thoroughly down to the scalp'],"['Apply small amount of shampoo to your hair', 'Apply small amount of shampoo to your hair']",Apply small amount of shampoo to your hair,1
+2,0.2857142857142857,"['Wet your hair thoroughly down to the scalp', 'Apply small amount of shampoo to your hair']","['Work shampoo through hair with fingers', 'Style hair as desired']",Work shampoo through hair with fingers,0
+3,0.42857142857142855,"['Wet your hair thoroughly down to the scalp', 'Apply small amount of shampoo to your hair', 'Work shampoo through hair with fingers']","['Style hair as desired', 'Lightly massage scalp with fingertips']",Lightly massage scalp with fingertips,1
+4,0.5714285714285714,"['Wet your hair thoroughly down to the scalp', 'Apply small amount of shampoo to your hair', 'Work shampoo through hair with fingers', 'Lightly massage scalp with fingertips']","['Rinse hair completely until all suds are gone', 'Apply small amount of shampoo to your hair']",Rinse hair completely until all suds are gone,0
+5,0.7142857142857143,"['Wet your hair thoroughly down to the scalp', 'Apply small amount of shampoo to your hair', 'Work shampoo through hair with fingers', 'Lightly massage scalp with fingertips', 'Rinse hair completely until all suds are gone']","['Work shampoo through hair with fingers', 'Gently squeeze water from hair with dry towel']",Gently squeeze water from hair with dry towel,1
+6,0.8571428571428571,"['Wet your hair thoroughly down to the scalp', 'Apply small amount of shampoo to your hair', 'Work shampoo through hair with fingers', 'Lightly massage scalp with fingertips', 'Rinse hair completely until all suds are gone', 'Gently squeeze water from hair with dry towel']","['Style hair as desired', 'Wet your hair thoroughly down to the scalp']",Style hair as desired,0
+0,0.0,[],"['Go to bathroom', 'Rinse out']",Go to bathroom,0
+1,0.1,['Go to bathroom'],"['Take off clothes', 'Put conditioner in hair']",Take off clothes,0
+2,0.2,"['Go to bathroom', 'Take off clothes']","['Lather', 'Get in shower']",Get in shower,1
+3,0.3,"['Go to bathroom', 'Take off clothes', 'Get in shower']","['Turn on water', 'Lather']",Turn on water,0
+4,0.4,"['Go to bathroom', 'Take off clothes', 'Get in shower', 'Turn on water']","['Put shampoo in hair', 'Take off clothes']",Put shampoo in hair,0
+5,0.5,"['Go to bathroom', 'Take off clothes', 'Get in shower', 'Turn on water', 'Put shampoo in hair']","['Rinse out', 'Lather']",Lather,1
+6,0.6,"['Go to bathroom', 'Take off clothes', 'Get in shower', 'Turn on water', 'Put shampoo in hair', 'Lather']","['Rinse out', 'Lather']",Rinse out,0
+7,0.7,"['Go to bathroom', 'Take off clothes', 'Get in shower', 'Turn on water', 'Put shampoo in hair', 'Lather', 'Rinse out']","['Put conditioner in hair', 'Turn on water']",Put conditioner in hair,0
+8,0.8,"['Go to bathroom', 'Take off clothes', 'Get in shower', 'Turn on water', 'Put shampoo in hair', 'Lather', 'Rinse out', 'Put conditioner in hair']","['Lather', 'Turn on water']",Lather,0
+9,0.9,"['Go to bathroom', 'Take off clothes', 'Get in shower', 'Turn on water', 'Put shampoo in hair', 'Lather', 'Rinse out', 'Put conditioner in hair', 'Lather']","['Rinse out', 'Get in shower']",Rinse out,0
+0,0.0,[],"['Get naked', 'add shampoo to you hands and move through your hair into a lather']",Get naked,0
+1,0.14285714285714285,['Get naked'],"['Get into shower', 'Get naked']",Get into shower,0
+2,0.2857142857142857,"['Get naked', 'Get into shower']","['Dry hair', 'add shampoo to you hands and move through your hair into a lather']",add shampoo to you hands and move through your hair into a lather,1
+3,0.42857142857142855,"['Get naked', 'Get into shower', 'add shampoo to you hands and move through your hair into a lather']","['Rinse conditioner out', 'Rinse shampoo out']",Rinse shampoo out,1
+4,0.5714285714285714,"['Get naked', 'Get into shower', 'add shampoo to you hands and move through your hair into a lather', 'Rinse shampoo out']","['Dry hair', 'Add conditioner to you hair']",Add conditioner to you hair,1
+5,0.7142857142857143,"['Get naked', 'Get into shower', 'add shampoo to you hands and move through your hair into a lather', 'Rinse shampoo out', 'Add conditioner to you hair']","['add shampoo to you hands and move through your hair into a lather', 'Rinse conditioner out']",Rinse conditioner out,1
+6,0.8571428571428571,"['Get naked', 'Get into shower', 'add shampoo to you hands and move through your hair into a lather', 'Rinse shampoo out', 'Add conditioner to you hair', 'Rinse conditioner out']","['Dry hair', 'add shampoo to you hands and move through your hair into a lather']",Dry hair,0
+0,0.0,[],"['Remove clothing (optional)', 'Wet hair thoroughly']",Remove clothing (optional),0
+1,0.16666666666666666,['Remove clothing (optional)'],"['Wet hair thoroughly', 'Towel or blow dry']",Wet hair thoroughly,0
+2,0.3333333333333333,"['Remove clothing (optional)', 'Wet hair thoroughly']","['Rinse and repeat (optional)', 'Apply shampoo']",Apply shampoo,1
+3,0.5,"['Remove clothing (optional)', 'Wet hair thoroughly', 'Apply shampoo']","['Towel or blow dry', 'Scrub vigorously until lather forms']",Scrub vigorously until lather forms,1
+4,0.6666666666666666,"['Remove clothing (optional)', 'Wet hair thoroughly', 'Apply shampoo', 'Scrub vigorously until lather forms']","['Remove clothing (optional)', 'Rinse and repeat (optional)']",Rinse and repeat (optional),1
+5,0.8333333333333334,"['Remove clothing (optional)', 'Wet hair thoroughly', 'Apply shampoo', 'Scrub vigorously until lather forms', 'Rinse and repeat (optional)']","['Remove clothing (optional)', 'Towel or blow dry']",Towel or blow dry,1
+0,0.0,[],"['Go to bathroom', 'Take soap']",Go to bathroom,0
+1,0.1,['Go to bathroom'],"['Undress', 'Rinse again']",Undress,0
+2,0.2,"['Go to bathroom', 'Undress']","['Untie the hair', 'Take the towel']",Untie the hair,0
+3,0.3,"['Go to bathroom', 'Undress', 'Untie the hair']","['Put the shower on', 'Go to bathroom']",Put the shower on,0
+4,0.4,"['Go to bathroom', 'Undress', 'Untie the hair', 'Put the shower on']","['Take soap', 'Rinse again']",Take soap,0
+5,0.5,"['Go to bathroom', 'Undress', 'Untie the hair', 'Put the shower on', 'Take soap']","['Wash hair with soap until thick foam forms', 'Untie the hair']",Wash hair with soap until thick foam forms,0
+6,0.6,"['Go to bathroom', 'Undress', 'Untie the hair', 'Put the shower on', 'Take soap', 'Wash hair with soap until thick foam forms']","['Rinse thoroughly', 'Untie the hair']",Rinse thoroughly,0
+7,0.7,"['Go to bathroom', 'Undress', 'Untie the hair', 'Put the shower on', 'Take soap', 'Wash hair with soap until thick foam forms', 'Rinse thoroughly']","['Go to bathroom', 'Wash hair with soap again']",Wash hair with soap again,1
+8,0.8,"['Go to bathroom', 'Undress', 'Untie the hair', 'Put the shower on', 'Take soap', 'Wash hair with soap until thick foam forms', 'Rinse thoroughly', 'Wash hair with soap again']","['Untie the hair', 'Rinse again']",Rinse again,1
+9,0.9,"['Go to bathroom', 'Undress', 'Untie the hair', 'Put the shower on', 'Take soap', 'Wash hair with soap until thick foam forms', 'Rinse thoroughly', 'Wash hair with soap again', 'Rinse again']","['Rinse thoroughly', 'Take the towel']",Take the towel,1
+0,0.0,[],"['Flip cap off of shampoo', 'Point shower head at head']",Point shower head at head,1
+1,0.16666666666666666,['Point shower head at head'],"['Get hair soaking wet', 'Work through hair from scalp to end']",Get hair soaking wet,0
+2,0.3333333333333333,"['Point shower head at head', 'Get hair soaking wet']","['Rinse', 'Flip cap off of shampoo']",Flip cap off of shampoo,1
+3,0.5,"['Point shower head at head', 'Get hair soaking wet', 'Flip cap off of shampoo']","['Point shower head at head', 'Squirt dollop into hand']",Squirt dollop into hand,1
+4,0.6666666666666666,"['Point shower head at head', 'Get hair soaking wet', 'Flip cap off of shampoo', 'Squirt dollop into hand']","['Get hair soaking wet', 'Work through hair from scalp to end']",Work through hair from scalp to end,1
+5,0.8333333333333334,"['Point shower head at head', 'Get hair soaking wet', 'Flip cap off of shampoo', 'Squirt dollop into hand', 'Work through hair from scalp to end']","['Rinse', 'Flip cap off of shampoo']",Rinse,0
+0,0.0,[],"['First take Luke warm water with your recommended cosmetic to bathroom', 'Use your fingers and comb out all the knots.']",First take Luke warm water with your recommended cosmetic to bathroom,0
+1,0.1,['First take Luke warm water with your recommended cosmetic to bathroom'],"['Completely soak your hair with water by rinsing it for around a minute.', 'Rest the conditioner on for a few minutes.']",Completely soak your hair with water by rinsing it for around a minute.,0
+2,0.2,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.']","['Rub a small amount of the shampoo into the palms of your hands.', 'Use your fingers and comb out all the knots.']",Rub a small amount of the shampoo into the palms of your hands.,0
+3,0.3,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.']","['Then massage onto the scalp area of your head.', 'No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.']",Then massage onto the scalp area of your head.,0
+4,0.4,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.', 'Then massage onto the scalp area of your head.']","['Completely rinse up your hair until water runs out with no bubbles.', 'First take Luke warm water with your recommended cosmetic to bathroom']",Completely rinse up your hair until water runs out with no bubbles.,0
+5,0.5,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.', 'Then massage onto the scalp area of your head.', 'Completely rinse up your hair until water runs out with no bubbles.']","['Rest the conditioner on for a few minutes.', 'No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.']",No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.,1
+6,0.6,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.', 'Then massage onto the scalp area of your head.', 'Completely rinse up your hair until water runs out with no bubbles.', 'No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.']","['Use your fingers and comb out all the knots.', 'After a few minutes, rinse completely.']",Use your fingers and comb out all the knots.,0
+7,0.7,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.', 'Then massage onto the scalp area of your head.', 'Completely rinse up your hair until water runs out with no bubbles.', 'No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.', 'Use your fingers and comb out all the knots.']","['Then massage onto the scalp area of your head.', 'Apply conditioner through the middle and tips of your hair.']",Apply conditioner through the middle and tips of your hair.,1
+8,0.8,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.', 'Then massage onto the scalp area of your head.', 'Completely rinse up your hair until water runs out with no bubbles.', 'No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.', 'Use your fingers and comb out all the knots.', 'Apply conditioner through the middle and tips of your hair.']","['Rest the conditioner on for a few minutes.', 'Then massage onto the scalp area of your head.']",Rest the conditioner on for a few minutes.,0
+9,0.9,"['First take Luke warm water with your recommended cosmetic to bathroom', 'Completely soak your hair with water by rinsing it for around a minute.', 'Rub a small amount of the shampoo into the palms of your hands.', 'Then massage onto the scalp area of your head.', 'Completely rinse up your hair until water runs out with no bubbles.', 'No need to wash your hair twice with shampoo unless it is extremely dirty or long travel.', 'Use your fingers and comb out all the knots.', 'Apply conditioner through the middle and tips of your hair.', 'Rest the conditioner on for a few minutes.']","['Completely soak your hair with water by rinsing it for around a minute.', 'After a few minutes, rinse completely.']","After a few minutes, rinse completely.",1
+0,0.0,[],"['Wet hair.', 'Put conditioner in hair.']",Wet hair.,0
+1,0.14285714285714285,['Wet hair.'],"['Scrub shampoo into hair.', 'Let conditioner soak in hair for a few minutes.']",Scrub shampoo into hair.,0
+2,0.2857142857142857,"['Wet hair.', 'Scrub shampoo into hair.']","['Rinse conditioner out of hair.', 'Rinse shampoo out of hair.']",Rinse shampoo out of hair.,1
+3,0.42857142857142855,"['Wet hair.', 'Scrub shampoo into hair.', 'Rinse shampoo out of hair.']","['Wet hair.', 'Put conditioner in hair.']",Put conditioner in hair.,1
+4,0.5714285714285714,"['Wet hair.', 'Scrub shampoo into hair.', 'Rinse shampoo out of hair.', 'Put conditioner in hair.']","['Let conditioner soak in hair for a few minutes.', 'Wet hair.']",Let conditioner soak in hair for a few minutes.,0
+5,0.7142857142857143,"['Wet hair.', 'Scrub shampoo into hair.', 'Rinse shampoo out of hair.', 'Put conditioner in hair.', 'Let conditioner soak in hair for a few minutes.']","['Wet hair.', 'Rinse conditioner out of hair.']",Rinse conditioner out of hair.,1
+6,0.8571428571428571,"['Wet hair.', 'Scrub shampoo into hair.', 'Rinse shampoo out of hair.', 'Put conditioner in hair.', 'Let conditioner soak in hair for a few minutes.', 'Rinse conditioner out of hair.']","['Let hair dry.', 'Rinse shampoo out of hair.']",Let hair dry.,0
+0,0.0,[],"['Gently massage the hair', 'Get into the bathroom']",Get into the bathroom,1
+1,0.1111111111111111,['Get into the bathroom'],"['Rinse the hair with the water', 'Put the shampoo']",Rinse the hair with the water,0
+2,0.2222222222222222,"['Get into the bathroom', 'Rinse the hair with the water']","['Let it for some time', 'Put the shampoo']",Put the shampoo,1
+3,0.3333333333333333,"['Get into the bathroom', 'Rinse the hair with the water', 'Put the shampoo']","['Clean the hair', 'Gently massage the hair']",Gently massage the hair,1
+4,0.4444444444444444,"['Get into the bathroom', 'Rinse the hair with the water', 'Put the shampoo', 'Gently massage the hair']","['Get out of the Bathroom', 'Let it for some time']",Let it for some time,1
+5,0.5555555555555556,"['Get into the bathroom', 'Rinse the hair with the water', 'Put the shampoo', 'Gently massage the hair', 'Let it for some time']","['Turn on the shower', 'Get out of the Bathroom']",Turn on the shower,0
+6,0.6666666666666666,"['Get into the bathroom', 'Rinse the hair with the water', 'Put the shampoo', 'Gently massage the hair', 'Let it for some time', 'Turn on the shower']","['Rinse the hair with the water', 'Clean the hair']",Clean the hair,1
+7,0.7777777777777778,"['Get into the bathroom', 'Rinse the hair with the water', 'Put the shampoo', 'Gently massage the hair', 'Let it for some time', 'Turn on the shower', 'Clean the hair']","['Rinse the hair with the water', 'Turn off the shower']",Turn off the shower,1
+8,0.8888888888888888,"['Get into the bathroom', 'Rinse the hair with the water', 'Put the shampoo', 'Gently massage the hair', 'Let it for some time', 'Turn on the shower', 'Clean the hair', 'Turn off the shower']","['Get out of the Bathroom', 'Turn on the shower']",Get out of the Bathroom,0
+0,0.0,[],"['Turn on shower', 'Go inside bathroom']",Go inside bathroom,1
+1,0.14285714285714285,['Go inside bathroom'],"['Take off clothes', 'Turn on shower']",Take off clothes,0
+2,0.2857142857142857,"['Go inside bathroom', 'Take off clothes']","['Get hair wet', 'Turn on shower']",Turn on shower,1
+3,0.42857142857142855,"['Go inside bathroom', 'Take off clothes', 'Turn on shower']","['Step inside shower', 'Wash out shampoo with water']",Step inside shower,0
+4,0.5714285714285714,"['Go inside bathroom', 'Take off clothes', 'Turn on shower', 'Step inside shower']","['Wash out shampoo with water', 'Get hair wet']",Get hair wet,1
+5,0.7142857142857143,"['Go inside bathroom', 'Take off clothes', 'Turn on shower', 'Step inside shower', 'Get hair wet']","['Take off clothes', 'Rub shampoo in hair']",Rub shampoo in hair,1
+6,0.8571428571428571,"['Go inside bathroom', 'Take off clothes', 'Turn on shower', 'Step inside shower', 'Get hair wet', 'Rub shampoo in hair']","['Wash out shampoo with water', 'Take off clothes']",Wash out shampoo with water,0
+0,0.0,[],"['Then apply shampoo and lather with both hands', 'Take a high chair in front of the wash bath']",Take a high chair in front of the wash bath,1
+1,0.16666666666666666,['Take a high chair in front of the wash bath'],"['Bend my head in the wash basin and rinse with water', 'Bend my head in the wash basin and rinse with water']",Bend my head in the wash basin and rinse with water,1
+2,0.3333333333333333,"['Take a high chair in front of the wash bath', 'Bend my head in the wash basin and rinse with water']","['Rinse with water and wash thoroughly', 'Then apply shampoo and lather with both hands']",Then apply shampoo and lather with both hands,1
+3,0.5,"['Take a high chair in front of the wash bath', 'Bend my head in the wash basin and rinse with water', 'Then apply shampoo and lather with both hands']","['Massage the scalp with my finger-tips', 'Take a high chair in front of the wash bath']",Massage the scalp with my finger-tips,0
+4,0.6666666666666666,"['Take a high chair in front of the wash bath', 'Bend my head in the wash basin and rinse with water', 'Then apply shampoo and lather with both hands', 'Massage the scalp with my finger-tips']","['Rinse with water and wash thoroughly', 'Bend my head in the wash basin and rinse with water']",Rinse with water and wash thoroughly,0
+5,0.8333333333333334,"['Take a high chair in front of the wash bath', 'Bend my head in the wash basin and rinse with water', 'Then apply shampoo and lather with both hands', 'Massage the scalp with my finger-tips', 'Rinse with water and wash thoroughly']","['Dry the hair with a bath towel', 'Then apply shampoo and lather with both hands']",Dry the hair with a bath towel,0
+0,0.0,[],"['Brush hair out', 'Brush hair out']",Brush hair out,1
+1,0.125,['Brush hair out'],"['Let sit in hair', 'Add shampoo']",Add shampoo,1
+2,0.25,"['Brush hair out', 'Add shampoo']","['Dry hair', 'Lather well']",Lather well,1
+3,0.375,"['Brush hair out', 'Add shampoo', 'Lather well']","['Rinse with water', 'Let sit in hair']",Rinse with water,0
+4,0.5,"['Brush hair out', 'Add shampoo', 'Lather well', 'Rinse with water']","['Brush hair out', 'Add conditioner']",Add conditioner,1
+5,0.625,"['Brush hair out', 'Add shampoo', 'Lather well', 'Rinse with water', 'Add conditioner']","['Brush hair out', 'Let sit in hair']",Let sit in hair,1
+6,0.75,"['Brush hair out', 'Add shampoo', 'Lather well', 'Rinse with water', 'Add conditioner', 'Let sit in hair']","['Rinse out', 'Lather well']",Rinse out,0
+7,0.875,"['Brush hair out', 'Add shampoo', 'Lather well', 'Rinse with water', 'Add conditioner', 'Let sit in hair', 'Rinse out']","['Rinse with water', 'Dry hair']",Dry hair,1
+0,0.0,[],"['blow dry hair', 'Get into shower and wet hair']",Get into shower and wet hair,1
+1,0.1111111111111111,['Get into shower and wet hair'],"['towel dry self and hair', 'pour shampoo from bottle into hand']",pour shampoo from bottle into hand,1
+2,0.2222222222222222,"['Get into shower and wet hair', 'pour shampoo from bottle into hand']","['get out of shower', 'apply shampoo to hair, spreading evenly over head']","apply shampoo to hair, spreading evenly over head",1
+3,0.3333333333333333,"['Get into shower and wet hair', 'pour shampoo from bottle into hand', 'apply shampoo to hair, spreading evenly over head']","['towel dry self and hair', 'rinse shampoo']",rinse shampoo,1
+4,0.4444444444444444,"['Get into shower and wet hair', 'pour shampoo from bottle into hand', 'apply shampoo to hair, spreading evenly over head', 'rinse shampoo']","['repeat process with conditioner', 'blow dry hair']",repeat process with conditioner,0
+5,0.5555555555555556,"['Get into shower and wet hair', 'pour shampoo from bottle into hand', 'apply shampoo to hair, spreading evenly over head', 'rinse shampoo', 'repeat process with conditioner']","['Get into shower and wet hair', 'get out of shower']",get out of shower,1
+6,0.6666666666666666,"['Get into shower and wet hair', 'pour shampoo from bottle into hand', 'apply shampoo to hair, spreading evenly over head', 'rinse shampoo', 'repeat process with conditioner', 'get out of shower']","['Get into shower and wet hair', 'towel dry self and hair']",towel dry self and hair,1
+7,0.7777777777777778,"['Get into shower and wet hair', 'pour shampoo from bottle into hand', 'apply shampoo to hair, spreading evenly over head', 'rinse shampoo', 'repeat process with conditioner', 'get out of shower', 'towel dry self and hair']","['comb hair', 'pour shampoo from bottle into hand']",comb hair,0
+8,0.8888888888888888,"['Get into shower and wet hair', 'pour shampoo from bottle into hand', 'apply shampoo to hair, spreading evenly over head', 'rinse shampoo', 'repeat process with conditioner', 'get out of shower', 'towel dry self and hair', 'comb hair']","['blow dry hair', 'rinse shampoo']",blow dry hair,0
+0,0.0,[],"['wet with warm water', 'comb hair']",comb hair,1
+1,0.16666666666666666,['comb hair'],"['wet with warm water', 'add shampoo suds up all your hair']",wet with warm water,0
+2,0.3333333333333333,"['comb hair', 'wet with warm water']","['add shampoo suds up all your hair', 'dry with towel']",add shampoo suds up all your hair,0
+3,0.5,"['comb hair', 'wet with warm water', 'add shampoo suds up all your hair']","['dry with towel', 'wash out soap with warm water']",wash out soap with warm water,1
+4,0.6666666666666666,"['comb hair', 'wet with warm water', 'add shampoo suds up all your hair', 'wash out soap with warm water']","['wet with warm water', 'rinse in cool water']",rinse in cool water,1
+5,0.8333333333333334,"['comb hair', 'wet with warm water', 'add shampoo suds up all your hair', 'wash out soap with warm water', 'rinse in cool water']","['comb hair', 'dry with towel']",dry with towel,1
+0,0.0,[],"['Undress.', 'Turn on shower to desired temperature.']",Undress.,0
+1,0.1,['Undress.'],"['Lather.', 'Turn on shower to desired temperature.']",Turn on shower to desired temperature.,1
+2,0.2,"['Undress.', 'Turn on shower to desired temperature.']","['Step in.', 'Pour small amount in hand.']",Step in.,0
+3,0.3,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.']","['Wet hair.', 'Undress.']",Wet hair.,0
+4,0.4,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.', 'Wet hair.']","['Open shampoo bottle.', 'Work into hair.']",Open shampoo bottle.,0
+5,0.5,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.', 'Wet hair.', 'Open shampoo bottle.']","['Pour small amount in hand.', 'Rinse.']",Pour small amount in hand.,0
+6,0.6,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.', 'Wet hair.', 'Open shampoo bottle.', 'Pour small amount in hand.']","['Work into hair.', 'Rinse.']",Work into hair.,0
+7,0.7,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.', 'Wet hair.', 'Open shampoo bottle.', 'Pour small amount in hand.', 'Work into hair.']","['Turn on shower to desired temperature.', 'Lather.']",Lather.,1
+8,0.8,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.', 'Wet hair.', 'Open shampoo bottle.', 'Pour small amount in hand.', 'Work into hair.', 'Lather.']","['Rinse.', 'Pour small amount in hand.']",Rinse.,0
+9,0.9,"['Undress.', 'Turn on shower to desired temperature.', 'Step in.', 'Wet hair.', 'Open shampoo bottle.', 'Pour small amount in hand.', 'Work into hair.', 'Lather.', 'Rinse.']","['Undress.', 'Repeat.']",Repeat.,1
+0,0.0,[],"['Get in the shower', 'Get in the shower']",Get in the shower,1
+1,0.14285714285714285,['Get in the shower'],"['Turn on the water', 'Put shampoo on your head']",Turn on the water,0
+2,0.2857142857142857,"['Get in the shower', 'Turn on the water']","['Move your hands around your head and hair until there is a lot of lather', 'Wet hair entirely']",Wet hair entirely,1
+3,0.42857142857142855,"['Get in the shower', 'Turn on the water', 'Wet hair entirely']","['Move your hands around your head and hair until there is a lot of lather', 'Put some shampoo in your hand']",Put some shampoo in your hand,1
+4,0.5714285714285714,"['Get in the shower', 'Turn on the water', 'Wet hair entirely', 'Put some shampoo in your hand']","['Rinse lather out of hair with water', 'Put shampoo on your head']",Put shampoo on your head,1
+5,0.7142857142857143,"['Get in the shower', 'Turn on the water', 'Wet hair entirely', 'Put some shampoo in your hand', 'Put shampoo on your head']","['Move your hands around your head and hair until there is a lot of lather', 'Get in the shower']",Move your hands around your head and hair until there is a lot of lather,0
+6,0.8571428571428571,"['Get in the shower', 'Turn on the water', 'Wet hair entirely', 'Put some shampoo in your hand', 'Put shampoo on your head', 'Move your hands around your head and hair until there is a lot of lather']","['Turn on the water', 'Rinse lather out of hair with water']",Rinse lather out of hair with water,1
+0,0.0,[],"['Allow your hair to get wet.', 'Allow your hair to get wet.']",Allow your hair to get wet.,0
+1,0.125,['Allow your hair to get wet.'],"['Soak the hair fully.', 'Allow your hair to get wet.']",Soak the hair fully.,0
+2,0.25,"['Allow your hair to get wet.', 'Soak the hair fully.']","['Repeat lathering and rinsing if desired.', 'Put a small amount of shampoo in your hand.']",Put a small amount of shampoo in your hand.,1
+3,0.375,"['Allow your hair to get wet.', 'Soak the hair fully.', 'Put a small amount of shampoo in your hand.']","['Allow your hair to get wet.', 'Use the shampoo to lather up into your hair.']",Use the shampoo to lather up into your hair.,1
+4,0.5,"['Allow your hair to get wet.', 'Soak the hair fully.', 'Put a small amount of shampoo in your hand.', 'Use the shampoo to lather up into your hair.']","['Massage the shampoo into your scalp.', 'Soak the hair fully.']",Massage the shampoo into your scalp.,0
+5,0.625,"['Allow your hair to get wet.', 'Soak the hair fully.', 'Put a small amount of shampoo in your hand.', 'Use the shampoo to lather up into your hair.', 'Massage the shampoo into your scalp.']","['Rinse all shampoo out of your hair.', 'Soak the hair fully.']",Rinse all shampoo out of your hair.,0
+6,0.75,"['Allow your hair to get wet.', 'Soak the hair fully.', 'Put a small amount of shampoo in your hand.', 'Use the shampoo to lather up into your hair.', 'Massage the shampoo into your scalp.', 'Rinse all shampoo out of your hair.']","['Repeat lathering and rinsing if desired.', 'Use the shampoo to lather up into your hair.']",Repeat lathering and rinsing if desired.,0
+7,0.875,"['Allow your hair to get wet.', 'Soak the hair fully.', 'Put a small amount of shampoo in your hand.', 'Use the shampoo to lather up into your hair.', 'Massage the shampoo into your scalp.', 'Rinse all shampoo out of your hair.', 'Repeat lathering and rinsing if desired.']","['Dry hair with towel.', 'Soak the hair fully.']",Dry hair with towel.,0
+0,0.0,[],"['Scrub head with fingers.', 'Get hair wet by sticking head in sink or taking a shower or bath.']",Get hair wet by sticking head in sink or taking a shower or bath.,1
+1,0.16666666666666666,['Get hair wet by sticking head in sink or taking a shower or bath.'],"['Dry hair with towel.', 'Apply shampoo to wet hair.']",Apply shampoo to wet hair.,1
+2,0.3333333333333333,"['Get hair wet by sticking head in sink or taking a shower or bath.', 'Apply shampoo to wet hair.']","['Scrub head with fingers.', 'Blow dry hair if desired.']",Scrub head with fingers.,0
+3,0.5,"['Get hair wet by sticking head in sink or taking a shower or bath.', 'Apply shampoo to wet hair.', 'Scrub head with fingers.']","['Get hair wet by sticking head in sink or taking a shower or bath.', 'Rinse hair thoroughly with water.']",Rinse hair thoroughly with water.,1
+4,0.6666666666666666,"['Get hair wet by sticking head in sink or taking a shower or bath.', 'Apply shampoo to wet hair.', 'Scrub head with fingers.', 'Rinse hair thoroughly with water.']","['Dry hair with towel.', 'Get hair wet by sticking head in sink or taking a shower or bath.']",Dry hair with towel.,0
+5,0.8333333333333334,"['Get hair wet by sticking head in sink or taking a shower or bath.', 'Apply shampoo to wet hair.', 'Scrub head with fingers.', 'Rinse hair thoroughly with water.', 'Dry hair with towel.']","['Blow dry hair if desired.', 'Apply shampoo to wet hair.']",Blow dry hair if desired.,0
+0,0.0,[],"['Get inside the shower', 'Go to the bathroom']",Go to the bathroom,1
+1,0.14285714285714285,['Go to the bathroom'],"['Take off all clothing', 'Get inside the shower']",Take off all clothing,0
+2,0.2857142857142857,"['Go to the bathroom', 'Take off all clothing']","['Using the shampoo, leather the hair', 'Get inside the shower']",Get inside the shower,1
+3,0.42857142857142855,"['Go to the bathroom', 'Take off all clothing', 'Get inside the shower']","['Turn on the shower', 'Using the shampoo, leather the hair']",Turn on the shower,0
+4,0.5714285714285714,"['Go to the bathroom', 'Take off all clothing', 'Get inside the shower', 'Turn on the shower']","['Go to the bathroom', 'Wet the hair']",Wet the hair,1
+5,0.7142857142857143,"['Go to the bathroom', 'Take off all clothing', 'Get inside the shower', 'Turn on the shower', 'Wet the hair']","['Using the shampoo, leather the hair', 'Go to the bathroom']","Using the shampoo, leather the hair",0
+6,0.8571428571428571,"['Go to the bathroom', 'Take off all clothing', 'Get inside the shower', 'Turn on the shower', 'Wet the hair', 'Using the shampoo, leather the hair']","['Turn on the shower', 'Wash the hair using the water']",Wash the hair using the water,1
+0,0.0,[],"['Put shampoo on hair.', 'Get hair wet.']",Get hair wet.,1
+1,0.125,['Get hair wet.'],"['Put shampoo in hand.', 'Put shampoo in hand.']",Put shampoo in hand.,1
+2,0.25,"['Get hair wet.', 'Put shampoo in hand.']","['Wait 1-2 minutes.', 'Put shampoo on hair.']",Put shampoo on hair.,1
+3,0.375,"['Get hair wet.', 'Put shampoo in hand.', 'Put shampoo on hair.']","['Get hair wet.', 'Rub it in so it foams up.']",Rub it in so it foams up.,1
+4,0.5,"['Get hair wet.', 'Put shampoo in hand.', 'Put shampoo on hair.', 'Rub it in so it foams up.']","['Get hair wet.', 'Rinse out the shampoo.']",Rinse out the shampoo.,1
+5,0.625,"['Get hair wet.', 'Put shampoo in hand.', 'Put shampoo on hair.', 'Rub it in so it foams up.', 'Rinse out the shampoo.']","['Put conditioner on.', 'Put shampoo in hand.']",Put conditioner on.,0
+6,0.75,"['Get hair wet.', 'Put shampoo in hand.', 'Put shampoo on hair.', 'Rub it in so it foams up.', 'Rinse out the shampoo.', 'Put conditioner on.']","['Wait 1-2 minutes.', 'Put shampoo on hair.']",Wait 1-2 minutes.,0
+7,0.875,"['Get hair wet.', 'Put shampoo in hand.', 'Put shampoo on hair.', 'Rub it in so it foams up.', 'Rinse out the shampoo.', 'Put conditioner on.', 'Wait 1-2 minutes.']","['Put shampoo in hand.', 'Rinse the conditioner til hair is clean.']",Rinse the conditioner til hair is clean.,1
+0,0.0,[],"['Empty some shampoo into your hands.', 'Wet your hair.']",Wet your hair.,1
+1,0.16666666666666666,['Wet your hair.'],"['Rinse your hair with water.', 'Grab the shampoo bottle.']",Grab the shampoo bottle.,1
+2,0.3333333333333333,"['Wet your hair.', 'Grab the shampoo bottle.']","['Dry your hair with a towel or blow dryer.', 'Empty some shampoo into your hands.']",Empty some shampoo into your hands.,1
+3,0.5,"['Wet your hair.', 'Grab the shampoo bottle.', 'Empty some shampoo into your hands.']","['Wet your hair.', 'Lather your hair with the shampoo.']",Lather your hair with the shampoo.,1
+4,0.6666666666666666,"['Wet your hair.', 'Grab the shampoo bottle.', 'Empty some shampoo into your hands.', 'Lather your hair with the shampoo.']","['Wet your hair.', 'Rinse your hair with water.']",Rinse your hair with water.,1
+5,0.8333333333333334,"['Wet your hair.', 'Grab the shampoo bottle.', 'Empty some shampoo into your hands.', 'Lather your hair with the shampoo.', 'Rinse your hair with water.']","['Grab the shampoo bottle.', 'Dry your hair with a towel or blow dryer.']",Dry your hair with a towel or blow dryer.,1
+0,0.0,[],"['Dry hair', 'Get hair wet']",Get hair wet,1
+1,0.14285714285714285,['Get hair wet'],"['Lather hair with shampoo', 'Lather hair with conditioner']",Lather hair with shampoo,0
+2,0.2857142857142857,"['Get hair wet', 'Lather hair with shampoo']","['Rinse with water', 'Rinse with water']",Rinse with water,0
+3,0.42857142857142855,"['Get hair wet', 'Lather hair with shampoo', 'Rinse with water']","['Get towel', 'Lather hair with conditioner']",Lather hair with conditioner,1
+4,0.5714285714285714,"['Get hair wet', 'Lather hair with shampoo', 'Rinse with water', 'Lather hair with conditioner']","['Rinse with water', 'Dry hair']",Rinse with water,0
+5,0.7142857142857143,"['Get hair wet', 'Lather hair with shampoo', 'Rinse with water', 'Lather hair with conditioner', 'Rinse with water']","['Get hair wet', 'Get towel']",Get towel,1
+6,0.8571428571428571,"['Get hair wet', 'Lather hair with shampoo', 'Rinse with water', 'Lather hair with conditioner', 'Rinse with water', 'Get towel']","['Rinse with water', 'Dry hair']",Dry hair,1
+0,0.0,[],"['Turn the shower on to desired temperature.', 'Rinse.']",Turn the shower on to desired temperature.,0
+1,0.16666666666666666,['Turn the shower on to desired temperature.'],"['Undress.', 'Use conditioner on your hair.']",Undress.,0
+2,0.3333333333333333,"['Turn the shower on to desired temperature.', 'Undress.']","['Rinse.', 'Use shampoo on your hair.']",Use shampoo on your hair.,1
+3,0.5,"['Turn the shower on to desired temperature.', 'Undress.', 'Use shampoo on your hair.']","['Rinse.', 'Rinse.']",Rinse.,0
+4,0.6666666666666666,"['Turn the shower on to desired temperature.', 'Undress.', 'Use shampoo on your hair.', 'Rinse.']","['Use conditioner on your hair.', 'Turn the shower on to desired temperature.']",Use conditioner on your hair.,0
+5,0.8333333333333334,"['Turn the shower on to desired temperature.', 'Undress.', 'Use shampoo on your hair.', 'Rinse.', 'Use conditioner on your hair.']","['Use shampoo on your hair.', 'Rinse.']",Rinse.,1
+0,0.0,[],"['Work conditioner into hair.', 'Take off clothes.']",Take off clothes.,1
+1,0.1,['Take off clothes.'],"['Take off clothes.', 'Get into shower.']",Get into shower.,1
+2,0.2,"['Take off clothes.', 'Get into shower.']","['Wet down hair.', 'Rinse shampoo out of hair.']",Wet down hair.,0
+3,0.3,"['Take off clothes.', 'Get into shower.', 'Wet down hair.']","['Allow conditioner to sit in hair for 2 minutes.', 'Pour shampoo into hand.']",Pour shampoo into hand.,1
+4,0.4,"['Take off clothes.', 'Get into shower.', 'Wet down hair.', 'Pour shampoo into hand.']","['Get into shower.', 'Work shampoo through hair.']",Work shampoo through hair.,1
+5,0.5,"['Take off clothes.', 'Get into shower.', 'Wet down hair.', 'Pour shampoo into hand.', 'Work shampoo through hair.']","['Take off clothes.', 'Rinse shampoo out of hair.']",Rinse shampoo out of hair.,1
+6,0.6,"['Take off clothes.', 'Get into shower.', 'Wet down hair.', 'Pour shampoo into hand.', 'Work shampoo through hair.', 'Rinse shampoo out of hair.']","['Pour conditioner in hand, if desired.', 'Allow conditioner to sit in hair for 2 minutes.']","Pour conditioner in hand, if desired.",0
+7,0.7,"['Take off clothes.', 'Get into shower.', 'Wet down hair.', 'Pour shampoo into hand.', 'Work shampoo through hair.', 'Rinse shampoo out of hair.', 'Pour conditioner in hand, if desired.']","['Pour shampoo into hand.', 'Work conditioner into hair.']",Work conditioner into hair.,1
+8,0.8,"['Take off clothes.', 'Get into shower.', 'Wet down hair.', 'Pour shampoo into hand.', 'Work shampoo through hair.', 'Rinse shampoo out of hair.', 'Pour conditioner in hand, if desired.', 'Work conditioner into hair.']","['Pour shampoo into hand.', 'Allow conditioner to sit in hair for 2 minutes.']",Allow conditioner to sit in hair for 2 minutes.,1
+9,0.9,"['Take off clothes.', 'Get into shower.', 'Wet down hair.', 'Pour shampoo into hand.', 'Work shampoo through hair.', 'Rinse shampoo out of hair.', 'Pour conditioner in hand, if desired.', 'Work conditioner into hair.', 'Allow conditioner to sit in hair for 2 minutes.']","['Rinse conditioner out of hair.', 'Work shampoo through hair.']",Rinse conditioner out of hair.,0
+0,0.0,[],"['Get shampoo and conditioner', 'rinse out all of the shampoo']",Get shampoo and conditioner,0
+1,0.125,['Get shampoo and conditioner'],"['Bend over and soak hair', 'Find towels']",Find towels,1
+2,0.25,"['Get shampoo and conditioner', 'Find towels']","['lather up your hair', 'Go to kitchen sink turn on water']",Go to kitchen sink turn on water,1
+3,0.375,"['Get shampoo and conditioner', 'Find towels', 'Go to kitchen sink turn on water']","['Bend over and soak hair', 'wrap head in towel']",Bend over and soak hair,0
+4,0.5,"['Get shampoo and conditioner', 'Find towels', 'Go to kitchen sink turn on water', 'Bend over and soak hair']","['apply shampoo', 'rinse out all of the shampoo']",apply shampoo,0
+5,0.625,"['Get shampoo and conditioner', 'Find towels', 'Go to kitchen sink turn on water', 'Bend over and soak hair', 'apply shampoo']","['Get shampoo and conditioner', 'lather up your hair']",lather up your hair,1
+6,0.75,"['Get shampoo and conditioner', 'Find towels', 'Go to kitchen sink turn on water', 'Bend over and soak hair', 'apply shampoo', 'lather up your hair']","['Go to kitchen sink turn on water', 'rinse out all of the shampoo']",rinse out all of the shampoo,1
+7,0.875,"['Get shampoo and conditioner', 'Find towels', 'Go to kitchen sink turn on water', 'Bend over and soak hair', 'apply shampoo', 'lather up your hair', 'rinse out all of the shampoo']","['Bend over and soak hair', 'wrap head in towel']",wrap head in towel,1
+0,0.0,[],"['Take shampoo', 'Soak your hair']",Soak your hair,1
+1,0.14285714285714285,['Soak your hair'],"['Take shampoo', 'Soak your hair']",Take shampoo,0
+2,0.2857142857142857,"['Soak your hair', 'Take shampoo']","['Rub shampoo', 'Use hair dryer']",Rub shampoo,0
+3,0.42857142857142855,"['Soak your hair', 'Take shampoo', 'Rub shampoo']","['Rinse your hair', 'Soak your hair']",Rinse your hair,0
+4,0.5714285714285714,"['Soak your hair', 'Take shampoo', 'Rub shampoo', 'Rinse your hair']","['Repeat steps', 'Take shampoo']",Repeat steps,0
+5,0.7142857142857143,"['Soak your hair', 'Take shampoo', 'Rub shampoo', 'Rinse your hair', 'Repeat steps']","['Soak your hair', 'Use towel']",Use towel,1
+6,0.8571428571428571,"['Soak your hair', 'Take shampoo', 'Rub shampoo', 'Rinse your hair', 'Repeat steps', 'Use towel']","['Use hair dryer', 'Soak your hair']",Use hair dryer,0
+0,0.0,[],"['Take off clothes', 'Turn on water']",Take off clothes,0
+1,0.1,['Take off clothes'],"['Enter shower', 'Rub hair until completely covered with shampoo']",Enter shower,0
+2,0.2,"['Take off clothes', 'Enter shower']","['Rinse shampoo out of hair', 'Turn on water']",Turn on water,1
+3,0.3,"['Take off clothes', 'Enter shower', 'Turn on water']","['Adjust water temperature', 'Dry hair and body with towel']",Adjust water temperature,0
+4,0.4,"['Take off clothes', 'Enter shower', 'Turn on water', 'Adjust water temperature']","['Wet hair', 'Dry hair and body with towel']",Wet hair,0
+5,0.5,"['Take off clothes', 'Enter shower', 'Turn on water', 'Adjust water temperature', 'Wet hair']","['Put shampoo on hair', 'Dry hair and body with towel']",Put shampoo on hair,0
+6,0.6,"['Take off clothes', 'Enter shower', 'Turn on water', 'Adjust water temperature', 'Wet hair', 'Put shampoo on hair']","['Rub hair until completely covered with shampoo', 'Enter shower']",Rub hair until completely covered with shampoo,0
+7,0.7,"['Take off clothes', 'Enter shower', 'Turn on water', 'Adjust water temperature', 'Wet hair', 'Put shampoo on hair', 'Rub hair until completely covered with shampoo']","['Rinse shampoo out of hair', 'Wet hair']",Rinse shampoo out of hair,0
+8,0.8,"['Take off clothes', 'Enter shower', 'Turn on water', 'Adjust water temperature', 'Wet hair', 'Put shampoo on hair', 'Rub hair until completely covered with shampoo', 'Rinse shampoo out of hair']","['Exit shower', 'Take off clothes']",Exit shower,0
+9,0.9,"['Take off clothes', 'Enter shower', 'Turn on water', 'Adjust water temperature', 'Wet hair', 'Put shampoo on hair', 'Rub hair until completely covered with shampoo', 'Rinse shampoo out of hair', 'Exit shower']","['Dry hair and body with towel', 'Take off clothes']",Dry hair and body with towel,0
+0,0.0,[],"['rinse one more time', 'rinse hair with warm water']",rinse hair with warm water,1
+1,0.16666666666666666,['rinse hair with warm water'],"['pick up shampoo', 'later shampoo into hair']",pick up shampoo,0
+2,0.3333333333333333,"['rinse hair with warm water', 'pick up shampoo']","['rinse one more time', 'later shampoo into hair']",later shampoo into hair,1
+3,0.5,"['rinse hair with warm water', 'pick up shampoo', 'later shampoo into hair']","['scrub hair with shampoo', 'rinse one more time']",scrub hair with shampoo,0
+4,0.6666666666666666,"['rinse hair with warm water', 'pick up shampoo', 'later shampoo into hair', 'scrub hair with shampoo']","['rinse shampoo from hair', 'rinse hair with warm water']",rinse shampoo from hair,0
+5,0.8333333333333334,"['rinse hair with warm water', 'pick up shampoo', 'later shampoo into hair', 'scrub hair with shampoo', 'rinse shampoo from hair']","['rinse one more time', 'rinse hair with warm water']",rinse one more time,0
+0,0.0,[],"['Wet hair', 'Gather shampoo']",Gather shampoo,1
+1,0.125,['Gather shampoo'],"['Wet hair', 'Turn on shower']",Turn on shower,1
+2,0.25,"['Gather shampoo', 'Turn on shower']","['Lather hair', 'Wait for shower to get to desired temperature']",Wait for shower to get to desired temperature,1
+3,0.375,"['Gather shampoo', 'Turn on shower', 'Wait for shower to get to desired temperature']","['Apply shampoo onto hair', 'Get into shower']",Get into shower,1
+4,0.5,"['Gather shampoo', 'Turn on shower', 'Wait for shower to get to desired temperature', 'Get into shower']","['Turn on shower', 'Wet hair']",Wet hair,1
+5,0.625,"['Gather shampoo', 'Turn on shower', 'Wait for shower to get to desired temperature', 'Get into shower', 'Wet hair']","['Apply shampoo onto hair', 'Turn on shower']",Apply shampoo onto hair,0
+6,0.75,"['Gather shampoo', 'Turn on shower', 'Wait for shower to get to desired temperature', 'Get into shower', 'Wet hair', 'Apply shampoo onto hair']","['Wait for shower to get to desired temperature', 'Lather hair']",Lather hair,1
+7,0.875,"['Gather shampoo', 'Turn on shower', 'Wait for shower to get to desired temperature', 'Get into shower', 'Wet hair', 'Apply shampoo onto hair', 'Lather hair']","['Wait for shower to get to desired temperature', 'Rinse hair']",Rinse hair,1
+0,0.0,[],"['Brush Hair', 'Brush Hair']",Brush Hair,1
+1,0.16666666666666666,['Brush Hair'],"['Rinse Thoroughly with water', 'Wet Hair']",Wet Hair,1
+2,0.3333333333333333,"['Brush Hair', 'Wet Hair']","['Apply Shampoo', 'Rinse Thoroughly with water']",Apply Shampoo,0
+3,0.5,"['Brush Hair', 'Wet Hair', 'Apply Shampoo']","['Lather the shampoo', 'Towel Dry your hair']",Lather the shampoo,0
+4,0.6666666666666666,"['Brush Hair', 'Wet Hair', 'Apply Shampoo', 'Lather the shampoo']","['Wet Hair', 'Rinse Thoroughly with water']",Rinse Thoroughly with water,1
+5,0.8333333333333334,"['Brush Hair', 'Wet Hair', 'Apply Shampoo', 'Lather the shampoo', 'Rinse Thoroughly with water']","['Brush Hair', 'Towel Dry your hair']",Towel Dry your hair,1
+0,0.0,[],"['make sure shampoo is applied to all of your hair', 'wet hair with warm water in shower']",wet hair with warm water in shower,1
+1,0.125,['wet hair with warm water in shower'],"['squeeze shampoo into you hand', 'squeeze shampoo into you hand']",squeeze shampoo into you hand,1
+2,0.25,"['wet hair with warm water in shower', 'squeeze shampoo into you hand']","['suds the shampoo between your hands', 'scrub your scalp']",suds the shampoo between your hands,0
+3,0.375,"['wet hair with warm water in shower', 'squeeze shampoo into you hand', 'suds the shampoo between your hands']","['repeat steps 2-7 if desired', 'apply directly to your hair']",apply directly to your hair,1
+4,0.5,"['wet hair with warm water in shower', 'squeeze shampoo into you hand', 'suds the shampoo between your hands', 'apply directly to your hair']","['scrub your scalp', 'rinse']",scrub your scalp,0
+5,0.625,"['wet hair with warm water in shower', 'squeeze shampoo into you hand', 'suds the shampoo between your hands', 'apply directly to your hair', 'scrub your scalp']","['make sure shampoo is applied to all of your hair', 'repeat steps 2-7 if desired']",make sure shampoo is applied to all of your hair,0
+6,0.75,"['wet hair with warm water in shower', 'squeeze shampoo into you hand', 'suds the shampoo between your hands', 'apply directly to your hair', 'scrub your scalp', 'make sure shampoo is applied to all of your hair']","['wet hair with warm water in shower', 'rinse']",rinse,1
+7,0.875,"['wet hair with warm water in shower', 'squeeze shampoo into you hand', 'suds the shampoo between your hands', 'apply directly to your hair', 'scrub your scalp', 'make sure shampoo is applied to all of your hair', 'rinse']","['repeat steps 2-7 if desired', 'wet hair with warm water in shower']",repeat steps 2-7 if desired,0
+0,0.0,[],"['Get hair wet', 'Get hair wet']",Get hair wet,1
+1,0.2,['Get hair wet'],"['Get shampoo', 'Get shampoo']",Get shampoo,0
+2,0.4,"['Get hair wet', 'Get shampoo']","['Rinse hair with water', 'Squeeze out small amount']",Squeeze out small amount,1
+3,0.6,"['Get hair wet', 'Get shampoo', 'Squeeze out small amount']","['Get hair wet', 'Massage shampoo into hair']",Massage shampoo into hair,1
+4,0.8,"['Get hair wet', 'Get shampoo', 'Squeeze out small amount', 'Massage shampoo into hair']","['Get hair wet', 'Rinse hair with water']",Rinse hair with water,1
+0,0.0,[],"['Get naked', 'Get naked']",Get naked,1
+1,0.14285714285714285,['Get naked'],"['Get naked', 'Put towel on floor']",Put towel on floor,1
+2,0.2857142857142857,"['Get naked', 'Put towel on floor']","['Rinse hair', 'Start shower']",Start shower,1
+3,0.42857142857142855,"['Get naked', 'Put towel on floor', 'Start shower']","['Get in', 'Add shampoo']",Get in,0
+4,0.5714285714285714,"['Get naked', 'Put towel on floor', 'Start shower', 'Get in']","['Put towel on floor', 'Wet hair']",Wet hair,1
+5,0.7142857142857143,"['Get naked', 'Put towel on floor', 'Start shower', 'Get in', 'Wet hair']","['Add shampoo', 'Get naked']",Add shampoo,0
+6,0.8571428571428571,"['Get naked', 'Put towel on floor', 'Start shower', 'Get in', 'Wet hair', 'Add shampoo']","['Rinse hair', 'Put towel on floor']",Rinse hair,0
+0,0.0,[],"['Rinse conditioner.', 'Get into shower.']",Get into shower.,1
+1,0.1,['Get into shower.'],"['Open bottle of shampoo.', 'Open bottle of conditioner.']",Open bottle of shampoo.,0
+2,0.2,"['Get into shower.', 'Open bottle of shampoo.']","['Rub conditioner through hair.', 'Rub shampoo through hair.']",Rub shampoo through hair.,1
+3,0.3,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.']","['Rinse shampoo.', 'Grab towel.']",Rinse shampoo.,0
+4,0.4,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.', 'Rinse shampoo.']","['Open bottle of shampoo.', 'Open bottle of conditioner.']",Open bottle of conditioner.,1
+5,0.5,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.', 'Rinse shampoo.', 'Open bottle of conditioner.']","['Rub shampoo through hair.', 'Rub conditioner through hair.']",Rub conditioner through hair.,1
+6,0.6,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.', 'Rinse shampoo.', 'Open bottle of conditioner.', 'Rub conditioner through hair.']","['Get into shower.', 'Leave conditioner in for one minute.']",Leave conditioner in for one minute.,1
+7,0.7,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.', 'Rinse shampoo.', 'Open bottle of conditioner.', 'Rub conditioner through hair.', 'Leave conditioner in for one minute.']","['Rinse conditioner.', 'Open bottle of conditioner.']",Rinse conditioner.,0
+8,0.8,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.', 'Rinse shampoo.', 'Open bottle of conditioner.', 'Rub conditioner through hair.', 'Leave conditioner in for one minute.', 'Rinse conditioner.']","['Get into shower.', 'Exit shower.']",Exit shower.,1
+9,0.9,"['Get into shower.', 'Open bottle of shampoo.', 'Rub shampoo through hair.', 'Rinse shampoo.', 'Open bottle of conditioner.', 'Rub conditioner through hair.', 'Leave conditioner in for one minute.', 'Rinse conditioner.', 'Exit shower.']","['Grab towel.', 'Rub shampoo through hair.']",Grab towel.,0
+0,0.0,[],"['Rinse hair until free of shampoo', 'Get in shower']",Get in shower,1
+1,0.2,['Get in shower'],"['Turn on water and adjust to comfort level', 'Get in shower']",Turn on water and adjust to comfort level,0
+2,0.4,"['Get in shower', 'Turn on water and adjust to comfort level']","['Wet hair', 'Rinse hair until free of shampoo']",Wet hair,0
+3,0.6,"['Get in shower', 'Turn on water and adjust to comfort level', 'Wet hair']","['Get in shower', 'Apply shampoo and massage in']",Apply shampoo and massage in,1
+4,0.8,"['Get in shower', 'Turn on water and adjust to comfort level', 'Wet hair', 'Apply shampoo and massage in']","['Turn on water and adjust to comfort level', 'Rinse hair until free of shampoo']",Rinse hair until free of shampoo,1
+0,0.0,[],"['Get towel', 'Wet hair']",Get towel,0
+1,0.1,['Get towel'],"['Rinse', 'Undress']",Undress,1
+2,0.2,"['Get towel', 'Undress']","['Apply conditioner', 'Turn on water']",Turn on water,1
+3,0.3,"['Get towel', 'Undress', 'Turn on water']","['Get into shower', 'Apply conditioner']",Get into shower,0
+4,0.4,"['Get towel', 'Undress', 'Turn on water', 'Get into shower']","['Rinse', 'Wet hair']",Wet hair,1
+5,0.5,"['Get towel', 'Undress', 'Turn on water', 'Get into shower', 'Wet hair']","['Apply shampoo', 'Leave shower']",Apply shampoo,0
+6,0.6,"['Get towel', 'Undress', 'Turn on water', 'Get into shower', 'Wet hair', 'Apply shampoo']","['Rinse', 'Undress']",Rinse,0
+7,0.7,"['Get towel', 'Undress', 'Turn on water', 'Get into shower', 'Wet hair', 'Apply shampoo', 'Rinse']","['Get towel', 'Apply conditioner']",Apply conditioner,1
+8,0.8,"['Get towel', 'Undress', 'Turn on water', 'Get into shower', 'Wet hair', 'Apply shampoo', 'Rinse', 'Apply conditioner']","['Rinse', 'Get into shower']",Rinse,0
+9,0.9,"['Get towel', 'Undress', 'Turn on water', 'Get into shower', 'Wet hair', 'Apply shampoo', 'Rinse', 'Apply conditioner', 'Rinse']","['Leave shower', 'Turn on water']",Leave shower,0
+0,0.0,[],"['Enter bathroom', 'Put desired conditioner into hair']",Enter bathroom,0
+1,0.1,['Enter bathroom'],"['Remove clothes', 'Remove clothes']",Remove clothes,0
+2,0.2,"['Enter bathroom', 'Remove clothes']","['Put desired shampoo into hair', 'Enter shower']",Enter shower,1
+3,0.3,"['Enter bathroom', 'Remove clothes', 'Enter shower']","['Turn on water', 'Wash out shampoo']",Turn on water,0
+4,0.4,"['Enter bathroom', 'Remove clothes', 'Enter shower', 'Turn on water']","['Wet hair', 'Wash body while waiting']",Wet hair,0
+5,0.5,"['Enter bathroom', 'Remove clothes', 'Enter shower', 'Turn on water', 'Wet hair']","['Enter bathroom', 'Put desired shampoo into hair']",Put desired shampoo into hair,1
+6,0.6,"['Enter bathroom', 'Remove clothes', 'Enter shower', 'Turn on water', 'Wet hair', 'Put desired shampoo into hair']","['Wash out shampoo', 'Enter bathroom']",Wash out shampoo,0
+7,0.7,"['Enter bathroom', 'Remove clothes', 'Enter shower', 'Turn on water', 'Wet hair', 'Put desired shampoo into hair', 'Wash out shampoo']","['Enter bathroom', 'Put desired conditioner into hair']",Put desired conditioner into hair,1
+8,0.8,"['Enter bathroom', 'Remove clothes', 'Enter shower', 'Turn on water', 'Wet hair', 'Put desired shampoo into hair', 'Wash out shampoo', 'Put desired conditioner into hair']","['Wash body while waiting', 'Enter bathroom']",Wash body while waiting,0
+9,0.9,"['Enter bathroom', 'Remove clothes', 'Enter shower', 'Turn on water', 'Wet hair', 'Put desired shampoo into hair', 'Wash out shampoo', 'Put desired conditioner into hair', 'Wash body while waiting']","['Rinse conditioner', 'Wash out shampoo']",Rinse conditioner,0
+0,0.0,[],"['Thoroughly wet hair with water', 'Massage the shampoo into your hair']",Thoroughly wet hair with water,0
+1,0.14285714285714285,['Thoroughly wet hair with water'],"['Pour the necessary amount of shampoo into your hand', 'Let conditioner sit in your hair for a minute']",Pour the necessary amount of shampoo into your hand,0
+2,0.2857142857142857,"['Thoroughly wet hair with water', 'Pour the necessary amount of shampoo into your hand']","['Massage the shampoo into your hair', 'Let conditioner sit in your hair for a minute']",Massage the shampoo into your hair,0
+3,0.42857142857142855,"['Thoroughly wet hair with water', 'Pour the necessary amount of shampoo into your hand', 'Massage the shampoo into your hair']","['Rinse the shampoo thoroughly from your hair', 'Thoroughly rinse conditioner from your hair with water']",Rinse the shampoo thoroughly from your hair,0
+4,0.5714285714285714,"['Thoroughly wet hair with water', 'Pour the necessary amount of shampoo into your hand', 'Massage the shampoo into your hair', 'Rinse the shampoo thoroughly from your hair']","['Thoroughly wet hair with water', 'Apply conditioner to your hair']",Apply conditioner to your hair,1
+5,0.7142857142857143,"['Thoroughly wet hair with water', 'Pour the necessary amount of shampoo into your hand', 'Massage the shampoo into your hair', 'Rinse the shampoo thoroughly from your hair', 'Apply conditioner to your hair']","['Pour the necessary amount of shampoo into your hand', 'Let conditioner sit in your hair for a minute']",Let conditioner sit in your hair for a minute,1
+6,0.8571428571428571,"['Thoroughly wet hair with water', 'Pour the necessary amount of shampoo into your hand', 'Massage the shampoo into your hair', 'Rinse the shampoo thoroughly from your hair', 'Apply conditioner to your hair', 'Let conditioner sit in your hair for a minute']","['Massage the shampoo into your hair', 'Thoroughly rinse conditioner from your hair with water']",Thoroughly rinse conditioner from your hair with water,1
+0,0.0,[],"['Turn on hot water', 'Get hair wet']",Turn on hot water,0
+1,0.14285714285714285,['Turn on hot water'],"['Rinse hair with water', 'Wait for water to come to temperature']",Wait for water to come to temperature,1
+2,0.2857142857142857,"['Turn on hot water', 'Wait for water to come to temperature']","['Get hair wet', 'Dry hair with towel']",Get hair wet,0
+3,0.42857142857142855,"['Turn on hot water', 'Wait for water to come to temperature', 'Get hair wet']","['Put soap on hands', 'Turn on hot water']",Put soap on hands,0
+4,0.5714285714285714,"['Turn on hot water', 'Wait for water to come to temperature', 'Get hair wet', 'Put soap on hands']","['Scrub head with soapy hands', 'Turn on hot water']",Scrub head with soapy hands,0
+5,0.7142857142857143,"['Turn on hot water', 'Wait for water to come to temperature', 'Get hair wet', 'Put soap on hands', 'Scrub head with soapy hands']","['Rinse hair with water', 'Turn on hot water']",Rinse hair with water,0
+6,0.8571428571428571,"['Turn on hot water', 'Wait for water to come to temperature', 'Get hair wet', 'Put soap on hands', 'Scrub head with soapy hands', 'Rinse hair with water']","['Dry hair with towel', 'Put soap on hands']",Dry hair with towel,0
+0,0.0,[],"['Comb tangles out of hair.', 'Get in the shower.']",Comb tangles out of hair.,0
+1,0.1,['Comb tangles out of hair.'],"['Undress.', 'Get out of shower.']",Undress.,0
+2,0.2,"['Comb tangles out of hair.', 'Undress.']","['Get in the shower.', 'Wash hair.']",Get in the shower.,0
+3,0.3,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.']","['Rinse out shampoo.', 'Wet hair.']",Wet hair.,1
+4,0.4,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.', 'Wet hair.']","['Get out of shower.', 'Apply shampoo.']",Apply shampoo.,1
+5,0.5,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.', 'Wet hair.', 'Apply shampoo.']","['Wash hair.', 'Dry off.']",Wash hair.,0
+6,0.6,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.', 'Wet hair.', 'Apply shampoo.', 'Wash hair.']","['Rinse out shampoo.', 'Get out of shower.']",Rinse out shampoo.,0
+7,0.7,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.', 'Wet hair.', 'Apply shampoo.', 'Wash hair.', 'Rinse out shampoo.']","['Comb tangles out of hair.', 'Dry off.']",Dry off.,1
+8,0.8,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.', 'Wet hair.', 'Apply shampoo.', 'Wash hair.', 'Rinse out shampoo.', 'Dry off.']","['Get in the shower.', 'Get out of shower.']",Get out of shower.,1
+9,0.9,"['Comb tangles out of hair.', 'Undress.', 'Get in the shower.', 'Wet hair.', 'Apply shampoo.', 'Wash hair.', 'Rinse out shampoo.', 'Dry off.', 'Get out of shower.']","['Rinse out shampoo.', 'Put clothes on.']",Put clothes on.,1
+0,0.0,[],"['Turn on shower', 'Scrub again']",Turn on shower,0
+1,0.1,['Turn on shower'],"['Rinse hair', 'Step into shower']",Step into shower,1
+2,0.2,"['Turn on shower', 'Step into shower']","['Rinse hair', 'Rinse hair']",Rinse hair,0
+3,0.3,"['Turn on shower', 'Step into shower', 'Rinse hair']","['Rinse away shampoo', 'Use hands to scrub hair']",Use hands to scrub hair,1
+4,0.4,"['Turn on shower', 'Step into shower', 'Rinse hair', 'Use hands to scrub hair']","['Apply shampoo', 'Rinse away shampoo']",Apply shampoo,0
+5,0.5,"['Turn on shower', 'Step into shower', 'Rinse hair', 'Use hands to scrub hair', 'Apply shampoo']","['Scrub again', 'Make sure conditioner is foamy']",Scrub again,0
+6,0.6,"['Turn on shower', 'Step into shower', 'Rinse hair', 'Use hands to scrub hair', 'Apply shampoo', 'Scrub again']","['Use hands to scrub hair', 'Rinse away shampoo']",Rinse away shampoo,1
+7,0.7,"['Turn on shower', 'Step into shower', 'Rinse hair', 'Use hands to scrub hair', 'Apply shampoo', 'Scrub again', 'Rinse away shampoo']","['Apply conditioner', 'Rinse hair']",Apply conditioner,0
+8,0.8,"['Turn on shower', 'Step into shower', 'Rinse hair', 'Use hands to scrub hair', 'Apply shampoo', 'Scrub again', 'Rinse away shampoo', 'Apply conditioner']","['Make sure conditioner is foamy', 'Scrub again']",Make sure conditioner is foamy,0
+9,0.9,"['Turn on shower', 'Step into shower', 'Rinse hair', 'Use hands to scrub hair', 'Apply shampoo', 'Scrub again', 'Rinse away shampoo', 'Apply conditioner', 'Make sure conditioner is foamy']","['Rinse hair', 'Scrub again']",Rinse hair,0
+0,0.0,[],"['Scrub it into a lather and continue scrubbing for a few seconds', 'Get into the shower']",Get into the shower,1
+1,0.16666666666666666,['Get into the shower'],"['Scrub it into a lather and continue scrubbing for a few seconds', 'Turn on the water']",Turn on the water,1
+2,0.3333333333333333,"['Get into the shower', 'Turn on the water']","['Rinse the shampoo out of your hair', 'Get your hair wet']",Get your hair wet,1
+3,0.5,"['Get into the shower', 'Turn on the water', 'Get your hair wet']","['Apply a small amount of shampoo into your hair', 'Get into the shower']",Apply a small amount of shampoo into your hair,0
+4,0.6666666666666666,"['Get into the shower', 'Turn on the water', 'Get your hair wet', 'Apply a small amount of shampoo into your hair']","['Get into the shower', 'Scrub it into a lather and continue scrubbing for a few seconds']",Scrub it into a lather and continue scrubbing for a few seconds,1
+5,0.8333333333333334,"['Get into the shower', 'Turn on the water', 'Get your hair wet', 'Apply a small amount of shampoo into your hair', 'Scrub it into a lather and continue scrubbing for a few seconds']","['Get into the shower', 'Rinse the shampoo out of your hair']",Rinse the shampoo out of your hair,1
+0,0.0,[],"['Get in the shower or bath', 'Add a small amount of shampoo to your hands']",Get in the shower or bath,0
+1,0.14285714285714285,['Get in the shower or bath'],"['Lather the shampoo', 'Turn on the water']",Turn on the water,1
+2,0.2857142857142857,"['Get in the shower or bath', 'Turn on the water']","['Soak your hair with water', 'Rub all over your head and into your scalp']",Soak your hair with water,0
+3,0.42857142857142855,"['Get in the shower or bath', 'Turn on the water', 'Soak your hair with water']","['Get in the shower or bath', 'Add a small amount of shampoo to your hands']",Add a small amount of shampoo to your hands,1
+4,0.5714285714285714,"['Get in the shower or bath', 'Turn on the water', 'Soak your hair with water', 'Add a small amount of shampoo to your hands']","['Lather the shampoo', 'Turn on the water']",Lather the shampoo,0
+5,0.7142857142857143,"['Get in the shower or bath', 'Turn on the water', 'Soak your hair with water', 'Add a small amount of shampoo to your hands', 'Lather the shampoo']","['Rub all over your head and into your scalp', 'Soak your hair with water']",Rub all over your head and into your scalp,0
+6,0.8571428571428571,"['Get in the shower or bath', 'Turn on the water', 'Soak your hair with water', 'Add a small amount of shampoo to your hands', 'Lather the shampoo', 'Rub all over your head and into your scalp']","['Rinse well', 'Get in the shower or bath']",Rinse well,0
+0,0.0,[],"['Turn water on in shower to hot/warm.', 'Open shampoo bottle.']",Turn water on in shower to hot/warm.,0
+1,0.1,['Turn water on in shower to hot/warm.'],"['Get into shower.', 'Open conditioner bottle.']",Get into shower.,0
+2,0.2,"['Turn water on in shower to hot/warm.', 'Get into shower.']","['Rinse again with water.', 'Open shampoo bottle.']",Open shampoo bottle.,1
+3,0.3,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.']","['Pour small amount in palm of hand.', 'Open conditioner bottle.']",Pour small amount in palm of hand.,0
+4,0.4,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.', 'Pour small amount in palm of hand.']","['Spread shampoo all over hair and rub until a lather is formed.', 'Turn water on in shower to hot/warm.']",Spread shampoo all over hair and rub until a lather is formed.,0
+5,0.5,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.', 'Pour small amount in palm of hand.', 'Spread shampoo all over hair and rub until a lather is formed.']","['Turn water on in shower to hot/warm.', 'Rinse well with water.']",Rinse well with water.,1
+6,0.6,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.', 'Pour small amount in palm of hand.', 'Spread shampoo all over hair and rub until a lather is formed.', 'Rinse well with water.']","['Get into shower.', 'Possibly reapply shampoo again.']",Possibly reapply shampoo again.,1
+7,0.7,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.', 'Pour small amount in palm of hand.', 'Spread shampoo all over hair and rub until a lather is formed.', 'Rinse well with water.', 'Possibly reapply shampoo again.']","['Rinse again with water.', 'Spread shampoo all over hair and rub until a lather is formed.']",Rinse again with water.,0
+8,0.8,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.', 'Pour small amount in palm of hand.', 'Spread shampoo all over hair and rub until a lather is formed.', 'Rinse well with water.', 'Possibly reapply shampoo again.', 'Rinse again with water.']","['Open shampoo bottle.', 'Open conditioner bottle.']",Open conditioner bottle.,1
+9,0.9,"['Turn water on in shower to hot/warm.', 'Get into shower.', 'Open shampoo bottle.', 'Pour small amount in palm of hand.', 'Spread shampoo all over hair and rub until a lather is formed.', 'Rinse well with water.', 'Possibly reapply shampoo again.', 'Rinse again with water.', 'Open conditioner bottle.']","['Pour small amount in palm of hand.', 'Pour small amount in palm of hand.']",Pour small amount in palm of hand.,1
+0,0.0,[],"['turn on water at sink', 'dry hair']",turn on water at sink,0
+1,0.125,['turn on water at sink'],"['rinse conditioner from hair', 'get hair wet']",get hair wet,1
+2,0.25,"['turn on water at sink', 'get hair wet']","['dry hair', 'massage shampoo into hair']",massage shampoo into hair,1
+3,0.375,"['turn on water at sink', 'get hair wet', 'massage shampoo into hair']","['rinse shampoo from hair', 'dry hair']",rinse shampoo from hair,0
+4,0.5,"['turn on water at sink', 'get hair wet', 'massage shampoo into hair', 'rinse shampoo from hair']","['turn on water at sink', 'apply conditioner to hair']",apply conditioner to hair,1
+5,0.625,"['turn on water at sink', 'get hair wet', 'massage shampoo into hair', 'rinse shampoo from hair', 'apply conditioner to hair']","['dry hair', 'rinse conditioner from hair']",rinse conditioner from hair,1
+6,0.75,"['turn on water at sink', 'get hair wet', 'massage shampoo into hair', 'rinse shampoo from hair', 'apply conditioner to hair', 'rinse conditioner from hair']","['turn off water', 'turn on water at sink']",turn off water,0
+7,0.875,"['turn on water at sink', 'get hair wet', 'massage shampoo into hair', 'rinse shampoo from hair', 'apply conditioner to hair', 'rinse conditioner from hair', 'turn off water']","['dry hair', 'get hair wet']",dry hair,0
+0,0.0,[],"['washing your hair', 'shampooing hair']",washing your hair,0
+1,0.16666666666666666,['washing your hair'],"['shampooing hair', 'shampooing hair']",shampooing hair,1
+2,0.3333333333333333,"['washing your hair', 'shampooing hair']","['putting shampoo in your hair', 'cleaning hair']",cleaning hair,1
+3,0.5,"['washing your hair', 'shampooing hair', 'cleaning hair']","['putting soap in your hair', 'rinsing your hair']",putting soap in your hair,0
+4,0.6666666666666666,"['washing your hair', 'shampooing hair', 'cleaning hair', 'putting soap in your hair']","['putting shampoo in your hair', 'shampooing hair']",putting shampoo in your hair,0
+5,0.8333333333333334,"['washing your hair', 'shampooing hair', 'cleaning hair', 'putting soap in your hair', 'putting shampoo in your hair']","['washing your hair', 'rinsing your hair']",rinsing your hair,1
+0,0.0,[],"['grab shampoo', 'grab shampoo']",grab shampoo,1
+1,0.16666666666666666,['grab shampoo'],"['wet hair', 'add more water']",wet hair,0
+2,0.3333333333333333,"['grab shampoo', 'wet hair']","['wash hair with fingers', 'add shampoo']",add shampoo,1
+3,0.5,"['grab shampoo', 'wet hair', 'add shampoo']","['rinse hair', 'add more water']",add more water,1
+4,0.6666666666666666,"['grab shampoo', 'wet hair', 'add shampoo', 'add more water']","['wash hair with fingers', 'wet hair']",wash hair with fingers,0
+5,0.8333333333333334,"['grab shampoo', 'wet hair', 'add shampoo', 'add more water', 'wash hair with fingers']","['rinse hair', 'wet hair']",rinse hair,0
+0,0.0,[],"['get hair wet', 'towel dry']",get hair wet,0
+1,0.16666666666666666,['get hair wet'],"['put shampoo in hair', 'rinse shampoo from hair']",put shampoo in hair,0
+2,0.3333333333333333,"['get hair wet', 'put shampoo in hair']","['towel dry', 'lather']",lather,1
+3,0.5,"['get hair wet', 'put shampoo in hair', 'lather']","['rinse shampoo from hair', 'get hair wet']",rinse shampoo from hair,0
+4,0.6666666666666666,"['get hair wet', 'put shampoo in hair', 'lather', 'rinse shampoo from hair']","['towel dry', 'put shampoo in hair']",towel dry,0
+5,0.8333333333333334,"['get hair wet', 'put shampoo in hair', 'lather', 'rinse shampoo from hair', 'towel dry']","['put shampoo in hair', 'style']",style,1
+0,0.0,[],"['Turn of the shower', 'Close the champoo']",Turn of the shower,0
+1,0.125,['Turn of the shower'],"['Wait for the temperature of the water to get hot', 'Pour shampoo into hand']",Wait for the temperature of the water to get hot,0
+2,0.25,"['Turn of the shower', 'Wait for the temperature of the water to get hot']","['Rub shampoo into hair', 'Get in the shower']",Get in the shower,1
+3,0.375,"['Turn of the shower', 'Wait for the temperature of the water to get hot', 'Get in the shower']","['Rinse with water', 'Open the shampoo']",Open the shampoo,1
+4,0.5,"['Turn of the shower', 'Wait for the temperature of the water to get hot', 'Get in the shower', 'Open the shampoo']","['Pour shampoo into hand', 'Rinse with water']",Pour shampoo into hand,0
+5,0.625,"['Turn of the shower', 'Wait for the temperature of the water to get hot', 'Get in the shower', 'Open the shampoo', 'Pour shampoo into hand']","['Close the champoo', 'Get in the shower']",Close the champoo,0
+6,0.75,"['Turn of the shower', 'Wait for the temperature of the water to get hot', 'Get in the shower', 'Open the shampoo', 'Pour shampoo into hand', 'Close the champoo']","['Rub shampoo into hair', 'Open the shampoo']",Rub shampoo into hair,0
+7,0.875,"['Turn of the shower', 'Wait for the temperature of the water to get hot', 'Get in the shower', 'Open the shampoo', 'Pour shampoo into hand', 'Close the champoo', 'Rub shampoo into hair']","['Rinse with water', 'Get in the shower']",Rinse with water,0
+0,0.0,[],"['Wait', 'Wet hair']",Wet hair,1
+1,0.14285714285714285,['Wet hair'],"['Wait', 'Open shampoo']",Open shampoo,1
+2,0.2857142857142857,"['Wet hair', 'Open shampoo']","['Pour shampoo into hand', 'Dry hair']",Pour shampoo into hand,0
+3,0.42857142857142855,"['Wet hair', 'Open shampoo', 'Pour shampoo into hand']","['Wet hair', 'Rub shampoo all over hair']",Rub shampoo all over hair,1
+4,0.5714285714285714,"['Wet hair', 'Open shampoo', 'Pour shampoo into hand', 'Rub shampoo all over hair']","['Wait', 'Open shampoo']",Wait,0
+5,0.7142857142857143,"['Wet hair', 'Open shampoo', 'Pour shampoo into hand', 'Rub shampoo all over hair', 'Wait']","['Pour shampoo into hand', 'Rinse shampoo out of hair']",Rinse shampoo out of hair,1
+6,0.8571428571428571,"['Wet hair', 'Open shampoo', 'Pour shampoo into hand', 'Rub shampoo all over hair', 'Wait', 'Rinse shampoo out of hair']","['Dry hair', 'Wet hair']",Dry hair,0
+0,0.0,[],"['Get into the shower', 'Step out of shower']",Get into the shower,0
+1,0.1,['Get into the shower'],"['Scrub for two minutes', 'Turn on the water']",Turn on the water,1
+2,0.2,"['Get into the shower', 'Turn on the water']","['Wet your hair', 'Step out of shower']",Wet your hair,0
+3,0.3,"['Get into the shower', 'Turn on the water', 'Wet your hair']","['Pick up shampoo bottle', 'Turn off shower']",Pick up shampoo bottle,0
+4,0.4,"['Get into the shower', 'Turn on the water', 'Wet your hair', 'Pick up shampoo bottle']","['Step out of shower', 'Pour desired amount into your hand']",Pour desired amount into your hand,1
+5,0.5,"['Get into the shower', 'Turn on the water', 'Wet your hair', 'Pick up shampoo bottle', 'Pour desired amount into your hand']","['Wet your hair', 'Apply to hair']",Apply to hair,1
+6,0.6,"['Get into the shower', 'Turn on the water', 'Wet your hair', 'Pick up shampoo bottle', 'Pour desired amount into your hand', 'Apply to hair']","['Turn on the water', 'Scrub for two minutes']",Scrub for two minutes,1
+7,0.7,"['Get into the shower', 'Turn on the water', 'Wet your hair', 'Pick up shampoo bottle', 'Pour desired amount into your hand', 'Apply to hair', 'Scrub for two minutes']","['Wet your hair', 'Rinse your hair']",Rinse your hair,1
+8,0.8,"['Get into the shower', 'Turn on the water', 'Wet your hair', 'Pick up shampoo bottle', 'Pour desired amount into your hand', 'Apply to hair', 'Scrub for two minutes', 'Rinse your hair']","['Wet your hair', 'Turn off shower']",Turn off shower,1
+9,0.9,"['Get into the shower', 'Turn on the water', 'Wet your hair', 'Pick up shampoo bottle', 'Pour desired amount into your hand', 'Apply to hair', 'Scrub for two minutes', 'Rinse your hair', 'Turn off shower']","['Step out of shower', 'Pour desired amount into your hand']",Step out of shower,0
+0,0.0,[],"['Put shampoo in their head', 'Put shampoo in their head']",Put shampoo in their head,1
+1,0.2,['Put shampoo in their head'],"['make sure its clean', 'wash it']",wash it,1
+2,0.4,"['Put shampoo in their head', 'wash it']","['rinse the hair', 'dry the hair']",rinse the hair,0
+3,0.6,"['Put shampoo in their head', 'wash it', 'rinse the hair']","['Put shampoo in their head', 'make sure its clean']",make sure its clean,1
+4,0.8,"['Put shampoo in their head', 'wash it', 'rinse the hair', 'make sure its clean']","['dry the hair', 'Put shampoo in their head']",dry the hair,0
+0,0.0,[],"['wet hair', 'put conditioner on hair']",wet hair,0
+1,0.14285714285714285,['wet hair'],"['put shampoo on hair', 'rinse out shampoo']",put shampoo on hair,0
+2,0.2857142857142857,"['wet hair', 'put shampoo on hair']","['put conditioner on hair', 'work shampoo thoroughly throughout hair']",work shampoo thoroughly throughout hair,1
+3,0.42857142857142855,"['wet hair', 'put shampoo on hair', 'work shampoo thoroughly throughout hair']","['wet hair', 'rinse out shampoo']",rinse out shampoo,1
+4,0.5714285714285714,"['wet hair', 'put shampoo on hair', 'work shampoo thoroughly throughout hair', 'rinse out shampoo']","['put shampoo on hair', 'put conditioner on hair']",put conditioner on hair,1
+5,0.7142857142857143,"['wet hair', 'put shampoo on hair', 'work shampoo thoroughly throughout hair', 'rinse out shampoo', 'put conditioner on hair']","['work shampoo thoroughly throughout hair', 'work conditioner throughout hair']",work conditioner throughout hair,1
+6,0.8571428571428571,"['wet hair', 'put shampoo on hair', 'work shampoo thoroughly throughout hair', 'rinse out shampoo', 'put conditioner on hair', 'work conditioner throughout hair']","['rinse out shampoo', 'rinse out conditioner']",rinse out conditioner,1
+0,0.0,[],"['get hair wet', 'rub soap in']",get hair wet,0
+1,0.2,['get hair wet'],"['add soap', 'add soap']",add soap,0
+2,0.4,"['get hair wet', 'add soap']","['dry hair', 'rub soap in']",rub soap in,1
+3,0.6,"['get hair wet', 'add soap', 'rub soap in']","['get hair wet', 'wash soap off']",wash soap off,1
+4,0.8,"['get hair wet', 'add soap', 'rub soap in', 'wash soap off']","['add soap', 'dry hair']",dry hair,1
+0,0.0,[],"['Get hair wet.', 'Get hair wet.']",Get hair wet.,0
+1,0.2,['Get hair wet.'],"['Scrub head and hair with fingers.', 'Squirt quarter size of shampoo on hand.']",Squirt quarter size of shampoo on hand.,1
+2,0.4,"['Get hair wet.', 'Squirt quarter size of shampoo on hand.']","['Put shampoo in hair.', 'Rinse shampoo out of hair.']",Put shampoo in hair.,0
+3,0.6,"['Get hair wet.', 'Squirt quarter size of shampoo on hand.', 'Put shampoo in hair.']","['Get hair wet.', 'Scrub head and hair with fingers.']",Scrub head and hair with fingers.,1
+4,0.8,"['Get hair wet.', 'Squirt quarter size of shampoo on hand.', 'Put shampoo in hair.', 'Scrub head and hair with fingers.']","['Rinse shampoo out of hair.', 'Squirt quarter size of shampoo on hand.']",Rinse shampoo out of hair.,0
+0,0.0,[],"['Obtain hair wash/shampoo', 'Was the hair out with water']",Obtain hair wash/shampoo,0
+1,0.16666666666666666,['Obtain hair wash/shampoo'],"['Place hair wash in hand from container', 'Wet hair']",Wet hair,1
+2,0.3333333333333333,"['Obtain hair wash/shampoo', 'Wet hair']","['Place hair wash in hand from container', 'Was the hair out with water']",Place hair wash in hand from container,0
+3,0.5,"['Obtain hair wash/shampoo', 'Wet hair', 'Place hair wash in hand from container']","['Obtain hair wash/shampoo', 'Lather in your hair']",Lather in your hair,1
+4,0.6666666666666666,"['Obtain hair wash/shampoo', 'Wet hair', 'Place hair wash in hand from container', 'Lather in your hair']","['Obtain hair wash/shampoo', 'Was the hair out with water']",Was the hair out with water,1
+5,0.8333333333333334,"['Obtain hair wash/shampoo', 'Wet hair', 'Place hair wash in hand from container', 'Lather in your hair', 'Was the hair out with water']","['Dry your hair', 'Obtain hair wash/shampoo']",Dry your hair,0
+0,0.0,[],"['wet hair with water', 'repeat if necessary']",wet hair with water,0
+1,0.14285714285714285,['wet hair with water'],"['dry hair', 'pour shampoo in your hands']",pour shampoo in your hands,1
+2,0.2857142857142857,"['wet hair with water', 'pour shampoo in your hands']","['after one minute, rinse hair with water', 'rub hands together']",rub hands together,1
+3,0.42857142857142855,"['wet hair with water', 'pour shampoo in your hands', 'rub hands together']","['rub hair with hands to lather the soap', 'dry hair']",rub hair with hands to lather the soap,0
+4,0.5714285714285714,"['wet hair with water', 'pour shampoo in your hands', 'rub hands together', 'rub hair with hands to lather the soap']","['after one minute, rinse hair with water', 'wet hair with water']","after one minute, rinse hair with water",0
+5,0.7142857142857143,"['wet hair with water', 'pour shampoo in your hands', 'rub hands together', 'rub hair with hands to lather the soap', 'after one minute, rinse hair with water']","['repeat if necessary', 'wet hair with water']",repeat if necessary,0
+6,0.8571428571428571,"['wet hair with water', 'pour shampoo in your hands', 'rub hands together', 'rub hair with hands to lather the soap', 'after one minute, rinse hair with water', 'repeat if necessary']","['dry hair', 'rub hair with hands to lather the soap']",dry hair,0
+0,0.0,[],"['LEAVE IN FOR A FEW MINUTES', 'TURN THE SHOWER ON']",TURN THE SHOWER ON,1
+1,0.1,['TURN THE SHOWER ON'],"['GET INTO THE SHOWER', 'GET OUT OF SHOWER']",GET INTO THE SHOWER,0
+2,0.2,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER']","['PUT SOME CONDITIONER IN YOUR HAIR', 'WET YOUR HAIR']",WET YOUR HAIR,1
+3,0.3,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR']","['PUT SOME SHAMPOO ON YOUR HAIR', 'RINSE HAIR']",PUT SOME SHAMPOO ON YOUR HAIR,0
+4,0.4,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR', 'PUT SOME SHAMPOO ON YOUR HAIR']","['MASSAGE IT IN', 'GET OUT OF SHOWER']",MASSAGE IT IN,0
+5,0.5,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR', 'PUT SOME SHAMPOO ON YOUR HAIR', 'MASSAGE IT IN']","['RINSE THE SHAMPOO', 'TURN THE SHOWER ON']",RINSE THE SHAMPOO,0
+6,0.6,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR', 'PUT SOME SHAMPOO ON YOUR HAIR', 'MASSAGE IT IN', 'RINSE THE SHAMPOO']","['TURN THE SHOWER ON', 'PUT SOME CONDITIONER IN YOUR HAIR']",PUT SOME CONDITIONER IN YOUR HAIR,1
+7,0.7,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR', 'PUT SOME SHAMPOO ON YOUR HAIR', 'MASSAGE IT IN', 'RINSE THE SHAMPOO', 'PUT SOME CONDITIONER IN YOUR HAIR']","['LEAVE IN FOR A FEW MINUTES', 'GET OUT OF SHOWER']",LEAVE IN FOR A FEW MINUTES,0
+8,0.8,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR', 'PUT SOME SHAMPOO ON YOUR HAIR', 'MASSAGE IT IN', 'RINSE THE SHAMPOO', 'PUT SOME CONDITIONER IN YOUR HAIR', 'LEAVE IN FOR A FEW MINUTES']","['RINSE HAIR', 'GET INTO THE SHOWER']",RINSE HAIR,0
+9,0.9,"['TURN THE SHOWER ON', 'GET INTO THE SHOWER', 'WET YOUR HAIR', 'PUT SOME SHAMPOO ON YOUR HAIR', 'MASSAGE IT IN', 'RINSE THE SHAMPOO', 'PUT SOME CONDITIONER IN YOUR HAIR', 'LEAVE IN FOR A FEW MINUTES', 'RINSE HAIR']","['MASSAGE IT IN', 'GET OUT OF SHOWER']",GET OUT OF SHOWER,1
+0,0.0,[],"['Mix shampoos', 'Mix shampoos']",Mix shampoos,0
+1,0.125,['Mix shampoos'],"['Rinse shampoo', 'Turn on water']",Turn on water,1
+2,0.25,"['Mix shampoos', 'Turn on water']","['Lather up', 'Undress']",Undress,1
+3,0.375,"['Mix shampoos', 'Turn on water', 'Undress']","['Wet hair', 'Mix shampoos']",Wet hair,0
+4,0.5,"['Mix shampoos', 'Turn on water', 'Undress', 'Wet hair']","['Mix shampoos', 'Put shampoo in hair']",Put shampoo in hair,1
+5,0.625,"['Mix shampoos', 'Turn on water', 'Undress', 'Wet hair', 'Put shampoo in hair']","['Lather up', 'Undress']",Lather up,0
+6,0.75,"['Mix shampoos', 'Turn on water', 'Undress', 'Wet hair', 'Put shampoo in hair', 'Lather up']","['Turn on water', 'Rinse shampoo']",Rinse shampoo,1
+7,0.875,"['Mix shampoos', 'Turn on water', 'Undress', 'Wet hair', 'Put shampoo in hair', 'Lather up', 'Rinse shampoo']","['Towel dry hair', 'Wet hair']",Towel dry hair,0
+0,0.0,[],"['Place head under water.', 'Turn on faucet.']",Turn on faucet.,1
+1,0.1,['Turn on faucet.'],"['Adjust water to desired temperature.', 'Turn off faucet.']",Adjust water to desired temperature.,0
+2,0.2,"['Turn on faucet.', 'Adjust water to desired temperature.']","['Place head under water', 'Place head under water.']",Place head under water,0
+3,0.3,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water']","['Fully wet hair.', 'Place head under water.']",Fully wet hair.,0
+4,0.4,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water', 'Fully wet hair.']","['Turn off faucet.', 'Lather hair and scalp with fingers.']",Turn off faucet.,0
+5,0.5,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water', 'Fully wet hair.', 'Turn off faucet.']","['Apply desired shampoo to hair.', 'Turn on faucet.']",Apply desired shampoo to hair.,0
+6,0.6,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water', 'Fully wet hair.', 'Turn off faucet.', 'Apply desired shampoo to hair.']","['Fully wet hair.', 'Lather hair and scalp with fingers.']",Lather hair and scalp with fingers.,1
+7,0.7,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water', 'Fully wet hair.', 'Turn off faucet.', 'Apply desired shampoo to hair.', 'Lather hair and scalp with fingers.']","['Place head under water.', 'Turn on faucet.']",Turn on faucet.,1
+8,0.8,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water', 'Fully wet hair.', 'Turn off faucet.', 'Apply desired shampoo to hair.', 'Lather hair and scalp with fingers.', 'Turn on faucet.']","['Apply desired shampoo to hair.', 'Adjust water to desired temperature.']",Adjust water to desired temperature.,1
+9,0.9,"['Turn on faucet.', 'Adjust water to desired temperature.', 'Place head under water', 'Fully wet hair.', 'Turn off faucet.', 'Apply desired shampoo to hair.', 'Lather hair and scalp with fingers.', 'Turn on faucet.', 'Adjust water to desired temperature.']","['Place head under water.', 'Turn off faucet.']",Place head under water.,0
+0,0.0,[],"['turn on water to desired temperature', 'obtain towel']",obtain towel,1
+1,0.1,['obtain towel'],"['choose shower tub or large sink', 'rinse off with water']",choose shower tub or large sink,0
+2,0.2,"['obtain towel', 'choose shower tub or large sink']","['rinse off with water', 'turn on water to desired temperature']",turn on water to desired temperature,1
+3,0.3,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature']","['obtain towel', 'place shampoo in hair']",place shampoo in hair,1
+4,0.4,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature', 'place shampoo in hair']","['lather shampoo into hair', 'rinse off with water']",lather shampoo into hair,0
+5,0.5,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature', 'place shampoo in hair', 'lather shampoo into hair']","['place towel on hair', 'rinse with water']",rinse with water,1
+6,0.6,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature', 'place shampoo in hair', 'lather shampoo into hair', 'rinse with water']","['place conditioner into hair', 'style hair as desired']",place conditioner into hair,0
+7,0.7,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature', 'place shampoo in hair', 'lather shampoo into hair', 'rinse with water', 'place conditioner into hair']","['place shampoo in hair', 'rinse off with water']",rinse off with water,1
+8,0.8,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature', 'place shampoo in hair', 'lather shampoo into hair', 'rinse with water', 'place conditioner into hair', 'rinse off with water']","['turn on water to desired temperature', 'place towel on hair']",place towel on hair,1
+9,0.9,"['obtain towel', 'choose shower tub or large sink', 'turn on water to desired temperature', 'place shampoo in hair', 'lather shampoo into hair', 'rinse with water', 'place conditioner into hair', 'rinse off with water', 'place towel on hair']","['place shampoo in hair', 'style hair as desired']",style hair as desired,1
+0,0.0,[],"['Lather shampoo into hair', 'Turn water on to desired temperature']",Turn water on to desired temperature,1
+1,0.14285714285714285,['Turn water on to desired temperature'],"['Get shampoo', 'Rinse shampoo out of hair']",Get shampoo,0
+2,0.2857142857142857,"['Turn water on to desired temperature', 'Get shampoo']","['Rinse hair thoroughly with water', 'Rinse shampoo out of hair']",Rinse hair thoroughly with water,0
+3,0.42857142857142855,"['Turn water on to desired temperature', 'Get shampoo', 'Rinse hair thoroughly with water']","['Lather shampoo into hair', 'Dry hair']",Lather shampoo into hair,0
+4,0.5714285714285714,"['Turn water on to desired temperature', 'Get shampoo', 'Rinse hair thoroughly with water', 'Lather shampoo into hair']","['Dry hair', 'Scrub hair to clean hair']",Scrub hair to clean hair,1
+5,0.7142857142857143,"['Turn water on to desired temperature', 'Get shampoo', 'Rinse hair thoroughly with water', 'Lather shampoo into hair', 'Scrub hair to clean hair']","['Rinse shampoo out of hair', 'Get shampoo']",Rinse shampoo out of hair,0
+6,0.8571428571428571,"['Turn water on to desired temperature', 'Get shampoo', 'Rinse hair thoroughly with water', 'Lather shampoo into hair', 'Scrub hair to clean hair', 'Rinse shampoo out of hair']","['Dry hair', 'Lather shampoo into hair']",Dry hair,0
+0,0.0,[],"['Get hair wet.', 'Wrap your hair in a towel.']",Get hair wet.,0
+1,0.1111111111111111,['Get hair wet.'],"['Put shampoo in hand.', 'Put shampoo in hand.']",Put shampoo in hand.,0
+2,0.2222222222222222,"['Get hair wet.', 'Put shampoo in hand.']","['Wash your hair.', 'Ring out hair.']",Wash your hair.,0
+3,0.3333333333333333,"['Get hair wet.', 'Put shampoo in hand.', 'Wash your hair.']","['Rinse your hair.', 'Ring out hair.']",Rinse your hair.,0
+4,0.4444444444444444,"['Get hair wet.', 'Put shampoo in hand.', 'Wash your hair.', 'Rinse your hair.']","['Put shampoo in hand.', 'Put conditioner in hair.']",Put conditioner in hair.,1
+5,0.5555555555555556,"['Get hair wet.', 'Put shampoo in hand.', 'Wash your hair.', 'Rinse your hair.', 'Put conditioner in hair.']","['Wash your hair.', 'Rinse hair again.']",Rinse hair again.,1
+6,0.6666666666666666,"['Get hair wet.', 'Put shampoo in hand.', 'Wash your hair.', 'Rinse your hair.', 'Put conditioner in hair.', 'Rinse hair again.']","['Put shampoo in hand.', 'Ring out hair.']",Ring out hair.,1
+7,0.7777777777777778,"['Get hair wet.', 'Put shampoo in hand.', 'Wash your hair.', 'Rinse your hair.', 'Put conditioner in hair.', 'Rinse hair again.', 'Ring out hair.']","['Wrap your hair in a towel.', 'Put shampoo in hand.']",Wrap your hair in a towel.,0
+8,0.8888888888888888,"['Get hair wet.', 'Put shampoo in hand.', 'Wash your hair.', 'Rinse your hair.', 'Put conditioner in hair.', 'Rinse hair again.', 'Ring out hair.', 'Wrap your hair in a towel.']","['Blow dry hair.', 'Rinse your hair.']",Blow dry hair.,0
+0,0.0,[],"['Get hair wet', 'Add conditioner to hair']",Get hair wet,0
+1,0.1,['Get hair wet'],"['Rinse shampoo from hair', 'Put shampoo on head and rub into hair']",Put shampoo on head and rub into hair,1
+2,0.2,"['Get hair wet', 'Put shampoo on head and rub into hair']","['Massage scalp good to loosen dirt', 'Rinse out']",Massage scalp good to loosen dirt,0
+3,0.3,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt']","['Rinse shampoo from hair', 'Rinse out']",Rinse shampoo from hair,0
+4,0.4,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt', 'Rinse shampoo from hair']","['Add conditioner to hair', 'Put shampoo on head and rub into hair']",Add conditioner to hair,0
+5,0.5,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt', 'Rinse shampoo from hair', 'Add conditioner to hair']","['Put shampoo on head and rub into hair', 'Cover all hair with conditioner']",Cover all hair with conditioner,1
+6,0.6,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt', 'Rinse shampoo from hair', 'Add conditioner to hair', 'Cover all hair with conditioner']","['Rinse out', 'Massage scalp good to loosen dirt']",Rinse out,0
+7,0.7,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt', 'Rinse shampoo from hair', 'Add conditioner to hair', 'Cover all hair with conditioner', 'Rinse out']","['Wrap towel around soaked hair', 'Rinse shampoo from hair']",Wrap towel around soaked hair,0
+8,0.8,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt', 'Rinse shampoo from hair', 'Add conditioner to hair', 'Cover all hair with conditioner', 'Rinse out', 'Wrap towel around soaked hair']","['Remove towel and comb through hair', 'Massage scalp good to loosen dirt']",Remove towel and comb through hair,0
+9,0.9,"['Get hair wet', 'Put shampoo on head and rub into hair', 'Massage scalp good to loosen dirt', 'Rinse shampoo from hair', 'Add conditioner to hair', 'Cover all hair with conditioner', 'Rinse out', 'Wrap towel around soaked hair', 'Remove towel and comb through hair']","['Cover all hair with conditioner', 'Dry hair with blow dryer or let air dry']",Dry hair with blow dryer or let air dry,1
+0,0.0,[],"['Remove your clothes', 'Stand under the water to wash it out']",Remove your clothes,0
+1,0.1,['Remove your clothes'],"['Get in the shower', 'Let it stay in for two minutes']",Get in the shower,0
+2,0.2,"['Remove your clothes', 'Get in the shower']","['Turn on the water', 'Find the conditioner']",Turn on the water,0
+3,0.3,"['Remove your clothes', 'Get in the shower', 'Turn on the water']","['Let your hair get wet', 'Lather the shampoo into your hair']",Let your hair get wet,0
+4,0.4,"['Remove your clothes', 'Get in the shower', 'Turn on the water', 'Let your hair get wet']","['Locate the shampoo bottle', 'Remove your clothes']",Locate the shampoo bottle,0
+5,0.5,"['Remove your clothes', 'Get in the shower', 'Turn on the water', 'Let your hair get wet', 'Locate the shampoo bottle']","['Lather the shampoo into your hair', 'Turn on the water']",Lather the shampoo into your hair,0
+6,0.6,"['Remove your clothes', 'Get in the shower', 'Turn on the water', 'Let your hair get wet', 'Locate the shampoo bottle', 'Lather the shampoo into your hair']","['Stand under the water to wash it out', 'Remove your clothes']",Stand under the water to wash it out,0
+7,0.7,"['Remove your clothes', 'Get in the shower', 'Turn on the water', 'Let your hair get wet', 'Locate the shampoo bottle', 'Lather the shampoo into your hair', 'Stand under the water to wash it out']","['Find the conditioner', 'Locate the shampoo bottle']",Find the conditioner,0
+8,0.8,"['Remove your clothes', 'Get in the shower', 'Turn on the water', 'Let your hair get wet', 'Locate the shampoo bottle', 'Lather the shampoo into your hair', 'Stand under the water to wash it out', 'Find the conditioner']","['Locate the shampoo bottle', 'Massage the conditioner in your hair']",Massage the conditioner in your hair,1
+9,0.9,"['Remove your clothes', 'Get in the shower', 'Turn on the water', 'Let your hair get wet', 'Locate the shampoo bottle', 'Lather the shampoo into your hair', 'Stand under the water to wash it out', 'Find the conditioner', 'Massage the conditioner in your hair']","['Remove your clothes', 'Let it stay in for two minutes']",Let it stay in for two minutes,1
+0,0.0,[],"['turn on the shower', 'turn on the shower']",turn on the shower,0
+1,0.1,['turn on the shower'],"['step into the shower', 'rub hands together to spread shampoo']",step into the shower,0
+2,0.2,"['turn on the shower', 'step into the shower']","['pour some shampoo into palm', 'wet hair']",wet hair,1
+3,0.3,"['turn on the shower', 'step into the shower', 'wet hair']","['rinse hair with water.', 'grab shampoo bottle']",grab shampoo bottle,1
+4,0.4,"['turn on the shower', 'step into the shower', 'wet hair', 'grab shampoo bottle']","['rinse hair with water.', 'hold out hand palm up']",hold out hand palm up,1
+5,0.5,"['turn on the shower', 'step into the shower', 'wet hair', 'grab shampoo bottle', 'hold out hand palm up']","['tip bottle so that opening is pointing to palm', 'step into the shower']",tip bottle so that opening is pointing to palm,0
+6,0.6,"['turn on the shower', 'step into the shower', 'wet hair', 'grab shampoo bottle', 'hold out hand palm up', 'tip bottle so that opening is pointing to palm']","['pour some shampoo into palm', 'turn on the shower']",pour some shampoo into palm,0
+7,0.7,"['turn on the shower', 'step into the shower', 'wet hair', 'grab shampoo bottle', 'hold out hand palm up', 'tip bottle so that opening is pointing to palm', 'pour some shampoo into palm']","['wet hair', 'rub hands together to spread shampoo']",rub hands together to spread shampoo,1
+8,0.8,"['turn on the shower', 'step into the shower', 'wet hair', 'grab shampoo bottle', 'hold out hand palm up', 'tip bottle so that opening is pointing to palm', 'pour some shampoo into palm', 'rub hands together to spread shampoo']","['hold out hand palm up', 'rub into hair']",rub into hair,1
+9,0.9,"['turn on the shower', 'step into the shower', 'wet hair', 'grab shampoo bottle', 'hold out hand palm up', 'tip bottle so that opening is pointing to palm', 'pour some shampoo into palm', 'rub hands together to spread shampoo', 'rub into hair']","['hold out hand palm up', 'rinse hair with water.']",rinse hair with water.,1
+0,0.0,[],"['Get shampoo ready', 'Rinse shampoo out with water']",Get shampoo ready,0
+1,0.14285714285714285,['Get shampoo ready'],"['Get hair wet, this could be in the shower or sink', 'Dry hair']","Get hair wet, this could be in the shower or sink",0
+2,0.2857142857142857,"['Get shampoo ready', 'Get hair wet, this could be in the shower or sink']","['Rinse shampoo out with water', 'Pour shampoo into hand']",Pour shampoo into hand,1
+3,0.42857142857142855,"['Get shampoo ready', 'Get hair wet, this could be in the shower or sink', 'Pour shampoo into hand']","['Get shampoo ready', 'Rub shampoo into wet hair, foaming up']","Rub shampoo into wet hair, foaming up",1
+4,0.5714285714285714,"['Get shampoo ready', 'Get hair wet, this could be in the shower or sink', 'Pour shampoo into hand', 'Rub shampoo into wet hair, foaming up']","['Rub shampoo all the way to the scalp', 'Get hair wet, this could be in the shower or sink']",Rub shampoo all the way to the scalp,0
+5,0.7142857142857143,"['Get shampoo ready', 'Get hair wet, this could be in the shower or sink', 'Pour shampoo into hand', 'Rub shampoo into wet hair, foaming up', 'Rub shampoo all the way to the scalp']","['Get hair wet, this could be in the shower or sink', 'Rinse shampoo out with water']",Rinse shampoo out with water,1
+6,0.8571428571428571,"['Get shampoo ready', 'Get hair wet, this could be in the shower or sink', 'Pour shampoo into hand', 'Rub shampoo into wet hair, foaming up', 'Rub shampoo all the way to the scalp', 'Rinse shampoo out with water']","['Pour shampoo into hand', 'Dry hair']",Dry hair,1
+0,0.0,[],"['Rinse shampoo out of hair', 'Turn on shower water']",Turn on shower water,1
+1,0.125,['Turn on shower water'],"['Step into shower', 'Take clothes off']",Take clothes off,1
+2,0.25,"['Turn on shower water', 'Take clothes off']","['Step into shower', 'Dry off with towel in shower']",Step into shower,0
+3,0.375,"['Turn on shower water', 'Take clothes off', 'Step into shower']","['Turn off water', 'Get hair wet']",Get hair wet,1
+4,0.5,"['Turn on shower water', 'Take clothes off', 'Step into shower', 'Get hair wet']","['Turn on shower water', 'Rub shampoo into hair']",Rub shampoo into hair,1
+5,0.625,"['Turn on shower water', 'Take clothes off', 'Step into shower', 'Get hair wet', 'Rub shampoo into hair']","['Turn on shower water', 'Rinse shampoo out of hair']",Rinse shampoo out of hair,1
+6,0.75,"['Turn on shower water', 'Take clothes off', 'Step into shower', 'Get hair wet', 'Rub shampoo into hair', 'Rinse shampoo out of hair']","['Step into shower', 'Turn off water']",Turn off water,1
+7,0.875,"['Turn on shower water', 'Take clothes off', 'Step into shower', 'Get hair wet', 'Rub shampoo into hair', 'Rinse shampoo out of hair', 'Turn off water']","['Dry off with towel in shower', 'Turn on shower water']",Dry off with towel in shower,0
+0,0.0,[],"['Run water that is a comfortable temperature for hair washing.', 'Run water that is a comfortable temperature for hair washing.']",Run water that is a comfortable temperature for hair washing.,0
+1,0.1111111111111111,['Run water that is a comfortable temperature for hair washing.'],"['If you want to condition your hair, put conditioner in hand (small amount).', 'Get hair very wet.']",Get hair very wet.,1
+2,0.2222222222222222,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.']","['Put some shampoo in your hands and lather it up.', 'Rinse.']",Put some shampoo in your hands and lather it up.,0
+3,0.3333333333333333,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.', 'Put some shampoo in your hands and lather it up.']","['Apply lathered shampoo to wet hair.', 'Shampoo again, if desired.']",Apply lathered shampoo to wet hair.,0
+4,0.4444444444444444,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.', 'Put some shampoo in your hands and lather it up.', 'Apply lathered shampoo to wet hair.']","['Rinse well.', 'Run water that is a comfortable temperature for hair washing.']",Rinse well.,0
+5,0.5555555555555556,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.', 'Put some shampoo in your hands and lather it up.', 'Apply lathered shampoo to wet hair.', 'Rinse well.']","['Run water that is a comfortable temperature for hair washing.', 'Shampoo again, if desired.']","Shampoo again, if desired.",1
+6,0.6666666666666666,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.', 'Put some shampoo in your hands and lather it up.', 'Apply lathered shampoo to wet hair.', 'Rinse well.', 'Shampoo again, if desired.']","['Put some shampoo in your hands and lather it up.', 'If you want to condition your hair, put conditioner in hand (small amount).']","If you want to condition your hair, put conditioner in hand (small amount).",1
+7,0.7777777777777778,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.', 'Put some shampoo in your hands and lather it up.', 'Apply lathered shampoo to wet hair.', 'Rinse well.', 'Shampoo again, if desired.', 'If you want to condition your hair, put conditioner in hand (small amount).']","['Apply to tips of hair.', 'Apply lathered shampoo to wet hair.']",Apply to tips of hair.,0
+8,0.8888888888888888,"['Run water that is a comfortable temperature for hair washing.', 'Get hair very wet.', 'Put some shampoo in your hands and lather it up.', 'Apply lathered shampoo to wet hair.', 'Rinse well.', 'Shampoo again, if desired.', 'If you want to condition your hair, put conditioner in hand (small amount).', 'Apply to tips of hair.']","['Rinse.', 'Apply lathered shampoo to wet hair.']",Rinse.,0
+0,0.0,[],"['have water available', 'use desirable shampoo']",have water available,0
+1,0.14285714285714285,['have water available'],"['rinse hair with water', 'rinse deeply']",rinse hair with water,0
+2,0.2857142857142857,"['have water available', 'rinse hair with water']","['dry hair', 'use desirable shampoo']",use desirable shampoo,1
+3,0.42857142857142855,"['have water available', 'rinse hair with water', 'use desirable shampoo']","['comb hair', 'rinse deeply']",rinse deeply,1
+4,0.5714285714285714,"['have water available', 'rinse hair with water', 'use desirable shampoo', 'rinse deeply']","['wash off water', 'comb hair']",wash off water,0
+5,0.7142857142857143,"['have water available', 'rinse hair with water', 'use desirable shampoo', 'rinse deeply', 'wash off water']","['dry hair', 'use desirable shampoo']",dry hair,0
+6,0.8571428571428571,"['have water available', 'rinse hair with water', 'use desirable shampoo', 'rinse deeply', 'wash off water', 'dry hair']","['comb hair', 'have water available']",comb hair,0
+0,0.0,[],"['Gather shampoo and conditioner', 'Gather shampoo and conditioner']",Gather shampoo and conditioner,0
+1,0.1,['Gather shampoo and conditioner'],"['Get a clean dry towel', 'Turn on water']",Get a clean dry towel,0
+2,0.2,"['Gather shampoo and conditioner', 'Get a clean dry towel']","['Apply shampoo to all of your hair', 'Go to sink or shower']",Go to sink or shower,1
+3,0.3,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower']","['Turn on water', 'Apply shampoo to all of your hair']",Turn on water,0
+4,0.4,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower', 'Turn on water']","['Apply conditioner throughout your hair', 'Wait until water is warm']",Wait until water is warm,1
+5,0.5,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower', 'Turn on water', 'Wait until water is warm']","['Wet your hair thoroughly', 'Gather shampoo and conditioner']",Wet your hair thoroughly,0
+6,0.6,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower', 'Turn on water', 'Wait until water is warm', 'Wet your hair thoroughly']","['Apply shampoo to all of your hair', 'Get a clean dry towel']",Apply shampoo to all of your hair,0
+7,0.7,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower', 'Turn on water', 'Wait until water is warm', 'Wet your hair thoroughly', 'Apply shampoo to all of your hair']","['Rub in shampoo', 'Get a clean dry towel']",Rub in shampoo,0
+8,0.8,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower', 'Turn on water', 'Wait until water is warm', 'Wet your hair thoroughly', 'Apply shampoo to all of your hair', 'Rub in shampoo']","['Wait until water is warm', 'Rinse shampoo from your hair']",Rinse shampoo from your hair,1
+9,0.9,"['Gather shampoo and conditioner', 'Get a clean dry towel', 'Go to sink or shower', 'Turn on water', 'Wait until water is warm', 'Wet your hair thoroughly', 'Apply shampoo to all of your hair', 'Rub in shampoo', 'Rinse shampoo from your hair']","['Apply shampoo to all of your hair', 'Apply conditioner throughout your hair']",Apply conditioner throughout your hair,1
+0,0.0,[],"['Rinse the hair with water', 'Wet the hair with water']",Wet the hair with water,1
+1,0.1,['Wet the hair with water'],"['Close the shampoo bottle', 'Take shampoo bottle']",Take shampoo bottle,1
+2,0.2,"['Wet the hair with water', 'Take shampoo bottle']","['Open the shampoo bottle', 'Rinse the hair with water']",Open the shampoo bottle,0
+3,0.3,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle']","['Keep the shampoo bottle back', 'Apply shampoo to the hair']",Apply shampoo to the hair,1
+4,0.4,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle', 'Apply shampoo to the hair']","['Close the shampoo bottle', 'Rinse the hair again']",Close the shampoo bottle,0
+5,0.5,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle', 'Apply shampoo to the hair', 'Close the shampoo bottle']","['Dry the hair', 'Keep the shampoo bottle back']",Keep the shampoo bottle back,1
+6,0.6,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle', 'Apply shampoo to the hair', 'Close the shampoo bottle', 'Keep the shampoo bottle back']","['Open the shampoo bottle', 'Rinse the hair with water']",Rinse the hair with water,1
+7,0.7,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle', 'Apply shampoo to the hair', 'Close the shampoo bottle', 'Keep the shampoo bottle back', 'Rinse the hair with water']","['Wet the hair with water', 'Apply conditioner']",Apply conditioner,1
+8,0.8,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle', 'Apply shampoo to the hair', 'Close the shampoo bottle', 'Keep the shampoo bottle back', 'Rinse the hair with water', 'Apply conditioner']","['Rinse the hair again', 'Keep the shampoo bottle back']",Rinse the hair again,0
+9,0.9,"['Wet the hair with water', 'Take shampoo bottle', 'Open the shampoo bottle', 'Apply shampoo to the hair', 'Close the shampoo bottle', 'Keep the shampoo bottle back', 'Rinse the hair with water', 'Apply conditioner', 'Rinse the hair again']","['Dry the hair', 'Wet the hair with water']",Dry the hair,0
+0,0.0,[],"['wash off the shampoo with water', 'step into the shower']",step into the shower,1
+1,0.125,['step into the shower'],"['let it stay for two minutes', 'wet the hair']",wet the hair,1
+2,0.25,"['step into the shower', 'wet the hair']","['apply conditioner at the tips', 'apply shampoo on the scalp']",apply shampoo on the scalp,1
+3,0.375,"['step into the shower', 'wet the hair', 'apply shampoo on the scalp']","['wash off the conditioner', 'wash off the shampoo with water']",wash off the shampoo with water,1
+4,0.5,"['step into the shower', 'wet the hair', 'apply shampoo on the scalp', 'wash off the shampoo with water']","['wash off the conditioner', 'apply conditioner at the tips']",apply conditioner at the tips,1
+5,0.625,"['step into the shower', 'wet the hair', 'apply shampoo on the scalp', 'wash off the shampoo with water', 'apply conditioner at the tips']","['let it stay for two minutes', 'wet the hair']",let it stay for two minutes,0
+6,0.75,"['step into the shower', 'wet the hair', 'apply shampoo on the scalp', 'wash off the shampoo with water', 'apply conditioner at the tips', 'let it stay for two minutes']","['wash off the conditioner', 'step into the shower']",wash off the conditioner,0
+7,0.875,"['step into the shower', 'wet the hair', 'apply shampoo on the scalp', 'wash off the shampoo with water', 'apply conditioner at the tips', 'let it stay for two minutes', 'wash off the conditioner']","['wash off the shampoo with water', 'dry hair with a towel']",dry hair with a towel,1
+0,0.0,[],"['Enter into the bathroom', 'Open tap']",Enter into the bathroom,0
+1,0.1,['Enter into the bathroom'],"['Take towel', 'Hang dress and towel in hanger']",Take towel,0
+2,0.2,"['Enter into the bathroom', 'Take towel']","['Remove dress', 'Make hair wet']",Remove dress,0
+3,0.3,"['Enter into the bathroom', 'Take towel', 'Remove dress']","['Hang dress and towel in hanger', 'Wash thoroughly']",Hang dress and towel in hanger,0
+4,0.4,"['Enter into the bathroom', 'Take towel', 'Remove dress', 'Hang dress and towel in hanger']","['Take towel', 'Open tap']",Open tap,1
+5,0.5,"['Enter into the bathroom', 'Take towel', 'Remove dress', 'Hang dress and towel in hanger', 'Open tap']","['Fill bucket', 'Enter into the bathroom']",Fill bucket,0
+6,0.6,"['Enter into the bathroom', 'Take towel', 'Remove dress', 'Hang dress and towel in hanger', 'Open tap', 'Fill bucket']","['Wash thoroughly', 'Make hair wet']",Make hair wet,1
+7,0.7,"['Enter into the bathroom', 'Take towel', 'Remove dress', 'Hang dress and towel in hanger', 'Open tap', 'Fill bucket', 'Make hair wet']","['Put shampoo in hair', 'Take towel']",Put shampoo in hair,0
+8,0.8,"['Enter into the bathroom', 'Take towel', 'Remove dress', 'Hang dress and towel in hanger', 'Open tap', 'Fill bucket', 'Make hair wet', 'Put shampoo in hair']","['Wash thoroughly', 'Remove dress']",Wash thoroughly,0
+9,0.9,"['Enter into the bathroom', 'Take towel', 'Remove dress', 'Hang dress and towel in hanger', 'Open tap', 'Fill bucket', 'Make hair wet', 'Put shampoo in hair', 'Wash thoroughly']","['Take towel', 'Remove dress']",Take towel,0
+0,0.0,[],"['Enter shower', 'Massage through hair']",Enter shower,0
+1,0.14285714285714285,['Enter shower'],"['Put shampoo in hands', 'Put shampoo in hands']",Put shampoo in hands,1
+2,0.2857142857142857,"['Enter shower', 'Put shampoo in hands']","['Massage through hair', 'Rinse out with warm water']",Massage through hair,0
+3,0.42857142857142855,"['Enter shower', 'Put shampoo in hands', 'Massage through hair']","['Enter shower', 'Rinse with warm water']",Rinse with warm water,1
+4,0.5714285714285714,"['Enter shower', 'Put shampoo in hands', 'Massage through hair', 'Rinse with warm water']","['Put conditioner in hair', 'Enter shower']",Put conditioner in hair,0
+5,0.7142857142857143,"['Enter shower', 'Put shampoo in hands', 'Massage through hair', 'Rinse with warm water', 'Put conditioner in hair']","['Put shampoo in hands', 'Massage through hair']",Massage through hair,1
+6,0.8571428571428571,"['Enter shower', 'Put shampoo in hands', 'Massage through hair', 'Rinse with warm water', 'Put conditioner in hair', 'Massage through hair']","['Massage through hair', 'Rinse out with warm water']",Rinse out with warm water,1
+0,0.0,[],"['Apply shampoo to hair and lather', 'Get towel ready']",Get towel ready,1
+1,0.1,['Get towel ready'],"['Wet hair thorougly', 'Place shampoo and conditioner next to sink']",Place shampoo and conditioner next to sink,1
+2,0.2,"['Get towel ready', 'Place shampoo and conditioner next to sink']","['Turn on faucet to heat water', 'Wet hair thorougly']",Turn on faucet to heat water,0
+3,0.3,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water']","['Get towel ready', 'Test temperature of water']",Test temperature of water,1
+4,0.4,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water', 'Test temperature of water']","['Wet hair thorougly', 'Apply conditioner throughout hair']",Wet hair thorougly,0
+5,0.5,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water', 'Test temperature of water', 'Wet hair thorougly']","['Apply shampoo to hair and lather', 'Apply conditioner throughout hair']",Apply shampoo to hair and lather,0
+6,0.6,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water', 'Test temperature of water', 'Wet hair thorougly', 'Apply shampoo to hair and lather']","['Get towel ready', 'Rinse out shampoo']",Rinse out shampoo,1
+7,0.7,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water', 'Test temperature of water', 'Wet hair thorougly', 'Apply shampoo to hair and lather', 'Rinse out shampoo']","['Place shampoo and conditioner next to sink', 'Apply conditioner throughout hair']",Apply conditioner throughout hair,1
+8,0.8,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water', 'Test temperature of water', 'Wet hair thorougly', 'Apply shampoo to hair and lather', 'Rinse out shampoo', 'Apply conditioner throughout hair']","['Apply shampoo to hair and lather', 'Rinse']",Rinse,1
+9,0.9,"['Get towel ready', 'Place shampoo and conditioner next to sink', 'Turn on faucet to heat water', 'Test temperature of water', 'Wet hair thorougly', 'Apply shampoo to hair and lather', 'Rinse out shampoo', 'Apply conditioner throughout hair', 'Rinse']","['Turn off water', 'Apply shampoo to hair and lather']",Turn off water,0
+0,0.0,[],"['Wet your hair in the shower', 'Apply shampoo on your hair']",Wet your hair in the shower,0
+1,0.2,['Wet your hair in the shower'],"['Apply shampoo on your hair', 'Wet your hair in the shower']",Apply shampoo on your hair,0
+2,0.4,"['Wet your hair in the shower', 'Apply shampoo on your hair']","['Massage for one minute', 'Dry your hair with a towel']",Massage for one minute,0
+3,0.6,"['Wet your hair in the shower', 'Apply shampoo on your hair', 'Massage for one minute']","['Wet your hair in the shower', 'Rinse thoroughly with water']",Rinse thoroughly with water,1
+4,0.8,"['Wet your hair in the shower', 'Apply shampoo on your hair', 'Massage for one minute', 'Rinse thoroughly with water']","['Dry your hair with a towel', 'Apply shampoo on your hair']",Dry your hair with a towel,0
+0,0.0,[],"['wet hair with water', 'put shampoo into hand']",wet hair with water,0
+1,0.1,['wet hair with water'],"['grab bottle of shampoo', 'rinse conditioner out of hair with water']",grab bottle of shampoo,0
+2,0.2,"['wet hair with water', 'grab bottle of shampoo']","['put shampoo into hand', 'repeat shampoo, lather and rise']",put shampoo into hand,0
+3,0.3,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand']","['lather shampoo into hair', 'repeat shampoo, lather and rise']",lather shampoo into hair,0
+4,0.4,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand', 'lather shampoo into hair']","['rinse lather out of hair with water', 'massage into hair']",rinse lather out of hair with water,0
+5,0.5,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand', 'lather shampoo into hair', 'rinse lather out of hair with water']","['repeat shampoo, lather and rise', 'put conditioner into hand']","repeat shampoo, lather and rise",0
+6,0.6,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand', 'lather shampoo into hair', 'rinse lather out of hair with water', 'repeat shampoo, lather and rise']","['lather shampoo into hair', 'grab bottle of conditioner']",grab bottle of conditioner,1
+7,0.7,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand', 'lather shampoo into hair', 'rinse lather out of hair with water', 'repeat shampoo, lather and rise', 'grab bottle of conditioner']","['put conditioner into hand', 'lather shampoo into hair']",put conditioner into hand,0
+8,0.8,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand', 'lather shampoo into hair', 'rinse lather out of hair with water', 'repeat shampoo, lather and rise', 'grab bottle of conditioner', 'put conditioner into hand']","['massage into hair', 'grab bottle of shampoo']",massage into hair,0
+9,0.9,"['wet hair with water', 'grab bottle of shampoo', 'put shampoo into hand', 'lather shampoo into hair', 'rinse lather out of hair with water', 'repeat shampoo, lather and rise', 'grab bottle of conditioner', 'put conditioner into hand', 'massage into hair']","['rinse conditioner out of hair with water', 'rinse lather out of hair with water']",rinse conditioner out of hair with water,0
+0,0.0,[],"['Wet hair', 'Turn shower water on']",Turn shower water on,1
+1,0.1,['Turn shower water on'],"['Get into shower', 'Put shampoo bottle back']",Get into shower,0
+2,0.2,"['Turn shower water on', 'Get into shower']","['Wet hair', 'Squirt a small amount of shampoo into your hand']",Wet hair,0
+3,0.3,"['Turn shower water on', 'Get into shower', 'Wet hair']","['Get shampoo bottle', 'Spread shampoo from your hand onto your head']",Get shampoo bottle,0
+4,0.4,"['Turn shower water on', 'Get into shower', 'Wet hair', 'Get shampoo bottle']","['Turn water off', 'Squirt a small amount of shampoo into your hand']",Squirt a small amount of shampoo into your hand,1
+5,0.5,"['Turn shower water on', 'Get into shower', 'Wet hair', 'Get shampoo bottle', 'Squirt a small amount of shampoo into your hand']","['Put shampoo bottle back', 'Turn shower water on']",Put shampoo bottle back,0
+6,0.6,"['Turn shower water on', 'Get into shower', 'Wet hair', 'Get shampoo bottle', 'Squirt a small amount of shampoo into your hand', 'Put shampoo bottle back']","['Turn shower water on', 'Spread shampoo from your hand onto your head']",Spread shampoo from your hand onto your head,1
+7,0.7,"['Turn shower water on', 'Get into shower', 'Wet hair', 'Get shampoo bottle', 'Squirt a small amount of shampoo into your hand', 'Put shampoo bottle back', 'Spread shampoo from your hand onto your head']","['Rub shampoo into hair, creating a lather', 'Turn water off']","Rub shampoo into hair, creating a lather",0
+8,0.8,"['Turn shower water on', 'Get into shower', 'Wet hair', 'Get shampoo bottle', 'Squirt a small amount of shampoo into your hand', 'Put shampoo bottle back', 'Spread shampoo from your hand onto your head', 'Rub shampoo into hair, creating a lather']","['Squirt a small amount of shampoo into your hand', 'Rinse shampoo out under the water']",Rinse shampoo out under the water,1
+9,0.9,"['Turn shower water on', 'Get into shower', 'Wet hair', 'Get shampoo bottle', 'Squirt a small amount of shampoo into your hand', 'Put shampoo bottle back', 'Spread shampoo from your hand onto your head', 'Rub shampoo into hair, creating a lather', 'Rinse shampoo out under the water']","['Wet hair', 'Turn water off']",Turn water off,1
+0,0.0,[],"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.']",Turn on the shower and adjust the water temperature.,0
+1,0.1,['Turn on the shower and adjust the water temperature.'],"['Apply conditioner to the hair.', 'Take shampoo, conditioner and a towel to the shower.']","Take shampoo, conditioner and a towel to the shower.",1
+2,0.2,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.']","['Rinse the condition from the hair.', 'Undress and enter the shower.']",Undress and enter the shower.,1
+3,0.3,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.']","['Turn on the shower and adjust the water temperature.', 'Apply shampoo to the hair.']",Apply shampoo to the hair.,1
+4,0.4,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.', 'Apply shampoo to the hair.']","['Rinse the condition from the hair.', 'Vigorously scrub the hair and head with your fingers.']",Vigorously scrub the hair and head with your fingers.,1
+5,0.5,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.', 'Apply shampoo to the hair.', 'Vigorously scrub the hair and head with your fingers.']","['Let the conditioner stay on the hair for two minutes.', 'Rinse the shampoo out of the hair.']",Rinse the shampoo out of the hair.,1
+6,0.6,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.', 'Apply shampoo to the hair.', 'Vigorously scrub the hair and head with your fingers.', 'Rinse the shampoo out of the hair.']","['Apply conditioner to the hair.', 'Undress and enter the shower.']",Apply conditioner to the hair.,0
+7,0.7,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.', 'Apply shampoo to the hair.', 'Vigorously scrub the hair and head with your fingers.', 'Rinse the shampoo out of the hair.', 'Apply conditioner to the hair.']","['Let the conditioner stay on the hair for two minutes.', 'Take shampoo, conditioner and a towel to the shower.']",Let the conditioner stay on the hair for two minutes.,0
+8,0.8,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.', 'Apply shampoo to the hair.', 'Vigorously scrub the hair and head with your fingers.', 'Rinse the shampoo out of the hair.', 'Apply conditioner to the hair.', 'Let the conditioner stay on the hair for two minutes.']","['Rinse the condition from the hair.', 'Undress and enter the shower.']",Rinse the condition from the hair.,0
+9,0.9,"['Turn on the shower and adjust the water temperature.', 'Take shampoo, conditioner and a towel to the shower.', 'Undress and enter the shower.', 'Apply shampoo to the hair.', 'Vigorously scrub the hair and head with your fingers.', 'Rinse the shampoo out of the hair.', 'Apply conditioner to the hair.', 'Let the conditioner stay on the hair for two minutes.', 'Rinse the condition from the hair.']","['Turn off the water.', 'Rinse the shampoo out of the hair.']",Turn off the water.,0
+0,0.0,[],"['Rinse shampoo out of hair', 'Take off clothes']",Take off clothes,1
+1,0.1,['Take off clothes'],"['Remove any hair accessories', 'Get into the shower']",Remove any hair accessories,0
+2,0.2,"['Take off clothes', 'Remove any hair accessories']","['Get into the shower', 'Rinse shampoo out of hair']",Get into the shower,0
+3,0.3,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower']","['Turn off water', 'Turn on the water']",Turn on the water,1
+4,0.4,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower', 'Turn on the water']","['Wet hair', 'Massage shampoo into hair']",Wet hair,0
+5,0.5,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower', 'Turn on the water', 'Wet hair']","['Rinse shampoo out of hair', 'Add shampoo to hair']",Add shampoo to hair,1
+6,0.6,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower', 'Turn on the water', 'Wet hair', 'Add shampoo to hair']","['Massage shampoo into hair', 'Get into the shower']",Massage shampoo into hair,0
+7,0.7,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower', 'Turn on the water', 'Wet hair', 'Add shampoo to hair', 'Massage shampoo into hair']","['Remove any hair accessories', 'Massage shampoo into scalp']",Massage shampoo into scalp,1
+8,0.8,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower', 'Turn on the water', 'Wet hair', 'Add shampoo to hair', 'Massage shampoo into hair', 'Massage shampoo into scalp']","['Rinse shampoo out of hair', 'Wet hair']",Rinse shampoo out of hair,0
+9,0.9,"['Take off clothes', 'Remove any hair accessories', 'Get into the shower', 'Turn on the water', 'Wet hair', 'Add shampoo to hair', 'Massage shampoo into hair', 'Massage shampoo into scalp', 'Rinse shampoo out of hair']","['Get into the shower', 'Turn off water']",Turn off water,1
+0,0.0,[],"['Squeeze excess water from hair.', 'Wet hair under shower.']",Wet hair under shower.,1
+1,0.1,['Wet hair under shower.'],"['Apply shampoo to hair.', 'Apply shampoo to hair.']",Apply shampoo to hair.,1
+2,0.2,"['Wet hair under shower.', 'Apply shampoo to hair.']","['Let conditioner sit for a minute.', 'Put a little water on hands.']",Put a little water on hands.,1
+3,0.3,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.']","['Apply conditioner to hair.', 'Massage shampoo through hair.']",Massage shampoo through hair.,1
+4,0.4,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.', 'Massage shampoo through hair.']","['Squeeze excess water from hair.', 'Let shampoo sit for a minute.']",Let shampoo sit for a minute.,1
+5,0.5,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.', 'Massage shampoo through hair.', 'Let shampoo sit for a minute.']","['Wet hair under shower.', 'Rinse shampoo out.']",Rinse shampoo out.,1
+6,0.6,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.', 'Massage shampoo through hair.', 'Let shampoo sit for a minute.', 'Rinse shampoo out.']","['Squeeze excess water from hair.', 'Put a little water on hands.']",Squeeze excess water from hair.,0
+7,0.7,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.', 'Massage shampoo through hair.', 'Let shampoo sit for a minute.', 'Rinse shampoo out.', 'Squeeze excess water from hair.']","['Apply conditioner to hair.', 'Wet hair under shower.']",Apply conditioner to hair.,0
+8,0.8,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.', 'Massage shampoo through hair.', 'Let shampoo sit for a minute.', 'Rinse shampoo out.', 'Squeeze excess water from hair.', 'Apply conditioner to hair.']","['Massage shampoo through hair.', 'Let conditioner sit for a minute.']",Let conditioner sit for a minute.,1
+9,0.9,"['Wet hair under shower.', 'Apply shampoo to hair.', 'Put a little water on hands.', 'Massage shampoo through hair.', 'Let shampoo sit for a minute.', 'Rinse shampoo out.', 'Squeeze excess water from hair.', 'Apply conditioner to hair.', 'Let conditioner sit for a minute.']","['Rinse conditioner out.', 'Wet hair under shower.']",Rinse conditioner out.,0
+0,0.0,[],"['wash out of hair', 'get hair washing product']",get hair washing product,1
+1,0.16666666666666666,['get hair washing product'],"['get hair washing product', 'turn on water']",turn on water,1
+2,0.3333333333333333,"['get hair washing product', 'turn on water']","['lather product with water', 'dry hair']",lather product with water,0
+3,0.5,"['get hair washing product', 'turn on water', 'lather product with water']","['get hair washing product', 'mix into hair']",mix into hair,1
+4,0.6666666666666666,"['get hair washing product', 'turn on water', 'lather product with water', 'mix into hair']","['get hair washing product', 'wash out of hair']",wash out of hair,1
+5,0.8333333333333334,"['get hair washing product', 'turn on water', 'lather product with water', 'mix into hair', 'wash out of hair']","['dry hair', 'lather product with water']",dry hair,0
+0,0.0,[],"['Step into shower.', 'Task Complete.']",Step into shower.,0
+1,0.16666666666666666,['Step into shower.'],"['Apply small amount of shampoo to hand.', 'Task Complete.']",Apply small amount of shampoo to hand.,0
+2,0.3333333333333333,"['Step into shower.', 'Apply small amount of shampoo to hand.']","['Rub shampoo vigorously into hair.', 'Task Complete.']",Rub shampoo vigorously into hair.,0
+3,0.5,"['Step into shower.', 'Apply small amount of shampoo to hand.', 'Rub shampoo vigorously into hair.']","['Task Complete.', 'Rinse all shampoo out.']",Rinse all shampoo out.,1
+4,0.6666666666666666,"['Step into shower.', 'Apply small amount of shampoo to hand.', 'Rub shampoo vigorously into hair.', 'Rinse all shampoo out.']","['Repeat steps 2-4 until hair in clean.', 'Step into shower.']",Repeat steps 2-4 until hair in clean.,0
+5,0.8333333333333334,"['Step into shower.', 'Apply small amount of shampoo to hand.', 'Rub shampoo vigorously into hair.', 'Rinse all shampoo out.', 'Repeat steps 2-4 until hair in clean.']","['Rub shampoo vigorously into hair.', 'Task Complete.']",Task Complete.,1
+0,0.0,[],"['Get shampoo', 'Go to bathroom']",Go to bathroom,1
+1,0.1,['Go to bathroom'],"['Get shampoo', 'Get in shower']",Get shampoo,0
+2,0.2,"['Go to bathroom', 'Get shampoo']","['Turn shower on', 'Get undressed']",Get undressed,1
+3,0.3,"['Go to bathroom', 'Get shampoo', 'Get undressed']","['Put shampoo in hair', 'Brush and comb hair']",Brush and comb hair,1
+4,0.4,"['Go to bathroom', 'Get shampoo', 'Get undressed', 'Brush and comb hair']","['Get shampoo', 'Turn shower on']",Turn shower on,1
+5,0.5,"['Go to bathroom', 'Get shampoo', 'Get undressed', 'Brush and comb hair', 'Turn shower on']","['Get right temperature', 'Get undressed']",Get right temperature,0
+6,0.6,"['Go to bathroom', 'Get shampoo', 'Get undressed', 'Brush and comb hair', 'Turn shower on', 'Get right temperature']","['Get in shower', 'Get undressed']",Get in shower,0
+7,0.7,"['Go to bathroom', 'Get shampoo', 'Get undressed', 'Brush and comb hair', 'Turn shower on', 'Get right temperature', 'Get in shower']","['Wet hair', 'Turn shower on']",Wet hair,0
+8,0.8,"['Go to bathroom', 'Get shampoo', 'Get undressed', 'Brush and comb hair', 'Turn shower on', 'Get right temperature', 'Get in shower', 'Wet hair']","['Put shampoo in hair', 'Get shampoo']",Put shampoo in hair,0
+9,0.9,"['Go to bathroom', 'Get shampoo', 'Get undressed', 'Brush and comb hair', 'Turn shower on', 'Get right temperature', 'Get in shower', 'Wet hair', 'Put shampoo in hair']","['Get shampoo', 'Lather shampoo']",Lather shampoo,1
+0,0.0,[],"['Get in shower', 'Get out of shower']",Get in shower,0
+1,0.125,['Get in shower'],"['Wet hair', 'Rinse hair']",Wet hair,0
+2,0.25,"['Get in shower', 'Wet hair']","['Open shampoo bottle', 'Get out of shower']",Open shampoo bottle,0
+3,0.375,"['Get in shower', 'Wet hair', 'Open shampoo bottle']","['Squeeze shampoo into hand', 'Get out of shower']",Squeeze shampoo into hand,0
+4,0.5,"['Get in shower', 'Wet hair', 'Open shampoo bottle', 'Squeeze shampoo into hand']","['Lather hair', 'Get in shower']",Lather hair,0
+5,0.625,"['Get in shower', 'Wet hair', 'Open shampoo bottle', 'Squeeze shampoo into hand', 'Lather hair']","['Rinse hair', 'Wet hair']",Rinse hair,0
+6,0.75,"['Get in shower', 'Wet hair', 'Open shampoo bottle', 'Squeeze shampoo into hand', 'Lather hair', 'Rinse hair']","['Get out of shower', 'Wet hair']",Get out of shower,0
+7,0.875,"['Get in shower', 'Wet hair', 'Open shampoo bottle', 'Squeeze shampoo into hand', 'Lather hair', 'Rinse hair', 'Get out of shower']","['Wrap hair in a towel', 'Get in shower']",Wrap hair in a towel,0
+0,0.0,[],"['Get shampoo.', 'Pour a quarter sized amount of shampoo onto hand.']",Get shampoo.,0
+1,0.125,['Get shampoo.'],"['Dry with towel or blow dryer.', 'Wet hair thoroughly.']",Wet hair thoroughly.,1
+2,0.25,"['Get shampoo.', 'Wet hair thoroughly.']","['Dry with towel or blow dryer.', 'Pour a quarter sized amount of shampoo onto hand.']",Pour a quarter sized amount of shampoo onto hand.,1
+3,0.375,"['Get shampoo.', 'Wet hair thoroughly.', 'Pour a quarter sized amount of shampoo onto hand.']","['Get shampoo.', 'Lather shampoo into hair.']",Lather shampoo into hair.,1
+4,0.5,"['Get shampoo.', 'Wet hair thoroughly.', 'Pour a quarter sized amount of shampoo onto hand.', 'Lather shampoo into hair.']","['Style as desired.', 'Scrub head thoroughly.']",Scrub head thoroughly.,1
+5,0.625,"['Get shampoo.', 'Wet hair thoroughly.', 'Pour a quarter sized amount of shampoo onto hand.', 'Lather shampoo into hair.', 'Scrub head thoroughly.']","['Rinse hair and scalp thoroughly.', 'Wet hair thoroughly.']",Rinse hair and scalp thoroughly.,0
+6,0.75,"['Get shampoo.', 'Wet hair thoroughly.', 'Pour a quarter sized amount of shampoo onto hand.', 'Lather shampoo into hair.', 'Scrub head thoroughly.', 'Rinse hair and scalp thoroughly.']","['Dry with towel or blow dryer.', 'Pour a quarter sized amount of shampoo onto hand.']",Dry with towel or blow dryer.,0
+7,0.875,"['Get shampoo.', 'Wet hair thoroughly.', 'Pour a quarter sized amount of shampoo onto hand.', 'Lather shampoo into hair.', 'Scrub head thoroughly.', 'Rinse hair and scalp thoroughly.', 'Dry with towel or blow dryer.']","['Get shampoo.', 'Style as desired.']",Style as desired.,1
+0,0.0,[],"['Turn on water', 'Go to room containing shower or tub']",Go to room containing shower or tub,1
+1,0.1,['Go to room containing shower or tub'],"['Disrobe', 'Squeeze shampoo into hand']",Disrobe,0
+2,0.2,"['Go to room containing shower or tub', 'Disrobe']","['Turn on water', 'Squeeze shampoo into hand']",Turn on water,0
+3,0.3,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water']","['Turn on shower head', 'Go to room containing shower or tub']",Turn on shower head,0
+4,0.4,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water', 'Turn on shower head']","['Test water for comfort level with hand', 'Squeeze shampoo into hand']",Test water for comfort level with hand,0
+5,0.5,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water', 'Turn on shower head', 'Test water for comfort level with hand']","['Rinse hair', 'Step into tub']",Step into tub,1
+6,0.6,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water', 'Turn on shower head', 'Test water for comfort level with hand', 'Step into tub']","['Turn on shower head', 'Wet hair thoroughly']",Wet hair thoroughly,1
+7,0.7,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water', 'Turn on shower head', 'Test water for comfort level with hand', 'Step into tub', 'Wet hair thoroughly']","['Squeeze shampoo into hand', 'Disrobe']",Squeeze shampoo into hand,0
+8,0.8,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water', 'Turn on shower head', 'Test water for comfort level with hand', 'Step into tub', 'Wet hair thoroughly', 'Squeeze shampoo into hand']","['Wash hair thoroughly, making suds from roots to tips', 'Turn on shower head']","Wash hair thoroughly, making suds from roots to tips",0
+9,0.9,"['Go to room containing shower or tub', 'Disrobe', 'Turn on water', 'Turn on shower head', 'Test water for comfort level with hand', 'Step into tub', 'Wet hair thoroughly', 'Squeeze shampoo into hand', 'Wash hair thoroughly, making suds from roots to tips']","['Rinse hair', 'Test water for comfort level with hand']",Rinse hair,0

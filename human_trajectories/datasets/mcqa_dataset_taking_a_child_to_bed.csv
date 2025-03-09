@@ -1,0 +1,469 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Tell the child it is time for bed.', 'Tell them you will read a story after they are in bed.']",Tell the child it is time for bed.,0
+1,0.2,['Tell the child it is time for bed.'],"['Tell them you will read a story after they are in bed.', 'Read a story to the child.']",Tell them you will read a story after they are in bed.,0
+2,0.4,"['Tell the child it is time for bed.', 'Tell them you will read a story after they are in bed.']","['Read a story to the child.', 'Turn off the lights.']",Read a story to the child.,0
+3,0.6,"['Tell the child it is time for bed.', 'Tell them you will read a story after they are in bed.', 'Read a story to the child.']","['Tell them goodnight.', 'Tell the child it is time for bed.']",Tell them goodnight.,0
+4,0.8,"['Tell the child it is time for bed.', 'Tell them you will read a story after they are in bed.', 'Read a story to the child.', 'Tell them goodnight.']","['Turn off the lights.', 'Tell the child it is time for bed.']",Turn off the lights.,0
+0,0.0,[],"['Pick up child', 'Pick up child']",Pick up child,1
+1,0.2,['Pick up child'],"['Bring them to bedroom', 'Turn on light']",Bring them to bedroom,0
+2,0.4,"['Pick up child', 'Bring them to bedroom']","['Turn on light', 'Tuck child in']",Turn on light,0
+3,0.6,"['Pick up child', 'Bring them to bedroom', 'Turn on light']","['Put in bed', 'Pick up child']",Put in bed,0
+4,0.8,"['Pick up child', 'Bring them to bedroom', 'Turn on light', 'Put in bed']","['Pick up child', 'Tuck child in']",Tuck child in,1
+0,0.0,[],"['Have child get her pajamas on', 'Read her a story']",Have child get her pajamas on,0
+1,0.2,['Have child get her pajamas on'],"['Tuck her in', 'Have child brush her teeth']",Have child brush her teeth,1
+2,0.4,"['Have child get her pajamas on', 'Have child brush her teeth']","['Pray with her', 'Tuck her in']",Tuck her in,1
+3,0.6,"['Have child get her pajamas on', 'Have child brush her teeth', 'Tuck her in']","['Read her a story', 'Have child get her pajamas on']",Read her a story,0
+4,0.8,"['Have child get her pajamas on', 'Have child brush her teeth', 'Tuck her in', 'Read her a story']","['Pray with her', 'Have child brush her teeth']",Pray with her,0
+0,0.0,[],"['Get your child', 'Get your child']",Get your child,1
+1,0.2,['Get your child'],"['Pick up you child', 'Put your childs jammies on']",Put your childs jammies on,1
+2,0.4,"['Get your child', 'Put your childs jammies on']","['Place the child in their bed', 'Pick up you child']",Pick up you child,1
+3,0.6,"['Get your child', 'Put your childs jammies on', 'Pick up you child']","['Get your child', 'Carry your child to the bedroom']",Carry your child to the bedroom,1
+4,0.8,"['Get your child', 'Put your childs jammies on', 'Pick up you child', 'Carry your child to the bedroom']","['Get your child', 'Place the child in their bed']",Place the child in their bed,1
+0,0.0,[],"['Tell the child it is bed time.', 'After they climb into bed, give them a hug and kiss']",Tell the child it is bed time.,0
+1,0.2,['Tell the child it is bed time.'],"['Decide if a book is to be read this time', 'Follow child to room.']",Follow child to room.,1
+2,0.4,"['Tell the child it is bed time.', 'Follow child to room.']","['After they climb into bed, give them a hug and kiss', 'Read book if decided to']","After they climb into bed, give them a hug and kiss",0
+3,0.6,"['Tell the child it is bed time.', 'Follow child to room.', 'After they climb into bed, give them a hug and kiss']","['Tell the child it is bed time.', 'Decide if a book is to be read this time']",Decide if a book is to be read this time,1
+4,0.8,"['Tell the child it is bed time.', 'Follow child to room.', 'After they climb into bed, give them a hug and kiss', 'Decide if a book is to be read this time']","['Read book if decided to', 'Follow child to room.']",Read book if decided to,0
+0,0.0,[],"['Give child a bath', 'Offer small snack or drink']",Give child a bath,0
+1,0.2,['Give child a bath'],"['Dress in pajamas', 'Dress in pajamas']",Dress in pajamas,0
+2,0.4,"['Give child a bath', 'Dress in pajamas']","['Offer small snack or drink', 'Tuck child in and make sure they are warm and comfortable']",Offer small snack or drink,0
+3,0.6,"['Give child a bath', 'Dress in pajamas', 'Offer small snack or drink']","['Read story to child while they lay in bed and listen quietly', 'Give child a bath']",Read story to child while they lay in bed and listen quietly,0
+4,0.8,"['Give child a bath', 'Dress in pajamas', 'Offer small snack or drink', 'Read story to child while they lay in bed and listen quietly']","['Tuck child in and make sure they are warm and comfortable', 'Give child a bath']",Tuck child in and make sure they are warm and comfortable,0
+0,0.0,[],"['tell the child it is bedtime', 'Bring them to bed']",tell the child it is bedtime,0
+1,0.2,['tell the child it is bedtime'],"['Bring them to bed', 'Read a book to them']",Bring them to bed,0
+2,0.4,"['tell the child it is bedtime', 'Bring them to bed']","['Read a book to them', 'Say good night']",Read a book to them,0
+3,0.6,"['tell the child it is bedtime', 'Bring them to bed', 'Read a book to them']","['tell the child it is bedtime', 'Shut off the light']",Shut off the light,1
+4,0.8,"['tell the child it is bedtime', 'Bring them to bed', 'Read a book to them', 'Shut off the light']","['Bring them to bed', 'Say good night']",Say good night,1
+0,0.0,[],"[""Tell child it's bedtime"", ""Tell child it's bedtime""]",Tell child it's bedtime,1
+1,0.2,"[""Tell child it's bedtime""]","['Put them in bed', 'Take child to their room']",Take child to their room,1
+2,0.4,"[""Tell child it's bedtime"", 'Take child to their room']","['Put them in pajamas', 'Read story']",Put them in pajamas,0
+3,0.6,"[""Tell child it's bedtime"", 'Take child to their room', 'Put them in pajamas']","[""Tell child it's bedtime"", 'Put them in bed']",Put them in bed,1
+4,0.8,"[""Tell child it's bedtime"", 'Take child to their room', 'Put them in pajamas', 'Put them in bed']","['Read story', ""Tell child it's bedtime""]",Read story,0
+0,0.0,[],"[""Getting your child's attention"", ""Getting your child's attention""]",Getting your child's attention,1
+1,0.2,"[""Getting your child's attention""]","['Giving them a kiss', 'Tuck them into bed']",Tuck them into bed,1
+2,0.4,"[""Getting your child's attention"", 'Tuck them into bed']","['Turn off the lights', 'Giving them a kiss']",Giving them a kiss,1
+3,0.6,"[""Getting your child's attention"", 'Tuck them into bed', 'Giving them a kiss']","[""Getting your child's attention"", 'Wish a good night']",Wish a good night,1
+4,0.8,"[""Getting your child's attention"", 'Tuck them into bed', 'Giving them a kiss', 'Wish a good night']","['Turn off the lights', ""Getting your child's attention""]",Turn off the lights,0
+0,0.0,[],"['Go to child.', 'Go to child.']",Go to child.,0
+1,0.25,['Go to child.'],"['Cover him with a sheet.', 'Pick him up.']",Pick him up.,1
+3,0.75,"['Go to child.', 'Pick him up.', 'Put him on bed.']","['Cover him with a sheet.', 'Go to child.']",Cover him with a sheet.,0
+0,0.0,[],"['Dress child in pajamas', 'Tuck them in']",Dress child in pajamas,0
+1,0.2,['Dress child in pajamas'],"['Get a drink of water for them', 'Dress child in pajamas']",Get a drink of water for them,0
+2,0.4,"['Dress child in pajamas', 'Get a drink of water for them']","['Kiss them', 'Lay in bed and tell stories']",Lay in bed and tell stories,1
+3,0.6,"['Dress child in pajamas', 'Get a drink of water for them', 'Lay in bed and tell stories']","['Tuck them in', 'Dress child in pajamas']",Tuck them in,0
+4,0.8,"['Dress child in pajamas', 'Get a drink of water for them', 'Lay in bed and tell stories', 'Tuck them in']","['Dress child in pajamas', 'Kiss them']",Kiss them,1
+0,0.0,[],"['Have child brush his teeth.', 'Read child a bedtime story.']",Have child brush his teeth.,0
+1,0.2,['Have child brush his teeth.'],"['Walk child to his room.', 'Read child a bedtime story.']",Walk child to his room.,0
+2,0.4,"['Have child brush his teeth.', 'Walk child to his room.']","['Read child a bedtime story.', 'Put child in his bed.']",Put child in his bed.,1
+3,0.6,"['Have child brush his teeth.', 'Walk child to his room.', 'Put child in his bed.']","['Have child brush his teeth.', 'Tuck child in for the night.']",Tuck child in for the night.,1
+4,0.8,"['Have child brush his teeth.', 'Walk child to his room.', 'Put child in his bed.', 'Tuck child in for the night.']","['Read child a bedtime story.', 'Walk child to his room.']",Read child a bedtime story.,0
+0,0.0,[],"['Talk to child', 'Talk to child']",Talk to child,1
+1,0.2,['Talk to child'],"['Tell them to go to bed', 'Tell them to go to bed']",Tell them to go to bed,0
+2,0.4,"['Talk to child', 'Tell them to go to bed']","['Put them in the bed', 'Turn off the lights']",Put them in the bed,0
+3,0.6,"['Talk to child', 'Tell them to go to bed', 'Put them in the bed']","['Talk to child', 'Pull the covers over them']",Pull the covers over them,1
+4,0.8,"['Talk to child', 'Tell them to go to bed', 'Put them in the bed', 'Pull the covers over them']","['Turn off the lights', 'Tell them to go to bed']",Turn off the lights,0
+0,0.0,[],"['Lay child down', 'Pick child up']",Pick child up,1
+1,0.2,['Pick child up'],"['Put pajamas on them', 'Carry child to bedroom']",Carry child to bedroom,1
+2,0.4,"['Pick child up', 'Carry child to bedroom']","['Lay child down', 'Lay favorite stuffed animals next to child']",Lay child down,0
+3,0.6,"['Pick child up', 'Carry child to bedroom', 'Lay child down']","['Put pajamas on them', 'Pick child up']",Put pajamas on them,0
+4,0.8,"['Pick child up', 'Carry child to bedroom', 'Lay child down', 'Put pajamas on them']","['Pick child up', 'Lay favorite stuffed animals next to child']",Lay favorite stuffed animals next to child,1
+0,0.0,[],"['read story to child.', 'Clean child if required.']",Clean child if required.,1
+1,0.2,['Clean child if required.'],"['Assist child in brushing teeth.', 'Assist child in changing into pajamas.']",Assist child in brushing teeth.,0
+2,0.4,"['Clean child if required.', 'Assist child in brushing teeth.']","['Assist child in changing into pajamas.', 'read story to child.']",Assist child in changing into pajamas.,0
+3,0.6,"['Clean child if required.', 'Assist child in brushing teeth.', 'Assist child in changing into pajamas.']","['Clean child if required.', 'Move child into bedroom.']",Move child into bedroom.,1
+4,0.8,"['Clean child if required.', 'Assist child in brushing teeth.', 'Assist child in changing into pajamas.', 'Move child into bedroom.']","['read story to child.', 'Assist child in brushing teeth.']",read story to child.,0
+0,0.0,[],"['change them into night clothes', 'Give child bath']",Give child bath,1
+1,0.2,['Give child bath'],"['change them into night clothes', 'change them into night clothes']",change them into night clothes,0
+2,0.4,"['Give child bath', 'change them into night clothes']","['pull back covers and put them in bed', 'sing to child or tell them a story until they fall asleep']",pull back covers and put them in bed,0
+3,0.6,"['Give child bath', 'change them into night clothes', 'pull back covers and put them in bed']","['Give child bath', 'turn on night light']",turn on night light,1
+4,0.8,"['Give child bath', 'change them into night clothes', 'pull back covers and put them in bed', 'turn on night light']","['sing to child or tell them a story until they fall asleep', 'change them into night clothes']",sing to child or tell them a story until they fall asleep,0
+0,0.0,[],"['Take them to bed', 'Change them into night clothes']",Change them into night clothes,1
+1,0.2,['Change them into night clothes'],"['Take them to bed', 'put them under blankets']",Take them to bed,0
+2,0.4,"['Change them into night clothes', 'Take them to bed']","['put them under blankets', 'pray with them']",put them under blankets,0
+3,0.6,"['Change them into night clothes', 'Take them to bed', 'put them under blankets']","['Change them into night clothes', 'read them a story']",read them a story,1
+4,0.8,"['Change them into night clothes', 'Take them to bed', 'put them under blankets', 'read them a story']","['pray with them', 'Take them to bed']",pray with them,0
+0,0.0,[],"['Help child brush teeth', 'Help child brush teeth']",Help child brush teeth,1
+1,0.2,['Help child brush teeth'],"['Turn out light', 'Help child with pajamas']",Help child with pajamas,1
+2,0.4,"['Help child brush teeth', 'Help child with pajamas']","['Help child into bed', 'Turn out light']",Help child into bed,0
+3,0.6,"['Help child brush teeth', 'Help child with pajamas', 'Help child into bed']","['Cover child with blanket', 'Help child brush teeth']",Cover child with blanket,0
+4,0.8,"['Help child brush teeth', 'Help child with pajamas', 'Help child into bed', 'Cover child with blanket']","['Help child brush teeth', 'Turn out light']",Turn out light,1
+0,0.0,[],"['Go upstairs and help him find pajamas.', 'Have child say goodnight to everyone.']",Have child say goodnight to everyone.,1
+1,0.2,['Have child say goodnight to everyone.'],"['Tuck blankets around him tightly.', 'Go upstairs and help him find pajamas.']",Go upstairs and help him find pajamas.,1
+2,0.4,"['Have child say goodnight to everyone.', 'Go upstairs and help him find pajamas.']","['Reassure him there are no monsters under bed.', 'Read short story.']",Reassure him there are no monsters under bed.,0
+3,0.6,"['Have child say goodnight to everyone.', 'Go upstairs and help him find pajamas.', 'Reassure him there are no monsters under bed.']","['Have child say goodnight to everyone.', 'Tuck blankets around him tightly.']",Tuck blankets around him tightly.,1
+4,0.8,"['Have child say goodnight to everyone.', 'Go upstairs and help him find pajamas.', 'Reassure him there are no monsters under bed.', 'Tuck blankets around him tightly.']","['Read short story.', 'Have child say goodnight to everyone.']",Read short story.,0
+0,0.0,[],"['Prepare the bed', 'Go to the bed room']",Go to the bed room,1
+1,0.2,['Go to the bed room'],"['Pick the child in the sofa', 'Prepare the bed']",Prepare the bed,1
+2,0.4,"['Go to the bed room', 'Prepare the bed']","['Get into the child room', 'Take him to the bed room']",Get into the child room,0
+3,0.6,"['Go to the bed room', 'Prepare the bed', 'Get into the child room']","['Go to the bed room', 'Pick the child in the sofa']",Pick the child in the sofa,1
+4,0.8,"['Go to the bed room', 'Prepare the bed', 'Get into the child room', 'Pick the child in the sofa']","['Take him to the bed room', 'Prepare the bed']",Take him to the bed room,0
+0,0.0,[],"['Watch clock', 'Change his clothes']",Watch clock,0
+1,0.2,['Watch clock'],"['Take child to bed', 'Change his clothes']",Take child to bed,0
+2,0.4,"['Watch clock', 'Take child to bed']","['Change his clothes', 'Give him a toy']",Change his clothes,0
+3,0.6,"['Watch clock', 'Take child to bed', 'Change his clothes']","['Read him a story', 'Watch clock']",Read him a story,0
+4,0.8,"['Watch clock', 'Take child to bed', 'Change his clothes', 'Read him a story']","['Give him a toy', 'Watch clock']",Give him a toy,0
+0,0.0,[],"['Tell child it is bedtime', 'Have child change into pajamas']",Tell child it is bedtime,0
+1,0.2,['Tell child it is bedtime'],"['Have child change into pajamas', 'Tuck child into bed']",Have child change into pajamas,0
+2,0.4,"['Tell child it is bedtime', 'Have child change into pajamas']","['Get child to brush their teeth', 'Read a bedtime story to the child']",Get child to brush their teeth,0
+3,0.6,"['Tell child it is bedtime', 'Have child change into pajamas', 'Get child to brush their teeth']","['Tuck child into bed', 'Tell child it is bedtime']",Tuck child into bed,0
+4,0.8,"['Tell child it is bedtime', 'Have child change into pajamas', 'Get child to brush their teeth', 'Tuck child into bed']","['Tell child it is bedtime', 'Read a bedtime story to the child']",Read a bedtime story to the child,1
+0,0.0,[],"['Put in PJs.', 'Brush teeth.']",Put in PJs.,0
+1,0.2,['Put in PJs.'],"['Use the bathroom.', 'Brush teeth.']",Brush teeth.,1
+2,0.4,"['Put in PJs.', 'Brush teeth.']","['Get in bed.', 'Get a drink of water.']",Get a drink of water.,1
+3,0.6,"['Put in PJs.', 'Brush teeth.', 'Get a drink of water.']","['Put in PJs.', 'Use the bathroom.']",Use the bathroom.,1
+4,0.8,"['Put in PJs.', 'Brush teeth.', 'Get a drink of water.', 'Use the bathroom.']","['Get in bed.', 'Put in PJs.']",Get in bed.,0
+0,0.0,[],"['let the child know how long until bed', 'take child to room']",let the child know how long until bed,0
+1,0.2,['let the child know how long until bed'],"['read book', 'tell child to pick out a book to read']",tell child to pick out a book to read,1
+2,0.4,"['let the child know how long until bed', 'tell child to pick out a book to read']","['take child to room', 'read book']",take child to room,0
+3,0.6,"['let the child know how long until bed', 'tell child to pick out a book to read', 'take child to room']","['let the child know how long until bed', ""go through child's bedtime routine""]",go through child's bedtime routine,1
+4,0.8,"['let the child know how long until bed', 'tell child to pick out a book to read', 'take child to room', ""go through child's bedtime routine""]","['let the child know how long until bed', 'read book']",read book,1
+0,0.0,[],"['Pick up child', 'Change the child into pajamas']",Pick up child,0
+1,0.2,['Pick up child'],"['Take child to their bedroom', 'Take child to their bedroom']",Take child to their bedroom,1
+2,0.4,"['Pick up child', 'Take child to their bedroom']","['Sit next to child', 'Change the child into pajamas']",Change the child into pajamas,1
+3,0.6,"['Pick up child', 'Take child to their bedroom', 'Change the child into pajamas']","['Put child in bed', 'Pick up child']",Put child in bed,0
+4,0.8,"['Pick up child', 'Take child to their bedroom', 'Change the child into pajamas', 'Put child in bed']","['Sit next to child', 'Take child to their bedroom']",Sit next to child,0
+0,0.0,[],"[""Walk to child's room"", 'Pick up child']",Pick up child,1
+1,0.2,['Pick up child'],"[""Walk to child's room"", 'Lay child in bed']",Walk to child's room,0
+2,0.4,"['Pick up child', ""Walk to child's room""]","['Tuck child into bed', 'Lay child in bed']",Lay child in bed,1
+3,0.6,"['Pick up child', ""Walk to child's room"", 'Lay child in bed']","['Pick up child', 'Place covers over child']",Place covers over child,1
+4,0.8,"['Pick up child', ""Walk to child's room"", 'Lay child in bed', 'Place covers over child']","[""Walk to child's room"", 'Tuck child into bed']",Tuck child into bed,1
+0,0.0,[],"['Take a child to bathtub.', 'Bathe the child.']",Take a child to bathtub.,0
+1,0.2,['Take a child to bathtub.'],"[""Apply cream on the child's body."", 'Bathe the child.']",Bathe the child.,1
+2,0.4,"['Take a child to bathtub.', 'Bathe the child.']","[""Apply cream on the child's body."", 'Take her out of bathtub.']",Take her out of bathtub.,1
+3,0.6,"['Take a child to bathtub.', 'Bathe the child.', 'Take her out of bathtub.']","['Take a child to bathtub.', 'Dress the child with pajamas.']",Dress the child with pajamas.,1
+4,0.8,"['Take a child to bathtub.', 'Bathe the child.', 'Take her out of bathtub.', 'Dress the child with pajamas.']","['Take a child to bathtub.', ""Apply cream on the child's body.""]",Apply cream on the child's body.,1
+0,0.0,[],"['Tuck child under covers.', 'Give child 5 minute warning that it is almost bedtime.']",Give child 5 minute warning that it is almost bedtime.,1
+1,0.2,['Give child 5 minute warning that it is almost bedtime.'],"['Have child put on pajamas.', 'Have child brush teeth, help them if necessary.']",Have child put on pajamas.,0
+2,0.4,"['Give child 5 minute warning that it is almost bedtime.', 'Have child put on pajamas.']","['Have child brush teeth, help them if necessary.', 'Snuggle with child.']","Have child brush teeth, help them if necessary.",0
+3,0.6,"['Give child 5 minute warning that it is almost bedtime.', 'Have child put on pajamas.', 'Have child brush teeth, help them if necessary.']","['Tuck child under covers.', 'Give child 5 minute warning that it is almost bedtime.']",Tuck child under covers.,0
+4,0.8,"['Give child 5 minute warning that it is almost bedtime.', 'Have child put on pajamas.', 'Have child brush teeth, help them if necessary.', 'Tuck child under covers.']","['Give child 5 minute warning that it is almost bedtime.', 'Snuggle with child.']",Snuggle with child.,1
+0,0.0,[],"['Get child', 'Get child']",Get child,1
+1,0.2,['Get child'],"['Take child to brush teeth', 'Put child under blankets']",Take child to brush teeth,0
+2,0.4,"['Get child', 'Take child to brush teeth']","['Put child under blankets', 'Ask child to put on pajamas']",Ask child to put on pajamas,1
+3,0.6,"['Get child', 'Take child to brush teeth', 'Ask child to put on pajamas']","['Get child', 'Put child on bed']",Put child on bed,1
+4,0.8,"['Get child', 'Take child to brush teeth', 'Ask child to put on pajamas', 'Put child on bed']","['Get child', 'Put child under blankets']",Put child under blankets,1
+0,0.0,[],"['carry the child', 'put child on the bed']",carry the child,0
+1,0.2,['carry the child'],"['put child on the bed', 'pull covers over child']",put child on the bed,0
+2,0.4,"['carry the child', 'put child on the bed']","['put out lights', 'pull covers over child']",pull covers over child,1
+3,0.6,"['carry the child', 'put child on the bed', 'pull covers over child']","['carry the child', 'say goodnight']",say goodnight,1
+4,0.8,"['carry the child', 'put child on the bed', 'pull covers over child', 'say goodnight']","['put out lights', 'put child on the bed']",put out lights,0
+0,0.0,[],"['Tell the child to use the bathroom and brush his/her teeth', 'Ask the child if he/she is ready for bed']",Ask the child if he/she is ready for bed,1
+1,0.2,['Ask the child if he/she is ready for bed'],"['Ask the child if he/she is ready for bed', 'Tell the child to use the bathroom and brush his/her teeth']",Tell the child to use the bathroom and brush his/her teeth,1
+2,0.4,"['Ask the child if he/she is ready for bed', 'Tell the child to use the bathroom and brush his/her teeth']","['Help the child into bed', 'Tuck the child into bed']",Help the child into bed,0
+3,0.6,"['Ask the child if he/she is ready for bed', 'Tell the child to use the bathroom and brush his/her teeth', 'Help the child into bed']","['Read the child a bedtime story', 'Ask the child if he/she is ready for bed']",Read the child a bedtime story,0
+4,0.8,"['Ask the child if he/she is ready for bed', 'Tell the child to use the bathroom and brush his/her teeth', 'Help the child into bed', 'Read the child a bedtime story']","['Ask the child if he/she is ready for bed', 'Tuck the child into bed']",Tuck the child into bed,1
+0,0.0,[],"['announce it is bed time', 'announce it is bed time']",announce it is bed time,0
+1,0.2,['announce it is bed time'],"['tell the child to brush their teeth', 'tell the child to brush their teeth']",tell the child to brush their teeth,0
+2,0.4,"['announce it is bed time', 'tell the child to brush their teeth']","['walk with or carry the child to bed', 'tuck in']",walk with or carry the child to bed,0
+3,0.6,"['announce it is bed time', 'tell the child to brush their teeth', 'walk with or carry the child to bed']","['announce it is bed time', 'tell a quick bed time story']",tell a quick bed time story,1
+4,0.8,"['announce it is bed time', 'tell the child to brush their teeth', 'walk with or carry the child to bed', 'tell a quick bed time story']","['announce it is bed time', 'tuck in']",tuck in,1
+0,0.0,[],"['Tell child its time for sleep', 'Turn out lights.']",Tell child its time for sleep,0
+1,0.2,['Tell child its time for sleep'],"['Make him wash and brush teeth', 'Make him wash and brush teeth']",Make him wash and brush teeth,1
+2,0.4,"['Tell child its time for sleep', 'Make him wash and brush teeth']","['Turn out lights.', 'Take him to his room']",Take him to his room,1
+3,0.6,"['Tell child its time for sleep', 'Make him wash and brush teeth', 'Take him to his room']","['Tuck him in', 'Tell child its time for sleep']",Tuck him in,0
+4,0.8,"['Tell child its time for sleep', 'Make him wash and brush teeth', 'Take him to his room', 'Tuck him in']","['Make him wash and brush teeth', 'Turn out lights.']",Turn out lights.,1
+0,0.0,[],"['Tell them to get into bed', 'Notice child is getting sleepy']",Notice child is getting sleepy,1
+1,0.2,['Notice child is getting sleepy'],"['Tell child its time for bed', 'Notice child is getting sleepy']",Tell child its time for bed,0
+2,0.4,"['Notice child is getting sleepy', 'Tell child its time for bed']","['Take child to their room', 'Place cover over them']",Take child to their room,0
+3,0.6,"['Notice child is getting sleepy', 'Tell child its time for bed', 'Take child to their room']","['Tell them to get into bed', 'Notice child is getting sleepy']",Tell them to get into bed,0
+4,0.8,"['Notice child is getting sleepy', 'Tell child its time for bed', 'Take child to their room', 'Tell them to get into bed']","['Place cover over them', 'Tell child its time for bed']",Place cover over them,0
+0,0.0,[],"[""Tell child it's time for bed."", 'Help them change into pajamas.']",Tell child it's time for bed.,0
+1,0.2,"[""Tell child it's time for bed.""]","['Help them brush teeth.', 'Take them by the hand to their bedroom.']",Take them by the hand to their bedroom.,1
+2,0.4,"[""Tell child it's time for bed."", 'Take them by the hand to their bedroom.']","['Help them change into pajamas.', 'Help them get into bed.']",Help them change into pajamas.,0
+3,0.6,"[""Tell child it's time for bed."", 'Take them by the hand to their bedroom.', 'Help them change into pajamas.']","['Help them brush teeth.', ""Tell child it's time for bed.""]",Help them brush teeth.,0
+4,0.8,"[""Tell child it's time for bed."", 'Take them by the hand to their bedroom.', 'Help them change into pajamas.', 'Help them brush teeth.']","['Help them get into bed.', ""Tell child it's time for bed.""]",Help them get into bed.,0
+0,0.0,[],"['Carry child to bedroom', 'Place child in the bed']",Carry child to bedroom,0
+1,0.2,['Carry child to bedroom'],"['Carry child to bedroom', 'Place child in the bed']",Place child in the bed,1
+2,0.4,"['Carry child to bedroom', 'Place child in the bed']","['Read story book', 'Cover child with blanket']",Cover child with blanket,1
+3,0.6,"['Carry child to bedroom', 'Place child in the bed', 'Cover child with blanket']","['Carry child to bedroom', 'Get story book']",Get story book,1
+4,0.8,"['Carry child to bedroom', 'Place child in the bed', 'Cover child with blanket', 'Get story book']","['Carry child to bedroom', 'Read story book']",Read story book,1
+0,0.0,[],"['Pick up child', 'Carry child to their bedroom']",Pick up child,0
+1,0.2,['Pick up child'],"['Carry child to their bedroom', 'Carry child to their bedroom']",Carry child to their bedroom,1
+2,0.4,"['Pick up child', 'Carry child to their bedroom']","['Lay child in bed', 'Turn off the light']",Lay child in bed,0
+3,0.6,"['Pick up child', 'Carry child to their bedroom', 'Lay child in bed']","['Pick up child', 'Cover child up with blankets']",Cover child up with blankets,1
+4,0.8,"['Pick up child', 'Carry child to their bedroom', 'Lay child in bed', 'Cover child up with blankets']","['Turn off the light', 'Carry child to their bedroom']",Turn off the light,0
+0,0.0,[],"['Hug child', 'Go with child to bedroom']",Go with child to bedroom,1
+1,0.2,['Go with child to bedroom'],"['Help child into bed', 'Read story']",Help child into bed,0
+2,0.4,"['Go with child to bedroom', 'Help child into bed']","['Hug child', 'Pick out bedtime story']",Pick out bedtime story,1
+3,0.6,"['Go with child to bedroom', 'Help child into bed', 'Pick out bedtime story']","['Go with child to bedroom', 'Read story']",Read story,1
+4,0.8,"['Go with child to bedroom', 'Help child into bed', 'Pick out bedtime story', 'Read story']","['Hug child', 'Help child into bed']",Hug child,0
+0,0.0,[],"['Get the child a small glass of water.', 'Put glass of water next to bed.']",Get the child a small glass of water.,0
+1,0.2,['Get the child a small glass of water.'],"['Walk child to bed room.', 'Make sure the child is covered up under blankets.']",Walk child to bed room.,0
+2,0.4,"['Get the child a small glass of water.', 'Walk child to bed room.']","['Ask them if they need the light on.', 'Put glass of water next to bed.']",Put glass of water next to bed.,1
+3,0.6,"['Get the child a small glass of water.', 'Walk child to bed room.', 'Put glass of water next to bed.']","['Get the child a small glass of water.', 'Make sure the child is covered up under blankets.']",Make sure the child is covered up under blankets.,1
+4,0.8,"['Get the child a small glass of water.', 'Walk child to bed room.', 'Put glass of water next to bed.', 'Make sure the child is covered up under blankets.']","['Ask them if they need the light on.', 'Get the child a small glass of water.']",Ask them if they need the light on.,0
+0,0.0,[],"['Walk them to their bed', 'Take your child']",Take your child,1
+1,0.2,['Take your child'],"['Walk them to their bed', 'Place covers over child']",Walk them to their bed,0
+2,0.4,"['Take your child', 'Walk them to their bed']","['Read child story', 'Tell child to get in bed']",Tell child to get in bed,1
+3,0.6,"['Take your child', 'Walk them to their bed', 'Tell child to get in bed']","['Place covers over child', 'Take your child']",Place covers over child,0
+4,0.8,"['Take your child', 'Walk them to their bed', 'Tell child to get in bed', 'Place covers over child']","['Take your child', 'Read child story']",Read child story,1
+0,0.0,[],"['Calm the child', 'Calm the child']",Calm the child,0
+1,0.2,['Calm the child'],"['Calm the child', 'Place the child in the bed']",Place the child in the bed,1
+2,0.4,"['Calm the child', 'Place the child in the bed']","['Reassure the child', 'Turn off lights']",Reassure the child,0
+3,0.6,"['Calm the child', 'Place the child in the bed', 'Reassure the child']","['Calm the child', 'Read the child a story']",Read the child a story,1
+4,0.8,"['Calm the child', 'Place the child in the bed', 'Reassure the child', 'Read the child a story']","['Calm the child', 'Turn off lights']",Turn off lights,1
+0,0.0,[],"['Tell child it is time for bed', 'Leave room']",Tell child it is time for bed,0
+1,0.2,['Tell child it is time for bed'],"['Walk with child to his/her bedroom', 'Walk with child to his/her bedroom']",Walk with child to his/her bedroom,0
+2,0.4,"['Tell child it is time for bed', 'Walk with child to his/her bedroom']","['Tuck child in bed', 'Leave room']",Tuck child in bed,0
+3,0.6,"['Tell child it is time for bed', 'Walk with child to his/her bedroom', 'Tuck child in bed']","['Turn off light', 'Tell child it is time for bed']",Turn off light,0
+4,0.8,"['Tell child it is time for bed', 'Walk with child to his/her bedroom', 'Tuck child in bed', 'Turn off light']","['Leave room', 'Walk with child to his/her bedroom']",Leave room,0
+0,0.0,[],"['Get child prepared for bedtime', 'Place them into bed']",Get child prepared for bedtime,0
+1,0.2,['Get child prepared for bedtime'],"['Put them in PJs', 'Tell them a bedtime story']",Put them in PJs,0
+2,0.4,"['Get child prepared for bedtime', 'Put them in PJs']","['Tell them to sleep', 'Place them into bed']",Place them into bed,1
+3,0.6,"['Get child prepared for bedtime', 'Put them in PJs', 'Place them into bed']","['Tell them a bedtime story', 'Get child prepared for bedtime']",Tell them a bedtime story,0
+4,0.8,"['Get child prepared for bedtime', 'Put them in PJs', 'Place them into bed', 'Tell them a bedtime story']","['Tell them to sleep', 'Get child prepared for bedtime']",Tell them to sleep,0
+0,0.0,[],"['pick up sleeping child', 'kiss child goodnight']",pick up sleeping child,0
+1,0.2,['pick up sleeping child'],"['carry child to bedroom', 'kiss child goodnight']",carry child to bedroom,0
+2,0.4,"['pick up sleeping child', 'carry child to bedroom']","['tuck child in bed', 'kiss child goodnight']",tuck child in bed,0
+3,0.6,"['pick up sleeping child', 'carry child to bedroom', 'tuck child in bed']","['turn on night light', 'pick up sleeping child']",turn on night light,0
+4,0.8,"['pick up sleeping child', 'carry child to bedroom', 'tuck child in bed', 'turn on night light']","['pick up sleeping child', 'kiss child goodnight']",kiss child goodnight,1
+0,0.0,[],"['place child in bed', 'change child into pajamas']",change child into pajamas,1
+1,0.2,['change child into pajamas'],"['place child in bed', 'bring child to bedroom']",bring child to bedroom,1
+2,0.4,"['change child into pajamas', 'bring child to bedroom']","['place child in bed', 'read story to child']",place child in bed,0
+3,0.6,"['change child into pajamas', 'bring child to bedroom', 'place child in bed']","['pick a bedtime story', 'change child into pajamas']",pick a bedtime story,0
+4,0.8,"['change child into pajamas', 'bring child to bedroom', 'place child in bed', 'pick a bedtime story']","['change child into pajamas', 'read story to child']",read story to child,1
+0,0.0,[],"['Make sure the child goes to the potty 1st.', 'Tell a story or read the child a book.']",Make sure the child goes to the potty 1st.,0
+1,0.2,['Make sure the child goes to the potty 1st.'],"['Lie the child down.', 'Child will get sleepy.']",Lie the child down.,0
+2,0.4,"['Make sure the child goes to the potty 1st.', 'Lie the child down.']","['Tell a story or read the child a book.', 'The child will go to sleep.']",Tell a story or read the child a book.,0
+3,0.6,"['Make sure the child goes to the potty 1st.', 'Lie the child down.', 'Tell a story or read the child a book.']","['Child will get sleepy.', 'Make sure the child goes to the potty 1st.']",Child will get sleepy.,0
+4,0.8,"['Make sure the child goes to the potty 1st.', 'Lie the child down.', 'Tell a story or read the child a book.', 'Child will get sleepy.']","['Make sure the child goes to the potty 1st.', 'The child will go to sleep.']",The child will go to sleep.,1
+0,0.0,[],"['reading them a story', 'helping them change into pjs']",helping them change into pjs,1
+1,0.2,['helping them change into pjs'],"['tucking them in', 'kiss them goodnight']",tucking them in,0
+2,0.4,"['helping them change into pjs', 'tucking them in']","['turn off the light', 'reading them a story']",reading them a story,1
+3,0.6,"['helping them change into pjs', 'tucking them in', 'reading them a story']","['kiss them goodnight', 'helping them change into pjs']",kiss them goodnight,0
+4,0.8,"['helping them change into pjs', 'tucking them in', 'reading them a story', 'kiss them goodnight']","['turn off the light', 'tucking them in']",turn off the light,0
+0,0.0,[],"['tell child bedtime', 'have child brush his/her teeth']",tell child bedtime,0
+1,0.2,['tell child bedtime'],"['walk them to their bedroom', ""have child put on pj's""]",have child put on pj's,1
+2,0.4,"['tell child bedtime', ""have child put on pj's""]","['kneel by the bed', 'have child brush his/her teeth']",have child brush his/her teeth,1
+3,0.6,"['tell child bedtime', ""have child put on pj's"", 'have child brush his/her teeth']","['tell child bedtime', 'walk them to their bedroom']",walk them to their bedroom,1
+4,0.8,"['tell child bedtime', ""have child put on pj's"", 'have child brush his/her teeth', 'walk them to their bedroom']","['kneel by the bed', 'tell child bedtime']",kneel by the bed,0
+0,0.0,[],"[""Get the child's attention."", 'Walk with him/her to his/her bedroom.']",Get the child's attention.,0
+1,0.2,"[""Get the child's attention.""]","['Walk with him/her to his/her bedroom.', 'Tell him/her it is time for bed.']",Tell him/her it is time for bed.,1
+2,0.4,"[""Get the child's attention."", 'Tell him/her it is time for bed.']","['Walk with him/her to his/her bedroom.', 'Read him/her his/her favorite story.']",Walk with him/her to his/her bedroom.,0
+3,0.6,"[""Get the child's attention."", 'Tell him/her it is time for bed.', 'Walk with him/her to his/her bedroom.']","[""Get the child's attention."", 'Get in bed with him/her.']",Get in bed with him/her.,1
+4,0.8,"[""Get the child's attention."", 'Tell him/her it is time for bed.', 'Walk with him/her to his/her bedroom.', 'Get in bed with him/her.']","['Read him/her his/her favorite story.', 'Tell him/her it is time for bed.']",Read him/her his/her favorite story.,0
+0,0.0,[],"['Turn off light', ""Brush child's teeth""]",Brush child's teeth,1
+1,0.2,"[""Brush child's teeth""]","[""Brush child's teeth"", ""Put on child's pajamas""]",Put on child's pajamas,1
+2,0.4,"[""Brush child's teeth"", ""Put on child's pajamas""]","['Read a bedtime story', 'Turn off light']",Read a bedtime story,0
+3,0.6,"[""Brush child's teeth"", ""Put on child's pajamas"", 'Read a bedtime story']","[""Brush child's teeth"", 'Tuck child into bed']",Tuck child into bed,1
+4,0.8,"[""Brush child's teeth"", ""Put on child's pajamas"", 'Read a bedtime story', 'Tuck child into bed']","[""Brush child's teeth"", 'Turn off light']",Turn off light,1
+0,0.0,[],"['Get child to brush teeth', 'Take child upstairs']",Take child upstairs,1
+1,0.2,['Take child upstairs'],"['Get child to go to bedroom', 'Get child to brush teeth']",Get child to brush teeth,1
+2,0.4,"['Take child upstairs', 'Get child to brush teeth']","['Tuck child in.', 'Get child to go to bedroom']",Get child to go to bedroom,1
+3,0.6,"['Take child upstairs', 'Get child to brush teeth', 'Get child to go to bedroom']","['Get child to get in bed', 'Take child upstairs']",Get child to get in bed,0
+4,0.8,"['Take child upstairs', 'Get child to brush teeth', 'Get child to go to bedroom', 'Get child to get in bed']","['Tuck child in.', 'Get child to brush teeth']",Tuck child in.,0
+0,0.0,[],"['Tuck her in', 'Give her bath']",Give her bath,1
+1,0.2,['Give her bath'],"['Get into bed', 'Put on her pjs']",Put on her pjs,1
+2,0.4,"['Give her bath', 'Put on her pjs']","['Tuck her in', 'Brush her teeth']",Brush her teeth,1
+3,0.6,"['Give her bath', 'Put on her pjs', 'Brush her teeth']","['Get into bed', 'Give her bath']",Get into bed,0
+4,0.8,"['Give her bath', 'Put on her pjs', 'Brush her teeth', 'Get into bed']","['Tuck her in', 'Give her bath']",Tuck her in,0
+0,0.0,[],"[""Tell child it's time for bed."", 'Lead child to their room.']",Tell child it's time for bed.,0
+1,0.2,"[""Tell child it's time for bed.""]","['Lead child to their room.', 'Tell them to get into bed.']",Lead child to their room.,0
+2,0.4,"[""Tell child it's time for bed."", 'Lead child to their room.']","['Tell them to get into bed.', 'Say goodnight.']",Tell them to get into bed.,0
+3,0.6,"[""Tell child it's time for bed."", 'Lead child to their room.', 'Tell them to get into bed.']","[""Tell child it's time for bed."", 'Cover them up.']",Cover them up.,1
+4,0.8,"[""Tell child it's time for bed."", 'Lead child to their room.', 'Tell them to get into bed.', 'Cover them up.']","['Lead child to their room.', 'Say goodnight.']",Say goodnight.,1
+0,0.0,[],"['Tuck child into bed.', 'Have child brush teeth.']",Have child brush teeth.,1
+1,0.2,['Have child brush teeth.'],"['Have child brush teeth.', 'Have child get into the pajamas.']",Have child get into the pajamas.,1
+2,0.4,"['Have child brush teeth.', 'Have child get into the pajamas.']","['Turn light off and close door.', 'Tuck child into bed.']",Tuck child into bed.,1
+3,0.6,"['Have child brush teeth.', 'Have child get into the pajamas.', 'Tuck child into bed.']","['Read story to child.', 'Have child brush teeth.']",Read story to child.,0
+4,0.8,"['Have child brush teeth.', 'Have child get into the pajamas.', 'Tuck child into bed.', 'Read story to child.']","['Turn light off and close door.', 'Have child get into the pajamas.']",Turn light off and close door.,0
+0,0.0,[],"['Tuck them in the bed', 'Give them a bath']",Give them a bath,1
+1,0.2,['Give them a bath'],"['Dry them off', 'Dry them off']",Dry them off,0
+2,0.4,"['Give them a bath', 'Dry them off']","['Put on their pajamas', 'Read them a bedtime story']",Put on their pajamas,0
+3,0.6,"['Give them a bath', 'Dry them off', 'Put on their pajamas']","['Tuck them in the bed', 'Give them a bath']",Tuck them in the bed,0
+4,0.8,"['Give them a bath', 'Dry them off', 'Put on their pajamas', 'Tuck them in the bed']","['Read them a bedtime story', 'Give them a bath']",Read them a bedtime story,0
+0,0.0,[],"['place child in the bed', 'pickup child']",pickup child,1
+1,0.2,['pickup child'],"['place child in the bed', 'carry him to his bed']",carry him to his bed,1
+2,0.4,"['pickup child', 'carry him to his bed']","['pull back the covers', 'place child in the bed']",pull back the covers,0
+3,0.6,"['pickup child', 'carry him to his bed', 'pull back the covers']","['pickup child', 'dress child in his pajamas']",dress child in his pajamas,1
+4,0.8,"['pickup child', 'carry him to his bed', 'pull back the covers', 'dress child in his pajamas']","['place child in the bed', 'pickup child']",place child in the bed,0
+0,0.0,[],"['WALK WITH THE CHILD UP THE STAIRS', 'WALK WITH THE CHILD UP THE STAIRS']",WALK WITH THE CHILD UP THE STAIRS,0
+1,0.2,['WALK WITH THE CHILD UP THE STAIRS'],"['GET THEM TO CLIMB INTO THEIR BED', 'WALK WITH THE CHILD UP THE STAIRS']",GET THEM TO CLIMB INTO THEIR BED,0
+2,0.4,"['WALK WITH THE CHILD UP THE STAIRS', 'GET THEM TO CLIMB INTO THEIR BED']","['READ THEM A STORY', 'PULL THE COVER UP TO THEIR CHIN']",PULL THE COVER UP TO THEIR CHIN,1
+3,0.6,"['WALK WITH THE CHILD UP THE STAIRS', 'GET THEM TO CLIMB INTO THEIR BED', 'PULL THE COVER UP TO THEIR CHIN']","['WALK WITH THE CHILD UP THE STAIRS', 'TUCK THEM INTO BED']",TUCK THEM INTO BED,1
+4,0.8,"['WALK WITH THE CHILD UP THE STAIRS', 'GET THEM TO CLIMB INTO THEIR BED', 'PULL THE COVER UP TO THEIR CHIN', 'TUCK THEM INTO BED']","['WALK WITH THE CHILD UP THE STAIRS', 'READ THEM A STORY']",READ THEM A STORY,1
+0,0.0,[],"['Take him/her to the toilet', 'Tell the child lovingly that it is bed time']",Tell the child lovingly that it is bed time,1
+1,0.2,['Tell the child lovingly that it is bed time'],"['Change his/her clothes to a night dress', 'Take him/her to the bedroom']",Change his/her clothes to a night dress,0
+2,0.4,"['Tell the child lovingly that it is bed time', 'Change his/her clothes to a night dress']","['Take him/her to the toilet', 'Take him/her to the bedroom']",Take him/her to the toilet,0
+3,0.6,"['Tell the child lovingly that it is bed time', 'Change his/her clothes to a night dress', 'Take him/her to the toilet']","['Tell the child lovingly that it is bed time', 'Then wipe his/her foot']",Then wipe his/her foot,1
+4,0.8,"['Tell the child lovingly that it is bed time', 'Change his/her clothes to a night dress', 'Take him/her to the toilet', 'Then wipe his/her foot']","['Tell the child lovingly that it is bed time', 'Take him/her to the bedroom']",Take him/her to the bedroom,1
+0,0.0,[],"['Have child brush their teeth.', ""Tell child it's time for bed.""]",Tell child it's time for bed.,1
+1,0.2,"[""Tell child it's time for bed.""]","['Have child select a story book.', 'Have child change into pajamas.']",Have child change into pajamas.,1
+2,0.4,"[""Tell child it's time for bed."", 'Have child change into pajamas.']","['Have child brush their teeth.', 'Have child get into bed.']",Have child brush their teeth.,0
+3,0.6,"[""Tell child it's time for bed."", 'Have child change into pajamas.', 'Have child brush their teeth.']","[""Tell child it's time for bed."", 'Have child select a story book.']",Have child select a story book.,1
+4,0.8,"[""Tell child it's time for bed."", 'Have child change into pajamas.', 'Have child brush their teeth.', 'Have child select a story book.']","[""Tell child it's time for bed."", 'Have child get into bed.']",Have child get into bed.,1
+0,0.0,[],"['Put pajamas on child', ""Tell child it's bedtime""]",Tell child it's bedtime,1
+1,0.2,"[""Tell child it's bedtime""]","['Go in room with child', ""Tell child it's bedtime""]",Go in room with child,0
+2,0.4,"[""Tell child it's bedtime"", 'Go in room with child']","['Put pajamas on child', 'Pull blanket over child']",Put pajamas on child,0
+3,0.6,"[""Tell child it's bedtime"", 'Go in room with child', 'Put pajamas on child']","[""Tell child it's bedtime"", 'Have child lay in bed']",Have child lay in bed,1
+4,0.8,"[""Tell child it's bedtime"", 'Go in room with child', 'Put pajamas on child', 'Have child lay in bed']","[""Tell child it's bedtime"", 'Pull blanket over child']",Pull blanket over child,1
+0,0.0,[],"['tell child it is time to go to bed', 'put on clean pajamas']",tell child it is time to go to bed,0
+1,0.2,['tell child it is time to go to bed'],"['give child a bath', 'read bedtime story to child']",give child a bath,0
+2,0.4,"['tell child it is time to go to bed', 'give child a bath']","['brush teeth', 'read bedtime story to child']",brush teeth,0
+3,0.6,"['tell child it is time to go to bed', 'give child a bath', 'brush teeth']","['put on clean pajamas', 'tell child it is time to go to bed']",put on clean pajamas,0
+4,0.8,"['tell child it is time to go to bed', 'give child a bath', 'brush teeth', 'put on clean pajamas']","['read bedtime story to child', 'tell child it is time to go to bed']",read bedtime story to child,0
+0,0.0,[],"['Go into bedroom and make sure bed is made', 'Place child in bed']",Go into bedroom and make sure bed is made,0
+1,0.2,['Go into bedroom and make sure bed is made'],"['Pick up child gently', 'Go into bedroom and make sure bed is made']",Pick up child gently,0
+2,0.4,"['Go into bedroom and make sure bed is made', 'Pick up child gently']","[""Rest child's head comfortably on pillow"", 'Carry child gently and quietly to bed']",Carry child gently and quietly to bed,1
+3,0.6,"['Go into bedroom and make sure bed is made', 'Pick up child gently', 'Carry child gently and quietly to bed']","['Go into bedroom and make sure bed is made', 'Place child in bed']",Place child in bed,1
+4,0.8,"['Go into bedroom and make sure bed is made', 'Pick up child gently', 'Carry child gently and quietly to bed', 'Place child in bed']","[""Rest child's head comfortably on pillow"", 'Pick up child gently']",Rest child's head comfortably on pillow,0
+0,0.0,[],"['Tell child it is time for bed.', 'Tell child it is time for bed.']",Tell child it is time for bed.,0
+1,0.2,['Tell child it is time for bed.'],"['Tell child it is time for bed.', 'Walk with child to bed.']",Walk with child to bed.,1
+2,0.4,"['Tell child it is time for bed.', 'Walk with child to bed.']","['Tell them goodnight.', 'Have child lay down in bed.']",Have child lay down in bed.,1
+3,0.6,"['Tell child it is time for bed.', 'Walk with child to bed.', 'Have child lay down in bed.']","['Tell child it is time for bed.', 'Tuck child in.']",Tuck child in.,1
+4,0.8,"['Tell child it is time for bed.', 'Walk with child to bed.', 'Have child lay down in bed.', 'Tuck child in.']","['Tell child it is time for bed.', 'Tell them goodnight.']",Tell them goodnight.,1
+0,0.0,[],"['Pull covers over child.', 'You take child to bedroom.']",You take child to bedroom.,1
+1,0.2,['You take child to bedroom.'],"['Help put pajamas on.', 'You take child to bedroom.']",Help put pajamas on.,0
+2,0.4,"['You take child to bedroom.', 'Help put pajamas on.']","['Pull back covers on bed.', 'Pull covers over child.']",Pull back covers on bed.,0
+3,0.6,"['You take child to bedroom.', 'Help put pajamas on.', 'Pull back covers on bed.']","['You take child to bedroom.', 'Put child in bed.']",Put child in bed.,1
+4,0.8,"['You take child to bedroom.', 'Help put pajamas on.', 'Pull back covers on bed.', 'Put child in bed.']","['Pull covers over child.', 'Help put pajamas on.']",Pull covers over child.,0
+0,0.0,[],"[""Tell child it's time for bed"", 'Put child under covers']",Tell child it's time for bed,0
+1,0.2,"[""Tell child it's time for bed""]","[""Tell child it's time for bed"", 'Tell him to go brush his teeth']",Tell him to go brush his teeth,1
+2,0.4,"[""Tell child it's time for bed"", 'Tell him to go brush his teeth']","['Ask if they want a bed time story', 'Walk into room after he brushes teeth']",Walk into room after he brushes teeth,1
+3,0.6,"[""Tell child it's time for bed"", 'Tell him to go brush his teeth', 'Walk into room after he brushes teeth']","['Put child under covers', ""Tell child it's time for bed""]",Put child under covers,0
+4,0.8,"[""Tell child it's time for bed"", 'Tell him to go brush his teeth', 'Walk into room after he brushes teeth', 'Put child under covers']","[""Tell child it's time for bed"", 'Ask if they want a bed time story']",Ask if they want a bed time story,1
+0,0.0,[],"['Ask the child to brush their teeth.', 'Read them a story.']",Ask the child to brush their teeth.,0
+1,0.2,['Ask the child to brush their teeth.'],"['Ask them to get into bed.', 'Make sure the covers are up.']",Ask them to get into bed.,0
+2,0.4,"['Ask the child to brush their teeth.', 'Ask them to get into bed.']","['Kiss goodnight.', 'Read them a story.']",Read them a story.,1
+3,0.6,"['Ask the child to brush their teeth.', 'Ask them to get into bed.', 'Read them a story.']","['Make sure the covers are up.', 'Ask the child to brush their teeth.']",Make sure the covers are up.,0
+4,0.8,"['Ask the child to brush their teeth.', 'Ask them to get into bed.', 'Read them a story.', 'Make sure the covers are up.']","['Ask them to get into bed.', 'Kiss goodnight.']",Kiss goodnight.,1
+0,0.0,[],"['Have child brush teeth.', 'Walk child to bed.']",Have child brush teeth.,0
+1,0.2,['Have child brush teeth.'],"['Pull back covers.', ""Have child get into pj's.""]",Have child get into pj's.,1
+2,0.4,"['Have child brush teeth.', ""Have child get into pj's.""]","['Walk child to bed.', 'Place child in bed.']",Walk child to bed.,0
+3,0.6,"['Have child brush teeth.', ""Have child get into pj's."", 'Walk child to bed.']","['Pull back covers.', 'Have child brush teeth.']",Pull back covers.,0
+4,0.8,"['Have child brush teeth.', ""Have child get into pj's."", 'Walk child to bed.', 'Pull back covers.']","['Place child in bed.', 'Have child brush teeth.']",Place child in bed.,0
+0,0.0,[],"['tuck child into bed', 'make sure child has brushed their teeth']",make sure child has brushed their teeth,1
+1,0.2,['make sure child has brushed their teeth'],"['walk with child to their bedroom', 'read child a bedtime story']",walk with child to their bedroom,0
+2,0.4,"['make sure child has brushed their teeth', 'walk with child to their bedroom']","['help child change into pajamas', 'read child a bedtime story']",help child change into pajamas,0
+3,0.6,"['make sure child has brushed their teeth', 'walk with child to their bedroom', 'help child change into pajamas']","['tuck child into bed', 'make sure child has brushed their teeth']",tuck child into bed,0
+4,0.8,"['make sure child has brushed their teeth', 'walk with child to their bedroom', 'help child change into pajamas', 'tuck child into bed']","['read child a bedtime story', 'walk with child to their bedroom']",read child a bedtime story,0
+0,0.0,[],"['Pick the child up', 'Pull the covers to their neck']",Pick the child up,0
+1,0.2,['Pick the child up'],"['Take them to the bedroom', 'Pick the child up']",Take them to the bedroom,0
+2,0.4,"['Pick the child up', 'Take them to the bedroom']","['Pull the covers to their neck', 'Pull down the sheets']",Pull down the sheets,1
+3,0.6,"['Pick the child up', 'Take them to the bedroom', 'Pull down the sheets']","['Place the child in bed', 'Pick the child up']",Place the child in bed,0
+4,0.8,"['Pick the child up', 'Take them to the bedroom', 'Pull down the sheets', 'Place the child in bed']","['Pull the covers to their neck', 'Take them to the bedroom']",Pull the covers to their neck,0
+0,0.0,[],"[""At bedtime, tell child it's time for bed"", 'Tuck child in']","At bedtime, tell child it's time for bed",0
+1,0.2,"[""At bedtime, tell child it's time for bed""]","['Tuck child in', 'Tell child to brush teeth and put on pajamas']",Tell child to brush teeth and put on pajamas,1
+2,0.4,"[""At bedtime, tell child it's time for bed"", 'Tell child to brush teeth and put on pajamas']","['Tell child to get into bed', 'Tuck child in']",Tell child to get into bed,0
+3,0.6,"[""At bedtime, tell child it's time for bed"", 'Tell child to brush teeth and put on pajamas', 'Tell child to get into bed']","[""At bedtime, tell child it's time for bed"", 'Read child bedtime story']",Read child bedtime story,1
+4,0.8,"[""At bedtime, tell child it's time for bed"", 'Tell child to brush teeth and put on pajamas', 'Tell child to get into bed', 'Read child bedtime story']","['Tuck child in', ""At bedtime, tell child it's time for bed""]",Tuck child in,0
+0,0.0,[],"['carry them to bed', 'kiss on forehead']",carry them to bed,0
+1,0.2,['carry them to bed'],"['read book', 'sing them good night songs']",sing them good night songs,1
+2,0.4,"['carry them to bed', 'sing them good night songs']","['read book', 'turn lights off']",read book,0
+3,0.6,"['carry them to bed', 'sing them good night songs', 'read book']","['kiss on forehead', 'carry them to bed']",kiss on forehead,0
+4,0.8,"['carry them to bed', 'sing them good night songs', 'read book', 'kiss on forehead']","['turn lights off', 'sing them good night songs']",turn lights off,0
+0,0.0,[],"['Make sure child has taken bath', 'Make sure child has brushed his or her teeth']",Make sure child has taken bath,0
+1,0.2,['Make sure child has taken bath'],"['Dress child in pajamas', 'Make sure child has taken bath']",Dress child in pajamas,0
+2,0.4,"['Make sure child has taken bath', 'Dress child in pajamas']","['Allow child to get into bed', 'Make sure child has brushed his or her teeth']",Make sure child has brushed his or her teeth,1
+3,0.6,"['Make sure child has taken bath', 'Dress child in pajamas', 'Make sure child has brushed his or her teeth']","['Pull the blanket and covers back', 'Make sure child has taken bath']",Pull the blanket and covers back,0
+4,0.8,"['Make sure child has taken bath', 'Dress child in pajamas', 'Make sure child has brushed his or her teeth', 'Pull the blanket and covers back']","['Make sure child has taken bath', 'Allow child to get into bed']",Allow child to get into bed,1
+0,0.0,[],"['Make the bed ready', 'Lay near to child']",Make the bed ready,0
+1,0.2,['Make the bed ready'],"['Call the child', 'Take the child to bed room']",Call the child,0
+2,0.4,"['Make the bed ready', 'Call the child']","['Take the child to bed room', 'Lay near to child']",Take the child to bed room,0
+3,0.6,"['Make the bed ready', 'Call the child', 'Take the child to bed room']","['Make the bed ready', 'Make the child lay on bed']",Make the child lay on bed,1
+4,0.8,"['Make the bed ready', 'Call the child', 'Take the child to bed room', 'Make the child lay on bed']","['Lay near to child', 'Call the child']",Lay near to child,0
+0,0.0,[],"['Take child to bathroom', ""Put on child's pajamas""]",Take child to bathroom,0
+1,0.2,['Take child to bathroom'],"['Have them brush their teeth', 'Have them brush their teeth']",Have them brush their teeth,1
+2,0.4,"['Take child to bathroom', 'Have them brush their teeth']","['Have them bathe', 'Take child to their bedroom']",Have them bathe,0
+3,0.6,"['Take child to bathroom', 'Have them brush their teeth', 'Have them bathe']","[""Put on child's pajamas"", 'Take child to bathroom']",Put on child's pajamas,0
+4,0.8,"['Take child to bathroom', 'Have them brush their teeth', 'Have them bathe', ""Put on child's pajamas""]","['Take child to bathroom', 'Take child to their bedroom']",Take child to their bedroom,1
+0,0.0,[],"['Tuck child into bed', 'Put child in sleeping clothes']",Put child in sleeping clothes,1
+1,0.2,['Put child in sleeping clothes'],"['Take child to go to the bathroom and brush teeth', 'Tuck child into bed']",Take child to go to the bathroom and brush teeth,0
+2,0.4,"['Put child in sleeping clothes', 'Take child to go to the bathroom and brush teeth']","['Tuck child into bed', 'Say nighttime prayers with child']",Tuck child into bed,0
+3,0.6,"['Put child in sleeping clothes', 'Take child to go to the bathroom and brush teeth', 'Tuck child into bed']","[""Make sure child has favorite doll / stuffed toy to sleep with'"", 'Put child in sleeping clothes']",Make sure child has favorite doll / stuffed toy to sleep with',0
+4,0.8,"['Put child in sleeping clothes', 'Take child to go to the bathroom and brush teeth', 'Tuck child into bed', ""Make sure child has favorite doll / stuffed toy to sleep with'""]","['Take child to go to the bathroom and brush teeth', 'Say nighttime prayers with child']",Say nighttime prayers with child,1
+0,0.0,[],"[""Brush child's teeth"", ""Brush child's teeth""]",Brush child's teeth,0
+1,0.2,"[""Brush child's teeth""]","['Say prayers, goodnight', ""Put on child's pajamas""]",Put on child's pajamas,1
+2,0.4,"[""Brush child's teeth"", ""Put on child's pajamas""]","['Tuck blanket around child', 'Put child in bed']",Put child in bed,1
+3,0.6,"[""Brush child's teeth"", ""Put on child's pajamas"", 'Put child in bed']","['Say prayers, goodnight', ""Brush child's teeth""]","Say prayers, goodnight",0
+4,0.8,"[""Brush child's teeth"", ""Put on child's pajamas"", 'Put child in bed', 'Say prayers, goodnight']","['Tuck blanket around child', ""Put on child's pajamas""]",Tuck blanket around child,0
+0,0.0,[],"['Have child get into bed', 'Inform child bedtime has arrived']",Inform child bedtime has arrived,1
+1,0.2,['Inform child bedtime has arrived'],"['Have child change into pajamas', 'Remove covers from bed']",Have child change into pajamas,0
+2,0.4,"['Inform child bedtime has arrived', 'Have child change into pajamas']","['Have child get into bed', 'Accompany child to room']",Accompany child to room,1
+3,0.6,"['Inform child bedtime has arrived', 'Have child change into pajamas', 'Accompany child to room']","['Remove covers from bed', 'Inform child bedtime has arrived']",Remove covers from bed,0
+4,0.8,"['Inform child bedtime has arrived', 'Have child change into pajamas', 'Accompany child to room', 'Remove covers from bed']","['Inform child bedtime has arrived', 'Have child get into bed']",Have child get into bed,1
+0,0.0,[],"['Dress the child in proper sleepwear.', 'Dress the child in proper sleepwear.']",Dress the child in proper sleepwear.,0
+1,0.2,['Dress the child in proper sleepwear.'],"['Bring the child to bed.', 'Bring the child to bed.']",Bring the child to bed.,1
+2,0.4,"['Dress the child in proper sleepwear.', 'Bring the child to bed.']","['Tell the child goodnight.', 'Help the child into bed.']",Help the child into bed.,1
+3,0.6,"['Dress the child in proper sleepwear.', 'Bring the child to bed.', 'Help the child into bed.']","['Dress the child in proper sleepwear.', 'Cover the child.']",Cover the child.,1
+4,0.8,"['Dress the child in proper sleepwear.', 'Bring the child to bed.', 'Help the child into bed.', 'Cover the child.']","['Tell the child goodnight.', 'Dress the child in proper sleepwear.']",Tell the child goodnight.,0
+0,0.0,[],"['Read story to child.', 'Tell child that it is time for bed.']",Tell child that it is time for bed.,1
+1,0.2,['Tell child that it is time for bed.'],"['Read story to child.', 'Let child choose a storybook to read before bed.']",Let child choose a storybook to read before bed.,1
+2,0.4,"['Tell child that it is time for bed.', 'Let child choose a storybook to read before bed.']","['Tell child goodnight and turn out the lights.', 'Tuck child into bed, covering with blankets.']","Tuck child into bed, covering with blankets.",1
+3,0.6,"['Tell child that it is time for bed.', 'Let child choose a storybook to read before bed.', 'Tuck child into bed, covering with blankets.']","['Read story to child.', 'Tell child that it is time for bed.']",Read story to child.,0
+4,0.8,"['Tell child that it is time for bed.', 'Let child choose a storybook to read before bed.', 'Tuck child into bed, covering with blankets.', 'Read story to child.']","['Tell child goodnight and turn out the lights.', 'Tell child that it is time for bed.']",Tell child goodnight and turn out the lights.,0
+0,0.0,[],"['Take child to bathroom', 'Dry off child']",Take child to bathroom,0
+1,0.2,['Take child to bathroom'],"['Have child use toilet', 'Bathe child']",Have child use toilet,0
+2,0.4,"['Take child to bathroom', 'Have child use toilet']","['Dry off child', 'Undress child']",Undress child,1
+3,0.6,"['Take child to bathroom', 'Have child use toilet', 'Undress child']","['Take child to bathroom', 'Bathe child']",Bathe child,1
+4,0.8,"['Take child to bathroom', 'Have child use toilet', 'Undress child', 'Bathe child']","['Have child use toilet', 'Dry off child']",Dry off child,1
+0,0.0,[],"['Tell the child that it is time for bed.', 'Accompany the child to the bathroom sink.']",Tell the child that it is time for bed.,0
+1,0.2,['Tell the child that it is time for bed.'],"['Wait outside the bathroom while the child goes to the bathroom.', 'Accompany the child to the bathroom sink.']",Accompany the child to the bathroom sink.,1
+2,0.4,"['Tell the child that it is time for bed.', 'Accompany the child to the bathroom sink.']","['Assist the child in brushing his or her teeth.', 'Walk with the child to his or her bed.']",Assist the child in brushing his or her teeth.,0
+3,0.6,"['Tell the child that it is time for bed.', 'Accompany the child to the bathroom sink.', 'Assist the child in brushing his or her teeth.']","['Tell the child that it is time for bed.', 'Wait outside the bathroom while the child goes to the bathroom.']",Wait outside the bathroom while the child goes to the bathroom.,1
+4,0.8,"['Tell the child that it is time for bed.', 'Accompany the child to the bathroom sink.', 'Assist the child in brushing his or her teeth.', 'Wait outside the bathroom while the child goes to the bathroom.']","['Walk with the child to his or her bed.', 'Tell the child that it is time for bed.']",Walk with the child to his or her bed.,0
+0,0.0,[],"[""Brush child's teeth."", ""Put on child's pajamas.""]",Put on child's pajamas.,1
+1,0.2,"[""Put on child's pajamas.""]","[""Brush child's teeth."", 'Put child in bed.']",Brush child's teeth.,0
+2,0.4,"[""Put on child's pajamas."", ""Brush child's teeth.""]","['Put child in bed.', 'Get child drink of water, if necessary.']","Get child drink of water, if necessary.",1
+3,0.6,"[""Put on child's pajamas."", ""Brush child's teeth."", 'Get child drink of water, if necessary.']","[""Put on child's pajamas."", 'Have child go to the bathroom, if necessary.']","Have child go to the bathroom, if necessary.",1
+4,0.8,"[""Put on child's pajamas."", ""Brush child's teeth."", 'Get child drink of water, if necessary.', 'Have child go to the bathroom, if necessary.']","[""Brush child's teeth."", 'Put child in bed.']",Put child in bed.,1
+0,0.0,[],"['Tuck in the child', 'Get a book']",Get a book,1
+1,0.2,['Get a book'],"['call the child', 'Tuck in the child']",call the child,0
+2,0.4,"['Get a book', 'call the child']","['Watch child as he sleeps', 'Tuck in the child']",Tuck in the child,1
+3,0.6,"['Get a book', 'call the child', 'Tuck in the child']","['Get a book', 'Read the book']",Read the book,1
+4,0.8,"['Get a book', 'call the child', 'Tuck in the child', 'Read the book']","['call the child', 'Watch child as he sleeps']",Watch child as he sleeps,1
+0,0.0,[],"['Tell the child it is bedtime', 'Tell the child it is bedtime']",Tell the child it is bedtime,1
+1,0.2,['Tell the child it is bedtime'],"['Wait as child refuses', 'Tell the child it is bedtime']",Wait as child refuses,0
+2,0.4,"['Tell the child it is bedtime', 'Wait as child refuses']","[""Brush child's teeth"", 'Tell the child again']",Tell the child again,1
+3,0.6,"['Tell the child it is bedtime', 'Wait as child refuses', 'Tell the child again']","['Tell the child it is bedtime', ""Take child's hand""]",Take child's hand,1
+4,0.8,"['Tell the child it is bedtime', 'Wait as child refuses', 'Tell the child again', ""Take child's hand""]","[""Brush child's teeth"", 'Wait as child refuses']",Brush child's teeth,0
+0,0.0,[],"['Take off clothes', 'Pick child up from playpen']",Pick child up from playpen,1
+1,0.2,['Pick child up from playpen'],"['Pick child up from playpen', 'Soothe child']",Soothe child,1
+2,0.4,"['Pick child up from playpen', 'Soothe child']","['Put pajamas on child', 'Carry child up the stairs']",Carry child up the stairs,1
+3,0.6,"['Pick child up from playpen', 'Soothe child', 'Carry child up the stairs']","['Take off clothes', 'Pick child up from playpen']",Take off clothes,0
+4,0.8,"['Pick child up from playpen', 'Soothe child', 'Carry child up the stairs', 'Take off clothes']","['Put pajamas on child', 'Pick child up from playpen']",Put pajamas on child,0
+0,0.0,[],"[""Deal with child's unhappiness"", 'Decide it is bedtime']",Decide it is bedtime,1
+1,0.2,['Decide it is bedtime'],"['Announce to child that it is bedtime', 'Have child brush their teeth']",Announce to child that it is bedtime,0
+2,0.4,"['Decide it is bedtime', 'Announce to child that it is bedtime']","['Have child brush their teeth', ""Deal with child's unhappiness""]",Deal with child's unhappiness,1
+3,0.6,"['Decide it is bedtime', 'Announce to child that it is bedtime', ""Deal with child's unhappiness""]","['Decide it is bedtime', 'Escort child to bathroom']",Escort child to bathroom,1
+4,0.8,"['Decide it is bedtime', 'Announce to child that it is bedtime', ""Deal with child's unhappiness"", 'Escort child to bathroom']","['Announce to child that it is bedtime', 'Have child brush their teeth']",Have child brush their teeth,1
+0,0.0,[],"[""Wake up the child if they've fallen asleep elsewhere, like the couch"", ""Wake up the child if they've fallen asleep elsewhere, like the couch""]","Wake up the child if they've fallen asleep elsewhere, like the couch",1
+1,0.2,"[""Wake up the child if they've fallen asleep elsewhere, like the couch""]","['Help them brush their teeth', 'Untuck the covers and lay the child down']",Help them brush their teeth,0
+2,0.4,"[""Wake up the child if they've fallen asleep elsewhere, like the couch"", 'Help them brush their teeth']","['Tuck them back in.', 'Help them change into their pajamas']",Help them change into their pajamas,1
+3,0.6,"[""Wake up the child if they've fallen asleep elsewhere, like the couch"", 'Help them brush their teeth', 'Help them change into their pajamas']","[""Wake up the child if they've fallen asleep elsewhere, like the couch"", 'Untuck the covers and lay the child down']",Untuck the covers and lay the child down,1
+4,0.8,"[""Wake up the child if they've fallen asleep elsewhere, like the couch"", 'Help them brush their teeth', 'Help them change into their pajamas', 'Untuck the covers and lay the child down']","['Help them brush their teeth', 'Tuck them back in.']",Tuck them back in.,1
+0,0.0,[],"['Roll the covers down.', 'Tell the child it is bedtime.']",Tell the child it is bedtime.,1
+1,0.2,['Tell the child it is bedtime.'],"['Walk the child to his or her room.', 'Walk the child to his or her room.']",Walk the child to his or her room.,1
+2,0.4,"['Tell the child it is bedtime.', 'Walk the child to his or her room.']","['Roll the covers down.', 'Pull the covers up on the child.']",Roll the covers down.,0
+3,0.6,"['Tell the child it is bedtime.', 'Walk the child to his or her room.', 'Roll the covers down.']","['Tell the child it is bedtime.', 'Allow the child to get into bed.']",Allow the child to get into bed.,1
+4,0.8,"['Tell the child it is bedtime.', 'Walk the child to his or her room.', 'Roll the covers down.', 'Allow the child to get into bed.']","['Walk the child to his or her room.', 'Pull the covers up on the child.']",Pull the covers up on the child.,1
+0,0.0,[],"['undress the child', 'undress the child']",undress the child,1
+1,0.2,['undress the child'],"['put the child in bed clothes', 'put the child in bed clothes']",put the child in bed clothes,0
+2,0.4,"['undress the child', 'put the child in bed clothes']","['tuck the child in', ""brush the child's teeth""]",brush the child's teeth,1
+3,0.6,"['undress the child', 'put the child in bed clothes', ""brush the child's teeth""]","['read a story', 'undress the child']",read a story,0
+4,0.8,"['undress the child', 'put the child in bed clothes', ""brush the child's teeth"", 'read a story']","['undress the child', 'tuck the child in']",tuck the child in,1
+0,0.0,[],"['Turn on nightlight.', 'Pick up child.']",Pick up child.,1
+1,0.2,['Pick up child.'],"['Walk to child bed.', 'Put child into bed.']",Walk to child bed.,0
+2,0.4,"['Pick up child.', 'Walk to child bed.']","['Put child into bed.', 'Turn on nightlight.']",Put child into bed.,0
+3,0.6,"['Pick up child.', 'Walk to child bed.', 'Put child into bed.']","['Cover child with blanket.', 'Pick up child.']",Cover child with blanket.,0
+4,0.8,"['Pick up child.', 'Walk to child bed.', 'Put child into bed.', 'Cover child with blanket.']","['Turn on nightlight.', 'Walk to child bed.']",Turn on nightlight.,0
+0,0.0,[],"['Tell child its bed time', 'Tell child its bed time']",Tell child its bed time,1
+1,0.2,['Tell child its bed time'],"['Change into pajamas', 'Brush their teeth']",Change into pajamas,0
+2,0.4,"['Tell child its bed time', 'Change into pajamas']","['Brush their teeth', 'Read them a bed time story']",Brush their teeth,0
+3,0.6,"['Tell child its bed time', 'Change into pajamas', 'Brush their teeth']","['Tuck them into bed', 'Tell child its bed time']",Tuck them into bed,0
+4,0.8,"['Tell child its bed time', 'Change into pajamas', 'Brush their teeth', 'Tuck them into bed']","['Read them a bed time story', 'Change into pajamas']",Read them a bed time story,0
+0,0.0,[],"['Get the child dressed into their nightclothes', 'Tuck them in']",Get the child dressed into their nightclothes,0
+1,0.2,['Get the child dressed into their nightclothes'],"['Take the child to their bedroom', 'Take the child to their bedroom']",Take the child to their bedroom,1
+2,0.4,"['Get the child dressed into their nightclothes', 'Take the child to their bedroom']","['Get them into the bed', 'Tuck them in']",Get them into the bed,0
+3,0.6,"['Get the child dressed into their nightclothes', 'Take the child to their bedroom', 'Get them into the bed']","['Get the child dressed into their nightclothes', 'Read them a story']",Read them a story,1
+4,0.8,"['Get the child dressed into their nightclothes', 'Take the child to their bedroom', 'Get them into the bed', 'Read them a story']","['Tuck them in', 'Take the child to their bedroom']",Tuck them in,0
+0,0.0,[],"['Find child', 'Find child']",Find child,0
+1,0.2,['Find child'],"[""Tell child to put on PJ's"", 'Have child brush teeth']",Have child brush teeth,1
+2,0.4,"['Find child', 'Have child brush teeth']","['Cover', ""Tell child to put on PJ's""]",Tell child to put on PJ's,1
+3,0.6,"['Find child', 'Have child brush teeth', ""Tell child to put on PJ's""]","['Find child', 'Put child in bed']",Put child in bed,1
+4,0.8,"['Find child', 'Have child brush teeth', ""Tell child to put on PJ's"", 'Put child in bed']","['Cover', 'Find child']",Cover,0
+0,0.0,[],"['Feed child', 'Read to child']",Feed child,0
+1,0.2,['Feed child'],"['Read to child', 'Give child bath']",Give child bath,1
+2,0.4,"['Feed child', 'Give child bath']","['Make sure child is not thirsty', 'Read to child']",Read to child,1
+3,0.6,"['Feed child', 'Give child bath', 'Read to child']","['Have snuggle time with child', 'Feed child']",Have snuggle time with child,0
+4,0.8,"['Feed child', 'Give child bath', 'Read to child', 'Have snuggle time with child']","['Make sure child is not thirsty', 'Give child bath']",Make sure child is not thirsty,0

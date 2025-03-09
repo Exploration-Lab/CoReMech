@@ -1,0 +1,571 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['be unhappy with your food', 'explain the problem to the waiter']",be unhappy with your food,0
+1,0.16666666666666666,['be unhappy with your food'],"['ask for new food', 'call the waiter']",call the waiter,1
+2,0.3333333333333333,"['be unhappy with your food', 'call the waiter']","['waiter returns with new food', 'explain the problem to the waiter']",explain the problem to the waiter,1
+3,0.5,"['be unhappy with your food', 'call the waiter', 'explain the problem to the waiter']","['be unhappy with your food', 'ask for new food']",ask for new food,1
+4,0.6666666666666666,"['be unhappy with your food', 'call the waiter', 'explain the problem to the waiter', 'ask for new food']","['waiter takes your food', 'call the waiter']",waiter takes your food,0
+5,0.8333333333333334,"['be unhappy with your food', 'call the waiter', 'explain the problem to the waiter', 'ask for new food', 'waiter takes your food']","['call the waiter', 'waiter returns with new food']",waiter returns with new food,1
+0,0.0,[],"[""Get the waiter's attention"", 'Tell the waiter that you want him to take your dish back and correct it']",Get the waiter's attention,0
+1,0.16666666666666666,"[""Get the waiter's attention""]","[""Get the waiter's attention"", 'When waiter comes to table tell him what is wrong with your food']",When waiter comes to table tell him what is wrong with your food,1
+2,0.3333333333333333,"[""Get the waiter's attention"", 'When waiter comes to table tell him what is wrong with your food']","['Tell the waiter that you want him to take your dish back and correct it', 'When presented with your corrected food, inspect it']",Tell the waiter that you want him to take your dish back and correct it,0
+3,0.5,"[""Get the waiter's attention"", 'When waiter comes to table tell him what is wrong with your food', 'Tell the waiter that you want him to take your dish back and correct it']","['Wait patiently until he returns with your corrected food item', ""Get the waiter's attention""]",Wait patiently until he returns with your corrected food item,0
+4,0.6666666666666666,"[""Get the waiter's attention"", 'When waiter comes to table tell him what is wrong with your food', 'Tell the waiter that you want him to take your dish back and correct it', 'Wait patiently until he returns with your corrected food item']","['When waiter comes to table tell him what is wrong with your food', 'When presented with your corrected food, inspect it']","When presented with your corrected food, inspect it",1
+5,0.8333333333333334,"[""Get the waiter's attention"", 'When waiter comes to table tell him what is wrong with your food', 'Tell the waiter that you want him to take your dish back and correct it', 'Wait patiently until he returns with your corrected food item', 'When presented with your corrected food, inspect it']","['Tell the waiter that you want him to take your dish back and correct it', 'Thank the waiter for correcting the error']",Thank the waiter for correcting the error,1
+0,0.0,[],"['calling over the waiter', 'handing the plate over to him']",calling over the waiter,0
+1,0.2,['calling over the waiter'],"['waiting for the waiter to respond', 'telling him that you do not want the food']",telling him that you do not want the food,1
+2,0.4,"['calling over the waiter', 'telling him that you do not want the food']","['waiting for the waiter to respond', 'telling him something is wrong with it']",telling him something is wrong with it,1
+3,0.6,"['calling over the waiter', 'telling him that you do not want the food', 'telling him something is wrong with it']","['handing the plate over to him', 'calling over the waiter']",handing the plate over to him,0
+4,0.8,"['calling over the waiter', 'telling him that you do not want the food', 'telling him something is wrong with it', 'handing the plate over to him']","['calling over the waiter', 'waiting for the waiter to respond']",waiting for the waiter to respond,1
+0,0.0,[],"['Taste your food.', ""If you decide you don't like the food, get the attention of the waiter or waitress.""]",Taste your food.,0
+1,0.16666666666666666,['Taste your food.'],"['Allow your server to take away the unsatisfactory food.', 'Decide whether the food is to your liking.']",Decide whether the food is to your liking.,1
+2,0.3333333333333333,"['Taste your food.', 'Decide whether the food is to your liking.']","['Allow your server to take away the unsatisfactory food.', ""If you decide you don't like the food, get the attention of the waiter or waitress.""]","If you decide you don't like the food, get the attention of the waiter or waitress.",1
+3,0.5,"['Taste your food.', 'Decide whether the food is to your liking.', ""If you decide you don't like the food, get the attention of the waiter or waitress.""]","['Allow your server to take away the unsatisfactory food.', 'Politely explain to your server why the food is not to your liking.']",Politely explain to your server why the food is not to your liking.,1
+4,0.6666666666666666,"['Taste your food.', 'Decide whether the food is to your liking.', ""If you decide you don't like the food, get the attention of the waiter or waitress."", 'Politely explain to your server why the food is not to your liking.']","['Decide whether the food is to your liking.', 'Once your server understands, explain precisely what must be done, within reason.']","Once your server understands, explain precisely what must be done, within reason.",1
+5,0.8333333333333334,"['Taste your food.', 'Decide whether the food is to your liking.', ""If you decide you don't like the food, get the attention of the waiter or waitress."", 'Politely explain to your server why the food is not to your liking.', 'Once your server understands, explain precisely what must be done, within reason.']","['Allow your server to take away the unsatisfactory food.', ""If you decide you don't like the food, get the attention of the waiter or waitress.""]",Allow your server to take away the unsatisfactory food.,0
+0,0.0,[],"['Call the Waiter or Supervisor', 'Call the Waiter or Supervisor']",Call the Waiter or Supervisor,1
+1,0.2,['Call the Waiter or Supervisor'],"['Tell him to take the food back', 'Tell him the wrong about food']",Tell him the wrong about food,1
+2,0.4,"['Call the Waiter or Supervisor', 'Tell him the wrong about food']","['Make disappointed face and look continuously at him', 'Clean hands and order something else']",Make disappointed face and look continuously at him,0
+3,0.6,"['Call the Waiter or Supervisor', 'Tell him the wrong about food', 'Make disappointed face and look continuously at him']","['Tell him to take the food back', 'Call the Waiter or Supervisor']",Tell him to take the food back,0
+4,0.8,"['Call the Waiter or Supervisor', 'Tell him the wrong about food', 'Make disappointed face and look continuously at him', 'Tell him to take the food back']","['Clean hands and order something else', 'Tell him the wrong about food']",Clean hands and order something else,0
+0,0.0,[],"['Enter into the restaurant', 'Cancel the order']",Enter into the restaurant,0
+1,0.16666666666666666,['Enter into the restaurant'],"['Find a place to sit', 'Say your order to the waiter']",Find a place to sit,0
+2,0.3333333333333333,"['Enter into the restaurant', 'Find a place to sit']","['From the menu card choose your order', 'Cancel the order']",From the menu card choose your order,0
+3,0.5,"['Enter into the restaurant', 'Find a place to sit', 'From the menu card choose your order']","['Say your order to the waiter', 'Enter into the restaurant']",Say your order to the waiter,0
+4,0.6666666666666666,"['Enter into the restaurant', 'Find a place to sit', 'From the menu card choose your order', 'Say your order to the waiter']","['Find a place to sit', 'Waiter brings your order']",Waiter brings your order,1
+5,0.8333333333333334,"['Enter into the restaurant', 'Find a place to sit', 'From the menu card choose your order', 'Say your order to the waiter', 'Waiter brings your order']","['Find a place to sit', 'Cancel the order']",Cancel the order,1
+0,0.0,[],"[""Decide you don't like it"", 'Enjoy the new food']",Decide you don't like it,0
+1,0.2,"[""Decide you don't like it""]","['Call your waiter over', ""Decide you don't like it""]",Call your waiter over,0
+2,0.4,"[""Decide you don't like it"", 'Call your waiter over']","['Enjoy the new food', 'Tell them to take the food back']",Tell them to take the food back,1
+3,0.6,"[""Decide you don't like it"", 'Call your waiter over', 'Tell them to take the food back']","[""Decide you don't like it"", 'Wait for new food']",Wait for new food,1
+4,0.8,"[""Decide you don't like it"", 'Call your waiter over', 'Tell them to take the food back', 'Wait for new food']","['Call your waiter over', 'Enjoy the new food']",Enjoy the new food,1
+0,0.0,[],"['Call a waitress', 'Wait for her to bring you something new']",Call a waitress,0
+1,0.16666666666666666,['Call a waitress'],"['Call a waitress', 'Explain what is wrong with the food']",Explain what is wrong with the food,1
+2,0.3333333333333333,"['Call a waitress', 'Explain what is wrong with the food']","['Start eating new food', 'Give her the plate back.']",Give her the plate back.,1
+3,0.5,"['Call a waitress', 'Explain what is wrong with the food', 'Give her the plate back.']","['Call a waitress', 'Wait for her to bring you something new']",Wait for her to bring you something new,1
+4,0.6666666666666666,"['Call a waitress', 'Explain what is wrong with the food', 'Give her the plate back.', 'Wait for her to bring you something new']","['Call a waitress', 'Thank her and apologize for the inconvenience']",Thank her and apologize for the inconvenience,1
+5,0.8333333333333334,"['Call a waitress', 'Explain what is wrong with the food', 'Give her the plate back.', 'Wait for her to bring you something new', 'Thank her and apologize for the inconvenience']","['Start eating new food', 'Call a waitress']",Start eating new food,0
+0,0.0,[],"['Explain discontent with food', 'Order food']",Order food,1
+1,0.16666666666666666,['Order food'],"['Receive new order', 'Receive cold food']",Receive cold food,1
+2,0.3333333333333333,"['Order food', 'Receive cold food']","['Give food back', 'Summons the waiter']",Summons the waiter,1
+3,0.5,"['Order food', 'Receive cold food', 'Summons the waiter']","['Receive new order', 'Explain discontent with food']",Explain discontent with food,1
+4,0.6666666666666666,"['Order food', 'Receive cold food', 'Summons the waiter', 'Explain discontent with food']","['Order food', 'Give food back']",Give food back,1
+5,0.8333333333333334,"['Order food', 'Receive cold food', 'Summons the waiter', 'Explain discontent with food', 'Give food back']","['Receive new order', 'Receive cold food']",Receive new order,0
+0,0.0,[],"['First you see that the food served to you is ordered by you.', 'Sending food back (in a restaurant) may occur when your waiter serves wrong food.']",Sending food back (in a restaurant) may occur when your waiter serves wrong food.,1
+1,0.16666666666666666,['Sending food back (in a restaurant) may occur when your waiter serves wrong food.'],"['See that it is well cooked.', 'First you see that the food served to you is ordered by you.']",First you see that the food served to you is ordered by you.,1
+2,0.3333333333333333,"['Sending food back (in a restaurant) may occur when your waiter serves wrong food.', 'First you see that the food served to you is ordered by you.']","['See that it is has knowingly or UN knowingly no harmful items.', 'See that it is well cooked.']",See that it is well cooked.,1
+3,0.5,"['Sending food back (in a restaurant) may occur when your waiter serves wrong food.', 'First you see that the food served to you is ordered by you.', 'See that it is well cooked.']","[""For all the above reason if you feel the answer doesn't satisfy you then send food back."", 'See that it is served hygienically.']",See that it is served hygienically.,1
+4,0.6666666666666666,"['Sending food back (in a restaurant) may occur when your waiter serves wrong food.', 'First you see that the food served to you is ordered by you.', 'See that it is well cooked.', 'See that it is served hygienically.']","['See that it is has knowingly or UN knowingly no harmful items.', 'First you see that the food served to you is ordered by you.']",See that it is has knowingly or UN knowingly no harmful items.,0
+5,0.8333333333333334,"['Sending food back (in a restaurant) may occur when your waiter serves wrong food.', 'First you see that the food served to you is ordered by you.', 'See that it is well cooked.', 'See that it is served hygienically.', 'See that it is has knowingly or UN knowingly no harmful items.']","[""For all the above reason if you feel the answer doesn't satisfy you then send food back."", 'Sending food back (in a restaurant) may occur when your waiter serves wrong food.']",For all the above reason if you feel the answer doesn't satisfy you then send food back.,0
+0,0.0,[],"['they will bring you another or give your money  back', 'Call your waiter over']",Call your waiter over,1
+1,0.16666666666666666,['Call your waiter over'],"['tell them what is wrong', 'they will take it']",tell them what is wrong,0
+2,0.3333333333333333,"['Call your waiter over', 'tell them what is wrong']","['they will take it', 'they will bring you another or give your money  back']",they will take it,0
+3,0.5,"['Call your waiter over', 'tell them what is wrong', 'they will take it']","['tell them thanks', 'then you wait']",then you wait,1
+4,0.6666666666666666,"['Call your waiter over', 'tell them what is wrong', 'they will take it', 'then you wait']","['they will bring you another or give your money  back', 'tell them what is wrong']",they will bring you another or give your money  back,0
+5,0.8333333333333334,"['Call your waiter over', 'tell them what is wrong', 'they will take it', 'then you wait', 'they will bring you another or give your money  back']","['tell them thanks', 'they will take it']",tell them thanks,0
+0,0.0,[],"['Wait patiently.', 'Get first plate.']",Get first plate.,1
+1,0.16666666666666666,['Get first plate.'],"['Find a problem with it.', 'Find a problem with it.']",Find a problem with it.,1
+2,0.3333333333333333,"['Get first plate.', 'Find a problem with it.']","['Call waitress over and politely point out problem.', 'Wait patiently.']",Call waitress over and politely point out problem.,0
+3,0.5,"['Get first plate.', 'Find a problem with it.', 'Call waitress over and politely point out problem.']","['Wait patiently.', 'Ask if it can be rectified.']",Ask if it can be rectified.,1
+4,0.6666666666666666,"['Get first plate.', 'Find a problem with it.', 'Call waitress over and politely point out problem.', 'Ask if it can be rectified.']","['Thank her when she takes plate away.', 'Find a problem with it.']",Thank her when she takes plate away.,0
+5,0.8333333333333334,"['Get first plate.', 'Find a problem with it.', 'Call waitress over and politely point out problem.', 'Ask if it can be rectified.', 'Thank her when she takes plate away.']","['Wait patiently.', 'Find a problem with it.']",Wait patiently.,0
+0,0.0,[],"['Order food from restaurant', 'Politely call over waiter to table']",Order food from restaurant,0
+1,0.2,['Order food from restaurant'],"['Politely call over waiter to table', 'Receive food and make sure it is correct']",Receive food and make sure it is correct,1
+2,0.4,"['Order food from restaurant', 'Receive food and make sure it is correct']","['Thank the waiter for having the problem fixed', 'Politely call over waiter to table']",Politely call over waiter to table,1
+3,0.6,"['Order food from restaurant', 'Receive food and make sure it is correct', 'Politely call over waiter to table']","['Politely let the waiter know what is wrong with the order', 'Order food from restaurant']",Politely let the waiter know what is wrong with the order,0
+4,0.8,"['Order food from restaurant', 'Receive food and make sure it is correct', 'Politely call over waiter to table', 'Politely let the waiter know what is wrong with the order']","['Thank the waiter for having the problem fixed', 'Receive food and make sure it is correct']",Thank the waiter for having the problem fixed,0
+0,0.0,[],"['Wait for the waiter to return with the correct food items', 'Determine whether you were served the food you ordered']",Determine whether you were served the food you ordered,1
+1,0.16666666666666666,['Determine whether you were served the food you ordered'],"['Ask for the waiter to come to your table', 'Wait for the waiter to return with the correct food items']",Ask for the waiter to come to your table,0
+2,0.3333333333333333,"['Determine whether you were served the food you ordered', 'Ask for the waiter to come to your table']","['Explain to the waiter what is wrong with the food', 'Wait for the waiter to return with the correct food items']",Explain to the waiter what is wrong with the food,0
+3,0.5,"['Determine whether you were served the food you ordered', 'Ask for the waiter to come to your table', 'Explain to the waiter what is wrong with the food']","['Enjoy your meal', 'Let the waiter take the food back']",Let the waiter take the food back,1
+4,0.6666666666666666,"['Determine whether you were served the food you ordered', 'Ask for the waiter to come to your table', 'Explain to the waiter what is wrong with the food', 'Let the waiter take the food back']","['Wait for the waiter to return with the correct food items', 'Determine whether you were served the food you ordered']",Wait for the waiter to return with the correct food items,0
+5,0.8333333333333334,"['Determine whether you were served the food you ordered', 'Ask for the waiter to come to your table', 'Explain to the waiter what is wrong with the food', 'Let the waiter take the food back', 'Wait for the waiter to return with the correct food items']","['Ask for the waiter to come to your table', 'Enjoy your meal']",Enjoy your meal,1
+0,0.0,[],"['taste food', 'Taste food']",Taste food,1
+1,0.16666666666666666,['Taste food'],"['wait for them to come back with the fixed food', 'Flag down waiter']",Flag down waiter,1
+2,0.3333333333333333,"['Taste food', 'Flag down waiter']","['Explain to them what the problem is', 'taste food']",Explain to them what the problem is,0
+3,0.5,"['Taste food', 'Flag down waiter', 'Explain to them what the problem is']","['hand them the plate', 'taste food']",hand them the plate,0
+4,0.6666666666666666,"['Taste food', 'Flag down waiter', 'Explain to them what the problem is', 'hand them the plate']","['wait for them to come back with the fixed food', 'Flag down waiter']",wait for them to come back with the fixed food,0
+5,0.8333333333333334,"['Taste food', 'Flag down waiter', 'Explain to them what the problem is', 'hand them the plate', 'wait for them to come back with the fixed food']","['taste food', 'Taste food']",taste food,0
+0,0.0,[],"['receive order', 'get waiters attention']",receive order,0
+1,0.16666666666666666,['receive order'],"['get waiters attention', 'ask polity for a new order']",get waiters attention,0
+2,0.3333333333333333,"['receive order', 'get waiters attention']","['tell the waiter what the issues', 'wait']",tell the waiter what the issues,0
+3,0.5,"['receive order', 'get waiters attention', 'tell the waiter what the issues']","['receive order', 'ask polity for a new order']",ask polity for a new order,1
+4,0.6666666666666666,"['receive order', 'get waiters attention', 'tell the waiter what the issues', 'ask polity for a new order']","['give plate to waiter', 'receive order']",give plate to waiter,0
+5,0.8333333333333334,"['receive order', 'get waiters attention', 'tell the waiter what the issues', 'ask polity for a new order', 'give plate to waiter']","['tell the waiter what the issues', 'wait']",wait,1
+0,0.0,[],"['Cook remakes food', 'Get waiters attention']",Get waiters attention,1
+1,0.16666666666666666,['Get waiters attention'],"[""Tell waiter your food isn't right"", 'Cook remakes food']",Tell waiter your food isn't right,0
+2,0.3333333333333333,"['Get waiters attention', ""Tell waiter your food isn't right""]","['Waiter takes food back to kitchen', 'Eat']",Waiter takes food back to kitchen,0
+3,0.5,"['Get waiters attention', ""Tell waiter your food isn't right"", 'Waiter takes food back to kitchen']","['Eat', 'Cook remakes food']",Cook remakes food,1
+4,0.6666666666666666,"['Get waiters attention', ""Tell waiter your food isn't right"", 'Waiter takes food back to kitchen', 'Cook remakes food']","['Waiter brings new food', ""Tell waiter your food isn't right""]",Waiter brings new food,0
+5,0.8333333333333334,"['Get waiters attention', ""Tell waiter your food isn't right"", 'Waiter takes food back to kitchen', 'Cook remakes food', 'Waiter brings new food']","['Get waiters attention', 'Eat']",Eat,1
+0,0.0,[],"['Get food.', 'Go to restaurant.']",Go to restaurant.,1
+1,0.16666666666666666,['Go to restaurant.'],"['Sit down.', ""Tell waiter/waitress that it isn't what you want/ordered, nicely.""]",Sit down.,0
+2,0.3333333333333333,"['Go to restaurant.', 'Sit down.']","['Look at menu.', 'Get food.']",Look at menu.,0
+3,0.5,"['Go to restaurant.', 'Sit down.', 'Look at menu.']","['Go to restaurant.', 'Order food.']",Order food.,1
+4,0.6666666666666666,"['Go to restaurant.', 'Sit down.', 'Look at menu.', 'Order food.']","['Go to restaurant.', 'Get food.']",Get food.,1
+5,0.8333333333333334,"['Go to restaurant.', 'Sit down.', 'Look at menu.', 'Order food.', 'Get food.']","['Go to restaurant.', ""Tell waiter/waitress that it isn't what you want/ordered, nicely.""]","Tell waiter/waitress that it isn't what you want/ordered, nicely.",1
+0,0.0,[],"[""Get waiter's attention."", 'Sit down in restaurant.']",Sit down in restaurant.,1
+1,0.16666666666666666,['Sit down in restaurant.'],"['Order food.', 'When food comes, realize that something is wrong.']",Order food.,0
+2,0.3333333333333333,"['Sit down in restaurant.', 'Order food.']","['Wait for food to be returned to you.', 'When food comes, realize that something is wrong.']","When food comes, realize that something is wrong.",1
+3,0.5,"['Sit down in restaurant.', 'Order food.', 'When food comes, realize that something is wrong.']","[""Get waiter's attention."", 'Sit down in restaurant.']",Get waiter's attention.,0
+4,0.6666666666666666,"['Sit down in restaurant.', 'Order food.', 'When food comes, realize that something is wrong.', ""Get waiter's attention.""]","['Explain to waiter the problem with the food.', 'Sit down in restaurant.']",Explain to waiter the problem with the food.,0
+5,0.8333333333333334,"['Sit down in restaurant.', 'Order food.', 'When food comes, realize that something is wrong.', ""Get waiter's attention."", 'Explain to waiter the problem with the food.']","['Wait for food to be returned to you.', 'When food comes, realize that something is wrong.']",Wait for food to be returned to you.,0
+0,0.0,[],"['Go to restaurant', 'Wait to be seated']",Go to restaurant,0
+1,0.16666666666666666,['Go to restaurant'],"['Wait to be seated', 'Order food from waiter']",Wait to be seated,0
+2,0.3333333333333333,"['Go to restaurant', 'Wait to be seated']","['Order food from waiter', ""Realize you don't like the food""]",Order food from waiter,0
+3,0.5,"['Go to restaurant', 'Wait to be seated', 'Order food from waiter']","['Wait for food', 'Go to restaurant']",Wait for food,0
+4,0.6666666666666666,"['Go to restaurant', 'Wait to be seated', 'Order food from waiter', 'Wait for food']","['Go to restaurant', ""Realize you don't like the food""]",Realize you don't like the food,1
+5,0.8333333333333334,"['Go to restaurant', 'Wait to be seated', 'Order food from waiter', 'Wait for food', ""Realize you don't like the food""]","['Summon waiter', 'Go to restaurant']",Summon waiter,0
+0,0.0,[],"['They will apologize and take your food.', 'Waiter checks back on you after you get your food.']",Waiter checks back on you after you get your food.,1
+1,0.16666666666666666,['Waiter checks back on you after you get your food.'],"['Kindly tell them what it wrong.', 'They will bring your food back.']",Kindly tell them what it wrong.,0
+2,0.3333333333333333,"['Waiter checks back on you after you get your food.', 'Kindly tell them what it wrong.']","['Wait patiently.', 'They will apologize and take your food.']",They will apologize and take your food.,1
+3,0.5,"['Waiter checks back on you after you get your food.', 'Kindly tell them what it wrong.', 'They will apologize and take your food.']","['They will bring your food back.', 'Thank them.']",Thank them.,1
+4,0.6666666666666666,"['Waiter checks back on you after you get your food.', 'Kindly tell them what it wrong.', 'They will apologize and take your food.', 'Thank them.']","['Wait patiently.', 'Waiter checks back on you after you get your food.']",Wait patiently.,0
+5,0.8333333333333334,"['Waiter checks back on you after you get your food.', 'Kindly tell them what it wrong.', 'They will apologize and take your food.', 'Thank them.', 'Wait patiently.']","['They will bring your food back.', 'Waiter checks back on you after you get your food.']",They will bring your food back.,0
+0,0.0,[],"['He orders the waiter to take it back', 'Call the waiter']",Call the waiter,1
+1,0.16666666666666666,['Call the waiter'],"['Explain him pizza is under baked', 'And it is not hot and tasty to eat']",Explain him pizza is under baked,0
+2,0.3333333333333333,"['Call the waiter', 'Explain him pizza is under baked']","['He orders the waiter to take it back', 'And it is not hot and tasty to eat']",And it is not hot and tasty to eat,1
+3,0.5,"['Call the waiter', 'Explain him pizza is under baked', 'And it is not hot and tasty to eat']","['Call the waiter', 'Waiter go to the supervisor']",Waiter go to the supervisor,1
+4,0.6666666666666666,"['Call the waiter', 'Explain him pizza is under baked', 'And it is not hot and tasty to eat', 'Waiter go to the supervisor']","['He apologizes for the mistake', 'Explain him pizza is under baked']",He apologizes for the mistake,0
+5,0.8333333333333334,"['Call the waiter', 'Explain him pizza is under baked', 'And it is not hot and tasty to eat', 'Waiter go to the supervisor', 'He apologizes for the mistake']","['And it is not hot and tasty to eat', 'He orders the waiter to take it back']",He orders the waiter to take it back,1
+0,0.0,[],"['call the waiter to your table', 'enjoy']",call the waiter to your table,0
+1,0.16666666666666666,['call the waiter to your table'],"['explain the problem with your food clearly', 'ensure the food is correct']",explain the problem with your food clearly,0
+2,0.3333333333333333,"['call the waiter to your table', 'explain the problem with your food clearly']","['allow the waiter to take the food back to the kitchen', 'enjoy']",allow the waiter to take the food back to the kitchen,0
+3,0.5,"['call the waiter to your table', 'explain the problem with your food clearly', 'allow the waiter to take the food back to the kitchen']","['enjoy', 'wait for the waiter to return with new food']",wait for the waiter to return with new food,1
+4,0.6666666666666666,"['call the waiter to your table', 'explain the problem with your food clearly', 'allow the waiter to take the food back to the kitchen', 'wait for the waiter to return with new food']","['ensure the food is correct', 'explain the problem with your food clearly']",ensure the food is correct,0
+5,0.8333333333333334,"['call the waiter to your table', 'explain the problem with your food clearly', 'allow the waiter to take the food back to the kitchen', 'wait for the waiter to return with new food', 'ensure the food is correct']","['explain the problem with your food clearly', 'enjoy']",enjoy,1
+0,0.0,[],"['Mention a problem with the food', 'Get the attention of the waitstaff']",Get the attention of the waitstaff,1
+1,0.16666666666666666,['Get the attention of the waitstaff'],"['Send the food back', 'Talk to the waitstaff']",Talk to the waitstaff,1
+2,0.3333333333333333,"['Get the attention of the waitstaff', 'Talk to the waitstaff']","['Mention a problem with the food', 'Send the food back']",Mention a problem with the food,0
+3,0.5,"['Get the attention of the waitstaff', 'Talk to the waitstaff', 'Mention a problem with the food']","['request that the food be fixed', 'Wait for another dish to come']",request that the food be fixed,0
+4,0.6666666666666666,"['Get the attention of the waitstaff', 'Talk to the waitstaff', 'Mention a problem with the food', 'request that the food be fixed']","['Talk to the waitstaff', 'Send the food back']",Send the food back,1
+5,0.8333333333333334,"['Get the attention of the waitstaff', 'Talk to the waitstaff', 'Mention a problem with the food', 'request that the food be fixed', 'Send the food back']","['Wait for another dish to come', 'Get the attention of the waitstaff']",Wait for another dish to come,0
+0,0.0,[],"['Take a few bites', 'Receive food from waiter']",Receive food from waiter,1
+1,0.16666666666666666,['Receive food from waiter'],"['Tell them about the issues', 'Take a few bites']",Take a few bites,1
+2,0.3333333333333333,"['Receive food from waiter', 'Take a few bites']","[""Realize it's not what you wanted or cooked to your liking"", 'Tell them about the issues']",Realize it's not what you wanted or cooked to your liking,0
+3,0.5,"['Receive food from waiter', 'Take a few bites', ""Realize it's not what you wanted or cooked to your liking""]","['Request the food be recooked or order a new menu item', 'Summon the waiter to your table']",Summon the waiter to your table,1
+4,0.6666666666666666,"['Receive food from waiter', 'Take a few bites', ""Realize it's not what you wanted or cooked to your liking"", 'Summon the waiter to your table']","['Tell them about the issues', 'Take a few bites']",Tell them about the issues,0
+5,0.8333333333333334,"['Receive food from waiter', 'Take a few bites', ""Realize it's not what you wanted or cooked to your liking"", 'Summon the waiter to your table', 'Tell them about the issues']","[""Realize it's not what you wanted or cooked to your liking"", 'Request the food be recooked or order a new menu item']",Request the food be recooked or order a new menu item,1
+0,0.0,[],"['Call waiter back and ask to send the meal back', 'Order food from menu']",Order food from menu,1
+1,0.16666666666666666,['Order food from menu'],"['Receive food from waiter', 'Order food from menu']",Receive food from waiter,0
+2,0.3333333333333333,"['Order food from menu', 'Receive food from waiter']","['Hand waiter dish to return', 'Inspect food for quality']",Inspect food for quality,1
+3,0.5,"['Order food from menu', 'Receive food from waiter', 'Inspect food for quality']","['Call waiter back and ask to send the meal back', 'Receive new meal']",Call waiter back and ask to send the meal back,0
+4,0.6666666666666666,"['Order food from menu', 'Receive food from waiter', 'Inspect food for quality', 'Call waiter back and ask to send the meal back']","['Hand waiter dish to return', 'Receive food from waiter']",Hand waiter dish to return,0
+5,0.8333333333333334,"['Order food from menu', 'Receive food from waiter', 'Inspect food for quality', 'Call waiter back and ask to send the meal back', 'Hand waiter dish to return']","['Order food from menu', 'Receive new meal']",Receive new meal,1
+0,0.0,[],"['Eat food', 'Wait for waiter to walk near me']",Eat food,0
+1,0.16666666666666666,['Eat food'],"['Discover something is wrong with food', 'Discover something is wrong with food']",Discover something is wrong with food,0
+2,0.3333333333333333,"['Eat food', 'Discover something is wrong with food']","[""Accept waiter's offer to take food back"", 'Wait for waiter to walk near me']",Wait for waiter to walk near me,1
+3,0.5,"['Eat food', 'Discover something is wrong with food', 'Wait for waiter to walk near me']","['Eat food', ""Get waiter's attention""]",Get waiter's attention,1
+4,0.6666666666666666,"['Eat food', 'Discover something is wrong with food', 'Wait for waiter to walk near me', ""Get waiter's attention""]","['Tell waiter what is wrong with my food', 'Discover something is wrong with food']",Tell waiter what is wrong with my food,0
+5,0.8333333333333334,"['Eat food', 'Discover something is wrong with food', 'Wait for waiter to walk near me', ""Get waiter's attention"", 'Tell waiter what is wrong with my food']","[""Accept waiter's offer to take food back"", 'Eat food']",Accept waiter's offer to take food back,0
+0,0.0,[],"['Get to restaurant', 'Look over menu']",Get to restaurant,0
+1,0.16666666666666666,['Get to restaurant'],"['Sit down', 'Get to restaurant']",Sit down,0
+2,0.3333333333333333,"['Get to restaurant', 'Sit down']","['Look over menu', 'Taste food']",Look over menu,0
+3,0.5,"['Get to restaurant', 'Sit down', 'Look over menu']","['Get to restaurant', 'Order food']",Order food,1
+4,0.6666666666666666,"['Get to restaurant', 'Sit down', 'Look over menu', 'Order food']","['Receive food', 'Sit down']",Receive food,0
+5,0.8333333333333334,"['Get to restaurant', 'Sit down', 'Look over menu', 'Order food', 'Receive food']","['Get to restaurant', 'Taste food']",Taste food,1
+0,0.0,[],"['Find something wrong with food', 'Wait for food']",Wait for food,1
+1,0.16666666666666666,['Wait for food'],"['Find something wrong with food', 'Wait for food']",Find something wrong with food,0
+2,0.3333333333333333,"['Wait for food', 'Find something wrong with food']","[""Get waiter's attention"", 'Ask for new dish']",Get waiter's attention,0
+3,0.5,"['Wait for food', 'Find something wrong with food', ""Get waiter's attention""]","['Point out problem', 'Give old dish to waiter']",Point out problem,0
+4,0.6666666666666666,"['Wait for food', 'Find something wrong with food', ""Get waiter's attention"", 'Point out problem']","['Ask for new dish', 'Wait for food']",Ask for new dish,0
+5,0.8333333333333334,"['Wait for food', 'Find something wrong with food', ""Get waiter's attention"", 'Point out problem', 'Ask for new dish']","['Give old dish to waiter', 'Wait for food']",Give old dish to waiter,0
+0,0.0,[],"[""Get your waiter's attention"", ""Explain to waiter why you don't want your food""]",Get your waiter's attention,0
+1,0.2,"[""Get your waiter's attention""]","['Hand your plate to the waiter', ""Explain to waiter why you don't want your food""]",Explain to waiter why you don't want your food,1
+2,0.4,"[""Get your waiter's attention"", ""Explain to waiter why you don't want your food""]","['Wait for waiter to take back food', 'Tell waiter what you would order to get instead']",Tell waiter what you would order to get instead,1
+3,0.6,"[""Get your waiter's attention"", ""Explain to waiter why you don't want your food"", 'Tell waiter what you would order to get instead']","[""Get your waiter's attention"", 'Hand your plate to the waiter']",Hand your plate to the waiter,1
+4,0.8,"[""Get your waiter's attention"", ""Explain to waiter why you don't want your food"", 'Tell waiter what you would order to get instead', 'Hand your plate to the waiter']","[""Explain to waiter why you don't want your food"", 'Wait for waiter to take back food']",Wait for waiter to take back food,1
+0,0.0,[],"['Ask if they can take the food and fix it.', 'Call over waiter']",Call over waiter,1
+1,0.2,['Call over waiter'],"['Give them the plate.', 'Tell them what is wrong with food']",Tell them what is wrong with food,1
+2,0.4,"['Call over waiter', 'Tell them what is wrong with food']","['Ask if they can take the food and fix it.', 'Wait for your next dish']",Ask if they can take the food and fix it.,0
+3,0.6,"['Call over waiter', 'Tell them what is wrong with food', 'Ask if they can take the food and fix it.']","['Give them the plate.', 'Call over waiter']",Give them the plate.,0
+4,0.8,"['Call over waiter', 'Tell them what is wrong with food', 'Ask if they can take the food and fix it.', 'Give them the plate.']","['Wait for your next dish', 'Call over waiter']",Wait for your next dish,0
+0,0.0,[],"['Call waiter', 'Tell waiter you want to send food back']",Call waiter,0
+1,0.16666666666666666,['Call waiter'],"['When waiter comes, describe the problem with the food', 'When waiter comes, describe the problem with the food']","When waiter comes, describe the problem with the food",1
+2,0.3333333333333333,"['Call waiter', 'When waiter comes, describe the problem with the food']","['When waiter returns with food accept it', 'Tell waiter you want to send food back']",Tell waiter you want to send food back,1
+3,0.5,"['Call waiter', 'When waiter comes, describe the problem with the food', 'Tell waiter you want to send food back']","['Let waiter take food', 'Call waiter']",Let waiter take food,0
+4,0.6666666666666666,"['Call waiter', 'When waiter comes, describe the problem with the food', 'Tell waiter you want to send food back', 'Let waiter take food']","['Call waiter', 'Wait']",Wait,1
+5,0.8333333333333334,"['Call waiter', 'When waiter comes, describe the problem with the food', 'Tell waiter you want to send food back', 'Let waiter take food', 'Wait']","['When waiter comes, describe the problem with the food', 'When waiter returns with food accept it']",When waiter returns with food accept it,1
+0,0.0,[],"['Get food', 'See a piece of hair']",Get food,0
+1,0.16666666666666666,['Get food'],"['Call waiter/waitress', 'Look at food']",Look at food,1
+2,0.3333333333333333,"['Get food', 'Look at food']","['See a piece of hair', 'Complain about food']",See a piece of hair,0
+3,0.5,"['Get food', 'Look at food', 'See a piece of hair']","['Get food', 'Call waiter/waitress']",Call waiter/waitress,1
+4,0.6666666666666666,"['Get food', 'Look at food', 'See a piece of hair', 'Call waiter/waitress']","['Complain about food', 'Get food']",Complain about food,0
+5,0.8333333333333334,"['Get food', 'Look at food', 'See a piece of hair', 'Call waiter/waitress', 'Complain about food']","['Look at food', 'Waiter/waitress takes food back']",Waiter/waitress takes food back,1
+0,0.0,[],"['ask for food to be returned', 'order food']",order food,1
+1,0.2,['order food'],"['get correct order', 'get wrong order']",get wrong order,1
+2,0.4,"['order food', 'get wrong order']","['ask for food to be returned', 'eat food']",ask for food to be returned,0
+3,0.6,"['order food', 'get wrong order', 'ask for food to be returned']","['get correct order', 'order food']",get correct order,0
+4,0.8,"['order food', 'get wrong order', 'ask for food to be returned', 'get correct order']","['get wrong order', 'eat food']",eat food,1
+0,0.0,[],"['place a portion on the fork', 'Receive food']",Receive food,1
+1,0.16666666666666666,['Receive food'],"['call waiter', 'place a portion on the fork']",place a portion on the fork,1
+2,0.3333333333333333,"['Receive food', 'place a portion on the fork']","['explain complaint', 'taste food']",taste food,1
+3,0.5,"['Receive food', 'place a portion on the fork', 'taste food']","['Receive food', 'call waiter']",call waiter,1
+4,0.6666666666666666,"['Receive food', 'place a portion on the fork', 'taste food', 'call waiter']","['explain complaint', 'place a portion on the fork']",explain complaint,0
+5,0.8333333333333334,"['Receive food', 'place a portion on the fork', 'taste food', 'call waiter', 'explain complaint']","['taste food', 'be patient']",be patient,1
+0,0.0,[],"['Inspect the quality of the food when it arrives', ""If there is a problem, get the waiter's attention""]",Inspect the quality of the food when it arrives,0
+1,0.2,['Inspect the quality of the food when it arrives'],"['Wait for the waiter to return with your corrected dish.', ""If there is a problem, get the waiter's attention""]","If there is a problem, get the waiter's attention",1
+2,0.4,"['Inspect the quality of the food when it arrives', ""If there is a problem, get the waiter's attention""]","['Alert the waiter to your satisfaction, being very specific about the problems', 'Wait for the waiter to return with your corrected dish.']","Alert the waiter to your satisfaction, being very specific about the problems",0
+3,0.6,"['Inspect the quality of the food when it arrives', ""If there is a problem, get the waiter's attention"", 'Alert the waiter to your satisfaction, being very specific about the problems']","['Inspect the quality of the food when it arrives', 'Let the waiter return the food to the kitchen']",Let the waiter return the food to the kitchen,1
+4,0.8,"['Inspect the quality of the food when it arrives', ""If there is a problem, get the waiter's attention"", 'Alert the waiter to your satisfaction, being very specific about the problems', 'Let the waiter return the food to the kitchen']","['Wait for the waiter to return with your corrected dish.', 'Inspect the quality of the food when it arrives']",Wait for the waiter to return with your corrected dish.,0
+0,0.0,[],"['Receive food', 'Tell waiter of poor food']",Receive food,0
+1,0.16666666666666666,['Receive food'],"['Hand plate to waiter/waitress', 'Taste food']",Taste food,1
+2,0.3333333333333333,"['Receive food', 'Taste food']","['Hand plate to waiter/waitress', 'Call for waiter/waitress or wait until he/she arrives']",Call for waiter/waitress or wait until he/she arrives,1
+3,0.5,"['Receive food', 'Taste food', 'Call for waiter/waitress or wait until he/she arrives']","['Receive food', 'Tell waiter of poor food']",Tell waiter of poor food,1
+4,0.6666666666666666,"['Receive food', 'Taste food', 'Call for waiter/waitress or wait until he/she arrives', 'Tell waiter of poor food']","['Receive food', 'Hand plate to waiter/waitress']",Hand plate to waiter/waitress,1
+5,0.8333333333333334,"['Receive food', 'Taste food', 'Call for waiter/waitress or wait until he/she arrives', 'Tell waiter of poor food', 'Hand plate to waiter/waitress']","['Wait for new plate of food', 'Taste food']",Wait for new plate of food,0
+0,0.0,[],"['Order food from menu', 'Request waiter']",Order food from menu,0
+1,0.16666666666666666,['Order food from menu'],"['Take bite of food', 'Take bite of food']",Take bite of food,1
+2,0.3333333333333333,"['Order food from menu', 'Take bite of food']","['Give food to waiter', 'Request waiter']",Request waiter,1
+3,0.5,"['Order food from menu', 'Take bite of food', 'Request waiter']","['Order food from menu', 'Tell waiter food is undesirable']",Tell waiter food is undesirable,1
+4,0.6666666666666666,"['Order food from menu', 'Take bite of food', 'Request waiter', 'Tell waiter food is undesirable']","['Give food to waiter', 'Take bite of food']",Give food to waiter,0
+5,0.8333333333333334,"['Order food from menu', 'Take bite of food', 'Request waiter', 'Tell waiter food is undesirable', 'Give food to waiter']","['Order food from menu', 'Wait for new plate']",Wait for new plate,1
+0,0.0,[],"['call staff over', 'find something wrong with the food']",find something wrong with the food,1
+1,0.2,['find something wrong with the food'],"['enjoy food', 'call staff over']",call staff over,1
+2,0.4,"['find something wrong with the food', 'call staff over']","['point out problem', 'enjoy food']",point out problem,0
+3,0.6,"['find something wrong with the food', 'call staff over', 'point out problem']","['find something wrong with the food', 'wait for them to take it back for you']",wait for them to take it back for you,1
+4,0.8,"['find something wrong with the food', 'call staff over', 'point out problem', 'wait for them to take it back for you']","['find something wrong with the food', 'enjoy food']",enjoy food,1
+0,0.0,[],"['Get food.', 'Complain to waiter.']",Get food.,0
+1,0.16666666666666666,['Get food.'],"['Enjoy better meal.', ""Notice it's not what I ordered.""]",Notice it's not what I ordered.,1
+2,0.3333333333333333,"['Get food.', ""Notice it's not what I ordered.""]","['Enjoy better meal.', 'Flag down waiter.']",Flag down waiter.,1
+3,0.5,"['Get food.', ""Notice it's not what I ordered."", 'Flag down waiter.']","['Get food.', 'Complain to waiter.']",Complain to waiter.,1
+4,0.6666666666666666,"['Get food.', ""Notice it's not what I ordered."", 'Flag down waiter.', 'Complain to waiter.']","['Get food.', 'Wait for fixed meal.']",Wait for fixed meal.,1
+5,0.8333333333333334,"['Get food.', ""Notice it's not what I ordered."", 'Flag down waiter.', 'Complain to waiter.', 'Wait for fixed meal.']","['Enjoy better meal.', 'Flag down waiter.']",Enjoy better meal.,0
+0,0.0,[],"['call over waiter', 'waiter brings food to table']",waiter brings food to table,1
+1,0.16666666666666666,['waiter brings food to table'],"['taste food', 'find something wrong with taste']",taste food,0
+2,0.3333333333333333,"['waiter brings food to table', 'taste food']","['find something wrong with taste', 'explain the issue']",find something wrong with taste,0
+3,0.5,"['waiter brings food to table', 'taste food', 'find something wrong with taste']","['call over waiter', 'waiter brings food to table']",call over waiter,0
+4,0.6666666666666666,"['waiter brings food to table', 'taste food', 'find something wrong with taste', 'call over waiter']","['taste food', 'explain the issue']",explain the issue,1
+5,0.8333333333333334,"['waiter brings food to table', 'taste food', 'find something wrong with taste', 'call over waiter', 'explain the issue']","['taste food', 'tell waiter you would like a new dish']",tell waiter you would like a new dish,1
+0,0.0,[],"['Call for waiter', 'Call for waiter']",Call for waiter,0
+1,0.16666666666666666,['Call for waiter'],"['Water brings back new food', ""Explain that food isn't right""]",Explain that food isn't right,1
+2,0.3333333333333333,"['Call for waiter', ""Explain that food isn't right""]","['Ask for it to be corrected', 'Eat new food']",Ask for it to be corrected,0
+3,0.5,"['Call for waiter', ""Explain that food isn't right"", 'Ask for it to be corrected']","['Eat new food', 'Wait for new food']",Wait for new food,1
+4,0.6666666666666666,"['Call for waiter', ""Explain that food isn't right"", 'Ask for it to be corrected', 'Wait for new food']","['Call for waiter', 'Water brings back new food']",Water brings back new food,1
+5,0.8333333333333334,"['Call for waiter', ""Explain that food isn't right"", 'Ask for it to be corrected', 'Wait for new food', 'Water brings back new food']","['Eat new food', ""Explain that food isn't right""]",Eat new food,0
+0,0.0,[],"['wait for food to arrive', 'Order food']",Order food,1
+1,0.16666666666666666,['Order food'],"['eat food', 'wait for food to arrive']",eat food,0
+2,0.3333333333333333,"['Order food', 'eat food']","[""get waiter's attention"", 'check food for contamination']",get waiter's attention,0
+3,0.5,"['Order food', 'eat food', ""get waiter's attention""]","['Order food', 'provide explanation for wanting to send back food']",provide explanation for wanting to send back food,1
+4,0.6666666666666666,"['Order food', 'eat food', ""get waiter's attention"", 'provide explanation for wanting to send back food']","['eat food', 'wait for food to arrive']",wait for food to arrive,1
+5,0.8333333333333334,"['Order food', 'eat food', ""get waiter's attention"", 'provide explanation for wanting to send back food', 'wait for food to arrive']","['check food for contamination', ""get waiter's attention""]",check food for contamination,0
+0,0.0,[],"['Hand the plate to the waiter.', 'Decide the food is bad.']",Decide the food is bad.,1
+1,0.2,['Decide the food is bad.'],"['Hand the plate to the waiter.', 'Call a waiter over.']",Call a waiter over.,1
+2,0.4,"['Decide the food is bad.', 'Call a waiter over.']","['Tell them the food issue.', 'Wait for the new dish.']",Tell them the food issue.,0
+3,0.6,"['Decide the food is bad.', 'Call a waiter over.', 'Tell them the food issue.']","['Decide the food is bad.', 'Hand the plate to the waiter.']",Hand the plate to the waiter.,1
+4,0.8,"['Decide the food is bad.', 'Call a waiter over.', 'Tell them the food issue.', 'Hand the plate to the waiter.']","['Call a waiter over.', 'Wait for the new dish.']",Wait for the new dish.,1
+0,0.0,[],"['Enjoy the food.', ""Grab the waiter's attention.""]",Grab the waiter's attention.,1
+1,0.16666666666666666,"[""Grab the waiter's attention.""]","['Politely tell him what is wrong with the food.', 'Politely tell him what is wrong with the food.']",Politely tell him what is wrong with the food.,1
+2,0.3333333333333333,"[""Grab the waiter's attention."", 'Politely tell him what is wrong with the food.']","['Ask him if he could please bring it back to the kitchen.', 'Enjoy the food.']",Ask him if he could please bring it back to the kitchen.,0
+3,0.5,"[""Grab the waiter's attention."", 'Politely tell him what is wrong with the food.', 'Ask him if he could please bring it back to the kitchen.']","['Enjoy the food.', 'Thank the waiter.']",Thank the waiter.,1
+4,0.6666666666666666,"[""Grab the waiter's attention."", 'Politely tell him what is wrong with the food.', 'Ask him if he could please bring it back to the kitchen.', 'Thank the waiter.']","['Wait for food to come back.', ""Grab the waiter's attention.""]",Wait for food to come back.,0
+5,0.8333333333333334,"[""Grab the waiter's attention."", 'Politely tell him what is wrong with the food.', 'Ask him if he could please bring it back to the kitchen.', 'Thank the waiter.', 'Wait for food to come back.']","['Enjoy the food.', 'Ask him if he could please bring it back to the kitchen.']",Enjoy the food.,0
+0,0.0,[],"['Tell them your order is wrong', 'After finding out something is wrong with your order, single the waiter']","After finding out something is wrong with your order, single the waiter",1
+1,0.2,"['After finding out something is wrong with your order, single the waiter']","['Tell them your order is wrong', 'Let the waitress remove food to table']",Tell them your order is wrong,0
+2,0.4,"['After finding out something is wrong with your order, single the waiter', 'Tell them your order is wrong']","['Eat', 'Let the waitress remove food to table']",Let the waitress remove food to table,1
+3,0.6,"['After finding out something is wrong with your order, single the waiter', 'Tell them your order is wrong', 'Let the waitress remove food to table']","['After finding out something is wrong with your order, single the waiter', 'Wait for order to come back']",Wait for order to come back,1
+4,0.8,"['After finding out something is wrong with your order, single the waiter', 'Tell them your order is wrong', 'Let the waitress remove food to table', 'Wait for order to come back']","['Eat', 'Tell them your order is wrong']",Eat,0
+0,0.0,[],"['contact waiter', 'make a determination that you are not happy with the food']",make a determination that you are not happy with the food,1
+1,0.2,['make a determination that you are not happy with the food'],"['contact waiter', 'ask him to return it to the kitchen']",contact waiter,0
+2,0.4,"['make a determination that you are not happy with the food', 'contact waiter']","['explain to him why you are unhappy with the food', 'wait for him to bring a new plate of food']",explain to him why you are unhappy with the food,0
+3,0.6,"['make a determination that you are not happy with the food', 'contact waiter', 'explain to him why you are unhappy with the food']","['ask him to return it to the kitchen', 'make a determination that you are not happy with the food']",ask him to return it to the kitchen,0
+4,0.8,"['make a determination that you are not happy with the food', 'contact waiter', 'explain to him why you are unhappy with the food', 'ask him to return it to the kitchen']","['wait for him to bring a new plate of food', 'contact waiter']",wait for him to bring a new plate of food,0
+0,0.0,[],"['RECEIVE FOOD', 'WAIT FOR ISSUE TO BE RESOLVED BY CHEF']",RECEIVE FOOD,0
+1,0.16666666666666666,['RECEIVE FOOD'],"['WAIT FOR ISSUE TO BE RESOLVED BY CHEF', 'IF NOT SATISFACTORY, CALL WAITER OVER']","IF NOT SATISFACTORY, CALL WAITER OVER",1
+2,0.3333333333333333,"['RECEIVE FOOD', 'IF NOT SATISFACTORY, CALL WAITER OVER']","['GIVE FOOD TO WAITER', 'EXPLAIN THE ISSUE']",EXPLAIN THE ISSUE,1
+3,0.5,"['RECEIVE FOOD', 'IF NOT SATISFACTORY, CALL WAITER OVER', 'EXPLAIN THE ISSUE']","['RECEIVE FOOD', 'REQUEST FOR THE FOOD TO BE SENT BACK']",REQUEST FOR THE FOOD TO BE SENT BACK,1
+4,0.6666666666666666,"['RECEIVE FOOD', 'IF NOT SATISFACTORY, CALL WAITER OVER', 'EXPLAIN THE ISSUE', 'REQUEST FOR THE FOOD TO BE SENT BACK']","['RECEIVE FOOD', 'GIVE FOOD TO WAITER']",GIVE FOOD TO WAITER,1
+5,0.8333333333333334,"['RECEIVE FOOD', 'IF NOT SATISFACTORY, CALL WAITER OVER', 'EXPLAIN THE ISSUE', 'REQUEST FOR THE FOOD TO BE SENT BACK', 'GIVE FOOD TO WAITER']","['EXPLAIN THE ISSUE', 'WAIT FOR ISSUE TO BE RESOLVED BY CHEF']",WAIT FOR ISSUE TO BE RESOLVED BY CHEF,1
+0,0.0,[],"['Look around to find a waiter or manager.', 'Decide that something is not right about the food.']",Decide that something is not right about the food.,1
+1,0.2,['Decide that something is not right about the food.'],"['Decide that something is not right about the food.', 'Look around to find a waiter or manager.']",Look around to find a waiter or manager.,1
+2,0.4,"['Decide that something is not right about the food.', 'Look around to find a waiter or manager.']","['Call the waiter or manager over to the table.', 'Indicate to the waiter or manager that you would like to send the food back.']",Call the waiter or manager over to the table.,0
+3,0.6,"['Decide that something is not right about the food.', 'Look around to find a waiter or manager.', 'Call the waiter or manager over to the table.']","['Explain to the waiter what you are not happy about.', 'Decide that something is not right about the food.']",Explain to the waiter what you are not happy about.,0
+4,0.8,"['Decide that something is not right about the food.', 'Look around to find a waiter or manager.', 'Call the waiter or manager over to the table.', 'Explain to the waiter what you are not happy about.']","['Indicate to the waiter or manager that you would like to send the food back.', 'Decide that something is not right about the food.']",Indicate to the waiter or manager that you would like to send the food back.,0
+0,0.0,[],"['Call waiter', 'Wait eagerly']",Call waiter,0
+1,0.2,['Call waiter'],"['Request a new dish', 'Eat new dish']",Request a new dish,0
+2,0.4,"['Call waiter', 'Request a new dish']","['Wait eagerly', 'Eat new dish']",Wait eagerly,0
+3,0.6,"['Call waiter', 'Request a new dish', 'Wait eagerly']","['Examine new dish', 'Call waiter']",Examine new dish,0
+4,0.8,"['Call waiter', 'Request a new dish', 'Wait eagerly', 'Examine new dish']","['Call waiter', 'Eat new dish']",Eat new dish,1
+0,0.0,[],"['after receiving food check for desired temperature and taste', 'find server and notify of unhappiness with food']",after receiving food check for desired temperature and taste,0
+1,0.16666666666666666,['after receiving food check for desired temperature and taste'],"['if unhappy with temperature and tase', 'upon receiving new food item check for desired temperature and taste']",if unhappy with temperature and tase,0
+2,0.3333333333333333,"['after receiving food check for desired temperature and taste', 'if unhappy with temperature and tase']","['find server and notify of unhappiness with food', 'upon receiving new food item check for desired temperature and taste']",find server and notify of unhappiness with food,0
+3,0.5,"['after receiving food check for desired temperature and taste', 'if unhappy with temperature and tase', 'find server and notify of unhappiness with food']","['after receiving food check for desired temperature and taste', 'describe in detail why food does not meet standards']",describe in detail why food does not meet standards,1
+4,0.6666666666666666,"['after receiving food check for desired temperature and taste', 'if unhappy with temperature and tase', 'find server and notify of unhappiness with food', 'describe in detail why food does not meet standards']","['also describe in detail how the food item can be fixed', 'after receiving food check for desired temperature and taste']",also describe in detail how the food item can be fixed,0
+5,0.8333333333333334,"['after receiving food check for desired temperature and taste', 'if unhappy with temperature and tase', 'find server and notify of unhappiness with food', 'describe in detail why food does not meet standards', 'also describe in detail how the food item can be fixed']","['upon receiving new food item check for desired temperature and taste', 'after receiving food check for desired temperature and taste']",upon receiving new food item check for desired temperature and taste,0
+0,0.0,[],"['Decide that you do not want the food.', 'Explain to the waiter what is wrong with your food and that it needs to go back']",Decide that you do not want the food.,0
+1,0.16666666666666666,['Decide that you do not want the food.'],"['Wait patiently while the order is corrected.', ""Get your waiter's attention to come to your table.""]",Get your waiter's attention to come to your table.,1
+2,0.3333333333333333,"['Decide that you do not want the food.', ""Get your waiter's attention to come to your table.""]","['Check to make sure the food is correct when the waiter brings it back', 'Explain to the waiter what is wrong with your food and that it needs to go back']",Explain to the waiter what is wrong with your food and that it needs to go back,1
+3,0.5,"['Decide that you do not want the food.', ""Get your waiter's attention to come to your table."", 'Explain to the waiter what is wrong with your food and that it needs to go back']","['Thank the waiter for their good service.', 'Wait patiently while the order is corrected.']",Wait patiently while the order is corrected.,1
+4,0.6666666666666666,"['Decide that you do not want the food.', ""Get your waiter's attention to come to your table."", 'Explain to the waiter what is wrong with your food and that it needs to go back', 'Wait patiently while the order is corrected.']","['Check to make sure the food is correct when the waiter brings it back', ""Get your waiter's attention to come to your table.""]",Check to make sure the food is correct when the waiter brings it back,0
+5,0.8333333333333334,"['Decide that you do not want the food.', ""Get your waiter's attention to come to your table."", 'Explain to the waiter what is wrong with your food and that it needs to go back', 'Wait patiently while the order is corrected.', 'Check to make sure the food is correct when the waiter brings it back']","['Decide that you do not want the food.', 'Thank the waiter for their good service.']",Thank the waiter for their good service.,1
+0,0.0,[],"['Call server over to table', 'Check that new order of food is proper and prepared correctly']",Call server over to table,0
+1,0.16666666666666666,['Call server over to table'],"['Tell server what is wrong with the food', 'Request that the server bring food to replace food sent back']",Tell server what is wrong with the food,0
+2,0.3333333333333333,"['Call server over to table', 'Tell server what is wrong with the food']","['Request that the server take it back', 'Thank server']",Request that the server take it back,0
+3,0.5,"['Call server over to table', 'Tell server what is wrong with the food', 'Request that the server take it back']","['Thank server', 'Request that the server bring food to replace food sent back']",Request that the server bring food to replace food sent back,1
+4,0.6666666666666666,"['Call server over to table', 'Tell server what is wrong with the food', 'Request that the server take it back', 'Request that the server bring food to replace food sent back']","['Check that new order of food is proper and prepared correctly', 'Call server over to table']",Check that new order of food is proper and prepared correctly,0
+5,0.8333333333333334,"['Call server over to table', 'Tell server what is wrong with the food', 'Request that the server take it back', 'Request that the server bring food to replace food sent back', 'Check that new order of food is proper and prepared correctly']","['Thank server', 'Tell server what is wrong with the food']",Thank server,0
+0,0.0,[],"['Ask for the waiter/waitress.', 'Eat what was requested.']",Ask for the waiter/waitress.,0
+1,0.16666666666666666,['Ask for the waiter/waitress.'],"['Explain to the waiter that you do not like the food.', 'Waiter brings request.']",Explain to the waiter that you do not like the food.,0
+2,0.3333333333333333,"['Ask for the waiter/waitress.', 'Explain to the waiter that you do not like the food.']","['Ask that they send the food back.', 'Waiter brings request.']",Ask that they send the food back.,0
+3,0.5,"['Ask for the waiter/waitress.', 'Explain to the waiter that you do not like the food.', 'Ask that they send the food back.']","['Ask that you get new food or a different type of food.', 'Eat what was requested.']",Ask that you get new food or a different type of food.,0
+4,0.6666666666666666,"['Ask for the waiter/waitress.', 'Explain to the waiter that you do not like the food.', 'Ask that they send the food back.', 'Ask that you get new food or a different type of food.']","['Waiter brings request.', 'Ask for the waiter/waitress.']",Waiter brings request.,0
+5,0.8333333333333334,"['Ask for the waiter/waitress.', 'Explain to the waiter that you do not like the food.', 'Ask that they send the food back.', 'Ask that you get new food or a different type of food.', 'Waiter brings request.']","['Eat what was requested.', 'Ask for the waiter/waitress.']",Eat what was requested.,0
+0,0.0,[],"['Notify the manager of the problem with your dish', 'Ask the waiter to come over.']",Ask the waiter to come over.,1
+1,0.16666666666666666,['Ask the waiter to come over.'],"['Tell the waiter the problem with your food.', 'Ask the waiter to take the food back']",Tell the waiter the problem with your food.,0
+2,0.3333333333333333,"['Ask the waiter to come over.', 'Tell the waiter the problem with your food.']","['Notify the manager of the problem with your dish', 'Ask the waiter to take the food back']",Ask the waiter to take the food back,1
+3,0.5,"['Ask the waiter to come over.', 'Tell the waiter the problem with your food.', 'Ask the waiter to take the food back']","['Notify the manager of the problem with your dish', 'Ask for problem to be corrected or order a new dish']",Ask for problem to be corrected or order a new dish,1
+4,0.6666666666666666,"['Ask the waiter to come over.', 'Tell the waiter the problem with your food.', 'Ask the waiter to take the food back', 'Ask for problem to be corrected or order a new dish']","['Ask the waiter to come over.', 'Ask waiter to speak to the manager']",Ask waiter to speak to the manager,1
+5,0.8333333333333334,"['Ask the waiter to come over.', 'Tell the waiter the problem with your food.', 'Ask the waiter to take the food back', 'Ask for problem to be corrected or order a new dish', 'Ask waiter to speak to the manager']","['Ask the waiter to come over.', 'Notify the manager of the problem with your dish']",Notify the manager of the problem with your dish,1
+0,0.0,[],"['Order food', 'Order food']",Order food,0
+1,0.16666666666666666,['Order food'],"['Wait for food', 'Wait for food']",Wait for food,0
+2,0.3333333333333333,"['Order food', 'Wait for food']","['Recieve delivered food', 'describe fault to waiter']",Recieve delivered food,0
+3,0.5,"['Order food', 'Wait for food', 'Recieve delivered food']","['find fault in delivered food', 'Order food']",find fault in delivered food,0
+4,0.6666666666666666,"['Order food', 'Wait for food', 'Recieve delivered food', 'find fault in delivered food']","['call waiter', 'Wait for food']",call waiter,0
+5,0.8333333333333334,"['Order food', 'Wait for food', 'Recieve delivered food', 'find fault in delivered food', 'call waiter']","['Wait for food', 'describe fault to waiter']",describe fault to waiter,1
+0,0.0,[],"['Receive food at restaurant', 'Receive food at restaurant']",Receive food at restaurant,1
+1,0.16666666666666666,['Receive food at restaurant'],"['See that food is not cooked as specified', 'See that food is not cooked as specified']",See that food is not cooked as specified,0
+2,0.3333333333333333,"['Receive food at restaurant', 'See that food is not cooked as specified']","['Wait', 'Find waiter']",Find waiter,1
+3,0.5,"['Receive food at restaurant', 'See that food is not cooked as specified', 'Find waiter']","['Explain the situation politely to waiter', 'Wait']",Explain the situation politely to waiter,0
+4,0.6666666666666666,"['Receive food at restaurant', 'See that food is not cooked as specified', 'Find waiter', 'Explain the situation politely to waiter']","['Receive food at restaurant', 'Ask waiter to return the food to be cooked properly']",Ask waiter to return the food to be cooked properly,1
+5,0.8333333333333334,"['Receive food at restaurant', 'See that food is not cooked as specified', 'Find waiter', 'Explain the situation politely to waiter', 'Ask waiter to return the food to be cooked properly']","['See that food is not cooked as specified', 'Wait']",Wait,1
+0,0.0,[],"['Wait patiently.', 'Flag down the waiter.']",Flag down the waiter.,1
+1,0.2,['Flag down the waiter.'],"['Flag down the waiter.', 'Apologize.']",Apologize.,1
+2,0.4,"['Flag down the waiter.', 'Apologize.']","[""Explain I don't like the food."", 'Wait patiently.']",Explain I don't like the food.,0
+3,0.6,"['Flag down the waiter.', 'Apologize.', ""Explain I don't like the food.""]","['Flag down the waiter.', 'Ask for another dish.']",Ask for another dish.,1
+4,0.8,"['Flag down the waiter.', 'Apologize.', ""Explain I don't like the food."", 'Ask for another dish.']","['Wait patiently.', 'Flag down the waiter.']",Wait patiently.,0
+0,0.0,[],"['get servers attention', 'get servers attention']",get servers attention,1
+1,0.2,['get servers attention'],"['explain why the food is no good', 'server will take food back']",explain why the food is no good,0
+2,0.4,"['get servers attention', 'explain why the food is no good']","['server will take food back', 'ask for a different food item']",ask for a different food item,1
+3,0.6,"['get servers attention', 'explain why the food is no good', 'ask for a different food item']","['get servers attention', ""if server is difficult say you won't pay""]",if server is difficult say you won't pay,1
+4,0.8,"['get servers attention', 'explain why the food is no good', 'ask for a different food item', ""if server is difficult say you won't pay""]","['explain why the food is no good', 'server will take food back']",server will take food back,1
+0,0.0,[],"['Discuss how to resolve issue.', 'Grab waiters/waitresses attention.']",Grab waiters/waitresses attention.,1
+1,0.2,['Grab waiters/waitresses attention.'],"['Explain to them the issue with order.', 'Grab waiters/waitresses attention.']",Explain to them the issue with order.,0
+2,0.4,"['Grab waiters/waitresses attention.', 'Explain to them the issue with order.']","['Wait for response.', 'Hand waiter/waitress the incorrect item.']",Hand waiter/waitress the incorrect item.,1
+3,0.6,"['Grab waiters/waitresses attention.', 'Explain to them the issue with order.', 'Hand waiter/waitress the incorrect item.']","['Grab waiters/waitresses attention.', 'Discuss how to resolve issue.']",Discuss how to resolve issue.,1
+4,0.8,"['Grab waiters/waitresses attention.', 'Explain to them the issue with order.', 'Hand waiter/waitress the incorrect item.', 'Discuss how to resolve issue.']","['Explain to them the issue with order.', 'Wait for response.']",Wait for response.,1
+0,0.0,[],"['taste food', 'get food']",get food,1
+1,0.16666666666666666,['get food'],"['get food', 'taste food']",taste food,1
+2,0.3333333333333333,"['get food', 'taste food']","['see food is raw inside', 'send back to kitchen']",see food is raw inside,0
+3,0.5,"['get food', 'taste food', 'see food is raw inside']","['call waiter over', 'get food']",call waiter over,0
+4,0.6666666666666666,"['get food', 'taste food', 'see food is raw inside', 'call waiter over']","['tell waiter food is raw', 'taste food']",tell waiter food is raw,0
+5,0.8333333333333334,"['get food', 'taste food', 'see food is raw inside', 'call waiter over', 'tell waiter food is raw']","['send back to kitchen', 'see food is raw inside']",send back to kitchen,0
+0,0.0,[],"['Wait until new food is delivered', 'Taste the food']",Taste the food,1
+1,0.16666666666666666,['Taste the food'],"['Apologize for making the request', 'Politely call waiter over to table']",Politely call waiter over to table,1
+2,0.3333333333333333,"['Taste the food', 'Politely call waiter over to table']","['Wait until new food is delivered', 'Politely tell waiter that the food is not up to standard']",Politely tell waiter that the food is not up to standard,1
+3,0.5,"['Taste the food', 'Politely call waiter over to table', 'Politely tell waiter that the food is not up to standard']","['Taste the food', 'Apologize for making the request']",Apologize for making the request,1
+4,0.6666666666666666,"['Taste the food', 'Politely call waiter over to table', 'Politely tell waiter that the food is not up to standard', 'Apologize for making the request']","[""Tell waiter you'd like to try a different dish"", 'Politely call waiter over to table']",Tell waiter you'd like to try a different dish,0
+5,0.8333333333333334,"['Taste the food', 'Politely call waiter over to table', 'Politely tell waiter that the food is not up to standard', 'Apologize for making the request', ""Tell waiter you'd like to try a different dish""]","['Politely call waiter over to table', 'Wait until new food is delivered']",Wait until new food is delivered,1
+0,0.0,[],"['You wait.', 'Tell waiter to come here.']",Tell waiter to come here.,1
+1,0.16666666666666666,['Tell waiter to come here.'],"['Tell waiter whats wrong with food.', 'Tell waiter whats wrong with food.']",Tell waiter whats wrong with food.,1
+2,0.3333333333333333,"['Tell waiter to come here.', 'Tell waiter whats wrong with food.']","['Waiter takes food back.', 'Waiter comes back with more foo.']",Waiter takes food back.,0
+3,0.5,"['Tell waiter to come here.', 'Tell waiter whats wrong with food.', 'Waiter takes food back.']","['You wait.', 'You eat.']",You wait.,0
+4,0.6666666666666666,"['Tell waiter to come here.', 'Tell waiter whats wrong with food.', 'Waiter takes food back.', 'You wait.']","['Waiter comes back with more foo.', 'Tell waiter to come here.']",Waiter comes back with more foo.,0
+5,0.8333333333333334,"['Tell waiter to come here.', 'Tell waiter whats wrong with food.', 'Waiter takes food back.', 'You wait.', 'Waiter comes back with more foo.']","['Tell waiter to come here.', 'You eat.']",You eat.,1
+0,0.0,[],"['Eat your food', 'Eat your food']",Eat your food,0
+1,0.16666666666666666,['Eat your food'],"['Decide something is wrong with it', 'Inform them what is wrong with your food']",Decide something is wrong with it,0
+2,0.3333333333333333,"['Eat your food', 'Decide something is wrong with it']","['Flag down waiter', 'Ask for a new plate of food']",Flag down waiter,0
+3,0.5,"['Eat your food', 'Decide something is wrong with it', 'Flag down waiter']","['Inform them what is wrong with your food', 'Ask for a new plate of food']",Inform them what is wrong with your food,0
+4,0.6666666666666666,"['Eat your food', 'Decide something is wrong with it', 'Flag down waiter', 'Inform them what is wrong with your food']","['Give them the plate of food', 'Eat your food']",Give them the plate of food,0
+5,0.8333333333333334,"['Eat your food', 'Decide something is wrong with it', 'Flag down waiter', 'Inform them what is wrong with your food', 'Give them the plate of food']","['Ask for a new plate of food', 'Decide something is wrong with it']",Ask for a new plate of food,0
+0,0.0,[],"['Signal waiter', 'Signal waiter']",Signal waiter,1
+1,0.16666666666666666,['Signal waiter'],"['Finish eating', 'Explain problem']",Explain problem,1
+2,0.3333333333333333,"['Signal waiter', 'Explain problem']","['Wait for new food to arrive', 'Waiter brings bill']",Wait for new food to arrive,0
+3,0.5,"['Signal waiter', 'Explain problem', 'Wait for new food to arrive']","['Waiter brings bill', 'Test for approval']",Test for approval,1
+4,0.6666666666666666,"['Signal waiter', 'Explain problem', 'Wait for new food to arrive', 'Test for approval']","['Finish eating', 'Signal waiter']",Finish eating,0
+5,0.8333333333333334,"['Signal waiter', 'Explain problem', 'Wait for new food to arrive', 'Test for approval', 'Finish eating']","['Signal waiter', 'Waiter brings bill']",Waiter brings bill,1
+0,0.0,[],"['See the food', 'Call the waiter']",See the food,0
+1,0.16666666666666666,['See the food'],"['Understand the reason for sending it back', 'See the food']",Understand the reason for sending it back,0
+2,0.3333333333333333,"['See the food', 'Understand the reason for sending it back']","['Call the waiter', 'Ask the waiter to take back the food']",Call the waiter,0
+3,0.5,"['See the food', 'Understand the reason for sending it back', 'Call the waiter']","['See the food', 'Explain the reason for rejecting the food']",Explain the reason for rejecting the food,1
+4,0.6666666666666666,"['See the food', 'Understand the reason for sending it back', 'Call the waiter', 'Explain the reason for rejecting the food']","['See the food', 'Ask the waiter to take back the food']",Ask the waiter to take back the food,1
+5,0.8333333333333334,"['See the food', 'Understand the reason for sending it back', 'Call the waiter', 'Explain the reason for rejecting the food', 'Ask the waiter to take back the food']","['Order for another food', 'See the food']",Order for another food,0
+0,0.0,[],"['Signal for waiter/waitress', 'Look at food']",Look at food,1
+1,0.16666666666666666,['Look at food'],"['Decide you do not want it', 'Say if you want replacement or new dish']",Decide you do not want it,0
+2,0.3333333333333333,"['Look at food', 'Decide you do not want it']","['Signal for waiter/waitress', 'Say if you want replacement or new dish']",Signal for waiter/waitress,0
+3,0.5,"['Look at food', 'Decide you do not want it', 'Signal for waiter/waitress']","['Tell them you do not want dish', 'Look at food']",Tell them you do not want dish,0
+4,0.6666666666666666,"['Look at food', 'Decide you do not want it', 'Signal for waiter/waitress', 'Tell them you do not want dish']","['Look at food', 'Say if you want replacement or new dish']",Say if you want replacement or new dish,1
+5,0.8333333333333334,"['Look at food', 'Decide you do not want it', 'Signal for waiter/waitress', 'Tell them you do not want dish', 'Say if you want replacement or new dish']","['Signal for waiter/waitress', 'Hand dish to waiter']",Hand dish to waiter,1
+0,0.0,[],"['waiter takes back the food', 'call the waiter']",call the waiter,1
+1,0.2,['call the waiter'],"['tell him about the problem', 'tell him about the problem']",tell him about the problem,0
+2,0.4,"['call the waiter', 'tell him about the problem']","['waiter takes back the food', 'show him the bad food']",show him the bad food,1
+3,0.6,"['call the waiter', 'tell him about the problem', 'show him the bad food']","['ask him to take it back', 'call the waiter']",ask him to take it back,0
+4,0.8,"['call the waiter', 'tell him about the problem', 'show him the bad food', 'ask him to take it back']","['waiter takes back the food', 'tell him about the problem']",waiter takes back the food,0
+0,0.0,[],"['Try your food when it arrives', 'They take it back to kitchen']",Try your food when it arrives,0
+1,0.2,['Try your food when it arrives'],"[""When it doesn't taste right, call over waiter"", 'They take it back to kitchen']","When it doesn't taste right, call over waiter",0
+2,0.4,"['Try your food when it arrives', ""When it doesn't taste right, call over waiter""]","['Your food comes back fixed', 'Tell them what is wrong with the food']",Tell them what is wrong with the food,1
+3,0.6,"['Try your food when it arrives', ""When it doesn't taste right, call over waiter"", 'Tell them what is wrong with the food']","['Try your food when it arrives', 'They take it back to kitchen']",They take it back to kitchen,1
+4,0.8,"['Try your food when it arrives', ""When it doesn't taste right, call over waiter"", 'Tell them what is wrong with the food', 'They take it back to kitchen']","[""When it doesn't taste right, call over waiter"", 'Your food comes back fixed']",Your food comes back fixed,1
+0,0.0,[],"['Determine food is undesired or incorrect', ""Let waiter/waitress known what compensation you'd like""]",Determine food is undesired or incorrect,0
+1,0.16666666666666666,['Determine food is undesired or incorrect'],"['Wait for waiter/waitress to return to table or flag him or her down', ""Let waiter/waitress known what compensation you'd like""]",Wait for waiter/waitress to return to table or flag him or her down,0
+2,0.3333333333333333,"['Determine food is undesired or incorrect', 'Wait for waiter/waitress to return to table or flag him or her down']","['Explain what was wrong with the dish and ask to send it back', 'Collect compensation']",Explain what was wrong with the dish and ask to send it back,0
+3,0.5,"['Determine food is undesired or incorrect', 'Wait for waiter/waitress to return to table or flag him or her down', 'Explain what was wrong with the dish and ask to send it back']","[""Let waiter/waitress known what compensation you'd like"", 'Determine food is undesired or incorrect']",Let waiter/waitress known what compensation you'd like,0
+4,0.6666666666666666,"['Determine food is undesired or incorrect', 'Wait for waiter/waitress to return to table or flag him or her down', 'Explain what was wrong with the dish and ask to send it back', ""Let waiter/waitress known what compensation you'd like""]","['Determine food is undesired or incorrect', 'Get confirmation from waiter/waitress and wait until he or she returns']",Get confirmation from waiter/waitress and wait until he or she returns,1
+5,0.8333333333333334,"['Determine food is undesired or incorrect', 'Wait for waiter/waitress to return to table or flag him or her down', 'Explain what was wrong with the dish and ask to send it back', ""Let waiter/waitress known what compensation you'd like"", 'Get confirmation from waiter/waitress and wait until he or she returns']","['Collect compensation', 'Explain what was wrong with the dish and ask to send it back']",Collect compensation,0
+0,0.0,[],"['Get food', 'Order food']",Order food,1
+1,0.16666666666666666,['Order food'],"['Get food', 'Get food']",Get food,0
+2,0.3333333333333333,"['Order food', 'Get food']","['Taste food', 'Wait while new food is prepared']",Taste food,0
+3,0.5,"['Order food', 'Get food', 'Taste food']","[""Get server's attention"", 'Order food']",Get server's attention,0
+4,0.6666666666666666,"['Order food', 'Get food', 'Taste food', ""Get server's attention""]","['Order food', 'Explain to server why food not to liking']",Explain to server why food not to liking,1
+5,0.8333333333333334,"['Order food', 'Get food', 'Taste food', ""Get server's attention"", 'Explain to server why food not to liking']","['Order food', 'Wait while new food is prepared']",Wait while new food is prepared,1
+0,0.0,[],"['Ask the waiter to take the food back to the kitchen.', 'Call waiter to table.']",Call waiter to table.,1
+1,0.2,['Call waiter to table.'],"['Explain what is wrong with food.', 'Thank the waiter.']",Explain what is wrong with food.,0
+2,0.4,"['Call waiter to table.', 'Explain what is wrong with food.']","['Thank the waiter.', 'Ask the waiter to take the food back to the kitchen.']",Ask the waiter to take the food back to the kitchen.,1
+3,0.6,"['Call waiter to table.', 'Explain what is wrong with food.', 'Ask the waiter to take the food back to the kitchen.']","['Ask the waiter to take the charge for the food off of the bill.', 'Call waiter to table.']",Ask the waiter to take the charge for the food off of the bill.,0
+4,0.8,"['Call waiter to table.', 'Explain what is wrong with food.', 'Ask the waiter to take the food back to the kitchen.', 'Ask the waiter to take the charge for the food off of the bill.']","['Call waiter to table.', 'Thank the waiter.']",Thank the waiter.,1
+0,0.0,[],"['If acceptable, I eat', 'Find food unacceptable']",Find food unacceptable,1
+1,0.16666666666666666,['Find food unacceptable'],"['Try food', 'Call waiter or waitress']",Call waiter or waitress,1
+2,0.3333333333333333,"['Find food unacceptable', 'Call waiter or waitress']","['Try food', 'Give complaint']",Give complaint,1
+3,0.5,"['Find food unacceptable', 'Call waiter or waitress', 'Give complaint']","['Ask for another plate of food', 'Find food unacceptable']",Ask for another plate of food,0
+4,0.6666666666666666,"['Find food unacceptable', 'Call waiter or waitress', 'Give complaint', 'Ask for another plate of food']","['Find food unacceptable', 'Try food']",Try food,1
+5,0.8333333333333334,"['Find food unacceptable', 'Call waiter or waitress', 'Give complaint', 'Ask for another plate of food', 'Try food']","['Call waiter or waitress', 'If acceptable, I eat']","If acceptable, I eat",1
+0,0.0,[],"['Eat.', 'Call over the waiter or waitress.']",Call over the waiter or waitress.,1
+1,0.16666666666666666,['Call over the waiter or waitress.'],"['Politely explain the problem with the food.', 'Wait for replacement meal.']",Politely explain the problem with the food.,0
+2,0.3333333333333333,"['Call over the waiter or waitress.', 'Politely explain the problem with the food.']","['Ask if you could have it properly prepared or have it substited.', 'Wait for replacement meal.']",Ask if you could have it properly prepared or have it substited.,0
+3,0.5,"['Call over the waiter or waitress.', 'Politely explain the problem with the food.', 'Ask if you could have it properly prepared or have it substited.']","['Your server will most probably be happy to honor your wishes.', 'Call over the waiter or waitress.']",Your server will most probably be happy to honor your wishes.,0
+4,0.6666666666666666,"['Call over the waiter or waitress.', 'Politely explain the problem with the food.', 'Ask if you could have it properly prepared or have it substited.', 'Your server will most probably be happy to honor your wishes.']","['Politely explain the problem with the food.', 'Wait for replacement meal.']",Wait for replacement meal.,1
+5,0.8333333333333334,"['Call over the waiter or waitress.', 'Politely explain the problem with the food.', 'Ask if you could have it properly prepared or have it substited.', 'Your server will most probably be happy to honor your wishes.', 'Wait for replacement meal.']","['Eat.', 'Call over the waiter or waitress.']",Eat.,0
+0,0.0,[],"['Taste food.', ""When new food is ready, have server wait while checking it to make sure it's OK.""]",Taste food.,0
+1,0.16666666666666666,['Taste food.'],"['Tell server what is wrong with food.', 'Call server over.']",Call server over.,1
+2,0.3333333333333333,"['Taste food.', 'Call server over.']","['Thank server.', 'Tell server what is wrong with food.']",Tell server what is wrong with food.,1
+3,0.5,"['Taste food.', 'Call server over.', 'Tell server what is wrong with food.']","['Taste food.', 'Ask server to take plate of food to get it fixed.']",Ask server to take plate of food to get it fixed.,1
+4,0.6666666666666666,"['Taste food.', 'Call server over.', 'Tell server what is wrong with food.', 'Ask server to take plate of food to get it fixed.']","['Call server over.', 'Thank server.']",Thank server.,1
+5,0.8333333333333334,"['Taste food.', 'Call server over.', 'Tell server what is wrong with food.', 'Ask server to take plate of food to get it fixed.', 'Thank server.']","[""When new food is ready, have server wait while checking it to make sure it's OK."", 'Tell server what is wrong with food.']","When new food is ready, have server wait while checking it to make sure it's OK.",0
+0,0.0,[],"['Explain that you would like a new dish', 'Call the waiter over']",Call the waiter over,1
+1,0.16666666666666666,['Call the waiter over'],"['Explain that you would like a new dish', 'Explain the problem with the food']",Explain the problem with the food,1
+2,0.3333333333333333,"['Call the waiter over', 'Explain the problem with the food']","['Wait for new food to come', 'Explain that you would like a new dish']",Explain that you would like a new dish,1
+3,0.5,"['Call the waiter over', 'Explain the problem with the food', 'Explain that you would like a new dish']","['Give plate to the waiter', 'Call the waiter over']",Give plate to the waiter,0
+4,0.6666666666666666,"['Call the waiter over', 'Explain the problem with the food', 'Explain that you would like a new dish', 'Give plate to the waiter']","['Explain the problem with the food', 'Wait for new food to come']",Wait for new food to come,1
+5,0.8333333333333334,"['Call the waiter over', 'Explain the problem with the food', 'Explain that you would like a new dish', 'Give plate to the waiter', 'Wait for new food to come']","['Let waiter know if food has been corrected when it comes', 'Explain the problem with the food']",Let waiter know if food has been corrected when it comes,0
+0,0.0,[],"['Wait for the waiter to bring menu', 'Enter restaurant']",Enter restaurant,1
+1,0.16666666666666666,['Enter restaurant'],"['Find food you want to order', 'Find seating']",Find seating,1
+2,0.3333333333333333,"['Enter restaurant', 'Find seating']","['Wait for the waiter to bring menu', 'Order food']",Wait for the waiter to bring menu,0
+3,0.5,"['Enter restaurant', 'Find seating', 'Wait for the waiter to bring menu']","['Find food you want to order', 'When food arrives examine or taste the food']",Find food you want to order,0
+4,0.6666666666666666,"['Enter restaurant', 'Find seating', 'Wait for the waiter to bring menu', 'Find food you want to order']","['Order food', 'Find seating']",Order food,0
+5,0.8333333333333334,"['Enter restaurant', 'Find seating', 'Wait for the waiter to bring menu', 'Find food you want to order', 'Order food']","['When food arrives examine or taste the food', 'Enter restaurant']",When food arrives examine or taste the food,0
+0,0.0,[],"['Decide that food is unsatisfactory', 'Hand the plate to waiter']",Decide that food is unsatisfactory,0
+1,0.16666666666666666,['Decide that food is unsatisfactory'],"['Call waiter to table', 'Hand the plate to waiter']",Call waiter to table,0
+2,0.3333333333333333,"['Decide that food is unsatisfactory', 'Call waiter to table']","['Ask waiter for proper order', 'Explain the problem to waiter']",Explain the problem to waiter,1
+3,0.5,"['Decide that food is unsatisfactory', 'Call waiter to table', 'Explain the problem to waiter']","['Decide that food is unsatisfactory', 'Show waiter the item on menu']",Show waiter the item on menu,1
+4,0.6666666666666666,"['Decide that food is unsatisfactory', 'Call waiter to table', 'Explain the problem to waiter', 'Show waiter the item on menu']","['Ask waiter for proper order', 'Call waiter to table']",Ask waiter for proper order,0
+5,0.8333333333333334,"['Decide that food is unsatisfactory', 'Call waiter to table', 'Explain the problem to waiter', 'Show waiter the item on menu', 'Ask waiter for proper order']","['Hand the plate to waiter', 'Call waiter to table']",Hand the plate to waiter,0
+0,0.0,[],"['Get the attention of a waiter', 'Taste food']",Taste food,1
+1,0.2,['Taste food'],"['Wait for new food', 'Determine that the food was not made to your liking']",Determine that the food was not made to your liking,1
+2,0.4,"['Taste food', 'Determine that the food was not made to your liking']","['Wait for new food', 'Get the attention of a waiter']",Get the attention of a waiter,1
+3,0.6,"['Taste food', 'Determine that the food was not made to your liking', 'Get the attention of a waiter']","['Taste food', 'Ask the waiter to send the food back']",Ask the waiter to send the food back,1
+4,0.8,"['Taste food', 'Determine that the food was not made to your liking', 'Get the attention of a waiter', 'Ask the waiter to send the food back']","['Wait for new food', 'Taste food']",Wait for new food,0
+0,0.0,[],"['Enter restaurant', 'Enter restaurant']",Enter restaurant,1
+1,0.16666666666666666,['Enter restaurant'],"['Choose food items from menu', 'Be seated']",Be seated,1
+2,0.3333333333333333,"['Enter restaurant', 'Be seated']","['Look at the menu', 'Taste food or look at food']",Look at the menu,0
+3,0.5,"['Enter restaurant', 'Be seated', 'Look at the menu']","['Choose food items from menu', 'Taste food or look at food']",Choose food items from menu,0
+4,0.6666666666666666,"['Enter restaurant', 'Be seated', 'Look at the menu', 'Choose food items from menu']","['Order food from waiter', 'Enter restaurant']",Order food from waiter,0
+5,0.8333333333333334,"['Enter restaurant', 'Be seated', 'Look at the menu', 'Choose food items from menu', 'Order food from waiter']","['Be seated', 'Taste food or look at food']",Taste food or look at food,1
+0,0.0,[],"['Summon waiter.', 'Summon waiter.']",Summon waiter.,1
+1,0.16666666666666666,['Summon waiter.'],"['Politely describe the problem to the waiter.', 'Enjoy meal.']",Politely describe the problem to the waiter.,0
+2,0.3333333333333333,"['Summon waiter.', 'Politely describe the problem to the waiter.']","['Enjoy meal.', 'Return plate to waiter.']",Return plate to waiter.,1
+3,0.5,"['Summon waiter.', 'Politely describe the problem to the waiter.', 'Return plate to waiter.']","['Receive the recooked food.', 'Summon waiter.']",Receive the recooked food.,0
+4,0.6666666666666666,"['Summon waiter.', 'Politely describe the problem to the waiter.', 'Return plate to waiter.', 'Receive the recooked food.']","['Summon waiter.', 'examine to make sure problem is solved.']",examine to make sure problem is solved.,1
+5,0.8333333333333334,"['Summon waiter.', 'Politely describe the problem to the waiter.', 'Return plate to waiter.', 'Receive the recooked food.', 'examine to make sure problem is solved.']","['Summon waiter.', 'Enjoy meal.']",Enjoy meal.,1
+0,0.0,[],"['Dislike food', 'Call waiter over']",Dislike food,0
+1,0.16666666666666666,['Dislike food'],"['Call waiter over', 'Explain the problem']",Call waiter over,0
+2,0.3333333333333333,"['Dislike food', 'Call waiter over']","['Waiter comes to table', 'Ask to send food back']",Waiter comes to table,0
+3,0.5,"['Dislike food', 'Call waiter over', 'Waiter comes to table']","['Explain the problem', 'Ask to send food back']",Explain the problem,0
+4,0.6666666666666666,"['Dislike food', 'Call waiter over', 'Waiter comes to table', 'Explain the problem']","['Waiter apologizes', 'Call waiter over']",Waiter apologizes,0
+5,0.8333333333333334,"['Dislike food', 'Call waiter over', 'Waiter comes to table', 'Explain the problem', 'Waiter apologizes']","['Ask to send food back', 'Waiter comes to table']",Ask to send food back,0
+0,0.0,[],"['Explain to the waiter why you will not accept the food.', 'Receive your food.']",Receive your food.,1
+1,0.16666666666666666,['Receive your food.'],"['Give the food to the waiter.', 'Decide that you do not want the food.']",Decide that you do not want the food.,1
+2,0.3333333333333333,"['Receive your food.', 'Decide that you do not want the food.']","['When you see the waiter you call for them.', 'Give the food to the waiter.']",When you see the waiter you call for them.,0
+3,0.5,"['Receive your food.', 'Decide that you do not want the food.', 'When you see the waiter you call for them.']","['Receive new food.', 'Explain to the waiter why you will not accept the food.']",Explain to the waiter why you will not accept the food.,1
+4,0.6666666666666666,"['Receive your food.', 'Decide that you do not want the food.', 'When you see the waiter you call for them.', 'Explain to the waiter why you will not accept the food.']","['Give the food to the waiter.', 'Receive your food.']",Give the food to the waiter.,0
+5,0.8333333333333334,"['Receive your food.', 'Decide that you do not want the food.', 'When you see the waiter you call for them.', 'Explain to the waiter why you will not accept the food.', 'Give the food to the waiter.']","['Receive new food.', 'Receive your food.']",Receive new food.,0
+0,0.0,[],"['Call waitress over to your table.', 'Complain in a nice way about the food.']",Call waitress over to your table.,0
+1,0.16666666666666666,['Call waitress over to your table.'],"['Allow waitress to take food away.', 'Show waitress the problem with your food.']",Show waitress the problem with your food.,1
+2,0.3333333333333333,"['Call waitress over to your table.', 'Show waitress the problem with your food.']","['Wait on new food to arrive.', 'Complain in a nice way about the food.']",Complain in a nice way about the food.,1
+3,0.5,"['Call waitress over to your table.', 'Show waitress the problem with your food.', 'Complain in a nice way about the food.']","['Allow waitress to take food away.', 'Eat when new food arrives.']",Allow waitress to take food away.,0
+4,0.6666666666666666,"['Call waitress over to your table.', 'Show waitress the problem with your food.', 'Complain in a nice way about the food.', 'Allow waitress to take food away.']","['Call waitress over to your table.', 'Wait on new food to arrive.']",Wait on new food to arrive.,1
+5,0.8333333333333334,"['Call waitress over to your table.', 'Show waitress the problem with your food.', 'Complain in a nice way about the food.', 'Allow waitress to take food away.', 'Wait on new food to arrive.']","['Complain in a nice way about the food.', 'Eat when new food arrives.']",Eat when new food arrives.,1
+0,0.0,[],"['Politely inform your waiter you wood like to change your order', 'Politely inform your waiter you wood like to change your order']",Politely inform your waiter you wood like to change your order,0
+1,0.2,['Politely inform your waiter you wood like to change your order'],"['Give reason why', 'Politely inform your waiter you wood like to change your order']",Give reason why,0
+2,0.4,"['Politely inform your waiter you wood like to change your order', 'Give reason why']","['Wait patiently', 'enjoy new meal']",Wait patiently,0
+3,0.6,"['Politely inform your waiter you wood like to change your order', 'Give reason why', 'Wait patiently']","['Politely inform your waiter you wood like to change your order', 'When food arrives, continue to be polite']","When food arrives, continue to be polite",1
+4,0.8,"['Politely inform your waiter you wood like to change your order', 'Give reason why', 'Wait patiently', 'When food arrives, continue to be polite']","['Give reason why', 'enjoy new meal']",enjoy new meal,1
+0,0.0,[],"['Get your food', 'Flag down your waiter']",Get your food,0
+1,0.16666666666666666,['Get your food'],"['Have the waiter take it to the cooks to make it again', 'Find something wrong with it']",Find something wrong with it,1
+2,0.3333333333333333,"['Get your food', 'Find something wrong with it']","['Have the waiter take it to the cooks to make it again', 'Flag down your waiter']",Flag down your waiter,1
+3,0.5,"['Get your food', 'Find something wrong with it', 'Flag down your waiter']","['Get your food', 'Tell him what is wrong with your food']",Tell him what is wrong with your food,1
+4,0.6666666666666666,"['Get your food', 'Find something wrong with it', 'Flag down your waiter', 'Tell him what is wrong with your food']","['Have the waiter take it to the cooks to make it again', 'Get your food']",Have the waiter take it to the cooks to make it again,0
+5,0.8333333333333334,"['Get your food', 'Find something wrong with it', 'Flag down your waiter', 'Tell him what is wrong with your food', 'Have the waiter take it to the cooks to make it again']","['Tell the manager about it', 'Find something wrong with it']",Tell the manager about it,0
+0,0.0,[],"['Getting food', 'Getting food']",Getting food,0
+1,0.2,['Getting food'],"['Call waiter', ""Decide I don't want (like) food""]",Decide I don't want (like) food,1
+2,0.4,"['Getting food', ""Decide I don't want (like) food""]","['Call waiter', 'Watch it go']",Call waiter,0
+3,0.6,"['Getting food', ""Decide I don't want (like) food"", 'Call waiter']","[""Tell him I don't like it"", 'Getting food']",Tell him I don't like it,0
+4,0.8,"['Getting food', ""Decide I don't want (like) food"", 'Call waiter', ""Tell him I don't like it""]","['Watch it go', 'Getting food']",Watch it go,0
+0,0.0,[],"['Decide what is wrong with the food.', 'Decide what is wrong with the food.']",Decide what is wrong with the food.,1
+1,0.16666666666666666,['Decide what is wrong with the food.'],"['Tell the server how you would like them to take care of it.', 'Get the attention of the server.']",Get the attention of the server.,1
+2,0.3333333333333333,"['Decide what is wrong with the food.', 'Get the attention of the server.']","['Explain what is wrong with the food, politely.', 'Eat your meal.']","Explain what is wrong with the food, politely.",0
+3,0.5,"['Decide what is wrong with the food.', 'Get the attention of the server.', 'Explain what is wrong with the food, politely.']","['Decide what is wrong with the food.', 'Tell the server how you would like them to take care of it.']",Tell the server how you would like them to take care of it.,1
+4,0.6666666666666666,"['Decide what is wrong with the food.', 'Get the attention of the server.', 'Explain what is wrong with the food, politely.', 'Tell the server how you would like them to take care of it.']","['Wait for your new plate.', 'Decide what is wrong with the food.']",Wait for your new plate.,0
+5,0.8333333333333334,"['Decide what is wrong with the food.', 'Get the attention of the server.', 'Explain what is wrong with the food, politely.', 'Tell the server how you would like them to take care of it.', 'Wait for your new plate.']","['Decide what is wrong with the food.', 'Eat your meal.']",Eat your meal.,1
+0,0.0,[],"['Call the waiter', 'Call the waiter']",Call the waiter,0
+1,0.16666666666666666,['Call the waiter'],"['This not my order', 'Get it food back']",This not my order,0
+2,0.3333333333333333,"['Call the waiter', 'This not my order']","['Leave the restaurant', 'Order cancelled']",Order cancelled,1
+3,0.5,"['Call the waiter', 'This not my order', 'Order cancelled']","['Leave the restaurant', 'Get it food back']",Get it food back,1
+4,0.6666666666666666,"['Call the waiter', 'This not my order', 'Order cancelled', 'Get it food back']","['Return my money', 'Call the waiter']",Return my money,0
+5,0.8333333333333334,"['Call the waiter', 'This not my order', 'Order cancelled', 'Get it food back', 'Return my money']","['Leave the restaurant', 'This not my order']",Leave the restaurant,0
+0,0.0,[],"['Pick up plate', 'Call server']",Call server,1
+1,0.16666666666666666,['Call server'],"['Explain what is unsatisfactory', 'Thank server']",Explain what is unsatisfactory,0
+2,0.3333333333333333,"['Call server', 'Explain what is unsatisfactory']","['Explain what would be acceptable', 'Thank server']",Explain what would be acceptable,0
+3,0.5,"['Call server', 'Explain what is unsatisfactory', 'Explain what would be acceptable']","['Thank server', 'Pick up plate']",Pick up plate,1
+4,0.6666666666666666,"['Call server', 'Explain what is unsatisfactory', 'Explain what would be acceptable', 'Pick up plate']","['Hand plate to server', 'Explain what is unsatisfactory']",Hand plate to server,0
+5,0.8333333333333334,"['Call server', 'Explain what is unsatisfactory', 'Explain what would be acceptable', 'Pick up plate', 'Hand plate to server']","['Thank server', 'Explain what would be acceptable']",Thank server,0
+0,0.0,[],"['Determine what is wrong with the food', 'Get the attention of a waiter/waitress']",Determine what is wrong with the food,0
+1,0.16666666666666666,['Determine what is wrong with the food'],"['Determine what is wrong with the food', 'Get the attention of a waiter/waitress']",Get the attention of a waiter/waitress,1
+2,0.3333333333333333,"['Determine what is wrong with the food', 'Get the attention of a waiter/waitress']","['Explain to waiter/waitress what the problem is', 'Send food back to the kitchen via the waiter/waitress']",Explain to waiter/waitress what the problem is,0
+3,0.5,"['Determine what is wrong with the food', 'Get the attention of a waiter/waitress', 'Explain to waiter/waitress what the problem is']","['Determine what is wrong with the food', 'Ask waiter/waitress to have problem corrected']",Ask waiter/waitress to have problem corrected,1
+4,0.6666666666666666,"['Determine what is wrong with the food', 'Get the attention of a waiter/waitress', 'Explain to waiter/waitress what the problem is', 'Ask waiter/waitress to have problem corrected']","['Determine what is wrong with the food', 'Send food back to the kitchen via the waiter/waitress']",Send food back to the kitchen via the waiter/waitress,1
+5,0.8333333333333334,"['Determine what is wrong with the food', 'Get the attention of a waiter/waitress', 'Explain to waiter/waitress what the problem is', 'Ask waiter/waitress to have problem corrected', 'Send food back to the kitchen via the waiter/waitress']","['Explain to waiter/waitress what the problem is', 'Wait for new plate of food to be returned']",Wait for new plate of food to be returned,1
+0,0.0,[],"['Order food', 'Receive food']",Order food,0
+1,0.16666666666666666,['Order food'],"['Order food', 'Receive food']",Receive food,1
+2,0.3333333333333333,"['Order food', 'Receive food']","['If yes, enjoy your meal. If not, go to step 7.', 'Look at food: is it the correct food, and correctly prepared?']","Look at food: is it the correct food, and correctly prepared?",1
+3,0.5,"['Order food', 'Receive food', 'Look at food: is it the correct food, and correctly prepared?']","['If it is, go to step five. If not, go to step 7.', 'Order food']","If it is, go to step five. If not, go to step 7.",0
+4,0.6666666666666666,"['Order food', 'Receive food', 'Look at food: is it the correct food, and correctly prepared?', 'If it is, go to step five. If not, go to step 7.']","['Taste food: does it taste satisfactory?', 'Receive food']",Taste food: does it taste satisfactory?,0
+5,0.8333333333333334,"['Order food', 'Receive food', 'Look at food: is it the correct food, and correctly prepared?', 'If it is, go to step five. If not, go to step 7.', 'Taste food: does it taste satisfactory?']","['Look at food: is it the correct food, and correctly prepared?', 'If yes, enjoy your meal. If not, go to step 7.']","If yes, enjoy your meal. If not, go to step 7.",1
+0,0.0,[],"[""Get waiter's attention"", ""Get waiter's attention""]",Get waiter's attention,1
+1,0.16666666666666666,"[""Get waiter's attention""]","['Explain that food was not as expected', ""Get waiter's attention""]",Explain that food was not as expected,0
+2,0.3333333333333333,"[""Get waiter's attention"", 'Explain that food was not as expected']","['Agree for waiter to walk back into the kitchen with the plate.', 'Express desire to have different food brought out']",Express desire to have different food brought out,1
+3,0.5,"[""Get waiter's attention"", 'Explain that food was not as expected', 'Express desire to have different food brought out']","['Tell waiter that you do not wish to eat the food that you have', 'Agree for waiter to walk back into the kitchen with the plate.']",Tell waiter that you do not wish to eat the food that you have,0
+4,0.6666666666666666,"[""Get waiter's attention"", 'Explain that food was not as expected', 'Express desire to have different food brought out', 'Tell waiter that you do not wish to eat the food that you have']","[""Get waiter's attention"", 'Hand plate to waiter']",Hand plate to waiter,1
+5,0.8333333333333334,"[""Get waiter's attention"", 'Explain that food was not as expected', 'Express desire to have different food brought out', 'Tell waiter that you do not wish to eat the food that you have', 'Hand plate to waiter']","['Agree for waiter to walk back into the kitchen with the plate.', ""Get waiter's attention""]",Agree for waiter to walk back into the kitchen with the plate.,0
+0,0.0,[],"['Tell waiter food is not to expectation', 'Order food from a restaurant']",Order food from a restaurant,1
+1,0.16666666666666666,['Order food from a restaurant'],"['Tell waiter food is not to expectation', 'Decide food is not what you wanted/how you wanted it']",Decide food is not what you wanted/how you wanted it,1
+2,0.3333333333333333,"['Order food from a restaurant', 'Decide food is not what you wanted/how you wanted it']","['Wait for problem to be resolved', 'Tell waiter food is not to expectation']",Tell waiter food is not to expectation,1
+3,0.5,"['Order food from a restaurant', 'Decide food is not what you wanted/how you wanted it', 'Tell waiter food is not to expectation']","['Explain what problem is', 'Order food from a restaurant']",Explain what problem is,0
+4,0.6666666666666666,"['Order food from a restaurant', 'Decide food is not what you wanted/how you wanted it', 'Tell waiter food is not to expectation', 'Explain what problem is']","['Explain what you want to be done', 'Order food from a restaurant']",Explain what you want to be done,0
+5,0.8333333333333334,"['Order food from a restaurant', 'Decide food is not what you wanted/how you wanted it', 'Tell waiter food is not to expectation', 'Explain what problem is', 'Explain what you want to be done']","['Wait for problem to be resolved', 'Tell waiter food is not to expectation']",Wait for problem to be resolved,0
+0,0.0,[],"['asses the food', 'politely ask the them fix the issue with your food order']",asses the food,0
+1,0.16666666666666666,['asses the food'],"['hand over the food if necessary', 'call over the server']",call over the server,1
+2,0.3333333333333333,"['asses the food', 'call over the server']","['wait for your order to come back', 'politely ask the them fix the issue with your food order']",politely ask the them fix the issue with your food order,1
+3,0.5,"['asses the food', 'call over the server', 'politely ask the them fix the issue with your food order']","['respond to any more questions politely', 'asses the food']",respond to any more questions politely,0
+4,0.6666666666666666,"['asses the food', 'call over the server', 'politely ask the them fix the issue with your food order', 'respond to any more questions politely']","['call over the server', 'hand over the food if necessary']",hand over the food if necessary,1
+5,0.8333333333333334,"['asses the food', 'call over the server', 'politely ask the them fix the issue with your food order', 'respond to any more questions politely', 'hand over the food if necessary']","['wait for your order to come back', 'call over the server']",wait for your order to come back,0
+0,0.0,[],"['Ask that food be sent back', 'Ask waiter to come over']",Ask waiter to come over,1
+1,0.16666666666666666,['Ask waiter to come over'],"['Politely tell waiter what is wrong with food ordered', 'thank the waiter']",Politely tell waiter what is wrong with food ordered,0
+2,0.3333333333333333,"['Ask waiter to come over', 'Politely tell waiter what is wrong with food ordered']","['Ask that food be sent back', 'enjoy new food']",Ask that food be sent back,0
+3,0.5,"['Ask waiter to come over', 'Politely tell waiter what is wrong with food ordered', 'Ask that food be sent back']","['Wait for right order of food to return', 'Ask waiter to come over']",Wait for right order of food to return,0
+4,0.6666666666666666,"['Ask waiter to come over', 'Politely tell waiter what is wrong with food ordered', 'Ask that food be sent back', 'Wait for right order of food to return']","['Ask waiter to come over', 'thank the waiter']",thank the waiter,1
+5,0.8333333333333334,"['Ask waiter to come over', 'Politely tell waiter what is wrong with food ordered', 'Ask that food be sent back', 'Wait for right order of food to return', 'thank the waiter']","['Ask that food be sent back', 'enjoy new food']",enjoy new food,1
+0,0.0,[],"['Discover what is wrong.', 'Let them know you appreciate their understanding.']",Discover what is wrong.,0
+1,0.2,['Discover what is wrong.'],"['Ask for a manager.', 'Ask for a manager.']",Ask for a manager.,0
+2,0.4,"['Discover what is wrong.', 'Ask for a manager.']","['Excuse yourself.', 'Let them know you appreciate their understanding.']",Excuse yourself.,0
+3,0.6,"['Discover what is wrong.', 'Ask for a manager.', 'Excuse yourself.']","['Discover what is wrong.', 'Ask for it to be remade.']",Ask for it to be remade.,1
+4,0.8,"['Discover what is wrong.', 'Ask for a manager.', 'Excuse yourself.', 'Ask for it to be remade.']","['Ask for a manager.', 'Let them know you appreciate their understanding.']",Let them know you appreciate their understanding.,1
+0,0.0,[],"['Ask yourself what is wrong with the food.', 'Get the waiters attention.']",Ask yourself what is wrong with the food.,0
+1,0.16666666666666666,['Ask yourself what is wrong with the food.'],"['Get the waiters attention.', 'Ask yourself what is wrong with the food.']",Get the waiters attention.,0
+2,0.3333333333333333,"['Ask yourself what is wrong with the food.', 'Get the waiters attention.']","['Wait for the new meal', 'Explain to the waiter your problem with the food']",Explain to the waiter your problem with the food,1
+3,0.5,"['Ask yourself what is wrong with the food.', 'Get the waiters attention.', 'Explain to the waiter your problem with the food']","['Wait for the new meal', 'Ask for a new meal']",Ask for a new meal,1
+4,0.6666666666666666,"['Ask yourself what is wrong with the food.', 'Get the waiters attention.', 'Explain to the waiter your problem with the food', 'Ask for a new meal']","['Give the waiter your plate of food', 'Get the waiters attention.']",Give the waiter your plate of food,0
+5,0.8333333333333334,"['Ask yourself what is wrong with the food.', 'Get the waiters attention.', 'Explain to the waiter your problem with the food', 'Ask for a new meal', 'Give the waiter your plate of food']","['Explain to the waiter your problem with the food', 'Wait for the new meal']",Wait for the new meal,1
+0,0.0,[],"['try food', 'try food']",try food,1
+1,0.16666666666666666,['try food'],"['call for waiter', 'call for waiter']",call for waiter,1
+2,0.3333333333333333,"['try food', 'call for waiter']","['explain to waiter the issue', 'try food']",explain to waiter the issue,0
+3,0.5,"['try food', 'call for waiter', 'explain to waiter the issue']","['try food', 'pray cook doesnt spit in food']",pray cook doesnt spit in food,1
+4,0.6666666666666666,"['try food', 'call for waiter', 'explain to waiter the issue', 'pray cook doesnt spit in food']","['try food', 'wait for food']",wait for food,1
+5,0.8333333333333334,"['try food', 'call for waiter', 'explain to waiter the issue', 'pray cook doesnt spit in food', 'wait for food']","['try food', 'explain to waiter the issue']",try food,0

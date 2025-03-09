@@ -1,0 +1,697 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Scrape off any large chunks of food from the plate.', 'Scrub the dishes to make sure no food is sticking to them.']",Scrape off any large chunks of food from the plate.,0
+1,0.125,['Scrape off any large chunks of food from the plate.'],"['Submerge the dishes in warm water.', 'Submerge the dishes in warm water.']",Submerge the dishes in warm water.,0
+2,0.25,"['Scrape off any large chunks of food from the plate.', 'Submerge the dishes in warm water.']","['Add dish soap to the warm water.', 'Leave the dishes on the counter on top of the cloth (or on a dish rack) to dry']",Add dish soap to the warm water.,0
+3,0.375,"['Scrape off any large chunks of food from the plate.', 'Submerge the dishes in warm water.', 'Add dish soap to the warm water.']","['Let the dishes soak for about 15-30 mins.', 'Scrape off any large chunks of food from the plate.']",Let the dishes soak for about 15-30 mins.,0
+4,0.5,"['Scrape off any large chunks of food from the plate.', 'Submerge the dishes in warm water.', 'Add dish soap to the warm water.', 'Let the dishes soak for about 15-30 mins.']","['Scrub the dishes to make sure no food is sticking to them.', 'Gently dry the dishes with a dish cloth.']",Scrub the dishes to make sure no food is sticking to them.,0
+5,0.625,"['Scrape off any large chunks of food from the plate.', 'Submerge the dishes in warm water.', 'Add dish soap to the warm water.', 'Let the dishes soak for about 15-30 mins.', 'Scrub the dishes to make sure no food is sticking to them.']","['Submerge the dishes in warm water.', 'Rinse the dishes under water to clean off the soap and any other food particles.']",Rinse the dishes under water to clean off the soap and any other food particles.,1
+6,0.75,"['Scrape off any large chunks of food from the plate.', 'Submerge the dishes in warm water.', 'Add dish soap to the warm water.', 'Let the dishes soak for about 15-30 mins.', 'Scrub the dishes to make sure no food is sticking to them.', 'Rinse the dishes under water to clean off the soap and any other food particles.']","['Submerge the dishes in warm water.', 'Gently dry the dishes with a dish cloth.']",Gently dry the dishes with a dish cloth.,1
+7,0.875,"['Scrape off any large chunks of food from the plate.', 'Submerge the dishes in warm water.', 'Add dish soap to the warm water.', 'Let the dishes soak for about 15-30 mins.', 'Scrub the dishes to make sure no food is sticking to them.', 'Rinse the dishes under water to clean off the soap and any other food particles.', 'Gently dry the dishes with a dish cloth.']","['Leave the dishes on the counter on top of the cloth (or on a dish rack) to dry', 'Add dish soap to the warm water.']",Leave the dishes on the counter on top of the cloth (or on a dish rack) to dry,0
+0,0.0,[],"['Get dirty dishes', 'Put dishes in the sink']",Get dirty dishes,0
+1,0.14285714285714285,['Get dirty dishes'],"['Put dishes in the sink', 'Put dishes in the sink']",Put dishes in the sink,0
+2,0.2857142857142857,"['Get dirty dishes', 'Put dishes in the sink']","['Plug the drain of sink', 'Use sponge to wash dishes']",Plug the drain of sink,0
+3,0.42857142857142855,"['Get dirty dishes', 'Put dishes in the sink', 'Plug the drain of sink']","['Rinse dishes off', 'Fill sink with water and dish soap']",Fill sink with water and dish soap,1
+4,0.5714285714285714,"['Get dirty dishes', 'Put dishes in the sink', 'Plug the drain of sink', 'Fill sink with water and dish soap']","['Use sponge to wash dishes', 'Get dirty dishes']",Use sponge to wash dishes,0
+5,0.7142857142857143,"['Get dirty dishes', 'Put dishes in the sink', 'Plug the drain of sink', 'Fill sink with water and dish soap', 'Use sponge to wash dishes']","['Rinse dishes off', 'Put dishes in the sink']",Rinse dishes off,0
+6,0.8571428571428571,"['Get dirty dishes', 'Put dishes in the sink', 'Plug the drain of sink', 'Fill sink with water and dish soap', 'Use sponge to wash dishes', 'Rinse dishes off']","['Place dishes in rack to dry', 'Fill sink with water and dish soap']",Place dishes in rack to dry,0
+0,0.0,[],"['Fill the sink with water and soap', 'Scrape dishes']",Scrape dishes,1
+1,0.14285714285714285,['Scrape dishes'],"['Get a washcloth', 'Fill the sink with water and soap']",Fill the sink with water and soap,1
+2,0.2857142857142857,"['Scrape dishes', 'Fill the sink with water and soap']","['Get a washcloth', 'Rinse each dish']",Get a washcloth,0
+3,0.42857142857142855,"['Scrape dishes', 'Fill the sink with water and soap', 'Get a washcloth']","['Wash each dish', 'Let dry']",Wash each dish,0
+4,0.5714285714285714,"['Scrape dishes', 'Fill the sink with water and soap', 'Get a washcloth', 'Wash each dish']","['Rinse each dish', 'Fill the sink with water and soap']",Rinse each dish,0
+5,0.7142857142857143,"['Scrape dishes', 'Fill the sink with water and soap', 'Get a washcloth', 'Wash each dish', 'Rinse each dish']","['Get a washcloth', 'Let dry']",Let dry,1
+6,0.8571428571428571,"['Scrape dishes', 'Fill the sink with water and soap', 'Get a washcloth', 'Wash each dish', 'Rinse each dish', 'Let dry']","['Scrape dishes', 'Put dishes away when dry']",Put dishes away when dry,1
+0,0.0,[],"['place clean dishes in rack to air dry', 'take dirty dishes to sink']",take dirty dishes to sink,1
+1,0.16666666666666666,['take dirty dishes to sink'],"['run warm water into sink', 'rinse dishes']",run warm water into sink,0
+2,0.3333333333333333,"['take dirty dishes to sink', 'run warm water into sink']","['place clean dishes in rack to air dry', 'add soap']",add soap,1
+3,0.5,"['take dirty dishes to sink', 'run warm water into sink', 'add soap']","['place clean dishes in rack to air dry', 'scrub dishes with scrubber to remove food stains']",scrub dishes with scrubber to remove food stains,1
+4,0.6666666666666666,"['take dirty dishes to sink', 'run warm water into sink', 'add soap', 'scrub dishes with scrubber to remove food stains']","['take dirty dishes to sink', 'rinse dishes']",rinse dishes,1
+5,0.8333333333333334,"['take dirty dishes to sink', 'run warm water into sink', 'add soap', 'scrub dishes with scrubber to remove food stains', 'rinse dishes']","['place clean dishes in rack to air dry', 'add soap']",place clean dishes in rack to air dry,0
+0,0.0,[],"['Scrub dish with soapy sponge', 'Turn on water']",Turn on water,1
+1,0.125,['Turn on water'],"['Scrub dish with soapy sponge', 'Add soap to water']",Add soap to water,1
+2,0.25,"['Turn on water', 'Add soap to water']","['Wet sponge', 'Scrub dish with soapy sponge']",Wet sponge,0
+3,0.375,"['Turn on water', 'Add soap to water', 'Wet sponge']","['Pick up dirty dish', 'Turn on water']",Pick up dirty dish,0
+4,0.5,"['Turn on water', 'Add soap to water', 'Wet sponge', 'Pick up dirty dish']","['Scrub dish with soapy sponge', 'Repeat for all dishes']",Scrub dish with soapy sponge,0
+5,0.625,"['Turn on water', 'Add soap to water', 'Wet sponge', 'Pick up dirty dish', 'Scrub dish with soapy sponge']","['Rinse soap off dish', 'Wet sponge']",Rinse soap off dish,0
+6,0.75,"['Turn on water', 'Add soap to water', 'Wet sponge', 'Pick up dirty dish', 'Scrub dish with soapy sponge', 'Rinse soap off dish']","['Place dish in holder to dry', 'Turn on water']",Place dish in holder to dry,0
+7,0.875,"['Turn on water', 'Add soap to water', 'Wet sponge', 'Pick up dirty dish', 'Scrub dish with soapy sponge', 'Rinse soap off dish', 'Place dish in holder to dry']","['Repeat for all dishes', 'Turn on water']",Repeat for all dishes,0
+0,0.0,[],"['Drain sink', 'Put dirty dishes in sink']",Put dirty dishes in sink,1
+1,0.125,['Put dirty dishes in sink'],"['Put soap on dishes', 'Turn on water']",Turn on water,1
+2,0.25,"['Put dirty dishes in sink', 'Turn on water']","['Scrub dishes', 'Fill sink with water']",Fill sink with water,1
+3,0.375,"['Put dirty dishes in sink', 'Turn on water', 'Fill sink with water']","['Put soap on dishes', 'Rinse dishes']",Put soap on dishes,0
+4,0.5,"['Put dirty dishes in sink', 'Turn on water', 'Fill sink with water', 'Put soap on dishes']","['Turn on water', 'Scrub dishes']",Scrub dishes,1
+5,0.625,"['Put dirty dishes in sink', 'Turn on water', 'Fill sink with water', 'Put soap on dishes', 'Scrub dishes']","['Drain sink', 'Get towel']",Drain sink,0
+6,0.75,"['Put dirty dishes in sink', 'Turn on water', 'Fill sink with water', 'Put soap on dishes', 'Scrub dishes', 'Drain sink']","['Put soap on dishes', 'Rinse dishes']",Rinse dishes,1
+7,0.875,"['Put dirty dishes in sink', 'Turn on water', 'Fill sink with water', 'Put soap on dishes', 'Scrub dishes', 'Drain sink', 'Rinse dishes']","['Get towel', 'Put dirty dishes in sink']",Get towel,0
+0,0.0,[],"['Get a scouring pad', 'Clean all the dishes in the sink']",Get a scouring pad,0
+1,0.2,['Get a scouring pad'],"['Use the scouring pad too clean the plates', 'Get the dish-washing liquid']",Get the dish-washing liquid,1
+2,0.4,"['Get a scouring pad', 'Get the dish-washing liquid']","['Pour the dish-washing liquid into the scouring pad', 'Clean all the dishes in the sink']",Pour the dish-washing liquid into the scouring pad,0
+3,0.6,"['Get a scouring pad', 'Get the dish-washing liquid', 'Pour the dish-washing liquid into the scouring pad']","['Get a scouring pad', 'Use the scouring pad too clean the plates']",Use the scouring pad too clean the plates,1
+4,0.8,"['Get a scouring pad', 'Get the dish-washing liquid', 'Pour the dish-washing liquid into the scouring pad', 'Use the scouring pad too clean the plates']","['Clean all the dishes in the sink', 'Get a scouring pad']",Clean all the dishes in the sink,0
+0,0.0,[],"['Go to sink', 'Go to sink']",Go to sink,1
+1,0.125,['Go to sink'],"['Add soap', 'Get soap']",Get soap,1
+2,0.25,"['Go to sink', 'Get soap']","['Get rag', 'Add soap']",Get rag,0
+3,0.375,"['Go to sink', 'Get soap', 'Get rag']","['Wash all of the dishes', 'Turn on water to fill sink']",Turn on water to fill sink,1
+4,0.5,"['Go to sink', 'Get soap', 'Get rag', 'Turn on water to fill sink']","['Get soap', 'Add soap']",Add soap,1
+5,0.625,"['Go to sink', 'Get soap', 'Get rag', 'Turn on water to fill sink', 'Add soap']","['Rinse and wipe', 'Wash all of the dishes']",Wash all of the dishes,1
+6,0.75,"['Go to sink', 'Get soap', 'Get rag', 'Turn on water to fill sink', 'Add soap', 'Wash all of the dishes']","['Turn on water to fill sink', 'Drain water']",Drain water,1
+7,0.875,"['Go to sink', 'Get soap', 'Get rag', 'Turn on water to fill sink', 'Add soap', 'Wash all of the dishes', 'Drain water']","['Rinse and wipe', 'Get soap']",Rinse and wipe,0
+0,0.0,[],"['Take the dish washing sponge', 'Put the oiled dishes in the sink']",Put the oiled dishes in the sink,1
+1,0.125,['Put the oiled dishes in the sink'],"['Take dish washer', 'Fill the other sink with water']",Fill the other sink with water,1
+2,0.25,"['Put the oiled dishes in the sink', 'Fill the other sink with water']","['Take dish washer', 'Soak it with dish washer']",Take dish washer,0
+3,0.375,"['Put the oiled dishes in the sink', 'Fill the other sink with water', 'Take dish washer']","['Put the washed dishes in drying rack', 'Take the dish washing sponge']",Take the dish washing sponge,1
+4,0.5,"['Put the oiled dishes in the sink', 'Fill the other sink with water', 'Take dish washer', 'Take the dish washing sponge']","['Put the washed dishes in drying rack', 'Soak it with dish washer']",Soak it with dish washer,1
+5,0.625,"['Put the oiled dishes in the sink', 'Fill the other sink with water', 'Take dish washer', 'Take the dish washing sponge', 'Soak it with dish washer']","['Take dish washer', 'Rub the oiled dishes']",Rub the oiled dishes,1
+6,0.75,"['Put the oiled dishes in the sink', 'Fill the other sink with water', 'Take dish washer', 'Take the dish washing sponge', 'Soak it with dish washer', 'Rub the oiled dishes']","['Fill the other sink with water', 'Rinse the dishes']",Rinse the dishes,1
+7,0.875,"['Put the oiled dishes in the sink', 'Fill the other sink with water', 'Take dish washer', 'Take the dish washing sponge', 'Soak it with dish washer', 'Rub the oiled dishes', 'Rinse the dishes']","['Take dish washer', 'Put the washed dishes in drying rack']",Put the washed dishes in drying rack,1
+0,0.0,[],"['draw warm water', 'draw warm water']",draw warm water,0
+1,0.16666666666666666,['draw warm water'],"['add dish soap', 'towel dry']",add dish soap,0
+2,0.3333333333333333,"['draw warm water', 'add dish soap']","['for each dish, dip in soapy water', 'rinse under running water']","for each dish, dip in soapy water",0
+3,0.5,"['draw warm water', 'add dish soap', 'for each dish, dip in soapy water']","['towel dry', 'scrub with sponge']",scrub with sponge,1
+4,0.6666666666666666,"['draw warm water', 'add dish soap', 'for each dish, dip in soapy water', 'scrub with sponge']","['rinse under running water', 'add dish soap']",rinse under running water,0
+5,0.8333333333333334,"['draw warm water', 'add dish soap', 'for each dish, dip in soapy water', 'scrub with sponge', 'rinse under running water']","['towel dry', 'add dish soap']",towel dry,0
+0,0.0,[],"['Put dirty dishes in sink', 'Rinse dishes off with clean water']",Put dirty dishes in sink,0
+1,0.125,['Put dirty dishes in sink'],"['Retrieve sponge', 'Moisten sponge']",Retrieve sponge,0
+2,0.25,"['Put dirty dishes in sink', 'Retrieve sponge']","['Squirt dish soap on sponge', 'Moisten sponge']",Squirt dish soap on sponge,0
+3,0.375,"['Put dirty dishes in sink', 'Retrieve sponge', 'Squirt dish soap on sponge']","['Turn on water', 'Put dirty dishes in sink']",Turn on water,0
+4,0.5,"['Put dirty dishes in sink', 'Retrieve sponge', 'Squirt dish soap on sponge', 'Turn on water']","['Moisten sponge', 'Rinse dishes off with clean water']",Moisten sponge,0
+5,0.625,"['Put dirty dishes in sink', 'Retrieve sponge', 'Squirt dish soap on sponge', 'Turn on water', 'Moisten sponge']","['Rinse sponge', 'Scrub dishes']",Scrub dishes,1
+6,0.75,"['Put dirty dishes in sink', 'Retrieve sponge', 'Squirt dish soap on sponge', 'Turn on water', 'Moisten sponge', 'Scrub dishes']","['Rinse dishes off with clean water', 'Turn on water']",Rinse dishes off with clean water,0
+7,0.875,"['Put dirty dishes in sink', 'Retrieve sponge', 'Squirt dish soap on sponge', 'Turn on water', 'Moisten sponge', 'Scrub dishes', 'Rinse dishes off with clean water']","['Turn on water', 'Rinse sponge']",Rinse sponge,1
+0,0.0,[],"['Grab dirty dishes', 'Put soap on dishes']",Grab dirty dishes,0
+1,0.16666666666666666,['Grab dirty dishes'],"['Place dishes in sink', 'Grab dirty dishes']",Place dishes in sink,0
+2,0.3333333333333333,"['Grab dirty dishes', 'Place dishes in sink']","['Dry dishes with a towel', 'Turn on water']",Turn on water,1
+3,0.5,"['Grab dirty dishes', 'Place dishes in sink', 'Turn on water']","['Dry dishes with a towel', 'Put soap on dishes']",Put soap on dishes,1
+4,0.6666666666666666,"['Grab dirty dishes', 'Place dishes in sink', 'Turn on water', 'Put soap on dishes']","['Place dishes in sink', 'Scrub dishes with a sponge']",Scrub dishes with a sponge,1
+5,0.8333333333333334,"['Grab dirty dishes', 'Place dishes in sink', 'Turn on water', 'Put soap on dishes', 'Scrub dishes with a sponge']","['Grab dirty dishes', 'Dry dishes with a towel']",Dry dishes with a towel,1
+0,0.0,[],"['Get a container large enough for dishes of hot water', 'Put all dishes in the container']",Get a container large enough for dishes of hot water,0
+1,0.16666666666666666,['Get a container large enough for dishes of hot water'],"['Put dishes in drying rack', 'Add soap']",Add soap,1
+2,0.3333333333333333,"['Get a container large enough for dishes of hot water', 'Add soap']","['Put all dishes in the container', 'Rinse off soap']",Put all dishes in the container,0
+3,0.5,"['Get a container large enough for dishes of hot water', 'Add soap', 'Put all dishes in the container']","['Scrub all the stuck on stuff off dishes', 'Put dishes in drying rack']",Scrub all the stuck on stuff off dishes,0
+4,0.6666666666666666,"['Get a container large enough for dishes of hot water', 'Add soap', 'Put all dishes in the container', 'Scrub all the stuck on stuff off dishes']","['Get a container large enough for dishes of hot water', 'Rinse off soap']",Rinse off soap,1
+5,0.8333333333333334,"['Get a container large enough for dishes of hot water', 'Add soap', 'Put all dishes in the container', 'Scrub all the stuck on stuff off dishes', 'Rinse off soap']","['Put dishes in drying rack', 'Put all dishes in the container']",Put dishes in drying rack,0
+0,0.0,[],"['We clean all the dirtier items', 'Please help me to give the dishwasher']",Please help me to give the dishwasher,1
+1,0.16666666666666666,['Please help me to give the dishwasher'],"['Fill the sink with the hot water', 'Fill the sink with the hot water']",Fill the sink with the hot water,1
+2,0.3333333333333333,"['Please help me to give the dishwasher', 'Fill the sink with the hot water']","['Sock pots and pans', 'Pour more water to clean all the dishes']",Sock pots and pans,0
+3,0.5,"['Please help me to give the dishwasher', 'Fill the sink with the hot water', 'Sock pots and pans']","['Please come and help me to dry the dishes', 'Pour more water to clean all the dishes']",Please come and help me to dry the dishes,0
+4,0.6666666666666666,"['Please help me to give the dishwasher', 'Fill the sink with the hot water', 'Sock pots and pans', 'Please come and help me to dry the dishes']","['We clean all the dirtier items', 'Please help me to give the dishwasher']",We clean all the dirtier items,0
+5,0.8333333333333334,"['Please help me to give the dishwasher', 'Fill the sink with the hot water', 'Sock pots and pans', 'Please come and help me to dry the dishes', 'We clean all the dirtier items']","['Sock pots and pans', 'Pour more water to clean all the dishes']",Pour more water to clean all the dishes,1
+0,0.0,[],"['Add dish soap', 'Get dish soap']",Get dish soap,1
+1,0.125,['Get dish soap'],"['Use towels to clean dishes', 'Get dish towels']",Get dish towels,1
+2,0.25,"['Get dish soap', 'Get dish towels']","['Place dishes in hot water', 'Run hot water']",Run hot water,1
+3,0.375,"['Get dish soap', 'Get dish towels', 'Run hot water']","['Use towels to clean dishes', 'Add dish soap']",Add dish soap,1
+4,0.5,"['Get dish soap', 'Get dish towels', 'Run hot water', 'Add dish soap']","['Place dishes in hot water', 'Get dish soap']",Place dishes in hot water,0
+5,0.625,"['Get dish soap', 'Get dish towels', 'Run hot water', 'Add dish soap', 'Place dishes in hot water']","['Get dish towels', 'Use towels to clean dishes']",Use towels to clean dishes,1
+6,0.75,"['Get dish soap', 'Get dish towels', 'Run hot water', 'Add dish soap', 'Place dishes in hot water', 'Use towels to clean dishes']","['Add dish soap', 'Rinse with water from faucet']",Rinse with water from faucet,1
+7,0.875,"['Get dish soap', 'Get dish towels', 'Run hot water', 'Add dish soap', 'Place dishes in hot water', 'Use towels to clean dishes', 'Rinse with water from faucet']","[' Place on dry rack', 'Get dish towels']", Place on dry rack,0
+0,0.0,[],"['Wipe the dishes for dry with a dry cloth.', 'Washing dishes is a major work done in houses, restaurant and all eatable place.']","Washing dishes is a major work done in houses, restaurant and all eatable place.",1
+1,0.125,"['Washing dishes is a major work done in houses, restaurant and all eatable place.']","['On account of the dishes to be cleaned take enough liquid.', 'First take cleaning liquid in a bowl.']",First take cleaning liquid in a bowl.,1
+2,0.25,"['Washing dishes is a major work done in houses, restaurant and all eatable place.', 'First take cleaning liquid in a bowl.']","['On account of the dishes to be cleaned take enough liquid.', 'Then take each and every dish clean with spongy filled with cleaning liquid.']",On account of the dishes to be cleaned take enough liquid.,0
+3,0.375,"['Washing dishes is a major work done in houses, restaurant and all eatable place.', 'First take cleaning liquid in a bowl.', 'On account of the dishes to be cleaned take enough liquid.']","['Arrange all the dishes in the stand or preferred place', 'First pour some water on the dishes so that food particles etc., will run off.']","First pour some water on the dishes so that food particles etc., will run off.",1
+4,0.5,"['Washing dishes is a major work done in houses, restaurant and all eatable place.', 'First take cleaning liquid in a bowl.', 'On account of the dishes to be cleaned take enough liquid.', 'First pour some water on the dishes so that food particles etc., will run off.']","['Then take each and every dish clean with spongy filled with cleaning liquid.', 'Washing dishes is a major work done in houses, restaurant and all eatable place.']",Then take each and every dish clean with spongy filled with cleaning liquid.,0
+5,0.625,"['Washing dishes is a major work done in houses, restaurant and all eatable place.', 'First take cleaning liquid in a bowl.', 'On account of the dishes to be cleaned take enough liquid.', 'First pour some water on the dishes so that food particles etc., will run off.', 'Then take each and every dish clean with spongy filled with cleaning liquid.']","['Wash the dish till cleaning liquid goes.', 'First take cleaning liquid in a bowl.']",Wash the dish till cleaning liquid goes.,0
+6,0.75,"['Washing dishes is a major work done in houses, restaurant and all eatable place.', 'First take cleaning liquid in a bowl.', 'On account of the dishes to be cleaned take enough liquid.', 'First pour some water on the dishes so that food particles etc., will run off.', 'Then take each and every dish clean with spongy filled with cleaning liquid.', 'Wash the dish till cleaning liquid goes.']","['Wipe the dishes for dry with a dry cloth.', 'First pour some water on the dishes so that food particles etc., will run off.']",Wipe the dishes for dry with a dry cloth.,0
+7,0.875,"['Washing dishes is a major work done in houses, restaurant and all eatable place.', 'First take cleaning liquid in a bowl.', 'On account of the dishes to be cleaned take enough liquid.', 'First pour some water on the dishes so that food particles etc., will run off.', 'Then take each and every dish clean with spongy filled with cleaning liquid.', 'Wash the dish till cleaning liquid goes.', 'Wipe the dishes for dry with a dry cloth.']","['First take cleaning liquid in a bowl.', 'Arrange all the dishes in the stand or preferred place']",Arrange all the dishes in the stand or preferred place,1
+0,0.0,[],"['scrap off any food', 'put dishes in sink']",put dishes in sink,1
+1,0.14285714285714285,['put dishes in sink'],"['scrap off any food', 'scrap off any food']",scrap off any food,1
+2,0.2857142857142857,"['put dishes in sink', 'scrap off any food']","['take clean dishes out and put away in cabinet', 'rinse any grease or sticky stuff']",rinse any grease or sticky stuff,1
+3,0.42857142857142855,"['put dishes in sink', 'scrap off any food', 'rinse any grease or sticky stuff']","['run dishwasher', 'put dishes in dishwasher']",put dishes in dishwasher,1
+4,0.5714285714285714,"['put dishes in sink', 'scrap off any food', 'rinse any grease or sticky stuff', 'put dishes in dishwasher']","['add dish soap', 'put dishes in sink']",add dish soap,0
+5,0.7142857142857143,"['put dishes in sink', 'scrap off any food', 'rinse any grease or sticky stuff', 'put dishes in dishwasher', 'add dish soap']","['rinse any grease or sticky stuff', 'run dishwasher']",run dishwasher,1
+6,0.8571428571428571,"['put dishes in sink', 'scrap off any food', 'rinse any grease or sticky stuff', 'put dishes in dishwasher', 'add dish soap', 'run dishwasher']","['take clean dishes out and put away in cabinet', 'put dishes in dishwasher']",take clean dishes out and put away in cabinet,0
+0,0.0,[],"['Fill the sink with hot water', 'turn off water']",Fill the sink with hot water,0
+1,0.125,['Fill the sink with hot water'],"['place dishes in soapy water', 'Add dish soap while water is sill running']",Add dish soap while water is sill running,1
+2,0.25,"['Fill the sink with hot water', 'Add dish soap while water is sill running']","['rinse and food off dishes', 'scrub with a dish rag']",rinse and food off dishes,0
+3,0.375,"['Fill the sink with hot water', 'Add dish soap while water is sill running', 'rinse and food off dishes']","['turn off water', 'scrub with a dish rag']",turn off water,0
+4,0.5,"['Fill the sink with hot water', 'Add dish soap while water is sill running', 'rinse and food off dishes', 'turn off water']","['place dishes in soapy water', 'Add dish soap while water is sill running']",place dishes in soapy water,0
+5,0.625,"['Fill the sink with hot water', 'Add dish soap while water is sill running', 'rinse and food off dishes', 'turn off water', 'place dishes in soapy water']","['scrub with a dish rag', 'rinse and food off dishes']",scrub with a dish rag,0
+6,0.75,"['Fill the sink with hot water', 'Add dish soap while water is sill running', 'rinse and food off dishes', 'turn off water', 'place dishes in soapy water', 'scrub with a dish rag']","['rinse in cold water', 'Fill the sink with hot water']",rinse in cold water,0
+7,0.875,"['Fill the sink with hot water', 'Add dish soap while water is sill running', 'rinse and food off dishes', 'turn off water', 'place dishes in soapy water', 'scrub with a dish rag', 'rinse in cold water']","['place dishes in soapy water', 'place in dish drainer']",place in dish drainer,1
+0,0.0,[],"['Put dirty dishes in soapy water', 'Fill kitchen sink with dish soap and warm water']",Fill kitchen sink with dish soap and warm water,1
+1,0.14285714285714285,['Fill kitchen sink with dish soap and warm water'],"['Put dirty dishes in soapy water', 'Rinse dishes with warm water']",Put dirty dishes in soapy water,0
+2,0.2857142857142857,"['Fill kitchen sink with dish soap and warm water', 'Put dirty dishes in soapy water']","['Rinse dishes with warm water', 'Let soak for 10-15 minutes']",Let soak for 10-15 minutes,1
+3,0.42857142857142855,"['Fill kitchen sink with dish soap and warm water', 'Put dirty dishes in soapy water', 'Let soak for 10-15 minutes']","['Put dishes in rack to dry', 'Scrub dishes with sponge']",Scrub dishes with sponge,1
+4,0.5714285714285714,"['Fill kitchen sink with dish soap and warm water', 'Put dirty dishes in soapy water', 'Let soak for 10-15 minutes', 'Scrub dishes with sponge']","['Set into empty side of sink', 'Fill kitchen sink with dish soap and warm water']",Set into empty side of sink,0
+5,0.7142857142857143,"['Fill kitchen sink with dish soap and warm water', 'Put dirty dishes in soapy water', 'Let soak for 10-15 minutes', 'Scrub dishes with sponge', 'Set into empty side of sink']","['Rinse dishes with warm water', 'Put dirty dishes in soapy water']",Rinse dishes with warm water,0
+6,0.8571428571428571,"['Fill kitchen sink with dish soap and warm water', 'Put dirty dishes in soapy water', 'Let soak for 10-15 minutes', 'Scrub dishes with sponge', 'Set into empty side of sink', 'Rinse dishes with warm water']","['Put dishes in rack to dry', 'Scrub dishes with sponge']",Put dishes in rack to dry,0
+0,0.0,[],"['Run hot water in sink.', 'Put away when dry.']",Run hot water in sink.,0
+1,0.14285714285714285,['Run hot water in sink.'],"['Add dish soap.', 'Place in draining rack.']",Add dish soap.,0
+2,0.2857142857142857,"['Run hot water in sink.', 'Add dish soap.']","['Place in draining rack.', 'Place dirty dishes in water.']",Place dirty dishes in water.,1
+3,0.42857142857142855,"['Run hot water in sink.', 'Add dish soap.', 'Place dirty dishes in water.']","['Put away when dry.', 'Use sponge to scrub dishes.']",Use sponge to scrub dishes.,1
+4,0.5714285714285714,"['Run hot water in sink.', 'Add dish soap.', 'Place dirty dishes in water.', 'Use sponge to scrub dishes.']","['Add dish soap.', 'Rinse off with hot water.']",Rinse off with hot water.,1
+5,0.7142857142857143,"['Run hot water in sink.', 'Add dish soap.', 'Place dirty dishes in water.', 'Use sponge to scrub dishes.', 'Rinse off with hot water.']","['Place dirty dishes in water.', 'Place in draining rack.']",Place in draining rack.,1
+6,0.8571428571428571,"['Run hot water in sink.', 'Add dish soap.', 'Place dirty dishes in water.', 'Use sponge to scrub dishes.', 'Rinse off with hot water.', 'Place in draining rack.']","['Put away when dry.', 'Run hot water in sink.']",Put away when dry.,0
+0,0.0,[],"['Open diswasher', 'Put detergent into detergent compartment']",Open diswasher,0
+1,0.16666666666666666,['Open diswasher'],"['Open diswasher', 'Use the sink to rInse excess food off of any dishes']",Use the sink to rInse excess food off of any dishes,1
+2,0.3333333333333333,"['Open diswasher', 'Use the sink to rInse excess food off of any dishes']","['Close dishwasher', 'Place dishes in dishwasher']",Place dishes in dishwasher,1
+3,0.5,"['Open diswasher', 'Use the sink to rInse excess food off of any dishes', 'Place dishes in dishwasher']","['Open diswasher', 'Put detergent into detergent compartment']",Put detergent into detergent compartment,1
+4,0.6666666666666666,"['Open diswasher', 'Use the sink to rInse excess food off of any dishes', 'Place dishes in dishwasher', 'Put detergent into detergent compartment']","['Close dishwasher', 'Open diswasher']",Close dishwasher,0
+5,0.8333333333333334,"['Open diswasher', 'Use the sink to rInse excess food off of any dishes', 'Place dishes in dishwasher', 'Put detergent into detergent compartment', 'Close dishwasher']","['When dishwasher is done, remove dishes and put them away', 'Place dishes in dishwasher']","When dishwasher is done, remove dishes and put them away",0
+0,0.0,[],"['Gather all dishes', 'Rinse dishes with clean water']",Gather all dishes,0
+1,0.16666666666666666,['Gather all dishes'],"['Put dishes into sink of warm soapy water', 'Put dishes into sink of warm soapy water']",Put dishes into sink of warm soapy water,1
+2,0.3333333333333333,"['Gather all dishes', 'Put dishes into sink of warm soapy water']","['Set dishes in dish drain or drying mat', 'Wash dishes with a sponge or rag']",Wash dishes with a sponge or rag,1
+3,0.5,"['Gather all dishes', 'Put dishes into sink of warm soapy water', 'Wash dishes with a sponge or rag']","['When dishes are dry put them away', 'Rinse dishes with clean water']",Rinse dishes with clean water,1
+4,0.6666666666666666,"['Gather all dishes', 'Put dishes into sink of warm soapy water', 'Wash dishes with a sponge or rag', 'Rinse dishes with clean water']","['Gather all dishes', 'Set dishes in dish drain or drying mat']",Set dishes in dish drain or drying mat,1
+5,0.8333333333333334,"['Gather all dishes', 'Put dishes into sink of warm soapy water', 'Wash dishes with a sponge or rag', 'Rinse dishes with clean water', 'Set dishes in dish drain or drying mat']","['Put dishes into sink of warm soapy water', 'When dishes are dry put them away']",When dishes are dry put them away,1
+0,0.0,[],"['Grab a towel.', 'Gather dirty dishes.']",Gather dirty dishes.,1
+1,0.125,['Gather dirty dishes.'],"['Turn off water.', 'Put dishes in the sink.']",Put dishes in the sink.,1
+2,0.25,"['Gather dirty dishes.', 'Put dishes in the sink.']","[""Plug sink's drain."", 'Run hot water over dishes.']",Plug sink's drain.,0
+3,0.375,"['Gather dirty dishes.', 'Put dishes in the sink.', ""Plug sink's drain.""]","['Allow dishes to soak.', 'Pour a small amount of dish liquid over dishes.']",Pour a small amount of dish liquid over dishes.,1
+4,0.5,"['Gather dirty dishes.', 'Put dishes in the sink.', ""Plug sink's drain."", 'Pour a small amount of dish liquid over dishes.']","['Gather dirty dishes.', 'Run hot water over dishes.']",Run hot water over dishes.,1
+5,0.625,"['Gather dirty dishes.', 'Put dishes in the sink.', ""Plug sink's drain."", 'Pour a small amount of dish liquid over dishes.', 'Run hot water over dishes.']","['Turn off water.', 'Grab a towel.']",Turn off water.,0
+6,0.75,"['Gather dirty dishes.', 'Put dishes in the sink.', ""Plug sink's drain."", 'Pour a small amount of dish liquid over dishes.', 'Run hot water over dishes.', 'Turn off water.']","['Allow dishes to soak.', 'Pour a small amount of dish liquid over dishes.']",Allow dishes to soak.,0
+7,0.875,"['Gather dirty dishes.', 'Put dishes in the sink.', ""Plug sink's drain."", 'Pour a small amount of dish liquid over dishes.', 'Run hot water over dishes.', 'Turn off water.', 'Allow dishes to soak.']","[""Plug sink's drain."", 'Grab a towel.']",Grab a towel.,1
+0,0.0,[],"['Place dishes in sink.', 'Bring dirty dishes to sink.']",Bring dirty dishes to sink.,1
+1,0.125,['Bring dirty dishes to sink.'],"['Bring dirty dishes to sink.', 'Put stopper in sink.']",Put stopper in sink.,1
+2,0.25,"['Bring dirty dishes to sink.', 'Put stopper in sink.']","['Place dishes in sink.', 'Fill sink with warm water.']",Fill sink with warm water.,1
+3,0.375,"['Bring dirty dishes to sink.', 'Put stopper in sink.', 'Fill sink with warm water.']","['Add dishsoap as water is running.', 'Rinse dishes in cool water.']",Add dishsoap as water is running.,0
+4,0.5,"['Bring dirty dishes to sink.', 'Put stopper in sink.', 'Fill sink with warm water.', 'Add dishsoap as water is running.']","['Place dishes in sink.', 'Put stopper in sink.']",Place dishes in sink.,0
+5,0.625,"['Bring dirty dishes to sink.', 'Put stopper in sink.', 'Fill sink with warm water.', 'Add dishsoap as water is running.', 'Place dishes in sink.']","['Fill sink with warm water.', 'Use rag to scrub dishes.']",Use rag to scrub dishes.,1
+6,0.75,"['Bring dirty dishes to sink.', 'Put stopper in sink.', 'Fill sink with warm water.', 'Add dishsoap as water is running.', 'Place dishes in sink.', 'Use rag to scrub dishes.']","['Rinse dishes in cool water.', 'Add dishsoap as water is running.']",Rinse dishes in cool water.,0
+7,0.875,"['Bring dirty dishes to sink.', 'Put stopper in sink.', 'Fill sink with warm water.', 'Add dishsoap as water is running.', 'Place dishes in sink.', 'Use rag to scrub dishes.', 'Rinse dishes in cool water.']","['Set dishes in dishrack to dry.', 'Add dishsoap as water is running.']",Set dishes in dishrack to dry.,0
+0,0.0,[],"['Get sponge', 'Place dirty dishes into sink']",Place dirty dishes into sink,1
+1,0.125,['Place dirty dishes into sink'],"['Close sink drain', 'Get sponge']",Close sink drain,0
+2,0.25,"['Place dirty dishes into sink', 'Close sink drain']","['Get sponge', 'Fill sink with hot water']",Fill sink with hot water,1
+3,0.375,"['Place dirty dishes into sink', 'Close sink drain', 'Fill sink with hot water']","['Get sponge', 'Pour dish soap into the water']",Pour dish soap into the water,1
+4,0.5,"['Place dirty dishes into sink', 'Close sink drain', 'Fill sink with hot water', 'Pour dish soap into the water']","['Let dishes sit for 10 minutes', 'Rinse dishes']",Let dishes sit for 10 minutes,0
+5,0.625,"['Place dirty dishes into sink', 'Close sink drain', 'Fill sink with hot water', 'Pour dish soap into the water', 'Let dishes sit for 10 minutes']","['Close sink drain', 'Get sponge']",Get sponge,1
+6,0.75,"['Place dirty dishes into sink', 'Close sink drain', 'Fill sink with hot water', 'Pour dish soap into the water', 'Let dishes sit for 10 minutes', 'Get sponge']","['Thoroughly wipe dishes with sponge', 'Close sink drain']",Thoroughly wipe dishes with sponge,0
+7,0.875,"['Place dirty dishes into sink', 'Close sink drain', 'Fill sink with hot water', 'Pour dish soap into the water', 'Let dishes sit for 10 minutes', 'Get sponge', 'Thoroughly wipe dishes with sponge']","['Place dirty dishes into sink', 'Rinse dishes']",Rinse dishes,1
+0,0.0,[],"['Fill sink with sudsy water.', 'Fill sink with sudsy water.']",Fill sink with sudsy water.,0
+1,0.125,['Fill sink with sudsy water.'],"['Get two clean towels.', 'Put dirty dishes in water.']",Put dirty dishes in water.,1
+2,0.25,"['Fill sink with sudsy water.', 'Put dirty dishes in water.']","['Get two clean towels.', 'Dry dishes.']",Get two clean towels.,0
+3,0.375,"['Fill sink with sudsy water.', 'Put dirty dishes in water.', 'Get two clean towels.']","['Wash each dish.', 'Put away dishes.']",Wash each dish.,0
+4,0.5,"['Fill sink with sudsy water.', 'Put dirty dishes in water.', 'Get two clean towels.', 'Wash each dish.']","['Rinse each dish.', 'Put dirty dishes in water.']",Rinse each dish.,0
+5,0.625,"['Fill sink with sudsy water.', 'Put dirty dishes in water.', 'Get two clean towels.', 'Wash each dish.', 'Rinse each dish.']","['Put in dish drainer.', 'Put dirty dishes in water.']",Put in dish drainer.,0
+6,0.75,"['Fill sink with sudsy water.', 'Put dirty dishes in water.', 'Get two clean towels.', 'Wash each dish.', 'Rinse each dish.', 'Put in dish drainer.']","['Dry dishes.', 'Wash each dish.']",Dry dishes.,0
+7,0.875,"['Fill sink with sudsy water.', 'Put dirty dishes in water.', 'Get two clean towels.', 'Wash each dish.', 'Rinse each dish.', 'Put in dish drainer.', 'Dry dishes.']","['Put away dishes.', 'Wash each dish.']",Put away dishes.,0
+0,0.0,[],"['Put on rack to dry or dry with towel', 'Run water']",Run water,1
+1,0.125,['Run water'],"['Add dish soap', 'Drain water']",Add dish soap,0
+2,0.25,"['Run water', 'Add dish soap']","['Rinse', 'Put dirty dishes in water']",Put dirty dishes in water,1
+3,0.375,"['Run water', 'Add dish soap', 'Put dirty dishes in water']","['Wash with sponge', 'Put on rack to dry or dry with towel']",Wash with sponge,0
+4,0.5,"['Run water', 'Add dish soap', 'Put dirty dishes in water', 'Wash with sponge']","['Rinse', 'Drain water']",Rinse,0
+5,0.625,"['Run water', 'Add dish soap', 'Put dirty dishes in water', 'Wash with sponge', 'Rinse']","['Put on rack to dry or dry with towel', 'Put dirty dishes in water']",Put on rack to dry or dry with towel,0
+6,0.75,"['Run water', 'Add dish soap', 'Put dirty dishes in water', 'Wash with sponge', 'Rinse', 'Put on rack to dry or dry with towel']","['Run water', 'Stop water']",Stop water,1
+7,0.875,"['Run water', 'Add dish soap', 'Put dirty dishes in water', 'Wash with sponge', 'Rinse', 'Put on rack to dry or dry with towel', 'Stop water']","['Rinse', 'Drain water']",Drain water,1
+0,0.0,[],"['Turn the water to the hottest your hands can handle.', 'Set it in the drain rack.']",Turn the water to the hottest your hands can handle.,0
+1,0.16666666666666666,['Turn the water to the hottest your hands can handle.'],"['Set it in the drain rack.', 'Get soap on the sponge.']",Get soap on the sponge.,1
+2,0.3333333333333333,"['Turn the water to the hottest your hands can handle.', 'Get soap on the sponge.']","['Repeat for every dirty dish.', 'Wash a dish.']",Wash a dish.,1
+3,0.5,"['Turn the water to the hottest your hands can handle.', 'Get soap on the sponge.', 'Wash a dish.']","['Rinse it in the second sink.', 'Turn the water to the hottest your hands can handle.']",Rinse it in the second sink.,0
+4,0.6666666666666666,"['Turn the water to the hottest your hands can handle.', 'Get soap on the sponge.', 'Wash a dish.', 'Rinse it in the second sink.']","['Set it in the drain rack.', 'Get soap on the sponge.']",Set it in the drain rack.,0
+5,0.8333333333333334,"['Turn the water to the hottest your hands can handle.', 'Get soap on the sponge.', 'Wash a dish.', 'Rinse it in the second sink.', 'Set it in the drain rack.']","['Turn the water to the hottest your hands can handle.', 'Repeat for every dirty dish.']",Repeat for every dirty dish.,1
+0,0.0,[],"['Leave dishes in sink', 'Wear gloves']",Wear gloves,1
+1,0.14285714285714285,['Wear gloves'],"['Fill sink with hot water', 'Leave dishes in sink']",Fill sink with hot water,0
+2,0.2857142857142857,"['Wear gloves', 'Fill sink with hot water']","['Put dishes in place', 'Leave dishes in sink']",Leave dishes in sink,1
+3,0.42857142857142855,"['Wear gloves', 'Fill sink with hot water', 'Leave dishes in sink']","['Wear gloves', 'Wait for ten minutes']",Wait for ten minutes,1
+4,0.5714285714285714,"['Wear gloves', 'Fill sink with hot water', 'Leave dishes in sink', 'Wait for ten minutes']","['Start scrubing', 'Wear gloves']",Start scrubing,0
+5,0.7142857142857143,"['Wear gloves', 'Fill sink with hot water', 'Leave dishes in sink', 'Wait for ten minutes', 'Start scrubing']","['Put dishes in place', 'Leave dishes in sink']",Put dishes in place,0
+6,0.8571428571428571,"['Wear gloves', 'Fill sink with hot water', 'Leave dishes in sink', 'Wait for ten minutes', 'Start scrubing', 'Put dishes in place']","['Wash sink', 'Leave dishes in sink']",Wash sink,0
+0,0.0,[],"['Scrape any bits of food off the plates and into the trash or disposal.', 'Place the dishes in the sink one at a time and scrub them.']",Scrape any bits of food off the plates and into the trash or disposal.,0
+1,0.2,['Scrape any bits of food off the plates and into the trash or disposal.'],"['Rinse the soap off and place the dishes in the dish drainer.', 'Fill the sink with hot water and add dish detergent.']",Fill the sink with hot water and add dish detergent.,1
+2,0.4,"['Scrape any bits of food off the plates and into the trash or disposal.', 'Fill the sink with hot water and add dish detergent.']","['Place the dishes in the sink one at a time and scrub them.', 'Heavily soiled dishes may require soaking.']",Place the dishes in the sink one at a time and scrub them.,0
+3,0.6,"['Scrape any bits of food off the plates and into the trash or disposal.', 'Fill the sink with hot water and add dish detergent.', 'Place the dishes in the sink one at a time and scrub them.']","['Rinse the soap off and place the dishes in the dish drainer.', 'Scrape any bits of food off the plates and into the trash or disposal.']",Rinse the soap off and place the dishes in the dish drainer.,0
+4,0.8,"['Scrape any bits of food off the plates and into the trash or disposal.', 'Fill the sink with hot water and add dish detergent.', 'Place the dishes in the sink one at a time and scrub them.', 'Rinse the soap off and place the dishes in the dish drainer.']","['Scrape any bits of food off the plates and into the trash or disposal.', 'Heavily soiled dishes may require soaking.']",Heavily soiled dishes may require soaking.,1
+0,0.0,[],"['Put dish soap into hot water', 'Fill sink with hot water']",Fill sink with hot water,1
+1,0.125,['Fill sink with hot water'],"['Put dish soap into hot water', 'Let dishes soak for a couple of minutes']",Put dish soap into hot water,0
+2,0.25,"['Fill sink with hot water', 'Put dish soap into hot water']","['Put dish soap on rag', 'Place dishes in hot water']",Place dishes in hot water,1
+3,0.375,"['Fill sink with hot water', 'Put dish soap into hot water', 'Place dishes in hot water']","['Let dishes soak for a couple of minutes', 'Rub dishes with soapy rag until clean']",Let dishes soak for a couple of minutes,0
+4,0.5,"['Fill sink with hot water', 'Put dish soap into hot water', 'Place dishes in hot water', 'Let dishes soak for a couple of minutes']","['Rub dishes with soapy rag until clean', 'Get rag']",Get rag,1
+5,0.625,"['Fill sink with hot water', 'Put dish soap into hot water', 'Place dishes in hot water', 'Let dishes soak for a couple of minutes', 'Get rag']","['Put dish soap on rag', 'Place dishes in hot water']",Put dish soap on rag,0
+6,0.75,"['Fill sink with hot water', 'Put dish soap into hot water', 'Place dishes in hot water', 'Let dishes soak for a couple of minutes', 'Get rag', 'Put dish soap on rag']","['Put dish soap into hot water', 'Rub dishes with soapy rag until clean']",Rub dishes with soapy rag until clean,1
+7,0.875,"['Fill sink with hot water', 'Put dish soap into hot water', 'Place dishes in hot water', 'Let dishes soak for a couple of minutes', 'Get rag', 'Put dish soap on rag', 'Rub dishes with soapy rag until clean']","['Drain soapy water from sink', 'Place dishes in hot water']",Drain soapy water from sink,0
+0,0.0,[],"['start hot water', 'pour dish soap in hot water']",start hot water,0
+1,0.125,['start hot water'],"['dunk dirty dish in hot water', 'remove from water']",dunk dirty dish in hot water,0
+2,0.25,"['start hot water', 'dunk dirty dish in hot water']","['dry', 'pour dish soap in hot water']",pour dish soap in hot water,1
+3,0.375,"['start hot water', 'dunk dirty dish in hot water', 'pour dish soap in hot water']","['remove from water', 'scrub dish']",scrub dish,1
+4,0.5,"['start hot water', 'dunk dirty dish in hot water', 'pour dish soap in hot water', 'scrub dish']","['start hot water', 'rinse dish']",rinse dish,1
+5,0.625,"['start hot water', 'dunk dirty dish in hot water', 'pour dish soap in hot water', 'scrub dish', 'rinse dish']","['pour dish soap in hot water', 'remove from water']",remove from water,1
+6,0.75,"['start hot water', 'dunk dirty dish in hot water', 'pour dish soap in hot water', 'scrub dish', 'rinse dish', 'remove from water']","['dry', 'dunk dirty dish in hot water']",dry,0
+7,0.875,"['start hot water', 'dunk dirty dish in hot water', 'pour dish soap in hot water', 'scrub dish', 'rinse dish', 'remove from water', 'dry']","['start hot water', 'put away']",put away,1
+0,0.0,[],"['Gather dirty dishes into sink', 'Put dish soap onto sponge']",Gather dirty dishes into sink,0
+1,0.2,['Gather dirty dishes into sink'],"['Turn on water', 'Begin to clean dirty dishes with sponge']",Turn on water,0
+2,0.4,"['Gather dirty dishes into sink', 'Turn on water']","['Put away dishes', 'Put dish soap onto sponge']",Put dish soap onto sponge,1
+3,0.6,"['Gather dirty dishes into sink', 'Turn on water', 'Put dish soap onto sponge']","['Begin to clean dirty dishes with sponge', 'Gather dirty dishes into sink']",Begin to clean dirty dishes with sponge,0
+4,0.8,"['Gather dirty dishes into sink', 'Turn on water', 'Put dish soap onto sponge', 'Begin to clean dirty dishes with sponge']","['Turn on water', 'Put away dishes']",Put away dishes,1
+0,0.0,[],"['Fill sink with warm water.', 'Take wash cloth and wash each dish.']",Fill sink with warm water.,0
+1,0.14285714285714285,['Fill sink with warm water.'],"['Add liquid detergent.', 'Fill sink with warm water.']",Add liquid detergent.,0
+2,0.2857142857142857,"['Fill sink with warm water.', 'Add liquid detergent.']","['Put dishes in sudsy water.', 'Place each dish on towel or dish rack to dry.']",Put dishes in sudsy water.,0
+3,0.42857142857142855,"['Fill sink with warm water.', 'Add liquid detergent.', 'Put dishes in sudsy water.']","['Put away dishes once they have dried.', 'Take wash cloth and wash each dish.']",Take wash cloth and wash each dish.,1
+4,0.5714285714285714,"['Fill sink with warm water.', 'Add liquid detergent.', 'Put dishes in sudsy water.', 'Take wash cloth and wash each dish.']","['Add liquid detergent.', 'Rinse each dish in clear running water.']",Rinse each dish in clear running water.,1
+5,0.7142857142857143,"['Fill sink with warm water.', 'Add liquid detergent.', 'Put dishes in sudsy water.', 'Take wash cloth and wash each dish.', 'Rinse each dish in clear running water.']","['Place each dish on towel or dish rack to dry.', 'Fill sink with warm water.']",Place each dish on towel or dish rack to dry.,0
+6,0.8571428571428571,"['Fill sink with warm water.', 'Add liquid detergent.', 'Put dishes in sudsy water.', 'Take wash cloth and wash each dish.', 'Rinse each dish in clear running water.', 'Place each dish on towel or dish rack to dry.']","['Fill sink with warm water.', 'Put away dishes once they have dried.']",Put away dishes once they have dried.,1
+0,0.0,[],"['Fill sink with soap and water.', 'After washing them rinse each dish off with water.']",Fill sink with soap and water.,0
+1,0.14285714285714285,['Fill sink with soap and water.'],"['Take a dish as wash it with a sponge.', 'Take each dish and dry it with a towel.']",Take a dish as wash it with a sponge.,0
+2,0.2857142857142857,"['Fill sink with soap and water.', 'Take a dish as wash it with a sponge.']","['Continue to wash all of the dishes.', 'All the dishes will then be clean.']",Continue to wash all of the dishes.,0
+3,0.42857142857142855,"['Fill sink with soap and water.', 'Take a dish as wash it with a sponge.', 'Continue to wash all of the dishes.']","['After washing them rinse each dish off with water.', 'Fill sink with soap and water.']",After washing them rinse each dish off with water.,0
+4,0.5714285714285714,"['Fill sink with soap and water.', 'Take a dish as wash it with a sponge.', 'Continue to wash all of the dishes.', 'After washing them rinse each dish off with water.']","['All the dishes will then be clean.', ' After all dishes are dry put the dishes back.']",All the dishes will then be clean.,0
+5,0.7142857142857143,"['Fill sink with soap and water.', 'Take a dish as wash it with a sponge.', 'Continue to wash all of the dishes.', 'After washing them rinse each dish off with water.', 'All the dishes will then be clean.']","['Fill sink with soap and water.', 'Take each dish and dry it with a towel.']",Take each dish and dry it with a towel.,1
+6,0.8571428571428571,"['Fill sink with soap and water.', 'Take a dish as wash it with a sponge.', 'Continue to wash all of the dishes.', 'After washing them rinse each dish off with water.', 'All the dishes will then be clean.', 'Take each dish and dry it with a towel.']","[' After all dishes are dry put the dishes back.', 'Take a dish as wash it with a sponge.']", After all dishes are dry put the dishes back.,0
+0,0.0,[],"['Put the dishes in the sink.', 'Get a sponge.']",Put the dishes in the sink.,0
+1,0.125,['Put the dishes in the sink.'],"['Get a sponge.', 'Put on kitchen gloves.']",Put on kitchen gloves.,1
+2,0.25,"['Put the dishes in the sink.', 'Put on kitchen gloves.']","['Get a sponge.', 'Start to wash.']",Get a sponge.,0
+3,0.375,"['Put the dishes in the sink.', 'Put on kitchen gloves.', 'Get a sponge.']","['Wipe the dishes.', 'Start the water.']",Start the water.,1
+4,0.5,"['Put the dishes in the sink.', 'Put on kitchen gloves.', 'Get a sponge.', 'Start the water.']","['Apply dish soap on dirty dishes.', 'Put the dishes in the sink.']",Apply dish soap on dirty dishes.,0
+5,0.625,"['Put the dishes in the sink.', 'Put on kitchen gloves.', 'Get a sponge.', 'Start the water.', 'Apply dish soap on dirty dishes.']","['Start to wash.', 'Wipe the dishes.']",Start to wash.,0
+6,0.75,"['Put the dishes in the sink.', 'Put on kitchen gloves.', 'Get a sponge.', 'Start the water.', 'Apply dish soap on dirty dishes.', 'Start to wash.']","['Get a sponge.', 'Rinse the dishes.']",Rinse the dishes.,1
+7,0.875,"['Put the dishes in the sink.', 'Put on kitchen gloves.', 'Get a sponge.', 'Start the water.', 'Apply dish soap on dirty dishes.', 'Start to wash.', 'Rinse the dishes.']","['Wipe the dishes.', 'Put on kitchen gloves.']",Wipe the dishes.,0
+0,0.0,[],"['Retrieve dirty dish', 'Rinse dirty dish']",Retrieve dirty dish,0
+1,0.14285714285714285,['Retrieve dirty dish'],"['Retrieve dirty dish', 'Rinse dirty dish']",Rinse dirty dish,1
+2,0.2857142857142857,"['Retrieve dirty dish', 'Rinse dirty dish']","['Soap the sponge', 'Repeat steps 1-6 as needed for all dirty dishes']",Soap the sponge,0
+3,0.42857142857142855,"['Retrieve dirty dish', 'Rinse dirty dish', 'Soap the sponge']","['Retrieve dirty dish', 'Soap the dirty dish with sponge']",Soap the dirty dish with sponge,1
+4,0.5714285714285714,"['Retrieve dirty dish', 'Rinse dirty dish', 'Soap the sponge', 'Soap the dirty dish with sponge']","['Retrieve dirty dish', 'Rinse the soapy dish']",Rinse the soapy dish,1
+5,0.7142857142857143,"['Retrieve dirty dish', 'Rinse dirty dish', 'Soap the sponge', 'Soap the dirty dish with sponge', 'Rinse the soapy dish']","['Soap the sponge', 'Rack the wet dish on drying rack']",Rack the wet dish on drying rack,1
+6,0.8571428571428571,"['Retrieve dirty dish', 'Rinse dirty dish', 'Soap the sponge', 'Soap the dirty dish with sponge', 'Rinse the soapy dish', 'Rack the wet dish on drying rack']","['Repeat steps 1-6 as needed for all dirty dishes', 'Soap the dirty dish with sponge']",Repeat steps 1-6 as needed for all dirty dishes,0
+0,0.0,[],"['scrape leftover food into trash', 'scrape leftover food into trash']",scrape leftover food into trash,1
+1,0.14285714285714285,['scrape leftover food into trash'],"['set dish in dish rack to air dry', 'rinse dish']",rinse dish,1
+2,0.2857142857142857,"['scrape leftover food into trash', 'rinse dish']","['grab sponge', 'rinse dish with clean water']",grab sponge,0
+3,0.42857142857142855,"['scrape leftover food into trash', 'rinse dish', 'grab sponge']","['scrape leftover food into trash', 'place dish soap on sponge']",place dish soap on sponge,1
+4,0.5714285714285714,"['scrape leftover food into trash', 'rinse dish', 'grab sponge', 'place dish soap on sponge']","['scrub dish with soapy sponge', 'scrape leftover food into trash']",scrub dish with soapy sponge,0
+5,0.7142857142857143,"['scrape leftover food into trash', 'rinse dish', 'grab sponge', 'place dish soap on sponge', 'scrub dish with soapy sponge']","['rinse dish with clean water', 'grab sponge']",rinse dish with clean water,0
+6,0.8571428571428571,"['scrape leftover food into trash', 'rinse dish', 'grab sponge', 'place dish soap on sponge', 'scrub dish with soapy sponge', 'rinse dish with clean water']","['set dish in dish rack to air dry', 'rinse dish']",set dish in dish rack to air dry,0
+0,0.0,[],"['Place a big size bowl in the kitchen sink', 'Place a big size bowl in the kitchen sink']",Place a big size bowl in the kitchen sink,1
+1,0.125,['Place a big size bowl in the kitchen sink'],"['Fill water to the half', 'Clean the delicate dishes with sponge one by one']",Fill water to the half,0
+2,0.25,"['Place a big size bowl in the kitchen sink', 'Fill water to the half']","['Place them into another bowl', 'Add dish washing powder and mix well']",Add dish washing powder and mix well,1
+3,0.375,"['Place a big size bowl in the kitchen sink', 'Fill water to the half', 'Add dish washing powder and mix well']","['Wear thin rubber gloves', 'Put greasy dishes first into the bowl']",Put greasy dishes first into the bowl,1
+4,0.5,"['Place a big size bowl in the kitchen sink', 'Fill water to the half', 'Add dish washing powder and mix well', 'Put greasy dishes first into the bowl']","['Then put delicate dishes', 'Place a big size bowl in the kitchen sink']",Then put delicate dishes,0
+5,0.625,"['Place a big size bowl in the kitchen sink', 'Fill water to the half', 'Add dish washing powder and mix well', 'Put greasy dishes first into the bowl', 'Then put delicate dishes']","['Wear thin rubber gloves', 'Place a big size bowl in the kitchen sink']",Wear thin rubber gloves,0
+6,0.75,"['Place a big size bowl in the kitchen sink', 'Fill water to the half', 'Add dish washing powder and mix well', 'Put greasy dishes first into the bowl', 'Then put delicate dishes', 'Wear thin rubber gloves']","['Clean the delicate dishes with sponge one by one', 'Place a big size bowl in the kitchen sink']",Clean the delicate dishes with sponge one by one,0
+7,0.875,"['Place a big size bowl in the kitchen sink', 'Fill water to the half', 'Add dish washing powder and mix well', 'Put greasy dishes first into the bowl', 'Then put delicate dishes', 'Wear thin rubber gloves', 'Clean the delicate dishes with sponge one by one']","['Place them into another bowl', 'Add dish washing powder and mix well']",Place them into another bowl,0
+0,0.0,[],"['Get dirty dishes.', 'Put the dirty dishes in the machine.']",Get dirty dishes.,0
+1,0.125,['Get dirty dishes.'],"['Turn on the dishwashing machine.', ""Wait until it's done.""]",Turn on the dishwashing machine.,0
+2,0.25,"['Get dirty dishes.', 'Turn on the dishwashing machine.']","['Place dishes on a rack.', 'Turn on machine.']",Place dishes on a rack.,0
+3,0.375,"['Get dirty dishes.', 'Turn on the dishwashing machine.', 'Place dishes on a rack.']","['Get dishes.', 'Put the dirty dishes in the machine.']",Put the dirty dishes in the machine.,1
+4,0.5,"['Get dirty dishes.', 'Turn on the dishwashing machine.', 'Place dishes on a rack.', 'Put the dirty dishes in the machine.']","['Get dirty dishes.', 'Turn on machine.']",Turn on machine.,1
+5,0.625,"['Get dirty dishes.', 'Turn on the dishwashing machine.', 'Place dishes on a rack.', 'Put the dirty dishes in the machine.', 'Turn on machine.']","['Turn on the dishwashing machine.', 'Put it on the correct settings.']",Put it on the correct settings.,1
+6,0.75,"['Get dirty dishes.', 'Turn on the dishwashing machine.', 'Place dishes on a rack.', 'Put the dirty dishes in the machine.', 'Turn on machine.', 'Put it on the correct settings.']","['Turn on the dishwashing machine.', ""Wait until it's done.""]",Wait until it's done.,1
+7,0.875,"['Get dirty dishes.', 'Turn on the dishwashing machine.', 'Place dishes on a rack.', 'Put the dirty dishes in the machine.', 'Turn on machine.', 'Put it on the correct settings.', ""Wait until it's done.""]","['Put the dirty dishes in the machine.', 'Get dishes.']",Get dishes.,1
+0,0.0,[],"['Run hot water in the sink.', 'Run hot water in the sink.']",Run hot water in the sink.,0
+1,0.16666666666666666,['Run hot water in the sink.'],"['Add soap to the water.', 'Rinse the dishes.']",Add soap to the water.,0
+2,0.3333333333333333,"['Run hot water in the sink.', 'Add soap to the water.']","['Dry the dishes.', 'Put dishes in the water.']",Put dishes in the water.,1
+3,0.5,"['Run hot water in the sink.', 'Add soap to the water.', 'Put dishes in the water.']","['Dry the dishes.', 'Scrub them with a cloth.']",Scrub them with a cloth.,1
+4,0.6666666666666666,"['Run hot water in the sink.', 'Add soap to the water.', 'Put dishes in the water.', 'Scrub them with a cloth.']","['Run hot water in the sink.', 'Rinse the dishes.']",Rinse the dishes.,1
+5,0.8333333333333334,"['Run hot water in the sink.', 'Add soap to the water.', 'Put dishes in the water.', 'Scrub them with a cloth.', 'Rinse the dishes.']","['Dry the dishes.', 'Run hot water in the sink.']",Dry the dishes.,0
+0,0.0,[],"['Stack dirty dishes next to sink', 'Rinse dishes']",Stack dirty dishes next to sink,0
+1,0.125,['Stack dirty dishes next to sink'],"['Rinse dishes', 'Put dish soap in bottom of sink']",Put dish soap in bottom of sink,1
+2,0.25,"['Stack dirty dishes next to sink', 'Put dish soap in bottom of sink']","['Fill sink with warm water', 'Place dishes in dish drainer']",Fill sink with warm water,0
+3,0.375,"['Stack dirty dishes next to sink', 'Put dish soap in bottom of sink', 'Fill sink with warm water']","['Get sponge', 'Rinse dishes']",Get sponge,0
+4,0.5,"['Stack dirty dishes next to sink', 'Put dish soap in bottom of sink', 'Fill sink with warm water', 'Get sponge']","['Wash dishes', 'When dishes are dry, put them away.']",Wash dishes,0
+5,0.625,"['Stack dirty dishes next to sink', 'Put dish soap in bottom of sink', 'Fill sink with warm water', 'Get sponge', 'Wash dishes']","['Fill sink with warm water', 'Rinse dishes']",Rinse dishes,1
+6,0.75,"['Stack dirty dishes next to sink', 'Put dish soap in bottom of sink', 'Fill sink with warm water', 'Get sponge', 'Wash dishes', 'Rinse dishes']","['Put dish soap in bottom of sink', 'Place dishes in dish drainer']",Place dishes in dish drainer,1
+7,0.875,"['Stack dirty dishes next to sink', 'Put dish soap in bottom of sink', 'Fill sink with warm water', 'Get sponge', 'Wash dishes', 'Rinse dishes', 'Place dishes in dish drainer']","['When dishes are dry, put them away.', 'Get sponge']","When dishes are dry, put them away.",0
+0,0.0,[],"['Fill sink with water.', 'Scrup dishes with brush.']",Fill sink with water.,0
+1,0.16666666666666666,['Fill sink with water.'],"['Put dirty dishes in water.', 'Fill sink with water.']",Put dirty dishes in water.,0
+2,0.3333333333333333,"['Fill sink with water.', 'Put dirty dishes in water.']","['Add soap.', 'Rinse with clean water.']",Add soap.,0
+3,0.5,"['Fill sink with water.', 'Put dirty dishes in water.', 'Add soap.']","['Fill sink with water.', 'Scrup dishes with brush.']",Scrup dishes with brush.,1
+4,0.6666666666666666,"['Fill sink with water.', 'Put dirty dishes in water.', 'Add soap.', 'Scrup dishes with brush.']","['Rinse with clean water.', 'Fill sink with water.']",Rinse with clean water.,0
+5,0.8333333333333334,"['Fill sink with water.', 'Put dirty dishes in water.', 'Add soap.', 'Scrup dishes with brush.', 'Rinse with clean water.']","['Add soap.', 'Dry dishes.']",Dry dishes.,1
+0,0.0,[],"['Put in dishwasher', 'Go to kitchen']",Go to kitchen,1
+1,0.125,['Go to kitchen'],"['Rinse them', 'Put on gloves']",Put on gloves,1
+2,0.25,"['Go to kitchen', 'Put on gloves']","['Grab soap', 'Turn it on']",Grab soap,0
+3,0.375,"['Go to kitchen', 'Put on gloves', 'Grab soap']","['Turn it on', 'Put soap on dishes']",Put soap on dishes,1
+4,0.5,"['Go to kitchen', 'Put on gloves', 'Grab soap', 'Put soap on dishes']","['Scrub the dishes', 'Turn it on']",Scrub the dishes,0
+5,0.625,"['Go to kitchen', 'Put on gloves', 'Grab soap', 'Put soap on dishes', 'Scrub the dishes']","['Rinse them', 'Grab soap']",Rinse them,0
+6,0.75,"['Go to kitchen', 'Put on gloves', 'Grab soap', 'Put soap on dishes', 'Scrub the dishes', 'Rinse them']","['Go to kitchen', 'Put in dishwasher']",Put in dishwasher,1
+7,0.875,"['Go to kitchen', 'Put on gloves', 'Grab soap', 'Put soap on dishes', 'Scrub the dishes', 'Rinse them', 'Put in dishwasher']","['Turn it on', 'Grab soap']",Turn it on,0
+0,0.0,[],"['Stack dishes according to size', 'Scrub dish with sponge']",Stack dishes according to size,0
+1,0.125,['Stack dishes according to size'],"['Put in dishwashing basin', 'Scrub dish with sponge']",Put in dishwashing basin,0
+2,0.25,"['Stack dishes according to size', 'Put in dishwashing basin']","['Rinse dish under faucet', 'Fill basin with hot water']",Fill basin with hot water,1
+3,0.375,"['Stack dishes according to size', 'Put in dishwashing basin', 'Fill basin with hot water']","['Rinse dish under faucet', 'Add dishwashing detergent']",Add dishwashing detergent,1
+4,0.5,"['Stack dishes according to size', 'Put in dishwashing basin', 'Fill basin with hot water', 'Add dishwashing detergent']","['Turn off water', 'Rinse dish under faucet']",Turn off water,0
+5,0.625,"['Stack dishes according to size', 'Put in dishwashing basin', 'Fill basin with hot water', 'Add dishwashing detergent', 'Turn off water']","['Take dish', 'Put in dishwashing basin']",Take dish,0
+6,0.75,"['Stack dishes according to size', 'Put in dishwashing basin', 'Fill basin with hot water', 'Add dishwashing detergent', 'Turn off water', 'Take dish']","['Scrub dish with sponge', 'Stack dishes according to size']",Scrub dish with sponge,0
+7,0.875,"['Stack dishes according to size', 'Put in dishwashing basin', 'Fill basin with hot water', 'Add dishwashing detergent', 'Turn off water', 'Take dish', 'Scrub dish with sponge']","['Turn off water', 'Rinse dish under faucet']",Rinse dish under faucet,1
+0,0.0,[],"['When dishwasher is full, add soap', 'Putting dishes into dishwasher']",Putting dishes into dishwasher,1
+1,0.16666666666666666,['Putting dishes into dishwasher'],"['When dishwasher is full, add soap', 'Putting dishes into dishwasher']","When dishwasher is full, add soap",0
+2,0.3333333333333333,"['Putting dishes into dishwasher', 'When dishwasher is full, add soap']","['Turn on dishwasher', 'Put away clean dishes']",Turn on dishwasher,0
+3,0.5,"['Putting dishes into dishwasher', 'When dishwasher is full, add soap', 'Turn on dishwasher']","['Wait until cycle is finished', 'Putting dishes into dishwasher']",Wait until cycle is finished,0
+4,0.6666666666666666,"['Putting dishes into dishwasher', 'When dishwasher is full, add soap', 'Turn on dishwasher', 'Wait until cycle is finished']","['Open dishwasher', 'Putting dishes into dishwasher']",Open dishwasher,0
+5,0.8333333333333334,"['Putting dishes into dishwasher', 'When dishwasher is full, add soap', 'Turn on dishwasher', 'Wait until cycle is finished', 'Open dishwasher']","['Put away clean dishes', 'When dishwasher is full, add soap']",Put away clean dishes,0
+0,0.0,[],"['grab dish detergent', 'grab dish detergent']",grab dish detergent,0
+1,0.2,['grab dish detergent'],"['turn on faucet', 'turn on faucet']",turn on faucet,1
+2,0.4,"['grab dish detergent', 'turn on faucet']","['rinse', 'grab sponge']",grab sponge,1
+3,0.6,"['grab dish detergent', 'turn on faucet', 'grab sponge']","['scrub dishes with sponge and detergent', 'grab dish detergent']",scrub dishes with sponge and detergent,0
+4,0.8,"['grab dish detergent', 'turn on faucet', 'grab sponge', 'scrub dishes with sponge and detergent']","['turn on faucet', 'rinse']",rinse,1
+0,0.0,[],"['Turn on the water in the sink', 'Use a rag to wash them']",Turn on the water in the sink,0
+1,0.14285714285714285,['Turn on the water in the sink'],"['Add dish soap', 'Turn on the water in the sink']",Add dish soap,0
+2,0.2857142857142857,"['Turn on the water in the sink', 'Add dish soap']","['Let the sink fill', 'Put on a counter to dry']",Let the sink fill,0
+3,0.42857142857142855,"['Turn on the water in the sink', 'Add dish soap', 'Let the sink fill']","['Add dishes to the water', 'Put on a counter to dry']",Add dishes to the water,0
+4,0.5714285714285714,"['Turn on the water in the sink', 'Add dish soap', 'Let the sink fill', 'Add dishes to the water']","['Turn on the water in the sink', 'Use a rag to wash them']",Use a rag to wash them,1
+5,0.7142857142857143,"['Turn on the water in the sink', 'Add dish soap', 'Let the sink fill', 'Add dishes to the water', 'Use a rag to wash them']","['Turn on the water in the sink', 'Rinse them with clean water']",Rinse them with clean water,1
+6,0.8571428571428571,"['Turn on the water in the sink', 'Add dish soap', 'Let the sink fill', 'Add dishes to the water', 'Use a rag to wash them', 'Rinse them with clean water']","['Put on a counter to dry', 'Add dish soap']",Put on a counter to dry,0
+0,0.0,[],"['put dish soap into water', 'Bring dirty dishes to sink']",Bring dirty dishes to sink,1
+1,0.16666666666666666,['Bring dirty dishes to sink'],"['fill sink with warm water', 'put dish soap into water']",fill sink with warm water,0
+2,0.3333333333333333,"['Bring dirty dishes to sink', 'fill sink with warm water']","['put dish soap into water', 'place clean dishes on drying rack']",put dish soap into water,0
+3,0.5,"['Bring dirty dishes to sink', 'fill sink with warm water', 'put dish soap into water']","['put dirty dishes into water', 'Bring dirty dishes to sink']",put dirty dishes into water,0
+4,0.6666666666666666,"['Bring dirty dishes to sink', 'fill sink with warm water', 'put dish soap into water', 'put dirty dishes into water']","['wash each dish with sponge', 'Bring dirty dishes to sink']",wash each dish with sponge,0
+5,0.8333333333333334,"['Bring dirty dishes to sink', 'fill sink with warm water', 'put dish soap into water', 'put dirty dishes into water', 'wash each dish with sponge']","['place clean dishes on drying rack', 'fill sink with warm water']",place clean dishes on drying rack,0
+0,0.0,[],"['add soap', 'open dishwasher']",open dishwasher,1
+1,0.16666666666666666,['open dishwasher'],"['load large items in the bottom of the washer', 'start dishwasher']",load large items in the bottom of the washer,0
+2,0.3333333333333333,"['open dishwasher', 'load large items in the bottom of the washer']","['load smaller items on the top rock of washer', 'close dishwasher door']",load smaller items on the top rock of washer,0
+3,0.5,"['open dishwasher', 'load large items in the bottom of the washer', 'load smaller items on the top rock of washer']","['open dishwasher', 'add soap']",add soap,1
+4,0.6666666666666666,"['open dishwasher', 'load large items in the bottom of the washer', 'load smaller items on the top rock of washer', 'add soap']","['open dishwasher', 'close dishwasher door']",close dishwasher door,1
+5,0.8333333333333334,"['open dishwasher', 'load large items in the bottom of the washer', 'load smaller items on the top rock of washer', 'add soap', 'close dishwasher door']","['load smaller items on the top rock of washer', 'start dishwasher']",start dishwasher,1
+0,0.0,[],"['Add dishwashing soap to water', 'Fill sink with very warm water']",Fill sink with very warm water,1
+1,0.125,['Fill sink with very warm water'],"['Fill sink with very warm water', 'Add dishwashing soap to water']",Add dishwashing soap to water,1
+2,0.25,"['Fill sink with very warm water', 'Add dishwashing soap to water']","['Rinse dishes', 'Put dirty dishes into water']",Put dirty dishes into water,1
+3,0.375,"['Fill sink with very warm water', 'Add dishwashing soap to water', 'Put dirty dishes into water']","['Wash dishes', 'Put away dishes']",Wash dishes,0
+4,0.5,"['Fill sink with very warm water', 'Add dishwashing soap to water', 'Put dirty dishes into water', 'Wash dishes']","['Rinse dishes', 'Add dishwashing soap to water']",Rinse dishes,0
+5,0.625,"['Fill sink with very warm water', 'Add dishwashing soap to water', 'Put dirty dishes into water', 'Wash dishes', 'Rinse dishes']","['Put away dishes', 'Put dishes in strainer']",Put dishes in strainer,1
+6,0.75,"['Fill sink with very warm water', 'Add dishwashing soap to water', 'Put dirty dishes into water', 'Wash dishes', 'Rinse dishes', 'Put dishes in strainer']","['Dry dishes', 'Fill sink with very warm water']",Dry dishes,0
+7,0.875,"['Fill sink with very warm water', 'Add dishwashing soap to water', 'Put dirty dishes into water', 'Wash dishes', 'Rinse dishes', 'Put dishes in strainer', 'Dry dishes']","['Add dishwashing soap to water', 'Put away dishes']",Put away dishes,1
+0,0.0,[],"['Place all dirty dishes in one spot.', 'Place all dirty dishes in one spot.']",Place all dirty dishes in one spot.,0
+1,0.16666666666666666,['Place all dirty dishes in one spot.'],"['Put dish soap on rag or scrubbie.', 'Put dish soap on rag or scrubbie.']",Put dish soap on rag or scrubbie.,1
+2,0.3333333333333333,"['Place all dirty dishes in one spot.', 'Put dish soap on rag or scrubbie.']","['Take dish and use scrubbie or rag to clean.', 'Let dish air dry.']",Take dish and use scrubbie or rag to clean.,0
+3,0.5,"['Place all dirty dishes in one spot.', 'Put dish soap on rag or scrubbie.', 'Take dish and use scrubbie or rag to clean.']","['Rinse soap off with water.', 'Continue until all dishes are clean.']",Rinse soap off with water.,0
+4,0.6666666666666666,"['Place all dirty dishes in one spot.', 'Put dish soap on rag or scrubbie.', 'Take dish and use scrubbie or rag to clean.', 'Rinse soap off with water.']","['Put dish soap on rag or scrubbie.', 'Let dish air dry.']",Let dish air dry.,1
+5,0.8333333333333334,"['Place all dirty dishes in one spot.', 'Put dish soap on rag or scrubbie.', 'Take dish and use scrubbie or rag to clean.', 'Rinse soap off with water.', 'Let dish air dry.']","['Put dish soap on rag or scrubbie.', 'Continue until all dishes are clean.']",Continue until all dishes are clean.,1
+0,0.0,[],"['Gather dirty dishes', 'Put soap in dish washer']",Gather dirty dishes,0
+1,0.16666666666666666,['Gather dirty dishes'],"['Gather dirty dishes', 'Place dishes into dish washer']",Place dishes into dish washer,1
+2,0.3333333333333333,"['Gather dirty dishes', 'Place dishes into dish washer']","['Wait for dish washer to finish', 'Put soap in dish washer']",Put soap in dish washer,1
+3,0.5,"['Gather dirty dishes', 'Place dishes into dish washer', 'Put soap in dish washer']","['Place dishes back in cupboard', 'Turn dish washer on']",Turn dish washer on,1
+4,0.6666666666666666,"['Gather dirty dishes', 'Place dishes into dish washer', 'Put soap in dish washer', 'Turn dish washer on']","['Wait for dish washer to finish', 'Place dishes into dish washer']",Wait for dish washer to finish,0
+5,0.8333333333333334,"['Gather dirty dishes', 'Place dishes into dish washer', 'Put soap in dish washer', 'Turn dish washer on', 'Wait for dish washer to finish']","['Gather dirty dishes', 'Place dishes back in cupboard']",Place dishes back in cupboard,1
+0,0.0,[],"['Gather up all dirty dishes', 'Place them into the dishwasher']",Gather up all dirty dishes,0
+1,0.14285714285714285,['Gather up all dirty dishes'],"['Close the dishwasher', 'Open the dishwasher']",Open the dishwasher,1
+2,0.2857142857142857,"['Gather up all dirty dishes', 'Open the dishwasher']","['Close the dishwasher', 'Place them into the dishwasher']",Place them into the dishwasher,1
+3,0.42857142857142855,"['Gather up all dirty dishes', 'Open the dishwasher', 'Place them into the dishwasher']","['Gather up all dirty dishes', 'Put the detergent into the dishwasher']",Put the detergent into the dishwasher,1
+4,0.5714285714285714,"['Gather up all dirty dishes', 'Open the dishwasher', 'Place them into the dishwasher', 'Put the detergent into the dishwasher']","['Close the dishwasher', 'Turn the dishwasher on']",Close the dishwasher,0
+5,0.7142857142857143,"['Gather up all dirty dishes', 'Open the dishwasher', 'Place them into the dishwasher', 'Put the detergent into the dishwasher', 'Close the dishwasher']","['Select the type of wash', 'Open the dishwasher']",Select the type of wash,0
+6,0.8571428571428571,"['Gather up all dirty dishes', 'Open the dishwasher', 'Place them into the dishwasher', 'Put the detergent into the dishwasher', 'Close the dishwasher', 'Select the type of wash']","['Turn the dishwasher on', 'Open the dishwasher']",Turn the dishwasher on,0
+0,0.0,[],"['get dishwasher pack', 'gather dirty dishes']",gather dirty dishes,1
+1,0.14285714285714285,['gather dirty dishes'],"['close door', 'put dishes in dishwasher']",put dishes in dishwasher,1
+2,0.2857142857142857,"['gather dirty dishes', 'put dishes in dishwasher']","['wait for dishes to be done', 'get dishwasher pack']",get dishwasher pack,1
+3,0.42857142857142855,"['gather dirty dishes', 'put dishes in dishwasher', 'get dishwasher pack']","['gather dirty dishes', 'put dishwasher pack in dishwasher']",put dishwasher pack in dishwasher,1
+4,0.5714285714285714,"['gather dirty dishes', 'put dishes in dishwasher', 'get dishwasher pack', 'put dishwasher pack in dishwasher']","['close door', 'wait for dishes to be done']",close door,0
+5,0.7142857142857143,"['gather dirty dishes', 'put dishes in dishwasher', 'get dishwasher pack', 'put dishwasher pack in dishwasher', 'close door']","['turn dishwasher on', 'get dishwasher pack']",turn dishwasher on,0
+6,0.8571428571428571,"['gather dirty dishes', 'put dishes in dishwasher', 'get dishwasher pack', 'put dishwasher pack in dishwasher', 'close door', 'turn dishwasher on']","['wait for dishes to be done', 'gather dirty dishes']",wait for dishes to be done,0
+0,0.0,[],"['add dishes a few at a time', 'fill sink with water']",fill sink with water,1
+1,0.2,['fill sink with water'],"['add soap', 'add dishes a few at a time']",add soap,0
+2,0.4,"['fill sink with water', 'add soap']","['place clean dishes in dry rack', 'add dishes a few at a time']",add dishes a few at a time,1
+3,0.6,"['fill sink with water', 'add soap', 'add dishes a few at a time']","['clean off dishes', 'fill sink with water']",clean off dishes,0
+4,0.8,"['fill sink with water', 'add soap', 'add dishes a few at a time', 'clean off dishes']","['place clean dishes in dry rack', 'add soap']",place clean dishes in dry rack,0
+0,0.0,[],"['stack dishes', 'dry dish']",stack dishes,0
+1,0.16666666666666666,['stack dishes'],"['rinse top dish', 'place dish in drying rack']",rinse top dish,0
+2,0.3333333333333333,"['stack dishes', 'rinse top dish']","['place dish in drying rack', 'scrub dish']",scrub dish,1
+3,0.5,"['stack dishes', 'rinse top dish', 'scrub dish']","['repeat', 'dry dish']",dry dish,1
+4,0.6666666666666666,"['stack dishes', 'rinse top dish', 'scrub dish', 'dry dish']","['place dish in drying rack', 'stack dishes']",place dish in drying rack,0
+5,0.8333333333333334,"['stack dishes', 'rinse top dish', 'scrub dish', 'dry dish', 'place dish in drying rack']","['repeat', 'scrub dish']",repeat,0
+0,0.0,[],"['rinse off dishes', 'fill sink with water']",fill sink with water,1
+1,0.16666666666666666,['fill sink with water'],"['fill sink with water', 'place dishes in water']",place dishes in water,1
+2,0.3333333333333333,"['fill sink with water', 'place dishes in water']","['rinse off dishes', 'add soap']",add soap,1
+3,0.5,"['fill sink with water', 'place dishes in water', 'add soap']","['fill sink with water', 'run rag over dishes']",run rag over dishes,1
+4,0.6666666666666666,"['fill sink with water', 'place dishes in water', 'add soap', 'run rag over dishes']","['place dishes in water', 'rinse off dishes']",rinse off dishes,1
+5,0.8333333333333334,"['fill sink with water', 'place dishes in water', 'add soap', 'run rag over dishes', 'rinse off dishes']","['dry off finished dishes', 'fill sink with water']",dry off finished dishes,0
+0,0.0,[],"['Fill one sink with hot water and soap', 'Scrub one dish with Brillo pad']",Fill one sink with hot water and soap,0
+1,0.125,['Fill one sink with hot water and soap'],"['Rinse dish with water in the empty sink', 'Pile dirty dishes into water-filled sink']",Pile dirty dishes into water-filled sink,1
+2,0.25,"['Fill one sink with hot water and soap', 'Pile dirty dishes into water-filled sink']","['Let soak for at least 20 minutes', 'Repeat steps 4-6 until all dishes are clean']",Let soak for at least 20 minutes,0
+3,0.375,"['Fill one sink with hot water and soap', 'Pile dirty dishes into water-filled sink', 'Let soak for at least 20 minutes']","['Scrub one dish with Brillo pad', 'Fill one sink with hot water and soap']",Scrub one dish with Brillo pad,0
+4,0.5,"['Fill one sink with hot water and soap', 'Pile dirty dishes into water-filled sink', 'Let soak for at least 20 minutes', 'Scrub one dish with Brillo pad']","['Fill one sink with hot water and soap', 'Rinse dish with water in the empty sink']",Rinse dish with water in the empty sink,1
+5,0.625,"['Fill one sink with hot water and soap', 'Pile dirty dishes into water-filled sink', 'Let soak for at least 20 minutes', 'Scrub one dish with Brillo pad', 'Rinse dish with water in the empty sink']","['Let dish dry on dish rack', 'Put dry dishes in appropriate cabinets']",Let dish dry on dish rack,0
+6,0.75,"['Fill one sink with hot water and soap', 'Pile dirty dishes into water-filled sink', 'Let soak for at least 20 minutes', 'Scrub one dish with Brillo pad', 'Rinse dish with water in the empty sink', 'Let dish dry on dish rack']","['Pile dirty dishes into water-filled sink', 'Repeat steps 4-6 until all dishes are clean']",Repeat steps 4-6 until all dishes are clean,1
+7,0.875,"['Fill one sink with hot water and soap', 'Pile dirty dishes into water-filled sink', 'Let soak for at least 20 minutes', 'Scrub one dish with Brillo pad', 'Rinse dish with water in the empty sink', 'Let dish dry on dish rack', 'Repeat steps 4-6 until all dishes are clean']","['Put dry dishes in appropriate cabinets', 'Pile dirty dishes into water-filled sink']",Put dry dishes in appropriate cabinets,0
+0,0.0,[],"['Put the dishes onto the drying rack', 'Go into the kitchen']",Go into the kitchen,1
+1,0.125,['Go into the kitchen'],"['Fill the sink with hot water and soap', 'Get a sponge']",Fill the sink with hot water and soap,0
+2,0.25,"['Go into the kitchen', 'Fill the sink with hot water and soap']","['Drain the dishwater', 'Add the dishes']",Add the dishes,1
+3,0.375,"['Go into the kitchen', 'Fill the sink with hot water and soap', 'Add the dishes']","['Get a sponge', 'Put the dishes onto the drying rack']",Get a sponge,0
+4,0.5,"['Go into the kitchen', 'Fill the sink with hot water and soap', 'Add the dishes', 'Get a sponge']","['Wash and rinse each dish', 'Rinse out sponge']",Wash and rinse each dish,0
+5,0.625,"['Go into the kitchen', 'Fill the sink with hot water and soap', 'Add the dishes', 'Get a sponge', 'Wash and rinse each dish']","['Rinse out sponge', 'Put the dishes onto the drying rack']",Put the dishes onto the drying rack,1
+6,0.75,"['Go into the kitchen', 'Fill the sink with hot water and soap', 'Add the dishes', 'Get a sponge', 'Wash and rinse each dish', 'Put the dishes onto the drying rack']","['Drain the dishwater', 'Fill the sink with hot water and soap']",Drain the dishwater,0
+7,0.875,"['Go into the kitchen', 'Fill the sink with hot water and soap', 'Add the dishes', 'Get a sponge', 'Wash and rinse each dish', 'Put the dishes onto the drying rack', 'Drain the dishwater']","['Wash and rinse each dish', 'Rinse out sponge']",Rinse out sponge,1
+0,0.0,[],"['Plug sink drain', 'Add soap to water']",Plug sink drain,0
+1,0.125,['Plug sink drain'],"['Turn on warm water in kitchen sink', 'Pick dish up and scrub with brush or sponge']",Turn on warm water in kitchen sink,0
+2,0.25,"['Plug sink drain', 'Turn on warm water in kitchen sink']","['Add soap to water', 'Continue with each dish']",Add soap to water,0
+3,0.375,"['Plug sink drain', 'Turn on warm water in kitchen sink', 'Add soap to water']","['Rinse soap off the dish', 'Put dishes in soapy water']",Put dishes in soapy water,1
+4,0.5,"['Plug sink drain', 'Turn on warm water in kitchen sink', 'Add soap to water', 'Put dishes in soapy water']","['Pick dish up and scrub with brush or sponge', 'Continue with each dish']",Pick dish up and scrub with brush or sponge,0
+5,0.625,"['Plug sink drain', 'Turn on warm water in kitchen sink', 'Add soap to water', 'Put dishes in soapy water', 'Pick dish up and scrub with brush or sponge']","['Rinse soap off the dish', 'Turn on warm water in kitchen sink']",Rinse soap off the dish,0
+6,0.75,"['Plug sink drain', 'Turn on warm water in kitchen sink', 'Add soap to water', 'Put dishes in soapy water', 'Pick dish up and scrub with brush or sponge', 'Rinse soap off the dish']","['Dry dish with towel and set aside', 'Add soap to water']",Dry dish with towel and set aside,0
+7,0.875,"['Plug sink drain', 'Turn on warm water in kitchen sink', 'Add soap to water', 'Put dishes in soapy water', 'Pick dish up and scrub with brush or sponge', 'Rinse soap off the dish', 'Dry dish with towel and set aside']","['Continue with each dish', 'Plug sink drain']",Continue with each dish,0
+0,0.0,[],"['Go to the kitchen', 'Go to the kitchen']",Go to the kitchen,0
+1,0.14285714285714285,['Go to the kitchen'],"['Go to the sink', 'Wash the dish']",Go to the sink,0
+2,0.2857142857142857,"['Go to the kitchen', 'Go to the sink']","['Grab a dish rag', 'Turn on the water']",Turn on the water,1
+3,0.42857142857142855,"['Go to the kitchen', 'Go to the sink', 'Turn on the water']","['Put dish washing detergent on it', 'Grab a dirty dish']",Grab a dirty dish,1
+4,0.5714285714285714,"['Go to the kitchen', 'Go to the sink', 'Turn on the water', 'Grab a dirty dish']","['Go to the sink', 'Grab a dish rag']",Grab a dish rag,1
+5,0.7142857142857143,"['Go to the kitchen', 'Go to the sink', 'Turn on the water', 'Grab a dirty dish', 'Grab a dish rag']","['Go to the kitchen', 'Put dish washing detergent on it']",Put dish washing detergent on it,1
+6,0.8571428571428571,"['Go to the kitchen', 'Go to the sink', 'Turn on the water', 'Grab a dirty dish', 'Grab a dish rag', 'Put dish washing detergent on it']","['Go to the kitchen', 'Wash the dish']",Wash the dish,1
+0,0.0,[],"['Fill sink with water', 'Soap up the water']",Fill sink with water,0
+1,0.14285714285714285,['Fill sink with water'],"['Soap up the water', 'Fill sink with water']",Soap up the water,0
+2,0.2857142857142857,"['Fill sink with water', 'Soap up the water']","['Scrub the dishes', 'Get sponge']",Get sponge,1
+3,0.42857142857142855,"['Fill sink with water', 'Soap up the water', 'Get sponge']","['Fill sink with water', 'Soak dishes in water']",Soak dishes in water,1
+4,0.5714285714285714,"['Fill sink with water', 'Soap up the water', 'Get sponge', 'Soak dishes in water']","['Scrub the dishes', 'Soap up the water']",Scrub the dishes,0
+5,0.7142857142857143,"['Fill sink with water', 'Soap up the water', 'Get sponge', 'Soak dishes in water', 'Scrub the dishes']","['Wash the water off the dishes', 'Get sponge']",Wash the water off the dishes,0
+6,0.8571428571428571,"['Fill sink with water', 'Soap up the water', 'Get sponge', 'Soak dishes in water', 'Scrub the dishes', 'Wash the water off the dishes']","['Place the dishes in try to dry', 'Fill sink with water']",Place the dishes in try to dry,0
+0,0.0,[],"['Fill up the sink with water', 'Rinse with clean water']",Fill up the sink with water,0
+1,0.2,['Fill up the sink with water'],"['Add dish soap', 'Rinse with clean water']",Add dish soap,0
+2,0.4,"['Fill up the sink with water', 'Add dish soap']","['Wash dishes in soapy water', 'Add dishes to dish rack to dry']",Wash dishes in soapy water,0
+3,0.6,"['Fill up the sink with water', 'Add dish soap', 'Wash dishes in soapy water']","['Rinse with clean water', 'Fill up the sink with water']",Rinse with clean water,0
+4,0.8,"['Fill up the sink with water', 'Add dish soap', 'Wash dishes in soapy water', 'Rinse with clean water']","['Fill up the sink with water', 'Add dishes to dish rack to dry']",Add dishes to dish rack to dry,1
+0,0.0,[],"['FILL BOWL WITH WASHING UP LIQUID AND HOT WATER', 'FILL BOWL WITH WASHING UP LIQUID AND HOT WATER']",FILL BOWL WITH WASHING UP LIQUID AND HOT WATER,1
+1,0.16666666666666666,['FILL BOWL WITH WASHING UP LIQUID AND HOT WATER'],"['SUBMERGE DIRTY DISHES IN THE WATER', 'SUBMERGE DIRTY DISHES IN THE WATER']",SUBMERGE DIRTY DISHES IN THE WATER,1
+2,0.3333333333333333,"['FILL BOWL WITH WASHING UP LIQUID AND HOT WATER', 'SUBMERGE DIRTY DISHES IN THE WATER']","['PUT IN THE CUPBOARDS.', 'USE WASHING UTENSIL TO SCRUB CLEAN']",USE WASHING UTENSIL TO SCRUB CLEAN,1
+3,0.5,"['FILL BOWL WITH WASHING UP LIQUID AND HOT WATER', 'SUBMERGE DIRTY DISHES IN THE WATER', 'USE WASHING UTENSIL TO SCRUB CLEAN']","['RINSE SUDS OFF CLEAN DISHES', 'FILL BOWL WITH WASHING UP LIQUID AND HOT WATER']",RINSE SUDS OFF CLEAN DISHES,0
+4,0.6666666666666666,"['FILL BOWL WITH WASHING UP LIQUID AND HOT WATER', 'SUBMERGE DIRTY DISHES IN THE WATER', 'USE WASHING UTENSIL TO SCRUB CLEAN', 'RINSE SUDS OFF CLEAN DISHES']","['DRY DISHES', 'FILL BOWL WITH WASHING UP LIQUID AND HOT WATER']",DRY DISHES,0
+5,0.8333333333333334,"['FILL BOWL WITH WASHING UP LIQUID AND HOT WATER', 'SUBMERGE DIRTY DISHES IN THE WATER', 'USE WASHING UTENSIL TO SCRUB CLEAN', 'RINSE SUDS OFF CLEAN DISHES', 'DRY DISHES']","['PUT IN THE CUPBOARDS.', 'SUBMERGE DIRTY DISHES IN THE WATER']",PUT IN THE CUPBOARDS.,0
+0,0.0,[],"['Collect dirty dishes', ' Rinse again to remove soap from the dishes']",Collect dirty dishes,0
+1,0.2,['Collect dirty dishes'],"['Collect dirty dishes', 'Rinse the dishes in water']",Rinse the dishes in water,1
+2,0.4,"['Collect dirty dishes', 'Rinse the dishes in water']","[' Rinse again to remove soap from the dishes', 'Use dish-washing liquid on a scrub']",Use dish-washing liquid on a scrub,1
+3,0.6,"['Collect dirty dishes', 'Rinse the dishes in water', 'Use dish-washing liquid on a scrub']","['Clean the dishes thoroughly', 'Collect dirty dishes']",Clean the dishes thoroughly,0
+4,0.8,"['Collect dirty dishes', 'Rinse the dishes in water', 'Use dish-washing liquid on a scrub', 'Clean the dishes thoroughly']","[' Rinse again to remove soap from the dishes', 'Rinse the dishes in water']", Rinse again to remove soap from the dishes,0
+0,0.0,[],"['Put dirty dishes in the sink.', 'Place plate on dish rack/drain board.']",Put dirty dishes in the sink.,0
+1,0.125,['Put dirty dishes in the sink.'],"['Rub sponge with the detergent on the plate to remove all residue.', 'Take out a sponge.']",Take out a sponge.,1
+2,0.25,"['Put dirty dishes in the sink.', 'Take out a sponge.']","['Place plate on dish rack/drain board.', 'Put dish detergent on sponge.']",Put dish detergent on sponge.,1
+3,0.375,"['Put dirty dishes in the sink.', 'Take out a sponge.', 'Put dish detergent on sponge.']","['Wet the sponge with water.', 'Rinse off soap and water and residue from plate.']",Wet the sponge with water.,0
+4,0.5,"['Put dirty dishes in the sink.', 'Take out a sponge.', 'Put dish detergent on sponge.', 'Wet the sponge with water.']","['Rinse off soap and water and residue from plate.', 'Wet the plate with water.']",Wet the plate with water.,1
+5,0.625,"['Put dirty dishes in the sink.', 'Take out a sponge.', 'Put dish detergent on sponge.', 'Wet the sponge with water.', 'Wet the plate with water.']","['Rub sponge with the detergent on the plate to remove all residue.', 'Place plate on dish rack/drain board.']",Rub sponge with the detergent on the plate to remove all residue.,0
+6,0.75,"['Put dirty dishes in the sink.', 'Take out a sponge.', 'Put dish detergent on sponge.', 'Wet the sponge with water.', 'Wet the plate with water.', 'Rub sponge with the detergent on the plate to remove all residue.']","['Take out a sponge.', 'Rinse off soap and water and residue from plate.']",Rinse off soap and water and residue from plate.,1
+7,0.875,"['Put dirty dishes in the sink.', 'Take out a sponge.', 'Put dish detergent on sponge.', 'Wet the sponge with water.', 'Wet the plate with water.', 'Rub sponge with the detergent on the plate to remove all residue.', 'Rinse off soap and water and residue from plate.']","['Wet the plate with water.', 'Place plate on dish rack/drain board.']",Place plate on dish rack/drain board.,1
+0,0.0,[],"['Put dishes in sink', 'Start scrubbing dishes with a rag, sponge, or brillo pad']",Put dishes in sink,0
+1,0.14285714285714285,['Put dishes in sink'],"['Put drain clog in sink', 'Soak dishes']",Put drain clog in sink,0
+2,0.2857142857142857,"['Put dishes in sink', 'Put drain clog in sink']","['Fill sink with soapy water', 'Put dishes away in dish rack']",Fill sink with soapy water,0
+3,0.42857142857142855,"['Put dishes in sink', 'Put drain clog in sink', 'Fill sink with soapy water']","['Soak dishes', 'Repeat']",Soak dishes,0
+4,0.5714285714285714,"['Put dishes in sink', 'Put drain clog in sink', 'Fill sink with soapy water', 'Soak dishes']","['Put drain clog in sink', 'Start scrubbing dishes with a rag, sponge, or brillo pad']","Start scrubbing dishes with a rag, sponge, or brillo pad",1
+5,0.7142857142857143,"['Put dishes in sink', 'Put drain clog in sink', 'Fill sink with soapy water', 'Soak dishes', 'Start scrubbing dishes with a rag, sponge, or brillo pad']","['Fill sink with soapy water', 'Put dishes away in dish rack']",Put dishes away in dish rack,1
+6,0.8571428571428571,"['Put dishes in sink', 'Put drain clog in sink', 'Fill sink with soapy water', 'Soak dishes', 'Start scrubbing dishes with a rag, sponge, or brillo pad', 'Put dishes away in dish rack']","['Soak dishes', 'Repeat']",Repeat,1
+0,0.0,[],"['Gather dirty dishes.', 'Fill sink with soapy water.']",Gather dirty dishes.,0
+1,0.125,['Gather dirty dishes.'],"['Rinse solid food from heavily soiled dished.', 'Fill sink with soapy water.']",Fill sink with soapy water.,1
+2,0.25,"['Gather dirty dishes.', 'Fill sink with soapy water.']","['Place rinsed dishes on a drying rack.', 'Rinse solid food from heavily soiled dished.']",Rinse solid food from heavily soiled dished.,1
+3,0.375,"['Gather dirty dishes.', 'Fill sink with soapy water.', 'Rinse solid food from heavily soiled dished.']","['Place rinsed dishes on a drying rack.', 'Wash dishes one by one in soapy water.']",Wash dishes one by one in soapy water.,1
+4,0.5,"['Gather dirty dishes.', 'Fill sink with soapy water.', 'Rinse solid food from heavily soiled dished.', 'Wash dishes one by one in soapy water.']","['Rinse dished one by one.', 'Empty dishwater from sink when all dishes are done.']",Rinse dished one by one.,0
+5,0.625,"['Gather dirty dishes.', 'Fill sink with soapy water.', 'Rinse solid food from heavily soiled dished.', 'Wash dishes one by one in soapy water.', 'Rinse dished one by one.']","['Put dishes away when dry.', 'Place rinsed dishes on a drying rack.']",Place rinsed dishes on a drying rack.,1
+6,0.75,"['Gather dirty dishes.', 'Fill sink with soapy water.', 'Rinse solid food from heavily soiled dished.', 'Wash dishes one by one in soapy water.', 'Rinse dished one by one.', 'Place rinsed dishes on a drying rack.']","['Rinse solid food from heavily soiled dished.', 'Empty dishwater from sink when all dishes are done.']",Empty dishwater from sink when all dishes are done.,1
+7,0.875,"['Gather dirty dishes.', 'Fill sink with soapy water.', 'Rinse solid food from heavily soiled dished.', 'Wash dishes one by one in soapy water.', 'Rinse dished one by one.', 'Place rinsed dishes on a drying rack.', 'Empty dishwater from sink when all dishes are done.']","['Rinse solid food from heavily soiled dished.', 'Put dishes away when dry.']",Put dishes away when dry.,1
+0,0.0,[],"['collect all dirty dishes', 'place washed dishes in separate clean sink']",collect all dirty dishes,0
+1,0.125,['collect all dirty dishes'],"['place dirty dishes in sink', 'place plug in sink drain']",place plug in sink drain,1
+2,0.25,"['collect all dirty dishes', 'place plug in sink drain']","['fill sink with warm water', 'wash dishes manually using sponge to remove grime']",fill sink with warm water,0
+3,0.375,"['collect all dirty dishes', 'place plug in sink drain', 'fill sink with warm water']","['wash dishes manually using sponge to remove grime', 'pour soap in water']",pour soap in water,1
+4,0.5,"['collect all dirty dishes', 'place plug in sink drain', 'fill sink with warm water', 'pour soap in water']","['place washed dishes in separate clean sink', 'place dirty dishes in sink']",place dirty dishes in sink,1
+5,0.625,"['collect all dirty dishes', 'place plug in sink drain', 'fill sink with warm water', 'pour soap in water', 'place dirty dishes in sink']","['apply soap to sponge', 'place plug in sink drain']",apply soap to sponge,0
+6,0.75,"['collect all dirty dishes', 'place plug in sink drain', 'fill sink with warm water', 'pour soap in water', 'place dirty dishes in sink', 'apply soap to sponge']","['collect all dirty dishes', 'wash dishes manually using sponge to remove grime']",wash dishes manually using sponge to remove grime,1
+7,0.875,"['collect all dirty dishes', 'place plug in sink drain', 'fill sink with warm water', 'pour soap in water', 'place dirty dishes in sink', 'apply soap to sponge', 'wash dishes manually using sponge to remove grime']","['place washed dishes in separate clean sink', 'fill sink with warm water']",place washed dishes in separate clean sink,0
+0,0.0,[],"['Turn on hot water.', 'Rub sponge on dirty dish until all food is gone.']",Turn on hot water.,0
+1,0.16666666666666666,['Turn on hot water.'],"['Rinse dish.', 'Put dish soap on dish sponge.']",Put dish soap on dish sponge.,1
+2,0.3333333333333333,"['Turn on hot water.', 'Put dish soap on dish sponge.']","['Rub sponge on dirty dish until all food is gone.', 'Repeat staps 3-5 until all dishes are cleaned.']",Rub sponge on dirty dish until all food is gone.,0
+3,0.5,"['Turn on hot water.', 'Put dish soap on dish sponge.', 'Rub sponge on dirty dish until all food is gone.']","['Repeat staps 3-5 until all dishes are cleaned.', 'Rinse dish.']",Rinse dish.,1
+4,0.6666666666666666,"['Turn on hot water.', 'Put dish soap on dish sponge.', 'Rub sponge on dirty dish until all food is gone.', 'Rinse dish.']","['Put dish on drying rack.', 'Turn on hot water.']",Put dish on drying rack.,0
+5,0.8333333333333334,"['Turn on hot water.', 'Put dish soap on dish sponge.', 'Rub sponge on dirty dish until all food is gone.', 'Rinse dish.', 'Put dish on drying rack.']","['Put dish soap on dish sponge.', 'Repeat staps 3-5 until all dishes are cleaned.']",Repeat staps 3-5 until all dishes are cleaned.,1
+0,0.0,[],"['Place dirty dishes in sink', 'Fill sink with hot water']",Place dirty dishes in sink,0
+1,0.16666666666666666,['Place dirty dishes in sink'],"['Get dish soap', 'Scrub dishes until clean']",Get dish soap,0
+2,0.3333333333333333,"['Place dirty dishes in sink', 'Get dish soap']","['Scrub dishes until clean', 'Fill sink with hot water']",Fill sink with hot water,1
+3,0.5,"['Place dirty dishes in sink', 'Get dish soap', 'Fill sink with hot water']","['Let dishes soak', 'Place dirty dishes in sink']",Let dishes soak,0
+4,0.6666666666666666,"['Place dirty dishes in sink', 'Get dish soap', 'Fill sink with hot water', 'Let dishes soak']","['Scrub dishes until clean', 'Get dish soap']",Scrub dishes until clean,0
+5,0.8333333333333334,"['Place dirty dishes in sink', 'Get dish soap', 'Fill sink with hot water', 'Let dishes soak', 'Scrub dishes until clean']","['Place dirty dishes in sink', 'Rinse dishes and place in dish rack to dry']",Rinse dishes and place in dish rack to dry,1
+0,0.0,[],"['Fill sink with soap and water.', 'Fill sink with soap and water.']",Fill sink with soap and water.,0
+1,0.125,['Fill sink with soap and water.'],"['Get scrub pad.', 'Collect dirty dishes around house.']",Collect dirty dishes around house.,1
+2,0.25,"['Fill sink with soap and water.', 'Collect dirty dishes around house.']","['Put dishes in sink.', 'Empty sink.']",Put dishes in sink.,0
+3,0.375,"['Fill sink with soap and water.', 'Collect dirty dishes around house.', 'Put dishes in sink.']","['Get scrub pad.', 'Empty sink.']",Get scrub pad.,0
+4,0.5,"['Fill sink with soap and water.', 'Collect dirty dishes around house.', 'Put dishes in sink.', 'Get scrub pad.']","['Wash dishes.', 'Collect dirty dishes around house.']",Wash dishes.,0
+5,0.625,"['Fill sink with soap and water.', 'Collect dirty dishes around house.', 'Put dishes in sink.', 'Get scrub pad.', 'Wash dishes.']","['Put dishes in sink.', 'Rinse dishes.']",Rinse dishes.,1
+6,0.75,"['Fill sink with soap and water.', 'Collect dirty dishes around house.', 'Put dishes in sink.', 'Get scrub pad.', 'Wash dishes.', 'Rinse dishes.']","['Put dishes in dish drainer.', 'Put dishes in sink.']",Put dishes in dish drainer.,0
+7,0.875,"['Fill sink with soap and water.', 'Collect dirty dishes around house.', 'Put dishes in sink.', 'Get scrub pad.', 'Wash dishes.', 'Rinse dishes.', 'Put dishes in dish drainer.']","['Empty sink.', 'Get scrub pad.']",Empty sink.,0
+0,0.0,[],"['Fill sink with hot water', 'Fill sink with hot water']",Fill sink with hot water,1
+1,0.125,['Fill sink with hot water'],"['Scrub each dish thoroughly', 'Fill sink with dish soap']",Fill sink with dish soap,1
+2,0.25,"['Fill sink with hot water', 'Fill sink with dish soap']","['Put on your rubber gloves', 'Rinse each dish with clean water to get soap off']",Put on your rubber gloves,0
+3,0.375,"['Fill sink with hot water', 'Fill sink with dish soap', 'Put on your rubber gloves']","['Scrub each dish thoroughly', 'Place all dirty dishes in the dish water']",Place all dirty dishes in the dish water,1
+4,0.5,"['Fill sink with hot water', 'Fill sink with dish soap', 'Put on your rubber gloves', 'Place all dirty dishes in the dish water']","['Grab a sponge', 'Rinse each dish with clean water to get soap off']",Grab a sponge,0
+5,0.625,"['Fill sink with hot water', 'Fill sink with dish soap', 'Put on your rubber gloves', 'Place all dirty dishes in the dish water', 'Grab a sponge']","['Scrub each dish thoroughly', 'Fill sink with hot water']",Scrub each dish thoroughly,0
+6,0.75,"['Fill sink with hot water', 'Fill sink with dish soap', 'Put on your rubber gloves', 'Place all dirty dishes in the dish water', 'Grab a sponge', 'Scrub each dish thoroughly']","['Rinse each dish with clean water to get soap off', 'Place all dirty dishes in the dish water']",Rinse each dish with clean water to get soap off,0
+7,0.875,"['Fill sink with hot water', 'Fill sink with dish soap', 'Put on your rubber gloves', 'Place all dirty dishes in the dish water', 'Grab a sponge', 'Scrub each dish thoroughly', 'Rinse each dish with clean water to get soap off']","['Place dishes on rack to dry', 'Fill sink with hot water']",Place dishes on rack to dry,0
+0,0.0,[],"['Put stopper in the sink', 'Put dishes in sink']",Put stopper in the sink,0
+1,0.125,['Put stopper in the sink'],"['Add dishwashing liquid', 'Turn the hot water on']",Turn the hot water on,1
+2,0.25,"['Put stopper in the sink', 'Turn the hot water on']","['Put dishes in sink', 'Wait for the water to partially fill the sink bowl']",Wait for the water to partially fill the sink bowl,1
+3,0.375,"['Put stopper in the sink', 'Turn the hot water on', 'Wait for the water to partially fill the sink bowl']","['Put stopper in the sink', 'Turn water off']",Turn water off,1
+4,0.5,"['Put stopper in the sink', 'Turn the hot water on', 'Wait for the water to partially fill the sink bowl', 'Turn water off']","['Add dishwashing liquid', 'Turn the hot water on']",Add dishwashing liquid,0
+5,0.625,"['Put stopper in the sink', 'Turn the hot water on', 'Wait for the water to partially fill the sink bowl', 'Turn water off', 'Add dishwashing liquid']","['Put stopper in the sink', 'Put dishes in sink']",Put dishes in sink,1
+6,0.75,"['Put stopper in the sink', 'Turn the hot water on', 'Wait for the water to partially fill the sink bowl', 'Turn water off', 'Add dishwashing liquid', 'Put dishes in sink']","['Grab dishcloth', 'Wait for the water to partially fill the sink bowl']",Grab dishcloth,0
+7,0.875,"['Put stopper in the sink', 'Turn the hot water on', 'Wait for the water to partially fill the sink bowl', 'Turn water off', 'Add dishwashing liquid', 'Put dishes in sink', 'Grab dishcloth']","['Use cloth to scrub dish', 'Put stopper in the sink']",Use cloth to scrub dish,0
+0,0.0,[],"['Scrub the dish clean.', 'Pick up a dirty dish.']",Pick up a dirty dish.,1
+1,0.2,['Pick up a dirty dish.'],"['Rinse the dish.', 'Place in soapy water.']",Rinse the dish.,0
+2,0.4,"['Pick up a dirty dish.', 'Rinse the dish.']","['Rinse the dish.', 'Place in soapy water.']",Place in soapy water.,1
+3,0.6,"['Pick up a dirty dish.', 'Rinse the dish.', 'Place in soapy water.']","['Pick up a dirty dish.', 'Scrub the dish clean.']",Scrub the dish clean.,1
+4,0.8,"['Pick up a dirty dish.', 'Rinse the dish.', 'Place in soapy water.', 'Scrub the dish clean.']","['Rinse the dish.', 'Pick up a dirty dish.']",Rinse the dish.,0
+0,0.0,[],"['Start dishwasher.', 'Empty dish-washing machine']",Empty dish-washing machine,1
+1,0.125,['Empty dish-washing machine'],"['Close dishwasher door.', 'Rinse cups and put them into top rack of dishwasher.']",Rinse cups and put them into top rack of dishwasher.,1
+2,0.25,"['Empty dish-washing machine', 'Rinse cups and put them into top rack of dishwasher.']","['Rinse plates and put them in bottom rack of dishwasher.', 'Close dishwasher door.']",Rinse plates and put them in bottom rack of dishwasher.,0
+3,0.375,"['Empty dish-washing machine', 'Rinse cups and put them into top rack of dishwasher.', 'Rinse plates and put them in bottom rack of dishwasher.']","['Close dishwasher door.', 'Rinse bowls and put them in bottom rack of dishwasher.']",Rinse bowls and put them in bottom rack of dishwasher.,1
+4,0.5,"['Empty dish-washing machine', 'Rinse cups and put them into top rack of dishwasher.', 'Rinse plates and put them in bottom rack of dishwasher.', 'Rinse bowls and put them in bottom rack of dishwasher.']","['Rinse silverware and place into silverware basket.', 'Empty dish-washing machine']",Rinse silverware and place into silverware basket.,0
+5,0.625,"['Empty dish-washing machine', 'Rinse cups and put them into top rack of dishwasher.', 'Rinse plates and put them in bottom rack of dishwasher.', 'Rinse bowls and put them in bottom rack of dishwasher.', 'Rinse silverware and place into silverware basket.']","['Add dishwasher detergent to soap receptacle.', 'Rinse cups and put them into top rack of dishwasher.']",Add dishwasher detergent to soap receptacle.,0
+6,0.75,"['Empty dish-washing machine', 'Rinse cups and put them into top rack of dishwasher.', 'Rinse plates and put them in bottom rack of dishwasher.', 'Rinse bowls and put them in bottom rack of dishwasher.', 'Rinse silverware and place into silverware basket.', 'Add dishwasher detergent to soap receptacle.']","['Close dishwasher door.', 'Rinse cups and put them into top rack of dishwasher.']",Close dishwasher door.,0
+7,0.875,"['Empty dish-washing machine', 'Rinse cups and put them into top rack of dishwasher.', 'Rinse plates and put them in bottom rack of dishwasher.', 'Rinse bowls and put them in bottom rack of dishwasher.', 'Rinse silverware and place into silverware basket.', 'Add dishwasher detergent to soap receptacle.', 'Close dishwasher door.']","['Rinse cups and put them into top rack of dishwasher.', 'Start dishwasher.']",Start dishwasher.,1
+0,0.0,[],"['place bowls in dishwasher', 'turn on kitchen faucet']",turn on kitchen faucet,1
+1,0.125,['turn on kitchen faucet'],"['open dishwasher', 'wait for water to warm']",wait for water to warm,1
+2,0.25,"['turn on kitchen faucet', 'wait for water to warm']","['rinse plates', 'rinse and place cups in dishwasher']",rinse plates,0
+3,0.375,"['turn on kitchen faucet', 'wait for water to warm', 'rinse plates']","['open dishwasher', 'rinse bowls']",open dishwasher,0
+4,0.5,"['turn on kitchen faucet', 'wait for water to warm', 'rinse plates', 'open dishwasher']","['rinse and place cups in dishwasher', 'place plates in dishwasher']",place plates in dishwasher,1
+5,0.625,"['turn on kitchen faucet', 'wait for water to warm', 'rinse plates', 'open dishwasher', 'place plates in dishwasher']","['rinse and place cups in dishwasher', 'rinse bowls']",rinse bowls,1
+6,0.75,"['turn on kitchen faucet', 'wait for water to warm', 'rinse plates', 'open dishwasher', 'place plates in dishwasher', 'rinse bowls']","['rinse plates', 'place bowls in dishwasher']",place bowls in dishwasher,1
+7,0.875,"['turn on kitchen faucet', 'wait for water to warm', 'rinse plates', 'open dishwasher', 'place plates in dishwasher', 'rinse bowls', 'place bowls in dishwasher']","['rinse plates', 'rinse and place cups in dishwasher']",rinse and place cups in dishwasher,1
+0,0.0,[],"['Turn on the  sink.', 'Rub the soap into the sponge.']",Turn on the  sink.,0
+1,0.125,['Turn on the  sink.'],"['Let the water get warm or hot.', 'Let the water get warm or hot.']",Let the water get warm or hot.,1
+2,0.25,"['Turn on the  sink.', 'Let the water get warm or hot.']","['Wet the sponge.', 'Wet the dish.']",Wet the sponge.,0
+3,0.375,"['Turn on the  sink.', 'Let the water get warm or hot.', 'Wet the sponge.']","['Put soap on the sponge.', 'Turn on the  sink.']",Put soap on the sponge.,0
+4,0.5,"['Turn on the  sink.', 'Let the water get warm or hot.', 'Wet the sponge.', 'Put soap on the sponge.']","['Rub the soap into the sponge.', 'Turn on the  sink.']",Rub the soap into the sponge.,0
+5,0.625,"['Turn on the  sink.', 'Let the water get warm or hot.', 'Wet the sponge.', 'Put soap on the sponge.', 'Rub the soap into the sponge.']","['Wet the sponge.', 'Pick up a dish.']",Pick up a dish.,1
+6,0.75,"['Turn on the  sink.', 'Let the water get warm or hot.', 'Wet the sponge.', 'Put soap on the sponge.', 'Rub the soap into the sponge.', 'Pick up a dish.']","['Wet the dish.', 'Put soap on the sponge.']",Wet the dish.,0
+7,0.875,"['Turn on the  sink.', 'Let the water get warm or hot.', 'Wet the sponge.', 'Put soap on the sponge.', 'Rub the soap into the sponge.', 'Pick up a dish.', 'Wet the dish.']","['Turn on the  sink.', 'Rub the sponge on the dish to remove all dirt and grime.']",Rub the sponge on the dish to remove all dirt and grime.,1
+0,0.0,[],"['Add dirty dishes', 'Turn on water faucet']",Turn on water faucet,1
+1,0.125,['Turn on water faucet'],"['Put plug in drain', 'Make water desired temperature']",Make water desired temperature,1
+2,0.25,"['Turn on water faucet', 'Make water desired temperature']","['Add dirty dishes', 'Put plug in drain']",Put plug in drain,1
+3,0.375,"['Turn on water faucet', 'Make water desired temperature', 'Put plug in drain']","['Turn off water', 'Add dish washing soap']",Add dish washing soap,1
+4,0.5,"['Turn on water faucet', 'Make water desired temperature', 'Put plug in drain', 'Add dish washing soap']","['Add dirty dishes', 'Turn on water faucet']",Add dirty dishes,0
+5,0.625,"['Turn on water faucet', 'Make water desired temperature', 'Put plug in drain', 'Add dish washing soap', 'Add dirty dishes']","['Turn on water faucet', 'Allow sink to fill to desired level']",Allow sink to fill to desired level,1
+6,0.75,"['Turn on water faucet', 'Make water desired temperature', 'Put plug in drain', 'Add dish washing soap', 'Add dirty dishes', 'Allow sink to fill to desired level']","['Turn off water', 'Put plug in drain']",Turn off water,0
+7,0.875,"['Turn on water faucet', 'Make water desired temperature', 'Put plug in drain', 'Add dish washing soap', 'Add dirty dishes', 'Allow sink to fill to desired level', 'Turn off water']","['Use dish cloth to remove food from dish', 'Make water desired temperature']",Use dish cloth to remove food from dish,0
+0,0.0,[],"['Put soap on sponge', 'Turn hot water on']",Turn hot water on,1
+1,0.125,['Turn hot water on'],"['Put on gloves if desired', 'Rinse soapy water off now clean dish']",Put on gloves if desired,0
+2,0.25,"['Turn hot water on', 'Put on gloves if desired']","['Rinse water over dirty dish', 'Wet sponge']",Wet sponge,1
+3,0.375,"['Turn hot water on', 'Put on gloves if desired', 'Wet sponge']","['Put soap on sponge', 'Put clean dish on drying rack']",Put soap on sponge,0
+4,0.5,"['Turn hot water on', 'Put on gloves if desired', 'Wet sponge', 'Put soap on sponge']","['Put on gloves if desired', 'Rinse water over dirty dish']",Rinse water over dirty dish,1
+5,0.625,"['Turn hot water on', 'Put on gloves if desired', 'Wet sponge', 'Put soap on sponge', 'Rinse water over dirty dish']","['Wipe dirty dish with soapy sponge until clean', 'Put clean dish on drying rack']",Wipe dirty dish with soapy sponge until clean,0
+6,0.75,"['Turn hot water on', 'Put on gloves if desired', 'Wet sponge', 'Put soap on sponge', 'Rinse water over dirty dish', 'Wipe dirty dish with soapy sponge until clean']","['Rinse soapy water off now clean dish', 'Put on gloves if desired']",Rinse soapy water off now clean dish,0
+7,0.875,"['Turn hot water on', 'Put on gloves if desired', 'Wet sponge', 'Put soap on sponge', 'Rinse water over dirty dish', 'Wipe dirty dish with soapy sponge until clean', 'Rinse soapy water off now clean dish']","['Put soap on sponge', 'Put clean dish on drying rack']",Put clean dish on drying rack,1
+0,0.0,[],"['Use sponge to wipe off plates, utensils, bowls, and glasses.', 'Place dirty dishes in sink.']",Place dirty dishes in sink.,1
+1,0.14285714285714285,['Place dirty dishes in sink.'],"['Use sponge to wipe off plates, utensils, bowls, and glasses.', 'Fill sink with hot water and dish detergent']",Fill sink with hot water and dish detergent,1
+2,0.2857142857142857,"['Place dirty dishes in sink.', 'Fill sink with hot water and dish detergent']","['Place dishes on drying rack', 'Let soak']",Let soak,1
+3,0.42857142857142855,"['Place dirty dishes in sink.', 'Fill sink with hot water and dish detergent', 'Let soak']","['Place dirty dishes in sink.', 'Use sponge to wipe off plates, utensils, bowls, and glasses.']","Use sponge to wipe off plates, utensils, bowls, and glasses.",1
+4,0.5714285714285714,"['Place dirty dishes in sink.', 'Fill sink with hot water and dish detergent', 'Let soak', 'Use sponge to wipe off plates, utensils, bowls, and glasses.']","['Place dirty dishes in sink.', 'Empty dirty water.']",Empty dirty water.,1
+5,0.7142857142857143,"['Place dirty dishes in sink.', 'Fill sink with hot water and dish detergent', 'Let soak', 'Use sponge to wipe off plates, utensils, bowls, and glasses.', 'Empty dirty water.']","['Place dirty dishes in sink.', 'Rinse dishes with clean water']",Rinse dishes with clean water,1
+6,0.8571428571428571,"['Place dirty dishes in sink.', 'Fill sink with hot water and dish detergent', 'Let soak', 'Use sponge to wipe off plates, utensils, bowls, and glasses.', 'Empty dirty water.', 'Rinse dishes with clean water']","['Place dishes on drying rack', 'Let soak']",Place dishes on drying rack,0
+0,0.0,[],"['wipe dishes with sponge', 'use plastic gloves']",use plastic gloves,1
+1,0.14285714285714285,['use plastic gloves'],"['put dirty dishes into sink', 'use plastic gloves']",put dirty dishes into sink,0
+2,0.2857142857142857,"['use plastic gloves', 'put dirty dishes into sink']","['wipe dishes with sponge', 'rinse dishes with warm water']",rinse dishes with warm water,1
+3,0.42857142857142855,"['use plastic gloves', 'put dirty dishes into sink', 'rinse dishes with warm water']","['apply soap to sponge', 'use plastic gloves']",apply soap to sponge,0
+4,0.5714285714285714,"['use plastic gloves', 'put dirty dishes into sink', 'rinse dishes with warm water', 'apply soap to sponge']","['wipe dishes with sponge', 'store onto tray to dry off']",wipe dishes with sponge,0
+5,0.7142857142857143,"['use plastic gloves', 'put dirty dishes into sink', 'rinse dishes with warm water', 'apply soap to sponge', 'wipe dishes with sponge']","['use plastic gloves', 'rinse soap off dishes']",rinse soap off dishes,1
+6,0.8571428571428571,"['use plastic gloves', 'put dirty dishes into sink', 'rinse dishes with warm water', 'apply soap to sponge', 'wipe dishes with sponge', 'rinse soap off dishes']","['store onto tray to dry off', 'use plastic gloves']",store onto tray to dry off,0
+0,0.0,[],"['Clear the dishes off any food remains', 'Press Start button']",Clear the dishes off any food remains,0
+1,0.125,['Clear the dishes off any food remains'],"['Press Start button', 'Open the dish washer door']",Open the dish washer door,1
+2,0.25,"['Clear the dishes off any food remains', 'Open the dish washer door']","['Wait till a completion beep comes from the dish washer', 'Arrange dishes in dish washer']",Arrange dishes in dish washer,1
+3,0.375,"['Clear the dishes off any food remains', 'Open the dish washer door', 'Arrange dishes in dish washer']","['Wait till a completion beep comes from the dish washer', 'Add Dish washing liquid']",Add Dish washing liquid,1
+4,0.5,"['Clear the dishes off any food remains', 'Open the dish washer door', 'Arrange dishes in dish washer', 'Add Dish washing liquid']","['Switch on the dish washer', 'Open the dish washer door']",Switch on the dish washer,0
+5,0.625,"['Clear the dishes off any food remains', 'Open the dish washer door', 'Arrange dishes in dish washer', 'Add Dish washing liquid', 'Switch on the dish washer']","['Open the dish washer door', 'Select the mode']",Select the mode,1
+6,0.75,"['Clear the dishes off any food remains', 'Open the dish washer door', 'Arrange dishes in dish washer', 'Add Dish washing liquid', 'Switch on the dish washer', 'Select the mode']","['Press Start button', 'Open the dish washer door']",Press Start button,0
+7,0.875,"['Clear the dishes off any food remains', 'Open the dish washer door', 'Arrange dishes in dish washer', 'Add Dish washing liquid', 'Switch on the dish washer', 'Select the mode', 'Press Start button']","['Wait till a completion beep comes from the dish washer', 'Add Dish washing liquid']",Wait till a completion beep comes from the dish washer,0
+0,0.0,[],"['Fill up sink with water and soap', 'Fill up sink with water and soap']",Fill up sink with water and soap,0
+1,0.14285714285714285,['Fill up sink with water and soap'],"['Put cleaned dish in dish rack', 'Put dirty dishes into water']",Put dirty dishes into water,1
+2,0.2857142857142857,"['Fill up sink with water and soap', 'Put dirty dishes into water']","['Soak dishes for a few moments', 'Put cleaned dish in dish rack']",Soak dishes for a few moments,0
+3,0.42857142857142855,"['Fill up sink with water and soap', 'Put dirty dishes into water', 'Soak dishes for a few moments']","['Put cleaned dish in dish rack', 'Pick up a dish and clean with sponge']",Pick up a dish and clean with sponge,1
+4,0.5714285714285714,"['Fill up sink with water and soap', 'Put dirty dishes into water', 'Soak dishes for a few moments', 'Pick up a dish and clean with sponge']","['Fill up sink with water and soap', 'Then rinse dish with water']",Then rinse dish with water,1
+5,0.7142857142857143,"['Fill up sink with water and soap', 'Put dirty dishes into water', 'Soak dishes for a few moments', 'Pick up a dish and clean with sponge', 'Then rinse dish with water']","['Put dirty dishes into water', 'Put cleaned dish in dish rack']",Put cleaned dish in dish rack,1
+6,0.8571428571428571,"['Fill up sink with water and soap', 'Put dirty dishes into water', 'Soak dishes for a few moments', 'Pick up a dish and clean with sponge', 'Then rinse dish with water', 'Put cleaned dish in dish rack']","['Pick up a dish and clean with sponge', 'Repeat with all dishes']",Repeat with all dishes,1
+0,0.0,[],"['Close dishwasher door and set time/cycle', 'Gather all dirty dishes in kitchen in one area']",Gather all dirty dishes in kitchen in one area,1
+1,0.125,['Gather all dirty dishes in kitchen in one area'],"['Turn on kitchen faucet and run warm to hot water', 'Close dishwasher door and set time/cycle']",Turn on kitchen faucet and run warm to hot water,0
+2,0.25,"['Gather all dirty dishes in kitchen in one area', 'Turn on kitchen faucet and run warm to hot water']","['Close dishwasher door and set time/cycle', 'Using a sponge, place each individual dish one at a time under water and wipe off dishes']","Using a sponge, place each individual dish one at a time under water and wipe off dishes",1
+3,0.375,"['Gather all dirty dishes in kitchen in one area', 'Turn on kitchen faucet and run warm to hot water', 'Using a sponge, place each individual dish one at a time under water and wipe off dishes']","['Gather all dirty dishes in kitchen in one area', 'Place prewashed dishes carefully into dishwasher']",Place prewashed dishes carefully into dishwasher,1
+4,0.5,"['Gather all dirty dishes in kitchen in one area', 'Turn on kitchen faucet and run warm to hot water', 'Using a sponge, place each individual dish one at a time under water and wipe off dishes', 'Place prewashed dishes carefully into dishwasher']","['Add detergent to dishwasher', 'Turn on kitchen faucet and run warm to hot water']",Add detergent to dishwasher,0
+5,0.625,"['Gather all dirty dishes in kitchen in one area', 'Turn on kitchen faucet and run warm to hot water', 'Using a sponge, place each individual dish one at a time under water and wipe off dishes', 'Place prewashed dishes carefully into dishwasher', 'Add detergent to dishwasher']","['Close dishwasher door and set time/cycle', 'Turn on kitchen faucet and run warm to hot water']",Close dishwasher door and set time/cycle,0
+6,0.75,"['Gather all dirty dishes in kitchen in one area', 'Turn on kitchen faucet and run warm to hot water', 'Using a sponge, place each individual dish one at a time under water and wipe off dishes', 'Place prewashed dishes carefully into dishwasher', 'Add detergent to dishwasher', 'Close dishwasher door and set time/cycle']","['Place prewashed dishes carefully into dishwasher', ""Wait until dishwasher's cycle is finished""]",Wait until dishwasher's cycle is finished,1
+7,0.875,"['Gather all dirty dishes in kitchen in one area', 'Turn on kitchen faucet and run warm to hot water', 'Using a sponge, place each individual dish one at a time under water and wipe off dishes', 'Place prewashed dishes carefully into dishwasher', 'Add detergent to dishwasher', 'Close dishwasher door and set time/cycle', ""Wait until dishwasher's cycle is finished""]","['Turn on kitchen faucet and run warm to hot water', 'Open door of dishwasher to verify cleanlines']",Open door of dishwasher to verify cleanlines,1
+0,0.0,[],"['Rinse dishes in clear water', 'Gather dishes to be washed']",Gather dishes to be washed,1
+1,0.125,['Gather dishes to be washed'],"['Fill another sink with plain hot water', 'Place dishes in sink']",Place dishes in sink,1
+2,0.25,"['Gather dishes to be washed', 'Place dishes in sink']","['Fill sink with hot water with dish soap', 'Rinse dishes in clear water']",Fill sink with hot water with dish soap,0
+3,0.375,"['Gather dishes to be washed', 'Place dishes in sink', 'Fill sink with hot water with dish soap']","['Drain and rinse both sinks', 'Fill another sink with plain hot water']",Fill another sink with plain hot water,1
+4,0.5,"['Gather dishes to be washed', 'Place dishes in sink', 'Fill sink with hot water with dish soap', 'Fill another sink with plain hot water']","['Drain and rinse both sinks', 'Wash dishes with dish cloth in soapy water']",Wash dishes with dish cloth in soapy water,1
+5,0.625,"['Gather dishes to be washed', 'Place dishes in sink', 'Fill sink with hot water with dish soap', 'Fill another sink with plain hot water', 'Wash dishes with dish cloth in soapy water']","['Fill sink with hot water with dish soap', 'Rinse dishes in clear water']",Rinse dishes in clear water,1
+6,0.75,"['Gather dishes to be washed', 'Place dishes in sink', 'Fill sink with hot water with dish soap', 'Fill another sink with plain hot water', 'Wash dishes with dish cloth in soapy water', 'Rinse dishes in clear water']","['Place washed and rinsed dishes in drain tray', 'Place dishes in sink']",Place washed and rinsed dishes in drain tray,0
+7,0.875,"['Gather dishes to be washed', 'Place dishes in sink', 'Fill sink with hot water with dish soap', 'Fill another sink with plain hot water', 'Wash dishes with dish cloth in soapy water', 'Rinse dishes in clear water', 'Place washed and rinsed dishes in drain tray']","['Drain and rinse both sinks', 'Gather dishes to be washed']",Drain and rinse both sinks,0
+0,0.0,[],"['Put dirty dishes into dishwasher', 'Open door of dishwasher']",Open door of dishwasher,1
+1,0.125,['Open door of dishwasher'],"['Select how long to wash dishes', 'Take clean dishes out of dishwasher']",Take clean dishes out of dishwasher,1
+2,0.25,"['Open door of dishwasher', 'Take clean dishes out of dishwasher']","['Turn on dish washer', 'Put dirty dishes into dishwasher']",Put dirty dishes into dishwasher,1
+3,0.375,"['Open door of dishwasher', 'Take clean dishes out of dishwasher', 'Put dirty dishes into dishwasher']","['Turn on dish washer', 'Put dish washing detergent into dishwasher']",Put dish washing detergent into dishwasher,1
+4,0.5,"['Open door of dishwasher', 'Take clean dishes out of dishwasher', 'Put dirty dishes into dishwasher', 'Put dish washing detergent into dishwasher']","['Wait for dishwasher to finish', 'Close door of dishwasher']",Close door of dishwasher,1
+5,0.625,"['Open door of dishwasher', 'Take clean dishes out of dishwasher', 'Put dirty dishes into dishwasher', 'Put dish washing detergent into dishwasher', 'Close door of dishwasher']","['Take clean dishes out of dishwasher', 'Select how long to wash dishes']",Select how long to wash dishes,1
+6,0.75,"['Open door of dishwasher', 'Take clean dishes out of dishwasher', 'Put dirty dishes into dishwasher', 'Put dish washing detergent into dishwasher', 'Close door of dishwasher', 'Select how long to wash dishes']","['Turn on dish washer', 'Put dirty dishes into dishwasher']",Turn on dish washer,0
+7,0.875,"['Open door of dishwasher', 'Take clean dishes out of dishwasher', 'Put dirty dishes into dishwasher', 'Put dish washing detergent into dishwasher', 'Close door of dishwasher', 'Select how long to wash dishes', 'Turn on dish washer']","['Put dirty dishes into dishwasher', 'Wait for dishwasher to finish']",Wait for dishwasher to finish,1
+0,0.0,[],"['Turn on water to desired temperature', 'Turn off water']",Turn on water to desired temperature,0
+1,0.14285714285714285,['Turn on water to desired temperature'],"['Dry hands', 'Apply dish soap to sponge']",Apply dish soap to sponge,1
+2,0.2857142857142857,"['Turn on water to desired temperature', 'Apply dish soap to sponge']","['Turn off water', 'Use sponge to remove and clean dishes']",Use sponge to remove and clean dishes,1
+3,0.42857142857142855,"['Turn on water to desired temperature', 'Apply dish soap to sponge', 'Use sponge to remove and clean dishes']","['Rinse soap off dishes', 'Dry hands']",Rinse soap off dishes,0
+4,0.5714285714285714,"['Turn on water to desired temperature', 'Apply dish soap to sponge', 'Use sponge to remove and clean dishes', 'Rinse soap off dishes']","['Place rinsed dishes in drying rack', 'Dry hands']",Place rinsed dishes in drying rack,0
+5,0.7142857142857143,"['Turn on water to desired temperature', 'Apply dish soap to sponge', 'Use sponge to remove and clean dishes', 'Rinse soap off dishes', 'Place rinsed dishes in drying rack']","['Turn off water', 'Turn on water to desired temperature']",Turn off water,0
+6,0.8571428571428571,"['Turn on water to desired temperature', 'Apply dish soap to sponge', 'Use sponge to remove and clean dishes', 'Rinse soap off dishes', 'Place rinsed dishes in drying rack', 'Turn off water']","['Dry hands', 'Turn on water to desired temperature']",Dry hands,0
+0,0.0,[],"['Use sponge to scrub dirty dishes', 'Get sponge']",Get sponge,1
+1,0.14285714285714285,['Get sponge'],"['Use sponge to scrub dirty dishes', 'Wet sponge']",Wet sponge,1
+2,0.2857142857142857,"['Get sponge', 'Wet sponge']","['Put a few drops of dish soap on the sponge', 'Put rinsed dishes in dish rack to dry']",Put a few drops of dish soap on the sponge,0
+3,0.42857142857142855,"['Get sponge', 'Wet sponge', 'Put a few drops of dish soap on the sponge']","['Put rinsed dishes in dish rack to dry', 'Use sponge to scrub dirty dishes']",Use sponge to scrub dirty dishes,1
+4,0.5714285714285714,"['Get sponge', 'Wet sponge', 'Put a few drops of dish soap on the sponge', 'Use sponge to scrub dirty dishes']","['Turn on faucet', 'Get sponge']",Turn on faucet,0
+5,0.7142857142857143,"['Get sponge', 'Wet sponge', 'Put a few drops of dish soap on the sponge', 'Use sponge to scrub dirty dishes', 'Turn on faucet']","['Rinse soapy dishes until no longer soapy', 'Put a few drops of dish soap on the sponge']",Rinse soapy dishes until no longer soapy,0
+6,0.8571428571428571,"['Get sponge', 'Wet sponge', 'Put a few drops of dish soap on the sponge', 'Use sponge to scrub dirty dishes', 'Turn on faucet', 'Rinse soapy dishes until no longer soapy']","['Put rinsed dishes in dish rack to dry', 'Use sponge to scrub dirty dishes']",Put rinsed dishes in dish rack to dry,0
+0,0.0,[],"['Close the door to the dishwasher.', 'Rinse the dishes to remove large morsels of food.']",Rinse the dishes to remove large morsels of food.,1
+1,0.2,['Rinse the dishes to remove large morsels of food.'],"['Add dishwasher soap to the dishwasher.', 'Run the garbage disposal while the water runs.']",Run the garbage disposal while the water runs.,1
+2,0.4,"['Rinse the dishes to remove large morsels of food.', 'Run the garbage disposal while the water runs.']","['Place the dishes into the dishwasher.', 'Close the door to the dishwasher.']",Place the dishes into the dishwasher.,0
+3,0.6,"['Rinse the dishes to remove large morsels of food.', 'Run the garbage disposal while the water runs.', 'Place the dishes into the dishwasher.']","['Rinse the dishes to remove large morsels of food.', 'Add dishwasher soap to the dishwasher.']",Add dishwasher soap to the dishwasher.,1
+4,0.8,"['Rinse the dishes to remove large morsels of food.', 'Run the garbage disposal while the water runs.', 'Place the dishes into the dishwasher.', 'Add dishwasher soap to the dishwasher.']","['Rinse the dishes to remove large morsels of food.', 'Close the door to the dishwasher.']",Close the door to the dishwasher.,1
+0,0.0,[],"['Soak dishes in sink of water, if necessary.', 'Soak dishes in sink of water, if necessary.']","Soak dishes in sink of water, if necessary.",0
+1,0.14285714285714285,"['Soak dishes in sink of water, if necessary.']","['Wipe any food off dishes.', 'Put soap into dishwasher dispenser.']",Wipe any food off dishes.,0
+2,0.2857142857142857,"['Soak dishes in sink of water, if necessary.', 'Wipe any food off dishes.']","['Turn on dishwasher.', 'Put dishes into dishwasher.']",Put dishes into dishwasher.,1
+3,0.42857142857142855,"['Soak dishes in sink of water, if necessary.', 'Wipe any food off dishes.', 'Put dishes into dishwasher.']","['Put soap into dishwasher dispenser.', 'Select correct cycle.']",Put soap into dishwasher dispenser.,0
+4,0.5714285714285714,"['Soak dishes in sink of water, if necessary.', 'Wipe any food off dishes.', 'Put dishes into dishwasher.', 'Put soap into dishwasher dispenser.']","['Soak dishes in sink of water, if necessary.', 'Close dishwasher door.']",Close dishwasher door.,1
+5,0.7142857142857143,"['Soak dishes in sink of water, if necessary.', 'Wipe any food off dishes.', 'Put dishes into dishwasher.', 'Put soap into dishwasher dispenser.', 'Close dishwasher door.']","['Select correct cycle.', 'Soak dishes in sink of water, if necessary.']",Select correct cycle.,0
+6,0.8571428571428571,"['Soak dishes in sink of water, if necessary.', 'Wipe any food off dishes.', 'Put dishes into dishwasher.', 'Put soap into dishwasher dispenser.', 'Close dishwasher door.', 'Select correct cycle.']","['Soak dishes in sink of water, if necessary.', 'Turn on dishwasher.']",Turn on dishwasher.,1
+0,0.0,[],"['Put them in sink', 'Gather dirty dishes']",Gather dirty dishes,1
+1,0.125,['Gather dirty dishes'],"['Wash dish with water and sponge', 'Put them in sink']",Put them in sink,1
+2,0.25,"['Gather dirty dishes', 'Put them in sink']","['Wash dish with water and sponge', 'Turn on hot water']",Turn on hot water,1
+3,0.375,"['Gather dirty dishes', 'Put them in sink', 'Turn on hot water']","['Rinse soap off dish', 'Pick up sponge']",Pick up sponge,1
+4,0.5,"['Gather dirty dishes', 'Put them in sink', 'Turn on hot water', 'Pick up sponge']","['Put detergent on it', 'Wash dish with water and sponge']",Put detergent on it,0
+5,0.625,"['Gather dirty dishes', 'Put them in sink', 'Turn on hot water', 'Pick up sponge', 'Put detergent on it']","['Pick up dirty dish', 'Gather dirty dishes']",Pick up dirty dish,0
+6,0.75,"['Gather dirty dishes', 'Put them in sink', 'Turn on hot water', 'Pick up sponge', 'Put detergent on it', 'Pick up dirty dish']","['Wash dish with water and sponge', 'Pick up sponge']",Wash dish with water and sponge,0
+7,0.875,"['Gather dirty dishes', 'Put them in sink', 'Turn on hot water', 'Pick up sponge', 'Put detergent on it', 'Pick up dirty dish', 'Wash dish with water and sponge']","['Rinse soap off dish', 'Turn on hot water']",Rinse soap off dish,0
+0,0.0,[],"['Put all of the dirty dishes in the sink', 'Run water and wash  food off of plates']",Put all of the dirty dishes in the sink,0
+1,0.125,['Put all of the dirty dishes in the sink'],"['Get a sponge and dish soap', 'Get a sponge and dish soap']",Get a sponge and dish soap,0
+2,0.25,"['Put all of the dirty dishes in the sink', 'Get a sponge and dish soap']","['Dry cleaned dishes with towel', 'Put some dish soap on the sponge']",Put some dish soap on the sponge,1
+3,0.375,"['Put all of the dirty dishes in the sink', 'Get a sponge and dish soap', 'Put some dish soap on the sponge']","['Wet the sponge and get it bubbly', 'Put dishes on rack to dry']",Wet the sponge and get it bubbly,0
+4,0.5,"['Put all of the dirty dishes in the sink', 'Get a sponge and dish soap', 'Put some dish soap on the sponge', 'Wet the sponge and get it bubbly']","['Put all of the dirty dishes in the sink', 'Run water and wash  food off of plates']",Run water and wash  food off of plates,1
+5,0.625,"['Put all of the dirty dishes in the sink', 'Get a sponge and dish soap', 'Put some dish soap on the sponge', 'Wet the sponge and get it bubbly', 'Run water and wash  food off of plates']","['Wash with sponge', 'Put some dish soap on the sponge']",Wash with sponge,0
+6,0.75,"['Put all of the dirty dishes in the sink', 'Get a sponge and dish soap', 'Put some dish soap on the sponge', 'Wet the sponge and get it bubbly', 'Run water and wash  food off of plates', 'Wash with sponge']","['Dry cleaned dishes with towel', 'Wet the sponge and get it bubbly']",Dry cleaned dishes with towel,0
+7,0.875,"['Put all of the dirty dishes in the sink', 'Get a sponge and dish soap', 'Put some dish soap on the sponge', 'Wet the sponge and get it bubbly', 'Run water and wash  food off of plates', 'Wash with sponge', 'Dry cleaned dishes with towel']","['Get a sponge and dish soap', 'Put dishes on rack to dry']",Put dishes on rack to dry,1
+0,0.0,[],"['Use the sponge to wash food off dishes', 'Turn on the water']",Turn on the water,1
+1,0.16666666666666666,['Turn on the water'],"['Let the water get hot', 'Put dishes in drying rack']",Let the water get hot,0
+2,0.3333333333333333,"['Turn on the water', 'Let the water get hot']","['Put soap on the sponge', 'Put dishes in drying rack']",Put soap on the sponge,0
+3,0.5,"['Turn on the water', 'Let the water get hot', 'Put soap on the sponge']","['Use the sponge to wash food off dishes', 'Turn on the water']",Use the sponge to wash food off dishes,0
+4,0.6666666666666666,"['Turn on the water', 'Let the water get hot', 'Put soap on the sponge', 'Use the sponge to wash food off dishes']","['Turn on the water', 'Rinse the soap off dishes']",Rinse the soap off dishes,1
+5,0.8333333333333334,"['Turn on the water', 'Let the water get hot', 'Put soap on the sponge', 'Use the sponge to wash food off dishes', 'Rinse the soap off dishes']","['Put dishes in drying rack', 'Put soap on the sponge']",Put dishes in drying rack,0
+0,0.0,[],"['Place plug in sink drain', 'Scrub dishes with pot scrubber or washcloth']",Place plug in sink drain,0
+1,0.125,['Place plug in sink drain'],"['Place dirty dishes in sink', 'Place dirty dishes in sink']",Place dirty dishes in sink,1
+2,0.25,"['Place plug in sink drain', 'Place dirty dishes in sink']","['Allow dishes to soak for five minutes', 'Run hot water to fill the sink']",Run hot water to fill the sink,1
+3,0.375,"['Place plug in sink drain', 'Place dirty dishes in sink', 'Run hot water to fill the sink']","['Scrub dishes with pot scrubber or washcloth', 'Add washing-up liquid']",Add washing-up liquid,1
+4,0.5,"['Place plug in sink drain', 'Place dirty dishes in sink', 'Run hot water to fill the sink', 'Add washing-up liquid']","['Add bleach', 'Pull the sink plug and allow dishes to drain']",Add bleach,0
+5,0.625,"['Place plug in sink drain', 'Place dirty dishes in sink', 'Run hot water to fill the sink', 'Add washing-up liquid', 'Add bleach']","['Allow dishes to soak for five minutes', 'Pull the sink plug and allow dishes to drain']",Allow dishes to soak for five minutes,0
+6,0.75,"['Place plug in sink drain', 'Place dirty dishes in sink', 'Run hot water to fill the sink', 'Add washing-up liquid', 'Add bleach', 'Allow dishes to soak for five minutes']","['Place plug in sink drain', 'Scrub dishes with pot scrubber or washcloth']",Scrub dishes with pot scrubber or washcloth,1
+7,0.875,"['Place plug in sink drain', 'Place dirty dishes in sink', 'Run hot water to fill the sink', 'Add washing-up liquid', 'Add bleach', 'Allow dishes to soak for five minutes', 'Scrub dishes with pot scrubber or washcloth']","['Place dirty dishes in sink', 'Pull the sink plug and allow dishes to drain']",Pull the sink plug and allow dishes to drain,1
+0,0.0,[],"['Put glasses into water', 'Put stopper in sink']",Put stopper in sink,1
+1,0.125,['Put stopper in sink'],"['Fill sink with hot water', 'When sink is filled, turn water off']",Fill sink with hot water,0
+2,0.25,"['Put stopper in sink', 'Fill sink with hot water']","['Add detergent', 'Put glasses in dish rack']",Add detergent,0
+3,0.375,"['Put stopper in sink', 'Fill sink with hot water', 'Add detergent']","['When sink is filled, turn water off', 'Put stopper in sink']","When sink is filled, turn water off",0
+4,0.5,"['Put stopper in sink', 'Fill sink with hot water', 'Add detergent', 'When sink is filled, turn water off']","['Fill sink with hot water', 'Put glasses into water']",Put glasses into water,1
+5,0.625,"['Put stopper in sink', 'Fill sink with hot water', 'Add detergent', 'When sink is filled, turn water off', 'Put glasses into water']","['Fill sink with hot water', 'Wash glasses']",Wash glasses,1
+6,0.75,"['Put stopper in sink', 'Fill sink with hot water', 'Add detergent', 'When sink is filled, turn water off', 'Put glasses into water', 'Wash glasses']","['Put stopper in sink', 'Put glasses in dish rack']",Put glasses in dish rack,1
+7,0.875,"['Put stopper in sink', 'Fill sink with hot water', 'Add detergent', 'When sink is filled, turn water off', 'Put glasses into water', 'Wash glasses', 'Put glasses in dish rack']","['Add detergent', 'Put plates in water']",Put plates in water,1
+0,0.0,[],"['Plug sink', 'Set them up to dry or towel them down']",Plug sink,0
+1,0.2,['Plug sink'],"['Fill sink with soapy water', 'Fill sink with soapy water']",Fill sink with soapy water,0
+2,0.4,"['Plug sink', 'Fill sink with soapy water']","['Set them up to dry or towel them down', 'scrub dishes in water']",scrub dishes in water,1
+3,0.6,"['Plug sink', 'Fill sink with soapy water', 'scrub dishes in water']","['Plug sink', 'Rinse the dishes']",Rinse the dishes,1
+4,0.8,"['Plug sink', 'Fill sink with soapy water', 'scrub dishes in water', 'Rinse the dishes']","['Plug sink', 'Set them up to dry or towel them down']",Set them up to dry or towel them down,1
+0,0.0,[],"['Gather dirty dishes', 'Gather dirty dishes']",Gather dirty dishes,0
+1,0.16666666666666666,['Gather dirty dishes'],"['Gather dirty dishes', 'Place dishes into dish washer']",Place dishes into dish washer,1
+2,0.3333333333333333,"['Gather dirty dishes', 'Place dishes into dish washer']","['Place dishes back in cupboard', 'Put soap in dish washer']",Put soap in dish washer,1
+3,0.5,"['Gather dirty dishes', 'Place dishes into dish washer', 'Put soap in dish washer']","['Turn dish washer on', 'Gather dirty dishes']",Turn dish washer on,0
+4,0.6666666666666666,"['Gather dirty dishes', 'Place dishes into dish washer', 'Put soap in dish washer', 'Turn dish washer on']","['Wait for dish washer to finish', 'Place dishes into dish washer']",Wait for dish washer to finish,0
+5,0.8333333333333334,"['Gather dirty dishes', 'Place dishes into dish washer', 'Put soap in dish washer', 'Turn dish washer on', 'Wait for dish washer to finish']","['Place dishes into dish washer', 'Place dishes back in cupboard']",Place dishes back in cupboard,1

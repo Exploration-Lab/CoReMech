@@ -1,0 +1,476 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Find a theater to go to nearby', 'Go to ticket booth and buy ticket']",Find a theater to go to nearby,0
+1,0.2,['Find a theater to go to nearby'],"['Get in mode of transportation to get to theater', 'Get in mode of transportation to get to theater']",Get in mode of transportation to get to theater,1
+2,0.4,"['Find a theater to go to nearby', 'Get in mode of transportation to get to theater']","['Pick out a movie to watch', 'Proceed inside to the theater']",Pick out a movie to watch,0
+3,0.6,"['Find a theater to go to nearby', 'Get in mode of transportation to get to theater', 'Pick out a movie to watch']","['Go to ticket booth and buy ticket', 'Find a theater to go to nearby']",Go to ticket booth and buy ticket,0
+4,0.8,"['Find a theater to go to nearby', 'Get in mode of transportation to get to theater', 'Pick out a movie to watch', 'Go to ticket booth and buy ticket']","['Find a theater to go to nearby', 'Proceed inside to the theater']",Proceed inside to the theater,1
+0,0.0,[],"['Find parking space.', 'Decide what show to see.']",Decide what show to see.,1
+1,0.2,['Decide what show to see.'],"['Drive to theater.', 'Decide what show to see.']",Drive to theater.,0
+2,0.4,"['Decide what show to see.', 'Drive to theater.']","['Give ticket to employee.', 'Find parking space.']",Find parking space.,1
+3,0.6,"['Decide what show to see.', 'Drive to theater.', 'Find parking space.']","['Decide what show to see.', 'Buy tickets at the counter.']",Buy tickets at the counter.,1
+4,0.8,"['Decide what show to see.', 'Drive to theater.', 'Find parking space.', 'Buy tickets at the counter.']","['Drive to theater.', 'Give ticket to employee.']",Give ticket to employee.,1
+0,0.0,[],"['Find out time of the movie you want to watch', 'Park']",Find out time of the movie you want to watch,0
+1,0.2,['Find out time of the movie you want to watch'],"['Drive to the theater', 'Park']",Drive to the theater,0
+2,0.4,"['Find out time of the movie you want to watch', 'Drive to the theater']","['Go to the theater number assigned', 'Park']",Park,1
+3,0.6,"['Find out time of the movie you want to watch', 'Drive to the theater', 'Park']","['Find out time of the movie you want to watch', 'Go inside and purchase a ticket']",Go inside and purchase a ticket,1
+4,0.8,"['Find out time of the movie you want to watch', 'Drive to the theater', 'Park', 'Go inside and purchase a ticket']","['Drive to the theater', 'Go to the theater number assigned']",Go to the theater number assigned,1
+0,0.0,[],"['picking out a show to see', 'driving to the theater']",picking out a show to see,0
+1,0.2,['picking out a show to see'],"['driving to the theater', 'buying tickets for show']",buying tickets for show,1
+2,0.4,"['picking out a show to see', 'buying tickets for show']","['taking my seat', 'driving to the theater']",driving to the theater,1
+3,0.6,"['picking out a show to see', 'buying tickets for show', 'driving to the theater']","['checking into the theater', 'picking out a show to see']",checking into the theater,0
+4,0.8,"['picking out a show to see', 'buying tickets for show', 'driving to the theater', 'checking into the theater']","['buying tickets for show', 'taking my seat']",taking my seat,1
+0,0.0,[],"['pick a movie', 'wait in line']",pick a movie,0
+1,0.2,['pick a movie'],"['find movie time', 'wait in line']",find movie time,0
+2,0.4,"['pick a movie', 'find movie time']","['go to the theater', 'buy movie ticket']",go to the theater,0
+3,0.6,"['pick a movie', 'find movie time', 'go to the theater']","['pick a movie', 'wait in line']",wait in line,1
+4,0.8,"['pick a movie', 'find movie time', 'go to the theater', 'wait in line']","['buy movie ticket', 'pick a movie']",buy movie ticket,0
+0,0.0,[],"[""Choose the movie that you'd like to watch"", 'Pay for the tickets']",Choose the movie that you'd like to watch,0
+1,0.2,"[""Choose the movie that you'd like to watch""]","['Pay for the tickets', 'Select the show times']",Select the show times,1
+2,0.4,"[""Choose the movie that you'd like to watch"", 'Select the show times']","['Enter the theater', 'Drive to the theater']",Drive to the theater,1
+3,0.6,"[""Choose the movie that you'd like to watch"", 'Select the show times', 'Drive to the theater']","[""Choose the movie that you'd like to watch"", 'Pay for the tickets']",Pay for the tickets,1
+4,0.8,"[""Choose the movie that you'd like to watch"", 'Select the show times', 'Drive to the theater', 'Pay for the tickets']","['Enter the theater', ""Choose the movie that you'd like to watch""]",Enter the theater,0
+0,0.0,[],"['Find movie listings', 'Go to ticket line']",Find movie listings,0
+1,0.2,['Find movie listings'],"['Go to ticket line', 'Decide on movie']",Decide on movie,1
+2,0.4,"['Find movie listings', 'Decide on movie']","['Go to theater', 'Buy ticket']",Go to theater,0
+3,0.6,"['Find movie listings', 'Decide on movie', 'Go to theater']","['Find movie listings', 'Go to ticket line']",Go to ticket line,1
+4,0.8,"['Find movie listings', 'Decide on movie', 'Go to theater', 'Go to ticket line']","['Decide on movie', 'Buy ticket']",Buy ticket,1
+0,0.0,[],"['Decide which show time is the best for you.', ""Decide whether you're going alone or with friends or family.""]",Decide whether you're going alone or with friends or family.,1
+1,0.2,"[""Decide whether you're going alone or with friends or family.""]","['Choose a movie that you want to see.  You can read reviews or watch trailers.', 'Purchase the tickets - this can either be done on location, or ahead of time.']",Choose a movie that you want to see.  You can read reviews or watch trailers.,0
+2,0.4,"[""Decide whether you're going alone or with friends or family."", 'Choose a movie that you want to see.  You can read reviews or watch trailers.']","['Present your tickets to the usher.', 'Decide which show time is the best for you.']",Decide which show time is the best for you.,1
+3,0.6,"[""Decide whether you're going alone or with friends or family."", 'Choose a movie that you want to see.  You can read reviews or watch trailers.', 'Decide which show time is the best for you.']","['Purchase the tickets - this can either be done on location, or ahead of time.', ""Decide whether you're going alone or with friends or family.""]","Purchase the tickets - this can either be done on location, or ahead of time.",0
+4,0.8,"[""Decide whether you're going alone or with friends or family."", 'Choose a movie that you want to see.  You can read reviews or watch trailers.', 'Decide which show time is the best for you.', 'Purchase the tickets - this can either be done on location, or ahead of time.']","['Present your tickets to the usher.', 'Choose a movie that you want to see.  You can read reviews or watch trailers.']",Present your tickets to the usher.,0
+0,0.0,[],"['Peruse the local papers for shows', 'Peruse the local papers for shows']",Peruse the local papers for shows,0
+1,0.2,['Peruse the local papers for shows'],"['After finding a show you would like to see, pick a time', 'After finding a show you would like to see, pick a time']","After finding a show you would like to see, pick a time",1
+2,0.4,"['Peruse the local papers for shows', 'After finding a show you would like to see, pick a time']","['Buy ticket upon arriving', 'Invite a friend (optional)']",Invite a friend (optional),1
+3,0.6,"['Peruse the local papers for shows', 'After finding a show you would like to see, pick a time', 'Invite a friend (optional)']","['Peruse the local papers for shows', 'Drive, walk, or take public transport to the theater']","Drive, walk, or take public transport to the theater",1
+4,0.8,"['Peruse the local papers for shows', 'After finding a show you would like to see, pick a time', 'Invite a friend (optional)', 'Drive, walk, or take public transport to the theater']","['Buy ticket upon arriving', 'Peruse the local papers for shows']",Buy ticket upon arriving,0
+0,0.0,[],"['Enter movie theater', 'Travel to movie theater']",Travel to movie theater,1
+1,0.2,['Travel to movie theater'],"['Purchase tickets at booth', 'Purchase tickets at booth']",Purchase tickets at booth,0
+2,0.4,"['Travel to movie theater', 'Purchase tickets at booth']","['Enter movie theater', 'Watch the movie']",Enter movie theater,0
+3,0.6,"['Travel to movie theater', 'Purchase tickets at booth', 'Enter movie theater']","['Travel to movie theater', 'Find your specific theater and enter']",Find your specific theater and enter,1
+4,0.8,"['Travel to movie theater', 'Purchase tickets at booth', 'Enter movie theater', 'Find your specific theater and enter']","['Travel to movie theater', 'Watch the movie']",Watch the movie,1
+0,0.0,[],"['Make selection', 'Arrive at movie theater']",Arrive at movie theater,1
+1,0.2,['Arrive at movie theater'],"['Look at what is playing soon', 'Look at what is playing soon']",Look at what is playing soon,0
+2,0.4,"['Arrive at movie theater', 'Look at what is playing soon']","['Pass through turnstyle', 'Make selection']",Make selection,1
+3,0.6,"['Arrive at movie theater', 'Look at what is playing soon', 'Make selection']","['Arrive at movie theater', 'Tell ticket person which you want a ticket for']",Tell ticket person which you want a ticket for,1
+4,0.8,"['Arrive at movie theater', 'Look at what is playing soon', 'Make selection', 'Tell ticket person which you want a ticket for']","['Pass through turnstyle', 'Look at what is playing soon']",Pass through turnstyle,0
+0,0.0,[],"['Get ready', 'Go to the theater gate']",Get ready,0
+1,0.2,['Get ready'],"['Get ready', 'Buy tickets']",Buy tickets,1
+2,0.4,"['Get ready', 'Buy tickets']","['Go to the theater gate', 'Ride in car']",Ride in car,1
+3,0.6,"['Get ready', 'Buy tickets', 'Ride in car']","['Get ready', 'Park the car in the theater']",Park the car in the theater,1
+4,0.8,"['Get ready', 'Buy tickets', 'Ride in car', 'Park the car in the theater']","['Go to the theater gate', 'Buy tickets']",Go to the theater gate,0
+0,0.0,[],"['Drive to theater', 'Walk to ticket counter']",Drive to theater,0
+1,0.2,['Drive to theater'],"['Buy a ticket for a movie', 'Park your car']",Park your car,1
+2,0.4,"['Drive to theater', 'Park your car']","['Walk to ticket counter', 'Walk inside theater']",Walk to ticket counter,0
+3,0.6,"['Drive to theater', 'Park your car', 'Walk to ticket counter']","['Drive to theater', 'Buy a ticket for a movie']",Buy a ticket for a movie,1
+4,0.8,"['Drive to theater', 'Park your car', 'Walk to ticket counter', 'Buy a ticket for a movie']","['Drive to theater', 'Walk inside theater']",Walk inside theater,1
+0,0.0,[],"['Go to front desk', 'Drive to movie theater']",Drive to movie theater,1
+1,0.2,['Drive to movie theater'],"['Buy ticket for movie', 'Go to front desk']",Go to front desk,1
+2,0.4,"['Drive to movie theater', 'Go to front desk']","['Buy ticket for movie', 'Get food at concession stand']",Buy ticket for movie,0
+3,0.6,"['Drive to movie theater', 'Go to front desk', 'Buy ticket for movie']","['Give ticket to ticket checker', 'Drive to movie theater']",Give ticket to ticket checker,0
+4,0.8,"['Drive to movie theater', 'Go to front desk', 'Buy ticket for movie', 'Give ticket to ticket checker']","['Get food at concession stand', 'Go to front desk']",Get food at concession stand,0
+0,0.0,[],"['First choose a cinema which you prefer to see.', 'Confirm that only you or how many are joining with you to the theater.']",First choose a cinema which you prefer to see.,0
+1,0.2,['First choose a cinema which you prefer to see.'],"['Get into  the vehicle go to the theater.', 'Confirm that only you or how many are joining with you to the theater.']",Confirm that only you or how many are joining with you to the theater.,1
+2,0.4,"['First choose a cinema which you prefer to see.', 'Confirm that only you or how many are joining with you to the theater.']","['Park the vehicle in parking.', 'Book the ticket online or go to the theater for current booking.']",Book the ticket online or go to the theater for current booking.,1
+3,0.6,"['First choose a cinema which you prefer to see.', 'Confirm that only you or how many are joining with you to the theater.', 'Book the ticket online or go to the theater for current booking.']","['First choose a cinema which you prefer to see.', 'Get into  the vehicle go to the theater.']",Get into  the vehicle go to the theater.,1
+4,0.8,"['First choose a cinema which you prefer to see.', 'Confirm that only you or how many are joining with you to the theater.', 'Book the ticket online or go to the theater for current booking.', 'Get into  the vehicle go to the theater.']","['First choose a cinema which you prefer to see.', 'Park the vehicle in parking.']",Park the vehicle in parking.,1
+0,0.0,[],"['Buy tickets', 'show usher tickets']",Buy tickets,0
+1,0.2,['Buy tickets'],"['buy snack at concession stand', 'buy snack at concession stand']",buy snack at concession stand,1
+2,0.4,"['Buy tickets', 'buy snack at concession stand']","['show usher tickets', 'wait for show to start']",show usher tickets,0
+3,0.6,"['Buy tickets', 'buy snack at concession stand', 'show usher tickets']","['sit where directed', 'Buy tickets']",sit where directed,0
+4,0.8,"['Buy tickets', 'buy snack at concession stand', 'show usher tickets', 'sit where directed']","['buy snack at concession stand', 'wait for show to start']",wait for show to start,1
+0,0.0,[],"['Find one I like, click purchase tickets', 'Go online']",Go online,1
+1,0.2,['Go online'],"['Search new release movies at my local theater website', 'Pay and then print out tickets.']",Search new release movies at my local theater website,0
+2,0.4,"['Go online', 'Search new release movies at my local theater website']","['Find one I like, click purchase tickets', 'Drive to theater.']","Find one I like, click purchase tickets",0
+3,0.6,"['Go online', 'Search new release movies at my local theater website', 'Find one I like, click purchase tickets']","['Pay and then print out tickets.', 'Go online']",Pay and then print out tickets.,0
+4,0.8,"['Go online', 'Search new release movies at my local theater website', 'Find one I like, click purchase tickets', 'Pay and then print out tickets.']","['Drive to theater.', 'Go online']",Drive to theater.,0
+0,0.0,[],"['Drive or walk to theater', 'Go to the room showing your movie as stated on your ticket stub']",Drive or walk to theater,0
+1,0.2,['Drive or walk to theater'],"['Purchase tickets to preferred movie at front window', 'Go to the room showing your movie as stated on your ticket stub']",Purchase tickets to preferred movie at front window,0
+2,0.4,"['Drive or walk to theater', 'Purchase tickets to preferred movie at front window']","['Go into theater and present ticket to attendant', 'Go to the room showing your movie as stated on your ticket stub']",Go into theater and present ticket to attendant,0
+3,0.6,"['Drive or walk to theater', 'Purchase tickets to preferred movie at front window', 'Go into theater and present ticket to attendant']","['Drive or walk to theater', 'Purchase snacks at concession stand if desired']",Purchase snacks at concession stand if desired,1
+4,0.8,"['Drive or walk to theater', 'Purchase tickets to preferred movie at front window', 'Go into theater and present ticket to attendant', 'Purchase snacks at concession stand if desired']","['Go to the room showing your movie as stated on your ticket stub', 'Purchase tickets to preferred movie at front window']",Go to the room showing your movie as stated on your ticket stub,0
+0,0.0,[],"['Choose the best outfit', 'Buy tickets for the movie']",Choose the best outfit,0
+1,0.2,['Choose the best outfit'],"['Go to the theater', 'Buy tickets for the movie']",Go to the theater,0
+2,0.4,"['Choose the best outfit', 'Go to the theater']","['Take your seats', 'Buy tickets for the movie']",Buy tickets for the movie,1
+3,0.6,"['Choose the best outfit', 'Go to the theater', 'Buy tickets for the movie']","['Choose the best outfit', 'Go to the seats allotted']",Go to the seats allotted,1
+4,0.8,"['Choose the best outfit', 'Go to the theater', 'Buy tickets for the movie', 'Go to the seats allotted']","['Take your seats', 'Choose the best outfit']",Take your seats,0
+0,0.0,[],"['go inside theater', 'Get in car']",Get in car,1
+1,0.2,['Get in car'],"['drive to the theater', 'drive to the theater']",drive to the theater,1
+2,0.4,"['Get in car', 'drive to the theater']","['go inside theater', 'go get popcorn']",go inside theater,0
+3,0.6,"['Get in car', 'drive to the theater', 'go inside theater']","['Get in car', 'go buy your ticket']",go buy your ticket,1
+4,0.8,"['Get in car', 'drive to the theater', 'go inside theater', 'go buy your ticket']","['go get popcorn', 'Get in car']",go get popcorn,0
+0,0.0,[],"['Drive to theatre', 'Get dressed']",Get dressed,1
+1,0.2,['Get dressed'],"['Get dressed', 'Leave house']",Leave house,1
+2,0.4,"['Get dressed', 'Leave house']","['Drive to theatre', 'Purchase ticket']",Drive to theatre,0
+3,0.6,"['Get dressed', 'Leave house', 'Drive to theatre']","['Select movie', 'Get dressed']",Select movie,0
+4,0.8,"['Get dressed', 'Leave house', 'Drive to theatre', 'Select movie']","['Leave house', 'Purchase ticket']",Purchase ticket,1
+0,0.0,[],"['Get with friends', 'Buy a ticket']",Get with friends,0
+1,0.2,['Get with friends'],"['Go to cinema', 'Buy popcorn']",Go to cinema,0
+2,0.4,"['Get with friends', 'Go to cinema']","['Buy popcorn', 'Choose a movie']",Choose a movie,1
+3,0.6,"['Get with friends', 'Go to cinema', 'Choose a movie']","['Buy a ticket', 'Get with friends']",Buy a ticket,0
+4,0.8,"['Get with friends', 'Go to cinema', 'Choose a movie', 'Buy a ticket']","['Get with friends', 'Buy popcorn']",Buy popcorn,1
+0,0.0,[],"['Drive to the theater', 'Select a desired movie and showtime']",Select a desired movie and showtime,1
+1,0.2,['Select a desired movie and showtime'],"['Go to the room where movie is showing', 'Get into car']",Get into car,1
+2,0.4,"['Select a desired movie and showtime', 'Get into car']","['Go to the room where movie is showing', 'Drive to the theater']",Drive to the theater,1
+3,0.6,"['Select a desired movie and showtime', 'Get into car', 'Drive to the theater']","['Go to ticket booth and purchase tickets', 'Select a desired movie and showtime']",Go to ticket booth and purchase tickets,0
+4,0.8,"['Select a desired movie and showtime', 'Get into car', 'Drive to the theater', 'Go to ticket booth and purchase tickets']","['Go to the room where movie is showing', 'Select a desired movie and showtime']",Go to the room where movie is showing,0
+0,0.0,[],"['Drive to the theater.', 'Drive to the theater.']",Drive to the theater.,1
+1,0.2,['Drive to the theater.'],"['Get desired snacks and drinks (if any).', 'Pick a movie to watch.']",Pick a movie to watch.,1
+2,0.4,"['Drive to the theater.', 'Pick a movie to watch.']","['Find the room said movie is playing in.', 'Pay for ticket(s).']",Pay for ticket(s).,1
+3,0.6,"['Drive to the theater.', 'Pick a movie to watch.', 'Pay for ticket(s).']","['Get desired snacks and drinks (if any).', 'Drive to the theater.']",Get desired snacks and drinks (if any).,0
+4,0.8,"['Drive to the theater.', 'Pick a movie to watch.', 'Pay for ticket(s).', 'Get desired snacks and drinks (if any).']","['Find the room said movie is playing in.', 'Drive to the theater.']",Find the room said movie is playing in.,0
+0,0.0,[],"['Drive to the theater if you are not already there.', 'Choose which movie you would like to see.']",Choose which movie you would like to see.,1
+1,0.2,['Choose which movie you would like to see.'],"['Check the times that the movie will show.', 'Check the times that the movie will show.']",Check the times that the movie will show.,1
+2,0.4,"['Choose which movie you would like to see.', 'Check the times that the movie will show.']","['Drive to the theater if you are not already there.', ""Buy refreshments if you'd like them.""]",Drive to the theater if you are not already there.,0
+3,0.6,"['Choose which movie you would like to see.', 'Check the times that the movie will show.', 'Drive to the theater if you are not already there.']","['Choose which movie you would like to see.', 'Go up to the counter and buy tickets if you have not already bought them.']",Go up to the counter and buy tickets if you have not already bought them.,1
+4,0.8,"['Choose which movie you would like to see.', 'Check the times that the movie will show.', 'Drive to the theater if you are not already there.', 'Go up to the counter and buy tickets if you have not already bought them.']","['Choose which movie you would like to see.', ""Buy refreshments if you'd like them.""]",Buy refreshments if you'd like them.,1
+0,0.0,[],"['Drive to theater', 'Decide what movie to see']",Drive to theater,0
+1,0.2,['Drive to theater'],"['Enter theater', 'Decide what movie to see']",Decide what movie to see,1
+2,0.4,"['Drive to theater', 'Decide what movie to see']","['Hand ticket to ticket taker', 'Buy movie ticket']",Buy movie ticket,1
+3,0.6,"['Drive to theater', 'Decide what movie to see', 'Buy movie ticket']","['Drive to theater', 'Enter theater']",Enter theater,1
+4,0.8,"['Drive to theater', 'Decide what movie to see', 'Buy movie ticket', 'Enter theater']","['Hand ticket to ticket taker', 'Drive to theater']",Hand ticket to ticket taker,0
+0,0.0,[],"['choose the show you want to see', 'locate the box office when you get there']",choose the show you want to see,0
+1,0.2,['choose the show you want to see'],"['wait in lobby for the theater to open', 'call the box office to reserve tickets']",call the box office to reserve tickets,1
+2,0.4,"['choose the show you want to see', 'call the box office to reserve tickets']","['wait in lobby for the theater to open', 'locate the box office when you get there']",locate the box office when you get there,1
+3,0.6,"['choose the show you want to see', 'call the box office to reserve tickets', 'locate the box office when you get there']","['choose the show you want to see', 'pay for tickets']",pay for tickets,1
+4,0.8,"['choose the show you want to see', 'call the box office to reserve tickets', 'locate the box office when you get there', 'pay for tickets']","['choose the show you want to see', 'wait in lobby for the theater to open']",wait in lobby for the theater to open,1
+0,0.0,[],"['Get in car', 'Drive to nearest theater']",Get in car,0
+1,0.2,['Get in car'],"['Get in car', 'Drive to nearest theater']",Drive to nearest theater,1
+2,0.4,"['Get in car', 'Drive to nearest theater']","['Find room', 'Wait in line']",Wait in line,1
+3,0.6,"['Get in car', 'Drive to nearest theater', 'Wait in line']","['Buy tickets', 'Get in car']",Buy tickets,0
+4,0.8,"['Get in car', 'Drive to nearest theater', 'Wait in line', 'Buy tickets']","['Find room', 'Get in car']",Find room,0
+0,0.0,[],"['Walk into the theater.', 'Walk into the second set of doors.']",Walk into the theater.,0
+1,0.2,['Walk into the theater.'],"['Go up to the window.', 'Pay for tickets.']",Go up to the window.,0
+2,0.4,"['Walk into the theater.', 'Go up to the window.']","['Order the tickets you would like.', 'Walk into the second set of doors.']",Order the tickets you would like.,0
+3,0.6,"['Walk into the theater.', 'Go up to the window.', 'Order the tickets you would like.']","['Walk into the theater.', 'Pay for tickets.']",Pay for tickets.,1
+4,0.8,"['Walk into the theater.', 'Go up to the window.', 'Order the tickets you would like.', 'Pay for tickets.']","['Walk into the second set of doors.', 'Walk into the theater.']",Walk into the second set of doors.,0
+0,0.0,[],"['Enter the movie theater and give your ticket to staff', 'Locate nearest movie theater of your choice']",Locate nearest movie theater of your choice,1
+1,0.2,['Locate nearest movie theater of your choice'],"['Enter the movie theater and give your ticket to staff', 'Determine time of your movie by phone, internet or smartphone']","Determine time of your movie by phone, internet or smartphone",1
+2,0.4,"['Locate nearest movie theater of your choice', 'Determine time of your movie by phone, internet or smartphone']","['(Optional) Select food or drinks from the food concession', 'Purchase ticket at ticket booth or from the internet']",Purchase ticket at ticket booth or from the internet,1
+3,0.6,"['Locate nearest movie theater of your choice', 'Determine time of your movie by phone, internet or smartphone', 'Purchase ticket at ticket booth or from the internet']","['Locate nearest movie theater of your choice', 'Enter the movie theater and give your ticket to staff']",Enter the movie theater and give your ticket to staff,1
+4,0.8,"['Locate nearest movie theater of your choice', 'Determine time of your movie by phone, internet or smartphone', 'Purchase ticket at ticket booth or from the internet', 'Enter the movie theater and give your ticket to staff']","['Locate nearest movie theater of your choice', '(Optional) Select food or drinks from the food concession']",(Optional) Select food or drinks from the food concession,1
+0,0.0,[],"[""decide which movie you'd like to see"", 'arrive at theater before showtime']",decide which movie you'd like to see,0
+1,0.2,"[""decide which movie you'd like to see""]","['check the theater for showtimes', 'purchase tickets at front counter']",check the theater for showtimes,0
+2,0.4,"[""decide which movie you'd like to see"", 'check the theater for showtimes']","['arrive at theater before showtime', ""purchase any snacks or beverages you'd like from the snack counter""]",arrive at theater before showtime,0
+3,0.6,"[""decide which movie you'd like to see"", 'check the theater for showtimes', 'arrive at theater before showtime']","[""decide which movie you'd like to see"", 'purchase tickets at front counter']",purchase tickets at front counter,1
+4,0.8,"[""decide which movie you'd like to see"", 'check the theater for showtimes', 'arrive at theater before showtime', 'purchase tickets at front counter']","['check the theater for showtimes', ""purchase any snacks or beverages you'd like from the snack counter""]",purchase any snacks or beverages you'd like from the snack counter,1
+0,0.0,[],"['Decide which show you would like to see.', 'Decide which show you would like to see.']",Decide which show you would like to see.,0
+1,0.2,['Decide which show you would like to see.'],"['Arrive at theater early enough to wait in line.', 'Decide which show you would like to see.']",Arrive at theater early enough to wait in line.,0
+2,0.4,"['Decide which show you would like to see.', 'Arrive at theater early enough to wait in line.']","['Wait in line and purchase tickets to show.', 'Find seats in theater.']",Wait in line and purchase tickets to show.,0
+3,0.6,"['Decide which show you would like to see.', 'Arrive at theater early enough to wait in line.', 'Wait in line and purchase tickets to show.']","['Decide which show you would like to see.', 'Use restroom before show starts.']",Use restroom before show starts.,1
+4,0.8,"['Decide which show you would like to see.', 'Arrive at theater early enough to wait in line.', 'Wait in line and purchase tickets to show.', 'Use restroom before show starts.']","['Find seats in theater.', 'Decide which show you would like to see.']",Find seats in theater.,0
+0,0.0,[],"['Drive to the movie theater', 'Drive to the movie theater']",Drive to the movie theater,0
+1,0.2,['Drive to the movie theater'],"['Check the showings to see what is playing', 'Purchase a ticket']",Check the showings to see what is playing,0
+2,0.4,"['Drive to the movie theater', 'Check the showings to see what is playing']","['Pick out a movie to watch', 'Find the correct room the movie is playing']",Pick out a movie to watch,0
+3,0.6,"['Drive to the movie theater', 'Check the showings to see what is playing', 'Pick out a movie to watch']","['Drive to the movie theater', 'Purchase a ticket']",Purchase a ticket,1
+4,0.8,"['Drive to the movie theater', 'Check the showings to see what is playing', 'Pick out a movie to watch', 'Purchase a ticket']","['Find the correct room the movie is playing', 'Check the showings to see what is playing']",Find the correct room the movie is playing,0
+0,0.0,[],"['Go online.', 'Check the movie times.']",Go online.,0
+1,0.2,['Go online.'],"['Check the movie times.', 'Check the movie times.']",Check the movie times.,0
+2,0.4,"['Go online.', 'Check the movie times.']","['Get in line.', 'Look for the best time.']",Look for the best time.,1
+3,0.6,"['Go online.', 'Check the movie times.', 'Look for the best time.']","['Go online.', 'Drive to the theater.']",Drive to the theater.,1
+4,0.8,"['Go online.', 'Check the movie times.', 'Look for the best time.', 'Drive to the theater.']","['Check the movie times.', 'Get in line.']",Get in line.,1
+0,0.0,[],"['Getting tickets for a show', 'Driving to the theater']",Getting tickets for a show,0
+1,0.2,['Getting tickets for a show'],"['Getting dressed up to go to the theater', 'Getting tickets for a show']",Getting dressed up to go to the theater,0
+2,0.4,"['Getting tickets for a show', 'Getting dressed up to go to the theater']","['Going into the theater', 'Getting in the car']",Getting in the car,1
+3,0.6,"['Getting tickets for a show', 'Getting dressed up to go to the theater', 'Getting in the car']","['Getting tickets for a show', 'Driving to the theater']",Driving to the theater,1
+4,0.8,"['Getting tickets for a show', 'Getting dressed up to go to the theater', 'Getting in the car', 'Driving to the theater']","['Getting tickets for a show', 'Going into the theater']",Going into the theater,1
+0,0.0,[],"['Choose a show', 'Find your seat']",Choose a show,0
+1,0.2,['Choose a show'],"['Show ticket to usher', 'Buy ticket']",Buy ticket,1
+2,0.4,"['Choose a show', 'Buy ticket']","['Find your seat', 'Travel to theater']",Travel to theater,1
+3,0.6,"['Choose a show', 'Buy ticket', 'Travel to theater']","['Choose a show', 'Show ticket to usher']",Show ticket to usher,1
+4,0.8,"['Choose a show', 'Buy ticket', 'Travel to theater', 'Show ticket to usher']","['Find your seat', 'Choose a show']",Find your seat,0
+0,0.0,[],"['Check online to see what movies are playing at your local theater', 'Look at the directions so you know where the movie theater is']",Check online to see what movies are playing at your local theater,0
+1,0.2,['Check online to see what movies are playing at your local theater'],"['Find a movie and time that you can see a movie', 'Find a movie and time that you can see a movie']",Find a movie and time that you can see a movie,0
+2,0.4,"['Check online to see what movies are playing at your local theater', 'Find a movie and time that you can see a movie']","['Stand in the outside line to purchase a ticket', 'Look at the directions so you know where the movie theater is']",Look at the directions so you know where the movie theater is,1
+3,0.6,"['Check online to see what movies are playing at your local theater', 'Find a movie and time that you can see a movie', 'Look at the directions so you know where the movie theater is']","['Check online to see what movies are playing at your local theater', 'Head down to the movie theater in time to see the movie']",Head down to the movie theater in time to see the movie,1
+4,0.8,"['Check online to see what movies are playing at your local theater', 'Find a movie and time that you can see a movie', 'Look at the directions so you know where the movie theater is', 'Head down to the movie theater in time to see the movie']","['Stand in the outside line to purchase a ticket', 'Find a movie and time that you can see a movie']",Stand in the outside line to purchase a ticket,0
+0,0.0,[],"['Purchase tickets.', 'Leave house in car.']",Leave house in car.,1
+1,0.2,['Leave house in car.'],"['Drive to theater.', 'Enter theater.']",Drive to theater.,0
+2,0.4,"['Leave house in car.', 'Drive to theater.']","['Go to ticket window.', 'Enter theater.']",Go to ticket window.,0
+3,0.6,"['Leave house in car.', 'Drive to theater.', 'Go to ticket window.']","['Purchase tickets.', 'Leave house in car.']",Purchase tickets.,0
+4,0.8,"['Leave house in car.', 'Drive to theater.', 'Go to ticket window.', 'Purchase tickets.']","['Enter theater.', 'Leave house in car.']",Enter theater.,0
+0,0.0,[],"['Drive to theater', 'Drive to theater']",Drive to theater,1
+1,0.2,['Drive to theater'],"['Choose what movie you want to see', 'Choose what movie you want to see']",Choose what movie you want to see,0
+2,0.4,"['Drive to theater', 'Choose what movie you want to see']","['Buy tickets/concessions', 'Watch the movie']",Buy tickets/concessions,0
+3,0.6,"['Drive to theater', 'Choose what movie you want to see', 'Buy tickets/concessions']","['Drive to theater', 'Enter your specific theater']",Enter your specific theater,1
+4,0.8,"['Drive to theater', 'Choose what movie you want to see', 'Buy tickets/concessions', 'Enter your specific theater']","['Choose what movie you want to see', 'Watch the movie']",Watch the movie,1
+0,0.0,[],"['Park car', 'Look online to find time/location for show']",Look online to find time/location for show,1
+1,0.2,['Look online to find time/location for show'],"['Get dressed in appropriate attire', 'Look online to find time/location for show']",Get dressed in appropriate attire,0
+2,0.4,"['Look online to find time/location for show', 'Get dressed in appropriate attire']","['Drive to appropriate location', 'Buy tickets']",Drive to appropriate location,0
+3,0.6,"['Look online to find time/location for show', 'Get dressed in appropriate attire', 'Drive to appropriate location']","['Look online to find time/location for show', 'Park car']",Park car,1
+4,0.8,"['Look online to find time/location for show', 'Get dressed in appropriate attire', 'Drive to appropriate location', 'Park car']","['Buy tickets', 'Get dressed in appropriate attire']",Buy tickets,0
+0,0.0,[],"['watch movie', 'pick movie']",pick movie,1
+1,0.2,['pick movie'],"['pay for ticket', 'arrive theater']",arrive theater,1
+2,0.4,"['pick movie', 'arrive theater']","['watch movie', 'pay for ticket']",pay for ticket,1
+3,0.6,"['pick movie', 'arrive theater', 'pay for ticket']","['find seat', 'pick movie']",find seat,0
+4,0.8,"['pick movie', 'arrive theater', 'pay for ticket', 'find seat']","['pick movie', 'watch movie']",watch movie,1
+0,0.0,[],"['Go into the theater', 'Find a movie you want to watch']",Find a movie you want to watch,1
+1,0.2,['Find a movie you want to watch'],"['Go into the theater', 'Locate the theater you want to go to']",Locate the theater you want to go to,1
+2,0.4,"['Find a movie you want to watch', 'Locate the theater you want to go to']","['Purchase a ticket to the movie you want to see', 'Drive to the theater']",Drive to the theater,1
+3,0.6,"['Find a movie you want to watch', 'Locate the theater you want to go to', 'Drive to the theater']","['Go into the theater', 'Find a movie you want to watch']",Go into the theater,0
+4,0.8,"['Find a movie you want to watch', 'Locate the theater you want to go to', 'Drive to the theater', 'Go into the theater']","['Locate the theater you want to go to', 'Purchase a ticket to the movie you want to see']",Purchase a ticket to the movie you want to see,1
+0,0.0,[],"['Take tickets', 'Line up at counter']",Line up at counter,1
+1,0.2,['Line up at counter'],"['Pay for tickets', 'Choose what movie you want to see']",Choose what movie you want to see,1
+2,0.4,"['Line up at counter', 'Choose what movie you want to see']","['Take tickets', ""When it's your turn, tell cashier what you want to see and how many people in your party""]","When it's your turn, tell cashier what you want to see and how many people in your party",1
+3,0.6,"['Line up at counter', 'Choose what movie you want to see', ""When it's your turn, tell cashier what you want to see and how many people in your party""]","['Line up at counter', 'Pay for tickets']",Pay for tickets,1
+4,0.8,"['Line up at counter', 'Choose what movie you want to see', ""When it's your turn, tell cashier what you want to see and how many people in your party"", 'Pay for tickets']","['Take tickets', 'Choose what movie you want to see']",Take tickets,0
+0,0.0,[],"['get car keys', 'get in the car']",get car keys,0
+1,0.2,['get car keys'],"['get in the car', 'get car keys']",get in the car,0
+2,0.4,"['get car keys', 'get in the car']","['drive to the theater', 'buy concessions']",drive to the theater,0
+3,0.6,"['get car keys', 'get in the car', 'drive to the theater']","['get car keys', 'buy a ticket']",buy a ticket,1
+4,0.8,"['get car keys', 'get in the car', 'drive to the theater', 'buy a ticket']","['buy concessions', 'get in the car']",buy concessions,0
+0,0.0,[],"['enter movie theater', 'enter movie hall']",enter movie theater,0
+1,0.2,['enter movie theater'],"['get food', 'pay for the film']",pay for the film,1
+2,0.4,"['enter movie theater', 'pay for the film']","['watch film', 'get food']",get food,1
+3,0.6,"['enter movie theater', 'pay for the film', 'get food']","['enter movie hall', 'enter movie theater']",enter movie hall,0
+4,0.8,"['enter movie theater', 'pay for the film', 'get food', 'enter movie hall']","['pay for the film', 'watch film']",watch film,1
+0,0.0,[],"['Look at showtimes.', 'Park.']",Look at showtimes.,0
+1,0.2,['Look at showtimes.'],"['Get into car.', 'Get into car.']",Get into car.,1
+2,0.4,"['Look at showtimes.', 'Get into car.']","['Drive to theater.', 'Go in the theater.']",Drive to theater.,0
+3,0.6,"['Look at showtimes.', 'Get into car.', 'Drive to theater.']","['Park.', 'Look at showtimes.']",Park.,0
+4,0.8,"['Look at showtimes.', 'Get into car.', 'Drive to theater.', 'Park.']","['Go in the theater.', 'Look at showtimes.']",Go in the theater.,0
+0,0.0,[],"['Walk up to ticket counter', 'Get in car']",Get in car,1
+1,0.2,['Get in car'],"['Walk in theater', 'Drive to theater']",Drive to theater,1
+2,0.4,"['Get in car', 'Drive to theater']","['Walk up to ticket counter', 'Walk in theater']",Walk up to ticket counter,0
+3,0.6,"['Get in car', 'Drive to theater', 'Walk up to ticket counter']","['Get in car', 'Purchase ticket(s)']",Purchase ticket(s),1
+4,0.8,"['Get in car', 'Drive to theater', 'Walk up to ticket counter', 'Purchase ticket(s)']","['Get in car', 'Walk in theater']",Walk in theater,1
+0,0.0,[],"['Get in car', 'Drive to theater']",Get in car,0
+1,0.2,['Get in car'],"['Go into theater', 'Drive to theater']",Drive to theater,1
+2,0.4,"['Get in car', 'Drive to theater']","['Find movie to watch', 'Park car']",Park car,1
+3,0.6,"['Get in car', 'Drive to theater', 'Park car']","['Go into theater', 'Get in car']",Go into theater,0
+4,0.8,"['Get in car', 'Drive to theater', 'Park car', 'Go into theater']","['Find movie to watch', 'Drive to theater']",Find movie to watch,0
+0,0.0,[],"[""seeing what's playing"", 'buying popcorn']",seeing what's playing,0
+1,0.2,"[""seeing what's playing""]","[""seeing what's playing"", 'buying tickets']",buying tickets,1
+2,0.4,"[""seeing what's playing"", 'buying tickets']","['having a seat', 'buying popcorn']",buying popcorn,1
+3,0.6,"[""seeing what's playing"", 'buying tickets', 'buying popcorn']","['buying drinks', ""seeing what's playing""]",buying drinks,0
+4,0.8,"[""seeing what's playing"", 'buying tickets', 'buying popcorn', 'buying drinks']","[""seeing what's playing"", 'having a seat']",having a seat,1
+0,0.0,[],"['Go find a seat.', 'Decide what to see.']",Decide what to see.,1
+1,0.2,['Decide what to see.'],"['Purchase your ticket.', 'Drive to theater.']",Drive to theater.,1
+2,0.4,"['Decide what to see.', 'Drive to theater.']","['Go find a seat.', 'Purchase your ticket.']",Purchase your ticket.,1
+3,0.6,"['Decide what to see.', 'Drive to theater.', 'Purchase your ticket.']","['Decide what to see.', 'Wait in line.']",Wait in line.,1
+4,0.8,"['Decide what to see.', 'Drive to theater.', 'Purchase your ticket.', 'Wait in line.']","['Drive to theater.', 'Go find a seat.']",Go find a seat.,1
+0,0.0,[],"['Arrive at the theater', 'Buy popcorn']",Arrive at the theater,0
+1,0.2,['Arrive at the theater'],"['Purchase movie ticket', 'Purchase movie ticket']",Purchase movie ticket,1
+2,0.4,"['Arrive at the theater', 'Purchase movie ticket']","['Buy a drink', 'Buy popcorn']",Buy popcorn,1
+3,0.6,"['Arrive at the theater', 'Purchase movie ticket', 'Buy popcorn']","['Buy snacks', 'Arrive at the theater']",Buy snacks,0
+4,0.8,"['Arrive at the theater', 'Purchase movie ticket', 'Buy popcorn', 'Buy snacks']","['Purchase movie ticket', 'Buy a drink']",Buy a drink,1
+0,0.0,[],"['arrive at theater', 'buy tickets at the box office']",arrive at theater,0
+1,0.2,['arrive at theater'],"['give tickets to usher', 'buy tickets at the box office']",buy tickets at the box office,1
+2,0.4,"['arrive at theater', 'buy tickets at the box office']","['give tickets to usher', 'enjoy the show']",give tickets to usher,0
+3,0.6,"['arrive at theater', 'buy tickets at the box office', 'give tickets to usher']","['arrive at theater', 'follow usher to your seat']",follow usher to your seat,1
+4,0.8,"['arrive at theater', 'buy tickets at the box office', 'give tickets to usher', 'follow usher to your seat']","['buy tickets at the box office', 'enjoy the show']",enjoy the show,1
+0,0.0,[],"['find seat', 'find out when the show you want starts']",find out when the show you want starts,1
+1,0.2,['find out when the show you want starts'],"['get there on time', 'find seat']",get there on time,0
+2,0.4,"['find out when the show you want starts', 'get there on time']","['find seat', 'buy ticket']",buy ticket,1
+3,0.6,"['find out when the show you want starts', 'get there on time', 'buy ticket']","['find out when the show you want starts', 'get snacks']",get snacks,1
+4,0.8,"['find out when the show you want starts', 'get there on time', 'buy ticket', 'get snacks']","['find seat', 'find out when the show you want starts']",find seat,0
+0,0.0,[],"['drive to the theater', 'drive to the theater']",drive to the theater,0
+1,0.2,['drive to the theater'],"['drive to the theater', 'walk into theater']",walk into theater,1
+2,0.4,"['drive to the theater', 'walk into theater']","['buy ticket', 'find a seat']",buy ticket,0
+3,0.6,"['drive to the theater', 'walk into theater', 'buy ticket']","['drive to the theater', 'get popcorn']",get popcorn,1
+4,0.8,"['drive to the theater', 'walk into theater', 'buy ticket', 'get popcorn']","['find a seat', 'walk into theater']",find a seat,0
+0,0.0,[],"['Pay for ticket', 'Drive to the theater']",Drive to the theater,1
+1,0.2,['Drive to the theater'],"['Go the clerk and say what movie you would like to see', 'Drive to the theater']",Go the clerk and say what movie you would like to see,0
+2,0.4,"['Drive to the theater', 'Go the clerk and say what movie you would like to see']","['Pay for ticket', 'Go into the movie theater']",Pay for ticket,0
+3,0.6,"['Drive to the theater', 'Go the clerk and say what movie you would like to see', 'Pay for ticket']","['Drive to the theater', 'Go to concession stand and order food if desired']",Go to concession stand and order food if desired,1
+4,0.8,"['Drive to the theater', 'Go the clerk and say what movie you would like to see', 'Pay for ticket', 'Go to concession stand and order food if desired']","['Go into the movie theater', 'Go the clerk and say what movie you would like to see']",Go into the movie theater,0
+0,0.0,[],"['Buy your tickets at the window', 'Get in the car']",Get in the car,1
+1,0.2,['Get in the car'],"['Drive to the theater', 'Go inside the theater']",Drive to the theater,0
+2,0.4,"['Get in the car', 'Drive to the theater']","['Buy your tickets at the window', 'Pick your seat']",Buy your tickets at the window,0
+3,0.6,"['Get in the car', 'Drive to the theater', 'Buy your tickets at the window']","['Go inside the theater', 'Get in the car']",Go inside the theater,0
+4,0.8,"['Get in the car', 'Drive to the theater', 'Buy your tickets at the window', 'Go inside the theater']","['Get in the car', 'Pick your seat']",Pick your seat,1
+0,0.0,[],"['Leave my house', 'Leave my house']",Leave my house,0
+1,0.2,['Leave my house'],"['Leave my house', 'Get in my car']",Get in my car,1
+2,0.4,"['Leave my house', 'Get in my car']","['Drive to movie theater', 'Enter movie theater']",Drive to movie theater,0
+3,0.6,"['Leave my house', 'Get in my car', 'Drive to movie theater']","['Park my car', 'Leave my house']",Park my car,0
+4,0.8,"['Leave my house', 'Get in my car', 'Drive to movie theater', 'Park my car']","['Get in my car', 'Enter movie theater']",Enter movie theater,1
+0,0.0,[],"['Browse movie listings', 'Browse movie listings']",Browse movie listings,1
+1,0.2,['Browse movie listings'],"['Select movie to see', 'Get out of car']",Select movie to see,0
+2,0.4,"['Browse movie listings', 'Select movie to see']","['Get in car', 'Get out of car']",Get in car,0
+3,0.6,"['Browse movie listings', 'Select movie to see', 'Get in car']","['Browse movie listings', 'Drive to theater']",Drive to theater,1
+4,0.8,"['Browse movie listings', 'Select movie to see', 'Get in car', 'Drive to theater']","['Select movie to see', 'Get out of car']",Get out of car,1
+0,0.0,[],"['FIND THE SEATS ASSIGNED TO YOU', 'DRIVE TO THE THEATER']",DRIVE TO THE THEATER,1
+1,0.2,['DRIVE TO THE THEATER'],"['PURCHASE TICKETS FOR THE SHOW', 'PURCHASE TICKETS FOR THE SHOW']",PURCHASE TICKETS FOR THE SHOW,1
+2,0.4,"['DRIVE TO THE THEATER', 'PURCHASE TICKETS FOR THE SHOW']","['FIND THE SEATS ASSIGNED TO YOU', 'WHEN THE SHOW IS OVER, LEAVE THE THEATRE']",FIND THE SEATS ASSIGNED TO YOU,0
+3,0.6,"['DRIVE TO THE THEATER', 'PURCHASE TICKETS FOR THE SHOW', 'FIND THE SEATS ASSIGNED TO YOU']","['SIT DOWN AND ENJOY THE SHOW', 'DRIVE TO THE THEATER']",SIT DOWN AND ENJOY THE SHOW,0
+4,0.8,"['DRIVE TO THE THEATER', 'PURCHASE TICKETS FOR THE SHOW', 'FIND THE SEATS ASSIGNED TO YOU', 'SIT DOWN AND ENJOY THE SHOW']","['PURCHASE TICKETS FOR THE SHOW', 'WHEN THE SHOW IS OVER, LEAVE THE THEATRE']","WHEN THE SHOW IS OVER, LEAVE THE THEATRE",1
+0,0.0,[],"['Visit the ticket booking app on smart phone', 'Confirm and pay through credit card']",Visit the ticket booking app on smart phone,0
+1,0.2,['Visit the ticket booking app on smart phone'],"['Confirm and pay through credit card', 'Select the film that I wish to go']",Select the film that I wish to go,1
+2,0.4,"['Visit the ticket booking app on smart phone', 'Select the film that I wish to go']","['Confirm and pay through credit card', 'Select the best theater where the film is being screened']",Select the best theater where the film is being screened,1
+3,0.6,"['Visit the ticket booking app on smart phone', 'Select the film that I wish to go', 'Select the best theater where the film is being screened']","['Select the show time and choose the seat', 'Visit the ticket booking app on smart phone']",Select the show time and choose the seat,0
+4,0.8,"['Visit the ticket booking app on smart phone', 'Select the film that I wish to go', 'Select the best theater where the film is being screened', 'Select the show time and choose the seat']","['Visit the ticket booking app on smart phone', 'Confirm and pay through credit card']",Confirm and pay through credit card,1
+0,0.0,[],"['Research play times at the theater', 'Drive to the theater']",Research play times at the theater,0
+1,0.2,['Research play times at the theater'],"['Choose a performance to see', 'Choose a performance to see']",Choose a performance to see,0
+2,0.4,"['Research play times at the theater', 'Choose a performance to see']","['Find your seats', 'Buy tickets']",Buy tickets,1
+3,0.6,"['Research play times at the theater', 'Choose a performance to see', 'Buy tickets']","['Research play times at the theater', 'Drive to the theater']",Drive to the theater,1
+4,0.8,"['Research play times at the theater', 'Choose a performance to see', 'Buy tickets', 'Drive to the theater']","['Find your seats', 'Research play times at the theater']",Find your seats,0
+0,0.0,[],"['dress up', 'buy tickets']",buy tickets,1
+1,0.2,['buy tickets'],"['dress up', 'drive to theater']",dress up,0
+2,0.4,"['buy tickets', 'dress up']","['drive to theater', 'watch show']",drive to theater,0
+3,0.6,"['buy tickets', 'dress up', 'drive to theater']","['go to seats', 'buy tickets']",go to seats,0
+4,0.8,"['buy tickets', 'dress up', 'drive to theater', 'go to seats']","['watch show', 'dress up']",watch show,0
+0,0.0,[],"['Find the theater that is playing the movie you wish to see.', 'Purchase tickets for the show you are seeing.']",Find the theater that is playing the movie you wish to see.,0
+1,0.2,['Find the theater that is playing the movie you wish to see.'],"['Get in your car or other means of transportation.', 'Go to the theater.']",Get in your car or other means of transportation.,0
+2,0.4,"['Find the theater that is playing the movie you wish to see.', 'Get in your car or other means of transportation.']","['Go to the theater.', 'Find what room your movie is playing in.']",Go to the theater.,0
+3,0.6,"['Find the theater that is playing the movie you wish to see.', 'Get in your car or other means of transportation.', 'Go to the theater.']","['Purchase tickets for the show you are seeing.', 'Find the theater that is playing the movie you wish to see.']",Purchase tickets for the show you are seeing.,0
+4,0.8,"['Find the theater that is playing the movie you wish to see.', 'Get in your car or other means of transportation.', 'Go to the theater.', 'Purchase tickets for the show you are seeing.']","['Find what room your movie is playing in.', 'Get in your car or other means of transportation.']",Find what room your movie is playing in.,0
+0,0.0,[],"['Look up playing times for the desired movie', 'Pay for your ticket']",Look up playing times for the desired movie,0
+1,0.2,['Look up playing times for the desired movie'],"['Wait in line for a ticket', 'Drive to the theater at the appropriate time']",Drive to the theater at the appropriate time,1
+2,0.4,"['Look up playing times for the desired movie', 'Drive to the theater at the appropriate time']","['Leave ticket booth and head for the theater doors', 'Wait in line for a ticket']",Wait in line for a ticket,1
+3,0.6,"['Look up playing times for the desired movie', 'Drive to the theater at the appropriate time', 'Wait in line for a ticket']","['Look up playing times for the desired movie', 'Pay for your ticket']",Pay for your ticket,1
+4,0.8,"['Look up playing times for the desired movie', 'Drive to the theater at the appropriate time', 'Wait in line for a ticket', 'Pay for your ticket']","['Look up playing times for the desired movie', 'Leave ticket booth and head for the theater doors']",Leave ticket booth and head for the theater doors,1
+0,0.0,[],"['Get in line', 'Arrive at theater']",Arrive at theater,1
+1,0.2,['Arrive at theater'],"['Get in line', 'Arrive at theater']",Get in line,0
+2,0.4,"['Arrive at theater', 'Get in line']","['Find theater', 'Pay for movie ticket']",Pay for movie ticket,1
+3,0.6,"['Arrive at theater', 'Get in line', 'Pay for movie ticket']","['Buy snacks', 'Arrive at theater']",Buy snacks,0
+4,0.8,"['Arrive at theater', 'Get in line', 'Pay for movie ticket', 'Buy snacks']","['Find theater', 'Arrive at theater']",Find theater,0
+0,0.0,[],"['Purchase popcorn, soda and candy.', 'Decide what movie to see.']",Decide what movie to see.,1
+1,0.2,['Decide what movie to see.'],"['Decide which theater to go to.', 'Decide what movie to see.']",Decide which theater to go to.,0
+2,0.4,"['Decide what movie to see.', 'Decide which theater to go to.']","['Go to theater.', 'Purchase popcorn, soda and candy.']",Go to theater.,0
+3,0.6,"['Decide what movie to see.', 'Decide which theater to go to.', 'Go to theater.']","['Decide what movie to see.', 'Purchase tickets for movie.']",Purchase tickets for movie.,1
+4,0.8,"['Decide what movie to see.', 'Decide which theater to go to.', 'Go to theater.', 'Purchase tickets for movie.']","['Purchase popcorn, soda and candy.', 'Decide what movie to see.']","Purchase popcorn, soda and candy.",0
+0,0.0,[],"['choose film to watch', 'choose film to watch']",choose film to watch,1
+1,0.2,['choose film to watch'],"['choose theater and time', 'purchase popcorn and soda, if desired']",choose theater and time,0
+2,0.4,"['choose film to watch', 'choose theater and time']","['purchase popcorn and soda, if desired', 'get in car and drive to theater']",get in car and drive to theater,1
+3,0.6,"['choose film to watch', 'choose theater and time', 'get in car and drive to theater']","['choose film to watch', 'purchase tickets to movie']",purchase tickets to movie,1
+4,0.8,"['choose film to watch', 'choose theater and time', 'get in car and drive to theater', 'purchase tickets to movie']","['choose film to watch', 'purchase popcorn and soda, if desired']","purchase popcorn and soda, if desired",1
+0,0.0,[],"['Approach ticket booth.', 'Approach ticket booth.']",Approach ticket booth.,1
+1,0.2,['Approach ticket booth.'],"['Ask for a ticket to the movie you want to see.', 'Pay for your ticket.']",Ask for a ticket to the movie you want to see.,0
+2,0.4,"['Approach ticket booth.', 'Ask for a ticket to the movie you want to see.']","['Pay for your ticket.', 'Enter movie theater.']",Pay for your ticket.,0
+3,0.6,"['Approach ticket booth.', 'Ask for a ticket to the movie you want to see.', 'Pay for your ticket.']","['Get ticket and receipt from ticket seller.', 'Approach ticket booth.']",Get ticket and receipt from ticket seller.,0
+4,0.8,"['Approach ticket booth.', 'Ask for a ticket to the movie you want to see.', 'Pay for your ticket.', 'Get ticket and receipt from ticket seller.']","['Approach ticket booth.', 'Enter movie theater.']",Enter movie theater.,1
+0,0.0,[],"['Buy tickets for theater', 'Buy tickets for theater']",Buy tickets for theater,1
+1,0.2,['Buy tickets for theater'],"['Buy tickets for theater', 'Get dressed']",Get dressed,1
+2,0.4,"['Buy tickets for theater', 'Get dressed']","['Arrive at theater before show', 'Present ticket to ticket taker']",Arrive at theater before show,0
+3,0.6,"['Buy tickets for theater', 'Get dressed', 'Arrive at theater before show']","['Buy tickets for theater', 'Get in line at theater entrance']",Get in line at theater entrance,1
+4,0.8,"['Buy tickets for theater', 'Get dressed', 'Arrive at theater before show', 'Get in line at theater entrance']","['Get dressed', 'Present ticket to ticket taker']",Present ticket to ticket taker,1
+0,0.0,[],"['Call friends', 'Buy tickets']",Call friends,0
+1,0.2,['Call friends'],"['Decide on movie', 'Call friends']",Decide on movie,0
+2,0.4,"['Call friends', 'Decide on movie']","['Buy tickets', 'Carpool']",Carpool,1
+3,0.6,"['Call friends', 'Decide on movie', 'Carpool']","['Queue up', 'Call friends']",Queue up,0
+4,0.8,"['Call friends', 'Decide on movie', 'Carpool', 'Queue up']","['Call friends', 'Buy tickets']",Buy tickets,1
+0,0.0,[],"['Decide what movie to watch.', 'Decide what movie to watch.']",Decide what movie to watch.,0
+1,0.2,['Decide what movie to watch.'],"['Walk to counter and pay for movie', 'Find a seat.']",Walk to counter and pay for movie,0
+2,0.4,"['Decide what movie to watch.', 'Walk to counter and pay for movie']","['Find a seat.', 'Buy some popcorn .']",Buy some popcorn .,1
+3,0.6,"['Decide what movie to watch.', 'Walk to counter and pay for movie', 'Buy some popcorn .']","['Walk into theater with movie playing.', 'Decide what movie to watch.']",Walk into theater with movie playing.,0
+4,0.8,"['Decide what movie to watch.', 'Walk to counter and pay for movie', 'Buy some popcorn .', 'Walk into theater with movie playing.']","['Walk to counter and pay for movie', 'Find a seat.']",Find a seat.,1
+0,0.0,[],"['Buy theater tickets in advance.', 'Buy theater tickets in advance.']",Buy theater tickets in advance.,1
+1,0.2,['Buy theater tickets in advance.'],"['Drive to the theatre.', 'Drive to the theatre.']",Drive to the theatre.,1
+2,0.4,"['Buy theater tickets in advance.', 'Drive to the theatre.']","['Leave the theatre.', 'Check in using the tickets.']",Check in using the tickets.,1
+3,0.6,"['Buy theater tickets in advance.', 'Drive to the theatre.', 'Check in using the tickets.']","['Buy theater tickets in advance.', 'Watch the play.']",Watch the play.,1
+4,0.8,"['Buy theater tickets in advance.', 'Drive to the theatre.', 'Check in using the tickets.', 'Watch the play.']","['Drive to the theatre.', 'Leave the theatre.']",Leave the theatre.,1
+0,0.0,[],"['Purchase concessions', 'Find which movie you want to watch']",Find which movie you want to watch,1
+1,0.2,['Find which movie you want to watch'],"['Go into theater', 'Decide at what time you want to see it']",Decide at what time you want to see it,1
+2,0.4,"['Find which movie you want to watch', 'Decide at what time you want to see it']","['Purchase the tickets', 'Purchase concessions']",Purchase the tickets,0
+3,0.6,"['Find which movie you want to watch', 'Decide at what time you want to see it', 'Purchase the tickets']","['Find which movie you want to watch', 'Go into theater']",Go into theater,1
+4,0.8,"['Find which movie you want to watch', 'Decide at what time you want to see it', 'Purchase the tickets', 'Go into theater']","['Purchase concessions', 'Decide at what time you want to see it']",Purchase concessions,0
+0,0.0,[],"['Enter the theatre', 'Enter the theatre']",Enter the theatre,1
+1,0.2,['Enter the theatre'],"['Enter the theatre', 'Pick the movie']",Pick the movie,1
+2,0.4,"['Enter the theatre', 'Pick the movie']","['Show the doorman the ticket', 'Buy the ticket to that movie']",Buy the ticket to that movie,1
+3,0.6,"['Enter the theatre', 'Pick the movie', 'Buy the ticket to that movie']","['Buy snacks', 'Enter the theatre']",Buy snacks,0
+4,0.8,"['Enter the theatre', 'Pick the movie', 'Buy the ticket to that movie', 'Buy snacks']","['Show the doorman the ticket', 'Pick the movie']",Show the doorman the ticket,0
+0,0.0,[],"['Drive to movie theater.', 'Purchase popcorn and drinks from concession area.']",Drive to movie theater.,0
+1,0.2,['Drive to movie theater.'],"['Choose a movie to watch.', 'Turn in movie ticket to person at the theater gate.']",Choose a movie to watch.,0
+2,0.4,"['Drive to movie theater.', 'Choose a movie to watch.']","['Find the area where your movie will be showing.', 'Purchase popcorn and drinks from concession area.']",Purchase popcorn and drinks from concession area.,1
+3,0.6,"['Drive to movie theater.', 'Choose a movie to watch.', 'Purchase popcorn and drinks from concession area.']","['Drive to movie theater.', 'Turn in movie ticket to person at the theater gate.']",Turn in movie ticket to person at the theater gate.,1
+4,0.8,"['Drive to movie theater.', 'Choose a movie to watch.', 'Purchase popcorn and drinks from concession area.', 'Turn in movie ticket to person at the theater gate.']","['Find the area where your movie will be showing.', 'Choose a movie to watch.']",Find the area where your movie will be showing.,0
+0,0.0,[],"['Look up movies online.', 'Go to the theatres.']",Look up movies online.,0
+1,0.2,['Look up movies online.'],"['Pay for a ticket.', 'Choose a movie.']",Choose a movie.,1
+2,0.4,"['Look up movies online.', 'Choose a movie.']","['Go to the theatres.', 'Sit for the movie.']",Go to the theatres.,0
+3,0.6,"['Look up movies online.', 'Choose a movie.', 'Go to the theatres.']","['Look up movies online.', 'Pay for a ticket.']",Pay for a ticket.,1
+4,0.8,"['Look up movies online.', 'Choose a movie.', 'Go to the theatres.', 'Pay for a ticket.']","['Look up movies online.', 'Sit for the movie.']",Sit for the movie.,1
+0,0.0,[],"['Drive to the theater', 'Drive to the theater']",Drive to the theater,1
+1,0.2,['Drive to the theater'],"['Decide on a movie to watch', 'Look at the marquee']",Look at the marquee,1
+2,0.4,"['Drive to the theater', 'Look at the marquee']","['Decide on a movie to watch', 'Go inside the theater']",Decide on a movie to watch,0
+3,0.6,"['Drive to the theater', 'Look at the marquee', 'Decide on a movie to watch']","['Purchase a ticket', 'Drive to the theater']",Purchase a ticket,0
+4,0.8,"['Drive to the theater', 'Look at the marquee', 'Decide on a movie to watch', 'Purchase a ticket']","['Go inside the theater', 'Drive to the theater']",Go inside the theater,0
+0,0.0,[],"['Enter theater', 'Walk to the room playing your movie']",Enter theater,0
+1,0.2,['Enter theater'],"['Pay for ticket', 'Go to ticket counter']",Go to ticket counter,1
+2,0.4,"['Enter theater', 'Go to ticket counter']","['Tell them which movie you want to see', 'Walk to the room playing your movie']",Tell them which movie you want to see,0
+3,0.6,"['Enter theater', 'Go to ticket counter', 'Tell them which movie you want to see']","['Enter theater', 'Pay for ticket']",Pay for ticket,1
+4,0.8,"['Enter theater', 'Go to ticket counter', 'Tell them which movie you want to see', 'Pay for ticket']","['Enter theater', 'Walk to the room playing your movie']",Walk to the room playing your movie,1
+0,0.0,[],"['enter theater', 'enter theater']",enter theater,0
+1,0.2,['enter theater'],"['get some popcorn or other snack', 'enter theater']",get some popcorn or other snack,0
+2,0.4,"['enter theater', 'get some popcorn or other snack']","['enter theater', 'find right theater']",find right theater,1
+3,0.6,"['enter theater', 'get some popcorn or other snack', 'find right theater']","['wait in line to enter', 'enter theater']",wait in line to enter,0
+4,0.8,"['enter theater', 'get some popcorn or other snack', 'find right theater', 'wait in line to enter']","['get some popcorn or other snack', 'enter theater']",enter theater,1
+0,0.0,[],"['Enter into the theater', 'Select a film']",Select a film,1
+1,0.2,['Select a film'],"['Pay for the ticket', 'Find the available theater']",Find the available theater,1
+2,0.4,"['Select a film', 'Find the available theater']","['Enter into the theater', 'Book the ticket']",Book the ticket,1
+3,0.6,"['Select a film', 'Find the available theater', 'Book the ticket']","['Select a film', 'Pay for the ticket']",Pay for the ticket,1
+4,0.8,"['Select a film', 'Find the available theater', 'Book the ticket', 'Pay for the ticket']","['Find the available theater', 'Enter into the theater']",Enter into the theater,1
+0,0.0,[],"['Buy ticket to theater show in advance', 'Go to assigned seat']",Buy ticket to theater show in advance,0
+1,0.2,['Buy ticket to theater show in advance'],"['Buy refreshments', 'Day of show, go to theater']","Day of show, go to theater",1
+2,0.4,"['Buy ticket to theater show in advance', 'Day of show, go to theater']","['Show ticket to attendant', 'Go to assigned seat']",Show ticket to attendant,0
+3,0.6,"['Buy ticket to theater show in advance', 'Day of show, go to theater', 'Show ticket to attendant']","['Buy refreshments', 'Buy ticket to theater show in advance']",Buy refreshments,0
+4,0.8,"['Buy ticket to theater show in advance', 'Day of show, go to theater', 'Show ticket to attendant', 'Buy refreshments']","['Buy ticket to theater show in advance', 'Go to assigned seat']",Go to assigned seat,1
+0,0.0,[],"['dress up nicely', 'dress up nicely']",dress up nicely,0
+1,0.2,['dress up nicely'],"['dress up nicely', 'drive to local theater']",drive to local theater,1
+2,0.4,"['dress up nicely', 'drive to local theater']","['find a seat inside theater', 'pay for desired movie to watch']",pay for desired movie to watch,1
+3,0.6,"['dress up nicely', 'drive to local theater', 'pay for desired movie to watch']","['buy food if desired such as popcorn etc.', 'dress up nicely']",buy food if desired such as popcorn etc.,0
+4,0.8,"['dress up nicely', 'drive to local theater', 'pay for desired movie to watch', 'buy food if desired such as popcorn etc.']","['dress up nicely', 'find a seat inside theater']",find a seat inside theater,1
+0,0.0,[],"['Get to the theatre before hand.', 'Get to the theatre before hand.']",Get to the theatre before hand.,0
+1,0.2,['Get to the theatre before hand.'],"['Find your way to your seat.', 'Have your tickets ready or be prepared to buy them at the door.']",Have your tickets ready or be prepared to buy them at the door.,1
+2,0.4,"['Get to the theatre before hand.', 'Have your tickets ready or be prepared to buy them at the door.']","['Remain silent and courteous through the show.', 'Hand your ticket to the usher.']",Hand your ticket to the usher.,1
+3,0.6,"['Get to the theatre before hand.', 'Have your tickets ready or be prepared to buy them at the door.', 'Hand your ticket to the usher.']","['Get to the theatre before hand.', 'Find your way to your seat.']",Find your way to your seat.,1
+4,0.8,"['Get to the theatre before hand.', 'Have your tickets ready or be prepared to buy them at the door.', 'Hand your ticket to the usher.', 'Find your way to your seat.']","['Get to the theatre before hand.', 'Remain silent and courteous through the show.']",Remain silent and courteous through the show.,1
+0,0.0,[],"['Pay to park.', 'Put on some nice dressy clothes.']",Put on some nice dressy clothes.,1
+1,0.2,['Put on some nice dressy clothes.'],"['Drive to theater.', 'Put on some nice dressy clothes.']",Drive to theater.,0
+2,0.4,"['Put on some nice dressy clothes.', 'Drive to theater.']","['Pick up tickets', 'Pay to park.']",Pay to park.,1
+3,0.6,"['Put on some nice dressy clothes.', 'Drive to theater.', 'Pay to park.']","['Park your car.', 'Put on some nice dressy clothes.']",Park your car.,0
+4,0.8,"['Put on some nice dressy clothes.', 'Drive to theater.', 'Pay to park.', 'Park your car.']","['Drive to theater.', 'Pick up tickets']",Pick up tickets,1
+0,0.0,[],"['Book the ticket', 'Enter the theater']",Book the ticket,0
+1,0.2,['Book the ticket'],"['Confirm the timing', 'Book the ticket']",Confirm the timing,0
+2,0.4,"['Book the ticket', 'Confirm the timing']","['Enter the theater', 'Go to the theater']",Go to the theater,1
+3,0.6,"['Book the ticket', 'Confirm the timing', 'Go to the theater']","['Show the ticket at the gate', 'Book the ticket']",Show the ticket at the gate,0
+4,0.8,"['Book the ticket', 'Confirm the timing', 'Go to the theater', 'Show the ticket at the gate']","['Enter the theater', 'Book the ticket']",Enter the theater,0
+0,0.0,[],"['get seated in your seats', 'purchase theater tickets']",purchase theater tickets,1
+1,0.2,['purchase theater tickets'],"['get int the car', 'show tickets at the counter']",get int the car,0
+2,0.4,"['purchase theater tickets', 'get int the car']","['get seated in your seats', 'drive to the theater']",drive to the theater,1
+3,0.6,"['purchase theater tickets', 'get int the car', 'drive to the theater']","['show tickets at the counter', 'purchase theater tickets']",show tickets at the counter,0
+4,0.8,"['purchase theater tickets', 'get int the car', 'drive to the theater', 'show tickets at the counter']","['purchase theater tickets', 'get seated in your seats']",get seated in your seats,1
+0,0.0,[],"['Buy snacks', 'Get in car']",Get in car,1
+1,0.2,['Get in car'],"['Drive to theater', 'Get in car']",Drive to theater,0
+2,0.4,"['Get in car', 'Drive to theater']","['Buy snacks', 'Wait in line']",Wait in line,1
+3,0.6,"['Get in car', 'Drive to theater', 'Wait in line']","['Buy ticket', 'Get in car']",Buy ticket,0
+4,0.8,"['Get in car', 'Drive to theater', 'Wait in line', 'Buy ticket']","['Get in car', 'Buy snacks']",Buy snacks,1
+0,0.0,[],"['Purchase tickets for movie', 'Determine movie time']",Determine movie time,1
+1,0.2,['Determine movie time'],"['Buy popcorn', 'Put water and candy into purse']",Put water and candy into purse,1
+2,0.4,"['Determine movie time', 'Put water and candy into purse']","['Buy popcorn', 'Travel to theater']",Travel to theater,1
+3,0.6,"['Determine movie time', 'Put water and candy into purse', 'Travel to theater']","['Determine movie time', 'Purchase tickets for movie']",Purchase tickets for movie,1
+4,0.8,"['Determine movie time', 'Put water and candy into purse', 'Travel to theater', 'Purchase tickets for movie']","['Buy popcorn', 'Put water and candy into purse']",Buy popcorn,0
+0,0.0,[],"['Pick movie you want to watch', 'Go to movie theater']",Go to movie theater,1
+1,0.2,['Go to movie theater'],"['Pick movie you want to watch', 'Pick movie you want to watch']",Pick movie you want to watch,1
+2,0.4,"['Go to movie theater', 'Pick movie you want to watch']","['Buy popcorn', 'Buy ticket']",Buy ticket,1
+3,0.6,"['Go to movie theater', 'Pick movie you want to watch', 'Buy ticket']","['Go to movie theater', 'Enter theater with ticket']",Enter theater with ticket,1
+4,0.8,"['Go to movie theater', 'Pick movie you want to watch', 'Buy ticket', 'Enter theater with ticket']","['Go to movie theater', 'Buy popcorn']",Buy popcorn,1
+0,0.0,[],"['Enjoy the show', 'Purchase the tickets']",Purchase the tickets,1
+1,0.2,['Purchase the tickets'],"['Enjoy the show', 'Travel to the theater']",Travel to the theater,1
+2,0.4,"['Purchase the tickets', 'Travel to the theater']","['Take your allotted seat', 'Return back home']",Take your allotted seat,0
+3,0.6,"['Purchase the tickets', 'Travel to the theater', 'Take your allotted seat']","['Purchase the tickets', 'Enjoy the show']",Enjoy the show,1
+4,0.8,"['Purchase the tickets', 'Travel to the theater', 'Take your allotted seat', 'Enjoy the show']","['Purchase the tickets', 'Return back home']",Return back home,1
+0,0.0,[],"['Enter into the theater', 'Select the movie']",Select the movie,1
+1,0.2,['Select the movie'],"['Enter into the theater', 'Watching movie']",Enter into the theater,0
+2,0.4,"['Select the movie', 'Enter into the theater']","['Take the ticket', 'Watching movie']",Take the ticket,0
+3,0.6,"['Select the movie', 'Enter into the theater', 'Take the ticket']","['Select the movie', 'Find the seat number for sit']",Find the seat number for sit,1
+4,0.8,"['Select the movie', 'Enter into the theater', 'Take the ticket', 'Find the seat number for sit']","['Select the movie', 'Watching movie']",Watching movie,1
+0,0.0,[],"['Invite anyone who you want to accompany you to theater.', 'Invite anyone who you want to accompany you to theater.']",Invite anyone who you want to accompany you to theater.,0
+1,0.2,['Invite anyone who you want to accompany you to theater.'],"['Buy tickets for theater.', 'Invite anyone who you want to accompany you to theater.']",Buy tickets for theater.,0
+2,0.4,"['Invite anyone who you want to accompany you to theater.', 'Buy tickets for theater.']","['Give ticket to ticket taker.', 'Dress in appropriate clothes for theater.']",Dress in appropriate clothes for theater.,1
+3,0.6,"['Invite anyone who you want to accompany you to theater.', 'Buy tickets for theater.', 'Dress in appropriate clothes for theater.']","['Go to theater.', 'Invite anyone who you want to accompany you to theater.']",Go to theater.,0
+4,0.8,"['Invite anyone who you want to accompany you to theater.', 'Buy tickets for theater.', 'Dress in appropriate clothes for theater.', 'Go to theater.']","['Give ticket to ticket taker.', 'Buy tickets for theater.']",Give ticket to ticket taker.,0
+0,0.0,[],"['Research what shows are playing at the theater', ""Pay for tickets at the theater if you didn't buy them in advance""]",Research what shows are playing at the theater,0
+1,0.2,['Research what shows are playing at the theater'],"['Find a show you want to see', 'Research what shows are playing at the theater']",Find a show you want to see,0
+2,0.4,"['Research what shows are playing at the theater', 'Find a show you want to see']","['Enter theater', 'Drive or walk to the theater']",Drive or walk to the theater,1
+3,0.6,"['Research what shows are playing at the theater', 'Find a show you want to see', 'Drive or walk to the theater']","[""Pay for tickets at the theater if you didn't buy them in advance"", 'Research what shows are playing at the theater']",Pay for tickets at the theater if you didn't buy them in advance,0
+4,0.8,"['Research what shows are playing at the theater', 'Find a show you want to see', 'Drive or walk to the theater', ""Pay for tickets at the theater if you didn't buy them in advance""]","['Enter theater', 'Research what shows are playing at the theater']",Enter theater,0
+0,0.0,[],"['Search the internet for the theater and time.', 'Select the desired movie.']",Select the desired movie.,1
+1,0.2,['Select the desired movie.'],"['Search the internet for the theater and time.', 'Enter the theater']",Search the internet for the theater and time.,0
+2,0.4,"['Select the desired movie.', 'Search the internet for the theater and time.']","['Enter the theater', 'Travel to the theater.']",Travel to the theater.,1
+3,0.6,"['Select the desired movie.', 'Search the internet for the theater and time.', 'Travel to the theater.']","['Buy the ticket.', 'Select the desired movie.']",Buy the ticket.,0
+4,0.8,"['Select the desired movie.', 'Search the internet for the theater and time.', 'Travel to the theater.', 'Buy the ticket.']","['Enter the theater', 'Select the desired movie.']",Enter the theater,0
+0,0.0,[],"['Get in car', 'Get in car']",Get in car,0
+1,0.2,['Get in car'],"['Drive to a theater', 'Go to the bathroom before the show begins']",Drive to a theater,0
+2,0.4,"['Get in car', 'Drive to a theater']","['Buy tickets at theater', 'Sit down in the seats']",Buy tickets at theater,0
+3,0.6,"['Get in car', 'Drive to a theater', 'Buy tickets at theater']","['Get in car', 'Go to the bathroom before the show begins']",Go to the bathroom before the show begins,1
+4,0.8,"['Get in car', 'Drive to a theater', 'Buy tickets at theater', 'Go to the bathroom before the show begins']","['Drive to a theater', 'Sit down in the seats']",Sit down in the seats,1

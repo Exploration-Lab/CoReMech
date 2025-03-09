@@ -1,0 +1,660 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Fill a pot with water', 'Cook in boiling water for 8 minutes']",Fill a pot with water,0
+1,0.14285714285714285,['Fill a pot with water'],"['Place pasta in water on stove', 'Place water on stove']",Place water on stove,1
+2,0.2857142857142857,"['Fill a pot with water', 'Place water on stove']","['Place pasta in water on stove', 'Turn on stove']",Turn on stove,1
+3,0.42857142857142855,"['Fill a pot with water', 'Place water on stove', 'Turn on stove']","['Get pasta out of pantry', 'Fill a pot with water']",Get pasta out of pantry,0
+4,0.5714285714285714,"['Fill a pot with water', 'Place water on stove', 'Turn on stove', 'Get pasta out of pantry']","['Fill a pot with water', 'Open pasta']",Open pasta,1
+5,0.7142857142857143,"['Fill a pot with water', 'Place water on stove', 'Turn on stove', 'Get pasta out of pantry', 'Open pasta']","['Turn on stove', 'Place pasta in water on stove']",Place pasta in water on stove,1
+6,0.8571428571428571,"['Fill a pot with water', 'Place water on stove', 'Turn on stove', 'Get pasta out of pantry', 'Open pasta', 'Place pasta in water on stove']","['Fill a pot with water', 'Cook in boiling water for 8 minutes']",Cook in boiling water for 8 minutes,1
+0,0.0,[],"['Fill a pan with water.', 'Fill a pan with water.']",Fill a pan with water.,0
+1,0.14285714285714285,['Fill a pan with water.'],"['Add some salt and olive oil to the water for flavor.', 'Cook the pasta to taste - approx 8 - 12 minutes depending on desired firmness.']",Add some salt and olive oil to the water for flavor.,0
+2,0.2857142857142857,"['Fill a pan with water.', 'Add some salt and olive oil to the water for flavor.']","['Heat the water to a medium boil.', 'Pour the pasta into a strainer over the sink to remove the water.']",Heat the water to a medium boil.,0
+3,0.42857142857142855,"['Fill a pan with water.', 'Add some salt and olive oil to the water for flavor.', 'Heat the water to a medium boil.']","['Measure the pasta - a single serving is roughly 2 ounces of dry pasta per person.', 'Cook the pasta to taste - approx 8 - 12 minutes depending on desired firmness.']",Measure the pasta - a single serving is roughly 2 ounces of dry pasta per person.,0
+4,0.5714285714285714,"['Fill a pan with water.', 'Add some salt and olive oil to the water for flavor.', 'Heat the water to a medium boil.', 'Measure the pasta - a single serving is roughly 2 ounces of dry pasta per person.']","['Add the pasta to the boiling water and stir gently to prevent sticking.', 'Pour the pasta into a strainer over the sink to remove the water.']",Add the pasta to the boiling water and stir gently to prevent sticking.,0
+5,0.7142857142857143,"['Fill a pan with water.', 'Add some salt and olive oil to the water for flavor.', 'Heat the water to a medium boil.', 'Measure the pasta - a single serving is roughly 2 ounces of dry pasta per person.', 'Add the pasta to the boiling water and stir gently to prevent sticking.']","['Cook the pasta to taste - approx 8 - 12 minutes depending on desired firmness.', 'Fill a pan with water.']",Cook the pasta to taste - approx 8 - 12 minutes depending on desired firmness.,0
+6,0.8571428571428571,"['Fill a pan with water.', 'Add some salt and olive oil to the water for flavor.', 'Heat the water to a medium boil.', 'Measure the pasta - a single serving is roughly 2 ounces of dry pasta per person.', 'Add the pasta to the boiling water and stir gently to prevent sticking.', 'Cook the pasta to taste - approx 8 - 12 minutes depending on desired firmness.']","['Pour the pasta into a strainer over the sink to remove the water.', 'Heat the water to a medium boil.']",Pour the pasta into a strainer over the sink to remove the water.,0
+0,0.0,[],"['Fill a pot with water', 'Turn stove on']",Fill a pot with water,0
+1,0.14285714285714285,['Fill a pot with water'],"['Turn stove on', 'Put it on the stove']",Put it on the stove,1
+2,0.2857142857142857,"['Fill a pot with water', 'Put it on the stove']","['Add pasta', 'Turn stove on']",Turn stove on,1
+3,0.42857142857142855,"['Fill a pot with water', 'Put it on the stove', 'Turn stove on']","['Let it come to a boil', 'Stir']",Let it come to a boil,0
+4,0.5714285714285714,"['Fill a pot with water', 'Put it on the stove', 'Turn stove on', 'Let it come to a boil']","['Add pasta', 'Fill a pot with water']",Add pasta,0
+5,0.7142857142857143,"['Fill a pot with water', 'Put it on the stove', 'Turn stove on', 'Let it come to a boil', 'Add pasta']","['Put it on the stove', 'Stir']",Stir,1
+6,0.8571428571428571,"['Fill a pot with water', 'Put it on the stove', 'Turn stove on', 'Let it come to a boil', 'Add pasta', 'Stir']","['Turn stove on', 'Cook until done']",Cook until done,1
+0,0.0,[],"['fill pot half full of water', 'get pasta from cupboard']",get pasta from cupboard,1
+1,0.14285714285714285,['get pasta from cupboard'],"['add pasta to water', 'get large pot']",get large pot,1
+2,0.2857142857142857,"['get pasta from cupboard', 'get large pot']","['fill pot half full of water', 'add pasta to water']",fill pot half full of water,0
+3,0.42857142857142855,"['get pasta from cupboard', 'get large pot', 'fill pot half full of water']","['get pasta from cupboard', 'add a pinch of salt']",add a pinch of salt,1
+4,0.5714285714285714,"['get pasta from cupboard', 'get large pot', 'fill pot half full of water', 'add a pinch of salt']","['get pasta from cupboard', 'bring water to a boil']",bring water to a boil,1
+5,0.7142857142857143,"['get pasta from cupboard', 'get large pot', 'fill pot half full of water', 'add a pinch of salt', 'bring water to a boil']","['measure pasta', 'get large pot']",measure pasta,0
+6,0.8571428571428571,"['get pasta from cupboard', 'get large pot', 'fill pot half full of water', 'add a pinch of salt', 'bring water to a boil', 'measure pasta']","['get large pot', 'add pasta to water']",add pasta to water,1
+0,0.0,[],"['getting pan', 'boiling water']",getting pan,0
+1,0.14285714285714285,['getting pan'],"['putting pan on stove', 'filling pan up with pasta']",filling pan up with pasta,1
+2,0.2857142857142857,"['getting pan', 'filling pan up with pasta']","['putting pan on stove', 'stir pasta']",putting pan on stove,0
+3,0.42857142857142855,"['getting pan', 'filling pan up with pasta', 'putting pan on stove']","['boiling water', 'stir pasta']",boiling water,0
+4,0.5714285714285714,"['getting pan', 'filling pan up with pasta', 'putting pan on stove', 'boiling water']","['adding pasta to boiling water', 'cook pasta']",adding pasta to boiling water,0
+5,0.7142857142857143,"['getting pan', 'filling pan up with pasta', 'putting pan on stove', 'boiling water', 'adding pasta to boiling water']","['getting pan', 'stir pasta']",stir pasta,1
+6,0.8571428571428571,"['getting pan', 'filling pan up with pasta', 'putting pan on stove', 'boiling water', 'adding pasta to boiling water', 'stir pasta']","['getting pan', 'cook pasta']",cook pasta,1
+0,0.0,[],"['Look up a pasta recipe', 'Look up a pasta recipe']",Look up a pasta recipe,1
+1,0.2,['Look up a pasta recipe'],"['Cook the sauce', 'Get all the sauce ingredients']",Get all the sauce ingredients,1
+2,0.4,"['Look up a pasta recipe', 'Get all the sauce ingredients']","['Combine the sauce and the pasta', 'Boil the noodles until well done']",Boil the noodles until well done,1
+3,0.6,"['Look up a pasta recipe', 'Get all the sauce ingredients', 'Boil the noodles until well done']","['Look up a pasta recipe', 'Cook the sauce']",Cook the sauce,1
+4,0.8,"['Look up a pasta recipe', 'Get all the sauce ingredients', 'Boil the noodles until well done', 'Cook the sauce']","['Combine the sauce and the pasta', 'Look up a pasta recipe']",Combine the sauce and the pasta,0
+0,0.0,[],"['Add pasta', 'Buy pasta']",Buy pasta,1
+1,0.14285714285714285,['Buy pasta'],"['Get pot', 'Put water in pot']",Get pot,0
+2,0.2857142857142857,"['Buy pasta', 'Get pot']","['Put water in pot', 'Add pasta']",Put water in pot,0
+3,0.42857142857142855,"['Buy pasta', 'Get pot', 'Put water in pot']","['Boil water', 'Wait for pasta to cook']",Boil water,0
+4,0.5714285714285714,"['Buy pasta', 'Get pot', 'Put water in pot', 'Boil water']","['Get pot', 'Add pasta']",Add pasta,1
+5,0.7142857142857143,"['Buy pasta', 'Get pot', 'Put water in pot', 'Boil water', 'Add pasta']","['Wait for pasta to cook', 'Put water in pot']",Wait for pasta to cook,0
+6,0.8571428571428571,"['Buy pasta', 'Get pot', 'Put water in pot', 'Boil water', 'Add pasta', 'Wait for pasta to cook']","['Put water in pot', 'Drain']",Drain,1
+0,0.0,[],"['Open the pasta packet', 'Put the cooking pan on gas']",Open the pasta packet,0
+1,0.14285714285714285,['Open the pasta packet'],"['Pour it in a bowl', 'Put the cooking pan on gas']",Pour it in a bowl,0
+2,0.2857142857142857,"['Open the pasta packet', 'Pour it in a bowl']","['Heat it in full flame', 'Wash it with water']",Wash it with water,1
+3,0.42857142857142855,"['Open the pasta packet', 'Pour it in a bowl', 'Wash it with water']","['Open the pasta packet', 'Lit the gas stove']",Lit the gas stove,1
+4,0.5714285714285714,"['Open the pasta packet', 'Pour it in a bowl', 'Wash it with water', 'Lit the gas stove']","['Put the cooking pan on gas', 'Heat it in full flame']",Put the cooking pan on gas,0
+5,0.7142857142857143,"['Open the pasta packet', 'Pour it in a bowl', 'Wash it with water', 'Lit the gas stove', 'Put the cooking pan on gas']","['Open the pasta packet', 'Pour the pasta in the pan']",Pour the pasta in the pan,1
+6,0.8571428571428571,"['Open the pasta packet', 'Pour it in a bowl', 'Wash it with water', 'Lit the gas stove', 'Put the cooking pan on gas', 'Pour the pasta in the pan']","['Open the pasta packet', 'Heat it in full flame']",Heat it in full flame,1
+0,0.0,[],"['wait for pasta to become soft and sticky', 'boil water']",boil water,1
+1,0.2,['boil water'],"['strain pasta', 'add pasta']",add pasta,1
+2,0.4,"['boil water', 'add pasta']","['add sauce', 'wait for pasta to become soft and sticky']",wait for pasta to become soft and sticky,1
+3,0.6,"['boil water', 'add pasta', 'wait for pasta to become soft and sticky']","['strain pasta', 'boil water']",strain pasta,0
+4,0.8,"['boil water', 'add pasta', 'wait for pasta to become soft and sticky', 'strain pasta']","['add pasta', 'add sauce']",add sauce,1
+0,0.0,[],"['Put water in a pot', 'Turn on stove']",Put water in a pot,0
+1,0.14285714285714285,['Put water in a pot'],"['Turn on stove', 'Let the water boil']",Turn on stove,0
+2,0.2857142857142857,"['Put water in a pot', 'Turn on stove']","['Drain pasta in a strainer', 'Let the water boil']",Let the water boil,1
+3,0.42857142857142855,"['Put water in a pot', 'Turn on stove', 'Let the water boil']","['Grab pasta and throw it in the water', 'Serve with sauce']",Grab pasta and throw it in the water,0
+4,0.5714285714285714,"['Put water in a pot', 'Turn on stove', 'Let the water boil', 'Grab pasta and throw it in the water']","['Wait for pasta to soften', 'Turn on stove']",Wait for pasta to soften,0
+5,0.7142857142857143,"['Put water in a pot', 'Turn on stove', 'Let the water boil', 'Grab pasta and throw it in the water', 'Wait for pasta to soften']","['Drain pasta in a strainer', 'Let the water boil']",Drain pasta in a strainer,0
+6,0.8571428571428571,"['Put water in a pot', 'Turn on stove', 'Let the water boil', 'Grab pasta and throw it in the water', 'Wait for pasta to soften', 'Drain pasta in a strainer']","['Put water in a pot', 'Serve with sauce']",Serve with sauce,1
+0,0.0,[],"['Take the pasta you want to cook', 'Put water on stove']",Take the pasta you want to cook,0
+1,0.14285714285714285,['Take the pasta you want to cook'],"['Put water on stove', 'Fill a large pan with water']",Fill a large pan with water,1
+2,0.2857142857142857,"['Take the pasta you want to cook', 'Fill a large pan with water']","['Light stove', 'Add salt to the water']",Add salt to the water,1
+3,0.42857142857142855,"['Take the pasta you want to cook', 'Fill a large pan with water', 'Add salt to the water']","['Put water on stove', 'Wait for water to come to a boil']",Put water on stove,0
+4,0.5714285714285714,"['Take the pasta you want to cook', 'Fill a large pan with water', 'Add salt to the water', 'Put water on stove']","['Put pasta in water', 'Light stove']",Light stove,1
+5,0.7142857142857143,"['Take the pasta you want to cook', 'Fill a large pan with water', 'Add salt to the water', 'Put water on stove', 'Light stove']","['Wait for water to come to a boil', 'Fill a large pan with water']",Wait for water to come to a boil,0
+6,0.8571428571428571,"['Take the pasta you want to cook', 'Fill a large pan with water', 'Add salt to the water', 'Put water on stove', 'Light stove', 'Wait for water to come to a boil']","['Put pasta in water', 'Put water on stove']",Put pasta in water,0
+0,0.0,[],"['Take out pot.', 'remove pasta from box']",Take out pot.,0
+1,0.14285714285714285,['Take out pot.'],"['Fill with water', 'Fill with water']",Fill with water,1
+2,0.2857142857142857,"['Take out pot.', 'Fill with water']","['set on stove and turn heat on high', 'watch for water to boil']",set on stove and turn heat on high,0
+3,0.42857142857142855,"['Take out pot.', 'Fill with water', 'set on stove and turn heat on high']","['watch for water to boil', 'remove pasta from box']",remove pasta from box,1
+4,0.5714285714285714,"['Take out pot.', 'Fill with water', 'set on stove and turn heat on high', 'remove pasta from box']","['dump pasta in pot', 'Fill with water']",dump pasta in pot,0
+5,0.7142857142857143,"['Take out pot.', 'Fill with water', 'set on stove and turn heat on high', 'remove pasta from box', 'dump pasta in pot']","['watch for water to boil', 'Take out pot.']",watch for water to boil,0
+6,0.8571428571428571,"['Take out pot.', 'Fill with water', 'set on stove and turn heat on high', 'remove pasta from box', 'dump pasta in pot', 'watch for water to boil']","['Take out pot.', 'cook pasta']",cook pasta,1
+0,0.0,[],"['Get pan out', 'put pasta in water']",Get pan out,0
+1,0.16666666666666666,['Get pan out'],"['fill about half full with water', 'drain water']",fill about half full with water,0
+2,0.3333333333333333,"['Get pan out', 'fill about half full with water']","['cook eight mins or until tender', 'heat to a boil']",heat to a boil,1
+3,0.5,"['Get pan out', 'fill about half full with water', 'heat to a boil']","['put pasta in water', 'drain water']",put pasta in water,0
+4,0.6666666666666666,"['Get pan out', 'fill about half full with water', 'heat to a boil', 'put pasta in water']","['cook eight mins or until tender', 'Get pan out']",cook eight mins or until tender,0
+5,0.8333333333333334,"['Get pan out', 'fill about half full with water', 'heat to a boil', 'put pasta in water', 'cook eight mins or until tender']","['Get pan out', 'drain water']",drain water,1
+0,0.0,[],"['Find box of pasta.', 'Put large pot of water on stove top.']",Find box of pasta.,0
+1,0.14285714285714285,['Find box of pasta.'],"['Cook for 7 minutes.', 'Put large pot of water on stove top.']",Put large pot of water on stove top.,1
+2,0.2857142857142857,"['Find box of pasta.', 'Put large pot of water on stove top.']","['Salt the water.', 'Cook for 7 minutes.']",Salt the water.,0
+3,0.42857142857142855,"['Find box of pasta.', 'Put large pot of water on stove top.', 'Salt the water.']","['Cook for 7 minutes.', 'Heat up burner to bring water to boiling.']",Heat up burner to bring water to boiling.,1
+4,0.5714285714285714,"['Find box of pasta.', 'Put large pot of water on stove top.', 'Salt the water.', 'Heat up burner to bring water to boiling.']","['Remove from heat and pour into collander.', 'Drop pasta into water.']",Drop pasta into water.,1
+5,0.7142857142857143,"['Find box of pasta.', 'Put large pot of water on stove top.', 'Salt the water.', 'Heat up burner to bring water to boiling.', 'Drop pasta into water.']","['Find box of pasta.', 'Cook for 7 minutes.']",Cook for 7 minutes.,1
+6,0.8571428571428571,"['Find box of pasta.', 'Put large pot of water on stove top.', 'Salt the water.', 'Heat up burner to bring water to boiling.', 'Drop pasta into water.', 'Cook for 7 minutes.']","['Heat up burner to bring water to boiling.', 'Remove from heat and pour into collander.']",Remove from heat and pour into collander.,1
+0,0.0,[],"['Go to the kitchen', 'Put the pasta into the boiled water']",Go to the kitchen,0
+1,0.14285714285714285,['Go to the kitchen'],"['Pour the water in the pan', 'Switch on the stove']",Switch on the stove,1
+2,0.2857142857142857,"['Go to the kitchen', 'Switch on the stove']","['Add oil to the pasta', 'Pour the water in the pan']",Pour the water in the pan,1
+3,0.42857142857142855,"['Go to the kitchen', 'Switch on the stove', 'Pour the water in the pan']","['Boil the water', 'Add salt and ingredients']",Boil the water,0
+4,0.5714285714285714,"['Go to the kitchen', 'Switch on the stove', 'Pour the water in the pan', 'Boil the water']","['Switch on the stove', 'Put the pasta into the boiled water']",Put the pasta into the boiled water,1
+5,0.7142857142857143,"['Go to the kitchen', 'Switch on the stove', 'Pour the water in the pan', 'Boil the water', 'Put the pasta into the boiled water']","['Add salt and ingredients', 'Go to the kitchen']",Add salt and ingredients,0
+6,0.8571428571428571,"['Go to the kitchen', 'Switch on the stove', 'Pour the water in the pan', 'Boil the water', 'Put the pasta into the boiled water', 'Add salt and ingredients']","['Go to the kitchen', 'Add oil to the pasta']",Add oil to the pasta,1
+0,0.0,[],"['Add ingredients', 'Get ingredients']",Get ingredients,1
+1,0.14285714285714285,['Get ingredients'],"['Boil water', 'Boil water']",Boil water,0
+2,0.2857142857142857,"['Get ingredients', 'Boil water']","['Add pasta', 'Add ingredients']",Add pasta,0
+3,0.42857142857142855,"['Get ingredients', 'Boil water', 'Add pasta']","['Stir well', 'Drain water']",Drain water,1
+4,0.5714285714285714,"['Get ingredients', 'Boil water', 'Add pasta', 'Drain water']","['Add ingredients', 'Serve pasta']",Add ingredients,0
+5,0.7142857142857143,"['Get ingredients', 'Boil water', 'Add pasta', 'Drain water', 'Add ingredients']","['Boil water', 'Stir well']",Stir well,1
+6,0.8571428571428571,"['Get ingredients', 'Boil water', 'Add pasta', 'Drain water', 'Add ingredients', 'Stir well']","['Drain water', 'Serve pasta']",Serve pasta,1
+0,0.0,[],"['Get a pot.', 'Put pot on stove.']",Get a pot.,0
+1,0.14285714285714285,['Get a pot.'],"['Turn on heat.', 'Fill pot with water.']",Fill pot with water.,1
+2,0.2857142857142857,"['Get a pot.', 'Fill pot with water.']","['Allow the water to begin boiling.', 'Put pot on stove.']",Put pot on stove.,1
+3,0.42857142857142855,"['Get a pot.', 'Fill pot with water.', 'Put pot on stove.']","['Turn on heat.', 'Throw pasta in boiling water.']",Turn on heat.,0
+4,0.5714285714285714,"['Get a pot.', 'Fill pot with water.', 'Put pot on stove.', 'Turn on heat.']","['Allow the water to begin boiling.', 'Fill pot with water.']",Allow the water to begin boiling.,0
+5,0.7142857142857143,"['Get a pot.', 'Fill pot with water.', 'Put pot on stove.', 'Turn on heat.', 'Allow the water to begin boiling.']","['Throw pasta in boiling water.', 'Get a pot.']",Throw pasta in boiling water.,0
+6,0.8571428571428571,"['Get a pot.', 'Fill pot with water.', 'Put pot on stove.', 'Turn on heat.', 'Allow the water to begin boiling.', 'Throw pasta in boiling water.']","['Get a pot.', 'Cook pasta as instructed, or until tender.']","Cook pasta as instructed, or until tender.",1
+0,0.0,[],"['Get a large cooking pot', 'Get a large cooking pot']",Get a large cooking pot,0
+1,0.14285714285714285,['Get a large cooking pot'],"['Pour pasta into water slowly, avoid splashing water', 'Fill pot with approximately 2 quarts of water']",Fill pot with approximately 2 quarts of water,1
+2,0.2857142857142857,"['Get a large cooking pot', 'Fill pot with approximately 2 quarts of water']","['When done, turn off burner', 'Turn on heat']",Turn on heat,1
+3,0.42857142857142855,"['Get a large cooking pot', 'Fill pot with approximately 2 quarts of water', 'Turn on heat']","['Bring water to a boil', 'Continue boiling for time specified on package, about 8 minutes']",Bring water to a boil,0
+4,0.5714285714285714,"['Get a large cooking pot', 'Fill pot with approximately 2 quarts of water', 'Turn on heat', 'Bring water to a boil']","['When done, turn off burner', 'Pour pasta into water slowly, avoid splashing water']","Pour pasta into water slowly, avoid splashing water",1
+5,0.7142857142857143,"['Get a large cooking pot', 'Fill pot with approximately 2 quarts of water', 'Turn on heat', 'Bring water to a boil', 'Pour pasta into water slowly, avoid splashing water']","['Continue boiling for time specified on package, about 8 minutes', 'Get a large cooking pot']","Continue boiling for time specified on package, about 8 minutes",0
+6,0.8571428571428571,"['Get a large cooking pot', 'Fill pot with approximately 2 quarts of water', 'Turn on heat', 'Bring water to a boil', 'Pour pasta into water slowly, avoid splashing water', 'Continue boiling for time specified on package, about 8 minutes']","['Get a large cooking pot', 'When done, turn off burner']","When done, turn off burner",1
+0,0.0,[],"['Fill a large pot with water.', 'Add pasta.']",Fill a large pot with water.,0
+1,0.16666666666666666,['Fill a large pot with water.'],"['Salt the water.', 'Salt the water.']",Salt the water.,0
+2,0.3333333333333333,"['Fill a large pot with water.', 'Salt the water.']","['Cook for 8-10 minutes.', 'Bring the water to a boil.']",Bring the water to a boil.,1
+3,0.5,"['Fill a large pot with water.', 'Salt the water.', 'Bring the water to a boil.']","['Add pasta.', 'Drain pasta.']",Add pasta.,0
+4,0.6666666666666666,"['Fill a large pot with water.', 'Salt the water.', 'Bring the water to a boil.', 'Add pasta.']","['Fill a large pot with water.', 'Cook for 8-10 minutes.']",Cook for 8-10 minutes.,1
+5,0.8333333333333334,"['Fill a large pot with water.', 'Salt the water.', 'Bring the water to a boil.', 'Add pasta.', 'Cook for 8-10 minutes.']","['Salt the water.', 'Drain pasta.']",Drain pasta.,1
+0,0.0,[],"['Get pan out.', 'Fill pan with water.']",Get pan out.,0
+1,0.14285714285714285,['Get pan out.'],"['Put pasta in water.', 'Fill pan with water.']",Fill pan with water.,1
+2,0.2857142857142857,"['Get pan out.', 'Fill pan with water.']","['Put pan on stove.', 'Boil until pasta is tender.']",Put pan on stove.,0
+3,0.42857142857142855,"['Get pan out.', 'Fill pan with water.', 'Put pan on stove.']","['Boil until pasta is tender.', 'Turn stove on med/high.']",Turn stove on med/high.,1
+4,0.5714285714285714,"['Get pan out.', 'Fill pan with water.', 'Put pan on stove.', 'Turn stove on med/high.']","['Fill pan with water.', 'Allow water to start boiling.']",Allow water to start boiling.,1
+5,0.7142857142857143,"['Get pan out.', 'Fill pan with water.', 'Put pan on stove.', 'Turn stove on med/high.', 'Allow water to start boiling.']","['Put pasta in water.', 'Get pan out.']",Put pasta in water.,0
+6,0.8571428571428571,"['Get pan out.', 'Fill pan with water.', 'Put pan on stove.', 'Turn stove on med/high.', 'Allow water to start boiling.', 'Put pasta in water.']","['Turn stove on med/high.', 'Boil until pasta is tender.']",Boil until pasta is tender.,1
+0,0.0,[],"['Take out a pot', 'When water is boiling, fill pot with pasta']",Take out a pot,0
+1,0.14285714285714285,['Take out a pot'],"['Remove pot after 10 minutes', 'Fill pot with water']",Fill pot with water,1
+2,0.2857142857142857,"['Take out a pot', 'Fill pot with water']","['Place pot on stove', 'Remove pot after 10 minutes']",Place pot on stove,0
+3,0.42857142857142855,"['Take out a pot', 'Fill pot with water', 'Place pot on stove']","['Remove pot after 10 minutes', 'Turn heat to medium']",Turn heat to medium,1
+4,0.5714285714285714,"['Take out a pot', 'Fill pot with water', 'Place pot on stove', 'Turn heat to medium']","['When water is boiling, fill pot with pasta', 'Remove pot after 10 minutes']","When water is boiling, fill pot with pasta",0
+5,0.7142857142857143,"['Take out a pot', 'Fill pot with water', 'Place pot on stove', 'Turn heat to medium', 'When water is boiling, fill pot with pasta']","['Stir after 5 minutes', 'Fill pot with water']",Stir after 5 minutes,0
+6,0.8571428571428571,"['Take out a pot', 'Fill pot with water', 'Place pot on stove', 'Turn heat to medium', 'When water is boiling, fill pot with pasta', 'Stir after 5 minutes']","['Turn heat to medium', 'Remove pot after 10 minutes']",Remove pot after 10 minutes,1
+0,0.0,[],"['Add salt and, if desired, fat.', 'Find a large heavy pot in which to cook.']",Find a large heavy pot in which to cook.,1
+1,0.14285714285714285,['Find a large heavy pot in which to cook.'],"['Fill the pot with several quarts of water.', 'Turn on the stove.']",Fill the pot with several quarts of water.,0
+2,0.2857142857142857,"['Find a large heavy pot in which to cook.', 'Fill the pot with several quarts of water.']","['Add salt and, if desired, fat.', 'Cook for the recommended time or to personal taste.']","Add salt and, if desired, fat.",0
+3,0.42857142857142855,"['Find a large heavy pot in which to cook.', 'Fill the pot with several quarts of water.', 'Add salt and, if desired, fat.']","['Cook for the recommended time or to personal taste.', 'Turn on the stove.']",Turn on the stove.,1
+4,0.5714285714285714,"['Find a large heavy pot in which to cook.', 'Fill the pot with several quarts of water.', 'Add salt and, if desired, fat.', 'Turn on the stove.']","['Fill the pot with several quarts of water.', 'Let the water come to a boil.']",Let the water come to a boil.,1
+5,0.7142857142857143,"['Find a large heavy pot in which to cook.', 'Fill the pot with several quarts of water.', 'Add salt and, if desired, fat.', 'Turn on the stove.', 'Let the water come to a boil.']","['Add salt and, if desired, fat.', 'Add pasta to the boiling water.']",Add pasta to the boiling water.,1
+6,0.8571428571428571,"['Find a large heavy pot in which to cook.', 'Fill the pot with several quarts of water.', 'Add salt and, if desired, fat.', 'Turn on the stove.', 'Let the water come to a boil.', 'Add pasta to the boiling water.']","['Cook for the recommended time or to personal taste.', 'Add salt and, if desired, fat.']",Cook for the recommended time or to personal taste.,0
+0,0.0,[],"['stir and bring back to boil', 'Take pasta out of cupboard']",Take pasta out of cupboard,1
+1,0.14285714285714285,['Take pasta out of cupboard'],"['drop pasta into boiling water', 'Fill large pan with water']",Fill large pan with water,1
+2,0.2857142857142857,"['Take pasta out of cupboard', 'Fill large pan with water']","['drop pasta into boiling water', 'put water on to boil']",put water on to boil,1
+3,0.42857142857142855,"['Take pasta out of cupboard', 'Fill large pan with water', 'put water on to boil']","['Take pasta out of cupboard', 'when boiling add salt']",when boiling add salt,1
+4,0.5714285714285714,"['Take pasta out of cupboard', 'Fill large pan with water', 'put water on to boil', 'when boiling add salt']","['drop pasta into boiling water', 'Fill large pan with water']",drop pasta into boiling water,0
+5,0.7142857142857143,"['Take pasta out of cupboard', 'Fill large pan with water', 'put water on to boil', 'when boiling add salt', 'drop pasta into boiling water']","['stir and bring back to boil', 'put water on to boil']",stir and bring back to boil,0
+6,0.8571428571428571,"['Take pasta out of cupboard', 'Fill large pan with water', 'put water on to boil', 'when boiling add salt', 'drop pasta into boiling water', 'stir and bring back to boil']","['when boiling add salt', 'set timer']",set timer,1
+0,0.0,[],"['Turn on burner', 'Get pan']",Get pan,1
+1,0.14285714285714285,['Get pan'],"['Fill with water', 'Add pasta']",Fill with water,0
+2,0.2857142857142857,"['Get pan', 'Fill with water']","['Turn on burner', 'Stir']",Turn on burner,0
+3,0.42857142857142855,"['Get pan', 'Fill with water', 'Turn on burner']","['Let water come to a boil', 'Get pan']",Let water come to a boil,0
+4,0.5714285714285714,"['Get pan', 'Fill with water', 'Turn on burner', 'Let water come to a boil']","['Fill with water', 'Add pasta']",Add pasta,1
+5,0.7142857142857143,"['Get pan', 'Fill with water', 'Turn on burner', 'Let water come to a boil', 'Add pasta']","['Stir', 'Turn on burner']",Stir,0
+6,0.8571428571428571,"['Get pan', 'Fill with water', 'Turn on burner', 'Let water come to a boil', 'Add pasta', 'Stir']","['Turn on burner', 'Turn down burner']",Turn down burner,1
+0,0.0,[],"['Turn the burner down to medium', 'Fill a pan with water']",Fill a pan with water,1
+1,0.14285714285714285,['Fill a pan with water'],"['Add a small amount of oil to the water', 'Turn the burner on to medium high']",Add a small amount of oil to the water,0
+2,0.2857142857142857,"['Fill a pan with water', 'Add a small amount of oil to the water']","['Place the pan on the stove', 'Bring the water to a boil']",Place the pan on the stove,0
+3,0.42857142857142855,"['Fill a pan with water', 'Add a small amount of oil to the water', 'Place the pan on the stove']","['Turn the burner on to medium high', 'Fill a pan with water']",Turn the burner on to medium high,0
+4,0.5714285714285714,"['Fill a pan with water', 'Add a small amount of oil to the water', 'Place the pan on the stove', 'Turn the burner on to medium high']","['Bring the water to a boil', 'Fill a pan with water']",Bring the water to a boil,0
+5,0.7142857142857143,"['Fill a pan with water', 'Add a small amount of oil to the water', 'Place the pan on the stove', 'Turn the burner on to medium high', 'Bring the water to a boil']","['Add the pasta to the boiling water', 'Place the pan on the stove']",Add the pasta to the boiling water,0
+6,0.8571428571428571,"['Fill a pan with water', 'Add a small amount of oil to the water', 'Place the pan on the stove', 'Turn the burner on to medium high', 'Bring the water to a boil', 'Add the pasta to the boiling water']","['Turn the burner down to medium', 'Add a small amount of oil to the water']",Turn the burner down to medium,0
+0,0.0,[],"['fill up pot with water', 'fill up pot with water']",fill up pot with water,0
+1,0.14285714285714285,['fill up pot with water'],"['put pot with water on stove', 'put pot with water on stove']",put pot with water on stove,1
+2,0.2857142857142857,"['fill up pot with water', 'put pot with water on stove']","['wait until pasta  is done', 'wait for water to boil']",wait for water to boil,1
+3,0.42857142857142855,"['fill up pot with water', 'put pot with water on stove', 'wait for water to boil']","['put pasta in boiling water', 'remove pan from stove']",put pasta in boiling water,0
+4,0.5714285714285714,"['fill up pot with water', 'put pot with water on stove', 'wait for water to boil', 'put pasta in boiling water']","['wait until pasta  is done', 'fill up pot with water']",wait until pasta  is done,0
+5,0.7142857142857143,"['fill up pot with water', 'put pot with water on stove', 'wait for water to boil', 'put pasta in boiling water', 'wait until pasta  is done']","['wait for water to boil', 'remove pan from stove']",remove pan from stove,1
+6,0.8571428571428571,"['fill up pot with water', 'put pot with water on stove', 'wait for water to boil', 'put pasta in boiling water', 'wait until pasta  is done', 'remove pan from stove']","['drain water from pasta', 'fill up pot with water']",drain water from pasta,0
+0,0.0,[],"['Stir occasionally.', 'Get a pan.']",Get a pan.,1
+1,0.14285714285714285,['Get a pan.'],"['Add salt.', 'Fill it halfway with water.']",Fill it halfway with water.,1
+2,0.2857142857142857,"['Get a pan.', 'Fill it halfway with water.']","['Add salt.', 'Add pasta.']",Add salt.,0
+3,0.42857142857142855,"['Get a pan.', 'Fill it halfway with water.', 'Add salt.']","['Test pasta by taking a bite of it.', 'Wait for water to boil.']",Wait for water to boil.,1
+4,0.5714285714285714,"['Get a pan.', 'Fill it halfway with water.', 'Add salt.', 'Wait for water to boil.']","['Add pasta.', 'Test pasta by taking a bite of it.']",Add pasta.,0
+5,0.7142857142857143,"['Get a pan.', 'Fill it halfway with water.', 'Add salt.', 'Wait for water to boil.', 'Add pasta.']","['Fill it halfway with water.', 'Stir occasionally.']",Stir occasionally.,1
+6,0.8571428571428571,"['Get a pan.', 'Fill it halfway with water.', 'Add salt.', 'Wait for water to boil.', 'Add pasta.', 'Stir occasionally.']","['Wait for water to boil.', 'Test pasta by taking a bite of it.']",Test pasta by taking a bite of it.,1
+0,0.0,[],"['Add pasta to boiling water.', 'Purchase pasta from store.']",Purchase pasta from store.,1
+1,0.14285714285714285,['Purchase pasta from store.'],"['Fill pot with water.', 'Add pasta to boiling water.']",Fill pot with water.,0
+2,0.2857142857142857,"['Purchase pasta from store.', 'Fill pot with water.']","['Put pot onto stovetop.', 'Add pasta to boiling water.']",Put pot onto stovetop.,0
+3,0.42857142857142855,"['Purchase pasta from store.', 'Fill pot with water.', 'Put pot onto stovetop.']","['Bring water to boil.', 'Purchase pasta from store.']",Bring water to boil.,0
+4,0.5714285714285714,"['Purchase pasta from store.', 'Fill pot with water.', 'Put pot onto stovetop.', 'Bring water to boil.']","['Add salt to the water.', 'Cook pasta for approximately 7 minutes.']",Add salt to the water.,0
+5,0.7142857142857143,"['Purchase pasta from store.', 'Fill pot with water.', 'Put pot onto stovetop.', 'Bring water to boil.', 'Add salt to the water.']","['Add pasta to boiling water.', 'Fill pot with water.']",Add pasta to boiling water.,0
+6,0.8571428571428571,"['Purchase pasta from store.', 'Fill pot with water.', 'Put pot onto stovetop.', 'Bring water to boil.', 'Add salt to the water.', 'Add pasta to boiling water.']","['Fill pot with water.', 'Cook pasta for approximately 7 minutes.']",Cook pasta for approximately 7 minutes.,1
+0,0.0,[],"['Put on stove', 'Fill pot with water']",Fill pot with water,1
+1,0.16666666666666666,['Fill pot with water'],"['Put on stove', 'Put pasta in boiling water']",Put on stove,0
+2,0.3333333333333333,"['Fill pot with water', 'Put on stove']","['Wait for water to boil', 'Wait for pasta to cook']",Wait for water to boil,0
+3,0.5,"['Fill pot with water', 'Put on stove', 'Wait for water to boil']","['Put pasta in boiling water', 'Drain water from pasta']",Put pasta in boiling water,0
+4,0.6666666666666666,"['Fill pot with water', 'Put on stove', 'Wait for water to boil', 'Put pasta in boiling water']","['Put on stove', 'Wait for pasta to cook']",Wait for pasta to cook,1
+5,0.8333333333333334,"['Fill pot with water', 'Put on stove', 'Wait for water to boil', 'Put pasta in boiling water', 'Wait for pasta to cook']","['Wait for water to boil', 'Drain water from pasta']",Drain water from pasta,1
+0,0.0,[],"['Grab pot', 'Place water filled pot on stove']",Grab pot,0
+1,0.14285714285714285,['Grab pot'],"['Grab uncooked pasta', 'Place water filled pot on stove']",Grab uncooked pasta,0
+2,0.2857142857142857,"['Grab pot', 'Grab uncooked pasta']","['Turn on stove', 'Fill pot with water']",Fill pot with water,1
+3,0.42857142857142855,"['Grab pot', 'Grab uncooked pasta', 'Fill pot with water']","['Grab pot', 'Place water filled pot on stove']",Place water filled pot on stove,1
+4,0.5714285714285714,"['Grab pot', 'Grab uncooked pasta', 'Fill pot with water', 'Place water filled pot on stove']","['Turn on stove', 'Grab uncooked pasta']",Turn on stove,0
+5,0.7142857142857143,"['Grab pot', 'Grab uncooked pasta', 'Fill pot with water', 'Place water filled pot on stove', 'Turn on stove']","['Wait until water boils', 'Grab pot']",Wait until water boils,0
+6,0.8571428571428571,"['Grab pot', 'Grab uncooked pasta', 'Fill pot with water', 'Place water filled pot on stove', 'Turn on stove', 'Wait until water boils']","['Throw pasta into boiling water', 'Grab uncooked pasta']",Throw pasta into boiling water,0
+0,0.0,[],"['Fill a large stock pot with water.', 'Fill a large stock pot with water.']",Fill a large stock pot with water.,0
+1,0.14285714285714285,['Fill a large stock pot with water.'],"['Place the pot of water on the stove and turn it on high.', 'Allow the water to come to a boil.']",Place the pot of water on the stove and turn it on high.,0
+2,0.2857142857142857,"['Fill a large stock pot with water.', 'Place the pot of water on the stove and turn it on high.']","['Add some salt to the water.', 'Allow the water to return to a boil.']",Add some salt to the water.,0
+3,0.42857142857142855,"['Fill a large stock pot with water.', 'Place the pot of water on the stove and turn it on high.', 'Add some salt to the water.']","['Allow the water to come to a boil.', 'Allow the water to return to a boil.']",Allow the water to come to a boil.,0
+4,0.5714285714285714,"['Fill a large stock pot with water.', 'Place the pot of water on the stove and turn it on high.', 'Add some salt to the water.', 'Allow the water to come to a boil.']","['Place the pot of water on the stove and turn it on high.', 'Pour pasta into the water and stir.']",Pour pasta into the water and stir.,1
+5,0.7142857142857143,"['Fill a large stock pot with water.', 'Place the pot of water on the stove and turn it on high.', 'Add some salt to the water.', 'Allow the water to come to a boil.', 'Pour pasta into the water and stir.']","['Allow the water to return to a boil.', 'Add some salt to the water.']",Allow the water to return to a boil.,0
+6,0.8571428571428571,"['Fill a large stock pot with water.', 'Place the pot of water on the stove and turn it on high.', 'Add some salt to the water.', 'Allow the water to come to a boil.', 'Pour pasta into the water and stir.', 'Allow the water to return to a boil.']","['Stirring occasionally, allow the pasta to cook for 9 to 11 minutes.', 'Fill a large stock pot with water.']","Stirring occasionally, allow the pasta to cook for 9 to 11 minutes.",0
+0,0.0,[],"['Stir pasta every few minutes until the pasta is soft.', 'Fill a pot with water.']",Fill a pot with water.,1
+1,0.14285714285714285,['Fill a pot with water.'],"['Put the pot on the stove.', 'After about 10 to 12 minutes pasta will be done.']",Put the pot on the stove.,0
+2,0.2857142857142857,"['Fill a pot with water.', 'Put the pot on the stove.']","['After about 10 to 12 minutes pasta will be done.', 'Turn the stove on high.']",Turn the stove on high.,1
+3,0.42857142857142855,"['Fill a pot with water.', 'Put the pot on the stove.', 'Turn the stove on high.']","['After about 10 to 12 minutes pasta will be done.', 'Wait until the water is boiling.']",Wait until the water is boiling.,1
+4,0.5714285714285714,"['Fill a pot with water.', 'Put the pot on the stove.', 'Turn the stove on high.', 'Wait until the water is boiling.']","['Put desired amount of pasta in the pot.', 'Fill a pot with water.']",Put desired amount of pasta in the pot.,0
+5,0.7142857142857143,"['Fill a pot with water.', 'Put the pot on the stove.', 'Turn the stove on high.', 'Wait until the water is boiling.', 'Put desired amount of pasta in the pot.']","['Fill a pot with water.', 'Stir pasta every few minutes until the pasta is soft.']",Stir pasta every few minutes until the pasta is soft.,1
+6,0.8571428571428571,"['Fill a pot with water.', 'Put the pot on the stove.', 'Turn the stove on high.', 'Wait until the water is boiling.', 'Put desired amount of pasta in the pot.', 'Stir pasta every few minutes until the pasta is soft.']","['Wait until the water is boiling.', 'After about 10 to 12 minutes pasta will be done.']",After about 10 to 12 minutes pasta will be done.,1
+0,0.0,[],"['Get large pot', 'Buy pasta']",Buy pasta,1
+1,0.14285714285714285,['Buy pasta'],"['Get large pot', 'Buy sauce']",Buy sauce,1
+2,0.2857142857142857,"['Buy pasta', 'Buy sauce']","['Get large pot', 'Put pasta into water']",Get large pot,0
+3,0.42857142857142855,"['Buy pasta', 'Buy sauce', 'Get large pot']","['Fill pot with water', 'Put pasta into water']",Fill pot with water,0
+4,0.5714285714285714,"['Buy pasta', 'Buy sauce', 'Get large pot', 'Fill pot with water']","['Buy pasta', 'Bring water to a boil']",Bring water to a boil,1
+5,0.7142857142857143,"['Buy pasta', 'Buy sauce', 'Get large pot', 'Fill pot with water', 'Bring water to a boil']","['Get large pot', 'Put pasta into water']",Put pasta into water,1
+6,0.8571428571428571,"['Buy pasta', 'Buy sauce', 'Get large pot', 'Fill pot with water', 'Bring water to a boil', 'Put pasta into water']","['Get large pot', 'Cook for 10-15 minutes, until noodles are soft']","Cook for 10-15 minutes, until noodles are soft",1
+0,0.0,[],"['Go to the kitchen', 'Grab pot']",Go to the kitchen,0
+1,0.14285714285714285,['Go to the kitchen'],"['Open cabinet', 'Open cabinet']",Open cabinet,0
+2,0.2857142857142857,"['Go to the kitchen', 'Open cabinet']","['Grab box of pasta', 'Fill pot with water']",Grab box of pasta,0
+3,0.42857142857142855,"['Go to the kitchen', 'Open cabinet', 'Grab box of pasta']","['Grab pot', 'Boil the water']",Grab pot,0
+4,0.5714285714285714,"['Go to the kitchen', 'Open cabinet', 'Grab box of pasta', 'Grab pot']","['Fill pot with water', 'Pour pasta in']",Fill pot with water,0
+5,0.7142857142857143,"['Go to the kitchen', 'Open cabinet', 'Grab box of pasta', 'Grab pot', 'Fill pot with water']","['Boil the water', 'Grab box of pasta']",Boil the water,0
+6,0.8571428571428571,"['Go to the kitchen', 'Open cabinet', 'Grab box of pasta', 'Grab pot', 'Fill pot with water', 'Boil the water']","['Pour pasta in', 'Open cabinet']",Pour pasta in,0
+0,0.0,[],"['Get pan', 'Add salt to water']",Get pan,0
+1,0.14285714285714285,['Get pan'],"['Fill pan with water', 'Turn on burner']",Fill pan with water,0
+2,0.2857142857142857,"['Get pan', 'Fill pan with water']","['Turn on burner', 'Add salt to water']",Add salt to water,1
+3,0.42857142857142855,"['Get pan', 'Fill pan with water', 'Add salt to water']","['When water has boiled, add pasta', 'Put pan on stove']",Put pan on stove,1
+4,0.5714285714285714,"['Get pan', 'Fill pan with water', 'Add salt to water', 'Put pan on stove']","['Get pan', 'Turn on burner']",Turn on burner,1
+5,0.7142857142857143,"['Get pan', 'Fill pan with water', 'Add salt to water', 'Put pan on stove', 'Turn on burner']","['Wait for water to boil', 'Get pan']",Wait for water to boil,0
+6,0.8571428571428571,"['Get pan', 'Fill pan with water', 'Add salt to water', 'Put pan on stove', 'Turn on burner', 'Wait for water to boil']","['Fill pan with water', 'When water has boiled, add pasta']","When water has boiled, add pasta",1
+0,0.0,[],"['Open the can of pasta sauce.', 'Boil the water.']",Boil the water.,1
+1,0.14285714285714285,['Boil the water.'],"['Warm up the pasta sauce.', 'Throw the noodles in there.']",Throw the noodles in there.,1
+2,0.2857142857142857,"['Boil the water.', 'Throw the noodles in there.']","['Open the can of pasta sauce.', 'Pour the pasta sauce on top of the noodles.']",Open the can of pasta sauce.,0
+3,0.42857142857142855,"['Boil the water.', 'Throw the noodles in there.', 'Open the can of pasta sauce.']","['Boil the water.', 'Warm up the pasta sauce.']",Warm up the pasta sauce.,1
+4,0.5714285714285714,"['Boil the water.', 'Throw the noodles in there.', 'Open the can of pasta sauce.', 'Warm up the pasta sauce.']","['Put the noodles in a bowl.', 'Cook some chicken.']",Put the noodles in a bowl.,0
+5,0.7142857142857143,"['Boil the water.', 'Throw the noodles in there.', 'Open the can of pasta sauce.', 'Warm up the pasta sauce.', 'Put the noodles in a bowl.']","['Open the can of pasta sauce.', 'Pour the pasta sauce on top of the noodles.']",Pour the pasta sauce on top of the noodles.,1
+6,0.8571428571428571,"['Boil the water.', 'Throw the noodles in there.', 'Open the can of pasta sauce.', 'Warm up the pasta sauce.', 'Put the noodles in a bowl.', 'Pour the pasta sauce on top of the noodles.']","['Warm up the pasta sauce.', 'Cook some chicken.']",Cook some chicken.,1
+0,0.0,[],"['Add pasta', 'Get out a pot']",Get out a pot,1
+1,0.14285714285714285,['Get out a pot'],"['Turn on the burner', 'Fill the pot with water']",Fill the pot with water,1
+2,0.2857142857142857,"['Get out a pot', 'Fill the pot with water']","['Bring to a boil', 'Put the pot on the stove']",Put the pot on the stove,1
+3,0.42857142857142855,"['Get out a pot', 'Fill the pot with water', 'Put the pot on the stove']","['Add pasta', 'Turn on the burner']",Turn on the burner,1
+4,0.5714285714285714,"['Get out a pot', 'Fill the pot with water', 'Put the pot on the stove', 'Turn on the burner']","['Cook for 8-10 minutes', 'Bring to a boil']",Bring to a boil,1
+5,0.7142857142857143,"['Get out a pot', 'Fill the pot with water', 'Put the pot on the stove', 'Turn on the burner', 'Bring to a boil']","['Add pasta', 'Put the pot on the stove']",Add pasta,0
+6,0.8571428571428571,"['Get out a pot', 'Fill the pot with water', 'Put the pot on the stove', 'Turn on the burner', 'Bring to a boil', 'Add pasta']","['Put the pot on the stove', 'Cook for 8-10 minutes']",Cook for 8-10 minutes,1
+0,0.0,[],"['Boil a large pot of water', 'Add a pinch of salt to the water']",Boil a large pot of water,0
+1,0.14285714285714285,['Boil a large pot of water'],"['Add a pinch of salt to the water', 'Drain the pasta into a colander']",Add a pinch of salt to the water,0
+2,0.2857142857142857,"['Boil a large pot of water', 'Add a pinch of salt to the water']","['Heat a smaller pot of your favorite sauce', 'Put the pasta onto a plate']",Heat a smaller pot of your favorite sauce,0
+3,0.42857142857142855,"['Boil a large pot of water', 'Add a pinch of salt to the water', 'Heat a smaller pot of your favorite sauce']","['When the water is boiling, add the pasta to the pot', 'Put the pasta onto a plate']","When the water is boiling, add the pasta to the pot",0
+4,0.5714285714285714,"['Boil a large pot of water', 'Add a pinch of salt to the water', 'Heat a smaller pot of your favorite sauce', 'When the water is boiling, add the pasta to the pot']","['Put the pasta onto a plate', 'Cook for several minutes according to the time listed on the package']",Cook for several minutes according to the time listed on the package,1
+5,0.7142857142857143,"['Boil a large pot of water', 'Add a pinch of salt to the water', 'Heat a smaller pot of your favorite sauce', 'When the water is boiling, add the pasta to the pot', 'Cook for several minutes according to the time listed on the package']","['Boil a large pot of water', 'Drain the pasta into a colander']",Drain the pasta into a colander,1
+6,0.8571428571428571,"['Boil a large pot of water', 'Add a pinch of salt to the water', 'Heat a smaller pot of your favorite sauce', 'When the water is boiling, add the pasta to the pot', 'Cook for several minutes according to the time listed on the package', 'Drain the pasta into a colander']","['Put the pasta onto a plate', 'Add a pinch of salt to the water']",Put the pasta onto a plate,0
+0,0.0,[],"['Place pot on burner.', 'Get pasta.']",Get pasta.,1
+1,0.14285714285714285,['Get pasta.'],"['Place pot on burner.', 'Get pot.']",Get pot.,1
+2,0.2857142857142857,"['Get pasta.', 'Get pot.']","['Fill pot with water.', 'Place pot on burner.']",Fill pot with water.,0
+3,0.42857142857142855,"['Get pasta.', 'Get pot.', 'Fill pot with water.']","['Place pasta in water.', 'Start stove.']",Start stove.,1
+4,0.5714285714285714,"['Get pasta.', 'Get pot.', 'Fill pot with water.', 'Start stove.']","['Place pot on burner.', 'Get pasta.']",Place pot on burner.,0
+5,0.7142857142857143,"['Get pasta.', 'Get pot.', 'Fill pot with water.', 'Start stove.', 'Place pot on burner.']","['Wait for water to boil.', 'Fill pot with water.']",Wait for water to boil.,0
+6,0.8571428571428571,"['Get pasta.', 'Get pot.', 'Fill pot with water.', 'Start stove.', 'Place pot on burner.', 'Wait for water to boil.']","['Get pasta.', 'Place pasta in water.']",Place pasta in water.,1
+0,0.0,[],"['Add a spoonful of salt', 'Put pot of water on the stove']",Put pot of water on the stove,1
+1,0.14285714285714285,['Put pot of water on the stove'],"['Turn on stove', 'Turn on stove']",Turn on stove,0
+2,0.2857142857142857,"['Put pot of water on the stove', 'Turn on stove']","['Wait until pasta is done', 'Wait for water to boil']",Wait for water to boil,1
+3,0.42857142857142855,"['Put pot of water on the stove', 'Turn on stove', 'Wait for water to boil']","['Put pasta in water', 'Add a spoonful of salt']",Add a spoonful of salt,1
+4,0.5714285714285714,"['Put pot of water on the stove', 'Turn on stove', 'Wait for water to boil', 'Add a spoonful of salt']","['Get pasta', 'Wait until pasta is done']",Get pasta,0
+5,0.7142857142857143,"['Put pot of water on the stove', 'Turn on stove', 'Wait for water to boil', 'Add a spoonful of salt', 'Get pasta']","['Put pasta in water', 'Wait for water to boil']",Put pasta in water,0
+6,0.8571428571428571,"['Put pot of water on the stove', 'Turn on stove', 'Wait for water to boil', 'Add a spoonful of salt', 'Get pasta', 'Put pasta in water']","['Wait until pasta is done', 'Add a spoonful of salt']",Wait until pasta is done,0
+0,0.0,[],"['Get out your pasta', 'Find a large pan']",Find a large pan,1
+1,0.14285714285714285,['Find a large pan'],"['Add pasta to the water', 'Add water']",Add water,1
+2,0.2857142857142857,"['Find a large pan', 'Add water']","['Bring water to a boil', 'Strain the pasta']",Bring water to a boil,0
+3,0.42857142857142855,"['Find a large pan', 'Add water', 'Bring water to a boil']","['Get out your pasta', 'Find a large pan']",Get out your pasta,0
+4,0.5714285714285714,"['Find a large pan', 'Add water', 'Bring water to a boil', 'Get out your pasta']","['Find a large pan', 'Add pasta to the water']",Add pasta to the water,1
+5,0.7142857142857143,"['Find a large pan', 'Add water', 'Bring water to a boil', 'Get out your pasta', 'Add pasta to the water']","['Add water', 'Boil the pasta until al dente']",Boil the pasta until al dente,1
+6,0.8571428571428571,"['Find a large pan', 'Add water', 'Bring water to a boil', 'Get out your pasta', 'Add pasta to the water', 'Boil the pasta until al dente']","['Get out your pasta', 'Strain the pasta']",Strain the pasta,1
+0,0.0,[],"['Get pasta out of the cabinet', ""Put pot of water on to the stove's hot burner""]",Get pasta out of the cabinet,0
+1,0.14285714285714285,['Get pasta out of the cabinet'],"['Wait until the water boils', 'Turn the stove on to high']",Turn the stove on to high,1
+2,0.2857142857142857,"['Get pasta out of the cabinet', 'Turn the stove on to high']","['Wait until the water boils', 'Fill pot with water']",Fill pot with water,1
+3,0.42857142857142855,"['Get pasta out of the cabinet', 'Turn the stove on to high', 'Fill pot with water']","[""Put pot of water on to the stove's hot burner"", 'Place pasta in boiling water']",Put pot of water on to the stove's hot burner,0
+4,0.5714285714285714,"['Get pasta out of the cabinet', 'Turn the stove on to high', 'Fill pot with water', ""Put pot of water on to the stove's hot burner""]","['Wait until the water boils', 'Wait 15 minutes']",Wait until the water boils,0
+5,0.7142857142857143,"['Get pasta out of the cabinet', 'Turn the stove on to high', 'Fill pot with water', ""Put pot of water on to the stove's hot burner"", 'Wait until the water boils']","['Turn the stove on to high', 'Place pasta in boiling water']",Place pasta in boiling water,1
+6,0.8571428571428571,"['Get pasta out of the cabinet', 'Turn the stove on to high', 'Fill pot with water', ""Put pot of water on to the stove's hot burner"", 'Wait until the water boils', 'Place pasta in boiling water']","['Turn the stove on to high', 'Wait 15 minutes']",Wait 15 minutes,1
+0,0.0,[],"['switch on the flame', 'buy pasta']",buy pasta,1
+1,0.14285714285714285,['buy pasta'],"['add pasta to sauce', 'boil pasta in water']",boil pasta in water,1
+2,0.2857142857142857,"['buy pasta', 'boil pasta in water']","['switch on the flame', 'drain off excess water']",switch on the flame,0
+3,0.42857142857142855,"['buy pasta', 'boil pasta in water', 'switch on the flame']","['prepare pasta sauce', 'buy pasta']",prepare pasta sauce,0
+4,0.5714285714285714,"['buy pasta', 'boil pasta in water', 'switch on the flame', 'prepare pasta sauce']","['drain off excess water', 'add pasta to sauce']",drain off excess water,0
+5,0.7142857142857143,"['buy pasta', 'boil pasta in water', 'switch on the flame', 'prepare pasta sauce', 'drain off excess water']","['add vegetables to pasta sauce', 'boil pasta in water']",add vegetables to pasta sauce,0
+6,0.8571428571428571,"['buy pasta', 'boil pasta in water', 'switch on the flame', 'prepare pasta sauce', 'drain off excess water', 'add vegetables to pasta sauce']","['boil pasta in water', 'add pasta to sauce']",add pasta to sauce,1
+0,0.0,[],"['Get out pasta.', 'Get out pasta pot.']",Get out pasta pot.,1
+1,0.14285714285714285,['Get out pasta pot.'],"['Fill with water.', 'Put over heat on the stove.']",Fill with water.,0
+2,0.2857142857142857,"['Get out pasta pot.', 'Fill with water.']","['Set timer.', 'Put over heat on the stove.']",Put over heat on the stove.,1
+3,0.42857142857142855,"['Get out pasta pot.', 'Fill with water.', 'Put over heat on the stove.']","['Wait for the water to boil.', 'Add pasta to water.']",Wait for the water to boil.,0
+4,0.5714285714285714,"['Get out pasta pot.', 'Fill with water.', 'Put over heat on the stove.', 'Wait for the water to boil.']","['Fill with water.', 'Get out pasta.']",Get out pasta.,1
+5,0.7142857142857143,"['Get out pasta pot.', 'Fill with water.', 'Put over heat on the stove.', 'Wait for the water to boil.', 'Get out pasta.']","['Put over heat on the stove.', 'Add pasta to water.']",Add pasta to water.,1
+6,0.8571428571428571,"['Get out pasta pot.', 'Fill with water.', 'Put over heat on the stove.', 'Wait for the water to boil.', 'Get out pasta.', 'Add pasta to water.']","['Set timer.', 'Get out pasta pot.']",Set timer.,0
+0,0.0,[],"['get pan out of cupboard', 'put water in pan']",get pan out of cupboard,0
+1,0.16666666666666666,['get pan out of cupboard'],"['put water in pan', 'put water in pan']",put water in pan,0
+2,0.3333333333333333,"['get pan out of cupboard', 'put water in pan']","['drain pasta from water and add toppings to pasta', 'wait for water to boil']",wait for water to boil,1
+3,0.5,"['get pan out of cupboard', 'put water in pan', 'wait for water to boil']","['get pan out of cupboard', 'add pasta']",add pasta,1
+4,0.6666666666666666,"['get pan out of cupboard', 'put water in pan', 'wait for water to boil', 'add pasta']","['wait for pasta to soften', 'put water in pan']",wait for pasta to soften,0
+5,0.8333333333333334,"['get pan out of cupboard', 'put water in pan', 'wait for water to boil', 'add pasta', 'wait for pasta to soften']","['put water in pan', 'drain pasta from water and add toppings to pasta']",drain pasta from water and add toppings to pasta,1
+0,0.0,[],"['put into pot', 'grab pasta']",grab pasta,1
+1,0.14285714285714285,['grab pasta'],"['put pot on a burner', 'open pasta']",put pot on a burner,0
+2,0.2857142857142857,"['grab pasta', 'put pot on a burner']","['add water', 'add salt']",add water,0
+3,0.42857142857142855,"['grab pasta', 'put pot on a burner', 'add water']","['open pasta', 'add salt']",open pasta,0
+4,0.5714285714285714,"['grab pasta', 'put pot on a burner', 'add water', 'open pasta']","['add canola oil', 'put into pot']",put into pot,1
+5,0.7142857142857143,"['grab pasta', 'put pot on a burner', 'add water', 'open pasta', 'put into pot']","['grab pasta', 'add salt']",add salt,1
+6,0.8571428571428571,"['grab pasta', 'put pot on a burner', 'add water', 'open pasta', 'put into pot', 'add salt']","['add water', 'add canola oil']",add canola oil,1
+0,0.0,[],"['Put butter or oil in pot', 'Put water in pot']",Put water in pot,1
+1,0.14285714285714285,['Put water in pot'],"['Place pot on stove', 'Put butter or oil in pot']",Place pot on stove,0
+2,0.2857142857142857,"['Put water in pot', 'Place pot on stove']","['Pour pasta into strainer', 'Boil water']",Boil water,1
+3,0.42857142857142855,"['Put water in pot', 'Place pot on stove', 'Boil water']","['Put water in pot', 'Pour uncooked pasta in pot']",Pour uncooked pasta in pot,1
+4,0.5714285714285714,"['Put water in pot', 'Place pot on stove', 'Boil water', 'Pour uncooked pasta in pot']","['Put butter or oil in pot', 'Pour pasta into strainer']",Put butter or oil in pot,0
+5,0.7142857142857143,"['Put water in pot', 'Place pot on stove', 'Boil water', 'Pour uncooked pasta in pot', 'Put butter or oil in pot']","['Boil water', 'Stir occasionally until pasta tender']",Stir occasionally until pasta tender,1
+6,0.8571428571428571,"['Put water in pot', 'Place pot on stove', 'Boil water', 'Pour uncooked pasta in pot', 'Put butter or oil in pot', 'Stir occasionally until pasta tender']","['Pour pasta into strainer', 'Place pot on stove']",Pour pasta into strainer,0
+0,0.0,[],"['fill pot with water', 'wait for 10 to 15 min']",fill pot with water,0
+1,0.16666666666666666,['fill pot with water'],"['heat water to boiling', 'drain water']",heat water to boiling,0
+2,0.3333333333333333,"['fill pot with water', 'heat water to boiling']","['remove pasta', 'add pasta']",add pasta,1
+3,0.5,"['fill pot with water', 'heat water to boiling', 'add pasta']","['wait for 10 to 15 min', 'fill pot with water']",wait for 10 to 15 min,0
+4,0.6666666666666666,"['fill pot with water', 'heat water to boiling', 'add pasta', 'wait for 10 to 15 min']","['heat water to boiling', 'drain water']",drain water,1
+5,0.8333333333333334,"['fill pot with water', 'heat water to boiling', 'add pasta', 'wait for 10 to 15 min', 'drain water']","['remove pasta', 'fill pot with water']",remove pasta,0
+0,0.0,[],"['Fill pot with water', 'Get pot out of cabinet']",Get pot out of cabinet,1
+1,0.14285714285714285,['Get pot out of cabinet'],"['Get pasta out of cabinet', 'Fill pot with water']",Fill pot with water,1
+2,0.2857142857142857,"['Get pot out of cabinet', 'Fill pot with water']","['Get pasta out of cabinet', 'Place pot on stove']",Place pot on stove,1
+3,0.42857142857142855,"['Get pot out of cabinet', 'Fill pot with water', 'Place pot on stove']","['Turn on stove', 'Cook for ten minutes']",Turn on stove,0
+4,0.5714285714285714,"['Get pot out of cabinet', 'Fill pot with water', 'Place pot on stove', 'Turn on stove']","['Get pasta out of cabinet', 'Get pot out of cabinet']",Get pasta out of cabinet,0
+5,0.7142857142857143,"['Get pot out of cabinet', 'Fill pot with water', 'Place pot on stove', 'Turn on stove', 'Get pasta out of cabinet']","['When water is boiling up pasta in pot', 'Place pot on stove']",When water is boiling up pasta in pot,0
+6,0.8571428571428571,"['Get pot out of cabinet', 'Fill pot with water', 'Place pot on stove', 'Turn on stove', 'Get pasta out of cabinet', 'When water is boiling up pasta in pot']","['Cook for ten minutes', 'Get pot out of cabinet']",Cook for ten minutes,0
+0,0.0,[],"['fill a pot with water', 'fill a pot with water']",fill a pot with water,1
+1,0.14285714285714285,['fill a pot with water'],"['put pot on the stove', 'fill a pot with water']",put pot on the stove,0
+2,0.2857142857142857,"['fill a pot with water', 'put pot on the stove']","['turn the burner onto high', 'wait for pasta to soften']",turn the burner onto high,0
+3,0.42857142857142855,"['fill a pot with water', 'put pot on the stove', 'turn the burner onto high']","['wait for water to boil', 'pour pasta and water into strainer']",wait for water to boil,0
+4,0.5714285714285714,"['fill a pot with water', 'put pot on the stove', 'turn the burner onto high', 'wait for water to boil']","['put pasta into boiling water', 'fill a pot with water']",put pasta into boiling water,0
+5,0.7142857142857143,"['fill a pot with water', 'put pot on the stove', 'turn the burner onto high', 'wait for water to boil', 'put pasta into boiling water']","['put pot on the stove', 'wait for pasta to soften']",wait for pasta to soften,1
+6,0.8571428571428571,"['fill a pot with water', 'put pot on the stove', 'turn the burner onto high', 'wait for water to boil', 'put pasta into boiling water', 'wait for pasta to soften']","['turn the burner onto high', 'pour pasta and water into strainer']",pour pasta and water into strainer,1
+0,0.0,[],"['Put pot on burner on stove.', 'Get pasta, water, fork, colander and pot out.']","Get pasta, water, fork, colander and pot out.",1
+1,0.14285714285714285,"['Get pasta, water, fork, colander and pot out.']","['Cook pasta until it is tender with a fork.', 'Put water into pot.']",Put water into pot.,1
+2,0.2857142857142857,"['Get pasta, water, fork, colander and pot out.', 'Put water into pot.']","['Put pot on burner on stove.', 'When water is boiling, add pasta.']",Put pot on burner on stove.,0
+3,0.42857142857142855,"['Get pasta, water, fork, colander and pot out.', 'Put water into pot.', 'Put pot on burner on stove.']","['Put colander in sink.', 'Turn heat to high.']",Turn heat to high.,1
+4,0.5714285714285714,"['Get pasta, water, fork, colander and pot out.', 'Put water into pot.', 'Put pot on burner on stove.', 'Turn heat to high.']","['When water is boiling, add pasta.', 'Get pasta, water, fork, colander and pot out.']","When water is boiling, add pasta.",0
+5,0.7142857142857143,"['Get pasta, water, fork, colander and pot out.', 'Put water into pot.', 'Put pot on burner on stove.', 'Turn heat to high.', 'When water is boiling, add pasta.']","['Cook pasta until it is tender with a fork.', 'Put pot on burner on stove.']",Cook pasta until it is tender with a fork.,0
+6,0.8571428571428571,"['Get pasta, water, fork, colander and pot out.', 'Put water into pot.', 'Put pot on burner on stove.', 'Turn heat to high.', 'When water is boiling, add pasta.', 'Cook pasta until it is tender with a fork.']","['Put colander in sink.', 'Put water into pot.']",Put colander in sink.,0
+0,0.0,[],"['Boil large pot of water.', 'Boil large pot of water.']",Boil large pot of water.,0
+1,0.14285714285714285,['Boil large pot of water.'],"['Wait for pasta to cook.', 'Open package of pasta.']",Open package of pasta.,1
+2,0.2857142857142857,"['Boil large pot of water.', 'Open package of pasta.']","['Put the desired amount of pasta in the pot when water is boiling.', 'Try a piece of pasta to make sure it is cooked correctly.']",Put the desired amount of pasta in the pot when water is boiling.,0
+3,0.42857142857142855,"['Boil large pot of water.', 'Open package of pasta.', 'Put the desired amount of pasta in the pot when water is boiling.']","['Add salt to the water.', 'Try a piece of pasta to make sure it is cooked correctly.']",Add salt to the water.,0
+4,0.5714285714285714,"['Boil large pot of water.', 'Open package of pasta.', 'Put the desired amount of pasta in the pot when water is boiling.', 'Add salt to the water.']","['Wait for pasta to cook.', 'Open package of pasta.']",Wait for pasta to cook.,0
+5,0.7142857142857143,"['Boil large pot of water.', 'Open package of pasta.', 'Put the desired amount of pasta in the pot when water is boiling.', 'Add salt to the water.', 'Wait for pasta to cook.']","['Try a piece of pasta to make sure it is cooked correctly.', 'Put the desired amount of pasta in the pot when water is boiling.']",Try a piece of pasta to make sure it is cooked correctly.,0
+6,0.8571428571428571,"['Boil large pot of water.', 'Open package of pasta.', 'Put the desired amount of pasta in the pot when water is boiling.', 'Add salt to the water.', 'Wait for pasta to cook.', 'Try a piece of pasta to make sure it is cooked correctly.']","['Put the desired amount of pasta in the pot when water is boiling.', 'Turn off the heat.']",Turn off the heat.,1
+0,0.0,[],"['wait for 10 min', 'fill pot with water']",fill pot with water,1
+1,0.16666666666666666,['fill pot with water'],"['heat water', 'add pasta']",heat water,0
+2,0.3333333333333333,"['fill pot with water', 'heat water']","['if it is done drain water', 'add pasta']",add pasta,1
+3,0.5,"['fill pot with water', 'heat water', 'add pasta']","['if it is done drain water', 'wait for 10 min']",wait for 10 min,1
+4,0.6666666666666666,"['fill pot with water', 'heat water', 'add pasta', 'wait for 10 min']","['fill pot with water', 'check to see if done']",check to see if done,1
+5,0.8333333333333334,"['fill pot with water', 'heat water', 'add pasta', 'wait for 10 min', 'check to see if done']","['heat water', 'if it is done drain water']",if it is done drain water,1
+0,0.0,[],"['boil water', 'get out pot']",get out pot,1
+1,0.14285714285714285,['get out pot'],"['turn on burner all the way', 'fill pot with water']",fill pot with water,1
+2,0.2857142857142857,"['get out pot', 'fill pot with water']","['salt boiling water', 'put pot of water on stove']",put pot of water on stove,1
+3,0.42857142857142855,"['get out pot', 'fill pot with water', 'put pot of water on stove']","['salt boiling water', 'turn on burner all the way']",turn on burner all the way,1
+4,0.5714285714285714,"['get out pot', 'fill pot with water', 'put pot of water on stove', 'turn on burner all the way']","['add pasta to water', 'boil water']",boil water,1
+5,0.7142857142857143,"['get out pot', 'fill pot with water', 'put pot of water on stove', 'turn on burner all the way', 'boil water']","['fill pot with water', 'salt boiling water']",salt boiling water,1
+6,0.8571428571428571,"['get out pot', 'fill pot with water', 'put pot of water on stove', 'turn on burner all the way', 'boil water', 'salt boiling water']","['add pasta to water', 'put pot of water on stove']",add pasta to water,0
+0,0.0,[],"['Get a pan', 'Boil the water']",Get a pan,0
+1,0.16666666666666666,['Get a pan'],"['Boil the water', 'Fill it with water']",Fill it with water,1
+2,0.3333333333333333,"['Get a pan', 'Fill it with water']","['What to cook', 'Boil the water']",Boil the water,1
+3,0.5,"['Get a pan', 'Fill it with water', 'Boil the water']","['Get the pasta', 'What to cook']",Get the pasta,0
+4,0.6666666666666666,"['Get a pan', 'Fill it with water', 'Boil the water', 'Get the pasta']","['Put the pasta in', 'Get a pan']",Put the pasta in,0
+5,0.8333333333333334,"['Get a pan', 'Fill it with water', 'Boil the water', 'Get the pasta', 'Put the pasta in']","['What to cook', 'Boil the water']",What to cook,0
+0,0.0,[],"['Heat up water in pot.', 'Boil water.']",Heat up water in pot.,0
+1,0.16666666666666666,['Heat up water in pot.'],"['Boil water.', 'Bring to boil again.']",Boil water.,0
+2,0.3333333333333333,"['Heat up water in pot.', 'Boil water.']","['Good for 10min.', 'Add pasta.']",Add pasta.,1
+3,0.5,"['Heat up water in pot.', 'Boil water.', 'Add pasta.']","['Heat up water in pot.', 'Bring to boil again.']",Bring to boil again.,1
+4,0.6666666666666666,"['Heat up water in pot.', 'Boil water.', 'Add pasta.', 'Bring to boil again.']","['Good for 10min.', 'Boil water.']",Good for 10min.,0
+5,0.8333333333333334,"['Heat up water in pot.', 'Boil water.', 'Add pasta.', 'Bring to boil again.', 'Good for 10min.']","['Drain pasta.', 'Boil water.']",Drain pasta.,0
+0,0.0,[],"['Obtain pasta', 'Remove pasta']",Obtain pasta,0
+1,0.14285714285714285,['Obtain pasta'],"['Let boiling water cook pasta', 'Remove pasta from packaging']",Remove pasta from packaging,1
+2,0.2857142857142857,"['Obtain pasta', 'Remove pasta from packaging']","['Remove pasta', 'Place water in pot']",Place water in pot,1
+3,0.42857142857142855,"['Obtain pasta', 'Remove pasta from packaging', 'Place water in pot']","['Let boiling water cook pasta', 'Boil water']",Boil water,1
+4,0.5714285714285714,"['Obtain pasta', 'Remove pasta from packaging', 'Place water in pot', 'Boil water']","['Place pasta in boiling water', 'Obtain pasta']",Place pasta in boiling water,0
+5,0.7142857142857143,"['Obtain pasta', 'Remove pasta from packaging', 'Place water in pot', 'Boil water', 'Place pasta in boiling water']","['Let boiling water cook pasta', 'Obtain pasta']",Let boiling water cook pasta,0
+6,0.8571428571428571,"['Obtain pasta', 'Remove pasta from packaging', 'Place water in pot', 'Boil water', 'Place pasta in boiling water', 'Let boiling water cook pasta']","['Remove pasta', 'Remove pasta from packaging']",Remove pasta,0
+0,0.0,[],"['get pot', 'pour into pot']",get pot,0
+1,0.16666666666666666,['get pot'],"['turn on stove', 'fill pot with water']",fill pot with water,1
+2,0.3333333333333333,"['get pot', 'fill pot with water']","['open spaghetti box', 'cook until you can throw a piece of spaghetti against the wall and it sticks']",open spaghetti box,0
+3,0.5,"['get pot', 'fill pot with water', 'open spaghetti box']","['pour into pot', 'cook until you can throw a piece of spaghetti against the wall and it sticks']",pour into pot,0
+4,0.6666666666666666,"['get pot', 'fill pot with water', 'open spaghetti box', 'pour into pot']","['turn on stove', 'get pot']",turn on stove,0
+5,0.8333333333333334,"['get pot', 'fill pot with water', 'open spaghetti box', 'pour into pot', 'turn on stove']","['cook until you can throw a piece of spaghetti against the wall and it sticks', 'open spaghetti box']",cook until you can throw a piece of spaghetti against the wall and it sticks,0
+0,0.0,[],"['Keep the flame in high level, add pasta and keep stirring', 'Fill 3/4 water in a cooking bowl']",Fill 3/4 water in a cooking bowl,1
+1,0.14285714285714285,['Fill 3/4 water in a cooking bowl'],"['Fill 3/4 water in a cooking bowl', 'Add 1/2 spoon salt, keep the bowl on the stove and ignite']","Add 1/2 spoon salt, keep the bowl on the stove and ignite",1
+2,0.2857142857142857,"['Fill 3/4 water in a cooking bowl', 'Add 1/2 spoon salt, keep the bowl on the stove and ignite']","['Keep the flame in high level, add pasta and keep stirring', 'Add sauces, cheese and some fresh vegetable leaves']","Keep the flame in high level, add pasta and keep stirring",0
+3,0.42857142857142855,"['Fill 3/4 water in a cooking bowl', 'Add 1/2 spoon salt, keep the bowl on the stove and ignite', 'Keep the flame in high level, add pasta and keep stirring']","['Add little cooking oil to cooked pasta', 'After 10 minutes boiling turn off the stove']",After 10 minutes boiling turn off the stove,1
+4,0.5714285714285714,"['Fill 3/4 water in a cooking bowl', 'Add 1/2 spoon salt, keep the bowl on the stove and ignite', 'Keep the flame in high level, add pasta and keep stirring', 'After 10 minutes boiling turn off the stove']","['Fill 3/4 water in a cooking bowl', 'pour out excess water from the bowl']",pour out excess water from the bowl,1
+5,0.7142857142857143,"['Fill 3/4 water in a cooking bowl', 'Add 1/2 spoon salt, keep the bowl on the stove and ignite', 'Keep the flame in high level, add pasta and keep stirring', 'After 10 minutes boiling turn off the stove', 'pour out excess water from the bowl']","['Fill 3/4 water in a cooking bowl', 'Add little cooking oil to cooked pasta']",Add little cooking oil to cooked pasta,1
+6,0.8571428571428571,"['Fill 3/4 water in a cooking bowl', 'Add 1/2 spoon salt, keep the bowl on the stove and ignite', 'Keep the flame in high level, add pasta and keep stirring', 'After 10 minutes boiling turn off the stove', 'pour out excess water from the bowl', 'Add little cooking oil to cooked pasta']","['Fill 3/4 water in a cooking bowl', 'Add sauces, cheese and some fresh vegetable leaves']","Add sauces, cheese and some fresh vegetable leaves",1
+0,0.0,[],"['ONCE THE PASTA IS COOKED, DRAIN THE PASTA', 'TURN THE STOVE ON']",TURN THE STOVE ON,1
+1,0.16666666666666666,['TURN THE STOVE ON'],"['EAT THE PASTA.', 'BOIL A PAN OF WATER']",BOIL A PAN OF WATER,1
+2,0.3333333333333333,"['TURN THE STOVE ON', 'BOIL A PAN OF WATER']","['WHEN THE WATER IS BOILED, ADD PASTA TO THE WATER WITH SALT', 'EAT THE PASTA.']","WHEN THE WATER IS BOILED, ADD PASTA TO THE WATER WITH SALT",0
+3,0.5,"['TURN THE STOVE ON', 'BOIL A PAN OF WATER', 'WHEN THE WATER IS BOILED, ADD PASTA TO THE WATER WITH SALT']","['COOK THE PASTA ACCORDING TO PACKAGE INSTRUCTIONS', 'TURN THE STOVE ON']",COOK THE PASTA ACCORDING TO PACKAGE INSTRUCTIONS,0
+4,0.6666666666666666,"['TURN THE STOVE ON', 'BOIL A PAN OF WATER', 'WHEN THE WATER IS BOILED, ADD PASTA TO THE WATER WITH SALT', 'COOK THE PASTA ACCORDING TO PACKAGE INSTRUCTIONS']","['ONCE THE PASTA IS COOKED, DRAIN THE PASTA', 'TURN THE STOVE ON']","ONCE THE PASTA IS COOKED, DRAIN THE PASTA",0
+5,0.8333333333333334,"['TURN THE STOVE ON', 'BOIL A PAN OF WATER', 'WHEN THE WATER IS BOILED, ADD PASTA TO THE WATER WITH SALT', 'COOK THE PASTA ACCORDING TO PACKAGE INSTRUCTIONS', 'ONCE THE PASTA IS COOKED, DRAIN THE PASTA']","['WHEN THE WATER IS BOILED, ADD PASTA TO THE WATER WITH SALT', 'EAT THE PASTA.']",EAT THE PASTA.,1
+0,0.0,[],"['Get a pot', 'Pour pasta into boiling water']",Get a pot,0
+1,0.14285714285714285,['Get a pot'],"['Boil water', 'Serve pasta']",Boil water,0
+2,0.2857142857142857,"['Get a pot', 'Boil water']","['Serve pasta', 'Pour pasta into boiling water']",Pour pasta into boiling water,1
+3,0.42857142857142855,"['Get a pot', 'Boil water', 'Pour pasta into boiling water']","['Get a pot', 'Wait for pasta to cook']",Wait for pasta to cook,1
+4,0.5714285714285714,"['Get a pot', 'Boil water', 'Pour pasta into boiling water', 'Wait for pasta to cook']","['Drain water from pasta', 'Get a pot']",Drain water from pasta,0
+5,0.7142857142857143,"['Get a pot', 'Boil water', 'Pour pasta into boiling water', 'Wait for pasta to cook', 'Drain water from pasta']","['Get a pot', 'Add tomato sauce']",Add tomato sauce,1
+6,0.8571428571428571,"['Get a pot', 'Boil water', 'Pour pasta into boiling water', 'Wait for pasta to cook', 'Drain water from pasta', 'Add tomato sauce']","['Serve pasta', 'Get a pot']",Serve pasta,0
+0,0.0,[],"['Boil a pot of water', 'Turn stove burner off']",Boil a pot of water,0
+1,0.14285714285714285,['Boil a pot of water'],"['Stir occasionally', 'Open box of pasta']",Open box of pasta,1
+2,0.2857142857142857,"['Boil a pot of water', 'Open box of pasta']","['Add pasta to boiling water', 'Turn stove burner off']",Add pasta to boiling water,0
+3,0.42857142857142855,"['Boil a pot of water', 'Open box of pasta', 'Add pasta to boiling water']","['Turn stove burner off', 'Stir occasionally']",Stir occasionally,1
+4,0.5714285714285714,"['Boil a pot of water', 'Open box of pasta', 'Add pasta to boiling water', 'Stir occasionally']","['Turn stove burner off', 'Cook pasta until tender']",Cook pasta until tender,1
+5,0.7142857142857143,"['Boil a pot of water', 'Open box of pasta', 'Add pasta to boiling water', 'Stir occasionally', 'Cook pasta until tender']","['Remove pot from stove', 'Open box of pasta']",Remove pot from stove,0
+6,0.8571428571428571,"['Boil a pot of water', 'Open box of pasta', 'Add pasta to boiling water', 'Stir occasionally', 'Cook pasta until tender', 'Remove pot from stove']","['Stir occasionally', 'Turn stove burner off']",Turn stove burner off,1
+0,0.0,[],"['Fill a pot with water.', 'Fill a pot with water.']",Fill a pot with water.,1
+1,0.16666666666666666,['Fill a pot with water.'],"['Put the pot on the stove.', 'Put the pot on the stove.']",Put the pot on the stove.,1
+2,0.3333333333333333,"['Fill a pot with water.', 'Put the pot on the stove.']","['Boil the water.', 'Cook until the pasta is the desired consistency.']",Boil the water.,0
+3,0.5,"['Fill a pot with water.', 'Put the pot on the stove.', 'Boil the water.']","['Fill a pot with water.', 'When the water has boiled, add the pasta to the boiling water.']","When the water has boiled, add the pasta to the boiling water.",1
+4,0.6666666666666666,"['Fill a pot with water.', 'Put the pot on the stove.', 'Boil the water.', 'When the water has boiled, add the pasta to the boiling water.']","['Fill a pot with water.', 'Put the pot with water and pasta back on the stove.']",Put the pot with water and pasta back on the stove.,1
+5,0.8333333333333334,"['Fill a pot with water.', 'Put the pot on the stove.', 'Boil the water.', 'When the water has boiled, add the pasta to the boiling water.', 'Put the pot with water and pasta back on the stove.']","['Boil the water.', 'Cook until the pasta is the desired consistency.']",Cook until the pasta is the desired consistency.,1
+0,0.0,[],"['Boil water', 'Take out a pot']",Take out a pot,1
+1,0.14285714285714285,['Take out a pot'],"['Boil water', 'Read the instructions']",Boil water,0
+2,0.2857142857142857,"['Take out a pot', 'Boil water']","['Set the timer', 'Get pasta out']",Get pasta out,1
+3,0.42857142857142855,"['Take out a pot', 'Boil water', 'Get pasta out']","['Read the instructions', 'Open package']",Open package,1
+4,0.5714285714285714,"['Take out a pot', 'Boil water', 'Get pasta out', 'Open package']","['Pour pasta in water', 'Boil water']",Pour pasta in water,0
+5,0.7142857142857143,"['Take out a pot', 'Boil water', 'Get pasta out', 'Open package', 'Pour pasta in water']","['Read the instructions', 'Get pasta out']",Read the instructions,0
+6,0.8571428571428571,"['Take out a pot', 'Boil water', 'Get pasta out', 'Open package', 'Pour pasta in water', 'Read the instructions']","['Open package', 'Set the timer']",Set the timer,1
+0,0.0,[],"['choose pasta you want to cook', 'add pasta to water when boiling']",choose pasta you want to cook,0
+1,0.14285714285714285,['choose pasta you want to cook'],"['add pasta to water when boiling', 'obtain deep sized sauce pan']",obtain deep sized sauce pan,1
+2,0.2857142857142857,"['choose pasta you want to cook', 'obtain deep sized sauce pan']","['stir pasta in pan', 'fill sauce pan with water']",fill sauce pan with water,1
+3,0.42857142857142855,"['choose pasta you want to cook', 'obtain deep sized sauce pan', 'fill sauce pan with water']","['when pasta is tender, drain water', 'bring water to a boil on stovetop']",bring water to a boil on stovetop,1
+4,0.5714285714285714,"['choose pasta you want to cook', 'obtain deep sized sauce pan', 'fill sauce pan with water', 'bring water to a boil on stovetop']","['add pasta to water when boiling', 'choose pasta you want to cook']",add pasta to water when boiling,0
+5,0.7142857142857143,"['choose pasta you want to cook', 'obtain deep sized sauce pan', 'fill sauce pan with water', 'bring water to a boil on stovetop', 'add pasta to water when boiling']","['fill sauce pan with water', 'stir pasta in pan']",stir pasta in pan,1
+6,0.8571428571428571,"['choose pasta you want to cook', 'obtain deep sized sauce pan', 'fill sauce pan with water', 'bring water to a boil on stovetop', 'add pasta to water when boiling', 'stir pasta in pan']","['when pasta is tender, drain water', 'bring water to a boil on stovetop']","when pasta is tender, drain water",0
+0,0.0,[],"['Fill a pot with water.', 'Empty pasta from strainer into serving dish.']",Fill a pot with water.,0
+1,0.14285714285714285,['Fill a pot with water.'],"['Pour water and pasta into a strainer to strain water.', 'Put pot on stove top.']",Put pot on stove top.,1
+2,0.2857142857142857,"['Fill a pot with water.', 'Put pot on stove top.']","['Heat water to boiling.', 'Pour water and pasta into a strainer to strain water.']",Heat water to boiling.,0
+3,0.42857142857142855,"['Fill a pot with water.', 'Put pot on stove top.', 'Heat water to boiling.']","['Add pasta.', 'Pour water and pasta into a strainer to strain water.']",Add pasta.,0
+4,0.5714285714285714,"['Fill a pot with water.', 'Put pot on stove top.', 'Heat water to boiling.', 'Add pasta.']","['Fill a pot with water.', 'Boil pasta until desired firmness.']",Boil pasta until desired firmness.,1
+5,0.7142857142857143,"['Fill a pot with water.', 'Put pot on stove top.', 'Heat water to boiling.', 'Add pasta.', 'Boil pasta until desired firmness.']","['Fill a pot with water.', 'Pour water and pasta into a strainer to strain water.']",Pour water and pasta into a strainer to strain water.,1
+6,0.8571428571428571,"['Fill a pot with water.', 'Put pot on stove top.', 'Heat water to boiling.', 'Add pasta.', 'Boil pasta until desired firmness.', 'Pour water and pasta into a strainer to strain water.']","['Add pasta.', 'Empty pasta from strainer into serving dish.']",Empty pasta from strainer into serving dish.,1
+0,0.0,[],"['Get package of pasta', 'Get pot']",Get pot,1
+1,0.14285714285714285,['Get pot'],"['Get package of pasta', 'Remove pot after desired amount of time']",Get package of pasta,0
+2,0.2857142857142857,"['Get pot', 'Get package of pasta']","['Remove pot after desired amount of time', 'Fill pot with water']",Fill pot with water,1
+3,0.42857142857142855,"['Get pot', 'Get package of pasta', 'Fill pot with water']","['Bring water to boil', 'Remove pot after desired amount of time']",Bring water to boil,0
+4,0.5714285714285714,"['Get pot', 'Get package of pasta', 'Fill pot with water', 'Bring water to boil']","['Place pasta in pot of water', 'Get package of pasta']",Place pasta in pot of water,0
+5,0.7142857142857143,"['Get pot', 'Get package of pasta', 'Fill pot with water', 'Bring water to boil', 'Place pasta in pot of water']","['Get pot', 'Remove pot after desired amount of time']",Remove pot after desired amount of time,1
+6,0.8571428571428571,"['Get pot', 'Get package of pasta', 'Fill pot with water', 'Bring water to boil', 'Place pasta in pot of water', 'Remove pot after desired amount of time']","['Add sauce to pasta', 'Get pot']",Add sauce to pasta,0
+0,0.0,[],"['Add pasta to the water', 'Fill pot with water']",Fill pot with water,1
+1,0.16666666666666666,['Fill pot with water'],"['Add salt to taste', 'Place over high heat']",Place over high heat,1
+2,0.3333333333333333,"['Fill pot with water', 'Place over high heat']","['Taste it to see if it is cooked', 'Add salt to taste']",Add salt to taste,1
+3,0.5,"['Fill pot with water', 'Place over high heat', 'Add salt to taste']","['Add pasta to the water', 'Fill pot with water']",Add pasta to the water,0
+4,0.6666666666666666,"['Fill pot with water', 'Place over high heat', 'Add salt to taste', 'Add pasta to the water']","['Place over high heat', 'Stir frequently for two minutes']",Stir frequently for two minutes,1
+5,0.8333333333333334,"['Fill pot with water', 'Place over high heat', 'Add salt to taste', 'Add pasta to the water', 'Stir frequently for two minutes']","['Fill pot with water', 'Taste it to see if it is cooked']",Taste it to see if it is cooked,1
+0,0.0,[],"['fill pot with 2-3 cups of water.', 'turn on burner']",turn on burner,1
+1,0.14285714285714285,['turn on burner'],"['put pot on burner.', 'turn off burner.']",put pot on burner.,0
+2,0.2857142857142857,"['turn on burner', 'put pot on burner.']","['fill pot with 2-3 cups of water.', 'stir pasta occasionally until it becomes as soft as desired.']",fill pot with 2-3 cups of water.,0
+3,0.42857142857142855,"['turn on burner', 'put pot on burner.', 'fill pot with 2-3 cups of water.']","['wait for water to boil.', 'stir pasta occasionally until it becomes as soft as desired.']",wait for water to boil.,0
+4,0.5714285714285714,"['turn on burner', 'put pot on burner.', 'fill pot with 2-3 cups of water.', 'wait for water to boil.']","['add pasta.', 'turn on burner']",add pasta.,0
+5,0.7142857142857143,"['turn on burner', 'put pot on burner.', 'fill pot with 2-3 cups of water.', 'wait for water to boil.', 'add pasta.']","['put pot on burner.', 'stir pasta occasionally until it becomes as soft as desired.']",stir pasta occasionally until it becomes as soft as desired.,1
+6,0.8571428571428571,"['turn on burner', 'put pot on burner.', 'fill pot with 2-3 cups of water.', 'wait for water to boil.', 'add pasta.', 'stir pasta occasionally until it becomes as soft as desired.']","['turn off burner.', 'put pot on burner.']",turn off burner.,0
+0,0.0,[],"['Put the water into a saucepan.', 'Drain pasta.']",Put the water into a saucepan.,0
+1,0.14285714285714285,['Put the water into a saucepan.'],"['Add sauce on the pasta.', 'Bring the water to boil.']",Bring the water to boil.,1
+2,0.2857142857142857,"['Put the water into a saucepan.', 'Bring the water to boil.']","['Add sauce on the pasta.', 'Add pasta into the boiling water.']",Add pasta into the boiling water.,1
+3,0.42857142857142855,"['Put the water into a saucepan.', 'Bring the water to boil.', 'Add pasta into the boiling water.']","['Drain pasta.', 'Add sauce on the pasta.']",Drain pasta.,0
+4,0.5714285714285714,"['Put the water into a saucepan.', 'Bring the water to boil.', 'Add pasta into the boiling water.', 'Drain pasta.']","['Bring the water to boil.', 'Put pasta on a plate.']",Put pasta on a plate.,1
+5,0.7142857142857143,"['Put the water into a saucepan.', 'Bring the water to boil.', 'Add pasta into the boiling water.', 'Drain pasta.', 'Put pasta on a plate.']","['Add pasta into the boiling water.', 'Add sauce on the pasta.']",Add sauce on the pasta.,1
+6,0.8571428571428571,"['Put the water into a saucepan.', 'Bring the water to boil.', 'Add pasta into the boiling water.', 'Drain pasta.', 'Put pasta on a plate.', 'Add sauce on the pasta.']","['Bring the water to boil.', 'Serve the food.']",Serve the food.,1
+0,0.0,[],"['Get pasta out', 'Turn on the stove']",Get pasta out,0
+1,0.14285714285714285,['Get pasta out'],"['Get a pot', 'Get pasta out']",Get a pot,0
+2,0.2857142857142857,"['Get pasta out', 'Get a pot']","['Fill pot with water', 'Let water begin to boil']",Fill pot with water,0
+3,0.42857142857142855,"['Get pasta out', 'Get a pot', 'Fill pot with water']","['Place water on stove top', 'Let water begin to boil']",Place water on stove top,0
+4,0.5714285714285714,"['Get pasta out', 'Get a pot', 'Fill pot with water', 'Place water on stove top']","['Turn on the stove', 'Toss pasta into the pot']",Turn on the stove,0
+5,0.7142857142857143,"['Get pasta out', 'Get a pot', 'Fill pot with water', 'Place water on stove top', 'Turn on the stove']","['Let water begin to boil', 'Get a pot']",Let water begin to boil,0
+6,0.8571428571428571,"['Get pasta out', 'Get a pot', 'Fill pot with water', 'Place water on stove top', 'Turn on the stove', 'Let water begin to boil']","['Place water on stove top', 'Toss pasta into the pot']",Toss pasta into the pot,1
+0,0.0,[],"['Stir pasta as it cooks', 'Put water into pot']",Put water into pot,1
+1,0.14285714285714285,['Put water into pot'],"['Bring water to a boil', 'Take pasta out of container']",Bring water to a boil,0
+2,0.2857142857142857,"['Put water into pot', 'Bring water to a boil']","['Stir pasta as it cooks', 'Add salt to water']",Add salt to water,1
+3,0.42857142857142855,"['Put water into pot', 'Bring water to a boil', 'Add salt to water']","['Take pasta out of container', 'Take pasta out after 8 minutes']",Take pasta out of container,0
+4,0.5714285714285714,"['Put water into pot', 'Bring water to a boil', 'Add salt to water', 'Take pasta out of container']","['Bring water to a boil', 'Put into boiling water']",Put into boiling water,1
+5,0.7142857142857143,"['Put water into pot', 'Bring water to a boil', 'Add salt to water', 'Take pasta out of container', 'Put into boiling water']","['Bring water to a boil', 'Stir pasta as it cooks']",Stir pasta as it cooks,1
+6,0.8571428571428571,"['Put water into pot', 'Bring water to a boil', 'Add salt to water', 'Take pasta out of container', 'Put into boiling water', 'Stir pasta as it cooks']","['Take pasta out after 8 minutes', 'Bring water to a boil']",Take pasta out after 8 minutes,0
+0,0.0,[],"['Fill pot with water', 'Open box of pasta']",Fill pot with water,0
+1,0.14285714285714285,['Fill pot with water'],"['When water on stove is boiling, add pasta', 'Put pot on stove and turn on medium high']",Put pot on stove and turn on medium high,1
+2,0.2857142857142857,"['Fill pot with water', 'Put pot on stove and turn on medium high']","['When water on stove is boiling, add pasta', 'Add salt to water']",Add salt to water,1
+3,0.42857142857142855,"['Fill pot with water', 'Put pot on stove and turn on medium high', 'Add salt to water']","['Get box of pasta', 'Fill pot with water']",Get box of pasta,0
+4,0.5714285714285714,"['Fill pot with water', 'Put pot on stove and turn on medium high', 'Add salt to water', 'Get box of pasta']","['Open box of pasta', 'Put pot on stove and turn on medium high']",Open box of pasta,0
+5,0.7142857142857143,"['Fill pot with water', 'Put pot on stove and turn on medium high', 'Add salt to water', 'Get box of pasta', 'Open box of pasta']","['Fill pot with water', 'Put strainer in sink']",Put strainer in sink,1
+6,0.8571428571428571,"['Fill pot with water', 'Put pot on stove and turn on medium high', 'Add salt to water', 'Get box of pasta', 'Open box of pasta', 'Put strainer in sink']","['Fill pot with water', 'When water on stove is boiling, add pasta']","When water on stove is boiling, add pasta",1
+0,0.0,[],"['Salt the water.', 'Put water in a large pot.']",Put water in a large pot.,1
+1,0.2,['Put water in a large pot.'],"['Boil the water,', 'Put the water on the stove.']",Put the water on the stove.,1
+2,0.4,"['Put water in a large pot.', 'Put the water on the stove.']","['Salt the water.', 'Place noodles inside.']",Salt the water.,0
+3,0.6,"['Put water in a large pot.', 'Put the water on the stove.', 'Salt the water.']","['Boil the water,', 'Put water in a large pot.']","Boil the water,",0
+4,0.8,"['Put water in a large pot.', 'Put the water on the stove.', 'Salt the water.', 'Boil the water,']","['Place noodles inside.', 'Put the water on the stove.']",Place noodles inside.,0
+0,0.0,[],"['wait for water to boil', 'fill up big pot with water']",fill up big pot with water,1
+1,0.14285714285714285,['fill up big pot with water'],"['put pot on stove', 'cook until pasta is soft']",put pot on stove,0
+2,0.2857142857142857,"['fill up big pot with water', 'put pot on stove']","['wait for water to boil', 'turn on burner']",turn on burner,1
+3,0.42857142857142855,"['fill up big pot with water', 'put pot on stove', 'turn on burner']","['put lid on pot', 'cook until pasta is soft']",put lid on pot,0
+4,0.5714285714285714,"['fill up big pot with water', 'put pot on stove', 'turn on burner', 'put lid on pot']","['wait for water to boil', 'cook until pasta is soft']",wait for water to boil,0
+5,0.7142857142857143,"['fill up big pot with water', 'put pot on stove', 'turn on burner', 'put lid on pot', 'wait for water to boil']","['put pot on stove', 'after water boils, add pasta']","after water boils, add pasta",1
+6,0.8571428571428571,"['fill up big pot with water', 'put pot on stove', 'turn on burner', 'put lid on pot', 'wait for water to boil', 'after water boils, add pasta']","['put pot on stove', 'cook until pasta is soft']",cook until pasta is soft,1
+0,0.0,[],"['put water into a big pot', 'wait for salted water to boil']",put water into a big pot,0
+1,0.14285714285714285,['put water into a big pot'],"['salt water', 'take pasta out']",salt water,0
+2,0.2857142857142857,"['put water into a big pot', 'salt water']","['set timer', 'turn burner on high']",turn burner on high,1
+3,0.42857142857142855,"['put water into a big pot', 'salt water', 'turn burner on high']","['wait for salted water to boil', 'put water into a big pot']",wait for salted water to boil,0
+4,0.5714285714285714,"['put water into a big pot', 'salt water', 'turn burner on high', 'wait for salted water to boil']","['take pasta out', 'salt water']",take pasta out,0
+5,0.7142857142857143,"['put water into a big pot', 'salt water', 'turn burner on high', 'wait for salted water to boil', 'take pasta out']","['once water is boiling place pasta into pot', 'turn burner on high']",once water is boiling place pasta into pot,0
+6,0.8571428571428571,"['put water into a big pot', 'salt water', 'turn burner on high', 'wait for salted water to boil', 'take pasta out', 'once water is boiling place pasta into pot']","['put water into a big pot', 'set timer']",set timer,1
+0,0.0,[],"['Select pasta.', 'Wait for water to boil.']",Select pasta.,0
+1,0.14285714285714285,['Select pasta.'],"['Place pasta in water.', 'Fill pan with water.']",Fill pan with water.,1
+2,0.2857142857142857,"['Select pasta.', 'Fill pan with water.']","['Place pan in stove.', 'Wait for water to boil.']",Place pan in stove.,0
+3,0.42857142857142855,"['Select pasta.', 'Fill pan with water.', 'Place pan in stove.']","['Observe cooking until done.', 'Turn stove on.']",Turn stove on.,1
+4,0.5714285714285714,"['Select pasta.', 'Fill pan with water.', 'Place pan in stove.', 'Turn stove on.']","['Select pasta.', 'Wait for water to boil.']",Wait for water to boil.,1
+5,0.7142857142857143,"['Select pasta.', 'Fill pan with water.', 'Place pan in stove.', 'Turn stove on.', 'Wait for water to boil.']","['Place pasta in water.', 'Fill pan with water.']",Place pasta in water.,0
+6,0.8571428571428571,"['Select pasta.', 'Fill pan with water.', 'Place pan in stove.', 'Turn stove on.', 'Wait for water to boil.', 'Place pasta in water.']","['Observe cooking until done.', 'Turn stove on.']",Observe cooking until done.,0
+0,0.0,[],"['Fill pot with water', 'Pour pasta into boiling water']",Fill pot with water,0
+1,0.14285714285714285,['Fill pot with water'],"['Wait for water to boil', 'Put pot on stove']",Put pot on stove,1
+2,0.2857142857142857,"['Fill pot with water', 'Put pot on stove']","['Turn heat to high', 'Wait 10 minutes']",Turn heat to high,0
+3,0.42857142857142855,"['Fill pot with water', 'Put pot on stove', 'Turn heat to high']","['Fill pot with water', 'Wait for water to boil']",Wait for water to boil,1
+4,0.5714285714285714,"['Fill pot with water', 'Put pot on stove', 'Turn heat to high', 'Wait for water to boil']","['Get box of pasta', 'Wait 10 minutes']",Get box of pasta,0
+5,0.7142857142857143,"['Fill pot with water', 'Put pot on stove', 'Turn heat to high', 'Wait for water to boil', 'Get box of pasta']","['Turn heat to high', 'Pour pasta into boiling water']",Pour pasta into boiling water,1
+6,0.8571428571428571,"['Fill pot with water', 'Put pot on stove', 'Turn heat to high', 'Wait for water to boil', 'Get box of pasta', 'Pour pasta into boiling water']","['Put pot on stove', 'Wait 10 minutes']",Wait 10 minutes,1
+0,0.0,[],"['Put water in pot.', 'Put pasta in pot.']",Put water in pot.,0
+1,0.14285714285714285,['Put water in pot.'],"['Put pot on stove.', 'Put water in pot.']",Put pot on stove.,0
+2,0.2857142857142857,"['Put water in pot.', 'Put pot on stove.']","['Turn on stove.', 'Put pasta in pot.']",Turn on stove.,0
+3,0.42857142857142855,"['Put water in pot.', 'Put pot on stove.', 'Turn on stove.']","['Put a strainer in sink.', 'Boil water.']",Boil water.,1
+4,0.5714285714285714,"['Put water in pot.', 'Put pot on stove.', 'Turn on stove.', 'Boil water.']","['Put water in pot.', 'Put pasta in pot.']",Put pasta in pot.,1
+5,0.7142857142857143,"['Put water in pot.', 'Put pot on stove.', 'Turn on stove.', 'Boil water.', 'Put pasta in pot.']","['Stir pasta.', 'Put water in pot.']",Stir pasta.,0
+6,0.8571428571428571,"['Put water in pot.', 'Put pot on stove.', 'Turn on stove.', 'Boil water.', 'Put pasta in pot.', 'Stir pasta.']","['Put water in pot.', 'Put a strainer in sink.']",Put a strainer in sink.,1
+0,0.0,[],"['Strain water from pasta using a colander.', 'Boil about half a soup pot full of water.']",Boil about half a soup pot full of water.,1
+1,0.2,['Boil about half a soup pot full of water.'],"['Add a small amount of salt or olive oil to boiling water.', 'Strain water from pasta using a colander.']",Add a small amount of salt or olive oil to boiling water.,0
+2,0.4,"['Boil about half a soup pot full of water.', 'Add a small amount of salt or olive oil to boiling water.']","['Strain water from pasta using a colander.', 'Place uncooked pasta into boiling water.']",Place uncooked pasta into boiling water.,1
+3,0.6,"['Boil about half a soup pot full of water.', 'Add a small amount of salt or olive oil to boiling water.', 'Place uncooked pasta into boiling water.']","['Allow pasta to cook for about 9 minutes.', 'Boil about half a soup pot full of water.']",Allow pasta to cook for about 9 minutes.,0
+4,0.8,"['Boil about half a soup pot full of water.', 'Add a small amount of salt or olive oil to boiling water.', 'Place uncooked pasta into boiling water.', 'Allow pasta to cook for about 9 minutes.']","['Add a small amount of salt or olive oil to boiling water.', 'Strain water from pasta using a colander.']",Strain water from pasta using a colander.,1
+0,0.0,[],"['put pasta into pan with water', 'turn stove on']",turn stove on,1
+1,0.14285714285714285,['turn stove on'],"['put pasta into pan with water', 'choose proper pans']",choose proper pans,1
+2,0.2857142857142857,"['turn stove on', 'choose proper pans']","['grab pasta', 'let pasta finish cooking']",grab pasta,0
+3,0.42857142857142855,"['turn stove on', 'choose proper pans', 'grab pasta']","['use tomato sauce', 'put pasta into pan with water']",put pasta into pan with water,1
+4,0.5714285714285714,"['turn stove on', 'choose proper pans', 'grab pasta', 'put pasta into pan with water']","['turn stove on', 'let pasta finish cooking']",let pasta finish cooking,1
+5,0.7142857142857143,"['turn stove on', 'choose proper pans', 'grab pasta', 'put pasta into pan with water', 'let pasta finish cooking']","['throw water out of pan', 'choose proper pans']",throw water out of pan,0
+6,0.8571428571428571,"['turn stove on', 'choose proper pans', 'grab pasta', 'put pasta into pan with water', 'let pasta finish cooking', 'throw water out of pan']","['use tomato sauce', 'choose proper pans']",use tomato sauce,0
+0,0.0,[],"['Fill pot with water', 'Put pasta into the boiling water']",Fill pot with water,0
+1,0.14285714285714285,['Fill pot with water'],"['Turn on burner', 'Wait for water to boil']",Turn on burner,0
+2,0.2857142857142857,"['Fill pot with water', 'Turn on burner']","['Place pot on stove', 'Put pasta into the boiling water']",Place pot on stove,0
+3,0.42857142857142855,"['Fill pot with water', 'Turn on burner', 'Place pot on stove']","['Wait for water to boil', 'Set timer for appropriate time']",Wait for water to boil,0
+4,0.5714285714285714,"['Fill pot with water', 'Turn on burner', 'Place pot on stove', 'Wait for water to boil']","['Put pasta into the boiling water', 'Turn on burner']",Put pasta into the boiling water,0
+5,0.7142857142857143,"['Fill pot with water', 'Turn on burner', 'Place pot on stove', 'Wait for water to boil', 'Put pasta into the boiling water']","['Fill pot with water', 'Set timer for appropriate time']",Set timer for appropriate time,1
+6,0.8571428571428571,"['Fill pot with water', 'Turn on burner', 'Place pot on stove', 'Wait for water to boil', 'Put pasta into the boiling water', 'Set timer for appropriate time']","['When timer goes off, remove pot from stove', 'Place pot on stove']","When timer goes off, remove pot from stove",0
+0,0.0,[],"['Buy favorite brand of pasta', 'Cook 8 minutes for al dente']",Buy favorite brand of pasta,0
+1,0.14285714285714285,['Buy favorite brand of pasta'],"['Cook 8 minutes for al dente', 'Boil hot water on stove']",Boil hot water on stove,1
+2,0.2857142857142857,"['Buy favorite brand of pasta', 'Boil hot water on stove']","['Remove pasta from water', 'Put sea salt in water']",Put sea salt in water,1
+3,0.42857142857142855,"['Buy favorite brand of pasta', 'Boil hot water on stove', 'Put sea salt in water']","['Add parmesan cheese', 'Add pasta to water']",Add pasta to water,1
+4,0.5714285714285714,"['Buy favorite brand of pasta', 'Boil hot water on stove', 'Put sea salt in water', 'Add pasta to water']","['Cook 8 minutes for al dente', 'Add parmesan cheese']",Cook 8 minutes for al dente,0
+5,0.7142857142857143,"['Buy favorite brand of pasta', 'Boil hot water on stove', 'Put sea salt in water', 'Add pasta to water', 'Cook 8 minutes for al dente']","['Put sea salt in water', 'Remove pasta from water']",Remove pasta from water,1
+6,0.8571428571428571,"['Buy favorite brand of pasta', 'Boil hot water on stove', 'Put sea salt in water', 'Add pasta to water', 'Cook 8 minutes for al dente', 'Remove pasta from water']","['Add pasta to water', 'Add parmesan cheese']",Add parmesan cheese,1
+0,0.0,[],"['Add pasta to water.', 'Put water in a pot.']",Put water in a pot.,1
+1,0.14285714285714285,['Put water in a pot.'],"['Boil water.', 'Put water in a pot.']",Boil water.,0
+2,0.2857142857142857,"['Put water in a pot.', 'Boil water.']","['Add a little salt.', 'Run cool water over pasta to stop pasta from cooking.']",Add a little salt.,0
+3,0.42857142857142855,"['Put water in a pot.', 'Boil water.', 'Add a little salt.']","['Add pasta to water.', 'Pour water and pasta into a colander.']",Add pasta to water.,0
+4,0.5714285714285714,"['Put water in a pot.', 'Boil water.', 'Add a little salt.', 'Add pasta to water.']","['Boil until it is cooked the way you like it.', 'Put water in a pot.']",Boil until it is cooked the way you like it.,0
+5,0.7142857142857143,"['Put water in a pot.', 'Boil water.', 'Add a little salt.', 'Add pasta to water.', 'Boil until it is cooked the way you like it.']","['Boil water.', 'Pour water and pasta into a colander.']",Pour water and pasta into a colander.,1
+6,0.8571428571428571,"['Put water in a pot.', 'Boil water.', 'Add a little salt.', 'Add pasta to water.', 'Boil until it is cooked the way you like it.', 'Pour water and pasta into a colander.']","['Add pasta to water.', 'Run cool water over pasta to stop pasta from cooking.']",Run cool water over pasta to stop pasta from cooking.,1
+0,0.0,[],"['Fill pot with water', 'Wait for water to boil']",Fill pot with water,0
+1,0.14285714285714285,['Fill pot with water'],"['Place on stove', 'Turn on burner']",Place on stove,0
+2,0.2857142857142857,"['Fill pot with water', 'Place on stove']","['Turn on burner', 'Add pasta']",Turn on burner,0
+3,0.42857142857142855,"['Fill pot with water', 'Place on stove', 'Turn on burner']","['Wait for water to boil', 'Stir pasta occasionally']",Wait for water to boil,0
+4,0.5714285714285714,"['Fill pot with water', 'Place on stove', 'Turn on burner', 'Wait for water to boil']","['Reduce heat', 'Stir pasta occasionally']",Reduce heat,0
+5,0.7142857142857143,"['Fill pot with water', 'Place on stove', 'Turn on burner', 'Wait for water to boil', 'Reduce heat']","['Turn on burner', 'Add pasta']",Add pasta,1
+6,0.8571428571428571,"['Fill pot with water', 'Place on stove', 'Turn on burner', 'Wait for water to boil', 'Reduce heat', 'Add pasta']","['Turn on burner', 'Stir pasta occasionally']",Stir pasta occasionally,1
+0,0.0,[],"['Choose which pasta you want to cook', 'Add pasta to water']",Choose which pasta you want to cook,0
+1,0.14285714285714285,['Choose which pasta you want to cook'],"['Add salt if desired', 'Fill a large pot 2/3 with water']",Fill a large pot 2/3 with water,1
+2,0.2857142857142857,"['Choose which pasta you want to cook', 'Fill a large pot 2/3 with water']","['Turn the knob on the stove to high', 'Stir with a long spoon']",Turn the knob on the stove to high,0
+3,0.42857142857142855,"['Choose which pasta you want to cook', 'Fill a large pot 2/3 with water', 'Turn the knob on the stove to high']","['Add pasta to water', 'Add salt if desired']",Add salt if desired,1
+4,0.5714285714285714,"['Choose which pasta you want to cook', 'Fill a large pot 2/3 with water', 'Turn the knob on the stove to high', 'Add salt if desired']","['Wait for the water to boil', 'Choose which pasta you want to cook']",Wait for the water to boil,0
+5,0.7142857142857143,"['Choose which pasta you want to cook', 'Fill a large pot 2/3 with water', 'Turn the knob on the stove to high', 'Add salt if desired', 'Wait for the water to boil']","['Add pasta to water', 'Fill a large pot 2/3 with water']",Add pasta to water,0
+6,0.8571428571428571,"['Choose which pasta you want to cook', 'Fill a large pot 2/3 with water', 'Turn the knob on the stove to high', 'Add salt if desired', 'Wait for the water to boil', 'Add pasta to water']","['Fill a large pot 2/3 with water', 'Stir with a long spoon']",Stir with a long spoon,1
+0,0.0,[],"['Put water in a pot', 'Put pot on stove']",Put water in a pot,0
+1,0.14285714285714285,['Put water in a pot'],"['Put pot on stove', 'Put pot on stove']",Put pot on stove,0
+2,0.2857142857142857,"['Put water in a pot', 'Put pot on stove']","['Test noodles taste', 'Boil water']",Boil water,1
+3,0.42857142857142855,"['Put water in a pot', 'Put pot on stove', 'Boil water']","['Put water in a pot', 'Add a little salt and olive oil']",Add a little salt and olive oil,1
+4,0.5714285714285714,"['Put water in a pot', 'Put pot on stove', 'Boil water', 'Add a little salt and olive oil']","['Put water in a pot', 'Add pasta']",Add pasta,1
+5,0.7142857142857143,"['Put water in a pot', 'Put pot on stove', 'Boil water', 'Add a little salt and olive oil', 'Add pasta']","['Put pot on stove', 'Stir slightly as it cooks']",Stir slightly as it cooks,1
+6,0.8571428571428571,"['Put water in a pot', 'Put pot on stove', 'Boil water', 'Add a little salt and olive oil', 'Add pasta', 'Stir slightly as it cooks']","['Put pot on stove', 'Test noodles taste']",Test noodles taste,1
+0,0.0,[],"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen']","Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen",0
+1,0.14285714285714285,"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen']","['Set alarm or timer to ring when the cooking time is up', 'Boil water in large pot, adding some salt to taste and prevent sticking']","Boil water in large pot, adding some salt to taste and prevent sticking",1
+2,0.2857142857142857,"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Boil water in large pot, adding some salt to taste and prevent sticking']","['Place pasta back into pot', 'When water reaches a rolling boil, add pasta']","When water reaches a rolling boil, add pasta",1
+3,0.42857142857142855,"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Boil water in large pot, adding some salt to taste and prevent sticking', 'When water reaches a rolling boil, add pasta']","['Cook for however long the instructions call for', 'Pour water and pasta from pot into strainer or colander']",Cook for however long the instructions call for,0
+4,0.5714285714285714,"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Boil water in large pot, adding some salt to taste and prevent sticking', 'When water reaches a rolling boil, add pasta', 'Cook for however long the instructions call for']","['Set alarm or timer to ring when the cooking time is up', 'Boil water in large pot, adding some salt to taste and prevent sticking']",Set alarm or timer to ring when the cooking time is up,0
+5,0.7142857142857143,"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Boil water in large pot, adding some salt to taste and prevent sticking', 'When water reaches a rolling boil, add pasta', 'Cook for however long the instructions call for', 'Set alarm or timer to ring when the cooking time is up']","['Boil water in large pot, adding some salt to taste and prevent sticking', 'Pour water and pasta from pot into strainer or colander']",Pour water and pasta from pot into strainer or colander,1
+6,0.8571428571428571,"['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Boil water in large pot, adding some salt to taste and prevent sticking', 'When water reaches a rolling boil, add pasta', 'Cook for however long the instructions call for', 'Set alarm or timer to ring when the cooking time is up', 'Pour water and pasta from pot into strainer or colander']","['Gather pasta, large pot, salt, large stirring utensil, and a strainer in kitchen', 'Place pasta back into pot']",Place pasta back into pot,1
+0,0.0,[],"['Open the pasta packet', 'Pour some water in a pan']",Open the pasta packet,0
+1,0.14285714285714285,['Open the pasta packet'],"['Add pasta', 'Pour some water in a pan']",Pour some water in a pan,1
+2,0.2857142857142857,"['Open the pasta packet', 'Pour some water in a pan']","['Take out the pan when pasta is cooked', 'Keep the pan on stove']",Keep the pan on stove,1
+3,0.42857142857142855,"['Open the pasta packet', 'Pour some water in a pan', 'Keep the pan on stove']","['Light the stove', 'Open the pasta packet']",Light the stove,0
+4,0.5714285714285714,"['Open the pasta packet', 'Pour some water in a pan', 'Keep the pan on stove', 'Light the stove']","['Take out the pan when pasta is cooked', 'Boil the water']",Boil the water,1
+5,0.7142857142857143,"['Open the pasta packet', 'Pour some water in a pan', 'Keep the pan on stove', 'Light the stove', 'Boil the water']","['Add pasta', 'Open the pasta packet']",Add pasta,0
+6,0.8571428571428571,"['Open the pasta packet', 'Pour some water in a pan', 'Keep the pan on stove', 'Light the stove', 'Boil the water', 'Add pasta']","['Take out the pan when pasta is cooked', 'Open the pasta packet']",Take out the pan when pasta is cooked,0
+0,0.0,[],"['Add the pasta', 'Put water into a pasta cooker']",Put water into a pasta cooker,1
+1,0.14285714285714285,['Put water into a pasta cooker'],"['Add the pasta', 'Add it to stove']",Add it to stove,1
+2,0.2857142857142857,"['Put water into a pasta cooker', 'Add it to stove']","['Wait for it to boil', 'Pour pasta into colander']",Wait for it to boil,0
+3,0.42857142857142855,"['Put water into a pasta cooker', 'Add it to stove', 'Wait for it to boil']","['Add the pasta', 'Pour pasta into colander']",Add the pasta,0
+4,0.5714285714285714,"['Put water into a pasta cooker', 'Add it to stove', 'Wait for it to boil', 'Add the pasta']","['Pour pasta into colander', 'Put colander in sink']",Put colander in sink,1
+5,0.7142857142857143,"['Put water into a pasta cooker', 'Add it to stove', 'Wait for it to boil', 'Add the pasta', 'Put colander in sink']","['Wait for it to cook', 'Wait for it to boil']",Wait for it to cook,0
+6,0.8571428571428571,"['Put water into a pasta cooker', 'Add it to stove', 'Wait for it to boil', 'Add the pasta', 'Put colander in sink', 'Wait for it to cook']","['Pour pasta into colander', 'Add it to stove']",Pour pasta into colander,0
+0,0.0,[],"['Take out a big pot', 'Cover pot']",Take out a big pot,0
+1,0.14285714285714285,['Take out a big pot'],"['Cook 5-7 minutes', 'Boil water in pot']",Boil water in pot,1
+2,0.2857142857142857,"['Take out a big pot', 'Boil water in pot']","['Add dry pasta into boiling water', 'Drain water']",Add dry pasta into boiling water,0
+3,0.42857142857142855,"['Take out a big pot', 'Boil water in pot', 'Add dry pasta into boiling water']","['Drain water', 'Lower temperature']",Lower temperature,1
+4,0.5714285714285714,"['Take out a big pot', 'Boil water in pot', 'Add dry pasta into boiling water', 'Lower temperature']","['Boil water in pot', 'Cover pot']",Cover pot,1
+5,0.7142857142857143,"['Take out a big pot', 'Boil water in pot', 'Add dry pasta into boiling water', 'Lower temperature', 'Cover pot']","['Add dry pasta into boiling water', 'Cook 5-7 minutes']",Cook 5-7 minutes,1
+6,0.8571428571428571,"['Take out a big pot', 'Boil water in pot', 'Add dry pasta into boiling water', 'Lower temperature', 'Cover pot', 'Cook 5-7 minutes']","['Lower temperature', 'Drain water']",Drain water,1
+0,0.0,[],"['Turn on burner', 'Get large pot from cupboard']",Get large pot from cupboard,1
+1,0.14285714285714285,['Get large pot from cupboard'],"['Fill with water', 'Fill with water']",Fill with water,0
+2,0.2857142857142857,"['Get large pot from cupboard', 'Fill with water']","['Place on stove', 'Open pasta package']",Place on stove,0
+3,0.42857142857142855,"['Get large pot from cupboard', 'Fill with water', 'Place on stove']","['Open pasta package', 'Turn on burner']",Turn on burner,1
+4,0.5714285714285714,"['Get large pot from cupboard', 'Fill with water', 'Place on stove', 'Turn on burner']","['Get pasta from pantry', 'Get large pot from cupboard']",Get pasta from pantry,0
+5,0.7142857142857143,"['Get large pot from cupboard', 'Fill with water', 'Place on stove', 'Turn on burner', 'Get pasta from pantry']","['Fill with water', 'Wait for water to boil']",Wait for water to boil,1
+6,0.8571428571428571,"['Get large pot from cupboard', 'Fill with water', 'Place on stove', 'Turn on burner', 'Get pasta from pantry', 'Wait for water to boil']","['Open pasta package', 'Fill with water']",Open pasta package,0
+0,0.0,[],"['Turn on stove range', 'Fill a pot with water']",Fill a pot with water,1
+1,0.14285714285714285,['Fill a pot with water'],"['Set pot on the stove', 'Set pot on the stove']",Set pot on the stove,0
+2,0.2857142857142857,"['Fill a pot with water', 'Set pot on the stove']","['Boil the water', 'Salt the water']",Salt the water,1
+3,0.42857142857142855,"['Fill a pot with water', 'Set pot on the stove', 'Salt the water']","['Turn on stove range', 'Open pasta box']",Turn on stove range,0
+4,0.5714285714285714,"['Fill a pot with water', 'Set pot on the stove', 'Salt the water', 'Turn on stove range']","['Boil the water', 'Fill a pot with water']",Boil the water,0
+5,0.7142857142857143,"['Fill a pot with water', 'Set pot on the stove', 'Salt the water', 'Turn on stove range', 'Boil the water']","['Set pot on the stove', 'Open pasta box']",Open pasta box,1
+6,0.8571428571428571,"['Fill a pot with water', 'Set pot on the stove', 'Salt the water', 'Turn on stove range', 'Boil the water', 'Open pasta box']","['Put pasta in boiling water', 'Turn on stove range']",Put pasta in boiling water,0
+0,0.0,[],"['Wait until the water boils.', 'Fill a pasta pot about 70 percent full of water.']",Fill a pasta pot about 70 percent full of water.,1
+1,0.14285714285714285,['Fill a pasta pot about 70 percent full of water.'],"['Add one tablespoon of salt to the boiling water', 'Place the pot on a burner.']",Place the pot on a burner.,1
+2,0.2857142857142857,"['Fill a pasta pot about 70 percent full of water.', 'Place the pot on a burner.']","['Drain the water from the pasta.', 'Turn the burner to a high setting.']",Turn the burner to a high setting.,1
+3,0.42857142857142855,"['Fill a pasta pot about 70 percent full of water.', 'Place the pot on a burner.', 'Turn the burner to a high setting.']","['Wait until the water boils.', 'Fill a pasta pot about 70 percent full of water.']",Wait until the water boils.,0
+4,0.5714285714285714,"['Fill a pasta pot about 70 percent full of water.', 'Place the pot on a burner.', 'Turn the burner to a high setting.', 'Wait until the water boils.']","['Fill a pasta pot about 70 percent full of water.', 'Add one tablespoon of salt to the boiling water']",Add one tablespoon of salt to the boiling water,1
+5,0.7142857142857143,"['Fill a pasta pot about 70 percent full of water.', 'Place the pot on a burner.', 'Turn the burner to a high setting.', 'Wait until the water boils.', 'Add one tablespoon of salt to the boiling water']","['Add the pasta to the water and let it cook for ten minutes.', 'Turn the burner to a high setting.']",Add the pasta to the water and let it cook for ten minutes.,0
+6,0.8571428571428571,"['Fill a pasta pot about 70 percent full of water.', 'Place the pot on a burner.', 'Turn the burner to a high setting.', 'Wait until the water boils.', 'Add one tablespoon of salt to the boiling water', 'Add the pasta to the water and let it cook for ten minutes.']","['Wait until the water boils.', 'Drain the water from the pasta.']",Drain the water from the pasta.,1
+0,0.0,[],"['Put pot on burner', 'Get pot']",Get pot,1
+1,0.14285714285714285,['Get pot'],"['Fill pot with water', 'Put pasta in water']",Fill pot with water,0
+2,0.2857142857142857,"['Get pot', 'Fill pot with water']","['Put pasta in water', 'Put pot on burner']",Put pot on burner,1
+3,0.42857142857142855,"['Get pot', 'Fill pot with water', 'Put pot on burner']","['Turn burner on', 'Put pasta in water']",Turn burner on,0
+4,0.5714285714285714,"['Get pot', 'Fill pot with water', 'Put pot on burner', 'Turn burner on']","['Fill pot with water', 'Wait until water boils']",Wait until water boils,1
+5,0.7142857142857143,"['Get pot', 'Fill pot with water', 'Put pot on burner', 'Turn burner on', 'Wait until water boils']","['Get pot', 'Put pasta in water']",Put pasta in water,1
+6,0.8571428571428571,"['Get pot', 'Fill pot with water', 'Put pot on burner', 'Turn burner on', 'Wait until water boils', 'Put pasta in water']","['Get pot', 'Cook 8-10 minutes']",Cook 8-10 minutes,1
+0,0.0,[],"['Get a pot', 'Cover pot']",Get a pot,0
+1,0.14285714285714285,['Get a pot'],"['Wait until water boils', 'Pour water into pot']",Pour water into pot,1
+2,0.2857142857142857,"['Get a pot', 'Pour water into pot']","['Put pot on stove', 'Put pasta in boiling water']",Put pot on stove,0
+3,0.42857142857142855,"['Get a pot', 'Pour water into pot', 'Put pot on stove']","['Wait until water boils', 'Turn stove on']",Turn stove on,1
+4,0.5714285714285714,"['Get a pot', 'Pour water into pot', 'Put pot on stove', 'Turn stove on']","['Get a pot', 'Cover pot']",Cover pot,1
+5,0.7142857142857143,"['Get a pot', 'Pour water into pot', 'Put pot on stove', 'Turn stove on', 'Cover pot']","['Wait until water boils', 'Put pot on stove']",Wait until water boils,0
+6,0.8571428571428571,"['Get a pot', 'Pour water into pot', 'Put pot on stove', 'Turn stove on', 'Cover pot', 'Wait until water boils']","['Put pasta in boiling water', 'Put pot on stove']",Put pasta in boiling water,0
+0,0.0,[],"['Put water in a pot', 'Add a pinch of salt']",Put water in a pot,0
+1,0.14285714285714285,['Put water in a pot'],"['Turn the stove on', 'Turn the stove on']",Turn the stove on,0
+2,0.2857142857142857,"['Put water in a pot', 'Turn the stove on']","['Put pasta in the water', 'Put the pot on the stove']",Put the pot on the stove,1
+3,0.42857142857142855,"['Put water in a pot', 'Turn the stove on', 'Put the pot on the stove']","['Wait for pasta to cook', 'Boil water']",Boil water,1
+4,0.5714285714285714,"['Put water in a pot', 'Turn the stove on', 'Put the pot on the stove', 'Boil water']","['Wait for pasta to cook', 'Add a pinch of salt']",Add a pinch of salt,1
+5,0.7142857142857143,"['Put water in a pot', 'Turn the stove on', 'Put the pot on the stove', 'Boil water', 'Add a pinch of salt']","['Put pasta in the water', 'Turn the stove on']",Put pasta in the water,0
+6,0.8571428571428571,"['Put water in a pot', 'Turn the stove on', 'Put the pot on the stove', 'Boil water', 'Add a pinch of salt', 'Put pasta in the water']","['Boil water', 'Wait for pasta to cook']",Wait for pasta to cook,1

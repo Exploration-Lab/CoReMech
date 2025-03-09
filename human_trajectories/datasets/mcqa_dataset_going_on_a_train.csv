@@ -1,0 +1,638 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Wait in line to board train.', 'Buy a ticket from counter.']",Buy a ticket from counter.,1
+1,0.125,['Buy a ticket from counter.'],"['Put carry on luggage in overhead bin.', 'Go to the train station.']",Go to the train station.,1
+2,0.25,"['Buy a ticket from counter.', 'Go to the train station.']","['Sit down.', 'Confirm your ticket with an employee.']",Confirm your ticket with an employee.,1
+3,0.375,"['Buy a ticket from counter.', 'Go to the train station.', 'Confirm your ticket with an employee.']","['Buy a ticket from counter.', 'Wait for your train to be announced.']",Wait for your train to be announced.,1
+4,0.5,"['Buy a ticket from counter.', 'Go to the train station.', 'Confirm your ticket with an employee.', 'Wait for your train to be announced.']","['Wait in line to board train.', 'Buy a ticket from counter.']",Wait in line to board train.,0
+5,0.625,"['Buy a ticket from counter.', 'Go to the train station.', 'Confirm your ticket with an employee.', 'Wait for your train to be announced.', 'Wait in line to board train.']","['When your destination is called, get off train.', 'Put carry on luggage in overhead bin.']",Put carry on luggage in overhead bin.,1
+6,0.75,"['Buy a ticket from counter.', 'Go to the train station.', 'Confirm your ticket with an employee.', 'Wait for your train to be announced.', 'Wait in line to board train.', 'Put carry on luggage in overhead bin.']","['Sit down.', 'Confirm your ticket with an employee.']",Sit down.,0
+7,0.875,"['Buy a ticket from counter.', 'Go to the train station.', 'Confirm your ticket with an employee.', 'Wait for your train to be announced.', 'Wait in line to board train.', 'Put carry on luggage in overhead bin.', 'Sit down.']","['Confirm your ticket with an employee.', 'When your destination is called, get off train.']","When your destination is called, get off train.",1
+0,0.0,[],"['Go to train station', 'Pay for ticket']",Go to train station,0
+1,0.125,['Go to train station'],"['Wait for train to arrive', 'Check train schedules']",Check train schedules,1
+2,0.25,"['Go to train station', 'Check train schedules']","['Go to counter', 'Wait for train to arrive']",Go to counter,0
+3,0.375,"['Go to train station', 'Check train schedules', 'Go to counter']","['Get on the train', 'Pay for ticket']",Pay for ticket,1
+4,0.5,"['Go to train station', 'Check train schedules', 'Go to counter', 'Pay for ticket']","['Wait for train to arrive', 'Check train schedules']",Wait for train to arrive,0
+5,0.625,"['Go to train station', 'Check train schedules', 'Go to counter', 'Pay for ticket', 'Wait for train to arrive']","['Get on the train', 'Go to counter']",Get on the train,0
+6,0.75,"['Go to train station', 'Check train schedules', 'Go to counter', 'Pay for ticket', 'Wait for train to arrive', 'Get on the train']","['Go to counter', 'Take a seat']",Take a seat,1
+7,0.875,"['Go to train station', 'Check train schedules', 'Go to counter', 'Pay for ticket', 'Wait for train to arrive', 'Get on the train', 'Take a seat']","['Wait for train to arrive', 'Arrive at destination']",Arrive at destination,1
+0,0.0,[],"['Determine a location to go to by train.', 'Secure transportation to the train station']",Determine a location to go to by train.,0
+1,0.125,['Determine a location to go to by train.'],"['Locate a train schedule', 'Secure transportation to the train station']",Locate a train schedule,0
+2,0.25,"['Determine a location to go to by train.', 'Locate a train schedule']","['Purchase ticket(s) for train', 'Use transportation to train station.']",Purchase ticket(s) for train,0
+3,0.375,"['Determine a location to go to by train.', 'Locate a train schedule', 'Purchase ticket(s) for train']","['Secure transportation to the train station', 'Enter train station through front gate.']",Secure transportation to the train station,0
+4,0.5,"['Determine a location to go to by train.', 'Locate a train schedule', 'Purchase ticket(s) for train', 'Secure transportation to the train station']","['Determine a location to go to by train.', 'Use transportation to train station.']",Use transportation to train station.,1
+5,0.625,"['Determine a location to go to by train.', 'Locate a train schedule', 'Purchase ticket(s) for train', 'Secure transportation to the train station', 'Use transportation to train station.']","['Pray your train is on schedule', 'Ensure transportation is secured in lot.']",Ensure transportation is secured in lot.,1
+6,0.75,"['Determine a location to go to by train.', 'Locate a train schedule', 'Purchase ticket(s) for train', 'Secure transportation to the train station', 'Use transportation to train station.', 'Ensure transportation is secured in lot.']","['Enter train station through front gate.', 'Purchase ticket(s) for train']",Enter train station through front gate.,0
+7,0.875,"['Determine a location to go to by train.', 'Locate a train schedule', 'Purchase ticket(s) for train', 'Secure transportation to the train station', 'Use transportation to train station.', 'Ensure transportation is secured in lot.', 'Enter train station through front gate.']","['Determine a location to go to by train.', 'Pray your train is on schedule']",Pray your train is on schedule,1
+0,0.0,[],"['getting into train when arrives', 'going to the train station']",going to the train station,1
+1,0.2,['going to the train station'],"['getting into train when arrives', 'buying a ticket']",buying a ticket,1
+2,0.4,"['going to the train station', 'buying a ticket']","['waiting on train platform for train', 'taking a seat']",waiting on train platform for train,0
+3,0.6,"['going to the train station', 'buying a ticket', 'waiting on train platform for train']","['going to the train station', 'getting into train when arrives']",getting into train when arrives,1
+4,0.8,"['going to the train station', 'buying a ticket', 'waiting on train platform for train', 'getting into train when arrives']","['buying a ticket', 'taking a seat']",taking a seat,1
+0,0.0,[],"['Go to train station', 'Wait for stop']",Go to train station,0
+1,0.14285714285714285,['Go to train station'],"['Buy ticket', 'Buy ticket']",Buy ticket,0
+2,0.2857142857142857,"['Go to train station', 'Buy ticket']","['Wait for train', 'Wait for stop']",Wait for train,0
+3,0.42857142857142855,"['Go to train station', 'Buy ticket', 'Wait for train']","['Get on train', 'Get off train']",Get on train,0
+4,0.5714285714285714,"['Go to train station', 'Buy ticket', 'Wait for train', 'Get on train']","['Sit down', 'Go to train station']",Sit down,0
+5,0.7142857142857143,"['Go to train station', 'Buy ticket', 'Wait for train', 'Get on train', 'Sit down']","['Wait for stop', 'Go to train station']",Wait for stop,0
+6,0.8571428571428571,"['Go to train station', 'Buy ticket', 'Wait for train', 'Get on train', 'Sit down', 'Wait for stop']","['Go to train station', 'Get off train']",Get off train,1
+0,0.0,[],"['Book train tickets', 'Book train tickets']",Book train tickets,1
+1,0.2,['Book train tickets'],"['Pack necessary luggage', 'Pack necessary luggage']",Pack necessary luggage,1
+2,0.4,"['Book train tickets', 'Pack necessary luggage']","['Depart when you arrive', 'Go to train station']",Go to train station,1
+3,0.6,"['Book train tickets', 'Pack necessary luggage', 'Go to train station']","['Book train tickets', 'Get on train']",Get on train,1
+4,0.8,"['Book train tickets', 'Pack necessary luggage', 'Go to train station', 'Get on train']","['Depart when you arrive', 'Pack necessary luggage']",Depart when you arrive,0
+0,0.0,[],"['Decide where to go on a train', 'Sit on the seat']",Decide where to go on a train,0
+1,0.125,['Decide where to go on a train'],"['Purchase ticket for the destination station', 'Relax or read favorite magazine']",Purchase ticket for the destination station,0
+2,0.25,"['Decide where to go on a train', 'Purchase ticket for the destination station']","['Sit on the seat', 'Go to the platform where the train is expected']",Go to the platform where the train is expected,1
+3,0.375,"['Decide where to go on a train', 'Purchase ticket for the destination station', 'Go to the platform where the train is expected']","['When train arrives, ride up the train compartment as per ticket', 'Decide where to go on a train']","When train arrives, ride up the train compartment as per ticket",0
+4,0.5,"['Decide where to go on a train', 'Purchase ticket for the destination station', 'Go to the platform where the train is expected', 'When train arrives, ride up the train compartment as per ticket']","['Sit on the seat', 'Look for the seat number as in ticket']",Look for the seat number as in ticket,1
+5,0.625,"['Decide where to go on a train', 'Purchase ticket for the destination station', 'Go to the platform where the train is expected', 'When train arrives, ride up the train compartment as per ticket', 'Look for the seat number as in ticket']","['Keep bag under the seat', 'Go to the platform where the train is expected']",Keep bag under the seat,0
+6,0.75,"['Decide where to go on a train', 'Purchase ticket for the destination station', 'Go to the platform where the train is expected', 'When train arrives, ride up the train compartment as per ticket', 'Look for the seat number as in ticket', 'Keep bag under the seat']","['When train arrives, ride up the train compartment as per ticket', 'Sit on the seat']",Sit on the seat,1
+7,0.875,"['Decide where to go on a train', 'Purchase ticket for the destination station', 'Go to the platform where the train is expected', 'When train arrives, ride up the train compartment as per ticket', 'Look for the seat number as in ticket', 'Keep bag under the seat', 'Sit on the seat']","['Relax or read favorite magazine', 'Go to the platform where the train is expected']",Relax or read favorite magazine,0
+0,0.0,[],"['Board train', 'Drive to train station']",Drive to train station,1
+1,0.14285714285714285,['Drive to train station'],"['Park car', 'Get out of car']",Park car,0
+2,0.2857142857142857,"['Drive to train station', 'Park car']","['Wait for train to arrive', 'Get out of car']",Get out of car,1
+3,0.42857142857142855,"['Drive to train station', 'Park car', 'Get out of car']","['Board train', 'Walk to ticket counter']",Walk to ticket counter,1
+4,0.5714285714285714,"['Drive to train station', 'Park car', 'Get out of car', 'Walk to ticket counter']","['Board train', 'Buy ticket']",Buy ticket,1
+5,0.7142857142857143,"['Drive to train station', 'Park car', 'Get out of car', 'Walk to ticket counter', 'Buy ticket']","['Wait for train to arrive', 'Park car']",Wait for train to arrive,0
+6,0.8571428571428571,"['Drive to train station', 'Park car', 'Get out of car', 'Walk to ticket counter', 'Buy ticket', 'Wait for train to arrive']","['Get out of car', 'Board train']",Board train,1
+0,0.0,[],"['Get a ticket for the train', 'Get on train']",Get a ticket for the train,0
+1,0.14285714285714285,['Get a ticket for the train'],"['Go to the train station', 'Wait till your stop']",Go to the train station,0
+2,0.2857142857142857,"['Get a ticket for the train', 'Go to the train station']","['Wait for your train to pull up to station', 'Get off train at your stop']",Wait for your train to pull up to station,0
+3,0.42857142857142855,"['Get a ticket for the train', 'Go to the train station', 'Wait for your train to pull up to station']","['Get off train at your stop', 'Get on train']",Get on train,1
+4,0.5714285714285714,"['Get a ticket for the train', 'Go to the train station', 'Wait for your train to pull up to station', 'Get on train']","['Go to the train station', 'Show the ticket checker your ticket']",Show the ticket checker your ticket,1
+5,0.7142857142857143,"['Get a ticket for the train', 'Go to the train station', 'Wait for your train to pull up to station', 'Get on train', 'Show the ticket checker your ticket']","['Wait till your stop', 'Wait for your train to pull up to station']",Wait till your stop,0
+6,0.8571428571428571,"['Get a ticket for the train', 'Go to the train station', 'Wait for your train to pull up to station', 'Get on train', 'Show the ticket checker your ticket', 'Wait till your stop']","['Get off train at your stop', 'Get a ticket for the train']",Get off train at your stop,0
+0,0.0,[],"['ride train', 'Purchase train ticket']",Purchase train ticket,1
+1,0.125,['Purchase train ticket'],"['Look on schedule board for departure information', 'Go to the assigned track']",Look on schedule board for departure information,0
+2,0.25,"['Purchase train ticket', 'Look on schedule board for departure information']","['find a seat', 'Go to the assigned track']",Go to the assigned track,1
+3,0.375,"['Purchase train ticket', 'Look on schedule board for departure information', 'Go to the assigned track']","['Purchase train ticket', 'board train when it arrives']",board train when it arrives,1
+4,0.5,"['Purchase train ticket', 'Look on schedule board for departure information', 'Go to the assigned track', 'board train when it arrives']","['Look on schedule board for departure information', 'show conductor ticket']",show conductor ticket,1
+5,0.625,"['Purchase train ticket', 'Look on schedule board for departure information', 'Go to the assigned track', 'board train when it arrives', 'show conductor ticket']","['find a seat', 'Go to the assigned track']",find a seat,0
+6,0.75,"['Purchase train ticket', 'Look on schedule board for departure information', 'Go to the assigned track', 'board train when it arrives', 'show conductor ticket', 'find a seat']","['ride train', 'Look on schedule board for departure information']",ride train,0
+7,0.875,"['Purchase train ticket', 'Look on schedule board for departure information', 'Go to the assigned track', 'board train when it arrives', 'show conductor ticket', 'find a seat', 'ride train']","['show conductor ticket', 'when train reaches destination, exit train']","when train reaches destination, exit train",1
+0,0.0,[],"['Pay for your ticket', 'Call and check departure time']",Call and check departure time,1
+1,0.2,['Call and check departure time'],"['Pay for your ticket', 'Go to train station']",Go to train station,1
+2,0.4,"['Call and check departure time', 'Go to train station']","['Pay for your ticket', 'enjoy the ride']",Pay for your ticket,0
+3,0.6,"['Call and check departure time', 'Go to train station', 'Pay for your ticket']","['Call and check departure time', 'get on the train']",get on the train,1
+4,0.8,"['Call and check departure time', 'Go to train station', 'Pay for your ticket', 'get on the train']","['enjoy the ride', 'Call and check departure time']",enjoy the ride,0
+0,0.0,[],"['Purchase train ticket for destination', 'Board train and be seated']",Purchase train ticket for destination,0
+1,0.2,['Purchase train ticket for destination'],"['Go to train station a few minutes before scheduled departure', 'Board train and be seated']",Go to train station a few minutes before scheduled departure,0
+2,0.4,"['Purchase train ticket for destination', 'Go to train station a few minutes before scheduled departure']","['Find rail for your train', 'Board train and be seated']",Find rail for your train,0
+3,0.6,"['Purchase train ticket for destination', 'Go to train station a few minutes before scheduled departure', 'Find rail for your train']","['Give ticket to attendant', 'Purchase train ticket for destination']",Give ticket to attendant,0
+4,0.8,"['Purchase train ticket for destination', 'Go to train station a few minutes before scheduled departure', 'Find rail for your train', 'Give ticket to attendant']","['Purchase train ticket for destination', 'Board train and be seated']",Board train and be seated,1
+0,0.0,[],"['Go to train station.', 'Find an empty seat.']",Go to train station.,0
+1,0.14285714285714285,['Go to train station.'],"['When train arrives, board a car.', 'Buy ticket at ticket window.']",Buy ticket at ticket window.,1
+2,0.2857142857142857,"['Go to train station.', 'Buy ticket at ticket window.']","['Wait for correct stop.', 'Go on platform.']",Go on platform.,1
+3,0.42857142857142855,"['Go to train station.', 'Buy ticket at ticket window.', 'Go on platform.']","['Relax.', 'When train arrives, board a car.']","When train arrives, board a car.",1
+4,0.5714285714285714,"['Go to train station.', 'Buy ticket at ticket window.', 'Go on platform.', 'When train arrives, board a car.']","['Find an empty seat.', 'Go to train station.']",Find an empty seat.,0
+5,0.7142857142857143,"['Go to train station.', 'Buy ticket at ticket window.', 'Go on platform.', 'When train arrives, board a car.', 'Find an empty seat.']","['Buy ticket at ticket window.', 'Relax.']",Relax.,1
+6,0.8571428571428571,"['Go to train station.', 'Buy ticket at ticket window.', 'Go on platform.', 'When train arrives, board a car.', 'Find an empty seat.', 'Relax.']","['Buy ticket at ticket window.', 'Wait for correct stop.']",Wait for correct stop.,1
+0,0.0,[],"['Wait at station', 'Get on train']",Wait at station,0
+1,0.14285714285714285,['Wait at station'],"['Train arrives', 'Retrieve ticket from machine']",Retrieve ticket from machine,1
+2,0.2857142857142857,"['Wait at station', 'Retrieve ticket from machine']","['Get off at destination', 'Train arrives']",Train arrives,1
+3,0.42857142857142855,"['Wait at station', 'Retrieve ticket from machine', 'Train arrives']","['Get on train', 'Ride train']",Get on train,0
+4,0.5714285714285714,"['Wait at station', 'Retrieve ticket from machine', 'Train arrives', 'Get on train']","['Swipe ticket', 'Wait at station']",Swipe ticket,0
+5,0.7142857142857143,"['Wait at station', 'Retrieve ticket from machine', 'Train arrives', 'Get on train', 'Swipe ticket']","['Ride train', 'Retrieve ticket from machine']",Ride train,0
+6,0.8571428571428571,"['Wait at station', 'Retrieve ticket from machine', 'Train arrives', 'Get on train', 'Swipe ticket', 'Ride train']","['Get off at destination', 'Train arrives']",Get off at destination,0
+0,0.0,[],"['Go to the railway station', 'Find a vacant window seat']",Go to the railway station,0
+1,0.125,['Go to the railway station'],"['Upon arrival get into the compartment', 'Stand in queue in front of a ticket counter and wait']",Stand in queue in front of a ticket counter and wait,1
+2,0.25,"['Go to the railway station', 'Stand in queue in front of a ticket counter and wait']","['Buy ticket to the travel destination', 'Enjoy the outside sceneries while on the move']",Buy ticket to the travel destination,0
+3,0.375,"['Go to the railway station', 'Stand in queue in front of a ticket counter and wait', 'Buy ticket to the travel destination']","['De-train upon reaching the destination', 'Go to the platform where the train arrives']",Go to the platform where the train arrives,1
+4,0.5,"['Go to the railway station', 'Stand in queue in front of a ticket counter and wait', 'Buy ticket to the travel destination', 'Go to the platform where the train arrives']","['Upon arrival get into the compartment', 'De-train upon reaching the destination']",Upon arrival get into the compartment,0
+5,0.625,"['Go to the railway station', 'Stand in queue in front of a ticket counter and wait', 'Buy ticket to the travel destination', 'Go to the platform where the train arrives', 'Upon arrival get into the compartment']","['Buy ticket to the travel destination', 'Find a vacant window seat']",Find a vacant window seat,1
+6,0.75,"['Go to the railway station', 'Stand in queue in front of a ticket counter and wait', 'Buy ticket to the travel destination', 'Go to the platform where the train arrives', 'Upon arrival get into the compartment', 'Find a vacant window seat']","['Go to the railway station', 'Enjoy the outside sceneries while on the move']",Enjoy the outside sceneries while on the move,1
+7,0.875,"['Go to the railway station', 'Stand in queue in front of a ticket counter and wait', 'Buy ticket to the travel destination', 'Go to the platform where the train arrives', 'Upon arrival get into the compartment', 'Find a vacant window seat', 'Enjoy the outside sceneries while on the move']","['Go to the platform where the train arrives', 'De-train upon reaching the destination']",De-train upon reaching the destination,1
+0,0.0,[],"['Purchase tickets from ticket window', 'Look up train information online']",Look up train information online,1
+1,0.2,['Look up train information online'],"['Purchase tickets from ticket window', 'Go to the train station']",Purchase tickets from ticket window,0
+2,0.4,"['Look up train information online', 'Purchase tickets from ticket window']","['Go to the train station', 'Board train']",Go to the train station,0
+3,0.6,"['Look up train information online', 'Purchase tickets from ticket window', 'Go to the train station']","['Look up train information online', 'Show ticket pass']",Show ticket pass,1
+4,0.8,"['Look up train information online', 'Purchase tickets from ticket window', 'Go to the train station', 'Show ticket pass']","['Board train', 'Purchase tickets from ticket window']",Board train,0
+0,0.0,[],"['Drive to the train station.', 'Drive to the train station.']",Drive to the train station.,0
+1,0.16666666666666666,['Drive to the train station.'],"['Buy a train ticket.', 'Drive to the train station.']",Buy a train ticket.,0
+2,0.3333333333333333,"['Drive to the train station.', 'Buy a train ticket.']","['Walk onto the train.', 'Go to the correct train platform.']",Go to the correct train platform.,1
+3,0.5,"['Drive to the train station.', 'Buy a train ticket.', 'Go to the correct train platform.']","['Wait for the train to arrive.', 'Drive to the train station.']",Wait for the train to arrive.,0
+4,0.6666666666666666,"['Drive to the train station.', 'Buy a train ticket.', 'Go to the correct train platform.', 'Wait for the train to arrive.']","['Walk onto the train.', 'Drive to the train station.']",Walk onto the train.,0
+5,0.8333333333333334,"['Drive to the train station.', 'Buy a train ticket.', 'Go to the correct train platform.', 'Wait for the train to arrive.', 'Walk onto the train.']","['Hand the attendant your ticket.', 'Drive to the train station.']",Hand the attendant your ticket.,0
+0,0.0,[],"['Wait for train', 'Go to train station']",Go to train station,1
+1,0.16666666666666666,['Go to train station'],"['Go to train station', 'Choose a destination']",Choose a destination,1
+2,0.3333333333333333,"['Go to train station', 'Choose a destination']","['Arrive at destination', 'Buy ticket']",Buy ticket,1
+3,0.5,"['Go to train station', 'Choose a destination', 'Buy ticket']","['Wait for train', 'Go to train station']",Wait for train,0
+4,0.6666666666666666,"['Go to train station', 'Choose a destination', 'Buy ticket', 'Wait for train']","['Get in train', 'Choose a destination']",Get in train,0
+5,0.8333333333333334,"['Go to train station', 'Choose a destination', 'Buy ticket', 'Wait for train', 'Get in train']","['Arrive at destination', 'Choose a destination']",Arrive at destination,0
+0,0.0,[],"['Enter train station', 'Enter train station']",Enter train station,1
+1,0.125,['Enter train station'],"['Buy train ticket', 'Find a seat']",Buy train ticket,0
+2,0.25,"['Enter train station', 'Buy train ticket']","['Wait for train', 'Enter train']",Wait for train,0
+3,0.375,"['Enter train station', 'Buy train ticket', 'Wait for train']","['Hand ticket to ticket taker', 'Train arrives']",Train arrives,1
+4,0.5,"['Enter train station', 'Buy train ticket', 'Wait for train', 'Train arrives']","['Enter train', 'Buy train ticket']",Enter train,0
+5,0.625,"['Enter train station', 'Buy train ticket', 'Wait for train', 'Train arrives', 'Enter train']","['Find a seat', 'Enjoy train ride']",Find a seat,0
+6,0.75,"['Enter train station', 'Buy train ticket', 'Wait for train', 'Train arrives', 'Enter train', 'Find a seat']","['Hand ticket to ticket taker', 'Train arrives']",Hand ticket to ticket taker,0
+7,0.875,"['Enter train station', 'Buy train ticket', 'Wait for train', 'Train arrives', 'Enter train', 'Find a seat', 'Hand ticket to ticket taker']","['Enter train', 'Enjoy train ride']",Enjoy train ride,1
+0,0.0,[],"['decide the route you want take', 'wait for train at the platform']",decide the route you want take,0
+1,0.125,['decide the route you want take'],"['go to station', 'give ticket to conductor']",go to station,0
+2,0.25,"['decide the route you want take', 'go to station']","['find a seat', 'purchase tickets']",purchase tickets,1
+3,0.375,"['decide the route you want take', 'go to station', 'purchase tickets']","['wait for train at the platform', 'give ticket to conductor']",wait for train at the platform,0
+4,0.5,"['decide the route you want take', 'go to station', 'purchase tickets', 'wait for train at the platform']","['get on train', 'go to station']",get on train,0
+5,0.625,"['decide the route you want take', 'go to station', 'purchase tickets', 'wait for train at the platform', 'get on train']","['purchase tickets', 'find a seat']",find a seat,1
+6,0.75,"['decide the route you want take', 'go to station', 'purchase tickets', 'wait for train at the platform', 'get on train', 'find a seat']","['decide the route you want take', 'give ticket to conductor']",give ticket to conductor,1
+7,0.875,"['decide the route you want take', 'go to station', 'purchase tickets', 'wait for train at the platform', 'get on train', 'find a seat', 'give ticket to conductor']","['decide the route you want take', 'enjoy the view']",enjoy the view,1
+0,0.0,[],"['purchase a ticket', 'choose a seat']",purchase a ticket,0
+1,0.14285714285714285,['purchase a ticket'],"['wait for the train at the platform', 'wait for the train at the platform']",wait for the train at the platform,1
+2,0.2857142857142857,"['purchase a ticket', 'wait for the train at the platform']","['wait patiently while the train travels', 'when train arrives, board train']","when train arrives, board train",1
+3,0.42857142857142855,"['purchase a ticket', 'wait for the train at the platform', 'when train arrives, board train']","['give ticket to steward when asked', 'wait patiently while the train travels']",give ticket to steward when asked,0
+4,0.5714285714285714,"['purchase a ticket', 'wait for the train at the platform', 'when train arrives, board train', 'give ticket to steward when asked']","['wait for the train at the platform', 'choose a seat']",choose a seat,1
+5,0.7142857142857143,"['purchase a ticket', 'wait for the train at the platform', 'when train arrives, board train', 'give ticket to steward when asked', 'choose a seat']","['wait patiently while the train travels', 'wait for the train at the platform']",wait patiently while the train travels,0
+6,0.8571428571428571,"['purchase a ticket', 'wait for the train at the platform', 'when train arrives, board train', 'give ticket to steward when asked', 'choose a seat', 'wait patiently while the train travels']","['wait for the train at the platform', 'leave train']",leave train,1
+0,0.0,[],"['Sit back and relax.', 'Drive to train station.']",Drive to train station.,1
+1,0.16666666666666666,['Drive to train station.'],"['Purchase train tickets.', 'Sit back and relax.']",Purchase train tickets.,0
+2,0.3333333333333333,"['Drive to train station.', 'Purchase train tickets.']","['Get off at your correct stop.', 'Wait for train to arrive.']",Wait for train to arrive.,1
+3,0.5,"['Drive to train station.', 'Purchase train tickets.', 'Wait for train to arrive.']","['Board train and choose a seat.', 'Drive to train station.']",Board train and choose a seat.,0
+4,0.6666666666666666,"['Drive to train station.', 'Purchase train tickets.', 'Wait for train to arrive.', 'Board train and choose a seat.']","['Sit back and relax.', 'Drive to train station.']",Sit back and relax.,0
+5,0.8333333333333334,"['Drive to train station.', 'Purchase train tickets.', 'Wait for train to arrive.', 'Board train and choose a seat.', 'Sit back and relax.']","['Get off at your correct stop.', 'Drive to train station.']",Get off at your correct stop.,0
+0,0.0,[],"['Purchase ticket', 'Get to station']",Get to station,1
+1,0.125,['Get to station'],"['Enter into the railway station', 'Enter into the railway station']",Enter into the railway station,1
+2,0.25,"['Get to station', 'Enter into the railway station']","['Wait in line', 'Leave to designated area']",Wait in line,0
+3,0.375,"['Get to station', 'Enter into the railway station', 'Wait in line']","['Wait for train', 'Get to ticket booth']",Get to ticket booth,1
+4,0.5,"['Get to station', 'Enter into the railway station', 'Wait in line', 'Get to ticket booth']","['Board train when it arrives', 'Purchase ticket']",Purchase ticket,1
+5,0.625,"['Get to station', 'Enter into the railway station', 'Wait in line', 'Get to ticket booth', 'Purchase ticket']","['Get to station', 'Leave to designated area']",Leave to designated area,1
+6,0.75,"['Get to station', 'Enter into the railway station', 'Wait in line', 'Get to ticket booth', 'Purchase ticket', 'Leave to designated area']","['Wait in line', 'Wait for train']",Wait for train,1
+7,0.875,"['Get to station', 'Enter into the railway station', 'Wait in line', 'Get to ticket booth', 'Purchase ticket', 'Leave to designated area', 'Wait for train']","['Board train when it arrives', 'Enter into the railway station']",Board train when it arrives,0
+0,0.0,[],"['Walk to the subway.', 'Get on train.']",Walk to the subway.,0
+1,0.16666666666666666,['Walk to the subway.'],"['Pay for train ticket.', 'Get in line.']",Get in line.,1
+2,0.3333333333333333,"['Walk to the subway.', 'Get in line.']","['Get on train.', 'Pay for train ticket.']",Pay for train ticket.,1
+3,0.5,"['Walk to the subway.', 'Get in line.', 'Pay for train ticket.']","['Walk through roundabout.', 'Walk to the subway.']",Walk through roundabout.,0
+4,0.6666666666666666,"['Walk to the subway.', 'Get in line.', 'Pay for train ticket.', 'Walk through roundabout.']","['Get in line.', 'Wait for train.']",Wait for train.,1
+5,0.8333333333333334,"['Walk to the subway.', 'Get in line.', 'Pay for train ticket.', 'Walk through roundabout.', 'Wait for train.']","['Get on train.', 'Pay for train ticket.']",Get on train.,0
+0,0.0,[],"['Get dressed.', 'Go to the car.']",Get dressed.,0
+1,0.16666666666666666,['Get dressed.'],"['Board train', 'Go to the car.']",Go to the car.,1
+2,0.3333333333333333,"['Get dressed.', 'Go to the car.']","['Board train', 'Drive to the train station']",Drive to the train station,1
+3,0.5,"['Get dressed.', 'Go to the car.', 'Drive to the train station']","['Pay for the ticket', 'Get dressed.']",Pay for the ticket,0
+4,0.6666666666666666,"['Get dressed.', 'Go to the car.', 'Drive to the train station', 'Pay for the ticket']","['Wait for the train', 'Get dressed.']",Wait for the train,0
+5,0.8333333333333334,"['Get dressed.', 'Go to the car.', 'Drive to the train station', 'Pay for the ticket', 'Wait for the train']","['Board train', 'Drive to the train station']",Board train,0
+0,0.0,[],"['Go to station', 'Go to station']",Go to station,0
+1,0.125,['Go to station'],"['Ride and enjoy the countryside', 'Buy a ticket at the window']",Buy a ticket at the window,1
+2,0.25,"['Go to station', 'Buy a ticket at the window']","['Give ticket to conductor', 'Wait on platform for train']",Wait on platform for train,1
+3,0.375,"['Go to station', 'Buy a ticket at the window', 'Wait on platform for train']","['Give ticket to conductor', 'Get on train']",Get on train,1
+4,0.5,"['Go to station', 'Buy a ticket at the window', 'Wait on platform for train', 'Get on train']","['Find a seat', 'Arrive']",Find a seat,0
+5,0.625,"['Go to station', 'Buy a ticket at the window', 'Wait on platform for train', 'Get on train', 'Find a seat']","['Arrive', 'Give ticket to conductor']",Give ticket to conductor,1
+6,0.75,"['Go to station', 'Buy a ticket at the window', 'Wait on platform for train', 'Get on train', 'Find a seat', 'Give ticket to conductor']","['Go to station', 'Ride and enjoy the countryside']",Ride and enjoy the countryside,1
+7,0.875,"['Go to station', 'Buy a ticket at the window', 'Wait on platform for train', 'Get on train', 'Find a seat', 'Give ticket to conductor', 'Ride and enjoy the countryside']","['Arrive', 'Get on train']",Arrive,0
+0,0.0,[],"['find a seat', 'drive to train station']",drive to train station,1
+1,0.125,['drive to train station'],"['buy ticket', 'arrive at destination']",buy ticket,0
+2,0.25,"['drive to train station', 'buy ticket']","['find a seat', 'wait for train']",wait for train,1
+3,0.375,"['drive to train station', 'buy ticket', 'wait for train']","['drive to train station', 'wait ']",wait ,1
+4,0.5,"['drive to train station', 'buy ticket', 'wait for train', 'wait ']","['give conductor ticket', 'arrive at destination']",give conductor ticket,0
+5,0.625,"['drive to train station', 'buy ticket', 'wait for train', 'wait ', 'give conductor ticket']","['buy ticket', 'find a seat']",find a seat,1
+6,0.75,"['drive to train station', 'buy ticket', 'wait for train', 'wait ', 'give conductor ticket', 'find a seat']","['buy ticket', 'sit down']",sit down,1
+7,0.875,"['drive to train station', 'buy ticket', 'wait for train', 'wait ', 'give conductor ticket', 'find a seat', 'sit down']","['arrive at destination', 'wait ']",arrive at destination,0
+0,0.0,[],"['enter train', 'arrive train station']",arrive train station,1
+1,0.2,['arrive train station'],"['wait for train', 'find seat']",wait for train,0
+2,0.4,"['arrive train station', 'wait for train']","['enjoy ride', 'enter train']",enter train,1
+3,0.6,"['arrive train station', 'wait for train', 'enter train']","['arrive train station', 'find seat']",find seat,1
+4,0.8,"['arrive train station', 'wait for train', 'enter train', 'find seat']","['enjoy ride', 'wait for train']",enjoy ride,0
+0,0.0,[],"['Enter the train station', 'walk to the train platform']",Enter the train station,0
+1,0.125,['Enter the train station'],"['Get tickets from ticket counter', 'get on train.']",Get tickets from ticket counter,0
+2,0.25,"['Enter the train station', 'Get tickets from ticket counter']","['step up to train', 'find out what platform the train will be on']",find out what platform the train will be on,1
+3,0.375,"['Enter the train station', 'Get tickets from ticket counter', 'find out what platform the train will be on']","['hand your ticket to the conductor', 'walk to the train platform']",walk to the train platform,1
+4,0.5,"['Enter the train station', 'Get tickets from ticket counter', 'find out what platform the train will be on', 'walk to the train platform']","['wait until time to board train', 'Get tickets from ticket counter']",wait until time to board train,0
+5,0.625,"['Enter the train station', 'Get tickets from ticket counter', 'find out what platform the train will be on', 'walk to the train platform', 'wait until time to board train']","['step up to train', 'find out what platform the train will be on']",step up to train,0
+6,0.75,"['Enter the train station', 'Get tickets from ticket counter', 'find out what platform the train will be on', 'walk to the train platform', 'wait until time to board train', 'step up to train']","['hand your ticket to the conductor', 'Get tickets from ticket counter']",hand your ticket to the conductor,0
+7,0.875,"['Enter the train station', 'Get tickets from ticket counter', 'find out what platform the train will be on', 'walk to the train platform', 'wait until time to board train', 'step up to train', 'hand your ticket to the conductor']","['get on train.', 'wait until time to board train']",get on train.,0
+0,0.0,[],"['get dress and go to train station', 'wait for boarding time for train']",get dress and go to train station,0
+1,0.16666666666666666,['get dress and go to train station'],"['go to ticket window', 'wait for boarding time for train']",go to ticket window,0
+2,0.3333333333333333,"['get dress and go to train station', 'go to ticket window']","['wait for boarding time for train', 'tell the clerk where you want to travel to']",tell the clerk where you want to travel to,1
+3,0.5,"['get dress and go to train station', 'go to ticket window', 'tell the clerk where you want to travel to']","['get on the train and enjoy', 'pay the clerk for ticket']",pay the clerk for ticket,1
+4,0.6666666666666666,"['get dress and go to train station', 'go to ticket window', 'tell the clerk where you want to travel to', 'pay the clerk for ticket']","['wait for boarding time for train', 'get dress and go to train station']",wait for boarding time for train,0
+5,0.8333333333333334,"['get dress and go to train station', 'go to ticket window', 'tell the clerk where you want to travel to', 'pay the clerk for ticket', 'wait for boarding time for train']","['get on the train and enjoy', 'get dress and go to train station']",get on the train and enjoy,0
+0,0.0,[],"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.']",First you have to plan where you want to go.,0
+1,0.125,['First you have to plan where you want to go.'],"['Then, you have to buy your ticket.', 'You ride the train to your destination.']","Then, you have to buy your ticket.",0
+2,0.25,"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.']","[""If you're going on a long trip, you may receive a meal."", 'Then, you have to buy your ticket.']","Then, you have to buy your ticket.",1
+3,0.375,"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.', 'Then, you have to buy your ticket.']","['You board your train and find your seat.', 'You have to pack your bags and go to train station.']",You have to pack your bags and go to train station.,1
+4,0.5,"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.', 'Then, you have to buy your ticket.', 'You have to pack your bags and go to train station.']","['Then, you have to buy your ticket.', 'Next, you check in and wait to board your plane.']","Next, you check in and wait to board your plane.",1
+5,0.625,"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.', 'Then, you have to buy your ticket.', 'You have to pack your bags and go to train station.', 'Next, you check in and wait to board your plane.']","['Then, you have to buy your ticket.', 'You board your train and find your seat.']",You board your train and find your seat.,1
+6,0.75,"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.', 'Then, you have to buy your ticket.', 'You have to pack your bags and go to train station.', 'Next, you check in and wait to board your plane.', 'You board your train and find your seat.']","['You ride the train to your destination.', 'Then, you have to buy your ticket.']",You ride the train to your destination.,0
+7,0.875,"['First you have to plan where you want to go.', 'Then, you have to buy your ticket.', 'Then, you have to buy your ticket.', 'You have to pack your bags and go to train station.', 'Next, you check in and wait to board your plane.', 'You board your train and find your seat.', 'You ride the train to your destination.']","['First you have to plan where you want to go.', ""If you're going on a long trip, you may receive a meal.""]","If you're going on a long trip, you may receive a meal.",1
+0,0.0,[],"['Packing/Gathering luggage.', 'Giving ticket to conductor/ticket taker.']",Packing/Gathering luggage.,0
+1,0.16666666666666666,['Packing/Gathering luggage.'],"['Gathering ticket and required identification.', 'Gathering ticket and required identification.']",Gathering ticket and required identification.,1
+2,0.3333333333333333,"['Packing/Gathering luggage.', 'Gathering ticket and required identification.']","['Driving to the train station.', 'Relax while you reach your destination.']",Driving to the train station.,0
+3,0.5,"['Packing/Gathering luggage.', 'Gathering ticket and required identification.', 'Driving to the train station.']","['Packing/Gathering luggage.', 'Giving ticket to conductor/ticket taker.']",Giving ticket to conductor/ticket taker.,1
+4,0.6666666666666666,"['Packing/Gathering luggage.', 'Gathering ticket and required identification.', 'Driving to the train station.', 'Giving ticket to conductor/ticket taker.']","['Board the train.', 'Gathering ticket and required identification.']",Board the train.,0
+5,0.8333333333333334,"['Packing/Gathering luggage.', 'Gathering ticket and required identification.', 'Driving to the train station.', 'Giving ticket to conductor/ticket taker.', 'Board the train.']","['Gathering ticket and required identification.', 'Relax while you reach your destination.']",Relax while you reach your destination.,1
+0,0.0,[],"['Find correct seat', 'Drive to station']",Drive to station,1
+1,0.125,['Drive to station'],"['Park at station', 'Purchase train tickets']",Park at station,0
+2,0.25,"['Drive to station', 'Park at station']","['Enter train', 'Walk into station']",Walk into station,1
+3,0.375,"['Drive to station', 'Park at station', 'Walk into station']","['Enter train', 'Purchase train tickets']",Purchase train tickets,1
+4,0.5,"['Drive to station', 'Park at station', 'Walk into station', 'Purchase train tickets']","['Park at station', 'Walk to correct platform']",Walk to correct platform,1
+5,0.625,"['Drive to station', 'Park at station', 'Walk into station', 'Purchase train tickets', 'Walk to correct platform']","['Walk into station', 'Wait for train']",Wait for train,1
+6,0.75,"['Drive to station', 'Park at station', 'Walk into station', 'Purchase train tickets', 'Walk to correct platform', 'Wait for train']","['Walk into station', 'Enter train']",Enter train,1
+7,0.875,"['Drive to station', 'Park at station', 'Walk into station', 'Purchase train tickets', 'Walk to correct platform', 'Wait for train', 'Enter train']","['Find correct seat', 'Walk into station']",Find correct seat,0
+0,0.0,[],"['Pay for the ticket at the ticket counter', 'Find the nearest train station']",Find the nearest train station,1
+1,0.2,['Find the nearest train station'],"['Look at all the times and pick a destination', 'Look at all the times and pick a destination']",Look at all the times and pick a destination,1
+2,0.4,"['Find the nearest train station', 'Look at all the times and pick a destination']","['Pay for the ticket at the ticket counter', 'Enjoy the ride on the train']",Pay for the ticket at the ticket counter,0
+3,0.6,"['Find the nearest train station', 'Look at all the times and pick a destination', 'Pay for the ticket at the ticket counter']","['Board the train', 'Find the nearest train station']",Board the train,0
+4,0.8,"['Find the nearest train station', 'Look at all the times and pick a destination', 'Pay for the ticket at the ticket counter', 'Board the train']","['Enjoy the ride on the train', 'Find the nearest train station']",Enjoy the ride on the train,0
+0,0.0,[],"['Go to train station.', 'Go to train station.']",Go to train station.,1
+1,0.2,['Go to train station.'],"['Go to train station.', 'Buy ticket.']",Buy ticket.,1
+2,0.4,"['Go to train station.', 'Buy ticket.']","['Sit down and ride.', 'Wait in line to board.']",Wait in line to board.,1
+3,0.6,"['Go to train station.', 'Buy ticket.', 'Wait in line to board.']","['Board train.', 'Go to train station.']",Board train.,0
+4,0.8,"['Go to train station.', 'Buy ticket.', 'Wait in line to board.', 'Board train.']","['Buy ticket.', 'Sit down and ride.']",Sit down and ride.,1
+0,0.0,[],"['ride to your stop', 'get to train stop']",get to train stop,1
+1,0.16666666666666666,['get to train stop'],"['find seat', 'buy pass']",buy pass,1
+2,0.3333333333333333,"['get to train stop', 'buy pass']","['ride to your stop', 'get on train']",get on train,1
+3,0.5,"['get to train stop', 'buy pass', 'get on train']","['get to train stop', 'find seat']",find seat,1
+4,0.6666666666666666,"['get to train stop', 'buy pass', 'get on train', 'find seat']","['get to train stop', 'ride to your stop']",ride to your stop,1
+5,0.8333333333333334,"['get to train stop', 'buy pass', 'get on train', 'find seat', 'ride to your stop']","['get off train', 'get to train stop']",get off train,0
+0,0.0,[],"['Obtain train ticket', 'Place luggage down']",Obtain train ticket,0
+1,0.125,['Obtain train ticket'],"['Place luggage down', 'Drive to train station']",Drive to train station,1
+2,0.25,"['Obtain train ticket', 'Drive to train station']","['Get off train', 'Show receptionist train ticket']",Show receptionist train ticket,1
+3,0.375,"['Obtain train ticket', 'Drive to train station', 'Show receptionist train ticket']","['Get on train', 'Place luggage down']",Get on train,0
+4,0.5,"['Obtain train ticket', 'Drive to train station', 'Show receptionist train ticket', 'Get on train']","['Find a seat', 'Obtain train ticket']",Find a seat,0
+5,0.625,"['Obtain train ticket', 'Drive to train station', 'Show receptionist train ticket', 'Get on train', 'Find a seat']","['Get off train', 'Place luggage down']",Place luggage down,1
+6,0.75,"['Obtain train ticket', 'Drive to train station', 'Show receptionist train ticket', 'Get on train', 'Find a seat', 'Place luggage down']","['Arrive at destination', 'Show receptionist train ticket']",Arrive at destination,0
+7,0.875,"['Obtain train ticket', 'Drive to train station', 'Show receptionist train ticket', 'Get on train', 'Find a seat', 'Place luggage down', 'Arrive at destination']","['Get off train', 'Show receptionist train ticket']",Get off train,0
+0,0.0,[],"['Get a snack for the train ride.', 'Purchase train ticket.']",Purchase train ticket.,1
+1,0.125,['Purchase train ticket.'],"['Purchase train ticket.', 'Pack clothes.']",Pack clothes.,1
+2,0.25,"['Purchase train ticket.', 'Pack clothes.']","['Get a snack for the train ride.', 'Find a seat.']",Get a snack for the train ride.,0
+3,0.375,"['Purchase train ticket.', 'Pack clothes.', 'Get a snack for the train ride.']","['Give ticket to conductor.', 'Go to train station.']",Go to train station.,1
+4,0.5,"['Purchase train ticket.', 'Pack clothes.', 'Get a snack for the train ride.', 'Go to train station.']","['Purchase train ticket.', 'Board train.']",Board train.,1
+5,0.625,"['Purchase train ticket.', 'Pack clothes.', 'Get a snack for the train ride.', 'Go to train station.', 'Board train.']","['Give ticket to conductor.', 'Pack clothes.']",Give ticket to conductor.,0
+6,0.75,"['Purchase train ticket.', 'Pack clothes.', 'Get a snack for the train ride.', 'Go to train station.', 'Board train.', 'Give ticket to conductor.']","['Find a seat.', 'Get a snack for the train ride.']",Find a seat.,0
+7,0.875,"['Purchase train ticket.', 'Pack clothes.', 'Get a snack for the train ride.', 'Go to train station.', 'Board train.', 'Give ticket to conductor.', 'Find a seat.']","['Wait until you reach your destination.', 'Pack clothes.']",Wait until you reach your destination.,0
+0,0.0,[],"['Check train schedule', 'Get off at correct destination']",Check train schedule,0
+1,0.14285714285714285,['Check train schedule'],"['Sit down and enjoy the ride', 'Purchase ticket']",Purchase ticket,1
+2,0.2857142857142857,"['Check train schedule', 'Purchase ticket']","['Give ticket to the attendant', 'Sit down and enjoy the ride']",Give ticket to the attendant,0
+3,0.42857142857142855,"['Check train schedule', 'Purchase ticket', 'Give ticket to the attendant']","['Get on the correct train', 'Get off at correct destination']",Get on the correct train,0
+4,0.5714285714285714,"['Check train schedule', 'Purchase ticket', 'Give ticket to the attendant', 'Get on the correct train']","['Find a seat', 'Purchase ticket']",Find a seat,0
+5,0.7142857142857143,"['Check train schedule', 'Purchase ticket', 'Give ticket to the attendant', 'Get on the correct train', 'Find a seat']","['Sit down and enjoy the ride', 'Give ticket to the attendant']",Sit down and enjoy the ride,0
+6,0.8571428571428571,"['Check train schedule', 'Purchase ticket', 'Give ticket to the attendant', 'Get on the correct train', 'Find a seat', 'Sit down and enjoy the ride']","['Get off at correct destination', 'Check train schedule']",Get off at correct destination,0
+0,0.0,[],"['Buy ticket to train.', 'Find a seat.']",Buy ticket to train.,0
+1,0.16666666666666666,['Buy ticket to train.'],"['Give ticket to conductor.', 'Buy ticket to train.']",Give ticket to conductor.,0
+2,0.3333333333333333,"['Buy ticket to train.', 'Give ticket to conductor.']","['Board train.', 'Enjoy train ride.']",Board train.,0
+3,0.5,"['Buy ticket to train.', 'Give ticket to conductor.', 'Board train.']","['Leave train at destination.', 'Find a seat.']",Find a seat.,1
+4,0.6666666666666666,"['Buy ticket to train.', 'Give ticket to conductor.', 'Board train.', 'Find a seat.']","['Give ticket to conductor.', 'Enjoy train ride.']",Enjoy train ride.,1
+5,0.8333333333333334,"['Buy ticket to train.', 'Give ticket to conductor.', 'Board train.', 'Find a seat.', 'Enjoy train ride.']","['Buy ticket to train.', 'Leave train at destination.']",Leave train at destination.,1
+0,0.0,[],"['Purchase ticket', 'Go to station']",Go to station,1
+1,0.125,['Go to station'],"['Go to station', 'Go to ticket office']",Go to ticket office,1
+2,0.25,"['Go to station', 'Go to ticket office']","['Purchase ticket', 'Wait for train']",Purchase ticket,0
+3,0.375,"['Go to station', 'Go to ticket office', 'Purchase ticket']","['Find a seat', 'Go to platform']",Go to platform,1
+4,0.5,"['Go to station', 'Go to ticket office', 'Purchase ticket', 'Go to platform']","['Wait for train', 'Find a seat']",Wait for train,0
+5,0.625,"['Go to station', 'Go to ticket office', 'Purchase ticket', 'Go to platform', 'Wait for train']","['Wait until your station', 'When train arrives, get on train']","When train arrives, get on train",1
+6,0.75,"['Go to station', 'Go to ticket office', 'Purchase ticket', 'Go to platform', 'Wait for train', 'When train arrives, get on train']","['Find a seat', 'Purchase ticket']",Find a seat,0
+7,0.875,"['Go to station', 'Go to ticket office', 'Purchase ticket', 'Go to platform', 'Wait for train', 'When train arrives, get on train', 'Find a seat']","['Wait until your station', 'Purchase ticket']",Wait until your station,0
+0,0.0,[],"['wait at train stop', 'wait at train stop']",wait at train stop,0
+1,0.16666666666666666,['wait at train stop'],"['board correct train', 'listen to music or read etc while riding']",board correct train,0
+2,0.3333333333333333,"['wait at train stop', 'board correct train']","[""look at window if you haven't seen the surroundings"", 'find a seat or stand']",find a seat or stand,1
+3,0.5,"['wait at train stop', 'board correct train', 'find a seat or stand']","['exit train at correct stop', 'listen to music or read etc while riding']",listen to music or read etc while riding,1
+4,0.6666666666666666,"['wait at train stop', 'board correct train', 'find a seat or stand', 'listen to music or read etc while riding']","[""look at window if you haven't seen the surroundings"", 'board correct train']",look at window if you haven't seen the surroundings,0
+5,0.8333333333333334,"['wait at train stop', 'board correct train', 'find a seat or stand', 'listen to music or read etc while riding', ""look at window if you haven't seen the surroundings""]","['exit train at correct stop', 'wait at train stop']",exit train at correct stop,0
+0,0.0,[],"['Purchase ticket', 'Pack bags']",Pack bags,1
+1,0.125,['Pack bags'],"['Pack bags', 'Go to train station']",Go to train station,1
+2,0.25,"['Pack bags', 'Go to train station']","['Purchase ticket', 'Order meal']",Purchase ticket,0
+3,0.375,"['Pack bags', 'Go to train station', 'Purchase ticket']","['Look out window', 'Get on train']",Get on train,1
+4,0.5,"['Pack bags', 'Go to train station', 'Purchase ticket', 'Get on train']","['Find seat', 'Go to train station']",Find seat,0
+5,0.625,"['Pack bags', 'Go to train station', 'Purchase ticket', 'Get on train', 'Find seat']","['Sit and relax', 'Go to train station']",Sit and relax,0
+6,0.75,"['Pack bags', 'Go to train station', 'Purchase ticket', 'Get on train', 'Find seat', 'Sit and relax']","['Look out window', 'Pack bags']",Look out window,0
+7,0.875,"['Pack bags', 'Go to train station', 'Purchase ticket', 'Get on train', 'Find seat', 'Sit and relax', 'Look out window']","['Order meal', 'Pack bags']",Order meal,0
+0,0.0,[],"['board train', 'go to train station']",go to train station,1
+1,0.14285714285714285,['go to train station'],"['purchase tickets', 'arrive at destination']",purchase tickets,0
+2,0.2857142857142857,"['go to train station', 'purchase tickets']","['wait for train', 'disembark train']",wait for train,0
+3,0.42857142857142855,"['go to train station', 'purchase tickets', 'wait for train']","['disembark train', 'board train']",board train,1
+4,0.5714285714285714,"['go to train station', 'purchase tickets', 'wait for train', 'board train']","['ride train', 'purchase tickets']",ride train,0
+5,0.7142857142857143,"['go to train station', 'purchase tickets', 'wait for train', 'board train', 'ride train']","['arrive at destination', 'purchase tickets']",arrive at destination,0
+6,0.8571428571428571,"['go to train station', 'purchase tickets', 'wait for train', 'board train', 'ride train', 'arrive at destination']","['go to train station', 'disembark train']",disembark train,1
+0,0.0,[],"['Go to the train station', 'Go to my destination']",Go to the train station,0
+1,0.2,['Go to the train station'],"['Get on my train', 'Buy a ticket']",Buy a ticket,1
+2,0.4,"['Go to the train station', 'Buy a ticket']","['Go to my destination', 'Wait for my train']",Wait for my train,1
+3,0.6,"['Go to the train station', 'Buy a ticket', 'Wait for my train']","['Go to the train station', 'Get on my train']",Get on my train,1
+4,0.8,"['Go to the train station', 'Buy a ticket', 'Wait for my train', 'Get on my train']","['Go to my destination', 'Buy a ticket']",Go to my destination,0
+0,0.0,[],"['GET TO STATION', 'BOARD TRAIN']",GET TO STATION,0
+1,0.14285714285714285,['GET TO STATION'],"['PURCHASE TICKET', 'BOARD TRAIN']",PURCHASE TICKET,0
+2,0.2857142857142857,"['GET TO STATION', 'PURCHASE TICKET']","['SIT DOWN', 'CHECK TRAIN TIME']",CHECK TRAIN TIME,1
+3,0.42857142857142855,"['GET TO STATION', 'PURCHASE TICKET', 'CHECK TRAIN TIME']","['WAIT FOR TRAIN TO ARRIVE', 'GET TO STATION']",WAIT FOR TRAIN TO ARRIVE,0
+4,0.5714285714285714,"['GET TO STATION', 'PURCHASE TICKET', 'CHECK TRAIN TIME', 'WAIT FOR TRAIN TO ARRIVE']","['SIT DOWN', 'BOARD TRAIN']",BOARD TRAIN,1
+5,0.7142857142857143,"['GET TO STATION', 'PURCHASE TICKET', 'CHECK TRAIN TIME', 'WAIT FOR TRAIN TO ARRIVE', 'BOARD TRAIN']","['FIND SEAT', 'CHECK TRAIN TIME']",FIND SEAT,0
+6,0.8571428571428571,"['GET TO STATION', 'PURCHASE TICKET', 'CHECK TRAIN TIME', 'WAIT FOR TRAIN TO ARRIVE', 'BOARD TRAIN', 'FIND SEAT']","['WAIT FOR TRAIN TO ARRIVE', 'SIT DOWN']",SIT DOWN,1
+0,0.0,[],"['sit', 'go to train station']",go to train station,1
+1,0.125,['go to train station'],"['buy ticket', 'get off train']",buy ticket,0
+2,0.25,"['go to train station', 'buy ticket']","['wait for train', 'get off train']",wait for train,0
+3,0.375,"['go to train station', 'buy ticket', 'wait for train']","['go to train station', 'get on train']",get on train,1
+4,0.5,"['go to train station', 'buy ticket', 'wait for train', 'get on train']","['repeat for return trip if needed', 'sit']",sit,1
+5,0.625,"['go to train station', 'buy ticket', 'wait for train', 'get on train', 'sit']","['repeat for return trip if needed', 'wait until train reaches destination']",wait until train reaches destination,1
+6,0.75,"['go to train station', 'buy ticket', 'wait for train', 'get on train', 'sit', 'wait until train reaches destination']","['buy ticket', 'get off train']",get off train,1
+7,0.875,"['go to train station', 'buy ticket', 'wait for train', 'get on train', 'sit', 'wait until train reaches destination', 'get off train']","['repeat for return trip if needed', 'go to train station']",repeat for return trip if needed,0
+0,0.0,[],"['Go to the train station', 'get off at destination']",Go to the train station,0
+1,0.14285714285714285,['Go to the train station'],"['sit or stand and wait for your train', 'enjoy train ride']",sit or stand and wait for your train,0
+2,0.2857142857142857,"['Go to the train station', 'sit or stand and wait for your train']","['when the train comes , get up and enter the train', 'enjoy train ride']","when the train comes , get up and enter the train",0
+3,0.42857142857142855,"['Go to the train station', 'sit or stand and wait for your train', 'when the train comes , get up and enter the train']","['Go to the train station', 'sit down']",sit down,1
+4,0.5714285714285714,"['Go to the train station', 'sit or stand and wait for your train', 'when the train comes , get up and enter the train', 'sit down']","['Go to the train station', 'wait for attendant to walk by and pay for your ticket']",wait for attendant to walk by and pay for your ticket,1
+5,0.7142857142857143,"['Go to the train station', 'sit or stand and wait for your train', 'when the train comes , get up and enter the train', 'sit down', 'wait for attendant to walk by and pay for your ticket']","['enjoy train ride', 'when the train comes , get up and enter the train']",enjoy train ride,0
+6,0.8571428571428571,"['Go to the train station', 'sit or stand and wait for your train', 'when the train comes , get up and enter the train', 'sit down', 'wait for attendant to walk by and pay for your ticket', 'enjoy train ride']","['get off at destination', 'sit down']",get off at destination,0
+0,0.0,[],"['Arrive at the station.', 'Enjoy the journey.']",Arrive at the station.,0
+1,0.2,['Arrive at the station.'],"['Board train.', 'Purchase ticket.']",Purchase ticket.,1
+2,0.4,"['Arrive at the station.', 'Purchase ticket.']","['Enjoy the journey.', 'Wait on platform.']",Wait on platform.,1
+3,0.6,"['Arrive at the station.', 'Purchase ticket.', 'Wait on platform.']","['Arrive at the station.', 'Board train.']",Board train.,1
+4,0.8,"['Arrive at the station.', 'Purchase ticket.', 'Wait on platform.', 'Board train.']","['Purchase ticket.', 'Enjoy the journey.']",Enjoy the journey.,1
+0,0.0,[],"['Plan your train trip.', 'Enter the appropriate train car.']",Plan your train trip.,0
+1,0.125,['Plan your train trip.'],"['Find the correct platform.', 'Go to the station.']",Go to the station.,1
+2,0.25,"['Plan your train trip.', 'Go to the station.']","['Purchase your train ticket.', 'Find your seat or compartment.']",Purchase your train ticket.,0
+3,0.375,"['Plan your train trip.', 'Go to the station.', 'Purchase your train ticket.']","['Find the correct platform.', 'Plan your train trip.']",Find the correct platform.,0
+4,0.5,"['Plan your train trip.', 'Go to the station.', 'Purchase your train ticket.', 'Find the correct platform.']","['Wait for your train to arrive.', 'Enjoy the train trip.']",Wait for your train to arrive.,0
+5,0.625,"['Plan your train trip.', 'Go to the station.', 'Purchase your train ticket.', 'Find the correct platform.', 'Wait for your train to arrive.']","['Enjoy the train trip.', 'Enter the appropriate train car.']",Enter the appropriate train car.,1
+6,0.75,"['Plan your train trip.', 'Go to the station.', 'Purchase your train ticket.', 'Find the correct platform.', 'Wait for your train to arrive.', 'Enter the appropriate train car.']","['Purchase your train ticket.', 'Find your seat or compartment.']",Find your seat or compartment.,1
+7,0.875,"['Plan your train trip.', 'Go to the station.', 'Purchase your train ticket.', 'Find the correct platform.', 'Wait for your train to arrive.', 'Enter the appropriate train car.', 'Find your seat or compartment.']","['Enjoy the train trip.', 'Purchase your train ticket.']",Enjoy the train trip.,0
+0,0.0,[],"['Check train schedule for departure time', 'Leave train']",Check train schedule for departure time,0
+1,0.125,['Check train schedule for departure time'],"['Arrive at train station', 'Find correct seat']",Arrive at train station,0
+2,0.25,"['Check train schedule for departure time', 'Arrive at train station']","['Buy ticket for train', 'Leave train']",Buy ticket for train,0
+3,0.375,"['Check train schedule for departure time', 'Arrive at train station', 'Buy ticket for train']","['Present ticket to clerk', 'Leave train']",Present ticket to clerk,0
+4,0.5,"['Check train schedule for departure time', 'Arrive at train station', 'Buy ticket for train', 'Present ticket to clerk']","['Board train', 'Leave train']",Board train,0
+5,0.625,"['Check train schedule for departure time', 'Arrive at train station', 'Buy ticket for train', 'Present ticket to clerk', 'Board train']","['Leave train', 'Find correct seat']",Find correct seat,1
+6,0.75,"['Check train schedule for departure time', 'Arrive at train station', 'Buy ticket for train', 'Present ticket to clerk', 'Board train', 'Find correct seat']","['Check train schedule for departure time', 'Enjoy train ride']",Enjoy train ride,1
+7,0.875,"['Check train schedule for departure time', 'Arrive at train station', 'Buy ticket for train', 'Present ticket to clerk', 'Board train', 'Find correct seat', 'Enjoy train ride']","['Board train', 'Leave train']",Leave train,1
+0,0.0,[],"['drive to train station', 'drive to train station']",drive to train station,1
+1,0.125,['drive to train station'],"['go to attendant and buy ticket', 'look at schedule on monitor']",look at schedule on monitor,1
+2,0.25,"['drive to train station', 'look at schedule on monitor']","['when train arrives, present ticket to employee', 'choose destination']",choose destination,1
+3,0.375,"['drive to train station', 'look at schedule on monitor', 'choose destination']","['drive to train station', 'go to attendant and buy ticket']",go to attendant and buy ticket,1
+4,0.5,"['drive to train station', 'look at schedule on monitor', 'choose destination', 'go to attendant and buy ticket']","['walk to loading station', 'when train arrives, present ticket to employee']",walk to loading station,0
+5,0.625,"['drive to train station', 'look at schedule on monitor', 'choose destination', 'go to attendant and buy ticket', 'walk to loading station']","['choose destination', 'await for train to arrive']",await for train to arrive,1
+6,0.75,"['drive to train station', 'look at schedule on monitor', 'choose destination', 'go to attendant and buy ticket', 'walk to loading station', 'await for train to arrive']","['look at schedule on monitor', 'when train arrives, present ticket to employee']","when train arrives, present ticket to employee",1
+7,0.875,"['drive to train station', 'look at schedule on monitor', 'choose destination', 'go to attendant and buy ticket', 'walk to loading station', 'await for train to arrive', 'when train arrives, present ticket to employee']","['board train', 'look at schedule on monitor']",board train,0
+0,0.0,[],"['Find seat', 'Go to train station']",Go to train station,1
+1,0.125,['Go to train station'],"['Go to train station', 'Buy train ticket']",Buy train ticket,1
+2,0.25,"['Go to train station', 'Buy train ticket']","['Wait for person to come take your ticket', 'Wait for train to arrive']",Wait for train to arrive,1
+3,0.375,"['Go to train station', 'Buy train ticket', 'Wait for train to arrive']","['Get onto train', 'Go to train station']",Get onto train,0
+4,0.5,"['Go to train station', 'Buy train ticket', 'Wait for train to arrive', 'Get onto train']","['Find seat', 'Get off of train']",Find seat,0
+5,0.625,"['Go to train station', 'Buy train ticket', 'Wait for train to arrive', 'Get onto train', 'Find seat']","['Get off of train', 'Wait for person to come take your ticket']",Wait for person to come take your ticket,1
+6,0.75,"['Go to train station', 'Buy train ticket', 'Wait for train to arrive', 'Get onto train', 'Find seat', 'Wait for person to come take your ticket']","['Sit on train until you reach destination', 'Wait for train to arrive']",Sit on train until you reach destination,0
+7,0.875,"['Go to train station', 'Buy train ticket', 'Wait for train to arrive', 'Get onto train', 'Find seat', 'Wait for person to come take your ticket', 'Sit on train until you reach destination']","['Get off of train', 'Go to train station']",Get off of train,0
+0,0.0,[],"['Go to train platform', 'Go to train station']",Go to train station,1
+1,0.125,['Go to train station'],"['Get train ticket', 'Go to train platform']",Get train ticket,0
+2,0.25,"['Go to train station', 'Get train ticket']","['When train arrives, let people get off train first', 'Go to train platform']",Go to train platform,1
+3,0.375,"['Go to train station', 'Get train ticket', 'Go to train platform']","['Sit', 'Wait for train']",Wait for train,1
+4,0.5,"['Go to train station', 'Get train ticket', 'Go to train platform', 'Wait for train']","['When train arrives, let people get off train first', 'Go to train station']","When train arrives, let people get off train first",0
+5,0.625,"['Go to train station', 'Get train ticket', 'Go to train platform', 'Wait for train', 'When train arrives, let people get off train first']","['Get on train', 'Go to train platform']",Get on train,0
+6,0.75,"['Go to train station', 'Get train ticket', 'Go to train platform', 'Wait for train', 'When train arrives, let people get off train first', 'Get on train']","['Find a seat', 'Wait for train']",Find a seat,0
+7,0.875,"['Go to train station', 'Get train ticket', 'Go to train platform', 'Wait for train', 'When train arrives, let people get off train first', 'Get on train', 'Find a seat']","['Sit', 'When train arrives, let people get off train first']",Sit,0
+0,0.0,[],"['Go online to check prices.', 'Go online to check prices.']",Go online to check prices.,0
+1,0.2,['Go online to check prices.'],"['Pack luggage.', 'Buy a ticket.']",Buy a ticket.,1
+2,0.4,"['Go online to check prices.', 'Buy a ticket.']","['Board the train.', 'Pack luggage.']",Pack luggage.,1
+3,0.6,"['Go online to check prices.', 'Buy a ticket.', 'Pack luggage.']","['Go to the train station.', 'Go online to check prices.']",Go to the train station.,0
+4,0.8,"['Go online to check prices.', 'Buy a ticket.', 'Pack luggage.', 'Go to the train station.']","['Go online to check prices.', 'Board the train.']",Board the train.,1
+0,0.0,[],"['Board train', 'Go to train station']",Go to train station,1
+1,0.125,['Go to train station'],"['Walk up to ticket counter', 'Wait for train to arrive']",Walk up to ticket counter,0
+2,0.25,"['Go to train station', 'Walk up to ticket counter']","['Board train', 'Purchase a ticket for your destination']",Purchase a ticket for your destination,1
+3,0.375,"['Go to train station', 'Walk up to ticket counter', 'Purchase a ticket for your destination']","['Walk to train platform', 'Go to train station']",Walk to train platform,0
+4,0.5,"['Go to train station', 'Walk up to ticket counter', 'Purchase a ticket for your destination', 'Walk to train platform']","['Find unoccupied seat', 'Wait for train to arrive']",Wait for train to arrive,1
+5,0.625,"['Go to train station', 'Walk up to ticket counter', 'Purchase a ticket for your destination', 'Walk to train platform', 'Wait for train to arrive']","['Go to train station', 'Board train']",Board train,1
+6,0.75,"['Go to train station', 'Walk up to ticket counter', 'Purchase a ticket for your destination', 'Walk to train platform', 'Wait for train to arrive', 'Board train']","['Walk to train platform', 'Find unoccupied seat']",Find unoccupied seat,1
+7,0.875,"['Go to train station', 'Walk up to ticket counter', 'Purchase a ticket for your destination', 'Walk to train platform', 'Wait for train to arrive', 'Board train', 'Find unoccupied seat']","['Sit in the seat', 'Purchase a ticket for your destination']",Sit in the seat,0
+0,0.0,[],"['Walk to train.', 'Go to train station.']",Go to train station.,1
+1,0.125,['Go to train station.'],"['Get on train.', 'Buy a ticket from attendant.']",Buy a ticket from attendant.,1
+2,0.25,"['Go to train station.', 'Buy a ticket from attendant.']","['Check bags.', 'Look for your seat.']",Check bags.,0
+3,0.375,"['Go to train station.', 'Buy a ticket from attendant.', 'Check bags.']","['Walk to train.', 'Sit down.']",Walk to train.,0
+4,0.5,"['Go to train station.', 'Buy a ticket from attendant.', 'Check bags.', 'Walk to train.']","['Sit down.', 'Hand attendant your ticket.']",Hand attendant your ticket.,1
+5,0.625,"['Go to train station.', 'Buy a ticket from attendant.', 'Check bags.', 'Walk to train.', 'Hand attendant your ticket.']","['Sit down.', 'Get on train.']",Get on train.,1
+6,0.75,"['Go to train station.', 'Buy a ticket from attendant.', 'Check bags.', 'Walk to train.', 'Hand attendant your ticket.', 'Get on train.']","['Look for your seat.', 'Walk to train.']",Look for your seat.,0
+7,0.875,"['Go to train station.', 'Buy a ticket from attendant.', 'Check bags.', 'Walk to train.', 'Hand attendant your ticket.', 'Get on train.', 'Look for your seat.']","['Sit down.', 'Hand attendant your ticket.']",Sit down.,0
+0,0.0,[],"['pack clothes inside suitcase', 'walk into train']",pack clothes inside suitcase,0
+1,0.14285714285714285,['pack clothes inside suitcase'],"['arrive to train station', 'show tickets to employees']",arrive to train station,0
+2,0.2857142857142857,"['pack clothes inside suitcase', 'arrive to train station']","['walk into train', 'check in main desk to see what time it will arrive']",check in main desk to see what time it will arrive,1
+3,0.42857142857142855,"['pack clothes inside suitcase', 'arrive to train station', 'check in main desk to see what time it will arrive']","['relax train ride', 'wait for train']",wait for train,1
+4,0.5714285714285714,"['pack clothes inside suitcase', 'arrive to train station', 'check in main desk to see what time it will arrive', 'wait for train']","['arrive to train station', 'walk into train']",walk into train,1
+5,0.7142857142857143,"['pack clothes inside suitcase', 'arrive to train station', 'check in main desk to see what time it will arrive', 'wait for train', 'walk into train']","['arrive to train station', 'show tickets to employees']",show tickets to employees,1
+6,0.8571428571428571,"['pack clothes inside suitcase', 'arrive to train station', 'check in main desk to see what time it will arrive', 'wait for train', 'walk into train', 'show tickets to employees']","['wait for train', 'relax train ride']",relax train ride,1
+0,0.0,[],"['Go to the railway station', 'Check the train schedule']",Check the train schedule,1
+1,0.125,['Check the train schedule'],"['Go to the railway station', 'Go to the railway station']",Go to the railway station,1
+2,0.25,"['Check the train schedule', 'Go to the railway station']","['Purchase a ticket for the journey', 'Board the train']",Purchase a ticket for the journey,0
+3,0.375,"['Check the train schedule', 'Go to the railway station', 'Purchase a ticket for the journey']","['Check the train schedule', 'Check the display for platform number']",Check the display for platform number,1
+4,0.5,"['Check the train schedule', 'Go to the railway station', 'Purchase a ticket for the journey', 'Check the display for platform number']","['Get down at the destination', 'Go to the right platform']",Go to the right platform,1
+5,0.625,"['Check the train schedule', 'Go to the railway station', 'Purchase a ticket for the journey', 'Check the display for platform number', 'Go to the right platform']","['Board the train', 'Check the train schedule']",Board the train,0
+6,0.75,"['Check the train schedule', 'Go to the railway station', 'Purchase a ticket for the journey', 'Check the display for platform number', 'Go to the right platform', 'Board the train']","['Sit on your seat as per the ticket', 'Check the train schedule']",Sit on your seat as per the ticket,0
+7,0.875,"['Check the train schedule', 'Go to the railway station', 'Purchase a ticket for the journey', 'Check the display for platform number', 'Go to the right platform', 'Board the train', 'Sit on your seat as per the ticket']","['Purchase a ticket for the journey', 'Get down at the destination']",Get down at the destination,1
+0,0.0,[],"['Go to the train station.', 'Purchase a ticket to your destination.']",Go to the train station.,0
+1,0.14285714285714285,['Go to the train station.'],"['Give your ticket to the conductor.', 'Purchase a ticket to your destination.']",Purchase a ticket to your destination.,1
+2,0.2857142857142857,"['Go to the train station.', 'Purchase a ticket to your destination.']","['Inquire where they want you to put your baggage.', 'Find your seat.']",Inquire where they want you to put your baggage.,0
+3,0.42857142857142855,"['Go to the train station.', 'Purchase a ticket to your destination.', 'Inquire where they want you to put your baggage.']","['Go to the train station.', 'Give your ticket to the conductor.']",Give your ticket to the conductor.,1
+4,0.5714285714285714,"['Go to the train station.', 'Purchase a ticket to your destination.', 'Inquire where they want you to put your baggage.', 'Give your ticket to the conductor.']","['Enjoy the trip.', 'Board the train.']",Board the train.,1
+5,0.7142857142857143,"['Go to the train station.', 'Purchase a ticket to your destination.', 'Inquire where they want you to put your baggage.', 'Give your ticket to the conductor.', 'Board the train.']","['Find your seat.', 'Purchase a ticket to your destination.']",Find your seat.,0
+6,0.8571428571428571,"['Go to the train station.', 'Purchase a ticket to your destination.', 'Inquire where they want you to put your baggage.', 'Give your ticket to the conductor.', 'Board the train.', 'Find your seat.']","['Enjoy the trip.', 'Purchase a ticket to your destination.']",Enjoy the trip.,0
+0,0.0,[],"['Fix the place', 'Wait for train']",Fix the place,0
+1,0.125,['Fix the place'],"['Pay the fare', 'Go to railway station']",Go to railway station,1
+2,0.25,"['Fix the place', 'Go to railway station']","['Get your ticket', 'Go to the platform']",Get your ticket,0
+3,0.375,"['Fix the place', 'Go to railway station', 'Get your ticket']","['Pay the fare', 'Wait for train']",Pay the fare,0
+4,0.5,"['Fix the place', 'Go to railway station', 'Get your ticket', 'Pay the fare']","['Get on the train', 'Check the platform number and arrival time']",Check the platform number and arrival time,1
+5,0.625,"['Fix the place', 'Go to railway station', 'Get your ticket', 'Pay the fare', 'Check the platform number and arrival time']","['Get on the train', 'Go to the platform']",Go to the platform,1
+6,0.75,"['Fix the place', 'Go to railway station', 'Get your ticket', 'Pay the fare', 'Check the platform number and arrival time', 'Go to the platform']","['Get your ticket', 'Wait for train']",Wait for train,1
+7,0.875,"['Fix the place', 'Go to railway station', 'Get your ticket', 'Pay the fare', 'Check the platform number and arrival time', 'Go to the platform', 'Wait for train']","['Get on the train', 'Check the platform number and arrival time']",Get on the train,0
+0,0.0,[],"['book the train ticket', 'board the train']",book the train ticket,0
+1,0.2,['book the train ticket'],"['go to the train station', 'go to the train station']",go to the train station,1
+2,0.4,"['book the train ticket', 'go to the train station']","['go and sit on your seat', 'board the train']",board the train,1
+3,0.6,"['book the train ticket', 'go to the train station', 'board the train']","['find your compartment', 'book the train ticket']",find your compartment,0
+4,0.8,"['book the train ticket', 'go to the train station', 'board the train', 'find your compartment']","['go to the train station', 'go and sit on your seat']",go and sit on your seat,1
+0,0.0,[],"['Go to train station', 'Board train']",Go to train station,0
+1,0.2,['Go to train station'],"['Buy ticket', 'Buy ticket']",Buy ticket,0
+2,0.4,"['Go to train station', 'Buy ticket']","['enjoy the ride', 'Board train']",Board train,1
+3,0.6,"['Go to train station', 'Buy ticket', 'Board train']","['find your seat', 'Go to train station']",find your seat,0
+4,0.8,"['Go to train station', 'Buy ticket', 'Board train', 'find your seat']","['enjoy the ride', 'Buy ticket']",enjoy the ride,0
+0,0.0,[],"['Get ticket ready', 'Arrive at train station/ depot']",Arrive at train station/ depot,1
+1,0.125,['Arrive at train station/ depot'],"['Purchase ticket for destination desired', 'Prepare any items taking on train']",Purchase ticket for destination desired,0
+2,0.25,"['Arrive at train station/ depot', 'Purchase ticket for destination desired']","['Present ticket to tickettaker', 'Wait for train arrival']",Wait for train arrival,1
+3,0.375,"['Arrive at train station/ depot', 'Purchase ticket for destination desired', 'Wait for train arrival']","['Present ticket to tickettaker', 'Wait for arriving passengers to get off train']",Wait for arriving passengers to get off train,1
+4,0.5,"['Arrive at train station/ depot', 'Purchase ticket for destination desired', 'Wait for train arrival', 'Wait for arriving passengers to get off train']","['Prepare any items taking on train', 'Get on train']",Prepare any items taking on train,0
+5,0.625,"['Arrive at train station/ depot', 'Purchase ticket for destination desired', 'Wait for train arrival', 'Wait for arriving passengers to get off train', 'Prepare any items taking on train']","['Get ticket ready', 'Arrive at train station/ depot']",Get ticket ready,0
+6,0.75,"['Arrive at train station/ depot', 'Purchase ticket for destination desired', 'Wait for train arrival', 'Wait for arriving passengers to get off train', 'Prepare any items taking on train', 'Get ticket ready']","['Present ticket to tickettaker', 'Purchase ticket for destination desired']",Present ticket to tickettaker,0
+7,0.875,"['Arrive at train station/ depot', 'Purchase ticket for destination desired', 'Wait for train arrival', 'Wait for arriving passengers to get off train', 'Prepare any items taking on train', 'Get ticket ready', 'Present ticket to tickettaker']","['Get on train', 'Wait for train arrival']",Get on train,0
+0,0.0,[],"['Pack luggage (if necessary)', 'Sit in assigned seat, or select seat']",Pack luggage (if necessary),0
+1,0.125,['Pack luggage (if necessary)'],"['Go to train station', 'Travel to destination']",Go to train station,0
+2,0.25,"['Pack luggage (if necessary)', 'Go to train station']","['Sit in assigned seat, or select seat', 'Buy tickets']",Buy tickets,1
+3,0.375,"['Pack luggage (if necessary)', 'Go to train station', 'Buy tickets']","['Wait for train to arrive', 'Get on train when instructed']",Wait for train to arrive,0
+4,0.5,"['Pack luggage (if necessary)', 'Go to train station', 'Buy tickets', 'Wait for train to arrive']","['Travel to destination', 'Give luggage to porter']",Give luggage to porter,1
+5,0.625,"['Pack luggage (if necessary)', 'Go to train station', 'Buy tickets', 'Wait for train to arrive', 'Give luggage to porter']","['Get on train when instructed', 'Pack luggage (if necessary)']",Get on train when instructed,0
+6,0.75,"['Pack luggage (if necessary)', 'Go to train station', 'Buy tickets', 'Wait for train to arrive', 'Give luggage to porter', 'Get on train when instructed']","['Sit in assigned seat, or select seat', 'Buy tickets']","Sit in assigned seat, or select seat",0
+7,0.875,"['Pack luggage (if necessary)', 'Go to train station', 'Buy tickets', 'Wait for train to arrive', 'Give luggage to porter', 'Get on train when instructed', 'Sit in assigned seat, or select seat']","['Travel to destination', 'Wait for train to arrive']",Travel to destination,0
+0,0.0,[],"['Book the tickets for your journey', 'Board the train']",Book the tickets for your journey,0
+1,0.2,['Book the tickets for your journey'],"['Board the train', 'Take your seat']",Board the train,0
+2,0.4,"['Book the tickets for your journey', 'Board the train']","['Get down at your destination', 'Secure your luggage in the racks']",Secure your luggage in the racks,1
+3,0.6,"['Book the tickets for your journey', 'Board the train', 'Secure your luggage in the racks']","['Book the tickets for your journey', 'Take your seat']",Take your seat,1
+4,0.8,"['Book the tickets for your journey', 'Board the train', 'Secure your luggage in the racks', 'Take your seat']","['Book the tickets for your journey', 'Get down at your destination']",Get down at your destination,1
+0,0.0,[],"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)']",Go to train station before train arrival.,0
+1,0.125,['Go to train station before train arrival.'],"['Board train.', 'Buy a train ticket (one way or round-trip)']",Buy a train ticket (one way or round-trip),1
+2,0.25,"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)']","['Board train.', 'Find appropriate platform that your train will arrive on.']",Find appropriate platform that your train will arrive on.,1
+3,0.375,"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)', 'Find appropriate platform that your train will arrive on.']","['Wait on platform for train to arrive', 'When conductor walks by, offer ticket to conductor to be punched or scanned.']",Wait on platform for train to arrive,0
+4,0.5,"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)', 'Find appropriate platform that your train will arrive on.', 'Wait on platform for train to arrive']","['Board train.', 'Enjoy your train trip']",Board train.,0
+5,0.625,"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)', 'Find appropriate platform that your train will arrive on.', 'Wait on platform for train to arrive', 'Board train.']","['Pick a seat and sit down', 'Go to train station before train arrival.']",Pick a seat and sit down,0
+6,0.75,"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)', 'Find appropriate platform that your train will arrive on.', 'Wait on platform for train to arrive', 'Board train.', 'Pick a seat and sit down']","['When conductor walks by, offer ticket to conductor to be punched or scanned.', 'Wait on platform for train to arrive']","When conductor walks by, offer ticket to conductor to be punched or scanned.",0
+7,0.875,"['Go to train station before train arrival.', 'Buy a train ticket (one way or round-trip)', 'Find appropriate platform that your train will arrive on.', 'Wait on platform for train to arrive', 'Board train.', 'Pick a seat and sit down', 'When conductor walks by, offer ticket to conductor to be punched or scanned.']","['Wait on platform for train to arrive', 'Enjoy your train trip']",Enjoy your train trip,1
+0,0.0,[],"['Board the train', 'Take your seat']",Board the train,0
+1,0.16666666666666666,['Board the train'],"['Put your luggage in the proper compartments', 'Eat a snack']",Put your luggage in the proper compartments,0
+2,0.3333333333333333,"['Board the train', 'Put your luggage in the proper compartments']","['Take your seat', 'Eat a snack']",Take your seat,0
+3,0.5,"['Board the train', 'Put your luggage in the proper compartments', 'Take your seat']","['Listen to music, read a book or watch the scenery outside', 'Board the train']","Listen to music, read a book or watch the scenery outside",0
+4,0.6666666666666666,"['Board the train', 'Put your luggage in the proper compartments', 'Take your seat', 'Listen to music, read a book or watch the scenery outside']","['Board the train', 'Eat a snack']",Eat a snack,1
+5,0.8333333333333334,"['Board the train', 'Put your luggage in the proper compartments', 'Take your seat', 'Listen to music, read a book or watch the scenery outside', 'Eat a snack']","['Wait to arrive at your destination', 'Put your luggage in the proper compartments']",Wait to arrive at your destination,0
+0,0.0,[],"['Go to train station', 'Go to train station']",Go to train station,0
+1,0.2,['Go to train station'],"['Board train', 'Buy train tickets']",Buy train tickets,1
+2,0.4,"['Go to train station', 'Buy train tickets']","['Board train', 'Wait for train']",Wait for train,1
+3,0.6,"['Go to train station', 'Buy train tickets', 'Wait for train']","['Show ticket', 'Go to train station']",Show ticket,0
+4,0.8,"['Go to train station', 'Buy train tickets', 'Wait for train', 'Show ticket']","['Buy train tickets', 'Board train']",Board train,1
+0,0.0,[],"['Go to the train station', 'Get off at your correct destination']",Go to the train station,0
+1,0.14285714285714285,['Go to the train station'],"['Go to the waiting area for your train', 'Look at the map to determine where you need to go']",Look at the map to determine where you need to go,1
+2,0.2857142857142857,"['Go to the train station', 'Look at the map to determine where you need to go']","['Get off at your correct destination', 'Purchase a ticket from the machine']",Purchase a ticket from the machine,1
+3,0.42857142857142855,"['Go to the train station', 'Look at the map to determine where you need to go', 'Purchase a ticket from the machine']","['Scan your ticket in the turnstile', 'Get off at your correct destination']",Scan your ticket in the turnstile,0
+4,0.5714285714285714,"['Go to the train station', 'Look at the map to determine where you need to go', 'Purchase a ticket from the machine', 'Scan your ticket in the turnstile']","['Go to the waiting area for your train', 'Go to the train station']",Go to the waiting area for your train,0
+5,0.7142857142857143,"['Go to the train station', 'Look at the map to determine where you need to go', 'Purchase a ticket from the machine', 'Scan your ticket in the turnstile', 'Go to the waiting area for your train']","['Get on the train when it comes', 'Purchase a ticket from the machine']",Get on the train when it comes,0
+6,0.8571428571428571,"['Go to the train station', 'Look at the map to determine where you need to go', 'Purchase a ticket from the machine', 'Scan your ticket in the turnstile', 'Go to the waiting area for your train', 'Get on the train when it comes']","['Purchase a ticket from the machine', 'Get off at your correct destination']",Get off at your correct destination,1
+0,0.0,[],"['Buy ticket.', 'Wait for train to arrive.']",Buy ticket.,0
+1,0.14285714285714285,['Buy ticket.'],"['Pack things to bring.', 'Pack things to bring.']",Pack things to bring.,0
+2,0.2857142857142857,"['Buy ticket.', 'Pack things to bring.']","['Go to train station.', 'Find seat or compartment.']",Go to train station.,0
+3,0.42857142857142855,"['Buy ticket.', 'Pack things to bring.', 'Go to train station.']","['Board train.', 'Check in at station.']",Check in at station.,1
+4,0.5714285714285714,"['Buy ticket.', 'Pack things to bring.', 'Go to train station.', 'Check in at station.']","['Wait for train to arrive.', 'Buy ticket.']",Wait for train to arrive.,0
+5,0.7142857142857143,"['Buy ticket.', 'Pack things to bring.', 'Go to train station.', 'Check in at station.', 'Wait for train to arrive.']","['Pack things to bring.', 'Board train.']",Board train.,1
+6,0.8571428571428571,"['Buy ticket.', 'Pack things to bring.', 'Go to train station.', 'Check in at station.', 'Wait for train to arrive.', 'Board train.']","['Find seat or compartment.', 'Pack things to bring.']",Find seat or compartment.,0
+0,0.0,[],"['Pack a bag', 'Pack a bag']",Pack a bag,0
+1,0.125,['Pack a bag'],"['Take personal documents', 'Buy a ticket']",Take personal documents,0
+2,0.25,"['Pack a bag', 'Take personal documents']","['Show ticket to conductor', 'Go to train station']",Go to train station,1
+3,0.375,"['Pack a bag', 'Take personal documents', 'Go to train station']","['Buy a ticket', 'Find a seat']",Buy a ticket,0
+4,0.5,"['Pack a bag', 'Take personal documents', 'Go to train station', 'Buy a ticket']","['Wait for the train to arrive', 'Take personal documents']",Wait for the train to arrive,0
+5,0.625,"['Pack a bag', 'Take personal documents', 'Go to train station', 'Buy a ticket', 'Wait for the train to arrive']","['Pack a bag', 'Board the train']",Board the train,1
+6,0.75,"['Pack a bag', 'Take personal documents', 'Go to train station', 'Buy a ticket', 'Wait for the train to arrive', 'Board the train']","['Take personal documents', 'Show ticket to conductor']",Show ticket to conductor,1
+7,0.875,"['Pack a bag', 'Take personal documents', 'Go to train station', 'Buy a ticket', 'Wait for the train to arrive', 'Board the train', 'Show ticket to conductor']","['Find a seat', 'Wait for the train to arrive']",Find a seat,0
+0,0.0,[],"['Go the the ticket dispenser.', 'Place the credit or debit card into the device.']",Go the the ticket dispenser.,0
+1,0.125,['Go the the ticket dispenser.'],"['Select destination and enter information into the device.', 'Withdraw the ticket.']",Select destination and enter information into the device.,0
+2,0.25,"['Go the the ticket dispenser.', 'Select destination and enter information into the device.']","['Place the credit or debit card into the device.', 'Board the train when it arrives.']",Place the credit or debit card into the device.,0
+3,0.375,"['Go the the ticket dispenser.', 'Select destination and enter information into the device.', 'Place the credit or debit card into the device.']","['Disembark at the destination.', 'Withdraw the ticket.']",Withdraw the ticket.,1
+4,0.5,"['Go the the ticket dispenser.', 'Select destination and enter information into the device.', 'Place the credit or debit card into the device.', 'Withdraw the ticket.']","['Go to the gate at the correct time.', 'Go the the ticket dispenser.']",Go to the gate at the correct time.,0
+5,0.625,"['Go the the ticket dispenser.', 'Select destination and enter information into the device.', 'Place the credit or debit card into the device.', 'Withdraw the ticket.', 'Go to the gate at the correct time.']","['Select destination and enter information into the device.', 'Board the train when it arrives.']",Board the train when it arrives.,1
+6,0.75,"['Go the the ticket dispenser.', 'Select destination and enter information into the device.', 'Place the credit or debit card into the device.', 'Withdraw the ticket.', 'Go to the gate at the correct time.', 'Board the train when it arrives.']","['Withdraw the ticket.', 'Show the ticket when the conductor requests it.']",Show the ticket when the conductor requests it.,1
+7,0.875,"['Go the the ticket dispenser.', 'Select destination and enter information into the device.', 'Place the credit or debit card into the device.', 'Withdraw the ticket.', 'Go to the gate at the correct time.', 'Board the train when it arrives.', 'Show the ticket when the conductor requests it.']","['Disembark at the destination.', 'Go the the ticket dispenser.']",Disembark at the destination.,0
+0,0.0,[],"['Look outside train windows', 'Get in a car']",Get in a car,1
+1,0.2,['Get in a car'],"['Drive to a train station', 'Board train']",Drive to a train station,0
+2,0.4,"['Get in a car', 'Drive to a train station']","['Wait for train', 'Look outside train windows']",Wait for train,0
+3,0.6,"['Get in a car', 'Drive to a train station', 'Wait for train']","['Board train', 'Get in a car']",Board train,0
+4,0.8,"['Get in a car', 'Drive to a train station', 'Wait for train', 'Board train']","['Look outside train windows', 'Get in a car']",Look outside train windows,0
+0,0.0,[],"['Locate the terminal', 'Step into train station']",Step into train station,1
+1,0.14285714285714285,['Step into train station'],"['Walk to ticket window', 'Walk to ticket window']",Walk to ticket window,1
+2,0.2857142857142857,"['Step into train station', 'Walk to ticket window']","['Enter the train', 'Purchase a ticket']",Purchase a ticket,1
+3,0.42857142857142855,"['Step into train station', 'Walk to ticket window', 'Purchase a ticket']","['Find your seat', 'Locate the terminal']",Locate the terminal,1
+4,0.5714285714285714,"['Step into train station', 'Walk to ticket window', 'Purchase a ticket', 'Locate the terminal']","['Step into train station', 'Wait for the train']",Wait for the train,1
+5,0.7142857142857143,"['Step into train station', 'Walk to ticket window', 'Purchase a ticket', 'Locate the terminal', 'Wait for the train']","['Purchase a ticket', 'Enter the train']",Enter the train,1
+6,0.8571428571428571,"['Step into train station', 'Walk to ticket window', 'Purchase a ticket', 'Locate the terminal', 'Wait for the train', 'Enter the train']","['Find your seat', 'Step into train station']",Find your seat,0
+0,0.0,[],"['Enter station.', 'At appropriate time, board train.']",Enter station.,0
+1,0.14285714285714285,['Enter station.'],"['Decide on destination.', 'Present ticket when asked']",Decide on destination.,0
+2,0.2857142857142857,"['Enter station.', 'Decide on destination.']","['Purchase ticket.', 'Find a seat.']",Purchase ticket.,0
+3,0.42857142857142855,"['Enter station.', 'Decide on destination.', 'Purchase ticket.']","['Exit train at destination.', 'At appropriate time, board train.']","At appropriate time, board train.",1
+4,0.5714285714285714,"['Enter station.', 'Decide on destination.', 'Purchase ticket.', 'At appropriate time, board train.']","['Decide on destination.', 'Find a seat.']",Find a seat.,1
+5,0.7142857142857143,"['Enter station.', 'Decide on destination.', 'Purchase ticket.', 'At appropriate time, board train.', 'Find a seat.']","['Purchase ticket.', 'Present ticket when asked']",Present ticket when asked,1
+6,0.8571428571428571,"['Enter station.', 'Decide on destination.', 'Purchase ticket.', 'At appropriate time, board train.', 'Find a seat.', 'Present ticket when asked']","['Exit train at destination.', 'Enter station.']",Exit train at destination.,0
+0,0.0,[],"['Go to the station.', 'Go to the station.']",Go to the station.,1
+1,0.2,['Go to the station.'],"['Buy a ticket.', 'Go to the station.']",Buy a ticket.,0
+2,0.4,"['Go to the station.', 'Buy a ticket.']","['Sit down.', 'Wait on the curb.']",Wait on the curb.,1
+3,0.6,"['Go to the station.', 'Buy a ticket.', 'Wait on the curb.']","['Go to the station.', 'Board the train.']",Board the train.,1
+4,0.8,"['Go to the station.', 'Buy a ticket.', 'Wait on the curb.', 'Board the train.']","['Sit down.', 'Go to the station.']",Sit down.,0
+0,0.0,[],"['Present your ticket to the conductor', 'Arrive early at the station just in case']",Arrive early at the station just in case,1
+1,0.2,['Arrive early at the station just in case'],"['When you hear that the train is arriving, stand a safe distance form the platform', 'Purchase tickets at the station for the train you want']",Purchase tickets at the station for the train you want,1
+2,0.4,"['Arrive early at the station just in case', 'Purchase tickets at the station for the train you want']","['When you hear that the train is arriving, stand a safe distance form the platform', 'Present your ticket to the conductor']","When you hear that the train is arriving, stand a safe distance form the platform",0
+3,0.6,"['Arrive early at the station just in case', 'Purchase tickets at the station for the train you want', 'When you hear that the train is arriving, stand a safe distance form the platform']","['Board the train once it stops', 'Arrive early at the station just in case']",Board the train once it stops,0
+4,0.8,"['Arrive early at the station just in case', 'Purchase tickets at the station for the train you want', 'When you hear that the train is arriving, stand a safe distance form the platform', 'Board the train once it stops']","['Purchase tickets at the station for the train you want', 'Present your ticket to the conductor']",Present your ticket to the conductor,1
+0,0.0,[],"['Go to train station', 'Plan your trip']",Plan your trip,1
+1,0.14285714285714285,['Plan your trip'],"['Buy a ticket', 'Plan your trip']",Buy a ticket,0
+2,0.2857142857142857,"['Plan your trip', 'Buy a ticket']","['Print your ticket', 'Sit down and enjoy your trip']",Print your ticket,0
+3,0.42857142857142855,"['Plan your trip', 'Buy a ticket', 'Print your ticket']","['Sit down and enjoy your trip', 'Go to train station']",Go to train station,1
+4,0.5714285714285714,"['Plan your trip', 'Buy a ticket', 'Print your ticket', 'Go to train station']","['Present your ticket to board train', 'Buy a ticket']",Present your ticket to board train,0
+5,0.7142857142857143,"['Plan your trip', 'Buy a ticket', 'Print your ticket', 'Go to train station', 'Present your ticket to board train']","['Plan your trip', 'Find your seat']",Find your seat,1
+6,0.8571428571428571,"['Plan your trip', 'Buy a ticket', 'Print your ticket', 'Go to train station', 'Present your ticket to board train', 'Find your seat']","['Plan your trip', 'Sit down and enjoy your trip']",Sit down and enjoy your trip,1
+0,0.0,[],"['Take luggage into train station', 'Board train']",Take luggage into train station,0
+1,0.14285714285714285,['Take luggage into train station'],"['Board train', 'Board train']",Board train,1
+2,0.2857142857142857,"['Take luggage into train station', 'Board train']","['Find seat', 'Gather luggage']",Find seat,0
+3,0.42857142857142855,"['Take luggage into train station', 'Board train', 'Find seat']","['Ride train to destination', 'Take luggage into train station']",Ride train to destination,0
+4,0.5714285714285714,"['Take luggage into train station', 'Board train', 'Find seat', 'Ride train to destination']","['Leave train station', 'Disembark train']",Disembark train,1
+5,0.7142857142857143,"['Take luggage into train station', 'Board train', 'Find seat', 'Ride train to destination', 'Disembark train']","['Board train', 'Gather luggage']",Gather luggage,1
+6,0.8571428571428571,"['Take luggage into train station', 'Board train', 'Find seat', 'Ride train to destination', 'Disembark train', 'Gather luggage']","['Find seat', 'Leave train station']",Leave train station,1
+0,0.0,[],"['Figure out a destination.', 'Buy a ticket.']",Figure out a destination.,0
+1,0.125,['Figure out a destination.'],"['Go to train station.', 'Get on train.']",Go to train station.,0
+2,0.25,"['Figure out a destination.', 'Go to train station.']","['Buy a ticket.', 'Wait on passengers to get off.']",Buy a ticket.,0
+3,0.375,"['Figure out a destination.', 'Go to train station.', 'Buy a ticket.']","['Wait at train stop for train.', 'Get on train.']",Wait at train stop for train.,0
+4,0.5,"['Figure out a destination.', 'Go to train station.', 'Buy a ticket.', 'Wait at train stop for train.']","['Wait on passengers to get off.', 'Figure out a destination.']",Wait on passengers to get off.,0
+5,0.625,"['Figure out a destination.', 'Go to train station.', 'Buy a ticket.', 'Wait at train stop for train.', 'Wait on passengers to get off.']","['Buy a ticket.', 'Show them ticket.']",Show them ticket.,1
+6,0.75,"['Figure out a destination.', 'Go to train station.', 'Buy a ticket.', 'Wait at train stop for train.', 'Wait on passengers to get off.', 'Show them ticket.']","['Get on train.', 'Wait at train stop for train.']",Get on train.,0
+7,0.875,"['Figure out a destination.', 'Go to train station.', 'Buy a ticket.', 'Wait at train stop for train.', 'Wait on passengers to get off.', 'Show them ticket.', 'Get on train.']","['Ride train to destination.', 'Figure out a destination.']",Ride train to destination.,0
+0,0.0,[],"['plan your route', 'go to the station']",plan your route,0
+1,0.2,['plan your route'],"['ready your fair', 'plan your route']",ready your fair,0
+2,0.4,"['plan your route', 'ready your fair']","['wait for the train', 'go to the station']",go to the station,1
+3,0.6,"['plan your route', 'ready your fair', 'go to the station']","['check the schedule', 'plan your route']",check the schedule,0
+4,0.8,"['plan your route', 'ready your fair', 'go to the station', 'check the schedule']","['wait for the train', 'ready your fair']",wait for the train,0
+0,0.0,[],"['Go to train station', 'Sit down']",Go to train station,0
+1,0.125,['Go to train station'],"['Pay for a ticket', 'Find a seat']",Pay for a ticket,0
+2,0.25,"['Go to train station', 'Pay for a ticket']","['Take train ride', 'Wait on platform for train']",Wait on platform for train,1
+3,0.375,"['Go to train station', 'Pay for a ticket', 'Wait on platform for train']","['Board train when it arrives', 'Take train ride']",Board train when it arrives,0
+4,0.5,"['Go to train station', 'Pay for a ticket', 'Wait on platform for train', 'Board train when it arrives']","['Give ticket to conductor', 'Find a seat']",Find a seat,1
+5,0.625,"['Go to train station', 'Pay for a ticket', 'Wait on platform for train', 'Board train when it arrives', 'Find a seat']","['Wait on platform for train', 'Sit down']",Sit down,1
+6,0.75,"['Go to train station', 'Pay for a ticket', 'Wait on platform for train', 'Board train when it arrives', 'Find a seat', 'Sit down']","['Give ticket to conductor', 'Wait on platform for train']",Give ticket to conductor,0
+7,0.875,"['Go to train station', 'Pay for a ticket', 'Wait on platform for train', 'Board train when it arrives', 'Find a seat', 'Sit down', 'Give ticket to conductor']","['Take train ride', 'Pay for a ticket']",Take train ride,0
+0,0.0,[],"['Go to the train station', 'Board the train']",Go to the train station,0
+1,0.16666666666666666,['Go to the train station'],"['Buy a ticket', 'Go to the train station']",Buy a ticket,0
+2,0.3333333333333333,"['Go to the train station', 'Buy a ticket']","['Find a seat', 'Wait for a train']",Wait for a train,1
+3,0.5,"['Go to the train station', 'Buy a ticket', 'Wait for a train']","['Board the train', 'Sit and ride']",Board the train,0
+4,0.6666666666666666,"['Go to the train station', 'Buy a ticket', 'Wait for a train', 'Board the train']","['Find a seat', 'Go to the train station']",Find a seat,0
+5,0.8333333333333334,"['Go to the train station', 'Buy a ticket', 'Wait for a train', 'Board the train', 'Find a seat']","['Sit and ride', 'Go to the train station']",Sit and ride,0
+0,0.0,[],"['Travel to your destination', 'Go to the train station']",Go to the train station,1
+1,0.16666666666666666,['Go to the train station'],"['Travel to your destination', 'Buy a ticket']",Buy a ticket,1
+2,0.3333333333333333,"['Go to the train station', 'Buy a ticket']","['Travel to your destination', 'Wait for the train']",Wait for the train,1
+3,0.5,"['Go to the train station', 'Buy a ticket', 'Wait for the train']","['Travel to your destination', 'When the train arrives, get on']","When the train arrives, get on",1
+4,0.6666666666666666,"['Go to the train station', 'Buy a ticket', 'Wait for the train', 'When the train arrives, get on']","['Find a seat', 'Go to the train station']",Find a seat,0
+5,0.8333333333333334,"['Go to the train station', 'Buy a ticket', 'Wait for the train', 'When the train arrives, get on', 'Find a seat']","['Travel to your destination', 'Wait for the train']",Travel to your destination,0
+0,0.0,[],"['Go to station', 'Go to station']",Go to station,1
+1,0.16666666666666666,['Go to station'],"['Buy a ticket', 'take train to destination']",Buy a ticket,0
+2,0.3333333333333333,"['Go to station', 'Buy a ticket']","['take train to destination', 'Wait for train to arrive']",Wait for train to arrive,1
+3,0.5,"['Go to station', 'Buy a ticket', 'Wait for train to arrive']","['Go to station', 'Show man on train ticket']",Show man on train ticket,1
+4,0.6666666666666666,"['Go to station', 'Buy a ticket', 'Wait for train to arrive', 'Show man on train ticket']","['Sit down on train', 'Buy a ticket']",Sit down on train,0
+5,0.8333333333333334,"['Go to station', 'Buy a ticket', 'Wait for train to arrive', 'Show man on train ticket', 'Sit down on train']","['Wait for train to arrive', 'take train to destination']",take train to destination,1
+0,0.0,[],"['Drive to train station', 'Board train']",Drive to train station,0
+1,0.14285714285714285,['Drive to train station'],"['Park', 'Board train']",Park,0
+2,0.2857142857142857,"['Drive to train station', 'Park']","['Wait', 'Go to ticket booth']",Go to ticket booth,1
+3,0.42857142857142855,"['Drive to train station', 'Park', 'Go to ticket booth']","['Board train', 'Purchase ticket']",Purchase ticket,1
+4,0.5714285714285714,"['Drive to train station', 'Park', 'Go to ticket booth', 'Purchase ticket']","['Ride train', 'Wait']",Wait,1
+5,0.7142857142857143,"['Drive to train station', 'Park', 'Go to ticket booth', 'Purchase ticket', 'Wait']","['Park', 'Board train']",Board train,1
+6,0.8571428571428571,"['Drive to train station', 'Park', 'Go to ticket booth', 'Purchase ticket', 'Wait', 'Board train']","['Drive to train station', 'Ride train']",Ride train,1
+0,0.0,[],"['Plan to the trip', 'Enter the train']",Plan to the trip,0
+1,0.125,['Plan to the trip'],"['Buy the ticket', 'Find the seat']",Buy the ticket,0
+2,0.25,"['Plan to the trip', 'Buy the ticket']","['Going to the platform', 'Occupy the seat']",Going to the platform,0
+3,0.375,"['Plan to the trip', 'Buy the ticket', 'Going to the platform']","['Waiting for our place', 'Enter the train']",Enter the train,1
+4,0.5,"['Plan to the trip', 'Buy the ticket', 'Going to the platform', 'Enter the train']","['Buy the ticket', 'Find the seat']",Find the seat,1
+5,0.625,"['Plan to the trip', 'Buy the ticket', 'Going to the platform', 'Enter the train', 'Find the seat']","['Buy the ticket', 'Occupy the seat']",Occupy the seat,1
+6,0.75,"['Plan to the trip', 'Buy the ticket', 'Going to the platform', 'Enter the train', 'Find the seat', 'Occupy the seat']","['Buy the ticket', 'Relax']",Relax,1
+7,0.875,"['Plan to the trip', 'Buy the ticket', 'Going to the platform', 'Enter the train', 'Find the seat', 'Occupy the seat', 'Relax']","['Enter the train', 'Waiting for our place']",Waiting for our place,1
+0,0.0,[],"['Ride to destination', 'Select destination']",Select destination,1
+1,0.14285714285714285,['Select destination'],"['Board train', 'Purchase ticket for train']",Purchase ticket for train,1
+2,0.2857142857142857,"['Select destination', 'Purchase ticket for train']","['Take taxi to train station', 'Ride to destination']",Take taxi to train station,0
+3,0.42857142857142855,"['Select destination', 'Purchase ticket for train', 'Take taxi to train station']","['Present ticket to conductor', 'Select destination']",Present ticket to conductor,0
+4,0.5714285714285714,"['Select destination', 'Purchase ticket for train', 'Take taxi to train station', 'Present ticket to conductor']","['Board train', 'Select destination']",Board train,0
+5,0.7142857142857143,"['Select destination', 'Purchase ticket for train', 'Take taxi to train station', 'Present ticket to conductor', 'Board train']","['Select destination', 'Ride to destination']",Ride to destination,1
+6,0.8571428571428571,"['Select destination', 'Purchase ticket for train', 'Take taxi to train station', 'Present ticket to conductor', 'Board train', 'Ride to destination']","['Exit train', 'Present ticket to conductor']",Exit train,0
+0,0.0,[],"['allow the doors to close', 'Go into the station and buy a ticket']",Go into the station and buy a ticket,1
+1,0.125,['Go into the station and buy a ticket'],"['Go through the turnstiles', 'ride the train to your destination']",Go through the turnstiles,0
+2,0.25,"['Go into the station and buy a ticket', 'Go through the turnstiles']","['when you arrive at your destination', 'walk out onto the platform']",walk out onto the platform,1
+3,0.375,"['Go into the station and buy a ticket', 'Go through the turnstiles', 'walk out onto the platform']","['allow the doors to close', 'wait for the train']",wait for the train,1
+4,0.5,"['Go into the station and buy a ticket', 'Go through the turnstiles', 'walk out onto the platform', 'wait for the train']","['when train arrives, board the car', 'Go through the turnstiles']","when train arrives, board the car",0
+5,0.625,"['Go into the station and buy a ticket', 'Go through the turnstiles', 'walk out onto the platform', 'wait for the train', 'when train arrives, board the car']","['allow the doors to close', 'Go into the station and buy a ticket']",allow the doors to close,0
+6,0.75,"['Go into the station and buy a ticket', 'Go through the turnstiles', 'walk out onto the platform', 'wait for the train', 'when train arrives, board the car', 'allow the doors to close']","['Go into the station and buy a ticket', 'ride the train to your destination']",ride the train to your destination,1
+7,0.875,"['Go into the station and buy a ticket', 'Go through the turnstiles', 'walk out onto the platform', 'wait for the train', 'when train arrives, board the car', 'allow the doors to close', 'ride the train to your destination']","['when you arrive at your destination', 'Go through the turnstiles']",when you arrive at your destination,0
+0,0.0,[],"['Go to the train station.', 'Purchase a ticket.']",Go to the train station.,0
+1,0.125,['Go to the train station.'],"['Find the ticket booth.', 'Find your seat written on the ticket.']",Find the ticket booth.,0
+2,0.25,"['Go to the train station.', 'Find the ticket booth.']","['Exit the train when you get to your destination.', 'Purchase a ticket.']",Purchase a ticket.,1
+3,0.375,"['Go to the train station.', 'Find the ticket booth.', 'Purchase a ticket.']","['Find your seat written on the ticket.', 'Board the train']",Board the train,1
+4,0.5,"['Go to the train station.', 'Find the ticket booth.', 'Purchase a ticket.', 'Board the train']","['Show your ticket to the conductor.', 'Sit down.']",Show your ticket to the conductor.,0
+5,0.625,"['Go to the train station.', 'Find the ticket booth.', 'Purchase a ticket.', 'Board the train', 'Show your ticket to the conductor.']","['Find your seat written on the ticket.', 'Purchase a ticket.']",Find your seat written on the ticket.,0
+6,0.75,"['Go to the train station.', 'Find the ticket booth.', 'Purchase a ticket.', 'Board the train', 'Show your ticket to the conductor.', 'Find your seat written on the ticket.']","['Purchase a ticket.', 'Sit down.']",Sit down.,1
+7,0.875,"['Go to the train station.', 'Find the ticket booth.', 'Purchase a ticket.', 'Board the train', 'Show your ticket to the conductor.', 'Find your seat written on the ticket.', 'Sit down.']","['Exit the train when you get to your destination.', 'Purchase a ticket.']",Exit the train when you get to your destination.,0
+0,0.0,[],"['travel to train station', 'travel to train station']",travel to train station,1
+1,0.125,['travel to train station'],"['enter train station', 'board the train']",enter train station,0
+2,0.25,"['travel to train station', 'enter train station']","['find a seat', 'go to ticket booth']",go to ticket booth,1
+3,0.375,"['travel to train station', 'enter train station', 'go to ticket booth']","['find a seat', 'buy a ticket']",buy a ticket,1
+4,0.5,"['travel to train station', 'enter train station', 'go to ticket booth', 'buy a ticket']","['sit in seat', 'go to the area where the train is boarding']",go to the area where the train is boarding,1
+5,0.625,"['travel to train station', 'enter train station', 'go to ticket booth', 'buy a ticket', 'go to the area where the train is boarding']","['enter train station', 'board the train']",board the train,1
+6,0.75,"['travel to train station', 'enter train station', 'go to ticket booth', 'buy a ticket', 'go to the area where the train is boarding', 'board the train']","['find a seat', 'travel to train station']",find a seat,0
+7,0.875,"['travel to train station', 'enter train station', 'go to ticket booth', 'buy a ticket', 'go to the area where the train is boarding', 'board the train', 'find a seat']","['sit in seat', 'enter train station']",sit in seat,0
+0,0.0,[],"['Choose a destination.', 'Board the train when it arrives.']",Choose a destination.,0
+1,0.16666666666666666,['Choose a destination.'],"['Board the train when it arrives.', 'Travel to the train station.']",Travel to the train station.,1
+2,0.3333333333333333,"['Choose a destination.', 'Travel to the train station.']","['Purchase your ticket at the designated ticket window.', 'Give your ticket to the ticket-taker when they pass your seat.']",Purchase your ticket at the designated ticket window.,0
+3,0.5,"['Choose a destination.', 'Travel to the train station.', 'Purchase your ticket at the designated ticket window.']","['Choose a destination.', 'Board the train when it arrives.']",Board the train when it arrives.,1
+4,0.6666666666666666,"['Choose a destination.', 'Travel to the train station.', 'Purchase your ticket at the designated ticket window.', 'Board the train when it arrives.']","['Give your ticket to the ticket-taker when they pass your seat.', 'Choose a destination.']",Give your ticket to the ticket-taker when they pass your seat.,0
+5,0.8333333333333334,"['Choose a destination.', 'Travel to the train station.', 'Purchase your ticket at the designated ticket window.', 'Board the train when it arrives.', 'Give your ticket to the ticket-taker when they pass your seat.']","['Exit the train at your destination.', 'Choose a destination.']",Exit the train at your destination.,0

@@ -1,0 +1,93 @@
+,0,1,2,3,4
+2_0,Get credit card out of wallet,Hand credit card to cashier,Wait for cashier to give credit card back,Sign credit card slip given to me by cashier,Put credit card back in wallet
+2_1,walk to cashier or automated teller,take out credit card,swipe card,enter password,approve fee
+2_2,Run card through machine,Select debit or credit,"If debit, enter pin",Sign the machine,Press enter
+2_3,going to the store,picking out product to buy,going to check out,handing card to cashier,signing for purchase
+2_4,Select credit card you want to use,Tell cashier you are paying with credit,Slide card through machine,Select option for credit,Accept amount charged
+2_5,Apply for credit card,Wait for approval,Go to store,Choose item,Bring item to clerk
+2_6,Select desired credit card.,Withdraw from wallet.,Hand to cashier.,Hand over ID upon request.,Wait for receipts to print.
+2_7,Make sure your price is right,Pull out your credit,"Either hand you card to the merchant to be swiped, or swipe the card yourself",Type in your pin number or zipcode if prompted,Take your receipt
+2_8,Bring selected merchandise to the till counter,Let the cashier scan all the items,Take out credit card,Ask the cashier for payment with credit card,Give the cashier your credit card
+2_9,Get into a shop,choose the product,Take the credit card,Swipe your credit card for paying,Enter the amount
+2_10,"Wait for clerk to tell you your total,",Tell cashier you are paying with credit.,Swipe card.,Press the button for credit card.,Sign receipt.
+2_11,Find the item you want to buy,Bring item to checkout,Take out credit card,Slide card through the reader,Input pin number
+2_13,Provide the credit card to the seller,"Check the amount, how much we need to pay for our shopping",Check the transfer amount and enter the PIN Number,Collect the bill for money transfer,Make sure the amount was transferred correctly
+2_14,Decide what items you would like to buy.,Proceed to checkout.,Scan items.,Swipe card through reader.,Confirm amount on screen.
+2_15,Find items you want to purchase.,Take items to cashier.,"Watch total, and remove credit card from wallet.",Slide credit card through payment machine.,"Follow prompts on machine, hitting yes and no where appropriate."
+2_16,Get your card out,slide it in the machine,wait than sign your name in box,put your card away,take your receipt
+2_17,Go to store,Pick out item you wish to purchase,Take item to checkout counter,Give cashier your credit card,Sign receipt and get card back
+2_19,Put items on cash wrap,Retrieve card,Give to cashier,Cashier swipes,Wait for approval
+2_20,Receive a bill that you will be paying for.,Announce you will be paying by credit card.,Swipe the card or allow the cashier to swipe.,Wait for the transaction to be authorized.,Sign the receipt if needed.
+2_21,The cashier tells you the cash amount required for purchase,Take out credit card from wallet,Slide credit card on electronic card reader,Sign the receipt,Take your purchase
+2_22,Wait in line.,Hand purchases to clerk.,Wait for clerk to scan purchases.,Get total charge amount from clerk.,Slide credit card through card reader.
+2_23,Enter store,Choose a product,Go to cashier,Give credit card,Enter your pin
+2_24,decide what you are going to purchase,Tell the cashier you are paying by credit,give the card to the cashier,the cashier will run it,wait for approval
+2_25,Bring purchases to cashier,Cashier scans purchases,Get total from cashier,Take credit card out of wallet,Swipe credit card in payment console
+2_26,Pull out credit card,Swipe card in machine,Or enter numbers online (if online purchase),Enter expiration date (if online),Enter csc (if online)
+2_27,Look for cash register,Place items in front of cashier,Wait until cashier is finished ringing up items,Swipe credit card,Show cashier identification and credit card
+2_28,Take the items you would like to purchase to the register.,After they ring up the items they will give you a total.,Let them know you would like to pay with a credit card.,Swipe your card in the machine.,Select the credit option.
+2_29,wait for cashier to ring up purchases,give credit card to cashier,if asked show ID to cashier,sign credit slip,take back credit card
+2_30,"After the cashier rings up your items, pull your card out",tell the cashier it is credit,swipe the card,sign the signature pad to accept the transaction,wait until the transaction is authorized
+2_31,Find items to purchase,Take item to sales clerk,Clerk tallies up the amount,Slide the credit card through the reader,Sign your name on the reader
+2_32,Get my credit card.,Hand it to the cashier.,Cashier checks my ID.,Swipe the card.,Type in some information.
+2_33,Open wallet and select a credit card,Pull out credit card and swipe in POS machine,enter credit or debit,Enter PIN if asked,wait for approval
+2_34,Swipe credit card,Accept the charges,Wait for your receipt,Sign receipt,Take customer copy of receipt
+2_35,pull out wallet,grab credit card,swipe through machine,sign for payment,insert card in wallet
+2_36,Open wallet,Pull credit card out,Swipe my card,Put in my pin number,Put card back in my wallet
+2_37,Decide what to purchase,Get my wallet out,Take out my credit card,Swipe my credit card,Put my credit card back in my wallet
+2_38,enter card number,enter name on card,enter exp date,enter verification code on back of card,confirm purchase
+2_40,Open wallet.,Take out credit card.,Swipe credit card.,Hit accept button.,Wait for receipt to print.
+2_41,Take card from wallet.,Swipe card in the machine.,Answer any question the machine asks.,Press enter to confirm purchase.,Wait for recipt.
+2_42,Go to where you are buying an item,get your credit card out of wallet,swipe through the credit card machine,wait for cashier to give you a receipt to sign,sign the credit card reciept
+2_43,take out your wallet,find your card,present or swipe your card,verify the total,sign the receipt
+2_44,select items to buy,get in check out line,give items to cashier,slide credit card into machine,sign for purchase
+2_45,Order an item,Pull out wallet,Pull out credit card from wallet,Swipe on the credit card machine,Insert the pin number
+2_46,Purchase items,Walk to check out,Get credit card out of wallet,Swipe credit card at register,Press appropriate buttons upon swipe
+2_47,place order,give card info by slideing or entering it online,wait for payment to happen,get items you paid for,take note of money spent
+2_48,stand in line at counter,hand over items to cashier,watch prices as she scans items,get total of purchase,get out credit card.
+2_49,Go to checkout.,Person will tell you the amount you owe.,Hand them your credit card.,Person will slide it through their machine.,Receipt will print.
+2_50,Take out credit card.,Swipe card in machine.,Sign authorization.,Take receipt.,Put card and receipt back in wallet.
+2_51,find item you want in store,bring item to counter,slide card in reader,take items home,
+2_52,Get out your card,Hand bill to clerk,Hand card to clerk,sign receipt,Put away card
+2_53,Get bill,Hand over credit card,Let cashier swipe credit card,When receipt printed sign it,Hand receipt to cashier
+2_54,make purchase,swipe card,sign screen,get receipt,leave store
+2_55,Pull out wallet,Select credit card from wallet,Swipe credit card in reader,Accept the total amount,Sign your name
+2_56,Take wallet out of pocket,Take credit card out of wallet,Slide card into machine,Pick correct options on machine,Sign your name
+2_57,GET CREDIT CARD,SWIPE THROUGH THE MACHINE,FOLLOW ON-SCREEN INSTRUCTIONS,"WHEN PROMPTED, SIGN YOUR NAME",WAIT FOR THE PAYMENT TO BE PROCESSED
+2_58,Ring up purchases with cashier,Bag items,Swipe credit card,Wait for cashier to approve transaction,Sign receipt
+2_59,Check total,Grab wallet,Find card,Swipe card,Sign on screen
+2_60,drive to store,choose items you want to purchase,take items to checkout isle,after total is told to you slide card on credit card machine,answer questions as prompted by machine
+2_61,See what brands the merchant accepts,Reach into pocket,Pull wallet out of pocket,Find card that corresponds to brand accepted by merchant,Pull card out of wallet
+2_63,Review your bill for accuracy.,Remove your credit card from your wallet.,Present your credit card as form of payment.,Review receipt for accuracy.,Sign your name on receipt.
+2_64,You get something to buy and walk to cashier.,Cashier rings it up.,You give her your credit card.,She slides it and hands it back to you.,You put it in your purse.
+2_66,Remove card from wallet,Slide it with the number facing upwards,Input your pin number but don't let anyone see you doing it,Sign your name using the stylus,Receive your receipt
+2_67,Choose what you wish to purchase,take it to the register,tell the worker that you wish to pay with credit,hand over your card or swipe it yourself,enter your pin number
+2_68,Pick out item,Take card out of wallet,Slide card through scanner,Confirm the total,Sign on the screen
+2_70,Go shopping.,Pick out goods.,Go to the checkout.,Pull out credit card.,Checkout with credit.
+2_71,Bring items you want to buy to register,Wait for clerk to tell you total,Pull out credit card,Swipe in credit card machine,Sign your name on credit card machine or receipt
+2_72,Remove card from wallet/purse.,Swipe card in available scanner.,Approve the total.,Hit okay.,Sign receipt.
+2_73,Select items to purchase.,"When asked if you are paying with credit or debit, choose credit.","Input credit card type (Visa, Mastercard, etc) if asked.",Enter PIN number if required.,Keep receipt from purchase for record-keeping.
+2_74,go to cashier with what you are buying,get credit card out of wallet/purse,hand credit card to cashier,make sure it goes through,ask for receipt
+2_75,Get the bill,Check the bill amount,Take out credit card from the wallet,Give the credit card to the cashier,Cashier swipes the card
+2_76,Cashier rings up all your items,Give you a subtotal,Slide your card through credit card console,Click yes that you accept the charges,Sign your name
+2_77,Have item (s) or meal charged at establishment,Determine cost,Get credit card from wallet,Hand credit card to clerk/ server,Produce ID if requested
+2_78,Take wallet out of pocket,Open wallet,Remove credit card,Swipe credit card,Verify amount is correct
+2_79,Take items to the counter,Swipe the card,Sign the receipt,Take bagged items,Take copy of the receipt
+2_80,Present your card to make payment,Swipe your card through the card machine,Enter your PIN,Confirm the payment,Sign your receipt
+2_81,Walk to checkout,Put items on counter,Cashier rings up and bags items,Look at your total on the card machine,Confirm it is the correct total
+2_82,Ring up items,Wait for total amount,Pull credit card from wallet,Run credit card through scanner,Wait for approval
+2_83,Take credit card from wallet,Swipe the card in the card reader,"When prompted, sign on card reader screen using finger as pen",Remove paper receipt from printer,Examine receipt for accuracy
+2_84,Select 'pay with credit' option,Take credit card out of wallet,Swipe credit card,Sign your signature,Put credit card back in wallet
+2_85,Get card out wallet,Swipe card on machine,Put password in,Answer questions,Get receipt
+2_86,Take items to register,Cashier rings up items,Give credit card to cashier,Cashier swipes card,Cashier gives back card and receipt
+2_87,Take out the credit card,Swipe the card,wait for the clerk to do things,hit the ok button or sign,take receipt
+2_88,find item you would like to purchase,take item to the cash register,wait for cashier to ring up item,swipe credit card through machine,approve the total
+2_89,Find a service or product needed.,Swipe card at register.,Type in your pin number.,Press enter.,Sign when prompted.
+2_90,check credit card balance,find something to buy,take item to register,hand cashier card,sign for purchase
+2_91,Drive to store,Select goods and merchandise,Take your purchases to check-out,Have your purchases bagged,Pay with credit card
+2_92,Enter point of sale area,Receive total for items,Select the card to pay with,Swipe or hand card over as required,Sign for charges when prompted
+2_93,Pull out your credit card,Hand it to the cashier,Wait for the clerk to swipe it,Sign the slip of paper,Get the card back from the cashier
+2_94,Take items to checkout counter,Have the worker ring them up,Get the total price,Get your credit card out of your wallet,Swipe the credit card through the card reader
+2_95,Pick the product you wish to buy,Approach the cashier,Take out your wallet,Slide your credit card,Collect Receipt
+2_96,Go to check out,Wait in line,Watch cashier ring up stuff,Scan card on credit thingy,Get receipt
+2_97,Bring item up to buy,Give item to cashier,Wait for the cashier to say the total,Get credit card out of purse/wallet,give it to the cashier

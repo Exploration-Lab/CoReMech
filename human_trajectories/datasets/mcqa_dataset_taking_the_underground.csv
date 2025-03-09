@@ -1,0 +1,678 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Take a seat or stand', 'Enter the station']",Enter the station,1
+1,0.125,['Enter the station'],"['Arrive at destination', 'Check the train schedules']",Check the train schedules,1
+2,0.25,"['Enter the station', 'Check the train schedules']","['Get on the train', 'Buy a ticket']",Buy a ticket,1
+3,0.375,"['Enter the station', 'Check the train schedules', 'Buy a ticket']","['Get off the train', 'Wait for the train']",Wait for the train,1
+4,0.5,"['Enter the station', 'Check the train schedules', 'Buy a ticket', 'Wait for the train']","['Get on the train', 'Get off the train']",Get on the train,0
+5,0.625,"['Enter the station', 'Check the train schedules', 'Buy a ticket', 'Wait for the train', 'Get on the train']","['Take a seat or stand', 'Buy a ticket']",Take a seat or stand,0
+6,0.75,"['Enter the station', 'Check the train schedules', 'Buy a ticket', 'Wait for the train', 'Get on the train', 'Take a seat or stand']","['Enter the station', 'Arrive at destination']",Arrive at destination,1
+7,0.875,"['Enter the station', 'Check the train schedules', 'Buy a ticket', 'Wait for the train', 'Get on the train', 'Take a seat or stand', 'Arrive at destination']","['Get off the train', 'Check the train schedules']",Get off the train,0
+0,0.0,[],"['entering the underground when arrives', 'walking on the street']",walking on the street,1
+1,0.2,['walking on the street'],"['entering the underground', 'paying for a ticket']",entering the underground,0
+2,0.4,"['walking on the street', 'entering the underground']","['entering the underground when arrives', 'paying for a ticket']",paying for a ticket,1
+3,0.6,"['walking on the street', 'entering the underground', 'paying for a ticket']","['waiting on platform for underground', 'walking on the street']",waiting on platform for underground,0
+4,0.8,"['walking on the street', 'entering the underground', 'paying for a ticket', 'waiting on platform for underground']","['entering the underground when arrives', 'walking on the street']",entering the underground when arrives,0
+0,0.0,[],"['Ride to your destination', 'Traveling to station']",Traveling to station,1
+1,0.2,['Traveling to station'],"['Purchase fare for subway', 'Purchase fare for subway']",Purchase fare for subway,1
+2,0.4,"['Traveling to station', 'Purchase fare for subway']","['Exit when you arrive', 'Enter railcar']",Enter railcar,1
+3,0.6,"['Traveling to station', 'Purchase fare for subway', 'Enter railcar']","['Traveling to station', 'Ride to your destination']",Ride to your destination,1
+4,0.8,"['Traveling to station', 'Purchase fare for subway', 'Enter railcar', 'Ride to your destination']","['Exit when you arrive', 'Purchase fare for subway']",Exit when you arrive,0
+0,0.0,[],"['Drive to the station', 'Park your car']",Drive to the station,0
+1,0.16666666666666666,['Drive to the station'],"['Park your car', 'Walk down the stairs']",Park your car,0
+2,0.3333333333333333,"['Drive to the station', 'Park your car']","['Board the train', 'Walk down the stairs']",Walk down the stairs,1
+3,0.5,"['Drive to the station', 'Park your car', 'Walk down the stairs']","['Buy a ticket', 'Drive to the station']",Buy a ticket,0
+4,0.6666666666666666,"['Drive to the station', 'Park your car', 'Walk down the stairs', 'Buy a ticket']","['Park your car', 'Wait for the train']",Wait for the train,1
+5,0.8333333333333334,"['Drive to the station', 'Park your car', 'Walk down the stairs', 'Buy a ticket', 'Wait for the train']","['Board the train', 'Walk down the stairs']",Board the train,0
+0,0.0,[],"['Take a shovel', 'Dig more']",Take a shovel,0
+1,0.125,['Take a shovel'],"['Take a spade', 'Take a shovel']",Take a spade,0
+2,0.25,"['Take a shovel', 'Take a spade']","['Dig at the correct spot', 'Remove the earth']",Dig at the correct spot,0
+3,0.375,"['Take a shovel', 'Take a spade', 'Dig at the correct spot']","['Dig more', 'Take the underground']",Dig more,0
+4,0.5,"['Take a shovel', 'Take a spade', 'Dig at the correct spot', 'Dig more']","['Remove the earth', 'Take a spade']",Remove the earth,0
+5,0.625,"['Take a shovel', 'Take a spade', 'Dig at the correct spot', 'Dig more', 'Remove the earth']","['Take a shovel', 'Take out any stones']",Take out any stones,1
+6,0.75,"['Take a shovel', 'Take a spade', 'Dig at the correct spot', 'Dig more', 'Remove the earth', 'Take out any stones']","['Take the underground', 'Take a spade']",Take the underground,0
+7,0.875,"['Take a shovel', 'Take a spade', 'Dig at the correct spot', 'Dig more', 'Remove the earth', 'Take out any stones', 'Take the underground']","['Put back the soil', 'Take a spade']",Put back the soil,0
+0,0.0,[],"['Go to transit station', 'board train when it arrives']",Go to transit station,0
+1,0.125,['Go to transit station'],"['leave station', 'Buy subway card']",Buy subway card,1
+2,0.25,"['Go to transit station', 'Buy subway card']","['scan card at entrance', 'leave station']",scan card at entrance,0
+3,0.375,"['Go to transit station', 'Buy subway card', 'scan card at entrance']","['exit train at appropriate stop', 'walk to subway platform and wait for train']",walk to subway platform and wait for train,1
+4,0.5,"['Go to transit station', 'Buy subway card', 'scan card at entrance', 'walk to subway platform and wait for train']","['Go to transit station', 'board train when it arrives']",board train when it arrives,1
+5,0.625,"['Go to transit station', 'Buy subway card', 'scan card at entrance', 'walk to subway platform and wait for train', 'board train when it arrives']","['Buy subway card', 'find a seat or stand if crowded']",find a seat or stand if crowded,1
+6,0.75,"['Go to transit station', 'Buy subway card', 'scan card at entrance', 'walk to subway platform and wait for train', 'board train when it arrives', 'find a seat or stand if crowded']","['exit train at appropriate stop', 'Go to transit station']",exit train at appropriate stop,0
+7,0.875,"['Go to transit station', 'Buy subway card', 'scan card at entrance', 'walk to subway platform and wait for train', 'board train when it arrives', 'find a seat or stand if crowded', 'exit train at appropriate stop']","['leave station', 'scan card at entrance']",leave station,0
+0,0.0,[],"['Purchase ticket.', 'Walk down sidewalk to entrance point.']",Walk down sidewalk to entrance point.,1
+1,0.14285714285714285,['Walk down sidewalk to entrance point.'],"['Walk down stairs to subway area.', 'Pass through turnstyle.']",Walk down stairs to subway area.,0
+2,0.2857142857142857,"['Walk down sidewalk to entrance point.', 'Walk down stairs to subway area.']","['Purchase ticket.', 'Wait for train without crossing the line.']",Purchase ticket.,0
+3,0.42857142857142855,"['Walk down sidewalk to entrance point.', 'Walk down stairs to subway area.', 'Purchase ticket.']","['Pass through turnstyle.', 'Walk down sidewalk to entrance point.']",Pass through turnstyle.,0
+4,0.5714285714285714,"['Walk down sidewalk to entrance point.', 'Walk down stairs to subway area.', 'Purchase ticket.', 'Pass through turnstyle.']","['Wait for train without crossing the line.', 'Walk up steps to sidewalk level.']",Wait for train without crossing the line.,0
+5,0.7142857142857143,"['Walk down sidewalk to entrance point.', 'Walk down stairs to subway area.', 'Purchase ticket.', 'Pass through turnstyle.', 'Wait for train without crossing the line.']","['Purchase ticket.', 'Board train.Get off on correct stop.']",Board train.Get off on correct stop.,1
+6,0.8571428571428571,"['Walk down sidewalk to entrance point.', 'Walk down stairs to subway area.', 'Purchase ticket.', 'Pass through turnstyle.', 'Wait for train without crossing the line.', 'Board train.Get off on correct stop.']","['Pass through turnstyle.', 'Walk up steps to sidewalk level.']",Walk up steps to sidewalk level.,1
+0,0.0,[],"['check travel information at station', 'Prepare for your trip']",Prepare for your trip,1
+1,0.2,['Prepare for your trip'],"['when you get there', 'buy ticket']",when you get there,0
+2,0.4,"['Prepare for your trip', 'when you get there']","['get on tube', 'check travel information at station']",check travel information at station,1
+3,0.6,"['Prepare for your trip', 'when you get there', 'check travel information at station']","['Prepare for your trip', 'buy ticket']",buy ticket,1
+4,0.8,"['Prepare for your trip', 'when you get there', 'check travel information at station', 'buy ticket']","['when you get there', 'get on tube']",get on tube,1
+0,0.0,[],"['choose the route you want to take', 'keep fare']",choose the route you want to take,0
+1,0.125,['choose the route you want to take'],"['keep fare', 'locate a station']",locate a station,1
+2,0.25,"['choose the route you want to take', 'locate a station']","['board train', 'pay for your fare']",pay for your fare,1
+3,0.375,"['choose the route you want to take', 'locate a station', 'pay for your fare']","['present your ticket to the agent', 'choose the route you want to take']",present your ticket to the agent,0
+4,0.5,"['choose the route you want to take', 'locate a station', 'pay for your fare', 'present your ticket to the agent']","['keep fare', 'wait for train']",wait for train,1
+5,0.625,"['choose the route you want to take', 'locate a station', 'pay for your fare', 'present your ticket to the agent', 'wait for train']","['board train', 'locate a station']",board train,0
+6,0.75,"['choose the route you want to take', 'locate a station', 'pay for your fare', 'present your ticket to the agent', 'wait for train', 'board train']","['pay for your fare', 'get off of train at stop']",get off of train at stop,1
+7,0.875,"['choose the route you want to take', 'locate a station', 'pay for your fare', 'present your ticket to the agent', 'wait for train', 'board train', 'get off of train at stop']","['present your ticket to the agent', 'keep fare']",keep fare,1
+0,0.0,[],"['Wait for train', 'Go to underground train station']",Go to underground train station,1
+1,0.125,['Go to underground train station'],"['Doors open', 'Buy token at kiosk']",Buy token at kiosk,1
+2,0.25,"['Go to underground train station', 'Buy token at kiosk']","['Train arrives', 'Use token to enter train platform']",Use token to enter train platform,1
+3,0.375,"['Go to underground train station', 'Buy token at kiosk', 'Use token to enter train platform']","['Travel to destination', 'Wait for train']",Wait for train,1
+4,0.5,"['Go to underground train station', 'Buy token at kiosk', 'Use token to enter train platform', 'Wait for train']","['Train arrives', 'Go to underground train station']",Train arrives,0
+5,0.625,"['Go to underground train station', 'Buy token at kiosk', 'Use token to enter train platform', 'Wait for train', 'Train arrives']","['Doors open', 'Buy token at kiosk']",Doors open,0
+6,0.75,"['Go to underground train station', 'Buy token at kiosk', 'Use token to enter train platform', 'Wait for train', 'Train arrives', 'Doors open']","['Wait for train', 'Enter train']",Enter train,1
+7,0.875,"['Go to underground train station', 'Buy token at kiosk', 'Use token to enter train platform', 'Wait for train', 'Train arrives', 'Doors open', 'Enter train']","['Buy token at kiosk', 'Travel to destination']",Travel to destination,1
+0,0.0,[],"['Underground is meant for hiding.', 'Underground is meant for hiding.']",Underground is meant for hiding.,0
+1,0.16666666666666666,['Underground is meant for hiding.'],"['Nowadays ready made underground also available which comes with some important things.', 'By taking the underground one can avoid casualties in war.']",By taking the underground one can avoid casualties in war.,1
+2,0.3333333333333333,"['Underground is meant for hiding.', 'By taking the underground one can avoid casualties in war.']","['Nowadays ready made underground also available which comes with some important things.', 'Underground not only prevent in war but also prevent from cyclone.']",Underground not only prevent in war but also prevent from cyclone.,1
+3,0.5,"['Underground is meant for hiding.', 'By taking the underground one can avoid casualties in war.', 'Underground not only prevent in war but also prevent from cyclone.']","['Though wooden house and even concrete house gone in cyclone you are safe in underground.', 'Bunker which is known as underground can be used both military and civilians.']",Though wooden house and even concrete house gone in cyclone you are safe in underground.,0
+4,0.6666666666666666,"['Underground is meant for hiding.', 'By taking the underground one can avoid casualties in war.', 'Underground not only prevent in war but also prevent from cyclone.', 'Though wooden house and even concrete house gone in cyclone you are safe in underground.']","['By taking the underground one can avoid casualties in war.', 'Nowadays ready made underground also available which comes with some important things.']",Nowadays ready made underground also available which comes with some important things.,1
+5,0.8333333333333334,"['Underground is meant for hiding.', 'By taking the underground one can avoid casualties in war.', 'Underground not only prevent in war but also prevent from cyclone.', 'Though wooden house and even concrete house gone in cyclone you are safe in underground.', 'Nowadays ready made underground also available which comes with some important things.']","['By taking the underground one can avoid casualties in war.', 'Bunker which is known as underground can be used both military and civilians.']",Bunker which is known as underground can be used both military and civilians.,1
+0,0.0,[],"['Walk to the underground entrance', 'Reach the basement']",Walk to the underground entrance,0
+1,0.125,['Walk to the underground entrance'],"['Enter and walk down the steps', 'Reach the exit point']",Enter and walk down the steps,0
+2,0.25,"['Walk to the underground entrance', 'Enter and walk down the steps']","['Reach the basement', 'Walk towards that direction']",Reach the basement,0
+3,0.375,"['Walk to the underground entrance', 'Enter and walk down the steps', 'Reach the basement']","['Reach the top of the road', 'Ensure which direction to go using the sign boards']",Ensure which direction to go using the sign boards,1
+4,0.5,"['Walk to the underground entrance', 'Enter and walk down the steps', 'Reach the basement', 'Ensure which direction to go using the sign boards']","['Walk towards that direction', 'Walk to the underground entrance']",Walk towards that direction,0
+5,0.625,"['Walk to the underground entrance', 'Enter and walk down the steps', 'Reach the basement', 'Ensure which direction to go using the sign boards', 'Walk towards that direction']","['Reach the top of the road', 'Reach the exit point']",Reach the exit point,1
+6,0.75,"['Walk to the underground entrance', 'Enter and walk down the steps', 'Reach the basement', 'Ensure which direction to go using the sign boards', 'Walk towards that direction', 'Reach the exit point']","['Reach the basement', 'Walk up the stairs']",Walk up the stairs,1
+7,0.875,"['Walk to the underground entrance', 'Enter and walk down the steps', 'Reach the basement', 'Ensure which direction to go using the sign boards', 'Walk towards that direction', 'Reach the exit point', 'Walk up the stairs']","['Reach the top of the road', 'Walk towards that direction']",Reach the top of the road,0
+0,0.0,[],"['Slide ticket through machine and enter station.', 'Walk to underground station.']",Walk to underground station.,1
+1,0.16666666666666666,['Walk to underground station.'],"['Determine which train you need to take.', 'Wait for desired train.']",Determine which train you need to take.,0
+2,0.3333333333333333,"['Walk to underground station.', 'Determine which train you need to take.']","['Get off train at desired stop.', 'Slide ticket through machine and enter station.']",Slide ticket through machine and enter station.,1
+3,0.5,"['Walk to underground station.', 'Determine which train you need to take.', 'Slide ticket through machine and enter station.']","['Wait for desired train.', 'Walk to underground station.']",Wait for desired train.,0
+4,0.6666666666666666,"['Walk to underground station.', 'Determine which train you need to take.', 'Slide ticket through machine and enter station.', 'Wait for desired train.']","['Determine which train you need to take.', 'Board train and sit or stand.']",Board train and sit or stand.,1
+5,0.8333333333333334,"['Walk to underground station.', 'Determine which train you need to take.', 'Slide ticket through machine and enter station.', 'Wait for desired train.', 'Board train and sit or stand.']","['Get off train at desired stop.', 'Walk to underground station.']",Get off train at desired stop.,0
+0,0.0,[],"['Exit train at destination', 'Enter into the subway']",Enter into the subway,1
+1,0.125,['Enter into the subway'],"['Look at map to find destination', 'Sit or stand']",Look at map to find destination,0
+2,0.25,"['Enter into the subway', 'Look at map to find destination']","['Purchase ticket for destination', 'Board train when available']",Purchase ticket for destination,0
+3,0.375,"['Enter into the subway', 'Look at map to find destination', 'Purchase ticket for destination']","['Go to waiting point', 'Enter into the subway']",Go to waiting point,0
+4,0.5,"['Enter into the subway', 'Look at map to find destination', 'Purchase ticket for destination', 'Go to waiting point']","['Wait for train to arrive', 'Exit train at destination']",Wait for train to arrive,0
+5,0.625,"['Enter into the subway', 'Look at map to find destination', 'Purchase ticket for destination', 'Go to waiting point', 'Wait for train to arrive']","['Board train when available', 'Purchase ticket for destination']",Board train when available,0
+6,0.75,"['Enter into the subway', 'Look at map to find destination', 'Purchase ticket for destination', 'Go to waiting point', 'Wait for train to arrive', 'Board train when available']","['Purchase ticket for destination', 'Sit or stand']",Sit or stand,1
+7,0.875,"['Enter into the subway', 'Look at map to find destination', 'Purchase ticket for destination', 'Go to waiting point', 'Wait for train to arrive', 'Board train when available', 'Sit or stand']","['Exit train at destination', 'Purchase ticket for destination']",Exit train at destination,0
+0,0.0,[],"['Notice sign for underground tunnel', 'Walk down ramp to tunnel']",Notice sign for underground tunnel,0
+1,0.2,['Notice sign for underground tunnel'],"['Notice sign for underground tunnel', 'Decide to take the underground short cut']",Decide to take the underground short cut,1
+2,0.4,"['Notice sign for underground tunnel', 'Decide to take the underground short cut']","['Walk down ramp to tunnel', 'Walk back up ramp to outside']",Walk down ramp to tunnel,0
+3,0.6,"['Notice sign for underground tunnel', 'Decide to take the underground short cut', 'Walk down ramp to tunnel']","['Walk through tunnel to avoid traffic', 'Notice sign for underground tunnel']",Walk through tunnel to avoid traffic,0
+4,0.8,"['Notice sign for underground tunnel', 'Decide to take the underground short cut', 'Walk down ramp to tunnel', 'Walk through tunnel to avoid traffic']","['Walk back up ramp to outside', 'Decide to take the underground short cut']",Walk back up ramp to outside,0
+0,0.0,[],"['arrive at subway', 'arrive at subway']",arrive at subway,1
+1,0.16666666666666666,['arrive at subway'],"['wait for train', 'buy ticket']",buy ticket,1
+2,0.3333333333333333,"['arrive at subway', 'buy ticket']","['exit train', 'wait for train']",wait for train,1
+3,0.5,"['arrive at subway', 'buy ticket', 'wait for train']","['exit train', 'enter train']",enter train,1
+4,0.6666666666666666,"['arrive at subway', 'buy ticket', 'wait for train', 'enter train']","['arrive at subway', 'arrive destination']",arrive destination,1
+5,0.8333333333333334,"['arrive at subway', 'buy ticket', 'wait for train', 'enter train', 'arrive destination']","['exit train', 'buy ticket']",exit train,0
+0,0.0,[],"['Get dressed.', 'Walk to bus stop.']",Get dressed.,0
+1,0.125,['Get dressed.'],"['Get wallet', 'Get on bus.']",Get wallet,0
+2,0.25,"['Get dressed.', 'Get wallet']","['Ride to the stop.', 'Walk to bus stop.']",Walk to bus stop.,1
+3,0.375,"['Get dressed.', 'Get wallet', 'Walk to bus stop.']","['Wait for bus.', 'Walk to subway.']",Wait for bus.,0
+4,0.5,"['Get dressed.', 'Get wallet', 'Walk to bus stop.', 'Wait for bus.']","['Get off.', 'Get on bus.']",Get on bus.,1
+5,0.625,"['Get dressed.', 'Get wallet', 'Walk to bus stop.', 'Wait for bus.', 'Get on bus.']","['Ride to the stop.', 'Get dressed.']",Ride to the stop.,0
+6,0.75,"['Get dressed.', 'Get wallet', 'Walk to bus stop.', 'Wait for bus.', 'Get on bus.', 'Ride to the stop.']","['Get off.', 'Wait for bus.']",Get off.,0
+7,0.875,"['Get dressed.', 'Get wallet', 'Walk to bus stop.', 'Wait for bus.', 'Get on bus.', 'Ride to the stop.', 'Get off.']","['Get wallet', 'Walk to subway.']",Walk to subway.,1
+0,0.0,[],"['Walk to subway station', 'Walk through Roundabout']",Walk to subway station,0
+1,0.16666666666666666,['Walk to subway station'],"['Pay for train ticket', 'Get on train']",Pay for train ticket,0
+2,0.3333333333333333,"['Walk to subway station', 'Pay for train ticket']","['Walk through Roundabout', 'Wait for train']",Walk through Roundabout,0
+3,0.5,"['Walk to subway station', 'Pay for train ticket', 'Walk through Roundabout']","['Walk down the stairs into subway', 'Walk to subway station']",Walk down the stairs into subway,0
+4,0.6666666666666666,"['Walk to subway station', 'Pay for train ticket', 'Walk through Roundabout', 'Walk down the stairs into subway']","['Wait for train', 'Pay for train ticket']",Wait for train,0
+5,0.8333333333333334,"['Walk to subway station', 'Pay for train ticket', 'Walk through Roundabout', 'Walk down the stairs into subway', 'Wait for train']","['Walk to subway station', 'Get on train']",Get on train,1
+0,0.0,[],"['Train arrives', 'Enter subway station']",Enter subway station,1
+1,0.125,['Enter subway station'],"['Train arrives', 'Pay fare']",Pay fare,1
+2,0.25,"['Enter subway station', 'Pay fare']","['Get off of train', 'Find correct platform']",Find correct platform,1
+3,0.375,"['Enter subway station', 'Pay fare', 'Find correct platform']","['Wait for train', 'Train reaches your destination']",Wait for train,0
+4,0.5,"['Enter subway station', 'Pay fare', 'Find correct platform', 'Wait for train']","['Train arrives', 'Enter subway station']",Train arrives,0
+5,0.625,"['Enter subway station', 'Pay fare', 'Find correct platform', 'Wait for train', 'Train arrives']","['Get onto train', 'Pay fare']",Get onto train,0
+6,0.75,"['Enter subway station', 'Pay fare', 'Find correct platform', 'Wait for train', 'Train arrives', 'Get onto train']","['Train reaches your destination', 'Enter subway station']",Train reaches your destination,0
+7,0.875,"['Enter subway station', 'Pay fare', 'Find correct platform', 'Wait for train', 'Train arrives', 'Get onto train', 'Train reaches your destination']","['Train arrives', 'Get off of train']",Get off of train,1
+0,0.0,[],"['enter underground station', 'check board to see when train arrives']",enter underground station,0
+1,0.125,['enter underground station'],"['buy ticket', 'give ticket to conductor']",buy ticket,0
+2,0.25,"['enter underground station', 'buy ticket']","['check board to see when train arrives', 'find a seat']",check board to see when train arrives,0
+3,0.375,"['enter underground station', 'buy ticket', 'check board to see when train arrives']","['board train', 'exit underground']",board train,0
+4,0.5,"['enter underground station', 'buy ticket', 'check board to see when train arrives', 'board train']","['give ticket to conductor', 'enter underground station']",give ticket to conductor,0
+5,0.625,"['enter underground station', 'buy ticket', 'check board to see when train arrives', 'board train', 'give ticket to conductor']","['buy ticket', 'find a seat']",find a seat,1
+6,0.75,"['enter underground station', 'buy ticket', 'check board to see when train arrives', 'board train', 'give ticket to conductor', 'find a seat']","['board train', 'arrive at destination']",arrive at destination,1
+7,0.875,"['enter underground station', 'buy ticket', 'check board to see when train arrives', 'board train', 'give ticket to conductor', 'find a seat', 'arrive at destination']","['give ticket to conductor', 'exit underground']",exit underground,1
+0,0.0,[],"['Taking the subway', 'Taking a train']",Taking a train,1
+1,0.2,['Taking a train'],"['Getting on the train', 'Hopping on the train']",Getting on the train,0
+2,0.4,"['Taking a train', 'Getting on the train']","['Taking the subway', 'Hopping on the train']",Taking the subway,0
+3,0.6,"['Taking a train', 'Getting on the train', 'Taking the subway']","['Getting on the subway', 'Taking a train']",Getting on the subway,0
+4,0.8,"['Taking a train', 'Getting on the train', 'Taking the subway', 'Getting on the subway']","['Hopping on the train', 'Taking a train']",Hopping on the train,0
+0,0.0,[],"['Walk to station', 'Wait for correct train/car']",Walk to station,0
+1,0.14285714285714285,['Walk to station'],"['Purchase ticket', 'Enter train/car']",Purchase ticket,0
+2,0.2857142857142857,"['Walk to station', 'Purchase ticket']","['Sit in seat', 'Wait for correct train/car']",Wait for correct train/car,1
+3,0.42857142857142855,"['Walk to station', 'Purchase ticket', 'Wait for correct train/car']","['Walk to station', 'Enter train/car']",Enter train/car,1
+4,0.5714285714285714,"['Walk to station', 'Purchase ticket', 'Wait for correct train/car', 'Enter train/car']","['Choose a seat', 'Purchase ticket']",Choose a seat,0
+5,0.7142857142857143,"['Walk to station', 'Purchase ticket', 'Wait for correct train/car', 'Enter train/car', 'Choose a seat']","['Purchase ticket', 'Sit in seat']",Sit in seat,1
+6,0.8571428571428571,"['Walk to station', 'Purchase ticket', 'Wait for correct train/car', 'Enter train/car', 'Choose a seat', 'Sit in seat']","['Wait for correct train/car', 'Remain seated until destination']",Remain seated until destination,1
+0,0.0,[],"['Checking the schedule', 'Checking the schedule']",Checking the schedule,0
+1,0.2,['Checking the schedule'],"['Getting on the right train', 'Enjoying the ride']",Getting on the right train,0
+2,0.4,"['Checking the schedule', 'Getting on the right train']","['Finding a seat', 'Getting off at the correct stop']",Finding a seat,0
+3,0.6,"['Checking the schedule', 'Getting on the right train', 'Finding a seat']","['Checking the schedule', 'Enjoying the ride']",Enjoying the ride,1
+4,0.8,"['Checking the schedule', 'Getting on the right train', 'Finding a seat', 'Enjoying the ride']","['Getting off at the correct stop', 'Getting on the right train']",Getting off at the correct stop,0
+0,0.0,[],"['Walk to the underground station', 'Walk to the underground station']",Walk to the underground station,1
+1,0.2,['Walk to the underground station'],"['Walk through turnstile', 'Go to ticket booth']",Go to ticket booth,1
+2,0.4,"['Walk to the underground station', 'Go to ticket booth']","['Board the car', 'Purchase ticket']",Purchase ticket,1
+3,0.6,"['Walk to the underground station', 'Go to ticket booth', 'Purchase ticket']","['Walk to the underground station', 'Walk through turnstile']",Walk through turnstile,1
+4,0.8,"['Walk to the underground station', 'Go to ticket booth', 'Purchase ticket', 'Walk through turnstile']","['Go to ticket booth', 'Board the car']",Board the car,1
+0,0.0,[],"['Arrive at station.', 'Enter train.']",Arrive at station.,0
+1,0.16666666666666666,['Arrive at station.'],"['Arrive at station.', 'Buy tickets at machine or with teller.']",Buy tickets at machine or with teller.,1
+2,0.3333333333333333,"['Arrive at station.', 'Buy tickets at machine or with teller.']","['Get off train at correct station.', 'Wait for train to arrive.']",Wait for train to arrive.,1
+3,0.5,"['Arrive at station.', 'Buy tickets at machine or with teller.', 'Wait for train to arrive.']","['Enter train.', 'Get off train at correct station.']",Enter train.,0
+4,0.6666666666666666,"['Arrive at station.', 'Buy tickets at machine or with teller.', 'Wait for train to arrive.', 'Enter train.']","['Find seat.', 'Arrive at station.']",Find seat.,0
+5,0.8333333333333334,"['Arrive at station.', 'Buy tickets at machine or with teller.', 'Wait for train to arrive.', 'Enter train.', 'Find seat.']","['Wait for train to arrive.', 'Get off train at correct station.']",Get off train at correct station.,1
+0,0.0,[],"['Drive through the tunnel', 'Drive to tunnel']",Drive to tunnel,1
+1,0.2,['Drive to tunnel'],"['Drive through the tunnel', 'Turn on headlights']",Turn on headlights,1
+2,0.4,"['Drive to tunnel', 'Turn on headlights']","['Slow down speed when in tunnel', 'Exit tunnel']",Slow down speed when in tunnel,0
+3,0.6,"['Drive to tunnel', 'Turn on headlights', 'Slow down speed when in tunnel']","['Drive to tunnel', 'Drive through the tunnel']",Drive through the tunnel,1
+4,0.8,"['Drive to tunnel', 'Turn on headlights', 'Slow down speed when in tunnel', 'Drive through the tunnel']","['Exit tunnel', 'Turn on headlights']",Exit tunnel,0
+0,0.0,[],"['Go to the station', 'Go to the station']",Go to the station,0
+1,0.2,['Go to the station'],"['Walk downstairs', 'Walk downstairs']",Walk downstairs,1
+2,0.4,"['Go to the station', 'Walk downstairs']","['Get on train', 'Pay the Turnpike']",Pay the Turnpike,1
+3,0.6,"['Go to the station', 'Walk downstairs', 'Pay the Turnpike']","['Go to the station', 'Wait for my train']",Wait for my train,1
+4,0.8,"['Go to the station', 'Walk downstairs', 'Pay the Turnpike', 'Wait for my train']","['Go to the station', 'Get on train']",Get on train,1
+0,0.0,[],"['SWIPE YOUR OYSTER CARD OR BUY TICKET', 'GO TO THE NEAREST UNDERGROUND STATION']",GO TO THE NEAREST UNDERGROUND STATION,1
+1,0.14285714285714285,['GO TO THE NEAREST UNDERGROUND STATION'],"['GO TO THE NEAREST UNDERGROUND STATION', 'SWIPE YOUR OYSTER CARD OR BUY TICKET']",SWIPE YOUR OYSTER CARD OR BUY TICKET,1
+2,0.2857142857142857,"['GO TO THE NEAREST UNDERGROUND STATION', 'SWIPE YOUR OYSTER CARD OR BUY TICKET']","['TRAVEL ON THE TRAIN TO DESIRED LOCATION', 'GO TO THE CORRECT PLATFORM']",GO TO THE CORRECT PLATFORM,1
+3,0.42857142857142855,"['GO TO THE NEAREST UNDERGROUND STATION', 'SWIPE YOUR OYSTER CARD OR BUY TICKET', 'GO TO THE CORRECT PLATFORM']","['WAIT BEHIND THE LINE FOR THE NEXT TRAIN', 'EXIT THE TRAIN PROMPTLY.']",WAIT BEHIND THE LINE FOR THE NEXT TRAIN,0
+4,0.5714285714285714,"['GO TO THE NEAREST UNDERGROUND STATION', 'SWIPE YOUR OYSTER CARD OR BUY TICKET', 'GO TO THE CORRECT PLATFORM', 'WAIT BEHIND THE LINE FOR THE NEXT TRAIN']","['GO TO THE NEAREST UNDERGROUND STATION', 'WHEN IT ARRIVES, BOARD UNDERGROUND TRAIN']","WHEN IT ARRIVES, BOARD UNDERGROUND TRAIN",1
+5,0.7142857142857143,"['GO TO THE NEAREST UNDERGROUND STATION', 'SWIPE YOUR OYSTER CARD OR BUY TICKET', 'GO TO THE CORRECT PLATFORM', 'WAIT BEHIND THE LINE FOR THE NEXT TRAIN', 'WHEN IT ARRIVES, BOARD UNDERGROUND TRAIN']","['SWIPE YOUR OYSTER CARD OR BUY TICKET', 'TRAVEL ON THE TRAIN TO DESIRED LOCATION']",TRAVEL ON THE TRAIN TO DESIRED LOCATION,1
+6,0.8571428571428571,"['GO TO THE NEAREST UNDERGROUND STATION', 'SWIPE YOUR OYSTER CARD OR BUY TICKET', 'GO TO THE CORRECT PLATFORM', 'WAIT BEHIND THE LINE FOR THE NEXT TRAIN', 'WHEN IT ARRIVES, BOARD UNDERGROUND TRAIN', 'TRAVEL ON THE TRAIN TO DESIRED LOCATION']","['GO TO THE CORRECT PLATFORM', 'EXIT THE TRAIN PROMPTLY.']",EXIT THE TRAIN PROMPTLY.,1
+0,0.0,[],"['Enter the station', 'go to the platform and wait for the underground']",Enter the station,0
+1,0.14285714285714285,['Enter the station'],"['board the underground', 'buy a ticket']",buy a ticket,1
+2,0.2857142857142857,"['Enter the station', 'buy a ticket']","['go to the platform and wait for the underground', 'exit the underground']",go to the platform and wait for the underground,0
+3,0.42857142857142855,"['Enter the station', 'buy a ticket', 'go to the platform and wait for the underground']","['leave the station', 'board the underground']",board the underground,1
+4,0.5714285714285714,"['Enter the station', 'buy a ticket', 'go to the platform and wait for the underground', 'board the underground']","['leave the station', 'find a seat or stand, wait patiently until your stop']","find a seat or stand, wait patiently until your stop",1
+5,0.7142857142857143,"['Enter the station', 'buy a ticket', 'go to the platform and wait for the underground', 'board the underground', 'find a seat or stand, wait patiently until your stop']","['exit the underground', 'go to the platform and wait for the underground']",exit the underground,0
+6,0.8571428571428571,"['Enter the station', 'buy a ticket', 'go to the platform and wait for the underground', 'board the underground', 'find a seat or stand, wait patiently until your stop', 'exit the underground']","['leave the station', 'buy a ticket']",leave the station,0
+0,0.0,[],"['find proper subway to take', 'find a destination']",find a destination,1
+1,0.14285714285714285,['find a destination'],"['when subway arrived get into subway', 'go to subway station']",go to subway station,1
+2,0.2857142857142857,"['find a destination', 'go to subway station']","['pay for ticket', 'when subway arrived get into subway']",pay for ticket,0
+3,0.42857142857142855,"['find a destination', 'go to subway station', 'pay for ticket']","['get off at desired destination', 'find proper subway to take']",find proper subway to take,1
+4,0.5714285714285714,"['find a destination', 'go to subway station', 'pay for ticket', 'find proper subway to take']","['walk to desired location', 'when subway arrived get into subway']",when subway arrived get into subway,1
+5,0.7142857142857143,"['find a destination', 'go to subway station', 'pay for ticket', 'find proper subway to take', 'when subway arrived get into subway']","['get off at desired destination', 'find a destination']",get off at desired destination,0
+6,0.8571428571428571,"['find a destination', 'go to subway station', 'pay for ticket', 'find proper subway to take', 'when subway arrived get into subway', 'get off at desired destination']","['walk to desired location', 'find proper subway to take']",walk to desired location,0
+0,0.0,[],"['Decide where you need to go on the underground.', 'Enter the train when it arrives.']",Decide where you need to go on the underground.,0
+1,0.125,['Decide where you need to go on the underground.'],"['Decide where you need to go on the underground.', 'Go to the underground station.']",Go to the underground station.,1
+2,0.25,"['Decide where you need to go on the underground.', 'Go to the underground station.']","['Enter the underground station at your point of departure.', 'Stand or sit down if there is a seat available.']",Enter the underground station at your point of departure.,0
+3,0.375,"['Decide where you need to go on the underground.', 'Go to the underground station.', 'Enter the underground station at your point of departure.']","['Wait for the train.', 'Purchase tickets fro your journey at the ticket window or machine.']",Purchase tickets fro your journey at the ticket window or machine.,1
+4,0.5,"['Decide where you need to go on the underground.', 'Go to the underground station.', 'Enter the underground station at your point of departure.', 'Purchase tickets fro your journey at the ticket window or machine.']","['Stand or sit down if there is a seat available.', 'Locate and navigate to the proper train platform.']",Locate and navigate to the proper train platform.,1
+5,0.625,"['Decide where you need to go on the underground.', 'Go to the underground station.', 'Enter the underground station at your point of departure.', 'Purchase tickets fro your journey at the ticket window or machine.', 'Locate and navigate to the proper train platform.']","['Wait for the train.', 'Decide where you need to go on the underground.']",Wait for the train.,0
+6,0.75,"['Decide where you need to go on the underground.', 'Go to the underground station.', 'Enter the underground station at your point of departure.', 'Purchase tickets fro your journey at the ticket window or machine.', 'Locate and navigate to the proper train platform.', 'Wait for the train.']","['Purchase tickets fro your journey at the ticket window or machine.', 'Enter the train when it arrives.']",Enter the train when it arrives.,1
+7,0.875,"['Decide where you need to go on the underground.', 'Go to the underground station.', 'Enter the underground station at your point of departure.', 'Purchase tickets fro your journey at the ticket window or machine.', 'Locate and navigate to the proper train platform.', 'Wait for the train.', 'Enter the train when it arrives.']","['Enter the underground station at your point of departure.', 'Stand or sit down if there is a seat available.']",Stand or sit down if there is a seat available.,1
+0,0.0,[],"['Find correct station', 'Buy ticket for correct route']",Find correct station,0
+1,0.16666666666666666,['Find correct station'],"['Enter station', 'Ride to destination']",Enter station,0
+2,0.3333333333333333,"['Find correct station', 'Enter station']","['Board train', 'Buy ticket for correct route']",Buy ticket for correct route,1
+3,0.5,"['Find correct station', 'Enter station', 'Buy ticket for correct route']","['Give ticket to ticket taker', 'Find correct station']",Give ticket to ticket taker,0
+4,0.6666666666666666,"['Find correct station', 'Enter station', 'Buy ticket for correct route', 'Give ticket to ticket taker']","['Enter station', 'Board train']",Board train,1
+5,0.8333333333333334,"['Find correct station', 'Enter station', 'Buy ticket for correct route', 'Give ticket to ticket taker', 'Board train']","['Ride to destination', 'Enter station']",Ride to destination,0
+0,0.0,[],"['Go to underground', 'Go to platform']",Go to underground,0
+1,0.125,['Go to underground'],"['Get on train', 'Buy ticket']",Buy ticket,1
+2,0.25,"['Go to underground', 'Buy ticket']","['Go to platform', 'Wait for people to get off train']",Go to platform,0
+3,0.375,"['Go to underground', 'Buy ticket', 'Go to platform']","['Get off train', 'Wait until train arrives']",Wait until train arrives,1
+4,0.5,"['Go to underground', 'Buy ticket', 'Go to platform', 'Wait until train arrives']","['Wait for people to get off train', 'Get off train']",Wait for people to get off train,0
+5,0.625,"['Go to underground', 'Buy ticket', 'Go to platform', 'Wait until train arrives', 'Wait for people to get off train']","['Get on train', 'Go to platform']",Get on train,0
+6,0.75,"['Go to underground', 'Buy ticket', 'Go to platform', 'Wait until train arrives', 'Wait for people to get off train', 'Get on train']","['Ride until you reach your destination', 'Buy ticket']",Ride until you reach your destination,0
+7,0.875,"['Go to underground', 'Buy ticket', 'Go to platform', 'Wait until train arrives', 'Wait for people to get off train', 'Get on train', 'Ride until you reach your destination']","['Get off train', 'Wait for people to get off train']",Get off train,0
+0,0.0,[],"['Go to my yard.', 'Go to my shed.']",Go to my shed.,1
+1,0.2,['Go to my shed.'],"['Look for a shovel.', 'Test for rocks.']",Look for a shovel.,0
+2,0.4,"['Go to my shed.', 'Look for a shovel.']","['Begin digging.', 'Go to my yard.']",Go to my yard.,1
+3,0.6,"['Go to my shed.', 'Look for a shovel.', 'Go to my yard.']","['Test for rocks.', 'Go to my shed.']",Test for rocks.,0
+4,0.8,"['Go to my shed.', 'Look for a shovel.', 'Go to my yard.', 'Test for rocks.']","['Begin digging.', 'Go to my shed.']",Begin digging.,0
+0,0.0,[],"['Walk to subway.', 'Pay tolls at gate.']",Walk to subway.,0
+1,0.14285714285714285,['Walk to subway.'],"['Go downstairs.', 'Go downstairs.']",Go downstairs.,0
+2,0.2857142857142857,"['Walk to subway.', 'Go downstairs.']","['Get on train.', 'Pay tolls at gate.']",Pay tolls at gate.,1
+3,0.42857142857142855,"['Walk to subway.', 'Go downstairs.', 'Pay tolls at gate.']","['Go through gate.', 'Walk to subway.']",Go through gate.,0
+4,0.5714285714285714,"['Walk to subway.', 'Go downstairs.', 'Pay tolls at gate.', 'Go through gate.']","['Walk to train.', 'Walk to subway.']",Walk to train.,0
+5,0.7142857142857143,"['Walk to subway.', 'Go downstairs.', 'Pay tolls at gate.', 'Go through gate.', 'Walk to train.']","['Go downstairs.', 'Get on train.']",Get on train.,1
+6,0.8571428571428571,"['Walk to subway.', 'Go downstairs.', 'Pay tolls at gate.', 'Go through gate.', 'Walk to train.', 'Get on train.']","['Sit down.', 'Pay tolls at gate.']",Sit down.,0
+0,0.0,[],"['Buy token or card to purchase ticket', 'Get off train']",Buy token or card to purchase ticket,0
+1,0.2,['Buy token or card to purchase ticket'],"['Walk through turn style', 'Walk through turn style']",Walk through turn style,0
+2,0.4,"['Buy token or card to purchase ticket', 'Walk through turn style']","['Get off train', 'When train doors open get onto train']",When train doors open get onto train,1
+3,0.6,"['Buy token or card to purchase ticket', 'Walk through turn style', 'When train doors open get onto train']","['When at your stop wait for doors to open', 'Buy token or card to purchase ticket']",When at your stop wait for doors to open,0
+4,0.8,"['Buy token or card to purchase ticket', 'Walk through turn style', 'When train doors open get onto train', 'When at your stop wait for doors to open']","['Walk through turn style', 'Get off train']",Get off train,1
+0,0.0,[],"['Walk down the stairs to the underground', 'Buy your subway ticket']",Walk down the stairs to the underground,0
+1,0.2,['Walk down the stairs to the underground'],"['Sit down and enjoy the ride', 'Buy your subway ticket']",Buy your subway ticket,1
+2,0.4,"['Walk down the stairs to the underground', 'Buy your subway ticket']","['Sit down and enjoy the ride', 'Board the subway']",Board the subway,1
+3,0.6,"['Walk down the stairs to the underground', 'Buy your subway ticket', 'Board the subway']","['Find a seat', 'Walk down the stairs to the underground']",Find a seat,0
+4,0.8,"['Walk down the stairs to the underground', 'Buy your subway ticket', 'Board the subway', 'Find a seat']","['Walk down the stairs to the underground', 'Sit down and enjoy the ride']",Sit down and enjoy the ride,1
+0,0.0,[],"['Buy ticket or fare', 'Choose destination']",Choose destination,1
+1,0.125,['Choose destination'],"['Determine correct route and trains', 'Go to underground station']",Go to underground station,1
+2,0.25,"['Choose destination', 'Go to underground station']","['Look at map', 'Board train when it arrives']",Look at map,0
+3,0.375,"['Choose destination', 'Go to underground station', 'Look at map']","['Determine correct route and trains', 'Wait for train']",Determine correct route and trains,0
+4,0.5,"['Choose destination', 'Go to underground station', 'Look at map', 'Determine correct route and trains']","['Buy ticket or fare', 'Wait for train']",Buy ticket or fare,0
+5,0.625,"['Choose destination', 'Go to underground station', 'Look at map', 'Determine correct route and trains', 'Buy ticket or fare']","['Go to underground station', 'Go to platform']",Go to platform,1
+6,0.75,"['Choose destination', 'Go to underground station', 'Look at map', 'Determine correct route and trains', 'Buy ticket or fare', 'Go to platform']","['Look at map', 'Wait for train']",Wait for train,1
+7,0.875,"['Choose destination', 'Go to underground station', 'Look at map', 'Determine correct route and trains', 'Buy ticket or fare', 'Go to platform', 'Wait for train']","['Board train when it arrives', 'Buy ticket or fare']",Board train when it arrives,0
+0,0.0,[],"['Plan the journey', 'Get down from train']",Plan the journey,0
+1,0.14285714285714285,['Plan the journey'],"['Buy the ticket', 'Check travel information']",Check travel information,1
+2,0.2857142857142857,"['Plan the journey', 'Check travel information']","['Complete the journey', 'Buy the ticket']",Buy the ticket,1
+3,0.42857142857142855,"['Plan the journey', 'Check travel information', 'Buy the ticket']","['Go to the correct platform', 'Complete the journey']",Go to the correct platform,0
+4,0.5714285714285714,"['Plan the journey', 'Check travel information', 'Buy the ticket', 'Go to the correct platform']","['Plan the journey', 'Enter the train']",Enter the train,1
+5,0.7142857142857143,"['Plan the journey', 'Check travel information', 'Buy the ticket', 'Go to the correct platform', 'Enter the train']","['Buy the ticket', 'Complete the journey']",Complete the journey,1
+6,0.8571428571428571,"['Plan the journey', 'Check travel information', 'Buy the ticket', 'Go to the correct platform', 'Enter the train', 'Complete the journey']","['Get down from train', 'Buy the ticket']",Get down from train,0
+0,0.0,[],"['Buy tickets for your journey', 'Get to the underground station']",Get to the underground station,1
+1,0.2,['Get to the underground station'],"['Board the train', 'Buy tickets for your journey']",Buy tickets for your journey,1
+2,0.4,"['Get to the underground station', 'Buy tickets for your journey']","['Wait for the train', 'Get down at your destination']",Wait for the train,0
+3,0.6,"['Get to the underground station', 'Buy tickets for your journey', 'Wait for the train']","['Get to the underground station', 'Board the train']",Board the train,1
+4,0.8,"['Get to the underground station', 'Buy tickets for your journey', 'Wait for the train', 'Board the train']","['Get to the underground station', 'Get down at your destination']",Get down at your destination,1
+0,0.0,[],"['Take a seat', 'Locate your station on the map']",Locate your station on the map,1
+1,0.125,['Locate your station on the map'],"['Wait for your train', 'Locate where you want to go']",Locate where you want to go,1
+2,0.25,"['Locate your station on the map', 'Locate where you want to go']","['Decided which train you need to take', 'Get on your train quickly once it arrives']",Decided which train you need to take,0
+3,0.375,"['Locate your station on the map', 'Locate where you want to go', 'Decided which train you need to take']","['Buy a ticket', 'Locate your station on the map']",Buy a ticket,0
+4,0.5,"['Locate your station on the map', 'Locate where you want to go', 'Decided which train you need to take', 'Buy a ticket']","['Take a seat', 'Wait for your train']",Wait for your train,1
+5,0.625,"['Locate your station on the map', 'Locate where you want to go', 'Decided which train you need to take', 'Buy a ticket', 'Wait for your train']","['Get on your train quickly once it arrives', 'Decided which train you need to take']",Get on your train quickly once it arrives,0
+6,0.75,"['Locate your station on the map', 'Locate where you want to go', 'Decided which train you need to take', 'Buy a ticket', 'Wait for your train', 'Get on your train quickly once it arrives']","['Take a seat', 'Decided which train you need to take']",Take a seat,0
+7,0.875,"['Locate your station on the map', 'Locate where you want to go', 'Decided which train you need to take', 'Buy a ticket', 'Wait for your train', 'Get on your train quickly once it arrives', 'Take a seat']","['Buy a ticket', ""Be aware of where you're going""]",Be aware of where you're going,1
+0,0.0,[],"['Go downstairs to underground', 'Go through turnstile']",Go downstairs to underground,0
+1,0.14285714285714285,['Go downstairs to underground'],"['Buy your ticket', 'Board train']",Buy your ticket,0
+2,0.2857142857142857,"['Go downstairs to underground', 'Buy your ticket']","['Put your ticket in machine', 'Board train']",Put your ticket in machine,0
+3,0.42857142857142855,"['Go downstairs to underground', 'Buy your ticket', 'Put your ticket in machine']","['Go through turnstile', 'Go downstairs to underground']",Go through turnstile,0
+4,0.5714285714285714,"['Go downstairs to underground', 'Buy your ticket', 'Put your ticket in machine', 'Go through turnstile']","['Ride train', 'Wait for train']",Wait for train,1
+5,0.7142857142857143,"['Go downstairs to underground', 'Buy your ticket', 'Put your ticket in machine', 'Go through turnstile', 'Wait for train']","['Buy your ticket', 'Board train']",Board train,1
+6,0.8571428571428571,"['Go downstairs to underground', 'Buy your ticket', 'Put your ticket in machine', 'Go through turnstile', 'Wait for train', 'Board train']","['Ride train', 'Go downstairs to underground']",Ride train,0
+0,0.0,[],"['Enter underground station.', 'Put ticket into gate.']",Enter underground station.,0
+1,0.125,['Enter underground station.'],"['Buy ticket.', 'Buy ticket.']",Buy ticket.,1
+2,0.25,"['Enter underground station.', 'Buy ticket.']","['Walk to appropriate platform.', 'Put ticket into gate.']",Put ticket into gate.,1
+3,0.375,"['Enter underground station.', 'Buy ticket.', 'Put ticket into gate.']","['Walk through gate.', 'Wait for train.']",Walk through gate.,0
+4,0.5,"['Enter underground station.', 'Buy ticket.', 'Put ticket into gate.', 'Walk through gate.']","['Retrieve ticket.', 'Buy ticket.']",Retrieve ticket.,0
+5,0.625,"['Enter underground station.', 'Buy ticket.', 'Put ticket into gate.', 'Walk through gate.', 'Retrieve ticket.']","['Enter underground station.', 'Walk to appropriate platform.']",Walk to appropriate platform.,1
+6,0.75,"['Enter underground station.', 'Buy ticket.', 'Put ticket into gate.', 'Walk through gate.', 'Retrieve ticket.', 'Walk to appropriate platform.']","['Enter underground station.', 'Wait for train.']",Wait for train.,1
+7,0.875,"['Enter underground station.', 'Buy ticket.', 'Put ticket into gate.', 'Walk through gate.', 'Retrieve ticket.', 'Walk to appropriate platform.', 'Wait for train.']","['Walk through gate.', 'Board train.']",Board train.,1
+0,0.0,[],"['Walk to the station', 'Walk to the station']",Walk to the station,1
+1,0.125,['Walk to the station'],"['Ride to destination', 'Descend the escalator']",Descend the escalator,1
+2,0.25,"['Walk to the station', 'Descend the escalator']","['Enter subway car', 'Buy a ticket']",Buy a ticket,1
+3,0.375,"['Walk to the station', 'Descend the escalator', 'Buy a ticket']","['Find a seat or place to stand', 'Enter through turnstile']",Enter through turnstile,1
+4,0.5,"['Walk to the station', 'Descend the escalator', 'Buy a ticket', 'Enter through turnstile']","['Wait for train on platform', 'Find a seat or place to stand']",Wait for train on platform,0
+5,0.625,"['Walk to the station', 'Descend the escalator', 'Buy a ticket', 'Enter through turnstile', 'Wait for train on platform']","['Enter subway car', 'Ride to destination']",Enter subway car,0
+6,0.75,"['Walk to the station', 'Descend the escalator', 'Buy a ticket', 'Enter through turnstile', 'Wait for train on platform', 'Enter subway car']","['Walk to the station', 'Find a seat or place to stand']",Find a seat or place to stand,1
+7,0.875,"['Walk to the station', 'Descend the escalator', 'Buy a ticket', 'Enter through turnstile', 'Wait for train on platform', 'Enter subway car', 'Find a seat or place to stand']","['Walk to the station', 'Ride to destination']",Ride to destination,1
+0,0.0,[],"['Descend stairs to platform inserting ticket into turnstile', 'Determine the line appropriate for the destination']",Determine the line appropriate for the destination,1
+1,0.16666666666666666,['Determine the line appropriate for the destination'],"['Determine the line appropriate for the destination', 'Purchase ticket']",Purchase ticket,1
+2,0.3333333333333333,"['Determine the line appropriate for the destination', 'Purchase ticket']","['Board train', 'Descend stairs to platform inserting ticket into turnstile']",Descend stairs to platform inserting ticket into turnstile,1
+3,0.5,"['Determine the line appropriate for the destination', 'Purchase ticket', 'Descend stairs to platform inserting ticket into turnstile']","['Disembark at destination', 'Wait for train']",Wait for train,1
+4,0.6666666666666666,"['Determine the line appropriate for the destination', 'Purchase ticket', 'Descend stairs to platform inserting ticket into turnstile', 'Wait for train']","['Purchase ticket', 'Board train']",Board train,1
+5,0.8333333333333334,"['Determine the line appropriate for the destination', 'Purchase ticket', 'Descend stairs to platform inserting ticket into turnstile', 'Wait for train', 'Board train']","['Determine the line appropriate for the destination', 'Disembark at destination']",Disembark at destination,1
+0,0.0,[],"['Swipe ticket to enter', 'Walk to the station']",Walk to the station,1
+1,0.16666666666666666,['Walk to the station'],"['Buy a ticket', 'Swipe ticket to enter']",Buy a ticket,0
+2,0.3333333333333333,"['Walk to the station', 'Buy a ticket']","['Swipe ticket to enter', 'Sit down if there is room']",Swipe ticket to enter,0
+3,0.5,"['Walk to the station', 'Buy a ticket', 'Swipe ticket to enter']","['Board the underground', 'Walk to the station']",Board the underground,0
+4,0.6666666666666666,"['Walk to the station', 'Buy a ticket', 'Swipe ticket to enter', 'Board the underground']","['Sit down if there is room', 'Walk to the station']",Sit down if there is room,0
+5,0.8333333333333334,"['Walk to the station', 'Buy a ticket', 'Swipe ticket to enter', 'Board the underground', 'Sit down if there is room']","['Buy a ticket', 'Get off the underground at destination']",Get off the underground at destination,1
+0,0.0,[],"['Descend the stairs.', 'Purchase ticket.']",Descend the stairs.,0
+1,0.125,['Descend the stairs.'],"['Purchase ticket.', 'Find correct train for desired destination.']",Purchase ticket.,0
+2,0.25,"['Descend the stairs.', 'Purchase ticket.']","['Leave station.', 'Enter through gates.']",Enter through gates.,1
+3,0.375,"['Descend the stairs.', 'Purchase ticket.', 'Enter through gates.']","['Leave station.', 'Find correct train for desired destination.']",Find correct train for desired destination.,1
+4,0.5,"['Descend the stairs.', 'Purchase ticket.', 'Enter through gates.', 'Find correct train for desired destination.']","['Leave station.', 'Board train.']",Board train.,1
+5,0.625,"['Descend the stairs.', 'Purchase ticket.', 'Enter through gates.', 'Find correct train for desired destination.', 'Board train.']","['Enter through gates.', 'Find a seat.']",Find a seat.,1
+6,0.75,"['Descend the stairs.', 'Purchase ticket.', 'Enter through gates.', 'Find correct train for desired destination.', 'Board train.', 'Find a seat.']","['Purchase ticket.', 'Get off at correct stop.']",Get off at correct stop.,1
+7,0.875,"['Descend the stairs.', 'Purchase ticket.', 'Enter through gates.', 'Find correct train for desired destination.', 'Board train.', 'Find a seat.', 'Get off at correct stop.']","['Find correct train for desired destination.', 'Leave station.']",Leave station.,1
+0,0.0,[],"['Go down the stairs', 'Present Underground pass']",Go down the stairs,0
+1,0.125,['Go down the stairs'],"['Find the right train', 'Go down the stairs']",Find the right train,0
+2,0.25,"['Go down the stairs', 'Find the right train']","['Wait for the train', 'Wait for stop']",Wait for the train,0
+3,0.375,"['Go down the stairs', 'Find the right train', 'Wait for the train']","['Walk up the stairs', 'Present Underground pass']",Present Underground pass,1
+4,0.5,"['Go down the stairs', 'Find the right train', 'Wait for the train', 'Present Underground pass']","['Get on the train', 'Walk up the stairs']",Get on the train,0
+5,0.625,"['Go down the stairs', 'Find the right train', 'Wait for the train', 'Present Underground pass', 'Get on the train']","['Go down the stairs', 'Wait for stop']",Wait for stop,1
+6,0.75,"['Go down the stairs', 'Find the right train', 'Wait for the train', 'Present Underground pass', 'Get on the train', 'Wait for stop']","['Present Underground pass', 'Get off the train']",Get off the train,1
+7,0.875,"['Go down the stairs', 'Find the right train', 'Wait for the train', 'Present Underground pass', 'Get on the train', 'Wait for stop', 'Get off the train']","['Find the right train', 'Walk up the stairs']",Walk up the stairs,1
+0,0.0,[],"['Walk downstairs', 'Drive or walk to station']",Drive or walk to station,1
+1,0.125,['Drive or walk to station'],"['Wait for train', 'Walk downstairs']",Walk downstairs,1
+2,0.25,"['Drive or walk to station', 'Walk downstairs']","['Check timetable if necessary', 'Pay for ticket']",Pay for ticket,1
+3,0.375,"['Drive or walk to station', 'Walk downstairs', 'Pay for ticket']","['Use ticket at turnstile and move through', 'Step onto train']",Use ticket at turnstile and move through,0
+4,0.5,"['Drive or walk to station', 'Walk downstairs', 'Pay for ticket', 'Use ticket at turnstile and move through']","['Wait for train', 'Walk downstairs']",Wait for train,0
+5,0.625,"['Drive or walk to station', 'Walk downstairs', 'Pay for ticket', 'Use ticket at turnstile and move through', 'Wait for train']","['Pay for ticket', 'Check timetable if necessary']",Check timetable if necessary,1
+6,0.75,"['Drive or walk to station', 'Walk downstairs', 'Pay for ticket', 'Use ticket at turnstile and move through', 'Wait for train', 'Check timetable if necessary']","['Step onto train', 'Drive or walk to station']",Step onto train,0
+7,0.875,"['Drive or walk to station', 'Walk downstairs', 'Pay for ticket', 'Use ticket at turnstile and move through', 'Wait for train', 'Check timetable if necessary', 'Step onto train']","['Take a seat or hold onto strap', 'Walk downstairs']",Take a seat or hold onto strap,0
+0,0.0,[],"['walk to the subway station', 'get off at your stop']",walk to the subway station,0
+1,0.2,['walk to the subway station'],"['get off at your stop', 'figure out which train you need to board']",figure out which train you need to board,1
+2,0.4,"['walk to the subway station', 'figure out which train you need to board']","['get on the train', 'get off at your stop']",get on the train,0
+3,0.6,"['walk to the subway station', 'figure out which train you need to board', 'get on the train']","['figure out which stop you need to get off at', 'walk to the subway station']",figure out which stop you need to get off at,0
+4,0.8,"['walk to the subway station', 'figure out which train you need to board', 'get on the train', 'figure out which stop you need to get off at']","['walk to the subway station', 'get off at your stop']",get off at your stop,1
+0,0.0,[],"['Wait on ramp', 'Find a seat if available']",Wait on ramp,0
+1,0.16666666666666666,['Wait on ramp'],"['Wait for passengers to disembark', 'Disembark underground']",Wait for passengers to disembark,0
+2,0.3333333333333333,"['Wait on ramp', 'Wait for passengers to disembark']","['Wait for your stop', 'Board the underground']",Board the underground,1
+3,0.5,"['Wait on ramp', 'Wait for passengers to disembark', 'Board the underground']","['Find a seat if available', 'Disembark underground']",Find a seat if available,0
+4,0.6666666666666666,"['Wait on ramp', 'Wait for passengers to disembark', 'Board the underground', 'Find a seat if available']","['Wait on ramp', 'Wait for your stop']",Wait for your stop,1
+5,0.8333333333333334,"['Wait on ramp', 'Wait for passengers to disembark', 'Board the underground', 'Find a seat if available', 'Wait for your stop']","['Disembark underground', 'Wait on ramp']",Disembark underground,0
+0,0.0,[],"['check the schedule', 'plan your route']",plan your route,1
+1,0.2,['plan your route'],"['check the schedule', 'prepare your fare']",check the schedule,0
+2,0.4,"['plan your route', 'check the schedule']","['prepare your fare', 'wait on the platform']",prepare your fare,0
+3,0.6,"['plan your route', 'check the schedule', 'prepare your fare']","['plan your route', 'arrive at the station']",arrive at the station,1
+4,0.8,"['plan your route', 'check the schedule', 'prepare your fare', 'arrive at the station']","['plan your route', 'wait on the platform']",wait on the platform,1
+0,0.0,[],"['Go down the stairs to the underground', 'Wait for the train']",Go down the stairs to the underground,0
+1,0.14285714285714285,['Go down the stairs to the underground'],"['Wait for the train', 'Pay as you enter']",Pay as you enter,1
+2,0.2857142857142857,"['Go down the stairs to the underground', 'Pay as you enter']","['Travel to your destination', 'Wait for the train']",Wait for the train,1
+3,0.42857142857142855,"['Go down the stairs to the underground', 'Pay as you enter', 'Wait for the train']","['Get on the train', 'Travel to your destination']",Get on the train,0
+4,0.5714285714285714,"['Go down the stairs to the underground', 'Pay as you enter', 'Wait for the train', 'Get on the train']","[""Sit down if there's a seat available"", 'Go down the stairs to the underground']",Sit down if there's a seat available,0
+5,0.7142857142857143,"['Go down the stairs to the underground', 'Pay as you enter', 'Wait for the train', 'Get on the train', ""Sit down if there's a seat available""]","['Travel to your destination', 'Go down the stairs to the underground']",Travel to your destination,0
+6,0.8571428571428571,"['Go down the stairs to the underground', 'Pay as you enter', 'Wait for the train', 'Get on the train', ""Sit down if there's a seat available"", 'Travel to your destination']","['Get offf', 'Go down the stairs to the underground']",Get offf,0
+0,0.0,[],"['Go to subway depot', 'Go to subway depot']",Go to subway depot,1
+1,0.2,['Go to subway depot'],"['Get on subway', 'Pay fare']",Pay fare,1
+2,0.4,"['Go to subway depot', 'Pay fare']","['Ride', 'Wait for subway']",Wait for subway,1
+3,0.6,"['Go to subway depot', 'Pay fare', 'Wait for subway']","['Get on subway', 'Go to subway depot']",Get on subway,0
+4,0.8,"['Go to subway depot', 'Pay fare', 'Wait for subway', 'Get on subway']","['Ride', 'Pay fare']",Ride,0
+0,0.0,[],"['Safety first', 'Talk slowly']",Talk slowly,1
+1,0.16666666666666666,['Talk slowly'],"['Awareness', 'Going fast']",Going fast,1
+2,0.3333333333333333,"['Talk slowly', 'Going fast']","['Awareness', 'Safety first']",Awareness,0
+3,0.5,"['Talk slowly', 'Going fast', 'Awareness']","[""Don't talk much more time"", 'Talk slowly']",Don't talk much more time,0
+4,0.6666666666666666,"['Talk slowly', 'Going fast', 'Awareness', ""Don't talk much more time""]","['Talk slowly', 'Leave the underground']",Leave the underground,1
+5,0.8333333333333334,"['Talk slowly', 'Going fast', 'Awareness', ""Don't talk much more time"", 'Leave the underground']","['Safety first', 'Awareness']",Safety first,0
+0,0.0,[],"['Find your local subway entrance', 'Find your local subway entrance']",Find your local subway entrance,1
+1,0.2,['Find your local subway entrance'],"['Go down and buy a ticket', 'Go down and buy a ticket']",Go down and buy a ticket,0
+2,0.4,"['Find your local subway entrance', 'Go down and buy a ticket']","['Board train and take it to destination', 'Walk through and into the station']",Walk through and into the station,1
+3,0.6,"['Find your local subway entrance', 'Go down and buy a ticket', 'Walk through and into the station']","['Wait for train', 'Find your local subway entrance']",Wait for train,0
+4,0.8,"['Find your local subway entrance', 'Go down and buy a ticket', 'Walk through and into the station', 'Wait for train']","['Board train and take it to destination', 'Find your local subway entrance']",Board train and take it to destination,0
+0,0.0,[],"['Go to station', 'Wait for arriving passengers to get off']",Go to station,0
+1,0.125,['Go to station'],"['Purchase fare or have token ready', 'Go through turnstile for desired train platform']",Purchase fare or have token ready,0
+2,0.25,"['Go to station', 'Purchase fare or have token ready']","['Wait for train arrival', 'Check schedules for desired destination']",Check schedules for desired destination,1
+3,0.375,"['Go to station', 'Purchase fare or have token ready', 'Check schedules for desired destination']","['Go through turnstile for desired train platform', 'Find a seat']",Go through turnstile for desired train platform,0
+4,0.5,"['Go to station', 'Purchase fare or have token ready', 'Check schedules for desired destination', 'Go through turnstile for desired train platform']","['Wait for train arrival', 'Board the train']",Wait for train arrival,0
+5,0.625,"['Go to station', 'Purchase fare or have token ready', 'Check schedules for desired destination', 'Go through turnstile for desired train platform', 'Wait for train arrival']","['Find a seat', 'Wait for arriving passengers to get off']",Wait for arriving passengers to get off,1
+6,0.75,"['Go to station', 'Purchase fare or have token ready', 'Check schedules for desired destination', 'Go through turnstile for desired train platform', 'Wait for train arrival', 'Wait for arriving passengers to get off']","['Go to station', 'Board the train']",Board the train,1
+7,0.875,"['Go to station', 'Purchase fare or have token ready', 'Check schedules for desired destination', 'Go through turnstile for desired train platform', 'Wait for train arrival', 'Wait for arriving passengers to get off', 'Board the train']","['Find a seat', 'Purchase fare or have token ready']",Find a seat,0
+0,0.0,[],"['waiting on the platform', 'walking down the steps']",walking down the steps,1
+1,0.125,['walking down the steps'],"['going through the counter', 'walking off the subway at your destination']",going through the counter,0
+2,0.25,"['walking down the steps', 'going through the counter']","['selecting a seat', 'purchasing a ticket']",purchasing a ticket,1
+3,0.375,"['walking down the steps', 'going through the counter', 'purchasing a ticket']","['waiting on the subway during the ride', 'waiting on the platform']",waiting on the platform,1
+4,0.5,"['walking down the steps', 'going through the counter', 'purchasing a ticket', 'waiting on the platform']","['waiting on the subway during the ride', 'walking through the subway doors']",walking through the subway doors,1
+5,0.625,"['walking down the steps', 'going through the counter', 'purchasing a ticket', 'waiting on the platform', 'walking through the subway doors']","['selecting a seat', 'walking off the subway at your destination']",selecting a seat,0
+6,0.75,"['walking down the steps', 'going through the counter', 'purchasing a ticket', 'waiting on the platform', 'walking through the subway doors', 'selecting a seat']","['waiting on the subway during the ride', 'going through the counter']",waiting on the subway during the ride,0
+7,0.875,"['walking down the steps', 'going through the counter', 'purchasing a ticket', 'waiting on the platform', 'walking through the subway doors', 'selecting a seat', 'waiting on the subway during the ride']","['going through the counter', 'walking off the subway at your destination']",walking off the subway at your destination,1
+0,0.0,[],"['purchase ticket', 'walk to the underground station']",walk to the underground station,1
+1,0.16666666666666666,['walk to the underground station'],"['walk through the ticketing booth', 'purchase ticket']",purchase ticket,1
+2,0.3333333333333333,"['walk to the underground station', 'purchase ticket']","['walk through the ticketing booth', 'enter the train when it stops']",walk through the ticketing booth,0
+3,0.5,"['walk to the underground station', 'purchase ticket', 'walk through the ticketing booth']","['go to boarding location', 'enter the train when it stops']",go to boarding location,0
+4,0.6666666666666666,"['walk to the underground station', 'purchase ticket', 'walk through the ticketing booth', 'go to boarding location']","['walk to the underground station', 'wait for the train']",wait for the train,1
+5,0.8333333333333334,"['walk to the underground station', 'purchase ticket', 'walk through the ticketing booth', 'go to boarding location', 'wait for the train']","['walk through the ticketing booth', 'enter the train when it stops']",enter the train when it stops,1
+0,0.0,[],"['Go to the station', 'Go to the station']",Go to the station,0
+1,0.16666666666666666,['Go to the station'],"['Buy a ticket', 'Board the train']",Buy a ticket,0
+2,0.3333333333333333,"['Go to the station', 'Buy a ticket']","['Wait for the train', 'Reach destination']",Wait for the train,0
+3,0.5,"['Go to the station', 'Buy a ticket', 'Wait for the train']","['Board the train', 'appear from beneath the sidewalk']",Board the train,0
+4,0.6666666666666666,"['Go to the station', 'Buy a ticket', 'Wait for the train', 'Board the train']","['Reach destination', 'Buy a ticket']",Reach destination,0
+5,0.8333333333333334,"['Go to the station', 'Buy a ticket', 'Wait for the train', 'Board the train', 'Reach destination']","['appear from beneath the sidewalk', 'Go to the station']",appear from beneath the sidewalk,0
+0,0.0,[],"['map out trip', 'buy ticket']",map out trip,0
+1,0.2,['map out trip'],"['arrive at station', 'arrive at station']",arrive at station,0
+2,0.4,"['map out trip', 'arrive at station']","['buy ticket', 'arrive at destination']",buy ticket,0
+3,0.6,"['map out trip', 'arrive at station', 'buy ticket']","['board train', 'map out trip']",board train,0
+4,0.8,"['map out trip', 'arrive at station', 'buy ticket', 'board train']","['arrive at station', 'arrive at destination']",arrive at destination,1
+0,0.0,[],"['Go down the stairs', 'Buy your metrocard']",Go down the stairs,0
+1,0.14285714285714285,['Go down the stairs'],"['Go down the stairs', 'Go to the kiosk']",Go to the kiosk,1
+2,0.2857142857142857,"['Go down the stairs', 'Go to the kiosk']","['Get off at the right stop', 'Buy your metrocard']",Buy your metrocard,1
+3,0.42857142857142855,"['Go down the stairs', 'Go to the kiosk', 'Buy your metrocard']","['Swipe your metrocard', 'Get off at the right stop']",Swipe your metrocard,0
+4,0.5714285714285714,"['Go down the stairs', 'Go to the kiosk', 'Buy your metrocard', 'Swipe your metrocard']","['Go to the kiosk', 'Get on the train']",Get on the train,1
+5,0.7142857142857143,"['Go down the stairs', 'Go to the kiosk', 'Buy your metrocard', 'Swipe your metrocard', 'Get on the train']","['Go to the kiosk', 'Get off at the right stop']",Get off at the right stop,1
+6,0.8571428571428571,"['Go down the stairs', 'Go to the kiosk', 'Buy your metrocard', 'Swipe your metrocard', 'Get on the train', 'Get off at the right stop']","['Exit the underground', 'Buy your metrocard']",Exit the underground,0
+0,0.0,[],"['Decide where you want to go.', 'Bring proper fare.']",Decide where you want to go.,0
+1,0.16666666666666666,['Decide where you want to go.'],"['Decide where you want to go.', 'Find the proper train/bus to take.']",Find the proper train/bus to take.,1
+2,0.3333333333333333,"['Decide where you want to go.', 'Find the proper train/bus to take.']","['Be careful.', 'Bring proper fare.']",Bring proper fare.,1
+3,0.5,"['Decide where you want to go.', 'Find the proper train/bus to take.', 'Bring proper fare.']","['Get to the station.', 'Decide where you want to go.']",Get to the station.,0
+4,0.6666666666666666,"['Decide where you want to go.', 'Find the proper train/bus to take.', 'Bring proper fare.', 'Get to the station.']","['Be careful.', 'Find the proper train/bus to take.']",Be careful.,0
+5,0.8333333333333334,"['Decide where you want to go.', 'Find the proper train/bus to take.', 'Bring proper fare.', 'Get to the station.', 'Be careful.']","['Get on proper train/bus.', 'Find the proper train/bus to take.']",Get on proper train/bus.,0
+0,0.0,[],"['Wait for my train to arrive.', 'Look up map of underground to see where I need to go.']",Look up map of underground to see where I need to go.,1
+1,0.14285714285714285,['Look up map of underground to see where I need to go.'],"['Walk down stairs.', 'Walk down stairs.']",Walk down stairs.,1
+2,0.2857142857142857,"['Look up map of underground to see where I need to go.', 'Walk down stairs.']","['Buy ticket.', 'Board my train.']",Buy ticket.,0
+3,0.42857142857142855,"['Look up map of underground to see where I need to go.', 'Walk down stairs.', 'Buy ticket.']","['Look up map of underground to see where I need to go.', 'Wait for my train to arrive.']",Wait for my train to arrive.,1
+4,0.5714285714285714,"['Look up map of underground to see where I need to go.', 'Walk down stairs.', 'Buy ticket.', 'Wait for my train to arrive.']","['Look up map of underground to see where I need to go.', 'Board my train.']",Board my train.,1
+5,0.7142857142857143,"['Look up map of underground to see where I need to go.', 'Walk down stairs.', 'Buy ticket.', 'Wait for my train to arrive.', 'Board my train.']","['Buy ticket.', 'Wait until train arrives at my stop.']",Wait until train arrives at my stop.,1
+6,0.8571428571428571,"['Look up map of underground to see where I need to go.', 'Walk down stairs.', 'Buy ticket.', 'Wait for my train to arrive.', 'Board my train.', 'Wait until train arrives at my stop.']","['Get off the train.', 'Look up map of underground to see where I need to go.']",Get off the train.,0
+0,0.0,[],"['Pay at the turnstile and enter the platform area.', 'Walk to the station entrance.']",Walk to the station entrance.,1
+1,0.125,['Walk to the station entrance.'],"['Go down the stairs.', 'When it reaches your destination stop, get off of the train.']",Go down the stairs.,0
+2,0.25,"['Walk to the station entrance.', 'Go down the stairs.']","['Board the train when it arrives.', 'Purchase your ticket fare.']",Purchase your ticket fare.,1
+3,0.375,"['Walk to the station entrance.', 'Go down the stairs.', 'Purchase your ticket fare.']","['Walk to the station entrance.', 'Pay at the turnstile and enter the platform area.']",Pay at the turnstile and enter the platform area.,1
+4,0.5,"['Walk to the station entrance.', 'Go down the stairs.', 'Purchase your ticket fare.', 'Pay at the turnstile and enter the platform area.']","['Board the train when it arrives.', 'Identify which train you need to take.']",Identify which train you need to take.,1
+5,0.625,"['Walk to the station entrance.', 'Go down the stairs.', 'Purchase your ticket fare.', 'Pay at the turnstile and enter the platform area.', 'Identify which train you need to take.']","['Wait on the platform for the train to come.', 'When it reaches your destination stop, get off of the train.']",Wait on the platform for the train to come.,0
+6,0.75,"['Walk to the station entrance.', 'Go down the stairs.', 'Purchase your ticket fare.', 'Pay at the turnstile and enter the platform area.', 'Identify which train you need to take.', 'Wait on the platform for the train to come.']","['Board the train when it arrives.', 'Walk to the station entrance.']",Board the train when it arrives.,0
+7,0.875,"['Walk to the station entrance.', 'Go down the stairs.', 'Purchase your ticket fare.', 'Pay at the turnstile and enter the platform area.', 'Identify which train you need to take.', 'Wait on the platform for the train to come.', 'Board the train when it arrives.']","['Pay at the turnstile and enter the platform area.', 'When it reaches your destination stop, get off of the train.']","When it reaches your destination stop, get off of the train.",1
+0,0.0,[],"['Determine destination', 'Determine destination']",Determine destination,1
+1,0.125,['Determine destination'],"['Get off train', 'Look at schedule online']",Look at schedule online,1
+2,0.25,"['Determine destination', 'Look at schedule online']","['Travel to correct stop', 'Go to station']",Go to station,1
+3,0.375,"['Determine destination', 'Look at schedule online', 'Go to station']","['Pay for ticket', 'Travel to correct stop']",Pay for ticket,0
+4,0.5,"['Determine destination', 'Look at schedule online', 'Go to station', 'Pay for ticket']","['Wait for correct train', 'Determine destination']",Wait for correct train,0
+5,0.625,"['Determine destination', 'Look at schedule online', 'Go to station', 'Pay for ticket', 'Wait for correct train']","['Board train', 'Look at schedule online']",Board train,0
+6,0.75,"['Determine destination', 'Look at schedule online', 'Go to station', 'Pay for ticket', 'Wait for correct train', 'Board train']","['Travel to correct stop', 'Go to station']",Travel to correct stop,0
+7,0.875,"['Determine destination', 'Look at schedule online', 'Go to station', 'Pay for ticket', 'Wait for correct train', 'Board train', 'Travel to correct stop']","['Wait for correct train', 'Get off train']",Get off train,1
+0,0.0,[],"['pay fairs', 'sit down']",pay fairs,0
+1,0.125,['pay fairs'],"['leave train', 'Wait for train']",Wait for train,1
+2,0.25,"['pay fairs', 'Wait for train']","['board train', 'leave train']",board train,0
+3,0.375,"['pay fairs', 'Wait for train', 'board train']","['pay fairs', 'find empty seat']",find empty seat,1
+4,0.5,"['pay fairs', 'Wait for train', 'board train', 'find empty seat']","['sit down', 'leave train']",sit down,0
+5,0.625,"['pay fairs', 'Wait for train', 'board train', 'find empty seat', 'sit down']","['leave train', 'wait for destination to be reached']",wait for destination to be reached,1
+6,0.75,"['pay fairs', 'Wait for train', 'board train', 'find empty seat', 'sit down', 'wait for destination to be reached']","['stand up', 'find empty seat']",stand up,0
+7,0.875,"['pay fairs', 'Wait for train', 'board train', 'find empty seat', 'sit down', 'wait for destination to be reached', 'stand up']","['leave train', 'board train']",leave train,0
+0,0.0,[],"['Arrive to underground station 5 minutes early', 'View schedule on smart phone ahead of time']",View schedule on smart phone ahead of time,1
+1,0.125,['View schedule on smart phone ahead of time'],"['Arrive to underground station 5 minutes early', 'Arrive at final destination']",Arrive to underground station 5 minutes early,0
+2,0.25,"['View schedule on smart phone ahead of time', 'Arrive to underground station 5 minutes early']","['Head to correct terminal', 'Pay for ticket']",Pay for ticket,1
+3,0.375,"['View schedule on smart phone ahead of time', 'Arrive to underground station 5 minutes early', 'Pay for ticket']","['Pass through the pay gate', 'View schedule on smart phone ahead of time']",Pass through the pay gate,0
+4,0.5,"['View schedule on smart phone ahead of time', 'Arrive to underground station 5 minutes early', 'Pay for ticket', 'Pass through the pay gate']","['View schedule on smart phone ahead of time', 'Head to correct terminal']",Head to correct terminal,1
+5,0.625,"['View schedule on smart phone ahead of time', 'Arrive to underground station 5 minutes early', 'Pay for ticket', 'Pass through the pay gate', 'Head to correct terminal']","['Wait for train to arrive', 'View schedule on smart phone ahead of time']",Wait for train to arrive,0
+6,0.75,"['View schedule on smart phone ahead of time', 'Arrive to underground station 5 minutes early', 'Pay for ticket', 'Pass through the pay gate', 'Head to correct terminal', 'Wait for train to arrive']","['Walk into the correct train', 'View schedule on smart phone ahead of time']",Walk into the correct train,0
+7,0.875,"['View schedule on smart phone ahead of time', 'Arrive to underground station 5 minutes early', 'Pay for ticket', 'Pass through the pay gate', 'Head to correct terminal', 'Wait for train to arrive', 'Walk into the correct train']","['Pass through the pay gate', 'Arrive at final destination']",Arrive at final destination,1
+0,0.0,[],"['Look up route', 'Board train']",Look up route,0
+1,0.2,['Look up route'],"['Get off at desired stop', 'Walk to station']",Walk to station,1
+2,0.4,"['Look up route', 'Walk to station']","['Get off at desired stop', 'Buy ticket']",Buy ticket,1
+3,0.6,"['Look up route', 'Walk to station', 'Buy ticket']","['Look up route', 'Board train']",Board train,1
+4,0.8,"['Look up route', 'Walk to station', 'Buy ticket', 'Board train']","['Get off at desired stop', 'Look up route']",Get off at desired stop,0
+0,0.0,[],"['get dressed', 'go to the train station']",get dressed,0
+1,0.125,['get dressed'],"['check the maps to see the times for the underground train', 'buy a ticket or pay the fee for the train']",check the maps to see the times for the underground train,0
+2,0.25,"['get dressed', 'check the maps to see the times for the underground train']","['go to the train station', 'wait for the correct train to arrive']",go to the train station,0
+3,0.375,"['get dressed', 'check the maps to see the times for the underground train', 'go to the train station']","['buy a ticket or pay the fee for the train', 'get on to the train']",buy a ticket or pay the fee for the train,0
+4,0.5,"['get dressed', 'check the maps to see the times for the underground train', 'go to the train station', 'buy a ticket or pay the fee for the train']","['get dressed', 'wait for the correct train to arrive']",wait for the correct train to arrive,1
+5,0.625,"['get dressed', 'check the maps to see the times for the underground train', 'go to the train station', 'buy a ticket or pay the fee for the train', 'wait for the correct train to arrive']","['go to the train station', 'get on to the train']",get on to the train,1
+6,0.75,"['get dressed', 'check the maps to see the times for the underground train', 'go to the train station', 'buy a ticket or pay the fee for the train', 'wait for the correct train to arrive', 'get on to the train']","['find a seat', 'check the maps to see the times for the underground train']",find a seat,0
+7,0.875,"['get dressed', 'check the maps to see the times for the underground train', 'go to the train station', 'buy a ticket or pay the fee for the train', 'wait for the correct train to arrive', 'get on to the train', 'find a seat']","['get dressed', 'leave when you arrive at your destination']",leave when you arrive at your destination,1
+0,0.0,[],"['Walk or drive to the nearest station', 'Walk or drive to the nearest station']",Walk or drive to the nearest station,1
+1,0.125,['Walk or drive to the nearest station'],"['Get in the train', ""Pay at the booth for a new card if you don't already have one""]",Pay at the booth for a new card if you don't already have one,1
+2,0.25,"['Walk or drive to the nearest station', ""Pay at the booth for a new card if you don't already have one""]","['Arrive at your destination', 'Scan your card in']",Scan your card in,1
+3,0.375,"['Walk or drive to the nearest station', ""Pay at the booth for a new card if you don't already have one"", 'Scan your card in']","['Walk or drive to the nearest station', 'Walk to your desired train']",Walk to your desired train,1
+4,0.5,"['Walk or drive to the nearest station', ""Pay at the booth for a new card if you don't already have one"", 'Scan your card in', 'Walk to your desired train']","['Get in the train', 'Walk or drive to the nearest station']",Get in the train,0
+5,0.625,"['Walk or drive to the nearest station', ""Pay at the booth for a new card if you don't already have one"", 'Scan your card in', 'Walk to your desired train', 'Get in the train']","['Arrive at your destination', 'Scan your card in']",Arrive at your destination,0
+6,0.75,"['Walk or drive to the nearest station', ""Pay at the booth for a new card if you don't already have one"", 'Scan your card in', 'Walk to your desired train', 'Get in the train', 'Arrive at your destination']","['Walk to your desired train', 'Get off of the train']",Get off of the train,1
+7,0.875,"['Walk or drive to the nearest station', ""Pay at the booth for a new card if you don't already have one"", 'Scan your card in', 'Walk to your desired train', 'Get in the train', 'Arrive at your destination', 'Get off of the train']","['Walk out of the station', 'Walk or drive to the nearest station']",Walk out of the station,0
+0,0.0,[],"['Avoid mutant turtles and human waste', 'Gather necessary equipment, such as flashlights, ropes, and weapons']","Gather necessary equipment, such as flashlights, ropes, and weapons",1
+1,0.125,"['Gather necessary equipment, such as flashlights, ropes, and weapons']","['Enter underground through sewer access point', 'Find detailed map of tunnel system']",Find detailed map of tunnel system,1
+2,0.25,"['Gather necessary equipment, such as flashlights, ropes, and weapons', 'Find detailed map of tunnel system']","['Bring camcorder to video record proof', 'Avoid mutant turtles and human waste']",Bring camcorder to video record proof,0
+3,0.375,"['Gather necessary equipment, such as flashlights, ropes, and weapons', 'Find detailed map of tunnel system', 'Bring camcorder to video record proof']","['Enter underground through sewer access point', 'Retrieve their treasure.']",Enter underground through sewer access point,0
+4,0.5,"['Gather necessary equipment, such as flashlights, ropes, and weapons', 'Find detailed map of tunnel system', 'Bring camcorder to video record proof', 'Enter underground through sewer access point']","['Avoid mutant turtles and human waste', 'Find detailed map of tunnel system']",Avoid mutant turtles and human waste,0
+5,0.625,"['Gather necessary equipment, such as flashlights, ropes, and weapons', 'Find detailed map of tunnel system', 'Bring camcorder to video record proof', 'Enter underground through sewer access point', 'Avoid mutant turtles and human waste']","['Bring camcorder to video record proof', 'Descend deeper and deeper, using rope and caution']","Descend deeper and deeper, using rope and caution",1
+6,0.75,"['Gather necessary equipment, such as flashlights, ropes, and weapons', 'Find detailed map of tunnel system', 'Bring camcorder to video record proof', 'Enter underground through sewer access point', 'Avoid mutant turtles and human waste', 'Descend deeper and deeper, using rope and caution']","['Battle the cannibalistic underground dwellers', 'Bring camcorder to video record proof']",Battle the cannibalistic underground dwellers,0
+7,0.875,"['Gather necessary equipment, such as flashlights, ropes, and weapons', 'Find detailed map of tunnel system', 'Bring camcorder to video record proof', 'Enter underground through sewer access point', 'Avoid mutant turtles and human waste', 'Descend deeper and deeper, using rope and caution', 'Battle the cannibalistic underground dwellers']","['Find detailed map of tunnel system', 'Retrieve their treasure.']",Retrieve their treasure.,1
+0,0.0,[],"['Go down tunnel towards train', 'Find the correct train platform']",Go down tunnel towards train,0
+1,0.125,['Go down tunnel towards train'],"['Wait for the train', 'Obtain a ticket']",Obtain a ticket,1
+2,0.25,"['Go down tunnel towards train', 'Obtain a ticket']","['Wait for the train', 'Swipe the ticket at a turnstyle']",Swipe the ticket at a turnstyle,1
+3,0.375,"['Go down tunnel towards train', 'Obtain a ticket', 'Swipe the ticket at a turnstyle']","['Find the correct train platform', 'Go down tunnel towards train']",Find the correct train platform,0
+4,0.5,"['Go down tunnel towards train', 'Obtain a ticket', 'Swipe the ticket at a turnstyle', 'Find the correct train platform']","['Obtain a ticket', 'Wait for the train']",Wait for the train,1
+5,0.625,"['Go down tunnel towards train', 'Obtain a ticket', 'Swipe the ticket at a turnstyle', 'Find the correct train platform', 'Wait for the train']","['Board the train', 'Leave the train at desired stop']",Board the train,0
+6,0.75,"['Go down tunnel towards train', 'Obtain a ticket', 'Swipe the ticket at a turnstyle', 'Find the correct train platform', 'Wait for the train', 'Board the train']","['Obtain a ticket', 'Observe how many stops go by']",Observe how many stops go by,1
+7,0.875,"['Go down tunnel towards train', 'Obtain a ticket', 'Swipe the ticket at a turnstyle', 'Find the correct train platform', 'Wait for the train', 'Board the train', 'Observe how many stops go by']","['Swipe the ticket at a turnstyle', 'Leave the train at desired stop']",Leave the train at desired stop,1
+0,0.0,[],"['Go to subway station', 'Pay for a subway token']",Go to subway station,0
+1,0.2,['Go to subway station'],"['Pay for a subway token', 'Enter train']",Pay for a subway token,0
+2,0.4,"['Go to subway station', 'Pay for a subway token']","['Go through turnstiles', 'Enter train']",Go through turnstiles,0
+3,0.6,"['Go to subway station', 'Pay for a subway token', 'Go through turnstiles']","['Go to subway station', 'Wait for train']",Wait for train,1
+4,0.8,"['Go to subway station', 'Pay for a subway token', 'Go through turnstiles', 'Wait for train']","['Enter train', 'Go to subway station']",Enter train,0
+0,0.0,[],"['catching the train', 'take the (red,blue,green) line']",catching the train,0
+1,0.14285714285714285,['catching the train'],"['working the metro', 'riding the rapid']",riding the rapid,1
+2,0.2857142857142857,"['catching the train', 'riding the rapid']","['using the light rail', 'working the metro']",working the metro,1
+3,0.42857142857142855,"['catching the train', 'riding the rapid', 'working the metro']","['take the (red,blue,green) line', 'using the commuter']","take the (red,blue,green) line",0
+4,0.5714285714285714,"['catching the train', 'riding the rapid', 'working the metro', 'take the (red,blue,green) line']","['using the light rail', 'riding the rapid']",using the light rail,0
+5,0.7142857142857143,"['catching the train', 'riding the rapid', 'working the metro', 'take the (red,blue,green) line', 'using the light rail']","['catching the train', 'public line']",public line,1
+6,0.8571428571428571,"['catching the train', 'riding the rapid', 'working the metro', 'take the (red,blue,green) line', 'using the light rail', 'public line']","['riding the rapid', 'using the commuter']",using the commuter,1
+0,0.0,[],"['Enter the underground', 'See what time the train comes']",Enter the underground,0
+1,0.2,['Enter the underground'],"['See what time the train comes', 'Board the train']",See what time the train comes,0
+2,0.4,"['Enter the underground', 'See what time the train comes']","['Board the train', 'Pay for your ticket']",Pay for your ticket,1
+3,0.6,"['Enter the underground', 'See what time the train comes', 'Pay for your ticket']","['Enter the underground', 'Wait for the train to arrive at the underground']",Wait for the train to arrive at the underground,1
+4,0.8,"['Enter the underground', 'See what time the train comes', 'Pay for your ticket', 'Wait for the train to arrive at the underground']","['Board the train', 'See what time the train comes']",Board the train,0
+0,0.0,[],"['Look up directions for my location', 'Board the underground']",Look up directions for my location,0
+1,0.16666666666666666,['Look up directions for my location'],"['Buy my ticket', 'Find seat']",Buy my ticket,0
+2,0.3333333333333333,"['Look up directions for my location', 'Buy my ticket']","['Find seat', 'Wait at the platform']",Wait at the platform,1
+3,0.5,"['Look up directions for my location', 'Buy my ticket', 'Wait at the platform']","['Look up directions for my location', 'Board the underground']",Board the underground,1
+4,0.6666666666666666,"['Look up directions for my location', 'Buy my ticket', 'Wait at the platform', 'Board the underground']","['Find seat', 'Buy my ticket']",Find seat,0
+5,0.8333333333333334,"['Look up directions for my location', 'Buy my ticket', 'Wait at the platform', 'Board the underground', 'Find seat']","['Get off at designated stop', 'Wait at the platform']",Get off at designated stop,0
+0,0.0,[],"['Decide which line to take', 'Find entrance']",Find entrance,1
+1,0.125,['Find entrance'],"['Walk down stairs', 'Walk down stairs']",Walk down stairs,1
+2,0.25,"['Find entrance', 'Walk down stairs']","['Wait for doors to open', 'Decide which line to take']",Decide which line to take,1
+3,0.375,"['Find entrance', 'Walk down stairs', 'Decide which line to take']","['Enter train', 'Wait for train to arrive']",Wait for train to arrive,1
+4,0.5,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive']","['Wait for doors to open', 'Find entrance']",Wait for doors to open,0
+5,0.625,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive', 'Wait for doors to open']","['Enter train', 'Find entrance']",Enter train,0
+6,0.75,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive', 'Wait for doors to open', 'Enter train']","['Find spot to sit or stand', 'Decide which line to take']",Find spot to sit or stand,0
+7,0.875,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive', 'Wait for doors to open', 'Enter train', 'Find spot to sit or stand']","['Wait for train to arrive', 'Wait for doors to close']",Wait for doors to close,1
+0,0.0,[],"['Find entrance', 'Find spot to sit or stand']",Find entrance,0
+1,0.125,['Find entrance'],"['Find spot to sit or stand', 'Walk down stairs']",Walk down stairs,1
+2,0.25,"['Find entrance', 'Walk down stairs']","['Decide which line to take', 'Find spot to sit or stand']",Decide which line to take,0
+3,0.375,"['Find entrance', 'Walk down stairs', 'Decide which line to take']","['Wait for train to arrive', 'Wait for doors to close']",Wait for train to arrive,0
+4,0.5,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive']","['Wait for doors to open', 'Find entrance']",Wait for doors to open,0
+5,0.625,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive', 'Wait for doors to open']","['Enter train', 'Wait for doors to close']",Enter train,0
+6,0.75,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive', 'Wait for doors to open', 'Enter train']","['Find spot to sit or stand', 'Decide which line to take']",Find spot to sit or stand,0
+7,0.875,"['Find entrance', 'Walk down stairs', 'Decide which line to take', 'Wait for train to arrive', 'Wait for doors to open', 'Enter train', 'Find spot to sit or stand']","['Wait for doors to close', 'Wait for doors to open']",Wait for doors to close,0
+0,0.0,[],"['Go to the underground station', 'Go to the underground station']",Go to the underground station,1
+1,0.2,['Go to the underground station'],"['Buy a ticket', 'Walk to my train']",Buy a ticket,0
+2,0.4,"['Go to the underground station', 'Buy a ticket']","['Get on it', ""Look at the map of where I'm going""]",Look at the map of where I'm going,1
+3,0.6,"['Go to the underground station', 'Buy a ticket', ""Look at the map of where I'm going""]","['Walk to my train', 'Go to the underground station']",Walk to my train,0
+4,0.8,"['Go to the underground station', 'Buy a ticket', ""Look at the map of where I'm going"", 'Walk to my train']","['Get on it', 'Go to the underground station']",Get on it,0
+0,0.0,[],"['Walk down stairs', 'Get on train']",Walk down stairs,0
+1,0.14285714285714285,['Walk down stairs'],"['Swipe card', 'Get off train']",Swipe card,0
+2,0.2857142857142857,"['Walk down stairs', 'Swipe card']","['Get off train', 'Walk to proper train']",Walk to proper train,1
+3,0.42857142857142855,"['Walk down stairs', 'Swipe card', 'Walk to proper train']","['Get on train', 'Walk down stairs']",Get on train,0
+4,0.5714285714285714,"['Walk down stairs', 'Swipe card', 'Walk to proper train', 'Get on train']","['Get off train', 'Walk down stairs']",Get off train,0
+5,0.7142857142857143,"['Walk down stairs', 'Swipe card', 'Walk to proper train', 'Get on train', 'Get off train']","['Swipe card', 'Swipe card out']",Swipe card out,1
+6,0.8571428571428571,"['Walk down stairs', 'Swipe card', 'Walk to proper train', 'Get on train', 'Get off train', 'Swipe card out']","['Walk up stairs outside', 'Get on train']",Walk up stairs outside,0
+0,0.0,[],"['take Escalators from street level', 'Get on correct bus']",take Escalators from street level,0
+1,0.14285714285714285,['take Escalators from street level'],"['Find correct bus Bay', 'Await bus']",Find correct bus Bay,0
+2,0.2857142857142857,"['take Escalators from street level', 'Find correct bus Bay']","['Sit quietly and enjoy the ride.', 'Await bus']",Await bus,1
+3,0.42857142857142855,"['take Escalators from street level', 'Find correct bus Bay', 'Await bus']","['take Escalators from street level', 'Get on correct bus']",Get on correct bus,1
+4,0.5714285714285714,"['take Escalators from street level', 'Find correct bus Bay', 'Await bus', 'Get on correct bus']","['Sit quietly and enjoy the ride.', 'Pay for bus with change']",Pay for bus with change,1
+5,0.7142857142857143,"['take Escalators from street level', 'Find correct bus Bay', 'Await bus', 'Get on correct bus', 'Pay for bus with change']","['Await bus', 'Find seat']",Find seat,1
+6,0.8571428571428571,"['take Escalators from street level', 'Find correct bus Bay', 'Await bus', 'Get on correct bus', 'Pay for bus with change', 'Find seat']","['Find correct bus Bay', 'Sit quietly and enjoy the ride.']",Sit quietly and enjoy the ride.,1
+0,0.0,[],"['Decide where you want to go.', 'Walk to the station.']",Walk to the station.,1
+1,0.125,['Walk to the station.'],"['When train arrives, get on it.', 'Decide where you want to go.']",Decide where you want to go.,1
+2,0.25,"['Walk to the station.', 'Decide where you want to go.']","['Buy ticket or token.', 'Wait on platform for train.']",Buy ticket or token.,0
+3,0.375,"['Walk to the station.', 'Decide where you want to go.', 'Buy ticket or token.']","['Walk down stairs to where the trains arrive.', 'Sit in seat.']",Walk down stairs to where the trains arrive.,0
+4,0.5,"['Walk to the station.', 'Decide where you want to go.', 'Buy ticket or token.', 'Walk down stairs to where the trains arrive.']","['Sit in seat.', 'Wait on platform for train.']",Wait on platform for train.,1
+5,0.625,"['Walk to the station.', 'Decide where you want to go.', 'Buy ticket or token.', 'Walk down stairs to where the trains arrive.', 'Wait on platform for train.']","['When train arrives, get on it.', 'Decide where you want to go.']","When train arrives, get on it.",0
+6,0.75,"['Walk to the station.', 'Decide where you want to go.', 'Buy ticket or token.', 'Walk down stairs to where the trains arrive.', 'Wait on platform for train.', 'When train arrives, get on it.']","['Buy ticket or token.', 'Find a seat on train.']",Find a seat on train.,1
+7,0.875,"['Walk to the station.', 'Decide where you want to go.', 'Buy ticket or token.', 'Walk down stairs to where the trains arrive.', 'Wait on platform for train.', 'When train arrives, get on it.', 'Find a seat on train.']","['Walk down stairs to where the trains arrive.', 'Sit in seat.']",Sit in seat.,1
+0,0.0,[],"['walk down the stairs into the station', 'walk down the stairs into the station']",walk down the stairs into the station,0
+1,0.125,['walk down the stairs into the station'],"['walk towards the turnstile', 'when it comes by, get on the car']",walk towards the turnstile,0
+2,0.25,"['walk down the stairs into the station', 'walk towards the turnstile']","['swipe my transit pass through the turnstile', 'ride the subway car to my stop']",swipe my transit pass through the turnstile,0
+3,0.375,"['walk down the stairs into the station', 'walk towards the turnstile', 'swipe my transit pass through the turnstile']","['walk down the stairs into the station', 'walk down the stairs from the turnstile level to the platform level']",walk down the stairs from the turnstile level to the platform level,1
+4,0.5,"['walk down the stairs into the station', 'walk towards the turnstile', 'swipe my transit pass through the turnstile', 'walk down the stairs from the turnstile level to the platform level']","['walk down the stairs into the station', 'wait on the platform for the subway car to come']",wait on the platform for the subway car to come,1
+5,0.625,"['walk down the stairs into the station', 'walk towards the turnstile', 'swipe my transit pass through the turnstile', 'walk down the stairs from the turnstile level to the platform level', 'wait on the platform for the subway car to come']","['when it comes by, get on the car', 'walk towards the turnstile']","when it comes by, get on the car",0
+6,0.75,"['walk down the stairs into the station', 'walk towards the turnstile', 'swipe my transit pass through the turnstile', 'walk down the stairs from the turnstile level to the platform level', 'wait on the platform for the subway car to come', 'when it comes by, get on the car']","[""if there's a seat on the car, sit down,  if no seats available, find a spot to stand"", 'walk down the stairs from the turnstile level to the platform level']","if there's a seat on the car, sit down,  if no seats available, find a spot to stand",0
+7,0.875,"['walk down the stairs into the station', 'walk towards the turnstile', 'swipe my transit pass through the turnstile', 'walk down the stairs from the turnstile level to the platform level', 'wait on the platform for the subway car to come', 'when it comes by, get on the car', ""if there's a seat on the car, sit down,  if no seats available, find a spot to stand""]","['walk down the stairs from the turnstile level to the platform level', 'ride the subway car to my stop']",ride the subway car to my stop,1
+0,0.0,[],"['wait for the next train', 'head out of the house']",head out of the house,1
+1,0.14285714285714285,['head out of the house'],"['walk down the stairs', 'head the the underground entrance']",head the the underground entrance,1
+2,0.2857142857142857,"['head out of the house', 'head the the underground entrance']","['walk down the stairs', 'get on the train']",walk down the stairs,0
+3,0.42857142857142855,"['head out of the house', 'head the the underground entrance', 'walk down the stairs']","['find a seat', 'buy a ticket']",buy a ticket,1
+4,0.5714285714285714,"['head out of the house', 'head the the underground entrance', 'walk down the stairs', 'buy a ticket']","['wait for the next train', 'find a seat']",wait for the next train,0
+5,0.7142857142857143,"['head out of the house', 'head the the underground entrance', 'walk down the stairs', 'buy a ticket', 'wait for the next train']","['head the the underground entrance', 'get on the train']",get on the train,1
+6,0.8571428571428571,"['head out of the house', 'head the the underground entrance', 'walk down the stairs', 'buy a ticket', 'wait for the next train', 'get on the train']","['find a seat', 'head out of the house']",find a seat,0
+0,0.0,[],"['once hole is dug, take the underground', 'get hiking boots on']",get hiking boots on,1
+1,0.2,['get hiking boots on'],"['Walk outside', 'dig a hole']",Walk outside,0
+2,0.4,"['get hiking boots on', 'Walk outside']","['once hole is dug, take the underground', 'get shovel']",get shovel,1
+3,0.6,"['get hiking boots on', 'Walk outside', 'get shovel']","['get hiking boots on', 'dig a hole']",dig a hole,1
+4,0.8,"['get hiking boots on', 'Walk outside', 'get shovel', 'dig a hole']","['once hole is dug, take the underground', 'Walk outside']","once hole is dug, take the underground",0
+0,0.0,[],"['Decide where you want to go.', 'Remember what stop is yours.']",Decide where you want to go.,0
+1,0.125,['Decide where you want to go.'],"['Walk down to the subway.', 'Find the nearest subway line.']",Find the nearest subway line.,1
+2,0.25,"['Decide where you want to go.', 'Find the nearest subway line.']","['Get on the train.', 'Walk down to the subway.']",Walk down to the subway.,1
+3,0.375,"['Decide where you want to go.', 'Find the nearest subway line.', 'Walk down to the subway.']","['Remember what stop is yours.', 'Find the correct subway route.']",Find the correct subway route.,1
+4,0.5,"['Decide where you want to go.', 'Find the nearest subway line.', 'Walk down to the subway.', 'Find the correct subway route.']","['Decide where you want to go.', 'Buy your ticket.']",Buy your ticket.,1
+5,0.625,"['Decide where you want to go.', 'Find the nearest subway line.', 'Walk down to the subway.', 'Find the correct subway route.', 'Buy your ticket.']","['Remember what stop is yours.', 'Go to the correct train']",Go to the correct train,1
+6,0.75,"['Decide where you want to go.', 'Find the nearest subway line.', 'Walk down to the subway.', 'Find the correct subway route.', 'Buy your ticket.', 'Go to the correct train']","['Decide where you want to go.', 'Get on the train.']",Get on the train.,1
+7,0.875,"['Decide where you want to go.', 'Find the nearest subway line.', 'Walk down to the subway.', 'Find the correct subway route.', 'Buy your ticket.', 'Go to the correct train', 'Get on the train.']","['Decide where you want to go.', 'Remember what stop is yours.']",Remember what stop is yours.,1
+0,0.0,[],"['talking to discreet people', 'talking to discreet people']",talking to discreet people,1
+1,0.2,['talking to discreet people'],"['researching the conventional ways so i can do the opposite', 'finding the others who have done so']",researching the conventional ways so i can do the opposite,0
+2,0.4,"['talking to discreet people', 'researching the conventional ways so i can do the opposite']","['learning about the underground', 'doing my best to obtain the underground']",learning about the underground,0
+3,0.6,"['talking to discreet people', 'researching the conventional ways so i can do the opposite', 'learning about the underground']","['finding the others who have done so', 'talking to discreet people']",finding the others who have done so,0
+4,0.8,"['talking to discreet people', 'researching the conventional ways so i can do the opposite', 'learning about the underground', 'finding the others who have done so']","['doing my best to obtain the underground', 'talking to discreet people']",doing my best to obtain the underground,0
+0,0.0,[],"['Walk down the steps into the station.', 'Check a subway map.']",Check a subway map.,1
+1,0.125,['Check a subway map.'],"['Find the nearest subway stop.', 'Scan my subway card at the turnstile.']",Find the nearest subway stop.,0
+2,0.25,"['Check a subway map.', 'Find the nearest subway stop.']","['Walk down the steps into the station.', 'Climb on board and taking a seat if there is one available.']",Walk down the steps into the station.,0
+3,0.375,"['Check a subway map.', 'Find the nearest subway stop.', 'Walk down the steps into the station.']","['Climb on board and taking a seat if there is one available.', 'Scan my subway card at the turnstile.']",Scan my subway card at the turnstile.,1
+4,0.5,"['Check a subway map.', 'Find the nearest subway stop.', 'Walk down the steps into the station.', 'Scan my subway card at the turnstile.']","['Walk to the area to board the train.', 'Climb on board and taking a seat if there is one available.']",Walk to the area to board the train.,0
+5,0.625,"['Check a subway map.', 'Find the nearest subway stop.', 'Walk down the steps into the station.', 'Scan my subway card at the turnstile.', 'Walk to the area to board the train.']","['Find the nearest subway stop.', 'Wait with other passengers for my train.']",Wait with other passengers for my train.,1
+6,0.75,"['Check a subway map.', 'Find the nearest subway stop.', 'Walk down the steps into the station.', 'Scan my subway card at the turnstile.', 'Walk to the area to board the train.', 'Wait with other passengers for my train.']","['Climb on board and taking a seat if there is one available.', 'Find the nearest subway stop.']",Climb on board and taking a seat if there is one available.,0
+7,0.875,"['Check a subway map.', 'Find the nearest subway stop.', 'Walk down the steps into the station.', 'Scan my subway card at the turnstile.', 'Walk to the area to board the train.', 'Wait with other passengers for my train.', 'Climb on board and taking a seat if there is one available.']","['Get off at my stop.', 'Find the nearest subway stop.']",Get off at my stop.,0
+0,0.0,[],"['Wait back from the yellow line', 'Check the map']",Check the map,1
+1,0.14285714285714285,['Check the map'],"['Walk to the correct platform', 'Wait for the train to completely stop']",Walk to the correct platform,0
+2,0.2857142857142857,"['Check the map', 'Walk to the correct platform']","['Listen and watch the stations for your stop', 'Wait back from the yellow line']",Wait back from the yellow line,1
+3,0.42857142857142855,"['Check the map', 'Walk to the correct platform', 'Wait back from the yellow line']","['Quickly pick a location to stand or sit', 'Wait for the train to completely stop']",Wait for the train to completely stop,1
+4,0.5714285714285714,"['Check the map', 'Walk to the correct platform', 'Wait back from the yellow line', 'Wait for the train to completely stop']","['Enter once the doors are open', 'Walk to the correct platform']",Enter once the doors are open,0
+5,0.7142857142857143,"['Check the map', 'Walk to the correct platform', 'Wait back from the yellow line', 'Wait for the train to completely stop', 'Enter once the doors are open']","['Quickly pick a location to stand or sit', 'Check the map']",Quickly pick a location to stand or sit,0
+6,0.8571428571428571,"['Check the map', 'Walk to the correct platform', 'Wait back from the yellow line', 'Wait for the train to completely stop', 'Enter once the doors are open', 'Quickly pick a location to stand or sit']","['Wait back from the yellow line', 'Listen and watch the stations for your stop']",Listen and watch the stations for your stop,1
+0,0.0,[],"['Walk downtown', 'Find appropriate place to stand']",Walk downtown,0
+1,0.125,['Walk downtown'],"['When door opens, step in', 'Take stairs leading down']",Take stairs leading down,1
+2,0.25,"['Walk downtown', 'Take stairs leading down']","['Go through ticket entrance', 'Wait for car to stop']",Go through ticket entrance,0
+3,0.375,"['Walk downtown', 'Take stairs leading down', 'Go through ticket entrance']","['Walk downtown', 'Walk to edge of platform']",Walk to edge of platform,1
+4,0.5,"['Walk downtown', 'Take stairs leading down', 'Go through ticket entrance', 'Walk to edge of platform']","['When door opens, step in', 'Find appropriate place to stand']",Find appropriate place to stand,1
+5,0.625,"['Walk downtown', 'Take stairs leading down', 'Go through ticket entrance', 'Walk to edge of platform', 'Find appropriate place to stand']","['Walk downtown', 'Wait for car to stop']",Wait for car to stop,1
+6,0.75,"['Walk downtown', 'Take stairs leading down', 'Go through ticket entrance', 'Walk to edge of platform', 'Find appropriate place to stand', 'Wait for car to stop']","['Walk downtown', 'When door opens, step in']","When door opens, step in",1
+7,0.875,"['Walk downtown', 'Take stairs leading down', 'Go through ticket entrance', 'Walk to edge of platform', 'Find appropriate place to stand', 'Wait for car to stop', 'When door opens, step in']","['Find secure spot to stand', 'Walk to edge of platform']",Find secure spot to stand,0
+0,0.0,[],"['Riding a Subway', 'Going to the underground railroad']",Riding a Subway,0
+1,0.2,['Riding a Subway'],"['Going through a tunnel', 'Riding a Subway']",Going through a tunnel,0
+2,0.4,"['Riding a Subway', 'Going through a tunnel']","['Going to the underground railroad', 'Riding the Train']",Going to the underground railroad,0
+3,0.6,"['Riding a Subway', 'Going through a tunnel', 'Going to the underground railroad']","['Riding a Subway', 'Purchasing a subway ticket']",Purchasing a subway ticket,1
+4,0.8,"['Riding a Subway', 'Going through a tunnel', 'Going to the underground railroad', 'Purchasing a subway ticket']","['Riding the Train', 'Going through a tunnel']",Riding the Train,0
+0,0.0,[],"['Go to the entryway', 'Wait for my stop']",Go to the entryway,0
+1,0.125,['Go to the entryway'],"['Wait for train', ""Purchase ticket if I don't have one""]",Purchase ticket if I don't have one,1
+2,0.25,"['Go to the entryway', ""Purchase ticket if I don't have one""]","['Board train', 'If I have ticket, put it through the machine']","If I have ticket, put it through the machine",1
+3,0.375,"['Go to the entryway', ""Purchase ticket if I don't have one"", 'If I have ticket, put it through the machine']","['Wait for my stop', 'Enter']",Enter,1
+4,0.5,"['Go to the entryway', ""Purchase ticket if I don't have one"", 'If I have ticket, put it through the machine', 'Enter']","['Wait for train', 'Wait for my stop']",Wait for train,0
+5,0.625,"['Go to the entryway', ""Purchase ticket if I don't have one"", 'If I have ticket, put it through the machine', 'Enter', 'Wait for train']","[""Purchase ticket if I don't have one"", 'Board train']",Board train,1
+6,0.75,"['Go to the entryway', ""Purchase ticket if I don't have one"", 'If I have ticket, put it through the machine', 'Enter', 'Wait for train', 'Board train']","['If I have ticket, put it through the machine', 'Wait for my stop']",Wait for my stop,1
+7,0.875,"['Go to the entryway', ""Purchase ticket if I don't have one"", 'If I have ticket, put it through the machine', 'Enter', 'Wait for train', 'Board train', 'Wait for my stop']","['When doors open, get out at stop', 'Wait for train']","When doors open, get out at stop",0
+0,0.0,[],"['determine destination', 'enter car when the doors open']",determine destination,0
+1,0.125,['determine destination'],"['consult map', 'wait for train to enter station']",consult map,0
+2,0.25,"['determine destination', 'consult map']","['walk to underground entrance', 'read signs to determine platform choice']",walk to underground entrance,0
+3,0.375,"['determine destination', 'consult map', 'walk to underground entrance']","['descend', 'determine destination']",descend,0
+4,0.5,"['determine destination', 'consult map', 'walk to underground entrance', 'descend']","['determine destination', 'read signs to determine platform choice']",read signs to determine platform choice,1
+5,0.625,"['determine destination', 'consult map', 'walk to underground entrance', 'descend', 'read signs to determine platform choice']","['wait for train to enter station', 'enter car when the doors open']",wait for train to enter station,0
+6,0.75,"['determine destination', 'consult map', 'walk to underground entrance', 'descend', 'read signs to determine platform choice', 'wait for train to enter station']","['mind the gap!', 'descend']",mind the gap!,0
+7,0.875,"['determine destination', 'consult map', 'walk to underground entrance', 'descend', 'read signs to determine platform choice', 'wait for train to enter station', 'mind the gap!']","['descend', 'enter car when the doors open']",enter car when the doors open,1
+0,0.0,[],"[' Dig a hole or find a cave/portal', ' Dig a hole or find a cave/portal']", Dig a hole or find a cave/portal,1
+1,0.2,[' Dig a hole or find a cave/portal'],"[' gather battle supplies', ' Dig a hole or find a cave/portal']", gather battle supplies,0
+2,0.4,"[' Dig a hole or find a cave/portal', ' gather battle supplies']","['purify the underground of evil and vanquish the enemy', 'live in peace knowing the world is safe, at least for today']",purify the underground of evil and vanquish the enemy,0
+3,0.6,"[' Dig a hole or find a cave/portal', ' gather battle supplies', 'purify the underground of evil and vanquish the enemy']","[' Dig a hole or find a cave/portal', 'rebuild what is left or seal it off to ensure safety of all citizens']",rebuild what is left or seal it off to ensure safety of all citizens,1
+4,0.8,"[' Dig a hole or find a cave/portal', ' gather battle supplies', 'purify the underground of evil and vanquish the enemy', 'rebuild what is left or seal it off to ensure safety of all citizens']","[' Dig a hole or find a cave/portal', 'live in peace knowing the world is safe, at least for today']","live in peace knowing the world is safe, at least for today",1
+0,0.0,[],"['Purchase a subway ticket', 'Get off at the proper stop']",Purchase a subway ticket,0
+1,0.14285714285714285,['Purchase a subway ticket'],"['Take the subway to your destination', 'Find the line that you need to take']",Find the line that you need to take,1
+2,0.2857142857142857,"['Purchase a subway ticket', 'Find the line that you need to take']","['Wait for the subway to arrive', 'Get off at the proper stop']",Wait for the subway to arrive,0
+3,0.42857142857142855,"['Purchase a subway ticket', 'Find the line that you need to take', 'Wait for the subway to arrive']","['Climb up the stairs and arrive at your destination', 'Take the subway to your destination']",Take the subway to your destination,1
+4,0.5714285714285714,"['Purchase a subway ticket', 'Find the line that you need to take', 'Wait for the subway to arrive', 'Take the subway to your destination']","['Find the line that you need to take', 'Get off at the proper stop']",Get off at the proper stop,1
+5,0.7142857142857143,"['Purchase a subway ticket', 'Find the line that you need to take', 'Wait for the subway to arrive', 'Take the subway to your destination', 'Get off at the proper stop']","['Go through the gates', 'Wait for the subway to arrive']",Go through the gates,0
+6,0.8571428571428571,"['Purchase a subway ticket', 'Find the line that you need to take', 'Wait for the subway to arrive', 'Take the subway to your destination', 'Get off at the proper stop', 'Go through the gates']","['Climb up the stairs and arrive at your destination', 'Take the subway to your destination']",Climb up the stairs and arrive at your destination,0
+0,0.0,[],"['find your route', 'get to the station']",get to the station,1
+1,0.125,['get to the station'],"['find your route', 'wait for your stop']",find your route,0
+2,0.25,"['get to the station', 'find your route']","['buy a ticket', 'get off']",buy a ticket,0
+3,0.375,"['get to the station', 'find your route', 'buy a ticket']","['wait for the train', 'get off']",wait for the train,0
+4,0.5,"['get to the station', 'find your route', 'buy a ticket', 'wait for the train']","['wait for your stop', 'get on']",get on,1
+5,0.625,"['get to the station', 'find your route', 'buy a ticket', 'wait for the train', 'get on']","['find your route', 'find a seat']",find a seat,1
+6,0.75,"['get to the station', 'find your route', 'buy a ticket', 'wait for the train', 'get on', 'find a seat']","['wait for your stop', 'wait for the train']",wait for your stop,0
+7,0.875,"['get to the station', 'find your route', 'buy a ticket', 'wait for the train', 'get on', 'find a seat', 'wait for your stop']","['get off', 'get on']",get off,0
+0,0.0,[],"['Leave house.', 'Check schedule.']",Leave house.,0
+1,0.125,['Leave house.'],"['Walk to train terminal.', 'Look for stop where my train will be.']",Walk to train terminal.,0
+2,0.25,"['Leave house.', 'Walk to train terminal.']","['Scan pass.', 'Look for stop where my train will be.']",Scan pass.,0
+3,0.375,"['Leave house.', 'Walk to train terminal.', 'Scan pass.']","['Walk over to stop where my train will be.', 'Check schedule.']",Check schedule.,1
+4,0.5,"['Leave house.', 'Walk to train terminal.', 'Scan pass.', 'Check schedule.']","['Board train.', 'Look for stop where my train will be.']",Look for stop where my train will be.,1
+5,0.625,"['Leave house.', 'Walk to train terminal.', 'Scan pass.', 'Check schedule.', 'Look for stop where my train will be.']","['Leave house.', 'Walk over to stop where my train will be.']",Walk over to stop where my train will be.,1
+6,0.75,"['Leave house.', 'Walk to train terminal.', 'Scan pass.', 'Check schedule.', 'Look for stop where my train will be.', 'Walk over to stop where my train will be.']","['Leave house.', 'Board train.']",Board train.,1
+7,0.875,"['Leave house.', 'Walk to train terminal.', 'Scan pass.', 'Check schedule.', 'Look for stop where my train will be.', 'Walk over to stop where my train will be.', 'Board train.']","['Read book while travelling.', 'Walk to train terminal.']",Read book while travelling.,0
+0,0.0,[],"['Go to the station.', 'Sit down.']",Go to the station.,0
+1,0.2,['Go to the station.'],"['Purchase a ticket.', 'Sit down.']",Purchase a ticket.,0
+2,0.4,"['Go to the station.', 'Purchase a ticket.']","['Get on the subway.', 'Ride to your destination.']",Get on the subway.,0
+3,0.6,"['Go to the station.', 'Purchase a ticket.', 'Get on the subway.']","['Sit down.', 'Go to the station.']",Sit down.,0
+4,0.8,"['Go to the station.', 'Purchase a ticket.', 'Get on the subway.', 'Sit down.']","['Ride to your destination.', 'Purchase a ticket.']",Ride to your destination.,0
+0,0.0,[],"['find correct train', 'listen to music or read']",find correct train,0
+1,0.14285714285714285,['find correct train'],"['listen to music or read', 'get ticket or passkey']",get ticket or passkey,1
+2,0.2857142857142857,"['find correct train', 'get ticket or passkey']","['head down the stairs and wait for train', 'listen to music or read']",head down the stairs and wait for train,0
+3,0.42857142857142855,"['find correct train', 'get ticket or passkey', 'head down the stairs and wait for train']","['board train after it stops', 'listen to music or read']",board train after it stops,0
+4,0.5714285714285714,"['find correct train', 'get ticket or passkey', 'head down the stairs and wait for train', 'board train after it stops']","['find seat ', 'get ticket or passkey']",find seat ,0
+5,0.7142857142857143,"['find correct train', 'get ticket or passkey', 'head down the stairs and wait for train', 'board train after it stops', 'find seat ']","['find correct train', 'listen to music or read']",listen to music or read,1
+6,0.8571428571428571,"['find correct train', 'get ticket or passkey', 'head down the stairs and wait for train', 'board train after it stops', 'find seat ', 'listen to music or read']","['board train after it stops', 'exit on correct stop']",exit on correct stop,1
+0,0.0,[],"['Go to the kiosk and buy your ticket.', 'Get your ticket on the other side.']",Go to the kiosk and buy your ticket.,0
+1,0.16666666666666666,['Go to the kiosk and buy your ticket.'],"['Go down the escalator into the underground area. ', 'Get your ticket on the other side.']",Go down the escalator into the underground area. ,0
+2,0.3333333333333333,"['Go to the kiosk and buy your ticket.', 'Go down the escalator into the underground area. ']","['Get your ticket on the other side.', 'Insert your ticket into the ticket collector.']",Insert your ticket into the ticket collector.,1
+3,0.5,"['Go to the kiosk and buy your ticket.', 'Go down the escalator into the underground area. ', 'Insert your ticket into the ticket collector.']","['Get on your train and take your ride.', 'Go through the entrance.']",Go through the entrance.,1
+4,0.6666666666666666,"['Go to the kiosk and buy your ticket.', 'Go down the escalator into the underground area. ', 'Insert your ticket into the ticket collector.', 'Go through the entrance.']","['Go down the escalator into the underground area. ', 'Get your ticket on the other side.']",Get your ticket on the other side.,1
+5,0.8333333333333334,"['Go to the kiosk and buy your ticket.', 'Go down the escalator into the underground area. ', 'Insert your ticket into the ticket collector.', 'Go through the entrance.', 'Get your ticket on the other side.']","['Get on your train and take your ride.', 'Insert your ticket into the ticket collector.']",Get on your train and take your ride.,0

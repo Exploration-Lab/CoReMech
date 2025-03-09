@@ -1,0 +1,501 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Going to the tennis court', 'Going to the tennis court']",Going to the tennis court,1
+1,0.2,['Going to the tennis court'],"['Hitting ball to other player', 'Grabbing a racket ball']",Grabbing a racket ball,1
+2,0.4,"['Going to the tennis court', 'Grabbing a racket ball']","['Serving ball with racket', 'Hitting ball when returned to you']",Serving ball with racket,0
+3,0.6,"['Going to the tennis court', 'Grabbing a racket ball', 'Serving ball with racket']","['Going to the tennis court', 'Hitting ball to other player']",Hitting ball to other player,1
+4,0.8,"['Going to the tennis court', 'Grabbing a racket ball', 'Serving ball with racket', 'Hitting ball to other player']","['Going to the tennis court', 'Hitting ball when returned to you']",Hitting ball when returned to you,1
+0,0.0,[],"['Get two tennis racquets', 'Find a partner']",Get two tennis racquets,0
+1,0.2,['Get two tennis racquets'],"['Get a tennis ball', 'Get a tennis ball']",Get a tennis ball,0
+2,0.4,"['Get two tennis racquets', 'Get a tennis ball']","['Find a partner', 'Give your partner one racquet']",Find a partner,0
+3,0.6,"['Get two tennis racquets', 'Get a tennis ball', 'Find a partner']","['Get two tennis racquets', 'Go to a tennis court']",Go to a tennis court,1
+4,0.8,"['Get two tennis racquets', 'Get a tennis ball', 'Find a partner', 'Go to a tennis court']","['Get a tennis ball', 'Give your partner one racquet']",Give your partner one racquet,1
+0,0.0,[],"['Grab racket', 'Go to tennis park']",Grab racket,0
+1,0.2,['Grab racket'],"['Find a partner/call a partner', 'Grab balls']",Grab balls,1
+2,0.4,"['Grab racket', 'Grab balls']","['Go to tennis park', 'Step on the court']",Go to tennis park,0
+3,0.6,"['Grab racket', 'Grab balls', 'Go to tennis park']","['Grab racket', 'Find a partner/call a partner']",Find a partner/call a partner,1
+4,0.8,"['Grab racket', 'Grab balls', 'Go to tennis park', 'Find a partner/call a partner']","['Step on the court', 'Grab racket']",Step on the court,0
+0,0.0,[],"['Get the tennis racket and balls', 'Get the tennis racket and balls']",Get the tennis racket and balls,0
+1,0.2,['Get the tennis racket and balls'],"['Go to the tennis court with a partner', 'Go to the tennis court with a partner']",Go to the tennis court with a partner,0
+2,0.4,"['Get the tennis racket and balls', 'Go to the tennis court with a partner']","['Take one tennis ball and throw in the air', 'Put on tennis shoes']",Put on tennis shoes,1
+3,0.6,"['Get the tennis racket and balls', 'Go to the tennis court with a partner', 'Put on tennis shoes']","['Get the tennis racket and balls', 'Take out the racket and balls']",Take out the racket and balls,1
+4,0.8,"['Get the tennis racket and balls', 'Go to the tennis court with a partner', 'Put on tennis shoes', 'Take out the racket and balls']","['Take one tennis ball and throw in the air', 'Get the tennis racket and balls']",Take one tennis ball and throw in the air,0
+0,0.0,[],"['Wear the sports dress', 'Wear the sports dress']",Wear the sports dress,1
+1,0.2,['Wear the sports dress'],"['Wear the sports dress', 'Put on your shoes']",Put on your shoes,1
+2,0.4,"['Wear the sports dress', 'Put on your shoes']","['Take the Racket and balls', 'Go to the court']",Take the Racket and balls,0
+3,0.6,"['Wear the sports dress', 'Put on your shoes', 'Take the Racket and balls']","['Wear the sports dress', 'Choose the opponent']",Choose the opponent,1
+4,0.8,"['Wear the sports dress', 'Put on your shoes', 'Take the Racket and balls', 'Choose the opponent']","['Go to the court', 'Put on your shoes']",Go to the court,0
+0,0.0,[],"['Put on comfy clothes', 'Grab a racket']",Put on comfy clothes,0
+1,0.2,['Put on comfy clothes'],"['Walk to the tennis court', 'Walk to the tennis court']",Walk to the tennis court,1
+2,0.4,"['Put on comfy clothes', 'Walk to the tennis court']","['Grab a racket', 'Play until one of you wins']",Grab a racket,0
+3,0.6,"['Put on comfy clothes', 'Walk to the tennis court', 'Grab a racket']","['Hit the ball to your opponent', 'Put on comfy clothes']",Hit the ball to your opponent,0
+4,0.8,"['Put on comfy clothes', 'Walk to the tennis court', 'Grab a racket', 'Hit the ball to your opponent']","['Play until one of you wins', 'Walk to the tennis court']",Play until one of you wins,0
+0,0.0,[],"['Pack your tennis racket and balls', 'Go to the tennis court']",Pack your tennis racket and balls,0
+1,0.2,['Pack your tennis racket and balls'],"['Find a tennis partner', 'Each go to opposite sides of the net']",Find a tennis partner,0
+2,0.4,"['Pack your tennis racket and balls', 'Find a tennis partner']","['Go to the tennis court', 'Pick which one serves first']",Go to the tennis court,0
+3,0.6,"['Pack your tennis racket and balls', 'Find a tennis partner', 'Go to the tennis court']","['Each go to opposite sides of the net', 'Pack your tennis racket and balls']",Each go to opposite sides of the net,0
+4,0.8,"['Pack your tennis racket and balls', 'Find a tennis partner', 'Go to the tennis court', 'Each go to opposite sides of the net']","['Pick which one serves first', 'Pack your tennis racket and balls']",Pick which one serves first,0
+0,0.0,[],"['Dress properly with tennis shirt and pant', 'Dress properly with tennis shirt and pant']",Dress properly with tennis shirt and pant,1
+1,0.2,['Dress properly with tennis shirt and pant'],"['Start the game and serve the ball if it is my chance', 'Wear tennis shoes']",Wear tennis shoes,1
+2,0.4,"['Dress properly with tennis shirt and pant', 'Wear tennis shoes']","['Head for the stadium, enter the court.', 'Start the game and serve the ball if it is my chance']","Head for the stadium, enter the court.",0
+3,0.6,"['Dress properly with tennis shirt and pant', 'Wear tennis shoes', 'Head for the stadium, enter the court.']","['Dress properly with tennis shirt and pant', 'Shake hands with the opponent']",Shake hands with the opponent,1
+4,0.8,"['Dress properly with tennis shirt and pant', 'Wear tennis shoes', 'Head for the stadium, enter the court.', 'Shake hands with the opponent']","['Dress properly with tennis shirt and pant', 'Start the game and serve the ball if it is my chance']",Start the game and serve the ball if it is my chance,1
+0,0.0,[],"['Get a partner', 'Leave house']",Get a partner,0
+1,0.2,['Get a partner'],"['Grab a racket', 'Grab a racket']",Grab a racket,0
+2,0.4,"['Get a partner', 'Grab a racket']","['Get tennis balls', 'Leave house']",Get tennis balls,0
+3,0.6,"['Get a partner', 'Grab a racket', 'Get tennis balls']","['Get a partner', 'Stretch out']",Stretch out,1
+4,0.8,"['Get a partner', 'Grab a racket', 'Get tennis balls', 'Stretch out']","['Leave house', 'Get a partner']",Leave house,0
+0,0.0,[],"['The timing of the ball, hitting it, and serving it plays a vital role in winning.', 'Playing Tennis is not only one of the out door game but also keeps fit and healthy.']",Playing Tennis is not only one of the out door game but also keeps fit and healthy.,1
+1,0.2,['Playing Tennis is not only one of the out door game but also keeps fit and healthy.'],"['The Eye-hand coordination also improves, for the player able to accurately judge.', 'The Eye-hand coordination also improves, for the player able to accurately judge.']","The Eye-hand coordination also improves, for the player able to accurately judge.",0
+2,0.4,"['Playing Tennis is not only one of the out door game but also keeps fit and healthy.', 'The Eye-hand coordination also improves, for the player able to accurately judge.']","['The timing of the ball, hitting it, and serving it plays a vital role in winning.', 'Harmone hair-loss can up-come their problem of hair-loss by playing tennis 3 days a week']","The timing of the ball, hitting it, and serving it plays a vital role in winning.",0
+3,0.6,"['Playing Tennis is not only one of the out door game but also keeps fit and healthy.', 'The Eye-hand coordination also improves, for the player able to accurately judge.', 'The timing of the ball, hitting it, and serving it plays a vital role in winning.']","['Playing Tennis is not only one of the out door game but also keeps fit and healthy.', 'Men can burn up to 600 calories an hour,  women up to 420 calories an hour.']","Men can burn up to 600 calories an hour,  women up to 420 calories an hour.",1
+4,0.8,"['Playing Tennis is not only one of the out door game but also keeps fit and healthy.', 'The Eye-hand coordination also improves, for the player able to accurately judge.', 'The timing of the ball, hitting it, and serving it plays a vital role in winning.', 'Men can burn up to 600 calories an hour,  women up to 420 calories an hour.']","['Harmone hair-loss can up-come their problem of hair-loss by playing tennis 3 days a week', 'The Eye-hand coordination also improves, for the player able to accurately judge.']",Harmone hair-loss can up-come their problem of hair-loss by playing tennis 3 days a week,0
+0,0.0,[],"['Call friends ask if they can play', 'Get dressed in playing closes']",Call friends ask if they can play,0
+1,0.2,['Call friends ask if they can play'],"['Get dressed in playing closes', 'Garther your gear']",Get dressed in playing closes,0
+2,0.4,"['Call friends ask if they can play', 'Get dressed in playing closes']","['play tennis with friends', 'Garther your gear']",Garther your gear,1
+3,0.6,"['Call friends ask if they can play', 'Get dressed in playing closes', 'Garther your gear']","['Call friends ask if they can play', 'go to tennis court']",go to tennis court,1
+4,0.8,"['Call friends ask if they can play', 'Get dressed in playing closes', 'Garther your gear', 'go to tennis court']","['play tennis with friends', 'Call friends ask if they can play']",play tennis with friends,0
+0,0.0,[],"['Serve ball b y hitting it over the net.', 'Go to store and buy tennis racket and balls.']",Go to store and buy tennis racket and balls.,1
+1,0.2,['Go to store and buy tennis racket and balls.'],"['Stand on opposite side of court from opponent.', 'Put on sports clothes.']",Put on sports clothes.,1
+2,0.4,"['Go to store and buy tennis racket and balls.', 'Put on sports clothes.']","['Go to tennis court.', 'Serve ball b y hitting it over the net.']",Go to tennis court.,0
+3,0.6,"['Go to store and buy tennis racket and balls.', 'Put on sports clothes.', 'Go to tennis court.']","['Go to store and buy tennis racket and balls.', 'Stand on opposite side of court from opponent.']",Stand on opposite side of court from opponent.,1
+4,0.8,"['Go to store and buy tennis racket and balls.', 'Put on sports clothes.', 'Go to tennis court.', 'Stand on opposite side of court from opponent.']","['Serve ball b y hitting it over the net.', 'Go to store and buy tennis racket and balls.']",Serve ball b y hitting it over the net.,0
+0,0.0,[],"['Put on gym shorts, shirt, and tennis shoes', 'Serve the ball']","Put on gym shorts, shirt, and tennis shoes",0
+1,0.2,"['Put on gym shorts, shirt, and tennis shoes']","['Go to the courts and wait for my partner to arrive', 'Put my racquets, balls, and water bottles into my bag']","Put my racquets, balls, and water bottles into my bag",1
+2,0.4,"['Put on gym shorts, shirt, and tennis shoes', 'Put my racquets, balls, and water bottles into my bag']","['Serve the ball', 'Go to the courts and wait for my partner to arrive']",Go to the courts and wait for my partner to arrive,1
+3,0.6,"['Put on gym shorts, shirt, and tennis shoes', 'Put my racquets, balls, and water bottles into my bag', 'Go to the courts and wait for my partner to arrive']","['Put on gym shorts, shirt, and tennis shoes', 'Warm up before the match by stretching and having light rallies']",Warm up before the match by stretching and having light rallies,1
+4,0.8,"['Put on gym shorts, shirt, and tennis shoes', 'Put my racquets, balls, and water bottles into my bag', 'Go to the courts and wait for my partner to arrive', 'Warm up before the match by stretching and having light rallies']","['Put my racquets, balls, and water bottles into my bag', 'Serve the ball']",Serve the ball,1
+0,0.0,[],"['get racket and ball', 'Change into athletic clothing']",Change into athletic clothing,1
+1,0.2,['Change into athletic clothing'],"['pick sides of the court', 'get racket and ball']",get racket and ball,1
+2,0.4,"['Change into athletic clothing', 'get racket and ball']","['serve the ball', 'find a partner']",find a partner,1
+3,0.6,"['Change into athletic clothing', 'get racket and ball', 'find a partner']","['pick sides of the court', 'Change into athletic clothing']",pick sides of the court,0
+4,0.8,"['Change into athletic clothing', 'get racket and ball', 'find a partner', 'pick sides of the court']","['get racket and ball', 'serve the ball']",serve the ball,1
+0,0.0,[],"['Gather together a tennis racket and tennis ball', 'Go to a tennis court at a park or other location']",Gather together a tennis racket and tennis ball,0
+1,0.2,['Gather together a tennis racket and tennis ball'],"['Gather together a tennis racket and tennis ball', 'Find a friend who also has a tennis racket']",Find a friend who also has a tennis racket,1
+2,0.4,"['Gather together a tennis racket and tennis ball', 'Find a friend who also has a tennis racket']","['Go to a tennis court at a park or other location', 'Throw tennis ball high into the air']",Go to a tennis court at a park or other location,0
+3,0.6,"['Gather together a tennis racket and tennis ball', 'Find a friend who also has a tennis racket', 'Go to a tennis court at a park or other location']","['Stand on one side of net while friend stands on the other', 'Gather together a tennis racket and tennis ball']",Stand on one side of net while friend stands on the other,0
+4,0.8,"['Gather together a tennis racket and tennis ball', 'Find a friend who also has a tennis racket', 'Go to a tennis court at a park or other location', 'Stand on one side of net while friend stands on the other']","['Find a friend who also has a tennis racket', 'Throw tennis ball high into the air']",Throw tennis ball high into the air,1
+0,0.0,[],"['Go to tennis courts.', 'Hit ball with tennis racket over the net.']",Go to tennis courts.,0
+1,0.2,['Go to tennis courts.'],"['Go to tennis courts.', 'Stand on one side of net.']",Stand on one side of net.,1
+2,0.4,"['Go to tennis courts.', 'Stand on one side of net.']","['Face your opponent.', 'Wait for opponent to hit ball back.']",Face your opponent.,0
+3,0.6,"['Go to tennis courts.', 'Stand on one side of net.', 'Face your opponent.']","['Go to tennis courts.', 'Hit ball with tennis racket over the net.']",Hit ball with tennis racket over the net.,1
+4,0.8,"['Go to tennis courts.', 'Stand on one side of net.', 'Face your opponent.', 'Hit ball with tennis racket over the net.']","['Wait for opponent to hit ball back.', 'Stand on one side of net.']",Wait for opponent to hit ball back.,0
+0,0.0,[],"['Call a friend', 'Wear tennis shoes']",Call a friend,0
+1,0.2,['Call a friend'],"['Get your racket', 'Wear tennis shoes']",Get your racket,0
+2,0.4,"['Call a friend', 'Get your racket']","['Play tennis with friend', 'Wear tennis shoes']",Wear tennis shoes,1
+3,0.6,"['Call a friend', 'Get your racket', 'Wear tennis shoes']","['Call a friend', 'Go to tennis field']",Go to tennis field,1
+4,0.8,"['Call a friend', 'Get your racket', 'Wear tennis shoes', 'Go to tennis field']","['Call a friend', 'Play tennis with friend']",Play tennis with friend,1
+0,0.0,[],"['Enjoy.', 'Find a tennis partner or partners to play with.']",Find a tennis partner or partners to play with.,1
+1,0.2,['Find a tennis partner or partners to play with.'],"['Find a tennis court.', 'Find a tennis partner or partners to play with.']",Find a tennis court.,0
+2,0.4,"['Find a tennis partner or partners to play with.', 'Find a tennis court.']","['Select a tennis racket.', 'Enjoy.']",Select a tennis racket.,0
+3,0.6,"['Find a tennis partner or partners to play with.', 'Find a tennis court.', 'Select a tennis racket.']","['Find a tennis partner or partners to play with.', 'Take turns hitting the ball back and forth across the net.']",Take turns hitting the ball back and forth across the net.,1
+4,0.8,"['Find a tennis partner or partners to play with.', 'Find a tennis court.', 'Select a tennis racket.', 'Take turns hitting the ball back and forth across the net.']","['Enjoy.', 'Find a tennis partner or partners to play with.']",Enjoy.,0
+0,0.0,[],"['Get racket', 'Hit tennis balls back and forth']",Get racket,0
+1,0.2,['Get racket'],"['Get tennis ball', 'Get racket']",Get tennis ball,0
+2,0.4,"['Get racket', 'Get tennis ball']","['Hit tennis balls back and forth', 'Go to tennis court']",Go to tennis court,1
+3,0.6,"['Get racket', 'Get tennis ball', 'Go to tennis court']","['Get racket', 'Find someone to play with']",Find someone to play with,1
+4,0.8,"['Get racket', 'Get tennis ball', 'Go to tennis court', 'Find someone to play with']","['Get tennis ball', 'Hit tennis balls back and forth']",Hit tennis balls back and forth,1
+0,0.0,[],"['Get dressed to play tennis.', 'Call friend to set a date to play tennis.']",Call friend to set a date to play tennis.,1
+1,0.2,['Call friend to set a date to play tennis.'],"['Call tennis court to set a court time.', 'Call tennis court to set a court time.']",Call tennis court to set a court time.,0
+2,0.4,"['Call friend to set a date to play tennis.', 'Call tennis court to set a court time.']","['Get dressed to play tennis.', 'Play one warm-up game with friend before match begins.']",Get dressed to play tennis.,0
+3,0.6,"['Call friend to set a date to play tennis.', 'Call tennis court to set a court time.', 'Get dressed to play tennis.']","['Call friend to set a date to play tennis.', 'Call friend to meet at tennis court.']",Call friend to meet at tennis court.,1
+4,0.8,"['Call friend to set a date to play tennis.', 'Call tennis court to set a court time.', 'Get dressed to play tennis.', 'Call friend to meet at tennis court.']","['Play one warm-up game with friend before match begins.', 'Call tennis court to set a court time.']",Play one warm-up game with friend before match begins.,0
+0,0.0,[],"['get out of car upon arrival', 'call a friend and invite to play']",call a friend and invite to play,1
+1,0.2,['call a friend and invite to play'],"['drive to tennis court', 'drive to tennis court']",drive to tennis court,1
+2,0.4,"['call a friend and invite to play', 'drive to tennis court']","['get out of car upon arrival', 'enter tennis courts through gate']",get out of car upon arrival,0
+3,0.6,"['call a friend and invite to play', 'drive to tennis court', 'get out of car upon arrival']","['call a friend and invite to play', 'greet friend']",greet friend,1
+4,0.8,"['call a friend and invite to play', 'drive to tennis court', 'get out of car upon arrival', 'greet friend']","['enter tennis courts through gate', 'call a friend and invite to play']",enter tennis courts through gate,0
+0,0.0,[],"['Obtain racket and tennis balls', 'Dress in tennis clothes']",Obtain racket and tennis balls,0
+1,0.2,['Obtain racket and tennis balls'],"['Warm up', 'Dress in tennis clothes']",Dress in tennis clothes,1
+2,0.4,"['Obtain racket and tennis balls', 'Dress in tennis clothes']","['Go to tennis court', 'Play match']",Go to tennis court,0
+3,0.6,"['Obtain racket and tennis balls', 'Dress in tennis clothes', 'Go to tennis court']","['Obtain racket and tennis balls', 'Warm up']",Warm up,1
+4,0.8,"['Obtain racket and tennis balls', 'Dress in tennis clothes', 'Go to tennis court', 'Warm up']","['Dress in tennis clothes', 'Play match']",Play match,1
+0,0.0,[],"['hit the ball with the racket, aiming for the ground on the other side of the net', 'choose a racket']",choose a racket,1
+1,0.2,['choose a racket'],"['get a tennis ball', 'get a tennis ball']",get a tennis ball,1
+2,0.4,"['choose a racket', 'get a tennis ball']","['hit the ball with the racket, aiming for the ground on the other side of the net', 'approach the court with opponent on opposite end']",approach the court with opponent on opposite end,1
+3,0.6,"['choose a racket', 'get a tennis ball', 'approach the court with opponent on opposite end']","['throw the ball into the air', 'choose a racket']",throw the ball into the air,0
+4,0.8,"['choose a racket', 'get a tennis ball', 'approach the court with opponent on opposite end', 'throw the ball into the air']","['choose a racket', 'hit the ball with the racket, aiming for the ground on the other side of the net']","hit the ball with the racket, aiming for the ground on the other side of the net",1
+0,0.0,[],"['go to tennis court', 'Put on tennis clothes']",Put on tennis clothes,1
+1,0.2,['Put on tennis clothes'],"['gather tennis equipment', 'gather tennis equipment']",gather tennis equipment,0
+2,0.4,"['Put on tennis clothes', 'gather tennis equipment']","['go to tennis court', 'warm up to play']",go to tennis court,0
+3,0.6,"['Put on tennis clothes', 'gather tennis equipment', 'go to tennis court']","['Put on tennis clothes', 'get a tennis partner']",get a tennis partner,1
+4,0.8,"['Put on tennis clothes', 'gather tennis equipment', 'go to tennis court', 'get a tennis partner']","['Put on tennis clothes', 'warm up to play']",warm up to play,1
+0,0.0,[],"['Book tennis court', 'Get  tennis balls']",Book tennis court,0
+1,0.2,['Book tennis court'],"['Change into tennis whites', 'Get  tennis balls']",Change into tennis whites,0
+2,0.4,"['Book tennis court', 'Change into tennis whites']","['Walk on court with opponent', 'Get tennis racquet']",Get tennis racquet,1
+3,0.6,"['Book tennis court', 'Change into tennis whites', 'Get tennis racquet']","['Get  tennis balls', 'Book tennis court']",Get  tennis balls,0
+4,0.8,"['Book tennis court', 'Change into tennis whites', 'Get tennis racquet', 'Get  tennis balls']","['Walk on court with opponent', 'Book tennis court']",Walk on court with opponent,0
+0,0.0,[],"['wait for the return', 'grab tennis ball']",grab tennis ball,1
+1,0.2,['grab tennis ball'],"['grab tennis racket', 'wait for the return']",grab tennis racket,0
+2,0.4,"['grab tennis ball', 'grab tennis racket']","['hit ball to the opposite side of the court', 'serve to opposition']",serve to opposition,1
+3,0.6,"['grab tennis ball', 'grab tennis racket', 'serve to opposition']","['wait for the return', 'grab tennis ball']",wait for the return,0
+4,0.8,"['grab tennis ball', 'grab tennis racket', 'serve to opposition', 'wait for the return']","['grab tennis racket', 'hit ball to the opposite side of the court']",hit ball to the opposite side of the court,1
+0,0.0,[],"['Get dressed.', 'Go to car']",Get dressed.,0
+1,0.2,['Get dressed.'],"['Get tennis equipment', 'Drive to tennis court']",Get tennis equipment,0
+2,0.4,"['Get dressed.', 'Get tennis equipment']","['Park', 'Go to car']",Go to car,1
+3,0.6,"['Get dressed.', 'Get tennis equipment', 'Go to car']","['Get dressed.', 'Drive to tennis court']",Drive to tennis court,1
+4,0.8,"['Get dressed.', 'Get tennis equipment', 'Go to car', 'Drive to tennis court']","['Get dressed.', 'Park']",Park,1
+0,0.0,[],"['serve ball', 'grab racket']",grab racket,1
+1,0.2,['grab racket'],"['serve ball', 'get on court']",get on court,1
+2,0.4,"['grab racket', 'get on court']","['grab tennis ball', 'play back and forth']",grab tennis ball,0
+3,0.6,"['grab racket', 'get on court', 'grab tennis ball']","['grab racket', 'serve ball']",serve ball,1
+4,0.8,"['grab racket', 'get on court', 'grab tennis ball', 'serve ball']","['get on court', 'play back and forth']",play back and forth,1
+0,0.0,[],"['Change into sports clothes', 'Go to tennis court']",Change into sports clothes,0
+1,0.2,['Change into sports clothes'],"['Play tennis with opponent', 'Get tennis racket and balls']",Get tennis racket and balls,1
+2,0.4,"['Change into sports clothes', 'Get tennis racket and balls']","['Play tennis with opponent', 'Go to tennis court']",Go to tennis court,1
+3,0.6,"['Change into sports clothes', 'Get tennis racket and balls', 'Go to tennis court']","['Find an opponent', 'Change into sports clothes']",Find an opponent,0
+4,0.8,"['Change into sports clothes', 'Get tennis racket and balls', 'Go to tennis court', 'Find an opponent']","['Change into sports clothes', 'Play tennis with opponent']",Play tennis with opponent,1
+0,0.0,[],"['Buy a racket and some balls', 'Buy a racket and some balls']",Buy a racket and some balls,0
+1,0.2,['Buy a racket and some balls'],"['Wait for the other player to return the serve', 'Travel to a tennis court with a friend']",Travel to a tennis court with a friend,1
+2,0.4,"['Buy a racket and some balls', 'Travel to a tennis court with a friend']","['Serve the ball to the other player over the net', 'Continue playing until you have a clear winner in number of games won']",Serve the ball to the other player over the net,0
+3,0.6,"['Buy a racket and some balls', 'Travel to a tennis court with a friend', 'Serve the ball to the other player over the net']","['Buy a racket and some balls', 'Wait for the other player to return the serve']",Wait for the other player to return the serve,1
+4,0.8,"['Buy a racket and some balls', 'Travel to a tennis court with a friend', 'Serve the ball to the other player over the net', 'Wait for the other player to return the serve']","['Travel to a tennis court with a friend', 'Continue playing until you have a clear winner in number of games won']",Continue playing until you have a clear winner in number of games won,1
+0,0.0,[],"['Get dressed in tennis clothes', 'Find tennis racket']",Get dressed in tennis clothes,0
+1,0.2,['Get dressed in tennis clothes'],"['Drive to tennis court', 'Find tennis racket']",Find tennis racket,1
+2,0.4,"['Get dressed in tennis clothes', 'Find tennis racket']","['Play tennis', 'Find tennis balls']",Find tennis balls,1
+3,0.6,"['Get dressed in tennis clothes', 'Find tennis racket', 'Find tennis balls']","['Drive to tennis court', 'Get dressed in tennis clothes']",Drive to tennis court,0
+4,0.8,"['Get dressed in tennis clothes', 'Find tennis racket', 'Find tennis balls', 'Drive to tennis court']","['Get dressed in tennis clothes', 'Play tennis']",Play tennis,1
+0,0.0,[],"['Drive to tennis court.', 'Stretch']",Drive to tennis court.,0
+1,0.2,['Drive to tennis court.'],"['Exit car.', 'Stretch']",Exit car.,0
+2,0.4,"['Drive to tennis court.', 'Exit car.']","['Take rackets and balls.', 'Stretch']",Take rackets and balls.,0
+3,0.6,"['Drive to tennis court.', 'Exit car.', 'Take rackets and balls.']","['Find empty court.', 'Drive to tennis court.']",Find empty court.,0
+4,0.8,"['Drive to tennis court.', 'Exit car.', 'Take rackets and balls.', 'Find empty court.']","['Stretch', 'Drive to tennis court.']",Stretch,0
+0,0.0,[],"['wait for player to hit ball back to you', 'hit ball to other player']",hit ball to other player,1
+1,0.2,['hit ball to other player'],"['wait for player to hit ball back to you', 'wait for other player to hit ball back']",wait for other player to hit ball back,1
+2,0.4,"['hit ball to other player', 'wait for other player to hit ball back']","['hit ball to other player', 'miss ball and cry']",hit ball to other player,0
+3,0.6,"['hit ball to other player', 'wait for other player to hit ball back', 'hit ball to other player']","['wait for player to hit ball back to you', 'hit ball to other player']",wait for player to hit ball back to you,0
+4,0.8,"['hit ball to other player', 'wait for other player to hit ball back', 'hit ball to other player', 'wait for player to hit ball back to you']","['miss ball and cry', 'hit ball to other player']",miss ball and cry,0
+0,0.0,[],"['Get appropriate attire', 'Get tennis racket']",Get appropriate attire,0
+1,0.2,['Get appropriate attire'],"['Get tennis racket', 'Get appropriate attire']",Get tennis racket,0
+2,0.4,"['Get appropriate attire', 'Get tennis racket']","['Go to tennis court', 'Play tennis']",Go to tennis court,0
+3,0.6,"['Get appropriate attire', 'Get tennis racket', 'Go to tennis court']","['Stretch and warm up', 'Get appropriate attire']",Stretch and warm up,0
+4,0.8,"['Get appropriate attire', 'Get tennis racket', 'Go to tennis court', 'Stretch and warm up']","['Get tennis racket', 'Play tennis']",Play tennis,1
+0,0.0,[],"['Wait for opponent to hit ball back', 'Pick up ball']",Pick up ball,1
+1,0.2,['Pick up ball'],"['Pick up racket', 'Pick up racket']",Pick up racket,0
+2,0.4,"['Pick up ball', 'Pick up racket']","['Hit ball back to opponent', 'Toss ball into air and hit it with racket over net']",Toss ball into air and hit it with racket over net,1
+3,0.6,"['Pick up ball', 'Pick up racket', 'Toss ball into air and hit it with racket over net']","['Wait for opponent to hit ball back', 'Pick up ball']",Wait for opponent to hit ball back,0
+4,0.8,"['Pick up ball', 'Pick up racket', 'Toss ball into air and hit it with racket over net', 'Wait for opponent to hit ball back']","['Hit ball back to opponent', 'Pick up ball']",Hit ball back to opponent,0
+0,0.0,[],"['going to the court', 'going to the court']",going to the court,0
+1,0.2,['going to the court'],"['swinging the racket', 'serving the ball']",serving the ball,1
+2,0.4,"['going to the court', 'serving the ball']","['hitting the ball with the racket', 'hitting the ball over the net']",hitting the ball with the racket,0
+3,0.6,"['going to the court', 'serving the ball', 'hitting the ball with the racket']","['going to the court', 'swinging the racket']",swinging the racket,1
+4,0.8,"['going to the court', 'serving the ball', 'hitting the ball with the racket', 'swinging the racket']","['hitting the ball over the net', 'serving the ball']",hitting the ball over the net,0
+0,0.0,[],"['practice volleys', 'arrive at tennis courts']",arrive at tennis courts,1
+1,0.2,['arrive at tennis courts'],"['arrive at tennis courts', 'stretch muscles and limbs']",stretch muscles and limbs,1
+2,0.4,"['arrive at tennis courts', 'stretch muscles and limbs']","['start match with first serve', 'practice serving']",practice serving,1
+3,0.6,"['arrive at tennis courts', 'stretch muscles and limbs', 'practice serving']","['practice volleys', 'arrive at tennis courts']",practice volleys,0
+4,0.8,"['arrive at tennis courts', 'stretch muscles and limbs', 'practice serving', 'practice volleys']","['start match with first serve', 'stretch muscles and limbs']",start match with first serve,0
+0,0.0,[],"['Find a person to play with.', 'Server ball over net.']",Find a person to play with.,0
+1,0.2,['Find a person to play with.'],"['Drive to tennis court.', 'Hit tennis ball again over net.']",Drive to tennis court.,0
+2,0.4,"['Find a person to play with.', 'Drive to tennis court.']","['Server ball over net.', 'Hit tennis ball again over net.']",Server ball over net.,0
+3,0.6,"['Find a person to play with.', 'Drive to tennis court.', 'Server ball over net.']","['Wait for person to return ball.', 'Find a person to play with.']",Wait for person to return ball.,0
+4,0.8,"['Find a person to play with.', 'Drive to tennis court.', 'Server ball over net.', 'Wait for person to return ball.']","['Find a person to play with.', 'Hit tennis ball again over net.']",Hit tennis ball again over net.,1
+0,0.0,[],"['go to courts', 'go to courts']",go to courts,0
+1,0.2,['go to courts'],"['stretch', 'stretch']",stretch,1
+2,0.4,"['go to courts', 'stretch']","['jump over net', 'warm up']",warm up,1
+3,0.6,"['go to courts', 'stretch', 'warm up']","['defeat opponent by any means necessary', 'go to courts']",defeat opponent by any means necessary,0
+4,0.8,"['go to courts', 'stretch', 'warm up', 'defeat opponent by any means necessary']","['stretch', 'jump over net']",jump over net,1
+0,0.0,[],"['Drive to the tennis court', 'Gather tennis racket and balls']",Gather tennis racket and balls,1
+1,0.2,['Gather tennis racket and balls'],"['Walk over to the court', 'Get into your car with items']",Get into your car with items,1
+2,0.4,"['Gather tennis racket and balls', 'Get into your car with items']","['Drive to the tennis court', 'Walk over to the court']",Drive to the tennis court,0
+3,0.6,"['Gather tennis racket and balls', 'Get into your car with items', 'Drive to the tennis court']","['Get out of car with items', 'Gather tennis racket and balls']",Get out of car with items,0
+4,0.8,"['Gather tennis racket and balls', 'Get into your car with items', 'Drive to the tennis court', 'Get out of car with items']","['Gather tennis racket and balls', 'Walk over to the court']",Walk over to the court,1
+0,0.0,[],"['Go to the tennis court', 'Go to the tennis court']",Go to the tennis court,0
+1,0.2,['Go to the tennis court'],"['Go to the tennis court', 'Hit the ball at the racket']",Hit the ball at the racket,1
+2,0.4,"['Go to the tennis court', 'Hit the ball at the racket']","['Wait for opposing player to hit the ball back', 'Continue steps two through four']",Wait for opposing player to hit the ball back,0
+3,0.6,"['Go to the tennis court', 'Hit the ball at the racket', 'Wait for opposing player to hit the ball back']","['Go to the tennis court', 'When ball comes back, hit it back to the other player']","When ball comes back, hit it back to the other player",1
+4,0.8,"['Go to the tennis court', 'Hit the ball at the racket', 'Wait for opposing player to hit the ball back', 'When ball comes back, hit it back to the other player']","['Continue steps two through four', 'Go to the tennis court']",Continue steps two through four,0
+0,0.0,[],"['choose a side to play on, while you opponent takes the other side', 'dress in loose fitting clothing']",dress in loose fitting clothing,1
+1,0.2,['dress in loose fitting clothing'],"['gather equipment', 'go to courts']",gather equipment,0
+2,0.4,"['dress in loose fitting clothing', 'gather equipment']","['go to courts', 'choose a side to play on, while you opponent takes the other side']",go to courts,0
+3,0.6,"['dress in loose fitting clothing', 'gather equipment', 'go to courts']","['open the can of tennis balls', 'dress in loose fitting clothing']",open the can of tennis balls,0
+4,0.8,"['dress in loose fitting clothing', 'gather equipment', 'go to courts', 'open the can of tennis balls']","['dress in loose fitting clothing', 'choose a side to play on, while you opponent takes the other side']","choose a side to play on, while you opponent takes the other side",1
+0,0.0,[],"['GET TENNIS RACQUET', 'FIND AN OPPONENT']",GET TENNIS RACQUET,0
+1,0.2,['GET TENNIS RACQUET'],"['HIT TENNIS BALL BACK AND FORTH OVER THE NET', 'GO TO TENNIS COURT']",GO TO TENNIS COURT,1
+2,0.4,"['GET TENNIS RACQUET', 'GO TO TENNIS COURT']","['FIND AN OPPONENT', 'HIT TENNIS BALL BACK AND FORTH OVER THE NET']",FIND AN OPPONENT,0
+3,0.6,"['GET TENNIS RACQUET', 'GO TO TENNIS COURT', 'FIND AN OPPONENT']","['GET TENNIS RACQUET', 'PLAY TENNIS WITH OTHER PERSON']",PLAY TENNIS WITH OTHER PERSON,1
+4,0.8,"['GET TENNIS RACQUET', 'GO TO TENNIS COURT', 'FIND AN OPPONENT', 'PLAY TENNIS WITH OTHER PERSON']","['HIT TENNIS BALL BACK AND FORTH OVER THE NET', 'GO TO TENNIS COURT']",HIT TENNIS BALL BACK AND FORTH OVER THE NET,0
+0,0.0,[],"['find person to play with', 'await for opponent to hit ball back to you']",find person to play with,0
+1,0.2,['find person to play with'],"['find person to play with', 'collect tennis racket and tennis balls']",collect tennis racket and tennis balls,1
+2,0.4,"['find person to play with', 'collect tennis racket and tennis balls']","['drive to tennis court', 'await for opponent to hit ball back to you']",drive to tennis court,0
+3,0.6,"['find person to play with', 'collect tennis racket and tennis balls', 'drive to tennis court']","['hit ball to opponent with tennis racket', 'find person to play with']",hit ball to opponent with tennis racket,0
+4,0.8,"['find person to play with', 'collect tennis racket and tennis balls', 'drive to tennis court', 'hit ball to opponent with tennis racket']","['await for opponent to hit ball back to you', 'find person to play with']",await for opponent to hit ball back to you,0
+0,0.0,[],"['Dress in your finest athletic gear', 'Dress in your finest athletic gear']",Dress in your finest athletic gear,1
+1,0.2,['Dress in your finest athletic gear'],"['Go to the tennis court', 'Hit the tennis balls towards your opponent when they hit them to you']",Go to the tennis court,0
+2,0.4,"['Dress in your finest athletic gear', 'Go to the tennis court']","['Throw some balls in the air and hit them with your racket, otherwise known as serving', 'Try to make your opponent miss the tennis ball']","Throw some balls in the air and hit them with your racket, otherwise known as serving",0
+3,0.6,"['Dress in your finest athletic gear', 'Go to the tennis court', 'Throw some balls in the air and hit them with your racket, otherwise known as serving']","['Dress in your finest athletic gear', 'Hit the tennis balls towards your opponent when they hit them to you']",Hit the tennis balls towards your opponent when they hit them to you,1
+4,0.8,"['Dress in your finest athletic gear', 'Go to the tennis court', 'Throw some balls in the air and hit them with your racket, otherwise known as serving', 'Hit the tennis balls towards your opponent when they hit them to you']","['Try to make your opponent miss the tennis ball', 'Go to the tennis court']",Try to make your opponent miss the tennis ball,0
+0,0.0,[],"['Wear appropriate tennis clothing and shoes.', 'Wear appropriate tennis clothing and shoes.']",Wear appropriate tennis clothing and shoes.,1
+1,0.2,['Wear appropriate tennis clothing and shoes.'],"['Go to your assigned side of the tennis court.', 'Play the game using a racket.']",Go to your assigned side of the tennis court.,0
+2,0.4,"['Wear appropriate tennis clothing and shoes.', 'Go to your assigned side of the tennis court.']","['Keep yourself hydrated by drinking water.', 'Play the game using a racket.']",Play the game using a racket.,1
+3,0.6,"['Wear appropriate tennis clothing and shoes.', 'Go to your assigned side of the tennis court.', 'Play the game using a racket.']","['Wear appropriate tennis clothing and shoes.', 'Keep score to see who wins.']",Keep score to see who wins.,1
+4,0.8,"['Wear appropriate tennis clothing and shoes.', 'Go to your assigned side of the tennis court.', 'Play the game using a racket.', 'Keep score to see who wins.']","['Keep yourself hydrated by drinking water.', 'Go to your assigned side of the tennis court.']",Keep yourself hydrated by drinking water.,0
+0,0.0,[],"['Find someone to play with', 'Find empty tennis court']",Find someone to play with,0
+1,0.2,['Find someone to play with'],"['Get tennis racket', 'Get tennis balls']",Get tennis racket,0
+2,0.4,"['Find someone to play with', 'Get tennis racket']","['Get tennis balls', 'Stretch and warm up to play']",Get tennis balls,0
+3,0.6,"['Find someone to play with', 'Get tennis racket', 'Get tennis balls']","['Find empty tennis court', 'Find someone to play with']",Find empty tennis court,0
+4,0.8,"['Find someone to play with', 'Get tennis racket', 'Get tennis balls', 'Find empty tennis court']","['Get tennis racket', 'Stretch and warm up to play']",Stretch and warm up to play,1
+0,0.0,[],"['Get tennis partner.', 'Walk onto court.']",Get tennis partner.,0
+1,0.2,['Get tennis partner.'],"['Get racket and ball.', 'Get tennis partner.']",Get racket and ball.,0
+2,0.4,"['Get tennis partner.', 'Get racket and ball.']","['Serve ball with racket.', 'Walk onto court.']",Walk onto court.,1
+3,0.6,"['Get tennis partner.', 'Get racket and ball.', 'Walk onto court.']","['Get tennis partner.', 'Throw ball into air.']",Throw ball into air.,1
+4,0.8,"['Get tennis partner.', 'Get racket and ball.', 'Walk onto court.', 'Throw ball into air.']","['Get tennis partner.', 'Serve ball with racket.']",Serve ball with racket.,1
+0,0.0,[],"['Serve the ball with your racket', 'Put on appropriate tennis attire']",Put on appropriate tennis attire,1
+1,0.2,['Put on appropriate tennis attire'],"['Find a partner or team to play with', 'Put on appropriate tennis attire']",Find a partner or team to play with,0
+2,0.4,"['Put on appropriate tennis attire', 'Find a partner or team to play with']","['Prepare for the ball to return to your side of court', 'Decide which side goes first']",Decide which side goes first,1
+3,0.6,"['Put on appropriate tennis attire', 'Find a partner or team to play with', 'Decide which side goes first']","['Put on appropriate tennis attire', 'Serve the ball with your racket']",Serve the ball with your racket,1
+4,0.8,"['Put on appropriate tennis attire', 'Find a partner or team to play with', 'Decide which side goes first', 'Serve the ball with your racket']","['Prepare for the ball to return to your side of court', 'Find a partner or team to play with']",Prepare for the ball to return to your side of court,0
+0,0.0,[],"['Find a tennis partner', 'Find a tennis partner']",Find a tennis partner,1
+1,0.2,['Find a tennis partner'],"['Go to tennis court with partner', 'Get a tennis racket']",Get a tennis racket,1
+2,0.4,"['Find a tennis partner', 'Get a tennis racket']","['Get tennis balls', 'You and partner each take one side of the court']",Get tennis balls,0
+3,0.6,"['Find a tennis partner', 'Get a tennis racket', 'Get tennis balls']","['Find a tennis partner', 'Go to tennis court with partner']",Go to tennis court with partner,1
+4,0.8,"['Find a tennis partner', 'Get a tennis racket', 'Get tennis balls', 'Go to tennis court with partner']","['Get a tennis racket', 'You and partner each take one side of the court']",You and partner each take one side of the court,1
+0,0.0,[],"['Find an outfit to play in.', 'Walk to the tennis court.']",Find an outfit to play in.,0
+1,0.2,['Find an outfit to play in.'],"['Ask a friend to play.', 'Practice my serve.']",Ask a friend to play.,0
+2,0.4,"['Find an outfit to play in.', 'Ask a friend to play.']","['Walk to the tennis court.', 'Play tennis.']",Walk to the tennis court.,0
+3,0.6,"['Find an outfit to play in.', 'Ask a friend to play.', 'Walk to the tennis court.']","['Practice my serve.', 'Find an outfit to play in.']",Practice my serve.,0
+4,0.8,"['Find an outfit to play in.', 'Ask a friend to play.', 'Walk to the tennis court.', 'Practice my serve.']","['Play tennis.', 'Ask a friend to play.']",Play tennis.,0
+0,0.0,[],"['toss ball in air in front of you', 'get tennis racket']",get tennis racket,1
+1,0.2,['get tennis racket'],"['get tennis racket', 'get tennis ball']",get tennis ball,1
+2,0.4,"['get tennis racket', 'get tennis ball']","['step onto the tennis court', 'toss ball in air in front of you']",step onto the tennis court,0
+3,0.6,"['get tennis racket', 'get tennis ball', 'step onto the tennis court']","['get tennis racket', 'bounce ball a couple of times']",bounce ball a couple of times,1
+4,0.8,"['get tennis racket', 'get tennis ball', 'step onto the tennis court', 'bounce ball a couple of times']","['toss ball in air in front of you', 'get tennis ball']",toss ball in air in front of you,0
+0,0.0,[],"['Get a partner', 'Throw ball in air']",Get a partner,0
+1,0.2,['Get a partner'],"['Get a racket', 'Get a racket']",Get a racket,1
+2,0.4,"['Get a partner', 'Get a racket']","['Get a tennis ball', 'Throw ball in air']",Get a tennis ball,0
+3,0.6,"['Get a partner', 'Get a racket', 'Get a tennis ball']","['Get a partner', 'Go to tennis court']",Go to tennis court,1
+4,0.8,"['Get a partner', 'Get a racket', 'Get a tennis ball', 'Go to tennis court']","['Get a racket', 'Throw ball in air']",Throw ball in air,1
+0,0.0,[],"['Walk on tennis court.', 'Grab a racket.']",Walk on tennis court.,0
+1,0.2,['Walk on tennis court.'],"['Get a ball.', 'Walk on tennis court.']",Get a ball.,0
+2,0.4,"['Walk on tennis court.', 'Get a ball.']","['Throw ball in air.', 'Grab a racket.']",Grab a racket.,1
+3,0.6,"['Walk on tennis court.', 'Get a ball.', 'Grab a racket.']","['Walk on tennis court.', 'Stand behind line.']",Stand behind line.,1
+4,0.8,"['Walk on tennis court.', 'Get a ball.', 'Grab a racket.', 'Stand behind line.']","['Get a ball.', 'Throw ball in air.']",Throw ball in air.,1
+0,0.0,[],"['walk to a tennis court', 'walk to a tennis court']",walk to a tennis court,1
+1,0.2,['walk to a tennis court'],"['hit the ball back and forth', 'grab your tennis equipment']",grab your tennis equipment,1
+2,0.4,"['walk to a tennis court', 'grab your tennis equipment']","['play against someone else', 'hit the ball back and forth']",play against someone else,0
+3,0.6,"['walk to a tennis court', 'grab your tennis equipment', 'play against someone else']","['walk to a tennis court', 'start a game']",start a game,1
+4,0.8,"['walk to a tennis court', 'grab your tennis equipment', 'play against someone else', 'start a game']","['hit the ball back and forth', 'walk to a tennis court']",hit the ball back and forth,0
+0,0.0,[],"['Arrive at tennis court with racket', 'Find tennis ball']",Arrive at tennis court with racket,0
+1,0.2,['Arrive at tennis court with racket'],"['Find partner', 'Arrive at tennis court with racket']",Find partner,0
+2,0.4,"['Arrive at tennis court with racket', 'Find partner']","['Wait for opponent to hit back', 'Find tennis ball']",Find tennis ball,1
+3,0.6,"['Arrive at tennis court with racket', 'Find partner', 'Find tennis ball']","['Use racket to serve ball', 'Arrive at tennis court with racket']",Use racket to serve ball,0
+4,0.8,"['Arrive at tennis court with racket', 'Find partner', 'Find tennis ball', 'Use racket to serve ball']","['Find partner', 'Wait for opponent to hit back']",Wait for opponent to hit back,1
+0,0.0,[],"['go to the tennis court', 'throw ball in air and hit with racket']",go to the tennis court,0
+1,0.2,['go to the tennis court'],"['throw ball in air and hit with racket', 'wear tennis shoes']",wear tennis shoes,1
+2,0.4,"['go to the tennis court', 'wear tennis shoes']","['take tennis racket and ball', 'throw ball in air and hit with racket']",take tennis racket and ball,0
+3,0.6,"['go to the tennis court', 'wear tennis shoes', 'take tennis racket and ball']","['go to the tennis court', 'play with a partner']",play with a partner,1
+4,0.8,"['go to the tennis court', 'wear tennis shoes', 'take tennis racket and ball', 'play with a partner']","['throw ball in air and hit with racket', 'wear tennis shoes']",throw ball in air and hit with racket,0
+0,0.0,[],"['Make friend who play tennis', 'Improve your endurance']",Make friend who play tennis,0
+1,0.2,['Make friend who play tennis'],"['Improve your endurance', 'Improve your endurance']",Improve your endurance,0
+2,0.4,"['Make friend who play tennis', 'Improve your endurance']","['Learn the rules', 'Improve your strategy']",Improve your strategy,1
+3,0.6,"['Make friend who play tennis', 'Improve your endurance', 'Improve your strategy']","['Make friend who play tennis', 'Get the right racket']",Get the right racket,1
+4,0.8,"['Make friend who play tennis', 'Improve your endurance', 'Improve your strategy', 'Get the right racket']","['Learn the rules', 'Make friend who play tennis']",Learn the rules,0
+0,0.0,[],"['Go to changing room', 'Enter the Stadium']",Enter the Stadium,1
+1,0.2,['Enter the Stadium'],"['Go to changing room', 'Register with receptionist']",Register with receptionist,1
+2,0.4,"['Enter the Stadium', 'Register with receptionist']","['Go to changing room', 'Take out racket from cover']",Go to changing room,0
+3,0.6,"['Enter the Stadium', 'Register with receptionist', 'Go to changing room']","['Enter the Stadium', 'Wear tennis rig']",Wear tennis rig,1
+4,0.8,"['Enter the Stadium', 'Register with receptionist', 'Go to changing room', 'Wear tennis rig']","['Enter the Stadium', 'Take out racket from cover']",Take out racket from cover,1
+0,0.0,[],"['Find tennis partner/opponent', 'Find tennis partner/opponent']",Find tennis partner/opponent,0
+1,0.2,['Find tennis partner/opponent'],"['Get dressed in loose clothes and tennis shoes', 'Go to court']",Get dressed in loose clothes and tennis shoes,0
+2,0.4,"['Find tennis partner/opponent', 'Get dressed in loose clothes and tennis shoes']","['Play tennis', 'Get racket and balls']",Get racket and balls,1
+3,0.6,"['Find tennis partner/opponent', 'Get dressed in loose clothes and tennis shoes', 'Get racket and balls']","['Go to court', 'Find tennis partner/opponent']",Go to court,0
+4,0.8,"['Find tennis partner/opponent', 'Get dressed in loose clothes and tennis shoes', 'Get racket and balls', 'Go to court']","['Play tennis', 'Find tennis partner/opponent']",Play tennis,0
+0,0.0,[],"['Hit ball over net to opponent.', 'Make sure you are wearing proper clothing and tennis shoes.']",Make sure you are wearing proper clothing and tennis shoes.,1
+1,0.2,['Make sure you are wearing proper clothing and tennis shoes.'],"['Gather your racket and balls.', 'Go to court.']",Gather your racket and balls.,0
+2,0.4,"['Make sure you are wearing proper clothing and tennis shoes.', 'Gather your racket and balls.']","['Hit ball over net to opponent.', 'Go to court.']",Go to court.,1
+3,0.6,"['Make sure you are wearing proper clothing and tennis shoes.', 'Gather your racket and balls.', 'Go to court.']","['When serving, toss ball up and swing with racket.', 'Make sure you are wearing proper clothing and tennis shoes.']","When serving, toss ball up and swing with racket.",0
+4,0.8,"['Make sure you are wearing proper clothing and tennis shoes.', 'Gather your racket and balls.', 'Go to court.', 'When serving, toss ball up and swing with racket.']","['Make sure you are wearing proper clothing and tennis shoes.', 'Hit ball over net to opponent.']",Hit ball over net to opponent.,1
+0,0.0,[],"['Get your ball', 'Go to tennis court']",Get your ball,0
+1,0.2,['Get your ball'],"['Dress in comfortable athletic clothes', 'Get your racket']",Get your racket,1
+2,0.4,"['Get your ball', 'Get your racket']","['Serve your opponent the ball', 'Dress in comfortable athletic clothes']",Dress in comfortable athletic clothes,1
+3,0.6,"['Get your ball', 'Get your racket', 'Dress in comfortable athletic clothes']","['Go to tennis court', 'Get your ball']",Go to tennis court,0
+4,0.8,"['Get your ball', 'Get your racket', 'Dress in comfortable athletic clothes', 'Go to tennis court']","['Get your ball', 'Serve your opponent the ball']",Serve your opponent the ball,1
+0,0.0,[],"['Get opponent', 'Get tennis rackets']",Get tennis rackets,1
+1,0.2,['Get tennis rackets'],"['Get tennis balls', 'Get tennis balls']",Get tennis balls,0
+2,0.4,"['Get tennis rackets', 'Get tennis balls']","['Player serves ball', 'Get opponent']",Get opponent,1
+3,0.6,"['Get tennis rackets', 'Get tennis balls', 'Get opponent']","['Go to tennis court', 'Get tennis rackets']",Go to tennis court,0
+4,0.8,"['Get tennis rackets', 'Get tennis balls', 'Get opponent', 'Go to tennis court']","['Get tennis balls', 'Player serves ball']",Player serves ball,1
+0,0.0,[],"['Determine which player will serve first.', 'The ball is driven over the net to the opposite side of the center line.']",Determine which player will serve first.,0
+1,0.2,['Determine which player will serve first.'],"['The serving player stands behind the back line right of the center line.', 'The serving player stands behind the back line right of the center line.']",The serving player stands behind the back line right of the center line.,0
+2,0.4,"['Determine which player will serve first.', 'The serving player stands behind the back line right of the center line.']","['The ball is driven over the net to the opposite side of the center line.', 'He or she tosses the tennis ball above his head.']",He or she tosses the tennis ball above his head.,1
+3,0.6,"['Determine which player will serve first.', 'The serving player stands behind the back line right of the center line.', 'He or she tosses the tennis ball above his head.']","['As the ball descends, he or she strikes the ball with a tennis racket', 'Determine which player will serve first.']","As the ball descends, he or she strikes the ball with a tennis racket",0
+4,0.8,"['Determine which player will serve first.', 'The serving player stands behind the back line right of the center line.', 'He or she tosses the tennis ball above his head.', 'As the ball descends, he or she strikes the ball with a tennis racket']","['Determine which player will serve first.', 'The ball is driven over the net to the opposite side of the center line.']",The ball is driven over the net to the opposite side of the center line.,1
+0,0.0,[],"['Unsleeve racket', 'Put on tennis outfit']",Put on tennis outfit,1
+1,0.2,['Put on tennis outfit'],"['Grab tennis racket', 'Grab tennis racket']",Grab tennis racket,1
+2,0.4,"['Put on tennis outfit', 'Grab tennis racket']","['Grab tennis balls', 'Unsleeve racket']",Grab tennis balls,0
+3,0.6,"['Put on tennis outfit', 'Grab tennis racket', 'Grab tennis balls']","['Put on tennis outfit', 'Go to tennis court']",Go to tennis court,1
+4,0.8,"['Put on tennis outfit', 'Grab tennis racket', 'Grab tennis balls', 'Go to tennis court']","['Grab tennis racket', 'Unsleeve racket']",Unsleeve racket,1
+0,0.0,[],"['Find a friend to play tennis', 'Drive to tennis court']",Find a friend to play tennis,0
+1,0.2,['Find a friend to play tennis'],"['Walk to tennis court', 'Gather racket and balls']",Gather racket and balls,1
+2,0.4,"['Find a friend to play tennis', 'Gather racket and balls']","['Drive to tennis court', 'Play tennis with friend']",Drive to tennis court,0
+3,0.6,"['Find a friend to play tennis', 'Gather racket and balls', 'Drive to tennis court']","['Find a friend to play tennis', 'Walk to tennis court']",Walk to tennis court,1
+4,0.8,"['Find a friend to play tennis', 'Gather racket and balls', 'Drive to tennis court', 'Walk to tennis court']","['Play tennis with friend', 'Find a friend to play tennis']",Play tennis with friend,0
+0,0.0,[],"['Put racket and balls in car', 'Put on tennis shoes']",Put on tennis shoes,1
+1,0.2,['Put on tennis shoes'],"['Put racket and balls in car', 'Pick up friend']",Put racket and balls in car,0
+2,0.4,"['Put on tennis shoes', 'Put racket and balls in car']","['Pick up friend', 'Take out racket and balls']",Pick up friend,0
+3,0.6,"['Put on tennis shoes', 'Put racket and balls in car', 'Pick up friend']","['Drive to court', 'Put on tennis shoes']",Drive to court,0
+4,0.8,"['Put on tennis shoes', 'Put racket and balls in car', 'Pick up friend', 'Drive to court']","['Put racket and balls in car', 'Take out racket and balls']",Take out racket and balls,1
+0,0.0,[],"['find a partner', 'find a partner']",find a partner,0
+1,0.2,['find a partner'],"['hit the ball to your partner', 'make sure you are wearing exercise clothing']",make sure you are wearing exercise clothing,1
+2,0.4,"['find a partner', 'make sure you are wearing exercise clothing']","['go to a tennis court', 'hit the ball to your partner']",go to a tennis court,0
+3,0.6,"['find a partner', 'make sure you are wearing exercise clothing', 'go to a tennis court']","['find a partner', 'take a racket and a ball']",take a racket and a ball,1
+4,0.8,"['find a partner', 'make sure you are wearing exercise clothing', 'go to a tennis court', 'take a racket and a ball']","['find a partner', 'hit the ball to your partner']",hit the ball to your partner,1
+0,0.0,[],"['get tennis clothing on', 'find a player to play with']",get tennis clothing on,0
+1,0.2,['get tennis clothing on'],"['find tennis racket', 'hit ball back and forth']",find tennis racket,0
+2,0.4,"['get tennis clothing on', 'find tennis racket']","['go to tennis court', 'hit ball back and forth']",go to tennis court,0
+3,0.6,"['get tennis clothing on', 'find tennis racket', 'go to tennis court']","['get tennis clothing on', 'find a player to play with']",find a player to play with,1
+4,0.8,"['get tennis clothing on', 'find tennis racket', 'go to tennis court', 'find a player to play with']","['hit ball back and forth', 'get tennis clothing on']",hit ball back and forth,0
+0,0.0,[],"['Purchase tennis racquet', 'Reserve tennis court']",Reserve tennis court,1
+1,0.2,['Reserve tennis court'],"['Purchase tennis balls', 'Dress in tennis clothing']",Dress in tennis clothing,1
+2,0.4,"['Reserve tennis court', 'Dress in tennis clothing']","['Purchase tennis racquet', 'Arrive at court']",Purchase tennis racquet,0
+3,0.6,"['Reserve tennis court', 'Dress in tennis clothing', 'Purchase tennis racquet']","['Purchase tennis balls', 'Reserve tennis court']",Purchase tennis balls,0
+4,0.8,"['Reserve tennis court', 'Dress in tennis clothing', 'Purchase tennis racquet', 'Purchase tennis balls']","['Dress in tennis clothing', 'Arrive at court']",Arrive at court,1
+0,0.0,[],"['Get tennis balls and racket', 'Find another person to play with']",Get tennis balls and racket,0
+1,0.2,['Get tennis balls and racket'],"['Find another person to play with', 'Find another person to play with']",Find another person to play with,0
+2,0.4,"['Get tennis balls and racket', 'Find another person to play with']","['Keep score of who misses', 'Go to a tennis court']",Go to a tennis court,1
+3,0.6,"['Get tennis balls and racket', 'Find another person to play with', 'Go to a tennis court']","['Get tennis balls and racket', 'Hit ball back and Forth']",Hit ball back and Forth,1
+4,0.8,"['Get tennis balls and racket', 'Find another person to play with', 'Go to a tennis court', 'Hit ball back and Forth']","['Keep score of who misses', 'Find another person to play with']",Keep score of who misses,0
+0,0.0,[],"['Play game', 'Get tennis racket and ball']",Get tennis racket and ball,1
+1,0.2,['Get tennis racket and ball'],"['Go to tennis court', 'Get tennis racket and ball']",Go to tennis court,0
+2,0.4,"['Get tennis racket and ball', 'Go to tennis court']","['Get players on either side of net', 'Play game']",Get players on either side of net,0
+3,0.6,"['Get tennis racket and ball', 'Go to tennis court', 'Get players on either side of net']","['Get tennis racket and ball', 'Serve ball']",Serve ball,1
+4,0.8,"['Get tennis racket and ball', 'Go to tennis court', 'Get players on either side of net', 'Serve ball']","['Play game', 'Go to tennis court']",Play game,0
+0,0.0,[],"['Serve the ball', 'Put on appropriate clothing']",Put on appropriate clothing,1
+1,0.2,['Put on appropriate clothing'],"['Find a tennis partner', 'Take tennis rackets and tennis balls']",Find a tennis partner,0
+2,0.4,"['Put on appropriate clothing', 'Find a tennis partner']","['Serve the ball', 'Take tennis rackets and tennis balls']",Take tennis rackets and tennis balls,1
+3,0.6,"['Put on appropriate clothing', 'Find a tennis partner', 'Take tennis rackets and tennis balls']","['Stand on opposite sides of the court', 'Put on appropriate clothing']",Stand on opposite sides of the court,0
+4,0.8,"['Put on appropriate clothing', 'Find a tennis partner', 'Take tennis rackets and tennis balls', 'Stand on opposite sides of the court']","['Serve the ball', 'Find a tennis partner']",Serve the ball,0
+0,0.0,[],"['dress for tennis', 'gather your gear']",dress for tennis,0
+1,0.2,['dress for tennis'],"['gather your gear', 'gather your gear']",gather your gear,1
+2,0.4,"['dress for tennis', 'gather your gear']","['pick your court', 'make sure you have balls']",make sure you have balls,1
+3,0.6,"['dress for tennis', 'gather your gear', 'make sure you have balls']","['get to the court', 'dress for tennis']",get to the court,0
+4,0.8,"['dress for tennis', 'gather your gear', 'make sure you have balls', 'get to the court']","['gather your gear', 'pick your court']",pick your court,1
+0,0.0,[],"['Find a partner', 'Find a partner']",Find a partner,1
+1,0.2,['Find a partner'],"['Change into appropriate clothes', 'Change into appropriate clothes']",Change into appropriate clothes,0
+2,0.4,"['Find a partner', 'Change into appropriate clothes']","['Begin game.', 'Stretch out']",Stretch out,1
+3,0.6,"['Find a partner', 'Change into appropriate clothes', 'Stretch out']","['Volley for serve', 'Find a partner']",Volley for serve,0
+4,0.8,"['Find a partner', 'Change into appropriate clothes', 'Stretch out', 'Volley for serve']","['Change into appropriate clothes', 'Begin game.']",Begin game.,1
+0,0.0,[],"['Get your gear together, racket and balls', 'Get your gear together, racket and balls']","Get your gear together, racket and balls",1
+1,0.2,"['Get your gear together, racket and balls']","['Have a partner lined up.', 'Play tennis by hitting the ball back and forth']",Have a partner lined up.,0
+2,0.4,"['Get your gear together, racket and balls', 'Have a partner lined up.']","['Play tennis by hitting the ball back and forth', 'Put on your tennis clothes']",Put on your tennis clothes,1
+3,0.6,"['Get your gear together, racket and balls', 'Have a partner lined up.', 'Put on your tennis clothes']","['Get your gear together, racket and balls', 'Travel to the tennis court']",Travel to the tennis court,1
+4,0.8,"['Get your gear together, racket and balls', 'Have a partner lined up.', 'Put on your tennis clothes', 'Travel to the tennis court']","['Have a partner lined up.', 'Play tennis by hitting the ball back and forth']",Play tennis by hitting the ball back and forth,1
+0,0.0,[],"['Wear short dress', 'Wear short dress']",Wear short dress,0
+1,0.2,['Wear short dress'],"['Take tennis bat and ball', 'Take tennis bat and ball']",Take tennis bat and ball,0
+2,0.4,"['Wear short dress', 'Take tennis bat and ball']","['Running play', 'Against one player']",Against one player,1
+3,0.6,"['Wear short dress', 'Take tennis bat and ball', 'Against one player']","['Wear short dress', 'Rectangle ground want']",Rectangle ground want,1
+4,0.8,"['Wear short dress', 'Take tennis bat and ball', 'Against one player', 'Rectangle ground want']","['Running play', 'Wear short dress']",Running play,0
+0,0.0,[],"['Get dressed in tennis clothes.', 'Go to tennis court.']",Get dressed in tennis clothes.,0
+1,0.2,['Get dressed in tennis clothes.'],"['Go to tennis court.', 'Get tennis equipment.']",Get tennis equipment.,1
+2,0.4,"['Get dressed in tennis clothes.', 'Get tennis equipment.']","['Take out tennis balls.', 'Go to tennis court.']",Go to tennis court.,1
+3,0.6,"['Get dressed in tennis clothes.', 'Get tennis equipment.', 'Go to tennis court.']","['Get dressed in tennis clothes.', 'Take out racket.']",Take out racket.,1
+4,0.8,"['Get dressed in tennis clothes.', 'Get tennis equipment.', 'Go to tennis court.', 'Take out racket.']","['Get tennis equipment.', 'Take out tennis balls.']",Take out tennis balls.,1
+0,0.0,[],"['Arrange for opponent', 'Change into comfortable clothing/ shoes']",Change into comfortable clothing/ shoes,1
+1,0.2,['Change into comfortable clothing/ shoes'],"['Arrange for opponent', 'Get tennis racket and balls']",Get tennis racket and balls,1
+2,0.4,"['Change into comfortable clothing/ shoes', 'Get tennis racket and balls']","['Determine which side each player will take', 'Arrange for opponent']",Arrange for opponent,1
+3,0.6,"['Change into comfortable clothing/ shoes', 'Get tennis racket and balls', 'Arrange for opponent']","['Change into comfortable clothing/ shoes', 'Go to tennis court']",Go to tennis court,1
+4,0.8,"['Change into comfortable clothing/ shoes', 'Get tennis racket and balls', 'Arrange for opponent', 'Go to tennis court']","['Change into comfortable clothing/ shoes', 'Determine which side each player will take']",Determine which side each player will take,1
+0,0.0,[],"['Make a date with a friend to play tennis', 'Get dressed in a tennis outfit']",Make a date with a friend to play tennis,0
+1,0.2,['Make a date with a friend to play tennis'],"['Get dressed in a tennis outfit', 'Get racket and balls']",Get dressed in a tennis outfit,0
+2,0.4,"['Make a date with a friend to play tennis', 'Get dressed in a tennis outfit']","['Put on tennis shoes', 'Get into car']",Put on tennis shoes,0
+3,0.6,"['Make a date with a friend to play tennis', 'Get dressed in a tennis outfit', 'Put on tennis shoes']","['Make a date with a friend to play tennis', 'Get racket and balls']",Get racket and balls,1
+4,0.8,"['Make a date with a friend to play tennis', 'Get dressed in a tennis outfit', 'Put on tennis shoes', 'Get racket and balls']","['Get into car', 'Make a date with a friend to play tennis']",Get into car,0
+0,0.0,[],"['Get a tennis racket', 'Find someone to play tennis with']",Find someone to play tennis with,1
+1,0.2,['Find someone to play tennis with'],"['Dress appropriately', 'Get tennis balls']",Dress appropriately,0
+2,0.4,"['Find someone to play tennis with', 'Dress appropriately']","['Go to a tennis court', 'Get a tennis racket']",Get a tennis racket,1
+3,0.6,"['Find someone to play tennis with', 'Dress appropriately', 'Get a tennis racket']","['Find someone to play tennis with', 'Get tennis balls']",Get tennis balls,1
+4,0.8,"['Find someone to play tennis with', 'Dress appropriately', 'Get a tennis racket', 'Get tennis balls']","['Find someone to play tennis with', 'Go to a tennis court']",Go to a tennis court,1
+0,0.0,[],"['Get a playing partner (or 3 if you want to play doubles)', 'Get out your tennis racket and tennis balls']",Get a playing partner (or 3 if you want to play doubles),0
+1,0.2,['Get a playing partner (or 3 if you want to play doubles)'],"['Get a playing partner (or 3 if you want to play doubles)', 'Get out your tennis racket and tennis balls']",Get out your tennis racket and tennis balls,1
+2,0.4,"['Get a playing partner (or 3 if you want to play doubles)', 'Get out your tennis racket and tennis balls']","['Wear appropriate tennis shoes for the tennis court.', 'If there is no free court, sign up for the next available one.']",Wear appropriate tennis shoes for the tennis court.,0
+3,0.6,"['Get a playing partner (or 3 if you want to play doubles)', 'Get out your tennis racket and tennis balls', 'Wear appropriate tennis shoes for the tennis court.']","['Go to tennis court.', 'Get a playing partner (or 3 if you want to play doubles)']",Go to tennis court.,0
+4,0.8,"['Get a playing partner (or 3 if you want to play doubles)', 'Get out your tennis racket and tennis balls', 'Wear appropriate tennis shoes for the tennis court.', 'Go to tennis court.']","['Get out your tennis racket and tennis balls', 'If there is no free court, sign up for the next available one.']","If there is no free court, sign up for the next available one.",1
+0,0.0,[],"['Stand with racquets on opposite sides of net', 'Find an opponent to play against']",Find an opponent to play against,1
+1,0.2,['Find an opponent to play against'],"['Get a racquet for each of you', 'Find an available tennis court']",Get a racquet for each of you,0
+2,0.4,"['Find an opponent to play against', 'Get a racquet for each of you']","['Stand with racquets on opposite sides of net', 'Open a new can of balls, or test old balls to find three that bounce well']","Open a new can of balls, or test old balls to find three that bounce well",1
+3,0.6,"['Find an opponent to play against', 'Get a racquet for each of you', 'Open a new can of balls, or test old balls to find three that bounce well']","['Find an available tennis court', 'Find an opponent to play against']",Find an available tennis court,0
+4,0.8,"['Find an opponent to play against', 'Get a racquet for each of you', 'Open a new can of balls, or test old balls to find three that bounce well', 'Find an available tennis court']","['Find an opponent to play against', 'Stand with racquets on opposite sides of net']",Stand with racquets on opposite sides of net,1
+0,0.0,[],"['Change into tennis outfit', 'Change into tennis outfit']",Change into tennis outfit,0
+1,0.2,['Change into tennis outfit'],"['Arrive at tennis court', 'Gather equipment such as tennis racquet and balls']",Gather equipment such as tennis racquet and balls,1
+2,0.4,"['Change into tennis outfit', 'Gather equipment such as tennis racquet and balls']","['have a great game', 'Arrive at tennis court']",Arrive at tennis court,1
+3,0.6,"['Change into tennis outfit', 'Gather equipment such as tennis racquet and balls', 'Arrive at tennis court']","['Change into tennis outfit', 'Meet playing partner']",Meet playing partner,1
+4,0.8,"['Change into tennis outfit', 'Gather equipment such as tennis racquet and balls', 'Arrive at tennis court', 'Meet playing partner']","['Change into tennis outfit', 'have a great game']",have a great game,1
+0,0.0,[],"['Wear loose, comfortable clothes', 'Get a tennis racket and balls']","Wear loose, comfortable clothes",0
+1,0.2,"['Wear loose, comfortable clothes']","['Get a tennis racket and balls', 'Get a partner']",Get a tennis racket and balls,0
+2,0.4,"['Wear loose, comfortable clothes', 'Get a tennis racket and balls']","['Get a partner', ""Serve the ball into the small square opposite the side you're on""]",Get a partner,0
+3,0.6,"['Wear loose, comfortable clothes', 'Get a tennis racket and balls', 'Get a partner']","['Go to tennis court', 'Wear loose, comfortable clothes']",Go to tennis court,0
+4,0.8,"['Wear loose, comfortable clothes', 'Get a tennis racket and balls', 'Get a partner', 'Go to tennis court']","[""Serve the ball into the small square opposite the side you're on"", 'Wear loose, comfortable clothes']",Serve the ball into the small square opposite the side you're on,0
+0,0.0,[],"['Wait for your opponent to hit the ball back', 'Get tennis shoes']",Get tennis shoes,1
+1,0.2,['Get tennis shoes'],"['Serve the ball', 'Get ready to hit the ball']",Serve the ball,0
+2,0.4,"['Get tennis shoes', 'Serve the ball']","['Swing the racquet', 'Wait for your opponent to hit the ball back']",Wait for your opponent to hit the ball back,1
+3,0.6,"['Get tennis shoes', 'Serve the ball', 'Wait for your opponent to hit the ball back']","['Get ready to hit the ball', 'Get tennis shoes']",Get ready to hit the ball,0
+4,0.8,"['Get tennis shoes', 'Serve the ball', 'Wait for your opponent to hit the ball back', 'Get ready to hit the ball']","['Swing the racquet', 'Get tennis shoes']",Swing the racquet,0
+0,0.0,[],"['Gather equipment.', 'Get dressed in athletic gear.']",Get dressed in athletic gear.,1
+1,0.2,['Get dressed in athletic gear.'],"['Go to the park.', 'Gather equipment.']",Gather equipment.,1
+2,0.4,"['Get dressed in athletic gear.', 'Gather equipment.']","['Grab racket and balls from the bag.', 'Get a friend to play with. If no friend, get a ball machine.']","Get a friend to play with. If no friend, get a ball machine.",1
+3,0.6,"['Get dressed in athletic gear.', 'Gather equipment.', 'Get a friend to play with. If no friend, get a ball machine.']","['Go to the park.', 'Get dressed in athletic gear.']",Go to the park.,0
+4,0.8,"['Get dressed in athletic gear.', 'Gather equipment.', 'Get a friend to play with. If no friend, get a ball machine.', 'Go to the park.']","['Get dressed in athletic gear.', 'Grab racket and balls from the bag.']",Grab racket and balls from the bag.,1
+0,0.0,[],"['go to a park to a tennis court with friend', 'call friends to see who is available to play tennis']",call friends to see who is available to play tennis,1
+1,0.2,['call friends to see who is available to play tennis'],"['get dressed with tennis gear and bring water', 'get dressed with tennis gear and bring water']",get dressed with tennis gear and bring water,0
+2,0.4,"['call friends to see who is available to play tennis', 'get dressed with tennis gear and bring water']","['go to a park to a tennis court with friend', 'play tennis with a friend']",go to a park to a tennis court with friend,0
+3,0.6,"['call friends to see who is available to play tennis', 'get dressed with tennis gear and bring water', 'go to a park to a tennis court with friend']","['set up the net', 'call friends to see who is available to play tennis']",set up the net,0
+4,0.8,"['call friends to see who is available to play tennis', 'get dressed with tennis gear and bring water', 'go to a park to a tennis court with friend', 'set up the net']","['call friends to see who is available to play tennis', 'play tennis with a friend']",play tennis with a friend,1
+0,0.0,[],"['Find a location with a tennis court', 'Get in car']",Find a location with a tennis court,0
+1,0.2,['Find a location with a tennis court'],"['Prepare materials to play tennis', 'Find a location with a tennis court']",Prepare materials to play tennis,0
+2,0.4,"['Find a location with a tennis court', 'Prepare materials to play tennis']","['Get in car', 'Exit the car']",Get in car,0
+3,0.6,"['Find a location with a tennis court', 'Prepare materials to play tennis', 'Get in car']","['Find a location with a tennis court', 'Drive to tennis court']",Drive to tennis court,1
+4,0.8,"['Find a location with a tennis court', 'Prepare materials to play tennis', 'Get in car', 'Drive to tennis court']","['Find a location with a tennis court', 'Exit the car']",Exit the car,1
+0,0.0,[],"['get tennis clothes', 'get tennis equipment']",get tennis clothes,0
+1,0.2,['get tennis clothes'],"['get tennis shoes', 'put tennis clothes on']",get tennis shoes,0
+2,0.4,"['get tennis clothes', 'get tennis shoes']","['get tennis equipment', 'put tennis clothes on']",get tennis equipment,0
+3,0.6,"['get tennis clothes', 'get tennis shoes', 'get tennis equipment']","['get tennis clothes', 'reserve a tennis court']",reserve a tennis court,1
+4,0.8,"['get tennis clothes', 'get tennis shoes', 'get tennis equipment', 'reserve a tennis court']","['get tennis shoes', 'put tennis clothes on']",put tennis clothes on,1
+0,0.0,[],"['Get good shoes and take rackets to the nearest tennis court.', 'Practice and warm-up by self-serving and hitting balls yourself.']",Get good shoes and take rackets to the nearest tennis court.,0
+1,0.2,['Get good shoes and take rackets to the nearest tennis court.'],"['Practice and warm-up by self-serving and hitting balls yourself.', 'Find or play against a prepared opponent, either for fun or score.']",Practice and warm-up by self-serving and hitting balls yourself.,0
+2,0.4,"['Get good shoes and take rackets to the nearest tennis court.', 'Practice and warm-up by self-serving and hitting balls yourself.']","['Find or play against a prepared opponent, either for fun or score.', ""Have fun and win if applicable, but remember that it's just a game.""]","Find or play against a prepared opponent, either for fun or score.",0
+3,0.6,"['Get good shoes and take rackets to the nearest tennis court.', 'Practice and warm-up by self-serving and hitting balls yourself.', 'Find or play against a prepared opponent, either for fun or score.']","['Serve the ball, and try to keep a volley and knock your opponent out.', 'Get good shoes and take rackets to the nearest tennis court.']","Serve the ball, and try to keep a volley and knock your opponent out.",0
+4,0.8,"['Get good shoes and take rackets to the nearest tennis court.', 'Practice and warm-up by self-serving and hitting balls yourself.', 'Find or play against a prepared opponent, either for fun or score.', 'Serve the ball, and try to keep a volley and knock your opponent out.']","['Practice and warm-up by self-serving and hitting balls yourself.', ""Have fun and win if applicable, but remember that it's just a game.""]","Have fun and win if applicable, but remember that it's just a game.",1
+0,0.0,[],"['Pack tennis bag with racquet, towels, and tennis balls.', 'Warm up.']","Pack tennis bag with racquet, towels, and tennis balls.",0
+1,0.2,"['Pack tennis bag with racquet, towels, and tennis balls.']","['Make sure your racquet is properly strung.', 'Wear proper shoes and socks.']",Wear proper shoes and socks.,1
+2,0.4,"['Pack tennis bag with racquet, towels, and tennis balls.', 'Wear proper shoes and socks.']","['Warm up.', 'Bring water and/or fluids.']",Bring water and/or fluids.,1
+3,0.6,"['Pack tennis bag with racquet, towels, and tennis balls.', 'Wear proper shoes and socks.', 'Bring water and/or fluids.']","['Make sure your racquet is properly strung.', 'Pack tennis bag with racquet, towels, and tennis balls.']",Make sure your racquet is properly strung.,0
+4,0.8,"['Pack tennis bag with racquet, towels, and tennis balls.', 'Wear proper shoes and socks.', 'Bring water and/or fluids.', 'Make sure your racquet is properly strung.']","['Wear proper shoes and socks.', 'Warm up.']",Warm up.,1
+0,0.0,[],"['Buy a tennis racket and tennis balls', 'Invite someone to join you for tennis']",Buy a tennis racket and tennis balls,0
+1,0.2,['Buy a tennis racket and tennis balls'],"['Find/go to a tennis court with your friend', 'Invite someone to join you for tennis']",Invite someone to join you for tennis,1
+2,0.4,"['Buy a tennis racket and tennis balls', 'Invite someone to join you for tennis']","['Get dressed in athletic clothing and tennis shoes', 'Serve the ball']",Get dressed in athletic clothing and tennis shoes,0
+3,0.6,"['Buy a tennis racket and tennis balls', 'Invite someone to join you for tennis', 'Get dressed in athletic clothing and tennis shoes']","['Buy a tennis racket and tennis balls', 'Find/go to a tennis court with your friend']",Find/go to a tennis court with your friend,1
+4,0.8,"['Buy a tennis racket and tennis balls', 'Invite someone to join you for tennis', 'Get dressed in athletic clothing and tennis shoes', 'Find/go to a tennis court with your friend']","['Serve the ball', 'Invite someone to join you for tennis']",Serve the ball,0
+0,0.0,[],"['find tennis partner', 'schedule a time to play tennis']",find tennis partner,0
+1,0.2,['find tennis partner'],"['drive to tennis court', 'schedule a time to play tennis']",schedule a time to play tennis,1
+2,0.4,"['find tennis partner', 'schedule a time to play tennis']","['grab tennis racket and ball', 'drive to tennis court']",grab tennis racket and ball,0
+3,0.6,"['find tennis partner', 'schedule a time to play tennis', 'grab tennis racket and ball']","['find tennis court', 'find tennis partner']",find tennis court,0
+4,0.8,"['find tennis partner', 'schedule a time to play tennis', 'grab tennis racket and ball', 'find tennis court']","['find tennis partner', 'drive to tennis court']",drive to tennis court,1
+0,0.0,[],"['Get tennis racket', 'Ask person to play tennis']",Get tennis racket,0
+1,0.2,['Get tennis racket'],"['Walk onto tennis court', 'Get tennis balls']",Get tennis balls,1
+2,0.4,"['Get tennis racket', 'Get tennis balls']","['Ask person to play tennis', 'Hold a tennis ball']",Ask person to play tennis,0
+3,0.6,"['Get tennis racket', 'Get tennis balls', 'Ask person to play tennis']","['Walk onto tennis court', 'Get tennis racket']",Walk onto tennis court,0
+4,0.8,"['Get tennis racket', 'Get tennis balls', 'Ask person to play tennis', 'Walk onto tennis court']","['Hold a tennis ball', 'Get tennis racket']",Hold a tennis ball,0
+0,0.0,[],"['Bounce the ball three times on the ground.', 'Serve it overhand from the back right corner.']",Bounce the ball three times on the ground.,0
+1,0.2,['Bounce the ball three times on the ground.'],"['Serve it overhand from the back right corner.', 'Bounce the ball three times on the ground.']",Serve it overhand from the back right corner.,0
+2,0.4,"['Bounce the ball three times on the ground.', 'Serve it overhand from the back right corner.']","['Shake hands to show sportsmanship.', 'Get rebounds from the other player and hit them back.']",Get rebounds from the other player and hit them back.,1
+3,0.6,"['Bounce the ball three times on the ground.', 'Serve it overhand from the back right corner.', 'Get rebounds from the other player and hit them back.']","['Bounce the ball three times on the ground.', 'Repeat until one person has won.']",Repeat until one person has won.,1
+4,0.8,"['Bounce the ball three times on the ground.', 'Serve it overhand from the back right corner.', 'Get rebounds from the other player and hit them back.', 'Repeat until one person has won.']","['Serve it overhand from the back right corner.', 'Shake hands to show sportsmanship.']",Shake hands to show sportsmanship.,1
+0,0.0,[],"['Dress in a tennis outfit.', 'Obtain a racquet and ball.']",Dress in a tennis outfit.,0
+1,0.2,['Dress in a tennis outfit.'],"['Drive to the tennis court.', 'Drive to the tennis court.']",Drive to the tennis court.,0
+2,0.4,"['Dress in a tennis outfit.', 'Drive to the tennis court.']","['Obtain a racquet and ball.', 'Rally the ball back and forth against your opponent.']",Obtain a racquet and ball.,0
+3,0.6,"['Dress in a tennis outfit.', 'Drive to the tennis court.', 'Obtain a racquet and ball.']","['Dress in a tennis outfit.', 'Serve the ball.']",Serve the ball.,1
+4,0.8,"['Dress in a tennis outfit.', 'Drive to the tennis court.', 'Obtain a racquet and ball.', 'Serve the ball.']","['Dress in a tennis outfit.', 'Rally the ball back and forth against your opponent.']",Rally the ball back and forth against your opponent.,1
+0,0.0,[],"['Find playing partner', 'Charge into tennis attire']",Charge into tennis attire,1
+1,0.2,['Charge into tennis attire'],"['Wait for partner to hit ball', 'Find playing partner']",Find playing partner,1
+2,0.4,"['Charge into tennis attire', 'Find playing partner']","['Serve ball to partner', 'Try and hit ball when it returns to my side']",Serve ball to partner,0
+3,0.6,"['Charge into tennis attire', 'Find playing partner', 'Serve ball to partner']","['Charge into tennis attire', 'Wait for partner to hit ball']",Wait for partner to hit ball,1
+4,0.8,"['Charge into tennis attire', 'Find playing partner', 'Serve ball to partner', 'Wait for partner to hit ball']","['Find playing partner', 'Try and hit ball when it returns to my side']",Try and hit ball when it returns to my side,1
+0,0.0,[],"['Take out your racket.', 'Dress up in athletic clothing.']",Dress up in athletic clothing.,1
+1,0.2,['Dress up in athletic clothing.'],"['Meet a friend at the tennis court.', 'Get tennis balls.']",Get tennis balls.,1
+2,0.4,"['Dress up in athletic clothing.', 'Get tennis balls.']","['Meet a friend at the tennis court.', 'Take out your racket.']",Meet a friend at the tennis court.,0
+3,0.6,"['Dress up in athletic clothing.', 'Get tennis balls.', 'Meet a friend at the tennis court.']","['Stretch.', 'Dress up in athletic clothing.']",Stretch.,0
+4,0.8,"['Dress up in athletic clothing.', 'Get tennis balls.', 'Meet a friend at the tennis court.', 'Stretch.']","['Take out your racket.', 'Dress up in athletic clothing.']",Take out your racket.,0
+0,0.0,[],"['Call a friend or find someone to play with.', 'Wear comfortable clothing and tennis shoes.']",Call a friend or find someone to play with.,0
+1,0.2,['Call a friend or find someone to play with.'],"['Get your racket and tennis balls.', 'Get dressed to go play. ']",Get dressed to go play. ,1
+2,0.4,"['Call a friend or find someone to play with.', 'Get dressed to go play. ']","[""Bring more than one tennis ball so you don't have to chase them every time."", 'Wear comfortable clothing and tennis shoes.']",Wear comfortable clothing and tennis shoes.,1
+3,0.6,"['Call a friend or find someone to play with.', 'Get dressed to go play. ', 'Wear comfortable clothing and tennis shoes.']","['Call a friend or find someone to play with.', 'Get your racket and tennis balls.']",Get your racket and tennis balls.,1
+4,0.8,"['Call a friend or find someone to play with.', 'Get dressed to go play. ', 'Wear comfortable clothing and tennis shoes.', 'Get your racket and tennis balls.']","[""Bring more than one tennis ball so you don't have to chase them every time."", 'Call a friend or find someone to play with.']",Bring more than one tennis ball so you don't have to chase them every time.,0

@@ -1,0 +1,147 @@
+Scenario,Language Model,Success Rate
+baking a cake,gpt-j-6B,50.488388318548786
+baking a cake,gpt-neo-1.3B,49.765772949267415
+baking a cake,Llama-2-7b-chat-hf,63.510415628426195
+baking a cake,Mistral-7B-v0.1,83.085816804545
+borrowing a book from the library,gpt-j-6B,54.76903472443453
+borrowing a book from the library,gpt-neo-1.3B,49.28321121376234
+borrowing a book from the library,Llama-2-7b-chat-hf,61.21057661675693
+borrowing a book from the library,Mistral-7B-v0.1,78.98693851545077
+changing batteries in an alarm clock,gpt-j-6B,53.10821181887951
+changing batteries in an alarm clock,gpt-neo-1.3B,49.390295898354225
+changing batteries in an alarm clock,Llama-2-7b-chat-hf,56.271851283363176
+changing batteries in an alarm clock,Mistral-7B-v0.1,67.5279270060544
+checking in at an airport,gpt-j-6B,50.97640717504639
+checking in at an airport,gpt-neo-1.3B,49.03242908898118
+checking in at an airport,Llama-2-7b-chat-hf,53.4063797826279
+checking in at an airport,Mistral-7B-v0.1,61.19996465494389
+cleaning up a flat,gpt-j-6B,51.1545544694716
+cleaning up a flat,gpt-neo-1.3B,49.70959059356849
+cleaning up a flat,Llama-2-7b-chat-hf,55.12820512820513
+cleaning up a flat,Mistral-7B-v0.1,59.49851253718657
+cooking pasta,gpt-j-6B,50.01953277599812
+cooking pasta,gpt-neo-1.3B,49.730447691225876
+cooking pasta,Llama-2-7b-chat-hf,64.22376748183451
+cooking pasta,Mistral-7B-v0.1,71.56809125712947
+doing laundry,gpt-neo-1.3B,50.07023458350892
+doing laundry,Llama-2-7b-chat-hf,58.32279814580699
+doing laundry,Mistral-7B-v0.1,69.70080067425201
+eating in a fast food restaurant,gpt-neo-1.3B,49.46695095948827
+eating in a fast food restaurant,Llama-2-7b-chat-hf,56.09051516610496
+eating in a fast food restaurant,Mistral-7B-v0.1,77.49501341220166
+flying in an airplane,gpt-neo-1.3B,49.77104058108321
+flying in an airplane,Llama-2-7b-chat-hf,62.60066319279962
+flying in an airplane,Meta-Llama-3.1-8B,62.35201262825572
+flying in an airplane,Mistral-7B-v0.1,76.35796620874783
+fueling a car,gpt-j-6B,49.28176795580111
+fueling a car,gpt-neo-1.3B,49.27387529597474
+fueling a car,Llama-2-7b-chat-hf,58.77663772691397
+fueling a car,Mistral-7B-v0.1,63.73322809786898
+getting a hair cut,gpt-j-6B,51.17071298339891
+getting a hair cut,gpt-neo-1.3B,49.275501391421166
+getting a hair cut,Llama-2-7b-chat-hf,59.11620765761443
+getting a hair cut,Mistral-7B-v0.1,83.00546972459456
+going bowling,gpt-j-6B,51.009887005649716
+going bowling,gpt-neo-1.3B,50.31073446327684
+going bowling,Llama-2-7b-chat-hf,55.89689265536723
+going bowling,Mistral-7B-v0.1,68.51694915254237
+going grocery shopping,gpt-j-6B,50.02619721261658
+going grocery shopping,gpt-neo-1.3B,49.99476055747668
+going grocery shopping,Llama-2-7b-chat-hf,61.44818191344441
+going grocery shopping,Meta-Llama-3.1-8B,75.9958071278826
+going grocery shopping,Mistral-7B-v0.1,78.29822906842712
+going on a train,gpt-j-6B,50.21986353297953
+going on a train,gpt-neo-1.3B,50.19459186252211
+going on a train,Llama-2-7b-chat-hf,56.846095526914326
+going on a train,Meta-Llama-3.1-8B,65.82406471183013
+going on a train,Mistral-7B-v0.1,83.45211018448319
+going to the dentist,gpt-j-6B,49.84070246328386
+going to the dentist,gpt-neo-1.3B,50.29139793301733
+going to the dentist,Llama-2-7b-chat-hf,54.02129147563913
+going to the dentist,Mistral-7B-v0.1,75.70129769212836
+going to the sauna,gpt-j-6B,49.94584687161543
+going to the sauna,gpt-neo-1.3B,49.98750312421895
+going to the sauna,Llama-2-7b-chat-hf,50.32075314504707
+going to the sauna,Mistral-7B-v0.1,67.65808547863034
+going to the swimming pool,gpt-j-6B,48.920162860683305
+going to the swimming pool,gpt-neo-1.3B,50.203575854133476
+going to the swimming pool,Llama-2-7b-chat-hf,52.79695521331209
+going to the swimming pool,Mistral-7B-v0.1,64.22375641706496
+going to the theater,gpt-j-6B,49.40972768770659
+going to the theater,gpt-neo-1.3B,50.38564457736503
+going to the theater,Llama-2-7b-chat-hf,52.58145757909649
+going to the theater,Mistral-7B-v0.1,64.63088304737919
+having a barbecue,gpt-j-6B,54.732510288065846
+having a barbecue,gpt-neo-1.3B,49.39986282578875
+having a barbecue,Llama-2-7b-chat-hf,64.96913580246914
+having a barbecue,Mistral-7B-v0.1,78.26646090534979
+ironing laundry,gpt-j-6B,49.96989040105986
+ironing laundry,gpt-neo-1.3B,49.83138624593521
+ironing laundry,Llama-2-7b-chat-hf,54.44417680356498
+ironing laundry,Mistral-7B-v0.1,71.4621221245333
+making a bonfire,gpt-j-6B,48.3313054058752
+making a bonfire,gpt-neo-1.3B,49.93916217625587
+making a bonfire,Llama-2-7b-chat-hf,58.37823744133495
+making a bonfire,Mistral-7B-v0.1,65.32244046584391
+making coffee,gpt-j-6B,50.3021408839779
+making coffee,gpt-neo-1.3B,49.87914364640884
+making coffee,Llama-2-7b-chat-hf,55.697513812154696
+making coffee,Mistral-7B-v0.1,62.73308011049724
+making scrambled eggs,gpt-j-6B,50.55093143083631
+making scrambled eggs,gpt-neo-1.3B,50.09116131589378
+making scrambled eggs,Llama-2-7b-chat-hf,61.89456995640111
+making scrambled eggs,Mistral-7B-v0.1,70.61434799841459
+paying with a credit card,gpt-j-6B,50.482365965522696
+paying with a credit card,gpt-neo-1.3B,50.81448679424324
+paying with a credit card,Llama-2-7b-chat-hf,51.3838367863356
+paying with a credit card,Mistral-7B-v0.1,66.43998102166692
+planting a tree,gpt-j-6B,49.53789279112754
+planting a tree,gpt-neo-1.3B,50.38123844731978
+planting a tree,Llama-2-7b-chat-hf,60.2876617375231
+planting a tree,Meta-Llama-3.1-8B,69.39953810623557
+planting a tree,Mistral-7B-v0.1,76.41520332717191
+playing tennis,gpt-j-6B,48.965644625046174
+playing tennis,gpt-neo-1.3B,48.965644625046174
+playing tennis,Llama-2-7b-chat-hf,55.81824898411526
+playing tennis,Mistral-7B-v0.1,72.88511267085335
+renovating a room,gpt-j-6B,50.59014550677575
+renovating a room,gpt-neo-1.3B,50.45900206082558
+renovating a room,Llama-2-7b-chat-hf,56.934990320364705
+renovating a room,Mistral-7B-v0.1,63.960532067695
+repairing a flat bicycle tire,gpt-j-6B,50.600741930125686
+repairing a flat bicycle tire,gpt-neo-1.3B,50.28514478711035
+repairing a flat bicycle tire,Llama-2-7b-chat-hf,56.9735895022424
+repairing a flat bicycle tire,Mistral-7B-v0.1,72.81435136481922
+riding on a bus,gpt-j-6B,50.55046435820161
+riding on a bus,gpt-neo-1.3B,50.56891567747094
+riding on a bus,Llama-2-7b-chat-hf,57.869487668368286
+riding on a bus,Meta-Llama-3.1-8B,69.98769987699878
+riding on a bus,Mistral-7B-v0.1,78.86093855710683
+sending food back (in a restaurant),gpt-j-6B,48.909218859957775
+sending food back (in a restaurant),gpt-neo-1.3B,49.446612500799695
+sending food back (in a restaurant),Llama-2-7b-chat-hf,47.84722666496066
+sending food back (in a restaurant),Mistral-7B-v0.1,73.87883052907684
+sewing a button,gpt-j-6B,49.69727915967613
+sewing a button,gpt-neo-1.3B,49.42008899263258
+sewing a button,Llama-2-7b-chat-hf,50.97381282369246
+sewing a button,Mistral-7B-v0.1,70.31147421401998
+taking a bath,gpt-j-6B,49.78616125692162
+taking a bath,gpt-neo-1.3B,50.27236303065772
+taking a bath,Llama-2-7b-chat-hf,51.807500112546705
+taking a bath,Mistral-7B-v0.1,69.53585738081304
+taking a child to bed,gpt-j-6B,51.483253588516746
+taking a child to bed,gpt-neo-1.3B,49.271664008506114
+taking a child to bed,Llama-2-7b-chat-hf,59.30887825624668
+taking a child to bed,Mistral-7B-v0.1,64.1892610313663
+taking a driving lesson,gpt-j-6B,49.87504462691896
+taking a driving lesson,gpt-neo-1.3B,49.86611924312746
+taking a driving lesson,Llama-2-7b-chat-hf,54.578721885041055
+taking a driving lesson,Mistral-7B-v0.1,72.53659407354516
+taking a shower,gpt-j-6B,51.76774193548387
+taking a shower,gpt-neo-1.3B,49.58064516129032
+taking a shower,Llama-2-7b-chat-hf,50.99354838709677
+taking a shower,Mistral-7B-v0.1,67.87741935483871
+washing dishes,gpt-j-6B,51.837888784165884
+washing dishes,gpt-neo-1.3B,50.69117185045555
+washing dishes,Llama-2-7b-chat-hf,50.180647188187244
+washing dishes,Mistral-7B-v0.1,64.60100534087339

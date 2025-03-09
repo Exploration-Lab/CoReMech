@@ -1,0 +1,471 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Get bathing suit', 'Get sunscreen']",Get bathing suit,0
+1,0.2,['Get bathing suit'],"['Get a towel', 'Find a pool nearby']",Get a towel,0
+2,0.4,"['Get bathing suit', 'Get a towel']","['Get in mode of transportation and to go pool', 'Get sunscreen']",Get sunscreen,1
+3,0.6,"['Get bathing suit', 'Get a towel', 'Get sunscreen']","['Get bathing suit', 'Find a pool nearby']",Find a pool nearby,1
+4,0.8,"['Get bathing suit', 'Get a towel', 'Get sunscreen', 'Find a pool nearby']","['Get bathing suit', 'Get in mode of transportation and to go pool']",Get in mode of transportation and to go pool,1
+0,0.0,[],"['Drive to swimming pool.', 'Pack a bag with things you need.']",Pack a bag with things you need.,1
+1,0.2,['Pack a bag with things you need.'],"['Drive to swimming pool.', 'Drive to swimming pool.']",Drive to swimming pool.,0
+2,0.4,"['Pack a bag with things you need.', 'Drive to swimming pool.']","['Put items in locker.', 'Pay to swim and get a locker.']",Pay to swim and get a locker.,1
+3,0.6,"['Pack a bag with things you need.', 'Drive to swimming pool.', 'Pay to swim and get a locker.']","['Change into swimming suit.', 'Pack a bag with things you need.']",Change into swimming suit.,0
+4,0.8,"['Pack a bag with things you need.', 'Drive to swimming pool.', 'Pay to swim and get a locker.', 'Change into swimming suit.']","['Pack a bag with things you need.', 'Put items in locker.']",Put items in locker.,1
+0,0.0,[],"['Put on flip flops', 'Get towel']",Get towel,1
+1,0.2,['Get towel'],"['Put on sunscreen', 'Get swimsuit on']",Get swimsuit on,1
+2,0.4,"['Get towel', 'Get swimsuit on']","['Put on flip flops', 'Put on sunscreen']",Put on sunscreen,1
+3,0.6,"['Get towel', 'Get swimsuit on', 'Put on sunscreen']","['Put coverup over swimsuit', 'Get towel']",Put coverup over swimsuit,0
+4,0.8,"['Get towel', 'Get swimsuit on', 'Put on sunscreen', 'Put coverup over swimsuit']","['Get towel', 'Put on flip flops']",Put on flip flops,1
+0,0.0,[],"['Go to pool', 'Put on bathing suit']",Put on bathing suit,1
+1,0.2,['Put on bathing suit'],"['Pack towel', 'Pack towel']",Pack towel,1
+2,0.4,"['Put on bathing suit', 'Pack towel']","['Go to pool', 'Step into water']",Go to pool,0
+3,0.6,"['Put on bathing suit', 'Pack towel', 'Go to pool']","['Take off clothes', 'Put on bathing suit']",Take off clothes,0
+4,0.8,"['Put on bathing suit', 'Pack towel', 'Go to pool', 'Take off clothes']","['Step into water', 'Pack towel']",Step into water,0
+0,0.0,[],"['Find your swimsuit in your drawer', 'What are your sandals']",Find your swimsuit in your drawer,0
+1,0.2,['Find your swimsuit in your drawer'],"['Wear your swimsuit', 'Walk to the swimming pool']",Wear your swimsuit,0
+2,0.4,"['Find your swimsuit in your drawer', 'Wear your swimsuit']","['Get your towel', 'Walk to the swimming pool']",Get your towel,0
+3,0.6,"['Find your swimsuit in your drawer', 'Wear your swimsuit', 'Get your towel']","['What are your sandals', 'Find your swimsuit in your drawer']",What are your sandals,0
+4,0.8,"['Find your swimsuit in your drawer', 'Wear your swimsuit', 'Get your towel', 'What are your sandals']","['Walk to the swimming pool', 'Find your swimsuit in your drawer']",Walk to the swimming pool,0
+0,0.0,[],"['Put on swim suit.', 'Put on swim suit.']",Put on swim suit.,0
+1,0.2,['Put on swim suit.'],"['Put on swim suit.', 'Gather towel and sunscreen.']",Gather towel and sunscreen.,1
+2,0.4,"['Put on swim suit.', 'Gather towel and sunscreen.']","['Drive to pool.', 'Pay to get in.']",Drive to pool.,0
+3,0.6,"['Put on swim suit.', 'Gather towel and sunscreen.', 'Drive to pool.']","['Put on swim suit.', 'Enter the gate to the pool.']",Enter the gate to the pool.,1
+4,0.8,"['Put on swim suit.', 'Gather towel and sunscreen.', 'Drive to pool.', 'Enter the gate to the pool.']","['Pay to get in.', 'Gather towel and sunscreen.']",Pay to get in.,0
+0,0.0,[],"['Put on sunscreen', 'Put on bathing suit']",Put on bathing suit,1
+1,0.2,['Put on bathing suit'],"['Grab a towel', 'Grab a towel']",Grab a towel,0
+2,0.4,"['Put on bathing suit', 'Grab a towel']","['Put on sunscreen', 'Jump in the water']",Put on sunscreen,0
+3,0.6,"['Put on bathing suit', 'Grab a towel', 'Put on sunscreen']","['Walk to the pool', 'Put on bathing suit']",Walk to the pool,0
+4,0.8,"['Put on bathing suit', 'Grab a towel', 'Put on sunscreen', 'Walk to the pool']","['Jump in the water', 'Put on bathing suit']",Jump in the water,0
+0,0.0,[],"['Put on swim trunks', 'Get in car']",Put on swim trunks,0
+1,0.2,['Put on swim trunks'],"['Get in car', 'Get in car']",Get in car,1
+2,0.4,"['Put on swim trunks', 'Get in car']","['Swim in pool', 'Drive to swimming pool']",Drive to swimming pool,1
+3,0.6,"['Put on swim trunks', 'Get in car', 'Drive to swimming pool']","['Put on sunscreen', 'Put on swim trunks']",Put on sunscreen,0
+4,0.8,"['Put on swim trunks', 'Get in car', 'Drive to swimming pool', 'Put on sunscreen']","['Swim in pool', 'Put on swim trunks']",Swim in pool,0
+0,0.0,[],"['Enter the swimming pool', 'Put on swimming suit']",Put on swimming suit,1
+1,0.2,['Put on swimming suit'],"['Put track suit on top', 'Undress the swimming suit']",Put track suit on top,0
+2,0.4,"['Put on swimming suit', 'Put track suit on top']","['Enter the swimming pool', 'Undress the swimming suit']",Enter the swimming pool,0
+3,0.6,"['Put on swimming suit', 'Put track suit on top', 'Enter the swimming pool']","['Close the gate', 'Put on swimming suit']",Close the gate,0
+4,0.8,"['Put on swimming suit', 'Put track suit on top', 'Enter the swimming pool', 'Close the gate']","['Put on swimming suit', 'Undress the swimming suit']",Undress the swimming suit,1
+0,0.0,[],"['Grab towel', 'Put on swimsuit']",Put on swimsuit,1
+1,0.2,['Put on swimsuit'],"['Grab towel', 'Lock apartment']",Grab towel,0
+2,0.4,"['Put on swimsuit', 'Grab towel']","['Put on flip-flops', 'Put on sunglasses']",Put on flip-flops,0
+3,0.6,"['Put on swimsuit', 'Grab towel', 'Put on flip-flops']","['Lock apartment', 'Put on swimsuit']",Lock apartment,0
+4,0.8,"['Put on swimsuit', 'Grab towel', 'Put on flip-flops', 'Lock apartment']","['Grab towel', 'Put on sunglasses']",Put on sunglasses,1
+0,0.0,[],"['Apply sunscreen to body.', 'Put on swimsuit.']",Put on swimsuit.,1
+1,0.2,['Put on swimsuit.'],"['Gather towel, sunscreen and book', 'Gather towel, sunscreen and book']","Gather towel, sunscreen and book",1
+2,0.4,"['Put on swimsuit.', 'Gather towel, sunscreen and book']","['Walk to the swimming pool.', 'Apply sunscreen to body.']",Walk to the swimming pool.,0
+3,0.6,"['Put on swimsuit.', 'Gather towel, sunscreen and book', 'Walk to the swimming pool.']","['Put on swimsuit.', 'Claim lounge chair and spread out towel.']",Claim lounge chair and spread out towel.,1
+4,0.8,"['Put on swimsuit.', 'Gather towel, sunscreen and book', 'Walk to the swimming pool.', 'Claim lounge chair and spread out towel.']","['Apply sunscreen to body.', 'Gather towel, sunscreen and book']",Apply sunscreen to body.,0
+0,0.0,[],"['Get your wet suit', 'Get your wet suit']",Get your wet suit,1
+1,0.2,['Get your wet suit'],"['grab some towels', 'grab some sunblock']",grab some towels,0
+2,0.4,"['Get your wet suit', 'grab some towels']","['grab some sunblock', 'go change your clothes in the bathroom']",grab some sunblock,0
+3,0.6,"['Get your wet suit', 'grab some towels', 'grab some sunblock']","['go to swimming pool', 'Get your wet suit']",go to swimming pool,0
+4,0.8,"['Get your wet suit', 'grab some towels', 'grab some sunblock', 'go to swimming pool']","['Get your wet suit', 'go change your clothes in the bathroom']",go change your clothes in the bathroom,1
+0,0.0,[],"['Locate swimming pool', 'Get towel']",Locate swimming pool,0
+1,0.2,['Locate swimming pool'],"['Put on swim suit', 'Get towel']",Put on swim suit,0
+2,0.4,"['Locate swimming pool', 'Put on swim suit']","['Enter pool', 'Get towel']",Get towel,1
+3,0.6,"['Locate swimming pool', 'Put on swim suit', 'Get towel']","['Go to pool', 'Locate swimming pool']",Go to pool,0
+4,0.8,"['Locate swimming pool', 'Put on swim suit', 'Get towel', 'Go to pool']","['Enter pool', 'Locate swimming pool']",Enter pool,0
+0,0.0,[],"['Pack up swimming dress and leave home', 'Pack up swimming dress and leave home']",Pack up swimming dress and leave home,0
+1,0.2,['Pack up swimming dress and leave home'],"['Change to swimming costume', 'Go to the swimming pool']",Go to the swimming pool,1
+2,0.4,"['Pack up swimming dress and leave home', 'Go to the swimming pool']","['buy the entrance ticket for an hour', 'Change to swimming costume']",buy the entrance ticket for an hour,0
+3,0.6,"['Pack up swimming dress and leave home', 'Go to the swimming pool', 'buy the entrance ticket for an hour']","['Head to the changing room', 'Pack up swimming dress and leave home']",Head to the changing room,0
+4,0.8,"['Pack up swimming dress and leave home', 'Go to the swimming pool', 'buy the entrance ticket for an hour', 'Head to the changing room']","['Go to the swimming pool', 'Change to swimming costume']",Change to swimming costume,1
+0,0.0,[],"['Go into changing room and suit up.', 'Gather bag with towels, sun screen, book.']","Gather bag with towels, sun screen, book.",1
+1,0.2,"['Gather bag with towels, sun screen, book.']","['Check in at desk.', 'Get into car.']",Get into car.,1
+2,0.4,"['Gather bag with towels, sun screen, book.', 'Get into car.']","['Drive to pool.', 'Go into changing room and suit up.']",Drive to pool.,0
+3,0.6,"['Gather bag with towels, sun screen, book.', 'Get into car.', 'Drive to pool.']","['Gather bag with towels, sun screen, book.', 'Check in at desk.']",Check in at desk.,1
+4,0.8,"['Gather bag with towels, sun screen, book.', 'Get into car.', 'Drive to pool.', 'Check in at desk.']","['Go into changing room and suit up.', 'Gather bag with towels, sun screen, book.']",Go into changing room and suit up.,0
+0,0.0,[],"['Get into the swimming suits', 'Go to the hotel']",Go to the hotel,1
+1,0.2,['Go to the hotel'],"['Swim in the pool', 'Get into the swimming suits']",Get into the swimming suits,1
+2,0.4,"['Go to the hotel', 'Get into the swimming suits']","['Swim in the pool', 'Have a shower']",Have a shower,1
+3,0.6,"['Go to the hotel', 'Get into the swimming suits', 'Have a shower']","['Dive into the pool', 'Go to the hotel']",Dive into the pool,0
+4,0.8,"['Go to the hotel', 'Get into the swimming suits', 'Have a shower', 'Dive into the pool']","['Get into the swimming suits', 'Swim in the pool']",Swim in the pool,1
+0,0.0,[],"['Always keep your mobile in water proof pouch.', 'Find your convenient swimming pool']",Find your convenient swimming pool,1
+1,0.2,['Find your convenient swimming pool'],"['Get a bag which carry waterproof dress and all the needy things.', 'Be sure you have soap, towel, shampoo of your choice in your bag.']",Get a bag which carry waterproof dress and all the needy things.,0
+2,0.4,"['Find your convenient swimming pool', 'Get a bag which carry waterproof dress and all the needy things.']","['Always keep your mobile in water proof pouch.', 'Be sure that your swim suit not too tight or not too loose also not too showy.']",Be sure that your swim suit not too tight or not too loose also not too showy.,1
+3,0.6,"['Find your convenient swimming pool', 'Get a bag which carry waterproof dress and all the needy things.', 'Be sure that your swim suit not too tight or not too loose also not too showy.']","['Find your convenient swimming pool', 'Be sure you have soap, towel, shampoo of your choice in your bag.']","Be sure you have soap, towel, shampoo of your choice in your bag.",1
+4,0.8,"['Find your convenient swimming pool', 'Get a bag which carry waterproof dress and all the needy things.', 'Be sure that your swim suit not too tight or not too loose also not too showy.', 'Be sure you have soap, towel, shampoo of your choice in your bag.']","['Always keep your mobile in water proof pouch.', 'Get a bag which carry waterproof dress and all the needy things.']",Always keep your mobile in water proof pouch.,0
+0,0.0,[],"['Put on swimming attire.', 'Be aware of people and any rules posted.']",Put on swimming attire.,0
+1,0.2,['Put on swimming attire.'],"['Bring a towel.', 'Make sure to apply sunscreen.']",Make sure to apply sunscreen.,1
+2,0.4,"['Put on swimming attire.', 'Make sure to apply sunscreen.']","['Bring a towel.', 'Be aware of people and any rules posted.']",Bring a towel.,0
+3,0.6,"['Put on swimming attire.', 'Make sure to apply sunscreen.', 'Bring a towel.']","['Make your way to the pool.', 'Put on swimming attire.']",Make your way to the pool.,0
+4,0.8,"['Put on swimming attire.', 'Make sure to apply sunscreen.', 'Bring a towel.', 'Make your way to the pool.']","['Be aware of people and any rules posted.', 'Put on swimming attire.']",Be aware of people and any rules posted.,0
+0,0.0,[],"['Call friends', 'Call friends']",Call friends,1
+1,0.2,['Call friends'],"['Get together', 'Get together']",Get together,1
+2,0.4,"['Call friends', 'Get together']","['Pay the entrance fee', 'Get swim trunks']",Get swim trunks,1
+3,0.6,"['Call friends', 'Get together', 'Get swim trunks']","['Call friends', 'Drive to swimming pool']",Drive to swimming pool,1
+4,0.8,"['Call friends', 'Get together', 'Get swim trunks', 'Drive to swimming pool']","['Pay the entrance fee', 'Get together']",Pay the entrance fee,0
+0,0.0,[],"['Put on swimsuit', 'Go to pool']",Put on swimsuit,0
+1,0.2,['Put on swimsuit'],"['Swim', 'Get towel']",Get towel,1
+2,0.4,"['Put on swimsuit', 'Get towel']","['Get out of pool', 'Go to pool']",Go to pool,1
+3,0.6,"['Put on swimsuit', 'Get towel', 'Go to pool']","['Swim', 'Put on swimsuit']",Swim,0
+4,0.8,"['Put on swimsuit', 'Get towel', 'Go to pool', 'Swim']","['Put on swimsuit', 'Get out of pool']",Get out of pool,1
+0,0.0,[],"['find a place to sit', ""find a swimming pool that's open""]",find a swimming pool that's open,1
+1,0.2,"[""find a swimming pool that's open""]","['put on swimsuit', 'put on swimsuit']",put on swimsuit,1
+2,0.4,"[""find a swimming pool that's open"", 'put on swimsuit']","['find a place to sit', 'walk or drive to swimming pool']",walk or drive to swimming pool,1
+3,0.6,"[""find a swimming pool that's open"", 'put on swimsuit', 'walk or drive to swimming pool']","[""find a swimming pool that's open"", 'pay the cashier the entrance fee']",pay the cashier the entrance fee,1
+4,0.8,"[""find a swimming pool that's open"", 'put on swimsuit', 'walk or drive to swimming pool', 'pay the cashier the entrance fee']","[""find a swimming pool that's open"", 'find a place to sit']",find a place to sit,1
+0,0.0,[],"['Put on bathing suit.', 'Go to pool.']",Put on bathing suit.,0
+1,0.2,['Put on bathing suit.'],"['Go to pool.', 'Put on sun screen (if outside).']",Go to pool.,0
+2,0.4,"['Put on bathing suit.', 'Go to pool.']","['Get into pool.', 'Wash off before going into pool.']",Wash off before going into pool.,1
+3,0.6,"['Put on bathing suit.', 'Go to pool.', 'Wash off before going into pool.']","['Put on sun screen (if outside).', 'Put on bathing suit.']",Put on sun screen (if outside).,0
+4,0.8,"['Put on bathing suit.', 'Go to pool.', 'Wash off before going into pool.', 'Put on sun screen (if outside).']","['Get into pool.', 'Put on bathing suit.']",Get into pool.,0
+0,0.0,[],"['Put on swim suit', 'Put on swim suit']",Put on swim suit,0
+1,0.2,['Put on swim suit'],"['Get a towel', 'Get in pool']",Get a towel,0
+2,0.4,"['Put on swim suit', 'Get a towel']","['Go to swimming pool', 'Swim']",Go to swimming pool,0
+3,0.6,"['Put on swim suit', 'Get a towel', 'Go to swimming pool']","['Get in pool', 'Put on swim suit']",Get in pool,0
+4,0.8,"['Put on swim suit', 'Get a towel', 'Go to swimming pool', 'Get in pool']","['Get a towel', 'Swim']",Swim,1
+0,0.0,[],"['Get bathing suit on', 'Grab towel and pool stuff']",Get bathing suit on,0
+1,0.2,['Get bathing suit on'],"['Grab towel and pool stuff', 'Get in car, drive to pool']",Grab towel and pool stuff,0
+2,0.4,"['Get bathing suit on', 'Grab towel and pool stuff']","['Rinse off', 'Get in car, drive to pool']","Get in car, drive to pool",1
+3,0.6,"['Get bathing suit on', 'Grab towel and pool stuff', 'Get in car, drive to pool']","['Get bathing suit on', 'Go into shower room']",Go into shower room,1
+4,0.8,"['Get bathing suit on', 'Grab towel and pool stuff', 'Get in car, drive to pool', 'Go into shower room']","['Rinse off', 'Get bathing suit on']",Rinse off,0
+0,0.0,[],"['Go into locker room', 'Go into locker room']",Go into locker room,1
+1,0.2,['Go into locker room'],"['Get naked', 'Get naked']",Get naked,1
+2,0.4,"['Go into locker room', 'Get naked']","['Jump into pool', 'Put on bathing suit']",Put on bathing suit,1
+3,0.6,"['Go into locker room', 'Get naked', 'Put on bathing suit']","['Go into locker room', 'Walk to swimming pool']",Walk to swimming pool,1
+4,0.8,"['Go into locker room', 'Get naked', 'Put on bathing suit', 'Walk to swimming pool']","['Jump into pool', 'Go into locker room']",Jump into pool,0
+0,0.0,[],"['put on bathing suit', 'put on bathing suit']",put on bathing suit,1
+1,0.2,['put on bathing suit'],"['bring a towel', 'put on bathing suit']",bring a towel,0
+2,0.4,"['put on bathing suit', 'bring a towel']","['enter swimming pool - jump if brave, otherwise walk in slowly', 'exit pool']","enter swimming pool - jump if brave, otherwise walk in slowly",0
+3,0.6,"['put on bathing suit', 'bring a towel', 'enter swimming pool - jump if brave, otherwise walk in slowly']","['swim', 'put on bathing suit']",swim,0
+4,0.8,"['put on bathing suit', 'bring a towel', 'enter swimming pool - jump if brave, otherwise walk in slowly', 'swim']","['exit pool', 'bring a towel']",exit pool,0
+0,0.0,[],"['Go to the bathroom.', 'Go to the bathroom.']",Go to the bathroom.,1
+1,0.2,['Go to the bathroom.'],"['Put on swimming suit.', 'Put on swimsuit cover up.']",Put on swimming suit.,0
+2,0.4,"['Go to the bathroom.', 'Put on swimming suit.']","['Drive to pool.', 'Put on swimsuit cover up.']",Put on swimsuit cover up.,1
+3,0.6,"['Go to the bathroom.', 'Put on swimming suit.', 'Put on swimsuit cover up.']","['Gather your pool toys and sunscreen and towel.', 'Go to the bathroom.']",Gather your pool toys and sunscreen and towel.,0
+4,0.8,"['Go to the bathroom.', 'Put on swimming suit.', 'Put on swimsuit cover up.', 'Gather your pool toys and sunscreen and towel.']","['Put on swimming suit.', 'Drive to pool.']",Drive to pool.,1
+0,0.0,[],"['Put on swimming suit and get towel', 'Jump in the pool']",Put on swimming suit and get towel,0
+1,0.2,['Put on swimming suit and get towel'],"['Drive or walk to the pool', 'Get a chair and put your things nearby']",Drive or walk to the pool,0
+2,0.4,"['Put on swimming suit and get towel', 'Drive or walk to the pool']","['Get out of the pool and sit on the chair', 'Get a chair and put your things nearby']",Get a chair and put your things nearby,1
+3,0.6,"['Put on swimming suit and get towel', 'Drive or walk to the pool', 'Get a chair and put your things nearby']","['Put on swimming suit and get towel', 'Jump in the pool']",Jump in the pool,1
+4,0.8,"['Put on swimming suit and get towel', 'Drive or walk to the pool', 'Get a chair and put your things nearby', 'Jump in the pool']","['Get out of the pool and sit on the chair', 'Put on swimming suit and get towel']",Get out of the pool and sit on the chair,0
+0,0.0,[],"['Put on bathing suit, shirt, shoes', 'Put on bathing suit, shirt, shoes']","Put on bathing suit, shirt, shoes",0
+1,0.2,"['Put on bathing suit, shirt, shoes']","['Get a towel', 'Put on bathing suit, shirt, shoes']",Get a towel,0
+2,0.4,"['Put on bathing suit, shirt, shoes', 'Get a towel']","['Locate a swimming pool', 'Take off shirt and shoes']",Locate a swimming pool,0
+3,0.6,"['Put on bathing suit, shirt, shoes', 'Get a towel', 'Locate a swimming pool']","['Put on bathing suit, shirt, shoes', 'Walk or drive to the pool']",Walk or drive to the pool,1
+4,0.8,"['Put on bathing suit, shirt, shoes', 'Get a towel', 'Locate a swimming pool', 'Walk or drive to the pool']","['Put on bathing suit, shirt, shoes', 'Take off shirt and shoes']",Take off shirt and shoes,1
+0,0.0,[],"['Change into swimsuit.', 'Get into car.']",Change into swimsuit.,0
+1,0.2,['Change into swimsuit.'],"['Pack sunscreen, books.', 'Drive to pool.']","Pack sunscreen, books.",0
+2,0.4,"['Change into swimsuit.', 'Pack sunscreen, books.']","['Show membership card.', 'Get into car.']",Get into car.,1
+3,0.6,"['Change into swimsuit.', 'Pack sunscreen, books.', 'Get into car.']","['Drive to pool.', 'Change into swimsuit.']",Drive to pool.,0
+4,0.8,"['Change into swimsuit.', 'Pack sunscreen, books.', 'Get into car.', 'Drive to pool.']","['Pack sunscreen, books.', 'Show membership card.']",Show membership card.,1
+0,0.0,[],"['Put on bathing suit', 'Drive to the pool']",Put on bathing suit,0
+1,0.2,['Put on bathing suit'],"['Put clothes over suit', 'Go to car']",Put clothes over suit,0
+2,0.4,"['Put on bathing suit', 'Put clothes over suit']","['Pack supplies', 'Drive to the pool']",Pack supplies,0
+3,0.6,"['Put on bathing suit', 'Put clothes over suit', 'Pack supplies']","['Go to car', 'Put on bathing suit']",Go to car,0
+4,0.8,"['Put on bathing suit', 'Put clothes over suit', 'Pack supplies', 'Go to car']","['Drive to the pool', 'Put on bathing suit']",Drive to the pool,0
+0,0.0,[],"['Enter pool building', 'Enter pool building']",Enter pool building,1
+1,0.2,['Enter pool building'],"['Pay fee', 'Pay fee']",Pay fee,0
+2,0.4,"['Enter pool building', 'Pay fee']","['Leave locker room', 'Go to locker room']",Go to locker room,1
+3,0.6,"['Enter pool building', 'Pay fee', 'Go to locker room']","['Change into swimsuit', 'Enter pool building']",Change into swimsuit,0
+4,0.8,"['Enter pool building', 'Pay fee', 'Go to locker room', 'Change into swimsuit']","['Pay fee', 'Leave locker room']",Leave locker room,1
+0,0.0,[],"['Get pool speaker.', 'Find bathing suit and put on.']",Find bathing suit and put on.,1
+1,0.2,['Find bathing suit and put on.'],"['Find towel.', 'Find sunscreen.']",Find towel.,0
+2,0.4,"['Find bathing suit and put on.', 'Find towel.']","['Get pool speaker.', 'Find sunscreen.']",Find sunscreen.,1
+3,0.6,"['Find bathing suit and put on.', 'Find towel.', 'Find sunscreen.']","['Find sunglasses.', 'Find bathing suit and put on.']",Find sunglasses.,0
+4,0.8,"['Find bathing suit and put on.', 'Find towel.', 'Find sunscreen.', 'Find sunglasses.']","['Get pool speaker.', 'Find towel.']",Get pool speaker.,0
+0,0.0,[],"['Get bathing suit', 'Get off at the stop near the pool']",Get bathing suit,0
+1,0.2,['Get bathing suit'],"['Get on bus', 'Get on bus']",Get on bus,1
+2,0.4,"['Get bathing suit', 'Get on bus']","['Pay driver', 'Get off at the stop near the pool']",Pay driver,0
+3,0.6,"['Get bathing suit', 'Get on bus', 'Pay driver']","['Sit on bus', 'Get bathing suit']",Sit on bus,0
+4,0.8,"['Get bathing suit', 'Get on bus', 'Pay driver', 'Sit on bus']","['Get bathing suit', 'Get off at the stop near the pool']",Get off at the stop near the pool,1
+0,0.0,[],"['Put on bathing suit', 'Walk to pool']",Put on bathing suit,0
+1,0.2,['Put on bathing suit'],"['Get a dry towel', 'Get a dry towel']",Get a dry towel,0
+2,0.4,"['Put on bathing suit', 'Get a dry towel']","['Walk to pool', 'Put on sunscreen']",Put on sunscreen,1
+3,0.6,"['Put on bathing suit', 'Get a dry towel', 'Put on sunscreen']","['Put on bathing suit', 'Leave house']",Leave house,1
+4,0.8,"['Put on bathing suit', 'Get a dry towel', 'Put on sunscreen', 'Leave house']","['Walk to pool', 'Get a dry towel']",Walk to pool,0
+0,0.0,[],"['get my swimming trunks', 'get my swimming trunks']",get my swimming trunks,0
+1,0.2,['get my swimming trunks'],"['enter pool area', 'enter pool']",enter pool area,0
+2,0.4,"['get my swimming trunks', 'enter pool area']","['change', 'enter pool']",change,0
+3,0.6,"['get my swimming trunks', 'enter pool area', 'change']","['get my swimming trunks', 'enter out']",enter out,1
+4,0.8,"['get my swimming trunks', 'enter pool area', 'change', 'enter out']","['enter pool', 'get my swimming trunks']",enter pool,0
+0,0.0,[],"['Find a nearby pool on google', 'walk or drive to nearby park with pool']",Find a nearby pool on google,0
+1,0.2,['Find a nearby pool on google'],"['Put together backpack with swimming clothes.', 'Go to park booth and pay for pool access']",Put together backpack with swimming clothes.,0
+2,0.4,"['Find a nearby pool on google', 'Put together backpack with swimming clothes.']","['walk or drive to nearby park with pool', 'Go to park booth and pay for pool access']",walk or drive to nearby park with pool,0
+3,0.6,"['Find a nearby pool on google', 'Put together backpack with swimming clothes.', 'walk or drive to nearby park with pool']","['Find a nearby pool on google', 'Go to bathroom to change into swimming attire']",Go to bathroom to change into swimming attire,1
+4,0.8,"['Find a nearby pool on google', 'Put together backpack with swimming clothes.', 'walk or drive to nearby park with pool', 'Go to bathroom to change into swimming attire']","['Go to park booth and pay for pool access', 'Find a nearby pool on google']",Go to park booth and pay for pool access,0
+0,0.0,[],"['put on swimsuit and cover up', 'put on swimsuit and cover up']",put on swimsuit and cover up,0
+1,0.2,['put on swimsuit and cover up'],"['grab a towel and pool key', 'put on swimsuit and cover up']",grab a towel and pool key,0
+2,0.4,"['put on swimsuit and cover up', 'grab a towel and pool key']","['open the gate to the pool', 'get the pool toys']",get the pool toys,1
+3,0.6,"['put on swimsuit and cover up', 'grab a towel and pool key', 'get the pool toys']","['put on swimsuit and cover up', 'walk to the pool']",walk to the pool,1
+4,0.8,"['put on swimsuit and cover up', 'grab a towel and pool key', 'get the pool toys', 'walk to the pool']","['grab a towel and pool key', 'open the gate to the pool']",open the gate to the pool,1
+0,0.0,[],"['get items like towel and swim suit', 'pay fee']",get items like towel and swim suit,0
+1,0.2,['get items like towel and swim suit'],"['get in car', 'get items like towel and swim suit']",get in car,0
+2,0.4,"['get items like towel and swim suit', 'get in car']","['put items in locker room and shower', 'drive to pool']",drive to pool,1
+3,0.6,"['get items like towel and swim suit', 'get in car', 'drive to pool']","['pay fee', 'get items like towel and swim suit']",pay fee,0
+4,0.8,"['get items like towel and swim suit', 'get in car', 'drive to pool', 'pay fee']","['get in car', 'put items in locker room and shower']",put items in locker room and shower,1
+0,0.0,[],"['Drive to swimming pool', 'Get towels']",Get towels,1
+1,0.2,['Get towels'],"['Get sunscreen lotion', 'Place everything in car trunk']",Get sunscreen lotion,0
+2,0.4,"['Get towels', 'Get sunscreen lotion']","['Drive to swimming pool', 'Wear some swimming trunks']",Wear some swimming trunks,1
+3,0.6,"['Get towels', 'Get sunscreen lotion', 'Wear some swimming trunks']","['Place everything in car trunk', 'Get towels']",Place everything in car trunk,0
+4,0.8,"['Get towels', 'Get sunscreen lotion', 'Wear some swimming trunks', 'Place everything in car trunk']","['Drive to swimming pool', 'Get sunscreen lotion']",Drive to swimming pool,0
+0,0.0,[],"['Put bathing suit on', 'Drive to swimming pool']",Put bathing suit on,0
+1,0.2,['Put bathing suit on'],"['Put cover up on', 'Put bathing suit on']",Put cover up on,0
+2,0.4,"['Put bathing suit on', 'Put cover up on']","['Drive to swimming pool', 'Purchase tickets for swimming']",Drive to swimming pool,0
+3,0.6,"['Put bathing suit on', 'Put cover up on', 'Drive to swimming pool']","['Park in parking lot', 'Put bathing suit on']",Park in parking lot,0
+4,0.8,"['Put bathing suit on', 'Put cover up on', 'Drive to swimming pool', 'Park in parking lot']","['Put bathing suit on', 'Purchase tickets for swimming']",Purchase tickets for swimming,1
+0,0.0,[],"['Put bathing suit and towel in a bag', 'Drive to the pool']",Put bathing suit and towel in a bag,0
+1,0.2,['Put bathing suit and towel in a bag'],"['Get in your car with your bag', 'Get in your car with your bag']",Get in your car with your bag,0
+2,0.4,"['Put bathing suit and towel in a bag', 'Get in your car with your bag']","['Walk into the pool house', 'Drive to the pool']",Drive to the pool,1
+3,0.6,"['Put bathing suit and towel in a bag', 'Get in your car with your bag', 'Drive to the pool']","['Put bathing suit and towel in a bag', 'Park in the lot']",Park in the lot,1
+4,0.8,"['Put bathing suit and towel in a bag', 'Get in your car with your bag', 'Drive to the pool', 'Park in the lot']","['Walk into the pool house', 'Get in your car with your bag']",Walk into the pool house,0
+0,0.0,[],"['Find a spot at the pool', 'Find a spot at the pool']",Find a spot at the pool,1
+1,0.2,['Find a spot at the pool'],"['Get in the pool', 'Put on sunscreen']",Put on sunscreen,1
+2,0.4,"['Find a spot at the pool', 'Put on sunscreen']","['Get in the pool', 'Get out of pool']",Get in the pool,0
+3,0.6,"['Find a spot at the pool', 'Put on sunscreen', 'Get in the pool']","['Find a spot at the pool', 'Go for a swim']",Go for a swim,1
+4,0.8,"['Find a spot at the pool', 'Put on sunscreen', 'Get in the pool', 'Go for a swim']","['Get out of pool', 'Find a spot at the pool']",Get out of pool,0
+0,0.0,[],"['put on swim trunks', 'arrive at pool']",put on swim trunks,0
+1,0.2,['put on swim trunks'],"['bring towel', 'put on swim trunks']",bring towel,0
+2,0.4,"['put on swim trunks', 'bring towel']","['arrive at pool', 'throw towel aside']",arrive at pool,0
+3,0.6,"['put on swim trunks', 'bring towel', 'arrive at pool']","['put on swim trunks', 'run to water']",run to water,1
+4,0.8,"['put on swim trunks', 'bring towel', 'arrive at pool', 'run to water']","['throw towel aside', 'bring towel']",throw towel aside,0
+0,0.0,[],"['Go to pool', 'Wear swimming attire']",Wear swimming attire,1
+1,0.2,['Wear swimming attire'],"['Apply sunscreen', 'Go to pool']",Go to pool,1
+2,0.4,"['Wear swimming attire', 'Go to pool']","['Dive or climb into the pool', 'Check the temperature of the pool water']",Check the temperature of the pool water,1
+3,0.6,"['Wear swimming attire', 'Go to pool', 'Check the temperature of the pool water']","['Apply sunscreen', 'Wear swimming attire']",Apply sunscreen,0
+4,0.8,"['Wear swimming attire', 'Go to pool', 'Check the temperature of the pool water', 'Apply sunscreen']","['Go to pool', 'Dive or climb into the pool']",Dive or climb into the pool,1
+0,0.0,[],"['Put on swimsuit', 'Go to swimming baths']",Go to swimming baths,1
+1,0.2,['Go to swimming baths'],"['Remove clothes', 'Pay for ticket to pool']",Pay for ticket to pool,1
+2,0.4,"['Go to swimming baths', 'Pay for ticket to pool']","['Go to changing room', 'Put on swimsuit']",Go to changing room,0
+3,0.6,"['Go to swimming baths', 'Pay for ticket to pool', 'Go to changing room']","['Go to swimming baths', 'Remove clothes']",Remove clothes,1
+4,0.8,"['Go to swimming baths', 'Pay for ticket to pool', 'Go to changing room', 'Remove clothes']","['Put on swimsuit', 'Go to swimming baths']",Put on swimsuit,0
+0,0.0,[],"['grab bag with pool accessories', 'put on suit']",put on suit,1
+1,0.2,['put on suit'],"['stake out lounge chair', 'grab bag with pool accessories']",grab bag with pool accessories,1
+2,0.4,"['put on suit', 'grab bag with pool accessories']","['apply sunscreen', 'stake out lounge chair']",apply sunscreen,0
+3,0.6,"['put on suit', 'grab bag with pool accessories', 'apply sunscreen']","['drive to pool', 'put on suit']",drive to pool,0
+4,0.8,"['put on suit', 'grab bag with pool accessories', 'apply sunscreen', 'drive to pool']","['stake out lounge chair', 'grab bag with pool accessories']",stake out lounge chair,0
+0,0.0,[],"['Drive to the swimming pool', 'Get on your swimsuit']",Get on your swimsuit,1
+1,0.2,['Get on your swimsuit'],"['Get into your car', 'Get on your swimsuit']",Get into your car,0
+2,0.4,"['Get on your swimsuit', 'Get into your car']","['Put on your sunscreen', 'Drive to the swimming pool']",Drive to the swimming pool,1
+3,0.6,"['Get on your swimsuit', 'Get into your car', 'Drive to the swimming pool']","['Get on your swimsuit', 'Walk to the pool']",Walk to the pool,1
+4,0.8,"['Get on your swimsuit', 'Get into your car', 'Drive to the swimming pool', 'Walk to the pool']","['Get on your swimsuit', 'Put on your sunscreen']",Put on your sunscreen,1
+0,0.0,[],"['Put towel and other belongings on a chair', 'Leave home']",Leave home,1
+1,0.2,['Leave home'],"['Walk into pool area', 'Put towel and other belongings on a chair']",Walk into pool area,0
+2,0.4,"['Leave home', 'Walk into pool area']","['Close gate behind you', 'Go swimming']",Close gate behind you,0
+3,0.6,"['Leave home', 'Walk into pool area', 'Close gate behind you']","['Leave home', 'Put towel and other belongings on a chair']",Put towel and other belongings on a chair,1
+4,0.8,"['Leave home', 'Walk into pool area', 'Close gate behind you', 'Put towel and other belongings on a chair']","['Go swimming', 'Leave home']",Go swimming,0
+0,0.0,[],"['GO TO THE SWIMMING POOL', 'GET CHANGED INTO SWIMMING COSTUME']",GO TO THE SWIMMING POOL,0
+1,0.2,['GO TO THE SWIMMING POOL'],"['GO TO THE SWIMMING POOL', 'PAY WHEN YOU GET THERE']",PAY WHEN YOU GET THERE,1
+2,0.4,"['GO TO THE SWIMMING POOL', 'PAY WHEN YOU GET THERE']","['CLIMB INTO THE POOL', 'GET CHANGED INTO SWIMMING COSTUME']",GET CHANGED INTO SWIMMING COSTUME,1
+3,0.6,"['GO TO THE SWIMMING POOL', 'PAY WHEN YOU GET THERE', 'GET CHANGED INTO SWIMMING COSTUME']","['GO TO THE SWIMMING POOL', 'GO TO THE POOL']",GO TO THE POOL,1
+4,0.8,"['GO TO THE SWIMMING POOL', 'PAY WHEN YOU GET THERE', 'GET CHANGED INTO SWIMMING COSTUME', 'GO TO THE POOL']","['GO TO THE SWIMMING POOL', 'CLIMB INTO THE POOL']",CLIMB INTO THE POOL,1
+0,0.0,[],"['choose swimming pool', 'collect towel and other swimming necessities (ie: goggles, ear plugs)']",choose swimming pool,0
+1,0.2,['choose swimming pool'],"['put on bathing suit', 'drive to swimming pool']",put on bathing suit,0
+2,0.4,"['choose swimming pool', 'put on bathing suit']","['collect towel and other swimming necessities (ie: goggles, ear plugs)', 'pay entrance fee']","collect towel and other swimming necessities (ie: goggles, ear plugs)",0
+3,0.6,"['choose swimming pool', 'put on bathing suit', 'collect towel and other swimming necessities (ie: goggles, ear plugs)']","['choose swimming pool', 'drive to swimming pool']",drive to swimming pool,1
+4,0.8,"['choose swimming pool', 'put on bathing suit', 'collect towel and other swimming necessities (ie: goggles, ear plugs)', 'drive to swimming pool']","['choose swimming pool', 'pay entrance fee']",pay entrance fee,1
+0,0.0,[],"['Put on swimwear.', 'Swim in pool.']",Put on swimwear.,0
+1,0.2,['Put on swimwear.'],"['Swim in pool.', 'Arrive to swimming pool.']",Arrive to swimming pool.,1
+2,0.4,"['Put on swimwear.', 'Arrive to swimming pool.']","['Enter swimming pool using ladder.', 'Leave swimming pool.']",Enter swimming pool using ladder.,0
+3,0.6,"['Put on swimwear.', 'Arrive to swimming pool.', 'Enter swimming pool using ladder.']","['Swim in pool.', 'Put on swimwear.']",Swim in pool.,0
+4,0.8,"['Put on swimwear.', 'Arrive to swimming pool.', 'Enter swimming pool using ladder.', 'Swim in pool.']","['Leave swimming pool.', 'Arrive to swimming pool.']",Leave swimming pool.,0
+0,0.0,[],"['Put on swimming trunks', 'Walk into the pool area']",Put on swimming trunks,0
+1,0.2,['Put on swimming trunks'],"['Get towel', 'Put on swimming trunks']",Get towel,0
+2,0.4,"['Put on swimming trunks', 'Get towel']","['Get out of water', 'Walk into the pool area']",Walk into the pool area,1
+3,0.6,"['Put on swimming trunks', 'Get towel', 'Walk into the pool area']","['Get in water and swim', 'Put on swimming trunks']",Get in water and swim,0
+4,0.8,"['Put on swimming trunks', 'Get towel', 'Walk into the pool area', 'Get in water and swim']","['Get out of water', 'Get towel']",Get out of water,0
+0,0.0,[],"['Get in car', 'Put your swimsuit on']",Put your swimsuit on,1
+1,0.2,['Put your swimsuit on'],"['Get your sunglasses, hat, towel, toys, beach towel, etc', 'Apply sunblock']","Get your sunglasses, hat, towel, toys, beach towel, etc",0
+2,0.4,"['Put your swimsuit on', 'Get your sunglasses, hat, towel, toys, beach towel, etc']","['Apply sunblock', 'Drive to pool']",Apply sunblock,0
+3,0.6,"['Put your swimsuit on', 'Get your sunglasses, hat, towel, toys, beach towel, etc', 'Apply sunblock']","['Put your swimsuit on', 'Get in car']",Get in car,1
+4,0.8,"['Put your swimsuit on', 'Get your sunglasses, hat, towel, toys, beach towel, etc', 'Apply sunblock', 'Get in car']","['Get your sunglasses, hat, towel, toys, beach towel, etc', 'Drive to pool']",Drive to pool,1
+0,0.0,[],"['Pay at the front desk', 'Pay at the front desk']",Pay at the front desk,1
+1,0.2,['Pay at the front desk'],"['Leave the locker room', 'Go to the locker room']",Go to the locker room,1
+2,0.4,"['Pay at the front desk', 'Go to the locker room']","['Leave the locker room', 'Go to a stall']",Go to a stall,1
+3,0.6,"['Pay at the front desk', 'Go to the locker room', 'Go to a stall']","['Pay at the front desk', 'Change into your swimsuit']",Change into your swimsuit,1
+4,0.8,"['Pay at the front desk', 'Go to the locker room', 'Go to a stall', 'Change into your swimsuit']","['Pay at the front desk', 'Leave the locker room']",Leave the locker room,1
+0,0.0,[],"['Get a towel', 'Put swimsuit on']",Put swimsuit on,1
+1,0.2,['Put swimsuit on'],"['Get in car', 'Put clothes on over bathing suit']",Put clothes on over bathing suit,1
+2,0.4,"['Put swimsuit on', 'Put clothes on over bathing suit']","['Drive to swimming pool', 'Get a towel']",Get a towel,1
+3,0.6,"['Put swimsuit on', 'Put clothes on over bathing suit', 'Get a towel']","['Get in car', 'Put swimsuit on']",Get in car,0
+4,0.8,"['Put swimsuit on', 'Put clothes on over bathing suit', 'Get a towel', 'Get in car']","['Drive to swimming pool', 'Put swimsuit on']",Drive to swimming pool,0
+0,0.0,[],"['Find a towel.', 'Find my bathingsuit.']",Find my bathingsuit.,1
+1,0.2,['Find my bathingsuit.'],"['Find a towel.', 'Change into my suit.']",Find a towel.,0
+2,0.4,"['Find my bathingsuit.', 'Find a towel.']","['Drive to the YMCA.', 'Go swimming.']",Drive to the YMCA.,0
+3,0.6,"['Find my bathingsuit.', 'Find a towel.', 'Drive to the YMCA.']","['Find my bathingsuit.', 'Change into my suit.']",Change into my suit.,1
+4,0.8,"['Find my bathingsuit.', 'Find a towel.', 'Drive to the YMCA.', 'Change into my suit.']","['Go swimming.', 'Find my bathingsuit.']",Go swimming.,0
+0,0.0,[],"['Get inside the car', 'Take all swimming accessories']",Take all swimming accessories,1
+1,0.2,['Take all swimming accessories'],"['Open the garage', 'Take all swimming accessories']",Open the garage,0
+2,0.4,"['Take all swimming accessories', 'Open the garage']","['Park the car', 'Get inside the car']",Get inside the car,1
+3,0.6,"['Take all swimming accessories', 'Open the garage', 'Get inside the car']","['Take all swimming accessories', 'Drive to swimming pool']",Drive to swimming pool,1
+4,0.8,"['Take all swimming accessories', 'Open the garage', 'Get inside the car', 'Drive to swimming pool']","['Park the car', 'Open the garage']",Park the car,0
+0,0.0,[],"['Put bathing suit on.', 'Put bathing suit on.']",Put bathing suit on.,1
+1,0.2,['Put bathing suit on.'],"['Get a towel.', 'Get snacks.']",Get a towel.,0
+2,0.4,"['Put bathing suit on.', 'Get a towel.']","['Put towel in a bag.', 'Put snacks in bag.']",Put towel in a bag.,0
+3,0.6,"['Put bathing suit on.', 'Get a towel.', 'Put towel in a bag.']","['Get snacks.', 'Put bathing suit on.']",Get snacks.,0
+4,0.8,"['Put bathing suit on.', 'Get a towel.', 'Put towel in a bag.', 'Get snacks.']","['Put bathing suit on.', 'Put snacks in bag.']",Put snacks in bag.,1
+0,0.0,[],"['Go to the pool', 'Put on bathing suit']",Put on bathing suit,1
+1,0.2,['Put on bathing suit'],"['Grab a towel to take to pool', 'Grab a towel to take to pool']",Grab a towel to take to pool,0
+2,0.4,"['Put on bathing suit', 'Grab a towel to take to pool']","['Go to the pool', 'Put on sun screen']",Put on sun screen,1
+3,0.6,"['Put on bathing suit', 'Grab a towel to take to pool', 'Put on sun screen']","['Pack extra sunscreen', 'Put on bathing suit']",Pack extra sunscreen,0
+4,0.8,"['Put on bathing suit', 'Grab a towel to take to pool', 'Put on sun screen', 'Pack extra sunscreen']","['Go to the pool', 'Grab a towel to take to pool']",Go to the pool,0
+0,0.0,[],"['Prepare a bag with swimsuit, towels, shampoo, etc.', 'Get into the pool.']","Prepare a bag with swimsuit, towels, shampoo, etc.",0
+1,0.2,"['Prepare a bag with swimsuit, towels, shampoo, etc.']","['Get into the pool.', 'Go to the swimming pool.']",Go to the swimming pool.,1
+2,0.4,"['Prepare a bag with swimsuit, towels, shampoo, etc.', 'Go to the swimming pool.']","['Change into swimsuit in the changing room.', 'Swim in the pool.']",Change into swimsuit in the changing room.,0
+3,0.6,"['Prepare a bag with swimsuit, towels, shampoo, etc.', 'Go to the swimming pool.', 'Change into swimsuit in the changing room.']","['Get into the pool.', 'Prepare a bag with swimsuit, towels, shampoo, etc.']",Get into the pool.,0
+4,0.8,"['Prepare a bag with swimsuit, towels, shampoo, etc.', 'Go to the swimming pool.', 'Change into swimsuit in the changing room.', 'Get into the pool.']","['Prepare a bag with swimsuit, towels, shampoo, etc.', 'Swim in the pool.']",Swim in the pool.,1
+0,0.0,[],"['Grab a towel and bathing suit or swimming shorts.', 'Go to the swimming pool.']",Grab a towel and bathing suit or swimming shorts.,0
+1,0.2,['Grab a towel and bathing suit or swimming shorts.'],"['Go to the swimming pool.', 'Change into your swimming clothes.']",Go to the swimming pool.,0
+2,0.4,"['Grab a towel and bathing suit or swimming shorts.', 'Go to the swimming pool.']","['Pay to get into the pool if there is a charge.', 'Apply sun tan lotion to avoid getting a sunburn.']",Pay to get into the pool if there is a charge.,0
+3,0.6,"['Grab a towel and bathing suit or swimming shorts.', 'Go to the swimming pool.', 'Pay to get into the pool if there is a charge.']","['Change into your swimming clothes.', 'Grab a towel and bathing suit or swimming shorts.']",Change into your swimming clothes.,0
+4,0.8,"['Grab a towel and bathing suit or swimming shorts.', 'Go to the swimming pool.', 'Pay to get into the pool if there is a charge.', 'Change into your swimming clothes.']","['Grab a towel and bathing suit or swimming shorts.', 'Apply sun tan lotion to avoid getting a sunburn.']",Apply sun tan lotion to avoid getting a sunburn.,1
+0,0.0,[],"['pack up for swimming occasion', 'arrive to swimming pool']",pack up for swimming occasion,0
+1,0.2,['pack up for swimming occasion'],"['make sure there is a life guard', 'wear sunscreen']",wear sunscreen,1
+2,0.4,"['pack up for swimming occasion', 'wear sunscreen']","['jump into pool', 'arrive to swimming pool']",arrive to swimming pool,1
+3,0.6,"['pack up for swimming occasion', 'wear sunscreen', 'arrive to swimming pool']","['make sure there is a life guard', 'pack up for swimming occasion']",make sure there is a life guard,0
+4,0.8,"['pack up for swimming occasion', 'wear sunscreen', 'arrive to swimming pool', 'make sure there is a life guard']","['jump into pool', 'wear sunscreen']",jump into pool,0
+0,0.0,[],"['Pack bathing suit', 'Disrobe']",Pack bathing suit,0
+1,0.2,['Pack bathing suit'],"['Pack sunscreen and towels', 'Pack sunscreen and towels']",Pack sunscreen and towels,1
+2,0.4,"['Pack bathing suit', 'Pack sunscreen and towels']","['Disrobe', 'Go to swimming pool facility']",Go to swimming pool facility,1
+3,0.6,"['Pack bathing suit', 'Pack sunscreen and towels', 'Go to swimming pool facility']","['Go to changing room', 'Pack bathing suit']",Go to changing room,0
+4,0.8,"['Pack bathing suit', 'Pack sunscreen and towels', 'Go to swimming pool facility', 'Go to changing room']","['Pack sunscreen and towels', 'Disrobe']",Disrobe,1
+0,0.0,[],"['drive to the swimming pool', 'wear your swimming costume']",wear your swimming costume,1
+1,0.2,['wear your swimming costume'],"['take a shower', 'drive to the swimming pool']",drive to the swimming pool,1
+2,0.4,"['wear your swimming costume', 'drive to the swimming pool']","['step out into the swimming pool', 'change into the costume']",change into the costume,1
+3,0.6,"['wear your swimming costume', 'drive to the swimming pool', 'change into the costume']","['take a shower', 'wear your swimming costume']",take a shower,0
+4,0.8,"['wear your swimming costume', 'drive to the swimming pool', 'change into the costume', 'take a shower']","['wear your swimming costume', 'step out into the swimming pool']",step out into the swimming pool,1
+0,0.0,[],"['drive to the pool', 'wear the swimming costume']",wear the swimming costume,1
+1,0.2,['wear the swimming costume'],"['change into costume', 'drive to the pool']",drive to the pool,1
+2,0.4,"['wear the swimming costume', 'drive to the pool']","['step into the swimming pool', 'change into costume']",change into costume,1
+3,0.6,"['wear the swimming costume', 'drive to the pool', 'change into costume']","['wear the swimming costume', 'take shower']",take shower,1
+4,0.8,"['wear the swimming costume', 'drive to the pool', 'change into costume', 'take shower']","['step into the swimming pool', 'drive to the pool']",step into the swimming pool,0
+0,0.0,[],"['Find out nearest swimming pool', 'Find out nearest swimming pool']",Find out nearest swimming pool,1
+1,0.2,['Find out nearest swimming pool'],"['Find out times and prices', 'Take your swimming suit']",Find out times and prices,0
+2,0.4,"['Find out nearest swimming pool', 'Find out times and prices']","['Get a good sized towel', 'Get waterproof bag to hold everything']",Get waterproof bag to hold everything,1
+3,0.6,"['Find out nearest swimming pool', 'Find out times and prices', 'Get waterproof bag to hold everything']","['Find out nearest swimming pool', 'Take your swimming suit']",Take your swimming suit,1
+4,0.8,"['Find out nearest swimming pool', 'Find out times and prices', 'Get waterproof bag to hold everything', 'Take your swimming suit']","['Get a good sized towel', 'Find out times and prices']",Get a good sized towel,0
+0,0.0,[],"['Walk into the water', 'Arrive at swimming pool']",Arrive at swimming pool,1
+1,0.2,['Arrive at swimming pool'],"['Enter', 'Get used to the temp']",Enter,0
+2,0.4,"['Arrive at swimming pool', 'Enter']","['Walk into the water', 'Swim!']",Walk into the water,0
+3,0.6,"['Arrive at swimming pool', 'Enter', 'Walk into the water']","['Get used to the temp', 'Arrive at swimming pool']",Get used to the temp,0
+4,0.8,"['Arrive at swimming pool', 'Enter', 'Walk into the water', 'Get used to the temp']","['Arrive at swimming pool', 'Swim!']",Swim!,1
+0,0.0,[],"['Decide who will go to the pool', 'Gather swimsuits or swimming trunks, goggles, sunblock, towels and other items needed']",Decide who will go to the pool,0
+1,0.2,['Decide who will go to the pool'],"['Decide which pool is the destination', 'Gather swimsuits or swimming trunks, goggles, sunblock, towels and other items needed']",Decide which pool is the destination,0
+2,0.4,"['Decide who will go to the pool', 'Decide which pool is the destination']","['Arrive at pool and enter', 'Gather swimsuits or swimming trunks, goggles, sunblock, towels and other items needed']","Gather swimsuits or swimming trunks, goggles, sunblock, towels and other items needed",1
+3,0.6,"['Decide who will go to the pool', 'Decide which pool is the destination', 'Gather swimsuits or swimming trunks, goggles, sunblock, towels and other items needed']","['Get into vehicle, walk, or take public transit to pool', 'Decide who will go to the pool']","Get into vehicle, walk, or take public transit to pool",0
+4,0.8,"['Decide who will go to the pool', 'Decide which pool is the destination', 'Gather swimsuits or swimming trunks, goggles, sunblock, towels and other items needed', 'Get into vehicle, walk, or take public transit to pool']","['Arrive at pool and enter', 'Decide who will go to the pool']",Arrive at pool and enter,0
+0,0.0,[],"['Change into swimsuits', 'Get towels']",Get towels,1
+1,0.2,['Get towels'],"['Find swimsuits', 'Find swimsuits']",Find swimsuits,1
+2,0.4,"['Get towels', 'Find swimsuits']","['Make sure pool is clean', 'Change into swimsuits']",Change into swimsuits,1
+3,0.6,"['Get towels', 'Find swimsuits', 'Change into swimsuits']","['Go to backyard', 'Get towels']",Go to backyard,0
+4,0.8,"['Get towels', 'Find swimsuits', 'Change into swimsuits', 'Go to backyard']","['Get towels', 'Make sure pool is clean']",Make sure pool is clean,1
+0,0.0,[],"['Get to the swimming pool', 'Take a shower']",Get to the swimming pool,0
+1,0.2,['Get to the swimming pool'],"['Change into your swim suit', 'Change into your swim suit']",Change into your swim suit,0
+2,0.4,"['Get to the swimming pool', 'Change into your swim suit']","['Enjoy swimming', 'Take a shower']",Take a shower,1
+3,0.6,"['Get to the swimming pool', 'Change into your swim suit', 'Take a shower']","['Get to the swimming pool', 'Enter the pool']",Enter the pool,1
+4,0.8,"['Get to the swimming pool', 'Change into your swim suit', 'Take a shower', 'Enter the pool']","['Enjoy swimming', 'Get to the swimming pool']",Enjoy swimming,0
+0,0.0,[],"['At home, change into bathing suit', 'Pack a towel']","At home, change into bathing suit",0
+1,0.2,"['At home, change into bathing suit']","['Put set of clothes on over bathing suit', 'Put set of clothes on over bathing suit']",Put set of clothes on over bathing suit,0
+2,0.4,"['At home, change into bathing suit', 'Put set of clothes on over bathing suit']","['Pack a towel', 'Take clothes over bathing suit off']",Pack a towel,0
+3,0.6,"['At home, change into bathing suit', 'Put set of clothes on over bathing suit', 'Pack a towel']","['Go to swimming pool', 'At home, change into bathing suit']",Go to swimming pool,0
+4,0.8,"['At home, change into bathing suit', 'Put set of clothes on over bathing suit', 'Pack a towel', 'Go to swimming pool']","['Take clothes over bathing suit off', 'Put set of clothes on over bathing suit']",Take clothes over bathing suit off,0
+0,0.0,[],"['Lay the towel on a chaise lounge.', 'Take off street clothes.']",Take off street clothes.,1
+1,0.2,['Take off street clothes.'],"['Walk out of the back door of your house.', 'Put on swim trunks.']",Put on swim trunks.,1
+2,0.4,"['Take off street clothes.', 'Put on swim trunks.']","['Lay the towel on a chaise lounge.', 'Get a towel.']",Get a towel.,1
+3,0.6,"['Take off street clothes.', 'Put on swim trunks.', 'Get a towel.']","['Take off street clothes.', 'Walk out of the back door of your house.']",Walk out of the back door of your house.,1
+4,0.8,"['Take off street clothes.', 'Put on swim trunks.', 'Get a towel.', 'Walk out of the back door of your house.']","['Lay the towel on a chaise lounge.', 'Take off street clothes.']",Lay the towel on a chaise lounge.,0
+0,0.0,[],"['Walk to pool', 'Put on swim trunks']",Put on swim trunks,1
+1,0.2,['Put on swim trunks'],"['Take a towel', 'Put on sunscreen']",Put on sunscreen,1
+2,0.4,"['Put on swim trunks', 'Put on sunscreen']","['Take a towel', 'Open pool gate']",Take a towel,0
+3,0.6,"['Put on swim trunks', 'Put on sunscreen', 'Take a towel']","['Walk to pool', 'Put on swim trunks']",Walk to pool,0
+4,0.8,"['Put on swim trunks', 'Put on sunscreen', 'Take a towel', 'Walk to pool']","['Open pool gate', 'Put on swim trunks']",Open pool gate,0
+0,0.0,[],"['Go to swimming pool.', 'Put clothes and valuables in locker.']",Go to swimming pool.,0
+1,0.2,['Go to swimming pool.'],"['Go to locker room.', 'Pay for swimming session.']",Pay for swimming session.,1
+2,0.4,"['Go to swimming pool.', 'Pay for swimming session.']","['Put clothes and valuables in locker.', 'Go to locker room.']",Go to locker room.,1
+3,0.6,"['Go to swimming pool.', 'Pay for swimming session.', 'Go to locker room.']","['Go to swimming pool.', 'Put on swimsuit.']",Put on swimsuit.,1
+4,0.8,"['Go to swimming pool.', 'Pay for swimming session.', 'Go to locker room.', 'Put on swimsuit.']","['Put clothes and valuables in locker.', 'Pay for swimming session.']",Put clothes and valuables in locker.,0
+0,0.0,[],"['Drive car to pool', 'Gather swimming paraphernalia']",Gather swimming paraphernalia,1
+1,0.2,['Gather swimming paraphernalia'],"['Get in car', 'Gather swimming paraphernalia']",Get in car,0
+2,0.4,"['Gather swimming paraphernalia', 'Get in car']","['Put on sunscreen', 'Drive car to pool']",Drive car to pool,1
+3,0.6,"['Gather swimming paraphernalia', 'Get in car', 'Drive car to pool']","['Change into swimming gear', 'Gather swimming paraphernalia']",Change into swimming gear,0
+4,0.8,"['Gather swimming paraphernalia', 'Get in car', 'Drive car to pool', 'Change into swimming gear']","['Put on sunscreen', 'Gather swimming paraphernalia']",Put on sunscreen,0
+0,0.0,[],"['Pack sunglasses and towel', 'Put on bathing suit']",Put on bathing suit,1
+1,0.2,['Put on bathing suit'],"['Put on sunscreen', 'Arrive at pool']",Put on sunscreen,0
+2,0.4,"['Put on bathing suit', 'Put on sunscreen']","['Pack sunglasses and towel', 'Spread out towel on a chair']",Pack sunglasses and towel,0
+3,0.6,"['Put on bathing suit', 'Put on sunscreen', 'Pack sunglasses and towel']","['Put on bathing suit', 'Arrive at pool']",Arrive at pool,1
+4,0.8,"['Put on bathing suit', 'Put on sunscreen', 'Pack sunglasses and towel', 'Arrive at pool']","['Put on sunscreen', 'Spread out towel on a chair']",Spread out towel on a chair,1
+0,0.0,[],"['pack suit and towel and toiletries in the bag', 'get swimming suit ready']",get swimming suit ready,1
+1,0.2,['get swimming suit ready'],"['get swimming suit ready', 'pack suit and towel and toiletries in the bag']",pack suit and towel and toiletries in the bag,1
+2,0.4,"['get swimming suit ready', 'pack suit and towel and toiletries in the bag']","['get in the car after locking up the house', 'get out of the car and walk to the pool.']",get in the car after locking up the house,0
+3,0.6,"['get swimming suit ready', 'pack suit and towel and toiletries in the bag', 'get in the car after locking up the house']","['get swimming suit ready', 'drive to the pool']",drive to the pool,1
+4,0.8,"['get swimming suit ready', 'pack suit and towel and toiletries in the bag', 'get in the car after locking up the house', 'drive to the pool']","['get out of the car and walk to the pool.', 'pack suit and towel and toiletries in the bag']",get out of the car and walk to the pool.,0
+0,0.0,[],"['gather up towels and pool necessities like snacks or toys', 'change into your swimsuit']",change into your swimsuit,1
+1,0.2,['change into your swimsuit'],"['get into car', 'put on sunscreen']",put on sunscreen,1
+2,0.4,"['change into your swimsuit', 'put on sunscreen']","['gather up towels and pool necessities like snacks or toys', 'drive to public swimming pool']",gather up towels and pool necessities like snacks or toys,0
+3,0.6,"['change into your swimsuit', 'put on sunscreen', 'gather up towels and pool necessities like snacks or toys']","['get into car', 'change into your swimsuit']",get into car,0
+4,0.8,"['change into your swimsuit', 'put on sunscreen', 'gather up towels and pool necessities like snacks or toys', 'get into car']","['change into your swimsuit', 'drive to public swimming pool']",drive to public swimming pool,1
+0,0.0,[],"['Get sunscreen lotion.', ""Pick a day it's sunny.""]",Pick a day it's sunny.,1
+1,0.2,"[""Pick a day it's sunny.""]","['Get sunscreen lotion.', 'Find your bathing suit.']",Find your bathing suit.,1
+2,0.4,"[""Pick a day it's sunny."", 'Find your bathing suit.']","['Get a clean towel.', 'Put everything into a bag.']",Get a clean towel.,0
+3,0.6,"[""Pick a day it's sunny."", 'Find your bathing suit.', 'Get a clean towel.']","['Get sunscreen lotion.', ""Pick a day it's sunny.""]",Get sunscreen lotion.,0
+4,0.8,"[""Pick a day it's sunny."", 'Find your bathing suit.', 'Get a clean towel.', 'Get sunscreen lotion.']","['Find your bathing suit.', 'Put everything into a bag.']",Put everything into a bag.,1
+0,0.0,[],"['Put on swim suit', 'Apply sunscreen']",Put on swim suit,0
+1,0.2,['Put on swim suit'],"['Go to the pool', 'Jump in the water']",Go to the pool,0
+2,0.4,"['Put on swim suit', 'Go to the pool']","['Have fun swimming around in the water', 'Apply sunscreen']",Apply sunscreen,1
+3,0.6,"['Put on swim suit', 'Go to the pool', 'Apply sunscreen']","['Put on swim suit', 'Jump in the water']",Jump in the water,1
+4,0.8,"['Put on swim suit', 'Go to the pool', 'Apply sunscreen', 'Jump in the water']","['Have fun swimming around in the water', 'Go to the pool']",Have fun swimming around in the water,0
+0,0.0,[],"['Bring towel', 'Drive to pool']",Drive to pool,1
+1,0.2,['Drive to pool'],"['Bring towel', 'Put on swimming gear (snorkel, goggles)']",Bring towel,0
+2,0.4,"['Drive to pool', 'Bring towel']","['Change into swimming costume', 'Step slowly into pool']",Change into swimming costume,0
+3,0.6,"['Drive to pool', 'Bring towel', 'Change into swimming costume']","['Put on swimming gear (snorkel, goggles)', 'Drive to pool']","Put on swimming gear (snorkel, goggles)",0
+4,0.8,"['Drive to pool', 'Bring towel', 'Change into swimming costume', 'Put on swimming gear (snorkel, goggles)']","['Step slowly into pool', 'Drive to pool']",Step slowly into pool,0
+0,0.0,[],"['Put on swim trunks', 'Grab a towel']",Put on swim trunks,0
+1,0.2,['Put on swim trunks'],"['Get sunscreen on', 'Go to pool']",Get sunscreen on,0
+2,0.4,"['Put on swim trunks', 'Get sunscreen on']","['Grab a towel', 'Start swimming']",Grab a towel,0
+3,0.6,"['Put on swim trunks', 'Get sunscreen on', 'Grab a towel']","['Put on swim trunks', 'Go to pool']",Go to pool,1
+4,0.8,"['Put on swim trunks', 'Get sunscreen on', 'Grab a towel', 'Go to pool']","['Put on swim trunks', 'Start swimming']",Start swimming,1
+0,0.0,[],"['Pay to use the pool', 'Get your gear together, swimming suit, towel, shower stuff']","Get your gear together, swimming suit, towel, shower stuff",1
+1,0.2,"['Get your gear together, swimming suit, towel, shower stuff']","['Travel to the pool', 'Pay to use the pool']",Travel to the pool,0
+2,0.4,"['Get your gear together, swimming suit, towel, shower stuff', 'Travel to the pool']","['Pay to use the pool', 'Take a shower']",Pay to use the pool,0
+3,0.6,"['Get your gear together, swimming suit, towel, shower stuff', 'Travel to the pool', 'Pay to use the pool']","['Get your gear together, swimming suit, towel, shower stuff', 'Get a locker']",Get a locker,1
+4,0.8,"['Get your gear together, swimming suit, towel, shower stuff', 'Travel to the pool', 'Pay to use the pool', 'Get a locker']","['Travel to the pool', 'Take a shower']",Take a shower,1
+0,0.0,[],"['Put on swim trunks', 'Pay to swim']",Put on swim trunks,0
+1,0.2,['Put on swim trunks'],"['Get in the pool', 'Get in your car']",Get in your car,1
+2,0.4,"['Put on swim trunks', 'Get in your car']","['Drive to the pool', 'Get in the pool']",Drive to the pool,0
+3,0.6,"['Put on swim trunks', 'Get in your car', 'Drive to the pool']","['Put on swim trunks', 'Pay to swim']",Pay to swim,1
+4,0.8,"['Put on swim trunks', 'Get in your car', 'Drive to the pool', 'Pay to swim']","['Put on swim trunks', 'Get in the pool']",Get in the pool,1
+0,0.0,[],"['Wear swimming dress', 'Wear swimming dress']",Wear swimming dress,1
+1,0.2,['Wear swimming dress'],"['Wear defense glass for eye', 'Wear defense glass for eye']",Wear defense glass for eye,1
+2,0.4,"['Wear swimming dress', 'Wear defense glass for eye']","['Diving into swimming pool', 'Get up from the swimming pool']",Diving into swimming pool,0
+3,0.6,"['Wear swimming dress', 'Wear defense glass for eye', 'Diving into swimming pool']","['Wear swimming dress', 'Swimming different style']",Swimming different style,1
+4,0.8,"['Wear swimming dress', 'Wear defense glass for eye', 'Diving into swimming pool', 'Swimming different style']","['Get up from the swimming pool', 'Wear swimming dress']",Get up from the swimming pool,0
+0,0.0,[],"['Go into changing room', 'Go into changing room']",Go into changing room,1
+1,0.2,['Go into changing room'],"['Remove clothes', 'Walk out of changing room']",Remove clothes,0
+2,0.4,"['Go into changing room', 'Remove clothes']","['Put on swimsuit', 'Walk out of changing room']",Put on swimsuit,0
+3,0.6,"['Go into changing room', 'Remove clothes', 'Put on swimsuit']","['Go into changing room', 'Rinse off in shower']",Rinse off in shower,1
+4,0.8,"['Go into changing room', 'Remove clothes', 'Put on swimsuit', 'Rinse off in shower']","['Walk out of changing room', 'Go into changing room']",Walk out of changing room,0
+0,0.0,[],"['Find bathing suit', 'Put bathing suit on']",Find bathing suit,0
+1,0.2,['Find bathing suit'],"['Find bathing suit', 'Put bathing suit on']",Put bathing suit on,1
+2,0.4,"['Find bathing suit', 'Put bathing suit on']","['Get a towel', 'Put sunscreen on']",Get a towel,0
+3,0.6,"['Find bathing suit', 'Put bathing suit on', 'Get a towel']","['Get sunscreen', 'Find bathing suit']",Get sunscreen,0
+4,0.8,"['Find bathing suit', 'Put bathing suit on', 'Get a towel', 'Get sunscreen']","['Put bathing suit on', 'Put sunscreen on']",Put sunscreen on,1
+0,0.0,[],"['Enter changing room', 'Pack swimsuit']",Pack swimsuit,1
+1,0.2,['Pack swimsuit'],"['Change into swimsuit', 'Go to pool']",Go to pool,1
+2,0.4,"['Pack swimsuit', 'Go to pool']","['Shower', 'Enter changing room']",Enter changing room,1
+3,0.6,"['Pack swimsuit', 'Go to pool', 'Enter changing room']","['Pack swimsuit', 'Change into swimsuit']",Change into swimsuit,1
+4,0.8,"['Pack swimsuit', 'Go to pool', 'Enter changing room', 'Change into swimsuit']","['Shower', 'Go to pool']",Shower,0
+0,0.0,[],"['Get ready', 'Get ready']",Get ready,0
+1,0.2,['Get ready'],"['Get ready', 'Go to swimming pool']",Go to swimming pool,1
+2,0.4,"['Get ready', 'Go to swimming pool']","['Check in', 'Put on swimming suit']",Check in,0
+3,0.6,"['Get ready', 'Go to swimming pool', 'Check in']","['Get ready', 'Go to changing room']",Go to changing room,1
+4,0.8,"['Get ready', 'Go to swimming pool', 'Check in', 'Go to changing room']","['Put on swimming suit', 'Go to swimming pool']",Put on swimming suit,0
+0,0.0,[],"['Put on your swim suit', 'get in the car']",Put on your swim suit,0
+1,0.2,['Put on your swim suit'],"['drive to pool', 'grab your towel and slippers']",grab your towel and slippers,1
+2,0.4,"['Put on your swim suit', 'grab your towel and slippers']","['go in and pay for a session', 'get in the car']",get in the car,1
+3,0.6,"['Put on your swim suit', 'grab your towel and slippers', 'get in the car']","['drive to pool', 'Put on your swim suit']",drive to pool,0
+4,0.8,"['Put on your swim suit', 'grab your towel and slippers', 'get in the car', 'drive to pool']","['go in and pay for a session', 'grab your towel and slippers']",go in and pay for a session,0
+0,0.0,[],"['Drive to the swimming pool', 'Select a place near the pool to place belongings and towels']",Drive to the swimming pool,0
+1,0.2,['Drive to the swimming pool'],"['Change into swimsuits', 'Get into the water']",Change into swimsuits,0
+2,0.4,"['Drive to the swimming pool', 'Change into swimsuits']","['Swim in the pool', 'Select a place near the pool to place belongings and towels']",Select a place near the pool to place belongings and towels,1
+3,0.6,"['Drive to the swimming pool', 'Change into swimsuits', 'Select a place near the pool to place belongings and towels']","['Drive to the swimming pool', 'Get into the water']",Get into the water,1
+4,0.8,"['Drive to the swimming pool', 'Change into swimsuits', 'Select a place near the pool to place belongings and towels', 'Get into the water']","['Swim in the pool', 'Change into swimsuits']",Swim in the pool,0
+0,0.0,[],"['drive to swimming pool', 'put belongings in locker']",drive to swimming pool,0
+1,0.2,['drive to swimming pool'],"['put belongings in locker', 'pay admission to pool']",pay admission to pool,1
+2,0.4,"['drive to swimming pool', 'pay admission to pool']","['go to locker room and change clothes', 'close and lock locker']",go to locker room and change clothes,0
+3,0.6,"['drive to swimming pool', 'pay admission to pool', 'go to locker room and change clothes']","['put belongings in locker', 'drive to swimming pool']",put belongings in locker,0
+4,0.8,"['drive to swimming pool', 'pay admission to pool', 'go to locker room and change clothes', 'put belongings in locker']","['pay admission to pool', 'close and lock locker']",close and lock locker,1
+0,0.0,[],"['Grab a towel and some sunscreen.', 'Choose a chair near the pool.']",Grab a towel and some sunscreen.,0
+1,0.2,['Grab a towel and some sunscreen.'],"['Put on your bathing suit.', 'Grab a towel and some sunscreen.']",Put on your bathing suit.,0
+2,0.4,"['Grab a towel and some sunscreen.', 'Put on your bathing suit.']","['Choose a chair near the pool.', 'Travel to the pool.']",Travel to the pool.,1
+3,0.6,"['Grab a towel and some sunscreen.', 'Put on your bathing suit.', 'Travel to the pool.']","['Pay or show necessary identification to attendant so you can enter the pool area.', 'Grab a towel and some sunscreen.']",Pay or show necessary identification to attendant so you can enter the pool area.,0
+4,0.8,"['Grab a towel and some sunscreen.', 'Put on your bathing suit.', 'Travel to the pool.', 'Pay or show necessary identification to attendant so you can enter the pool area.']","['Choose a chair near the pool.', 'Put on your bathing suit.']",Choose a chair near the pool.,0

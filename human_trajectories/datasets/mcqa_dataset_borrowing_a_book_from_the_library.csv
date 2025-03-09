@@ -1,0 +1,567 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Walk into library', 'Walk into library']",Walk into library,1
+1,0.16666666666666666,['Walk into library'],"['Find book on shelf', 'Hand book to librarian']",Find book on shelf,0
+2,0.3333333333333333,"['Walk into library', 'Find book on shelf']","['Take book back from librarian', 'Walk to check out desk']",Walk to check out desk,1
+3,0.5,"['Walk into library', 'Find book on shelf', 'Walk to check out desk']","['Hand book to librarian', 'Walk into library']",Hand book to librarian,0
+4,0.6666666666666666,"['Walk into library', 'Find book on shelf', 'Walk to check out desk', 'Hand book to librarian']","['Walk into library', 'Take book back from librarian']",Take book back from librarian,1
+5,0.8333333333333334,"['Walk into library', 'Find book on shelf', 'Walk to check out desk', 'Hand book to librarian', 'Take book back from librarian']","['Leave library with book', 'Walk to check out desk']",Leave library with book,0
+0,0.0,[],"['go to the library', 'give your library card']",go to the library,0
+1,0.16666666666666666,['go to the library'],"['receive the book back', 'find a book to borrow in the aisles or stacks']",find a book to borrow in the aisles or stacks,1
+2,0.3333333333333333,"['go to the library', 'find a book to borrow in the aisles or stacks']","['bring the book to the front desk', 'receive the book back']",bring the book to the front desk,0
+3,0.5,"['go to the library', 'find a book to borrow in the aisles or stacks', 'bring the book to the front desk']","['give the book to the librarian', 'go to the library']",give the book to the librarian,0
+4,0.6666666666666666,"['go to the library', 'find a book to borrow in the aisles or stacks', 'bring the book to the front desk', 'give the book to the librarian']","['find a book to borrow in the aisles or stacks', 'give your library card']",give your library card,1
+5,0.8333333333333334,"['go to the library', 'find a book to borrow in the aisles or stacks', 'bring the book to the front desk', 'give the book to the librarian', 'give your library card']","['receive the book back', 'find a book to borrow in the aisles or stacks']",receive the book back,0
+0,0.0,[],"['Drive to the library.', 'Look through the books at library.']",Drive to the library.,0
+1,0.2,['Drive to the library.'],"['Check out book at service desk.', 'Look through the books at library.']",Look through the books at library.,1
+2,0.4,"['Drive to the library.', 'Look through the books at library.']","['Leave the library.', 'Check out book at service desk.']",Check out book at service desk.,1
+3,0.6,"['Drive to the library.', 'Look through the books at library.', 'Check out book at service desk.']","['Note when to return the book.', 'Drive to the library.']",Note when to return the book.,0
+4,0.8,"['Drive to the library.', 'Look through the books at library.', 'Check out book at service desk.', 'Note when to return the book.']","['Look through the books at library.', 'Leave the library.']",Leave the library.,1
+0,0.0,[],"['Library card gets scanned', 'Find a book you like']",Find a book you like,1
+1,0.16666666666666666,['Find a book you like'],"['Find a book you like', 'Take it to the check out desk']",Take it to the check out desk,1
+2,0.3333333333333333,"['Find a book you like', 'Take it to the check out desk']","['Get library card back', 'Show your library card']",Show your library card,1
+3,0.5,"['Find a book you like', 'Take it to the check out desk', 'Show your library card']","['Book gets scanned', 'Library card gets scanned']",Library card gets scanned,1
+4,0.6666666666666666,"['Find a book you like', 'Take it to the check out desk', 'Show your library card', 'Library card gets scanned']","['Get library card back', 'Take it to the check out desk']",Get library card back,0
+5,0.8333333333333334,"['Find a book you like', 'Take it to the check out desk', 'Show your library card', 'Library card gets scanned', 'Get library card back']","['Find a book you like', 'Book gets scanned']",Book gets scanned,1
+0,0.0,[],"['get library card', 'walk to library']",get library card,0
+1,0.16666666666666666,['get library card'],"['walk to book shelves', 'place card in pocket']",place card in pocket,1
+2,0.3333333333333333,"['get library card', 'place card in pocket']","['walk to library', 'walk to book shelves']",walk to library,0
+3,0.5,"['get library card', 'place card in pocket', 'walk to library']","['enter library', 'browse titles']",enter library,0
+4,0.6666666666666666,"['get library card', 'place card in pocket', 'walk to library', 'enter library']","['get library card', 'walk to book shelves']",walk to book shelves,1
+5,0.8333333333333334,"['get library card', 'place card in pocket', 'walk to library', 'enter library', 'walk to book shelves']","['place card in pocket', 'browse titles']",browse titles,1
+0,0.0,[],"['Go to library', 'Browse books or look through index on computer']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Wait for the clerk to check the books out to you', 'Browse books or look through index on computer']",Browse books or look through index on computer,1
+2,0.3333333333333333,"['Go to library', 'Browse books or look through index on computer']","['Wait for the clerk to check the books out to you', 'Bring books up to front desk clerk']",Bring books up to front desk clerk,1
+3,0.5,"['Go to library', 'Browse books or look through index on computer', 'Bring books up to front desk clerk']","['Go to library', 'Show your library card']",Show your library card,1
+4,0.6666666666666666,"['Go to library', 'Browse books or look through index on computer', 'Bring books up to front desk clerk', 'Show your library card']","['Wait for the clerk to check the books out to you', 'Go to library']",Wait for the clerk to check the books out to you,0
+5,0.8333333333333334,"['Go to library', 'Browse books or look through index on computer', 'Bring books up to front desk clerk', 'Show your library card', 'Wait for the clerk to check the books out to you']","['Take back your library card and books', 'Go to library']",Take back your library card and books,0
+0,0.0,[],"['entering the library', 'picking a book']",entering the library,0
+1,0.16666666666666666,['entering the library'],"['bringing book to circulation desk', 'looking through the shelves']",looking through the shelves,1
+2,0.3333333333333333,"['entering the library', 'looking through the shelves']","['picking a book', 'checking book out']",picking a book,0
+3,0.5,"['entering the library', 'looking through the shelves', 'picking a book']","['bringing book to circulation desk', 'checking book out']",bringing book to circulation desk,0
+4,0.6666666666666666,"['entering the library', 'looking through the shelves', 'picking a book', 'bringing book to circulation desk']","['handing book and library card to librarian', 'entering the library']",handing book and library card to librarian,0
+5,0.8333333333333334,"['entering the library', 'looking through the shelves', 'picking a book', 'bringing book to circulation desk', 'handing book and library card to librarian']","['checking book out', 'looking through the shelves']",checking book out,0
+0,0.0,[],"['Find the local library', 'Find the local library']",Find the local library,0
+1,0.16666666666666666,['Find the local library'],"['drive to the library', 'drive to the library']",drive to the library,1
+2,0.3333333333333333,"['Find the local library', 'drive to the library']","['enter the library', 'ask for instructions']",enter the library,0
+3,0.5,"['Find the local library', 'drive to the library', 'enter the library']","['get to know the library', 'get to know the librarian']",get to know the librarian,1
+4,0.6666666666666666,"['Find the local library', 'drive to the library', 'enter the library', 'get to know the librarian']","['ask for instructions', 'Find the local library']",ask for instructions,0
+5,0.8333333333333334,"['Find the local library', 'drive to the library', 'enter the library', 'get to know the librarian', 'ask for instructions']","['get to know the library', 'drive to the library']",get to know the library,0
+0,0.0,[],"['Browse the books on the shelf', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['Browse the books on the shelf', 'Browse the books on the shelf']",Browse the books on the shelf,0
+2,0.3333333333333333,"['Go to the library', 'Browse the books on the shelf']","['Give the librarian your library card', 'Select a book that you would like to read']",Select a book that you would like to read,1
+3,0.5,"['Go to the library', 'Browse the books on the shelf', 'Select a book that you would like to read']","['Select other books that you like', 'Go to the library']",Select other books that you like,0
+4,0.6666666666666666,"['Go to the library', 'Browse the books on the shelf', 'Select a book that you would like to read', 'Select other books that you like']","[""Go to the librarian's desk"", 'Go to the library']",Go to the librarian's desk,0
+5,0.8333333333333334,"['Go to the library', 'Browse the books on the shelf', 'Select a book that you would like to read', 'Select other books that you like', ""Go to the librarian's desk""]","['Select a book that you would like to read', 'Give the librarian your library card']",Give the librarian your library card,1
+0,0.0,[],"['Apply for a library card. (If you do not already have one.)', 'Find the book using the numbered system.']",Apply for a library card. (If you do not already have one.),0
+1,0.16666666666666666,['Apply for a library card. (If you do not already have one.)'],"['Use the card catalog, or computer reference to find the book of your choice.', 'Use the card catalog, or computer reference to find the book of your choice.']","Use the card catalog, or computer reference to find the book of your choice.",1
+2,0.3333333333333333,"['Apply for a library card. (If you do not already have one.)', 'Use the card catalog, or computer reference to find the book of your choice.']","['Find the book using the numbered system.', 'Thank them.']",Find the book using the numbered system.,0
+3,0.5,"['Apply for a library card. (If you do not already have one.)', 'Use the card catalog, or computer reference to find the book of your choice.', 'Find the book using the numbered system.']","['Approach the library with book(s) and your library card.', 'Apply for a library card. (If you do not already have one.)']",Approach the library with book(s) and your library card.,0
+4,0.6666666666666666,"['Apply for a library card. (If you do not already have one.)', 'Use the card catalog, or computer reference to find the book of your choice.', 'Find the book using the numbered system.', 'Approach the library with book(s) and your library card.']","['Apply for a library card. (If you do not already have one.)', 'Take your (now checked out) book back from the librarian.']",Take your (now checked out) book back from the librarian.,1
+5,0.8333333333333334,"['Apply for a library card. (If you do not already have one.)', 'Use the card catalog, or computer reference to find the book of your choice.', 'Find the book using the numbered system.', 'Approach the library with book(s) and your library card.', 'Take your (now checked out) book back from the librarian.']","['Find the book using the numbered system.', 'Thank them.']",Thank them.,1
+0,0.0,[],"['After the book is stamped take it with you', 'Go to library']",Go to library,1
+1,0.2,['Go to library'],"['Go to the appropriate shelf', 'After the book is stamped take it with you']",Go to the appropriate shelf,0
+2,0.4,"['Go to library', 'Go to the appropriate shelf']","['Choose your desired book', 'After the book is stamped take it with you']",Choose your desired book,0
+3,0.6,"['Go to library', 'Go to the appropriate shelf', 'Choose your desired book']","['Go to library', 'Show your membership card to the librarian']",Show your membership card to the librarian,1
+4,0.8,"['Go to library', 'Go to the appropriate shelf', 'Choose your desired book', 'Show your membership card to the librarian']","['Go to library', 'After the book is stamped take it with you']",After the book is stamped take it with you,1
+0,0.0,[],"['take to counter', 'find book']",find book,1
+1,0.16666666666666666,['find book'],"['take to counter', 'sign out the book']",take to counter,0
+2,0.3333333333333333,"['find book', 'take to counter']","['show library card', 'return book before due date']",show library card,0
+3,0.5,"['find book', 'take to counter', 'show library card']","['sign out the book', 'return book before due date']",sign out the book,0
+4,0.6666666666666666,"['find book', 'take to counter', 'show library card', 'sign out the book']","['take to counter', 'take the book home']",take the book home,1
+5,0.8333333333333334,"['find book', 'take to counter', 'show library card', 'sign out the book', 'take the book home']","['return book before due date', 'find book']",return book before due date,0
+0,0.0,[],"['Go to the library', 'Select a book you want to borrow']",Go to the library,0
+1,0.16666666666666666,['Go to the library'],"['Sign in using your membership card', 'Take the book to the librarian']",Sign in using your membership card,0
+2,0.3333333333333333,"['Go to the library', 'Sign in using your membership card']","['Librarian enter the book details', 'Select a book you want to borrow']",Select a book you want to borrow,1
+3,0.5,"['Go to the library', 'Sign in using your membership card', 'Select a book you want to borrow']","['Take the book to the librarian', 'Sign out the membership card']",Take the book to the librarian,0
+4,0.6666666666666666,"['Go to the library', 'Sign in using your membership card', 'Select a book you want to borrow', 'Take the book to the librarian']","['Librarian enter the book details', 'Sign in using your membership card']",Librarian enter the book details,0
+5,0.8333333333333334,"['Go to the library', 'Sign in using your membership card', 'Select a book you want to borrow', 'Take the book to the librarian', 'Librarian enter the book details']","['Sign out the membership card', 'Select a book you want to borrow']",Sign out the membership card,0
+0,0.0,[],"['Bring book to front desk', 'Drive to library']",Drive to library,1
+1,0.2,['Drive to library'],"['Park and walk inside', 'Park and walk inside']",Park and walk inside,1
+2,0.4,"['Drive to library', 'Park and walk inside']","['Check out the book', 'Look for a book']",Look for a book,1
+3,0.6,"['Drive to library', 'Park and walk inside', 'Look for a book']","['Bring book to front desk', 'Drive to library']",Bring book to front desk,0
+4,0.8,"['Drive to library', 'Park and walk inside', 'Look for a book', 'Bring book to front desk']","['Check out the book', 'Drive to library']",Check out the book,0
+0,0.0,[],"['Go to library', 'Bring book to librarian']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Apply for library card', 'Apply for library card']",Apply for library card,1
+2,0.3333333333333333,"['Go to library', 'Apply for library card']","['Pick out book', 'Give librarian library card']",Pick out book,0
+3,0.5,"['Go to library', 'Apply for library card', 'Pick out book']","['Bring book to librarian', 'Go to library']",Bring book to librarian,0
+4,0.6666666666666666,"['Go to library', 'Apply for library card', 'Pick out book', 'Bring book to librarian']","['Give librarian library card', 'Go to library']",Give librarian library card,0
+5,0.8333333333333334,"['Go to library', 'Apply for library card', 'Pick out book', 'Bring book to librarian', 'Give librarian library card']","['Apply for library card', 'Take book and library card']",Take book and library card,1
+0,0.0,[],"['Take book to the librarian', 'Get a library card']",Get a library card,1
+1,0.16666666666666666,['Get a library card'],"['Find the book you want', 'Give the librarian your book']",Find the book you want,0
+2,0.3333333333333333,"['Get a library card', 'Find the book you want']","['Take book to the librarian', 'Give the librarian your book']",Take book to the librarian,0
+3,0.5,"['Get a library card', 'Find the book you want', 'Take book to the librarian']","['Get a library card', 'Show librarian your library card']",Show librarian your library card,1
+4,0.6666666666666666,"['Get a library card', 'Find the book you want', 'Take book to the librarian', 'Show librarian your library card']","['Get a library card', 'Give the librarian your book']",Give the librarian your book,1
+5,0.8333333333333334,"['Get a library card', 'Find the book you want', 'Take book to the librarian', 'Show librarian your library card', 'Give the librarian your book']","['Get book back', 'Get a library card']",Get book back,0
+0,0.0,[],"['Go to library', 'Get in line at check out desk']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Go to library', ""Select a book'""]",Select a book',1
+2,0.3333333333333333,"['Go to library', ""Select a book'""]","['take book home from library', 'Get in line at check out desk']",Get in line at check out desk,1
+3,0.5,"['Go to library', ""Select a book'"", 'Get in line at check out desk']","['hand librarian book and library card', 'Go to library']",hand librarian book and library card,0
+4,0.6666666666666666,"['Go to library', ""Select a book'"", 'Get in line at check out desk', 'hand librarian book and library card']","['take both back back and make note of due date', ""Select a book'""]",take both back back and make note of due date,0
+5,0.8333333333333334,"['Go to library', ""Select a book'"", 'Get in line at check out desk', 'hand librarian book and library card', 'take both back back and make note of due date']","[""Select a book'"", 'take book home from library']",take book home from library,1
+0,0.0,[],"['Go to the library', 'Become a member']",Go to the library,0
+1,0.16666666666666666,['Go to the library'],"['Become a member', 'Take the book to the clerk']",Become a member,0
+2,0.3333333333333333,"['Go to the library', 'Become a member']","['Get the book stamped on the back page for return date', 'Refer the index for my required book']",Refer the index for my required book,1
+3,0.5,"['Go to the library', 'Become a member', 'Refer the index for my required book']","['Go to the library', 'Take the book to the clerk']",Take the book to the clerk,1
+4,0.6666666666666666,"['Go to the library', 'Become a member', 'Refer the index for my required book', 'Take the book to the clerk']","['He will make an entry in his ledger', 'Become a member']",He will make an entry in his ledger,0
+5,0.8333333333333334,"['Go to the library', 'Become a member', 'Refer the index for my required book', 'Take the book to the clerk', 'He will make an entry in his ledger']","['Get the book stamped on the back page for return date', 'Go to the library']",Get the book stamped on the back page for return date,0
+0,0.0,[],"['Go to the library', 'go to desk and sign up for a card']",Go to the library,0
+1,0.16666666666666666,['Go to the library'],"['Go to the library', 'go in']",go in,1
+2,0.3333333333333333,"['Go to the library', 'go in']","['take it to the desk', 'go to desk and sign up for a card']",go to desk and sign up for a card,1
+3,0.5,"['Go to the library', 'go in', 'go to desk and sign up for a card']","['pick out book', 'Go to the library']",pick out book,0
+4,0.6666666666666666,"['Go to the library', 'go in', 'go to desk and sign up for a card', 'pick out book']","['go in', 'take it to the desk']",take it to the desk,1
+5,0.8333333333333334,"['Go to the library', 'go in', 'go to desk and sign up for a card', 'pick out book', 'take it to the desk']","['check out the book', 'go to desk and sign up for a card']",check out the book,0
+0,0.0,[],"['Go into library', 'Look for preferred book']",Go into library,0
+1,0.16666666666666666,['Go into library'],"['Ask to get a library card', 'Take to front desk']",Ask to get a library card,0
+2,0.3333333333333333,"['Go into library', 'Ask to get a library card']","['Leave library with borrowed book', 'Look for preferred book']",Look for preferred book,1
+3,0.5,"['Go into library', 'Ask to get a library card', 'Look for preferred book']","['Leave library with borrowed book', 'Take to front desk']",Take to front desk,1
+4,0.6666666666666666,"['Go into library', 'Ask to get a library card', 'Look for preferred book', 'Take to front desk']","['Ask to get a library card', 'Check the book out with your library card']",Check the book out with your library card,1
+5,0.8333333333333334,"['Go into library', 'Ask to get a library card', 'Look for preferred book', 'Take to front desk', 'Check the book out with your library card']","['Look for preferred book', 'Leave library with borrowed book']",Leave library with borrowed book,1
+0,0.0,[],"['Drive to library.', 'Find library card.']",Find library card.,1
+1,0.16666666666666666,['Find library card.'],"['Librarian will scan book and card with scanner.', 'Drive to library.']",Drive to library.,1
+2,0.3333333333333333,"['Find library card.', 'Drive to library.']","['Librarian will scan book and card with scanner.', 'Peruse book shelves.']",Peruse book shelves.,1
+3,0.5,"['Find library card.', 'Drive to library.', 'Peruse book shelves.']","['Select a book.', 'Find library card.']",Select a book.,0
+4,0.6666666666666666,"['Find library card.', 'Drive to library.', 'Peruse book shelves.', 'Select a book.']","['Drive to library.', 'Go to check out desk.']",Go to check out desk.,1
+5,0.8333333333333334,"['Find library card.', 'Drive to library.', 'Peruse book shelves.', 'Select a book.', 'Go to check out desk.']","['Peruse book shelves.', 'Librarian will scan book and card with scanner.']",Librarian will scan book and card with scanner.,1
+0,0.0,[],"['Find a book to borrow', 'Go to library']",Go to library,1
+1,0.16666666666666666,['Go to library'],"['Enter library', 'Enter library']",Enter library,0
+2,0.3333333333333333,"['Go to library', 'Enter library']","['Find a book to borrow', 'Show librarian your library card']",Find a book to borrow,0
+3,0.5,"['Go to library', 'Enter library', 'Find a book to borrow']","['Leave with your book', 'Bring book to librarian at desk']",Bring book to librarian at desk,1
+4,0.6666666666666666,"['Go to library', 'Enter library', 'Find a book to borrow', 'Bring book to librarian at desk']","['Show librarian your library card', 'Enter library']",Show librarian your library card,0
+5,0.8333333333333334,"['Go to library', 'Enter library', 'Find a book to borrow', 'Bring book to librarian at desk', 'Show librarian your library card']","['Go to library', 'Leave with your book']",Leave with your book,1
+0,0.0,[],"['Go to library', 'Choose best book']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Skim books', 'Show library card']",Skim books,0
+2,0.3333333333333333,"['Go to library', 'Skim books']","['Show library card', 'Choose best book']",Choose best book,1
+3,0.5,"['Go to library', 'Skim books', 'Choose best book']","['Go to library', 'Go to counter']",Go to counter,1
+4,0.6666666666666666,"['Go to library', 'Skim books', 'Choose best book', 'Go to counter']","['Go to library', 'Show library card']",Show library card,1
+5,0.8333333333333334,"['Go to library', 'Skim books', 'Choose best book', 'Go to counter', 'Show library card']","['Check out book', 'Go to library']",Check out book,0
+0,0.0,[],"['Find a subject of interest', 'Find a local library.']",Find a local library.,1
+1,0.16666666666666666,['Find a local library.'],"['Go to the main desk.', 'Receive card.']",Go to the main desk.,0
+2,0.3333333333333333,"['Find a local library.', 'Go to the main desk.']","['Sign up for a library card.', 'Find a subject of interest']",Sign up for a library card.,0
+3,0.5,"['Find a local library.', 'Go to the main desk.', 'Sign up for a library card.']","['Pick a book.', 'Receive card.']",Receive card.,1
+4,0.6666666666666666,"['Find a local library.', 'Go to the main desk.', 'Sign up for a library card.', 'Receive card.']","['Find a subject of interest', 'Go to the main desk.']",Find a subject of interest,0
+5,0.8333333333333334,"['Find a local library.', 'Go to the main desk.', 'Sign up for a library card.', 'Receive card.', 'Find a subject of interest']","['Find a local library.', 'Pick a book.']",Pick a book.,1
+0,0.0,[],"['Wait in line.', 'Go to the library.']",Go to the library.,1
+1,0.16666666666666666,['Go to the library.'],"[""Ask the librarian or use the library's computer to find the availability of a book."", 'Find the book you want on the shelves.']",Ask the librarian or use the library's computer to find the availability of a book.,0
+2,0.3333333333333333,"['Go to the library.', ""Ask the librarian or use the library's computer to find the availability of a book.""]","['Find the book you want on the shelves.', 'Wait in line.']",Find the book you want on the shelves.,0
+3,0.5,"['Go to the library.', ""Ask the librarian or use the library's computer to find the availability of a book."", 'Find the book you want on the shelves.']","['Wait in line.', 'Remove the book from the shelf.']",Remove the book from the shelf.,1
+4,0.6666666666666666,"['Go to the library.', ""Ask the librarian or use the library's computer to find the availability of a book."", 'Find the book you want on the shelves.', 'Remove the book from the shelf.']","['Walk up to the circular desk.', ""Ask the librarian or use the library's computer to find the availability of a book.""]",Walk up to the circular desk.,0
+5,0.8333333333333334,"['Go to the library.', ""Ask the librarian or use the library's computer to find the availability of a book."", 'Find the book you want on the shelves.', 'Remove the book from the shelf.', 'Walk up to the circular desk.']","['Find the book you want on the shelves.', 'Wait in line.']",Wait in line.,1
+0,0.0,[],"['Leave house', 'Check out book']",Leave house,0
+1,0.16666666666666666,['Leave house'],"['Go to library', 'Go to library']",Go to library,1
+2,0.3333333333333333,"['Leave house', 'Go to library']","['Talk to library attendant', 'Find a book']",Talk to library attendant,0
+3,0.5,"['Leave house', 'Go to library', 'Talk to library attendant']","['Get a library card', 'Check out book']",Get a library card,0
+4,0.6666666666666666,"['Leave house', 'Go to library', 'Talk to library attendant', 'Get a library card']","['Find a book', 'Go to library']",Find a book,0
+5,0.8333333333333334,"['Leave house', 'Go to library', 'Talk to library attendant', 'Get a library card', 'Find a book']","['Check out book', 'Go to library']",Check out book,0
+0,0.0,[],"['Drive to the library.', 'Drive to the library.']",Drive to the library.,0
+1,0.16666666666666666,['Drive to the library.'],"['Look up the book.', 'Go to the checkout line.']",Look up the book.,0
+2,0.3333333333333333,"['Drive to the library.', 'Look up the book.']","['Walk to the correct area of the library.', 'Go to the checkout line.']",Walk to the correct area of the library.,0
+3,0.5,"['Drive to the library.', 'Look up the book.', 'Walk to the correct area of the library.']","['Drive to the library.', 'Take the book from the shelf.']",Take the book from the shelf.,1
+4,0.6666666666666666,"['Drive to the library.', 'Look up the book.', 'Walk to the correct area of the library.', 'Take the book from the shelf.']","['Drive to the library.', 'Go to the checkout line.']",Go to the checkout line.,1
+5,0.8333333333333334,"['Drive to the library.', 'Look up the book.', 'Walk to the correct area of the library.', 'Take the book from the shelf.', 'Go to the checkout line.']","['Hand the librarian your library card.', 'Drive to the library.']",Hand the librarian your library card.,0
+0,0.0,[],"['Find book to check out.', 'Go to library.']",Go to library.,1
+1,0.16666666666666666,['Go to library.'],"['Look through books on shelves.', 'Get out library card.']",Look through books on shelves.,0
+2,0.3333333333333333,"['Go to library.', 'Look through books on shelves.']","['Scan book to borrow.', 'Find book to check out.']",Find book to check out.,1
+3,0.5,"['Go to library.', 'Look through books on shelves.', 'Find book to check out.']","['Scan book to borrow.', 'Get out library card.']",Get out library card.,1
+4,0.6666666666666666,"['Go to library.', 'Look through books on shelves.', 'Find book to check out.', 'Get out library card.']","['Look through books on shelves.', 'Scan library card at computer.']",Scan library card at computer.,1
+5,0.8333333333333334,"['Go to library.', 'Look through books on shelves.', 'Find book to check out.', 'Get out library card.', 'Scan library card at computer.']","['Scan book to borrow.', 'Look through books on shelves.']",Scan book to borrow.,0
+0,0.0,[],"['Go to library.', 'Go to counter.']",Go to library.,0
+1,0.16666666666666666,['Go to library.'],"['Show library card.', ""Search for any books that you'd like to borrow.""]",Search for any books that you'd like to borrow.,1
+2,0.3333333333333333,"['Go to library.', ""Search for any books that you'd like to borrow.""]","['Check out books with librarian.', 'Go to counter.']",Go to counter.,1
+3,0.5,"['Go to library.', ""Search for any books that you'd like to borrow."", 'Go to counter.']","['Show library card.', 'Take home and read.']",Show library card.,0
+4,0.6666666666666666,"['Go to library.', ""Search for any books that you'd like to borrow."", 'Go to counter.', 'Show library card.']","['Go to library.', 'Check out books with librarian.']",Check out books with librarian.,1
+5,0.8333333333333334,"['Go to library.', ""Search for any books that you'd like to borrow."", 'Go to counter.', 'Show library card.', 'Check out books with librarian.']","['Go to library.', 'Take home and read.']",Take home and read.,1
+0,0.0,[],"['choose library', 'take book to counter']",choose library,0
+1,0.16666666666666666,['choose library'],"['find a book you want to read', 'give card and book to librarian']",find a book you want to read,0
+2,0.3333333333333333,"['choose library', 'find a book you want to read']","['take book to counter', 'give card and book to librarian']",take book to counter,0
+3,0.5,"['choose library', 'find a book you want to read', 'take book to counter']","['find library card', 'remember the date book is due back']",find library card,0
+4,0.6666666666666666,"['choose library', 'find a book you want to read', 'take book to counter', 'find library card']","['find a book you want to read', 'give card and book to librarian']",give card and book to librarian,1
+5,0.8333333333333334,"['choose library', 'find a book you want to read', 'take book to counter', 'find library card', 'give card and book to librarian']","['remember the date book is due back', 'take book to counter']",remember the date book is due back,0
+0,0.0,[],"['Go to counter', 'Walk into library']",Walk into library,1
+1,0.16666666666666666,['Walk into library'],"['Find book', 'Give the person book and library card']",Find book,0
+2,0.3333333333333333,"['Walk into library', 'Find book']","['They give you book, library card and a receipt', 'Go to counter']",Go to counter,1
+3,0.5,"['Walk into library', 'Find book', 'Go to counter']","['Give the person book and library card', ""They tell you when it's due back""]",Give the person book and library card,0
+4,0.6666666666666666,"['Walk into library', 'Find book', 'Go to counter', 'Give the person book and library card']","['Find book', 'They give you book, library card and a receipt']","They give you book, library card and a receipt",1
+5,0.8333333333333334,"['Walk into library', 'Find book', 'Go to counter', 'Give the person book and library card', 'They give you book, library card and a receipt']","[""They tell you when it's due back"", 'Walk into library']",They tell you when it's due back,0
+0,0.0,[],"['Enter library', 'Find a book you want to read']",Enter library,0
+1,0.16666666666666666,['Enter library'],"['Look through books', 'Enter library']",Look through books,0
+2,0.3333333333333333,"['Enter library', 'Look through books']","['Find a book you want to read', 'Give librarian the book and your library card']",Find a book you want to read,0
+3,0.5,"['Enter library', 'Look through books', 'Find a book you want to read']","['Librarian stamps book', 'Take book to counter']",Take book to counter,1
+4,0.6666666666666666,"['Enter library', 'Look through books', 'Find a book you want to read', 'Take book to counter']","['Give librarian the book and your library card', 'Enter library']",Give librarian the book and your library card,0
+5,0.8333333333333334,"['Enter library', 'Look through books', 'Find a book you want to read', 'Take book to counter', 'Give librarian the book and your library card']","['Look through books', 'Librarian stamps book']",Librarian stamps book,1
+0,0.0,[],"['Show library card', 'Enter library']",Enter library,1
+1,0.16666666666666666,['Enter library'],"['Select book', 'Select book']",Select book,0
+2,0.3333333333333333,"['Enter library', 'Select book']","['Take books from librarian', 'Bring to librarian at desk']",Bring to librarian at desk,1
+3,0.5,"['Enter library', 'Select book', 'Bring to librarian at desk']","['Take books from librarian', 'Show library card']",Show library card,1
+4,0.6666666666666666,"['Enter library', 'Select book', 'Bring to librarian at desk', 'Show library card']","['Wait for barcode to be scanned', 'Select book']",Wait for barcode to be scanned,0
+5,0.8333333333333334,"['Enter library', 'Select book', 'Bring to librarian at desk', 'Show library card', 'Wait for barcode to be scanned']","['Take books from librarian', 'Bring to librarian at desk']",Take books from librarian,0
+0,0.0,[],"['Enter library', 'Find desired book']",Enter library,0
+1,0.2,['Enter library'],"['Ask to borrow book', 'Find desired book']",Find desired book,1
+2,0.4,"['Enter library', 'Find desired book']","['Leave library with book', 'Look for librarian']",Look for librarian,1
+3,0.6,"['Enter library', 'Find desired book', 'Look for librarian']","['Ask to borrow book', 'Enter library']",Ask to borrow book,0
+4,0.8,"['Enter library', 'Find desired book', 'Look for librarian', 'Ask to borrow book']","['Leave library with book', 'Find desired book']",Leave library with book,0
+0,0.0,[],"['Take book to the front desk', 'Walk into library']",Walk into library,1
+1,0.16666666666666666,['Walk into library'],"['Browse the books and pick whatever interests you', 'Show the librarian your library card']",Browse the books and pick whatever interests you,0
+2,0.3333333333333333,"['Walk into library', 'Browse the books and pick whatever interests you']","['Take the book home', 'Take book to the front desk']",Take book to the front desk,1
+3,0.5,"['Walk into library', 'Browse the books and pick whatever interests you', 'Take book to the front desk']","['Walk into library', 'Show the librarian your library card']",Show the librarian your library card,1
+4,0.6666666666666666,"['Walk into library', 'Browse the books and pick whatever interests you', 'Take book to the front desk', 'Show the librarian your library card']","['Be told when the book is due back', 'Walk into library']",Be told when the book is due back,0
+5,0.8333333333333334,"['Walk into library', 'Browse the books and pick whatever interests you', 'Take book to the front desk', 'Show the librarian your library card', 'Be told when the book is due back']","['Take the book home', 'Browse the books and pick whatever interests you']",Take the book home,0
+0,0.0,[],"['Walk to library.', 'Make a selection.']",Walk to library.,0
+1,0.16666666666666666,['Walk to library.'],"['Give librarian my library card.', 'Browse through books.']",Browse through books.,1
+2,0.3333333333333333,"['Walk to library.', 'Browse through books.']","['Make a selection.', 'Wait for librarian to approve.']",Make a selection.,0
+3,0.5,"['Walk to library.', 'Browse through books.', 'Make a selection.']","['Wait for librarian to approve.', 'Walk up to librarian.']",Walk up to librarian.,1
+4,0.6666666666666666,"['Walk to library.', 'Browse through books.', 'Make a selection.', 'Walk up to librarian.']","['Give librarian my library card.', 'Walk to library.']",Give librarian my library card.,0
+5,0.8333333333333334,"['Walk to library.', 'Browse through books.', 'Make a selection.', 'Walk up to librarian.', 'Give librarian my library card.']","['Browse through books.', 'Wait for librarian to approve.']",Wait for librarian to approve.,1
+0,0.0,[],"['Get in the car', 'Park car']",Get in the car,0
+1,0.16666666666666666,['Get in the car'],"['Turn the car on', 'Drive to library']",Turn the car on,0
+2,0.3333333333333333,"['Get in the car', 'Turn the car on']","['Go inside', 'Drive to library']",Drive to library,1
+3,0.5,"['Get in the car', 'Turn the car on', 'Drive to library']","['Get in the car', 'Park car']",Park car,1
+4,0.6666666666666666,"['Get in the car', 'Turn the car on', 'Drive to library', 'Park car']","['Turn the car on', 'Go inside']",Go inside,1
+5,0.8333333333333334,"['Get in the car', 'Turn the car on', 'Drive to library', 'Park car', 'Go inside']","['Drive to library', 'Find a book I want']",Find a book I want,1
+0,0.0,[],"['Carry book to counter', 'Walk into library']",Walk into library,1
+1,0.16666666666666666,['Walk into library'],"['Walk into library', 'Browse new book release section']",Browse new book release section,1
+2,0.3333333333333333,"['Walk into library', 'Browse new book release section']","['Give library card to borrow book', 'Choose new book to read']",Choose new book to read,1
+3,0.5,"['Walk into library', 'Browse new book release section', 'Choose new book to read']","['Carry book to counter', 'Walk into library']",Carry book to counter,0
+4,0.6666666666666666,"['Walk into library', 'Browse new book release section', 'Choose new book to read', 'Carry book to counter']","['Give library card to borrow book', 'Browse new book release section']",Give library card to borrow book,0
+5,0.8333333333333334,"['Walk into library', 'Browse new book release section', 'Choose new book to read', 'Carry book to counter', 'Give library card to borrow book']","['Browse new book release section', 'Pick up book']",Pick up book,1
+0,0.0,[],"['sign book out', 'get into library']",get into library,1
+1,0.2,['get into library'],"['leave', 'find book']",find book,1
+2,0.4,"['get into library', 'find book']","['leave', 'grab book off shelf']",grab book off shelf,1
+3,0.6,"['get into library', 'find book', 'grab book off shelf']","['sign book out', 'get into library']",sign book out,0
+4,0.8,"['get into library', 'find book', 'grab book off shelf', 'sign book out']","['find book', 'leave']",leave,1
+0,0.0,[],"['Take book from library', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['Enter the library', 'Take book to counter']",Enter the library,0
+2,0.3333333333333333,"['Go to the library', 'Enter the library']","['Take book from library', 'Pick out a book']",Pick out a book,1
+3,0.5,"['Go to the library', 'Enter the library', 'Pick out a book']","['Go to the library', 'Take book to counter']",Take book to counter,1
+4,0.6666666666666666,"['Go to the library', 'Enter the library', 'Pick out a book', 'Take book to counter']","['Give librarian library card', 'Enter the library']",Give librarian library card,0
+5,0.8333333333333334,"['Go to the library', 'Enter the library', 'Pick out a book', 'Take book to counter', 'Give librarian library card']","['Take book from library', 'Go to the library']",Take book from library,0
+0,0.0,[],"['give book and library card to librarian', 'enter into the library']",enter into the library,1
+1,0.16666666666666666,['enter into the library'],"['search for interesting book', 'take book back from librarian']",search for interesting book,0
+2,0.3333333333333333,"['enter into the library', 'search for interesting book']","['take book to front desk', 'take book back from librarian']",take book to front desk,0
+3,0.5,"['enter into the library', 'search for interesting book', 'take book to front desk']","['enter into the library', 'give book and library card to librarian']",give book and library card to librarian,1
+4,0.6666666666666666,"['enter into the library', 'search for interesting book', 'take book to front desk', 'give book and library card to librarian']","['librarian scans book', 'search for interesting book']",librarian scans book,0
+5,0.8333333333333334,"['enter into the library', 'search for interesting book', 'take book to front desk', 'give book and library card to librarian', 'librarian scans book']","['take book back from librarian', 'search for interesting book']",take book back from librarian,0
+0,0.0,[],"['Get book and receipt from librarian', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['Give book and library card to librarian', 'Browse books']",Browse books,1
+2,0.3333333333333333,"['Go to the library', 'Browse books']","['Give book and library card to librarian', 'Choose book']",Choose book,1
+3,0.5,"['Go to the library', 'Browse books', 'Choose book']","['Get book and receipt from librarian', 'Take book to front desk']",Take book to front desk,1
+4,0.6666666666666666,"['Go to the library', 'Browse books', 'Choose book', 'Take book to front desk']","['Browse books', 'Give book and library card to librarian']",Give book and library card to librarian,1
+5,0.8333333333333334,"['Go to the library', 'Browse books', 'Choose book', 'Take book to front desk', 'Give book and library card to librarian']","['Go to the library', 'Get book and receipt from librarian']",Get book and receipt from librarian,1
+0,0.0,[],"['Find book.', 'Give library card and book.']",Find book.,0
+1,0.2,['Find book.'],"['Go to check out.', 'Give library card and book.']",Go to check out.,0
+2,0.4,"['Find book.', 'Go to check out.']","['Leave library.', 'Give library card and book.']",Give library card and book.,1
+3,0.6,"['Find book.', 'Go to check out.', 'Give library card and book.']","['Find out day book is due back.', 'Find book.']",Find out day book is due back.,0
+4,0.8,"['Find book.', 'Go to check out.', 'Give library card and book.', 'Find out day book is due back.']","['Leave library.', 'Find book.']",Leave library.,0
+0,0.0,[],"['Go inside.', 'Make sure you have library card.']",Make sure you have library card.,1
+1,0.16666666666666666,['Make sure you have library card.'],"['Go inside.', 'Drive to library.']",Drive to library.,1
+2,0.3333333333333333,"['Make sure you have library card.', 'Drive to library.']","['Park.', 'Look for a book.']",Park.,0
+3,0.5,"['Make sure you have library card.', 'Drive to library.', 'Park.']","['Go inside.', 'Take it to check out counter.']",Go inside.,0
+4,0.6666666666666666,"['Make sure you have library card.', 'Drive to library.', 'Park.', 'Go inside.']","['Look for a book.', 'Make sure you have library card.']",Look for a book.,0
+5,0.8333333333333334,"['Make sure you have library card.', 'Drive to library.', 'Park.', 'Go inside.', 'Look for a book.']","['Take it to check out counter.', 'Park.']",Take it to check out counter.,0
+0,0.0,[],"['walk to the library', 'present library card']",walk to the library,0
+1,0.16666666666666666,['walk to the library'],"['select an interesting book', 'select an interesting book']",select an interesting book,1
+2,0.3333333333333333,"['walk to the library', 'select an interesting book']","['take it to the desk', 'go home']",take it to the desk,0
+3,0.5,"['walk to the library', 'select an interesting book', 'take it to the desk']","['present library card', 'go home']",present library card,0
+4,0.6666666666666666,"['walk to the library', 'select an interesting book', 'take it to the desk', 'present library card']","['check out', 'walk to the library']",check out,0
+5,0.8333333333333334,"['walk to the library', 'select an interesting book', 'take it to the desk', 'present library card', 'check out']","['go home', 'take it to the desk']",go home,0
+0,0.0,[],"['Find a book you would like to borrow', 'Visit library']",Visit library,1
+1,0.16666666666666666,['Visit library'],"['Find a book you would like to borrow', 'Take book up to the counter']",Find a book you would like to borrow,0
+2,0.3333333333333333,"['Visit library', 'Find a book you would like to borrow']","['Watch as they scan your card and authorize it', 'Take book up to the counter']",Take book up to the counter,1
+3,0.5,"['Visit library', 'Find a book you would like to borrow', 'Take book up to the counter']","['Pull out library card and present it to the worker', 'Visit library']",Pull out library card and present it to the worker,0
+4,0.6666666666666666,"['Visit library', 'Find a book you would like to borrow', 'Take book up to the counter', 'Pull out library card and present it to the worker']","['Watch as they scan your card and authorize it', 'Find a book you would like to borrow']",Watch as they scan your card and authorize it,0
+5,0.8333333333333334,"['Visit library', 'Find a book you would like to borrow', 'Take book up to the counter', 'Pull out library card and present it to the worker', 'Watch as they scan your card and authorize it']","['Grab book and library card and go home', 'Find a book you would like to borrow']",Grab book and library card and go home,0
+0,0.0,[],"['enter the library', 'locate the book']",enter the library,0
+1,0.16666666666666666,['enter the library'],"['look up book in catalog', 'search for book in shelves']",look up book in catalog,0
+2,0.3333333333333333,"['enter the library', 'look up book in catalog']","['write the number down to the book', 'pick book up']",write the number down to the book,0
+3,0.5,"['enter the library', 'look up book in catalog', 'write the number down to the book']","['pick book up', 'search for book in shelves']",search for book in shelves,1
+4,0.6666666666666666,"['enter the library', 'look up book in catalog', 'write the number down to the book', 'search for book in shelves']","['locate the book', 'look up book in catalog']",locate the book,0
+5,0.8333333333333334,"['enter the library', 'look up book in catalog', 'write the number down to the book', 'search for book in shelves', 'locate the book']","['pick book up', 'enter the library']",pick book up,0
+0,0.0,[],"['Walk up to check-out counter', 'Walk in library']",Walk in library,1
+1,0.16666666666666666,['Walk in library'],"['Find desired book', 'Hand book and library card to desk attendant']",Find desired book,0
+2,0.3333333333333333,"['Walk in library', 'Find desired book']","['Take book and card home with you', 'Walk up to check-out counter']",Walk up to check-out counter,1
+3,0.5,"['Walk in library', 'Find desired book', 'Walk up to check-out counter']","['Walk in library', 'Hand book and library card to desk attendant']",Hand book and library card to desk attendant,1
+4,0.6666666666666666,"['Walk in library', 'Find desired book', 'Walk up to check-out counter', 'Hand book and library card to desk attendant']","['Take book and card home with you', 'Walk in library']",Take book and card home with you,0
+5,0.8333333333333334,"['Walk in library', 'Find desired book', 'Walk up to check-out counter', 'Hand book and library card to desk attendant', 'Take book and card home with you']","['Bring book back before/on return date', 'Walk in library']",Bring book back before/on return date,0
+0,0.0,[],"['find a book  you want to read', 'show card']",find a book  you want to read,0
+1,0.2,['find a book  you want to read'],"['take it to the front', 'take it to the front']",take it to the front,0
+2,0.4,"['find a book  you want to read', 'take it to the front']","['show card', 'return it by the date shown']",show card,0
+3,0.6,"['find a book  you want to read', 'take it to the front', 'show card']","['take book home', 'find a book  you want to read']",take book home,0
+4,0.8,"['find a book  you want to read', 'take it to the front', 'show card', 'take book home']","['return it by the date shown', 'take it to the front']",return it by the date shown,0
+0,0.0,[],"['Present my library card', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['Search for a book', ""Go to the librarian's desk""]",Search for a book,0
+2,0.3333333333333333,"['Go to the library', 'Search for a book']","['Present my library card', 'Get the book']",Get the book,1
+3,0.5,"['Go to the library', 'Search for a book', 'Get the book']","['Check out', ""Go to the librarian's desk""]",Go to the librarian's desk,1
+4,0.6666666666666666,"['Go to the library', 'Search for a book', 'Get the book', ""Go to the librarian's desk""]","['Search for a book', 'Present my library card']",Present my library card,1
+5,0.8333333333333334,"['Go to the library', 'Search for a book', 'Get the book', ""Go to the librarian's desk"", 'Present my library card']","['Go to the library', 'Check out']",Check out,1
+0,0.0,[],"['enter library', 'look for book']",enter library,0
+1,0.16666666666666666,['enter library'],"['bring book to front desk', 'look for book']",look for book,1
+2,0.3333333333333333,"['enter library', 'look for book']","['check out book', 'locate book']",locate book,1
+3,0.5,"['enter library', 'look for book', 'locate book']","['enter library', 'bring book to front desk']",bring book to front desk,1
+4,0.6666666666666666,"['enter library', 'look for book', 'locate book', 'bring book to front desk']","['enter library', 'present library card']",present library card,1
+5,0.8333333333333334,"['enter library', 'look for book', 'locate book', 'bring book to front desk', 'present library card']","['look for book', 'check out book']",check out book,1
+0,0.0,[],"['Hand to clerk', 'Walk into the library']",Walk into the library,1
+1,0.16666666666666666,['Walk into the library'],"['Hand to clerk', 'Choose a book']",Choose a book,1
+2,0.3333333333333333,"['Walk into the library', 'Choose a book']","['Take card back from clerk', 'Take book to clerk']",Take book to clerk,1
+3,0.5,"['Walk into the library', 'Choose a book', 'Take book to clerk']","['Take card back from clerk', 'Get out your library card']",Get out your library card,1
+4,0.6666666666666666,"['Walk into the library', 'Choose a book', 'Take book to clerk', 'Get out your library card']","['Choose a book', 'Hand to clerk']",Hand to clerk,1
+5,0.8333333333333334,"['Walk into the library', 'Choose a book', 'Take book to clerk', 'Get out your library card', 'Hand to clerk']","['Take card back from clerk', 'Choose a book']",Take card back from clerk,0
+0,0.0,[],"['Drive or walk to library', 'Go to the librarian']",Drive or walk to library,0
+1,0.16666666666666666,['Drive or walk to library'],"['Get confirmation from librarian', 'Browse through the books in the sections you like']",Browse through the books in the sections you like,1
+2,0.3333333333333333,"['Drive or walk to library', 'Browse through the books in the sections you like']","['Get confirmation from librarian', 'Find a book that interests you']",Find a book that interests you,1
+3,0.5,"['Drive or walk to library', 'Browse through the books in the sections you like', 'Find a book that interests you']","['Go to the librarian', 'Get confirmation from librarian']",Go to the librarian,0
+4,0.6666666666666666,"['Drive or walk to library', 'Browse through the books in the sections you like', 'Find a book that interests you', 'Go to the librarian']","['Show the librarian your library card', 'Browse through the books in the sections you like']",Show the librarian your library card,0
+5,0.8333333333333334,"['Drive or walk to library', 'Browse through the books in the sections you like', 'Find a book that interests you', 'Go to the librarian', 'Show the librarian your library card']","['Get confirmation from librarian', 'Find a book that interests you']",Get confirmation from librarian,0
+0,0.0,[],"['Choose book to borrow', 'Choose book to borrow']",Choose book to borrow,1
+1,0.2,['Choose book to borrow'],"['Take to the library counter', 'Choose book to borrow']",Take to the library counter,0
+2,0.4,"['Choose book to borrow', 'Take to the library counter']","['Give librarian library card with the book', 'Leave library']",Give librarian library card with the book,0
+3,0.6,"['Choose book to borrow', 'Take to the library counter', 'Give librarian library card with the book']","['Choose book to borrow', 'Check out the book']",Check out the book,1
+4,0.8,"['Choose book to borrow', 'Take to the library counter', 'Give librarian library card with the book', 'Check out the book']","['Take to the library counter', 'Leave library']",Leave library,1
+0,0.0,[],"['GO TO THE COUNTER AND CHECK OUT THE BOOK', 'GO TO THE LIBRARY']",GO TO THE LIBRARY,1
+1,0.2,['GO TO THE LIBRARY'],"['CHOOSE THE BOOK YOU WANT TO READ', 'GO TO THE LIBRARY']",CHOOSE THE BOOK YOU WANT TO READ,0
+2,0.4,"['GO TO THE LIBRARY', 'CHOOSE THE BOOK YOU WANT TO READ']","['GO TO THE COUNTER AND CHECK OUT THE BOOK', 'RETURN THE BOOK TO THE LIBRARY']",GO TO THE COUNTER AND CHECK OUT THE BOOK,0
+3,0.6,"['GO TO THE LIBRARY', 'CHOOSE THE BOOK YOU WANT TO READ', 'GO TO THE COUNTER AND CHECK OUT THE BOOK']","['READ THE BOOK', 'GO TO THE LIBRARY']",READ THE BOOK,0
+4,0.8,"['GO TO THE LIBRARY', 'CHOOSE THE BOOK YOU WANT TO READ', 'GO TO THE COUNTER AND CHECK OUT THE BOOK', 'READ THE BOOK']","['RETURN THE BOOK TO THE LIBRARY', 'GO TO THE LIBRARY']",RETURN THE BOOK TO THE LIBRARY,0
+0,0.0,[],"['Check out the book with the librarian', 'Enter the library']",Enter the library,1
+1,0.16666666666666666,['Enter the library'],"['Browse the book selection', 'Enter the library']",Browse the book selection,0
+2,0.3333333333333333,"['Enter the library', 'Browse the book selection']","['Get the return slip', 'Pick a book']",Pick a book,1
+3,0.5,"['Enter the library', 'Browse the book selection', 'Pick a book']","['Check out the book with the librarian', 'Leave the library']",Check out the book with the librarian,0
+4,0.6666666666666666,"['Enter the library', 'Browse the book selection', 'Pick a book', 'Check out the book with the librarian']","['Get the return slip', 'Enter the library']",Get the return slip,0
+5,0.8333333333333334,"['Enter the library', 'Browse the book selection', 'Pick a book', 'Check out the book with the librarian', 'Get the return slip']","['Pick a book', 'Leave the library']",Leave the library,1
+0,0.0,[],"['Decide that you would like to borrow a book.', 'Walk around the library.']",Decide that you would like to borrow a book.,0
+1,0.16666666666666666,['Decide that you would like to borrow a book.'],"['Go to the library.', 'Go to the library.']",Go to the library.,1
+2,0.3333333333333333,"['Decide that you would like to borrow a book.', 'Go to the library.']","['Walk around the library.', 'Find a book that interests you.']",Walk around the library.,0
+3,0.5,"['Decide that you would like to borrow a book.', 'Go to the library.', 'Walk around the library.']","['Go to the section of books that you are interested in.', 'Find a book that interests you.']",Go to the section of books that you are interested in.,0
+4,0.6666666666666666,"['Decide that you would like to borrow a book.', 'Go to the library.', 'Walk around the library.', 'Go to the section of books that you are interested in.']","['Browse the selection of books.', 'Go to the library.']",Browse the selection of books.,0
+5,0.8333333333333334,"['Decide that you would like to borrow a book.', 'Go to the library.', 'Walk around the library.', 'Go to the section of books that you are interested in.', 'Browse the selection of books.']","['Go to the library.', 'Find a book that interests you.']",Find a book that interests you.,1
+0,0.0,[],"['Take the book to the librarian with your membership card', 'Go to the library']",Go to the library,1
+1,0.2,['Go to the library'],"['Take the book to the librarian with your membership card', 'Find the book you are looking for']",Find the book you are looking for,1
+2,0.4,"['Go to the library', 'Find the book you are looking for']","['Take the book', 'Take the book to the librarian with your membership card']",Take the book to the librarian with your membership card,1
+3,0.6,"['Go to the library', 'Find the book you are looking for', 'Take the book to the librarian with your membership card']","['Go to the library', 'Get the book issued on your name']",Get the book issued on your name,1
+4,0.8,"['Go to the library', 'Find the book you are looking for', 'Take the book to the librarian with your membership card', 'Get the book issued on your name']","['Take the book', 'Go to the library']",Take the book,0
+0,0.0,[],"['find book at destination', 'drive to library']",drive to library,1
+1,0.16666666666666666,['drive to library'],"['go to computer', 'take book to checkout desk']",go to computer,0
+2,0.3333333333333333,"['drive to library', 'go to computer']","['present library card', 'type book into computer']",type book into computer,1
+3,0.5,"['drive to library', 'go to computer', 'type book into computer']","['present library card', 'find book at destination']",find book at destination,1
+4,0.6666666666666666,"['drive to library', 'go to computer', 'type book into computer', 'find book at destination']","['take book to checkout desk', 'go to computer']",take book to checkout desk,0
+5,0.8333333333333334,"['drive to library', 'go to computer', 'type book into computer', 'find book at destination', 'take book to checkout desk']","['present library card', 'go to computer']",present library card,0
+0,0.0,[],"['Find book in library database', 'Find book in library database']",Find book in library database,1
+1,0.16666666666666666,['Find book in library database'],"['Consult library map for location of book', 'Consult library map for location of book']",Consult library map for location of book,1
+2,0.3333333333333333,"['Find book in library database', 'Consult library map for location of book']","['Find book on shelf', 'Present library card to clerk for checkout']",Find book on shelf,0
+3,0.5,"['Find book in library database', 'Consult library map for location of book', 'Find book on shelf']","['Take book to checkout area', 'Find book in library database']",Take book to checkout area,0
+4,0.6666666666666666,"['Find book in library database', 'Consult library map for location of book', 'Find book on shelf', 'Take book to checkout area']","['Find book in library database', 'Present library card to clerk for checkout']",Present library card to clerk for checkout,1
+5,0.8333333333333334,"['Find book in library database', 'Consult library map for location of book', 'Find book on shelf', 'Take book to checkout area', 'Present library card to clerk for checkout']","['Find book in library database', 'Take card and book']",Take card and book,1
+0,0.0,[],"['Present your card', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['The librarian can help you find what you need', ""If you don't have a library card, apply for one. One will be issued right there""]","If you don't have a library card, apply for one. One will be issued right there",1
+2,0.3333333333333333,"['Go to the library', ""If you don't have a library card, apply for one. One will be issued right there""]","['When you have made your selection, take your book to the counter', 'Look for the book you would like to borrow']",Look for the book you would like to borrow,1
+3,0.5,"['Go to the library', ""If you don't have a library card, apply for one. One will be issued right there"", 'Look for the book you would like to borrow']","['Present your card', 'The librarian can help you find what you need']",The librarian can help you find what you need,1
+4,0.6666666666666666,"['Go to the library', ""If you don't have a library card, apply for one. One will be issued right there"", 'Look for the book you would like to borrow', 'The librarian can help you find what you need']","['When you have made your selection, take your book to the counter', 'Go to the library']","When you have made your selection, take your book to the counter",0
+5,0.8333333333333334,"['Go to the library', ""If you don't have a library card, apply for one. One will be issued right there"", 'Look for the book you would like to borrow', 'The librarian can help you find what you need', 'When you have made your selection, take your book to the counter']","['Present your card', 'Look for the book you would like to borrow']",Present your card,0
+0,0.0,[],"['Show them your library card', 'Enter the library']",Enter the library,1
+1,0.16666666666666666,['Enter the library'],"['Enter the library', 'Look at the shelves']",Look at the shelves,1
+2,0.3333333333333333,"['Enter the library', 'Look at the shelves']","['Show them your library card', 'Pick out the book you like']",Pick out the book you like,1
+3,0.5,"['Enter the library', 'Look at the shelves', 'Pick out the book you like']","['Take the book to the front desk', 'Have the book stamped']",Take the book to the front desk,0
+4,0.6666666666666666,"['Enter the library', 'Look at the shelves', 'Pick out the book you like', 'Take the book to the front desk']","['Look at the shelves', 'Show them your library card']",Show them your library card,1
+5,0.8333333333333334,"['Enter the library', 'Look at the shelves', 'Pick out the book you like', 'Take the book to the front desk', 'Show them your library card']","['Have the book stamped', 'Enter the library']",Have the book stamped,0
+0,0.0,[],"['Find the book on the shelves.', 'Go to the library.']",Go to the library.,1
+1,0.16666666666666666,['Go to the library.'],"['Look up the appropriate book.', 'Find the catalog.']",Find the catalog.,1
+2,0.3333333333333333,"['Go to the library.', 'Find the catalog.']","['Give her your library card.', 'Look up the appropriate book.']",Look up the appropriate book.,1
+3,0.5,"['Go to the library.', 'Find the catalog.', 'Look up the appropriate book.']","['Go to the library.', 'Find the book on the shelves.']",Find the book on the shelves.,1
+4,0.6666666666666666,"['Go to the library.', 'Find the catalog.', 'Look up the appropriate book.', 'Find the book on the shelves.']","['Go to the library.', 'Take the book to a librarian to check out.']",Take the book to a librarian to check out.,1
+5,0.8333333333333334,"['Go to the library.', 'Find the catalog.', 'Look up the appropriate book.', 'Find the book on the shelves.', 'Take the book to a librarian to check out.']","['Give her your library card.', 'Find the catalog.']",Give her your library card.,0
+0,0.0,[],"['Get in the car.', 'Get in the car.']",Get in the car.,1
+1,0.16666666666666666,['Get in the car.'],"['Choose a novel.', 'Drive to the library,']","Drive to the library,",1
+2,0.3333333333333333,"['Get in the car.', 'Drive to the library,']","['Read the back of book descriptions.', 'Go home.']",Read the back of book descriptions.,0
+3,0.5,"['Get in the car.', 'Drive to the library,', 'Read the back of book descriptions.']","['Get in the car.', 'Choose a novel.']",Choose a novel.,1
+4,0.6666666666666666,"['Get in the car.', 'Drive to the library,', 'Read the back of book descriptions.', 'Choose a novel.']","['Get in the car.', 'Sign out at the checkout desk.']",Sign out at the checkout desk.,1
+5,0.8333333333333334,"['Get in the car.', 'Drive to the library,', 'Read the back of book descriptions.', 'Choose a novel.', 'Sign out at the checkout desk.']","['Go home.', 'Drive to the library,']",Go home.,0
+0,0.0,[],"['browse book category', 'browse book category']",browse book category,0
+1,0.16666666666666666,['browse book category'],"['Librarian will show you receipt when book is due', 'decide what book you want to check out']",decide what book you want to check out,1
+2,0.3333333333333333,"['browse book category', 'decide what book you want to check out']","['bring to library counter', 'Librarian will show you receipt when book is due']",bring to library counter,0
+3,0.5,"['browse book category', 'decide what book you want to check out', 'bring to library counter']","['show librarian your library card', 'take book home and enjoy']",show librarian your library card,0
+4,0.6666666666666666,"['browse book category', 'decide what book you want to check out', 'bring to library counter', 'show librarian your library card']","['decide what book you want to check out', 'Librarian will show you receipt when book is due']",Librarian will show you receipt when book is due,1
+5,0.8333333333333334,"['browse book category', 'decide what book you want to check out', 'bring to library counter', 'show librarian your library card', 'Librarian will show you receipt when book is due']","['take book home and enjoy', 'browse book category']",take book home and enjoy,0
+0,0.0,[],"['Walk into library.', 'Get out library card.']",Walk into library.,0
+1,0.16666666666666666,['Walk into library.'],"['Hand card to lady.', 'Look at books.']",Look at books.,1
+2,0.3333333333333333,"['Walk into library.', 'Look at books.']","['Hand card to lady.', 'Pick a book you like.']",Pick a book you like.,1
+3,0.5,"['Walk into library.', 'Look at books.', 'Pick a book you like.']","['Hand card to lady.', 'Take book to register.']",Take book to register.,1
+4,0.6666666666666666,"['Walk into library.', 'Look at books.', 'Pick a book you like.', 'Take book to register.']","['Get out library card.', 'Walk into library.']",Get out library card.,0
+5,0.8333333333333334,"['Walk into library.', 'Look at books.', 'Pick a book you like.', 'Take book to register.', 'Get out library card.']","['Walk into library.', 'Hand card to lady.']",Hand card to lady.,1
+0,0.0,[],"['The person at the counter will check each of the books out.', 'Select a book that you would like to check out at the library.']",Select a book that you would like to check out at the library.,1
+1,0.16666666666666666,['Select a book that you would like to check out at the library.'],"['The person at the counter will check each of the books out.', 'Take the book to the checkout counter inside the library.']",Take the book to the checkout counter inside the library.,1
+2,0.3333333333333333,"['Select a book that you would like to check out at the library.', 'Take the book to the checkout counter inside the library.']","['Present your library card to the person at the checkout counter.', 'Make a note of when the books should be returned.']",Present your library card to the person at the checkout counter.,0
+3,0.5,"['Select a book that you would like to check out at the library.', 'Take the book to the checkout counter inside the library.', 'Present your library card to the person at the checkout counter.']","['Select a book that you would like to check out at the library.', 'The person at the counter will check each of the books out.']",The person at the counter will check each of the books out.,1
+4,0.6666666666666666,"['Select a book that you would like to check out at the library.', 'Take the book to the checkout counter inside the library.', 'Present your library card to the person at the checkout counter.', 'The person at the counter will check each of the books out.']","['Make a note of when the books should be returned.', 'Take the book to the checkout counter inside the library.']",Make a note of when the books should be returned.,0
+5,0.8333333333333334,"['Select a book that you would like to check out at the library.', 'Take the book to the checkout counter inside the library.', 'Present your library card to the person at the checkout counter.', 'The person at the counter will check each of the books out.', 'Make a note of when the books should be returned.']","['Select a book that you would like to check out at the library.', 'Take the books from the library.']",Take the books from the library.,1
+0,0.0,[],"['Enter library', 'Take book and library card back']",Enter library,0
+1,0.16666666666666666,['Enter library'],"['Enter library', 'Browse books']",Browse books,1
+2,0.3333333333333333,"['Enter library', 'Browse books']","['Select a book', 'Take book and library card back']",Select a book,0
+3,0.5,"['Enter library', 'Browse books', 'Select a book']","['Take book up to front desk', 'Take book and library card back']",Take book up to front desk,0
+4,0.6666666666666666,"['Enter library', 'Browse books', 'Select a book', 'Take book up to front desk']","['Browse books', 'Give book and library card to librarian']",Give book and library card to librarian,1
+5,0.8333333333333334,"['Enter library', 'Browse books', 'Select a book', 'Take book up to front desk', 'Give book and library card to librarian']","['Take book and library card back', 'Browse books']",Take book and library card back,0
+0,0.0,[],"['Check out the book by librarian.', 'Pick the book from the library shelf.']",Pick the book from the library shelf.,1
+1,0.2,['Pick the book from the library shelf.'],"['Check out the book by librarian.', 'Bring the book and your library card to librarian.']",Bring the book and your library card to librarian.,1
+2,0.4,"['Pick the book from the library shelf.', 'Bring the book and your library card to librarian.']","['Leave the library with the desired book.', 'Check out the book by librarian.']",Check out the book by librarian.,1
+3,0.6,"['Pick the book from the library shelf.', 'Bring the book and your library card to librarian.', 'Check out the book by librarian.']","['Get a receipt.', 'Pick the book from the library shelf.']",Get a receipt.,0
+4,0.8,"['Pick the book from the library shelf.', 'Bring the book and your library card to librarian.', 'Check out the book by librarian.', 'Get a receipt.']","['Leave the library with the desired book.', 'Pick the book from the library shelf.']",Leave the library with the desired book.,0
+0,0.0,[],"['have a library card available', 'walk or drive to local library']",have a library card available,0
+1,0.2,['have a library card available'],"['walk or drive to local library', 'walk or drive to local library']",walk or drive to local library,1
+2,0.4,"['have a library card available', 'walk or drive to local library']","['walk in and look for desired book', 'walk out the library']",walk in and look for desired book,0
+3,0.6,"['have a library card available', 'walk or drive to local library', 'walk in and look for desired book']","['have a library card available', 'go to main desk and check the book out']",go to main desk and check the book out,1
+4,0.8,"['have a library card available', 'walk or drive to local library', 'walk in and look for desired book', 'go to main desk and check the book out']","['have a library card available', 'walk out the library']",walk out the library,1
+0,0.0,[],"['go to the library', 'bring book to the librarian at the desk']",go to the library,0
+1,0.16666666666666666,['go to the library'],"['librarian stamps book with return date', 'find book that you want to borrow']",find book that you want to borrow,1
+2,0.3333333333333333,"['go to the library', 'find book that you want to borrow']","['librarian stamps book with return date', 'bring book to the librarian at the desk']",bring book to the librarian at the desk,1
+3,0.5,"['go to the library', 'find book that you want to borrow', 'bring book to the librarian at the desk']","['leave with book', 'show librarian library card']",show librarian library card,1
+4,0.6666666666666666,"['go to the library', 'find book that you want to borrow', 'bring book to the librarian at the desk', 'show librarian library card']","['find book that you want to borrow', 'librarian stamps book with return date']",librarian stamps book with return date,1
+5,0.8333333333333334,"['go to the library', 'find book that you want to borrow', 'bring book to the librarian at the desk', 'show librarian library card', 'librarian stamps book with return date']","['leave with book', 'go to the library']",leave with book,0
+0,0.0,[],"['Enter library', 'Go to library']",Go to library,1
+1,0.16666666666666666,['Go to library'],"['Enter library', 'Find shelf in library']",Enter library,0
+2,0.3333333333333333,"['Go to library', 'Enter library']","['Look up book location', 'Find book on shelf']",Look up book location,0
+3,0.5,"['Go to library', 'Enter library', 'Look up book location']","['Find book on shelf', 'Write down book location']",Write down book location,1
+4,0.6666666666666666,"['Go to library', 'Enter library', 'Look up book location', 'Write down book location']","['Enter library', 'Find shelf in library']",Find shelf in library,1
+5,0.8333333333333334,"['Go to library', 'Enter library', 'Look up book location', 'Write down book location', 'Find shelf in library']","['Find book on shelf', 'Look up book location']",Find book on shelf,0
+0,0.0,[],"['See the displays', 'Enter the library']",Enter the library,1
+1,0.16666666666666666,['Enter the library'],"['Register name', 'See the displays']",Register name,0
+2,0.3333333333333333,"['Enter the library', 'Register name']","['Bring selected books to librarian', 'See catalog']",See catalog,1
+3,0.5,"['Enter the library', 'Register name', 'See catalog']","['See the displays', 'Bring selected books to librarian']",See the displays,0
+4,0.6666666666666666,"['Enter the library', 'Register name', 'See catalog', 'See the displays']","['Register name', 'Select the books']",Select the books,1
+5,0.8333333333333334,"['Enter the library', 'Register name', 'See catalog', 'See the displays', 'Select the books']","['Register name', 'Bring selected books to librarian']",Bring selected books to librarian,1
+0,0.0,[],"['go to the library', 'go to the library']",go to the library,1
+1,0.2,['go to the library'],"['select the book', 'go to the librarian']",select the book,0
+2,0.4,"['go to the library', 'select the book']","['take the book home', 'go to the librarian']",go to the librarian,1
+3,0.6,"['go to the library', 'select the book', 'go to the librarian']","['issue the book', 'go to the library']",issue the book,0
+4,0.8,"['go to the library', 'select the book', 'go to the librarian', 'issue the book']","['take the book home', 'go to the library']",take the book home,0
+0,0.0,[],"['Librarian scans book and your library card', 'Go to library']",Go to library,1
+1,0.16666666666666666,['Go to library'],"['Look through books and pick out the one you want', 'Take it up to counter']",Look through books and pick out the one you want,0
+2,0.3333333333333333,"['Go to library', 'Look through books and pick out the one you want']","['Take it up to counter', 'Read book']",Take it up to counter,0
+3,0.5,"['Go to library', 'Look through books and pick out the one you want', 'Take it up to counter']","['Librarian scans book and your library card', 'Go to library']",Librarian scans book and your library card,0
+4,0.6666666666666666,"['Go to library', 'Look through books and pick out the one you want', 'Take it up to counter', 'Librarian scans book and your library card']","['Take book home', 'Look through books and pick out the one you want']",Take book home,0
+5,0.8333333333333334,"['Go to library', 'Look through books and pick out the one you want', 'Take it up to counter', 'Librarian scans book and your library card', 'Take book home']","['Read book', 'Go to library']",Read book,0
+0,0.0,[],"['Take books to check out counter', 'Get books to be returned']",Get books to be returned,1
+1,0.16666666666666666,['Get books to be returned'],"['Go to shelves of interest', 'Go to library']",Go to library,1
+2,0.3333333333333333,"['Get books to be returned', 'Go to library']","['Return books in proper bin', 'Take books to check out counter']",Return books in proper bin,0
+3,0.5,"['Get books to be returned', 'Go to library', 'Return books in proper bin']","['Get books to be returned', 'Go to shelves of interest']",Go to shelves of interest,1
+4,0.6666666666666666,"['Get books to be returned', 'Go to library', 'Return books in proper bin', 'Go to shelves of interest']","['Get books to be returned', 'Browse to find books to borrow']",Browse to find books to borrow,1
+5,0.8333333333333334,"['Get books to be returned', 'Go to library', 'Return books in proper bin', 'Go to shelves of interest', 'Browse to find books to borrow']","['Return books in proper bin', 'Take books to check out counter']",Take books to check out counter,1
+0,0.0,[],"['Go to library', 'Go to library']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Look up book in catalogue', 'Get book']",Look up book in catalogue,0
+2,0.3333333333333333,"['Go to library', 'Look up book in catalogue']","['Locate book on shelf', 'Give librarian your library card']",Locate book on shelf,0
+3,0.5,"['Go to library', 'Look up book in catalogue', 'Locate book on shelf']","['Go to library', 'Get book']",Get book,1
+4,0.6666666666666666,"['Go to library', 'Look up book in catalogue', 'Locate book on shelf', 'Get book']","['Take book to circulation desk', 'Look up book in catalogue']",Take book to circulation desk,0
+5,0.8333333333333334,"['Go to library', 'Look up book in catalogue', 'Locate book on shelf', 'Get book', 'Take book to circulation desk']","['Give librarian your library card', 'Go to library']",Give librarian your library card,0
+0,0.0,[],"['Take book to check out line', 'Go to library']",Go to library,1
+1,0.16666666666666666,['Go to library'],"['Enter stacks of library', 'Go to library']",Enter stacks of library,0
+2,0.3333333333333333,"['Go to library', 'Enter stacks of library']","['Find book that you want to get', 'Sign out (or electronically scan) book at check out station']",Find book that you want to get,0
+3,0.5,"['Go to library', 'Enter stacks of library', 'Find book that you want to get']","['Take book to check out line', 'Thank librarian']",Take book to check out line,0
+4,0.6666666666666666,"['Go to library', 'Enter stacks of library', 'Find book that you want to get', 'Take book to check out line']","['Sign out (or electronically scan) book at check out station', 'Enter stacks of library']",Sign out (or electronically scan) book at check out station,0
+5,0.8333333333333334,"['Go to library', 'Enter stacks of library', 'Find book that you want to get', 'Take book to check out line', 'Sign out (or electronically scan) book at check out station']","['Find book that you want to get', 'Thank librarian']",Thank librarian,1
+0,0.0,[],"['Receive your book', 'Decide which book you would like']",Decide which book you would like,1
+1,0.16666666666666666,['Decide which book you would like'],"['Go to front counter', 'Take note of when the books are due back']",Go to front counter,0
+2,0.3333333333333333,"['Decide which book you would like', 'Go to front counter']","['Receive your book', 'Give your book to the librarian']",Give your book to the librarian,1
+3,0.5,"['Decide which book you would like', 'Go to front counter', 'Give your book to the librarian']","['Decide which book you would like', 'Give her your library card']",Give her your library card,1
+4,0.6666666666666666,"['Decide which book you would like', 'Go to front counter', 'Give your book to the librarian', 'Give her your library card']","['Go to front counter', 'Take note of when the books are due back']",Take note of when the books are due back,1
+5,0.8333333333333334,"['Decide which book you would like', 'Go to front counter', 'Give your book to the librarian', 'Give her your library card', 'Take note of when the books are due back']","['Receive your book', 'Decide which book you would like']",Receive your book,0
+0,0.0,[],"['Travel to the library.', 'Remove the book from the shelf.']",Travel to the library.,0
+1,0.16666666666666666,['Travel to the library.'],"['Advise the librarian that you want to check the book out.', 'Search the library for the book that you want.']",Search the library for the book that you want.,1
+2,0.3333333333333333,"['Travel to the library.', 'Search the library for the book that you want.']","['Show the librarian your library card.', 'Remove the book from the shelf.']",Remove the book from the shelf.,1
+3,0.5,"['Travel to the library.', 'Search the library for the book that you want.', 'Remove the book from the shelf.']","['Travel to the library.', 'Take the book to the front desk.']",Take the book to the front desk.,1
+4,0.6666666666666666,"['Travel to the library.', 'Search the library for the book that you want.', 'Remove the book from the shelf.', 'Take the book to the front desk.']","['Show the librarian your library card.', 'Travel to the library.']",Show the librarian your library card.,0
+5,0.8333333333333334,"['Travel to the library.', 'Search the library for the book that you want.', 'Remove the book from the shelf.', 'Take the book to the front desk.', 'Show the librarian your library card.']","['Travel to the library.', 'Advise the librarian that you want to check the book out.']",Advise the librarian that you want to check the book out.,1
+0,0.0,[],"['Show clerk your library card', 'Go to library']",Go to library,1
+1,0.16666666666666666,['Go to library'],"['Clerk scans book', 'Find book']",Find book,1
+2,0.3333333333333333,"['Go to library', 'Find book']","['Go to check out desk', 'Clerk scans book']",Go to check out desk,0
+3,0.5,"['Go to library', 'Find book', 'Go to check out desk']","['Go to library', 'Show clerk your library card']",Show clerk your library card,1
+4,0.6666666666666666,"['Go to library', 'Find book', 'Go to check out desk', 'Show clerk your library card']","['Go to library', 'Clerk scans library card']",Clerk scans library card,1
+5,0.8333333333333334,"['Go to library', 'Find book', 'Go to check out desk', 'Show clerk your library card', 'Clerk scans library card']","['Clerk scans book', 'Find book']",Clerk scans book,0
+0,0.0,[],"['Select a book', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['Present library card', 'Browse the shelves']",Browse the shelves,1
+2,0.3333333333333333,"['Go to the library', 'Browse the shelves']","['Select a book', 'Present library card']",Select a book,0
+3,0.5,"['Go to the library', 'Browse the shelves', 'Select a book']","['Bring book to front desk', 'Present library card']",Bring book to front desk,0
+4,0.6666666666666666,"['Go to the library', 'Browse the shelves', 'Select a book', 'Bring book to front desk']","['Go to the library', 'Hand book to librarian']",Hand book to librarian,1
+5,0.8333333333333334,"['Go to the library', 'Browse the shelves', 'Select a book', 'Bring book to front desk', 'Hand book to librarian']","['Browse the shelves', 'Present library card']",Present library card,1
+0,0.0,[],"['Go to library.', 'Get receipt.']",Go to library.,0
+1,0.16666666666666666,['Go to library.'],"['Type in library card number and PIN number.', 'Find book.']",Find book.,1
+2,0.3333333333333333,"['Go to library.', 'Find book.']","['Scan barcode of book.', 'Take book to checkout counter.']",Take book to checkout counter.,1
+3,0.5,"['Go to library.', 'Find book.', 'Take book to checkout counter.']","['Type in library card number and PIN number.', 'Go to library.']",Type in library card number and PIN number.,0
+4,0.6666666666666666,"['Go to library.', 'Find book.', 'Take book to checkout counter.', 'Type in library card number and PIN number.']","['Scan barcode of book.', 'Find book.']",Scan barcode of book.,0
+5,0.8333333333333334,"['Go to library.', 'Find book.', 'Take book to checkout counter.', 'Type in library card number and PIN number.', 'Scan barcode of book.']","['Get receipt.', 'Find book.']",Get receipt.,0
+0,0.0,[],"['Pick a book', 'Pick a book']",Pick a book,1
+1,0.16666666666666666,['Pick a book'],"['Drive to library', 'Get in car']",Get in car,1
+2,0.3333333333333333,"['Pick a book', 'Get in car']","['Check out book from library', 'Drive to library']",Drive to library,1
+3,0.5,"['Pick a book', 'Get in car', 'Drive to library']","['Find book', 'Drive home']",Find book,0
+4,0.6666666666666666,"['Pick a book', 'Get in car', 'Drive to library', 'Find book']","['Check out book from library', 'Pick a book']",Check out book from library,0
+5,0.8333333333333334,"['Pick a book', 'Get in car', 'Drive to library', 'Find book', 'Check out book from library']","['Pick a book', 'Drive home']",Drive home,1
+0,0.0,[],"['Enter Library.', 'Enter Library.']",Enter Library.,1
+1,0.16666666666666666,['Enter Library.'],"['Take book to checkout.', 'Use catalog to find book you want.']",Use catalog to find book you want.,1
+2,0.3333333333333333,"['Enter Library.', 'Use catalog to find book you want.']","['Once they return book to you leave library.', 'Take book to checkout.']",Take book to checkout.,1
+3,0.5,"['Enter Library.', 'Use catalog to find book you want.', 'Take book to checkout.']","['Return book by the due date.', 'Give book and card to librarian.']",Give book and card to librarian.,1
+4,0.6666666666666666,"['Enter Library.', 'Use catalog to find book you want.', 'Take book to checkout.', 'Give book and card to librarian.']","['Once they return book to you leave library.', 'Enter Library.']",Once they return book to you leave library.,0
+5,0.8333333333333334,"['Enter Library.', 'Use catalog to find book you want.', 'Take book to checkout.', 'Give book and card to librarian.', 'Once they return book to you leave library.']","['Enter Library.', 'Return book by the due date.']",Return book by the due date.,1
+0,0.0,[],"['Go to the library.', 'Take the book to the check out desk.']",Go to the library.,0
+1,0.16666666666666666,['Go to the library.'],"['Take the book to the check out desk.', 'Look up the book that you want to borrow on the card catalog.']",Look up the book that you want to borrow on the card catalog.,1
+2,0.3333333333333333,"['Go to the library.', 'Look up the book that you want to borrow on the card catalog.']","['Write down the number of the book.', 'Show your library card to the librarian.']",Write down the number of the book.,0
+3,0.5,"['Go to the library.', 'Look up the book that you want to borrow on the card catalog.', 'Write down the number of the book.']","['Find the book using the number to help you.', 'Show your library card to the librarian.']",Find the book using the number to help you.,0
+4,0.6666666666666666,"['Go to the library.', 'Look up the book that you want to borrow on the card catalog.', 'Write down the number of the book.', 'Find the book using the number to help you.']","['Look up the book that you want to borrow on the card catalog.', 'Take the book to the check out desk.']",Take the book to the check out desk.,1
+5,0.8333333333333334,"['Go to the library.', 'Look up the book that you want to borrow on the card catalog.', 'Write down the number of the book.', 'Find the book using the number to help you.', 'Take the book to the check out desk.']","['Show your library card to the librarian.', 'Go to the library.']",Show your library card to the librarian.,0
+0,0.0,[],"['Go to library', 'Read the back']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Read the back', 'Browse the shelves']",Browse the shelves,1
+2,0.3333333333333333,"['Go to library', 'Browse the shelves']","['Take a book out', 'Go to the librarian']",Take a book out,0
+3,0.5,"['Go to library', 'Browse the shelves', 'Take a book out']","['Go to the librarian', 'Read the back']",Read the back,1
+4,0.6666666666666666,"['Go to library', 'Browse the shelves', 'Take a book out', 'Read the back']","['Go to library', 'Decide to borrow the book']",Decide to borrow the book,1
+5,0.8333333333333334,"['Go to library', 'Browse the shelves', 'Take a book out', 'Read the back', 'Decide to borrow the book']","['Go to the librarian', 'Go to library']",Go to the librarian,0
+0,0.0,[],"['research the book that you want', 'go to the library']",research the book that you want,0
+1,0.2,['research the book that you want'],"['scan the book and your card', 'go to the library']",go to the library,1
+2,0.4,"['research the book that you want', 'go to the library']","['scan the book and your card', 'find the book']",find the book,1
+3,0.6,"['research the book that you want', 'go to the library', 'find the book']","['research the book that you want', 'bring the book to the counter']",bring the book to the counter,1
+4,0.8,"['research the book that you want', 'go to the library', 'find the book', 'bring the book to the counter']","['go to the library', 'scan the book and your card']",scan the book and your card,1
+0,0.0,[],"['Look up desired book on handy computer system', 'Go to library']",Go to library,1
+1,0.16666666666666666,['Go to library'],"['Take book to check-out desk', 'Sign up for library card']",Sign up for library card,1
+2,0.3333333333333333,"['Go to library', 'Sign up for library card']","['Give librarian your library card', 'Look up desired book on handy computer system']",Look up desired book on handy computer system,1
+3,0.5,"['Go to library', 'Sign up for library card', 'Look up desired book on handy computer system']","['Find book in the aisles', 'Go to library']",Find book in the aisles,0
+4,0.6666666666666666,"['Go to library', 'Sign up for library card', 'Look up desired book on handy computer system', 'Find book in the aisles']","['Take book to check-out desk', 'Go to library']",Take book to check-out desk,0
+5,0.8333333333333334,"['Go to library', 'Sign up for library card', 'Look up desired book on handy computer system', 'Find book in the aisles', 'Take book to check-out desk']","['Look up desired book on handy computer system', 'Give librarian your library card']",Give librarian your library card,1
+0,0.0,[],"['Acquire library card', 'Got to library']",Got to library,1
+1,0.16666666666666666,['Got to library'],"['Acquire library card', 'Bring to librarian to check out']",Acquire library card,0
+2,0.3333333333333333,"['Got to library', 'Acquire library card']","['Bring to librarian to check out', 'Browse library for books']",Browse library for books,1
+3,0.5,"['Got to library', 'Acquire library card', 'Browse library for books']","['Present library card along with books', 'Select desired books']",Select desired books,1
+4,0.6666666666666666,"['Got to library', 'Acquire library card', 'Browse library for books', 'Select desired books']","['Got to library', 'Bring to librarian to check out']",Bring to librarian to check out,1
+5,0.8333333333333334,"['Got to library', 'Acquire library card', 'Browse library for books', 'Select desired books', 'Bring to librarian to check out']","['Acquire library card', 'Present library card along with books']",Present library card along with books,1
+0,0.0,[],"['Go to the library', 'Take the book home and read it']",Go to the library,0
+1,0.16666666666666666,['Go to the library'],"['Find a book you like', 'Give librarian your library card']",Find a book you like,0
+2,0.3333333333333333,"['Go to the library', 'Find a book you like']","['Bring it to the librarian', 'Go back to the library']",Bring it to the librarian,0
+3,0.5,"['Go to the library', 'Find a book you like', 'Bring it to the librarian']","['Go back to the library', 'Give librarian your library card']",Give librarian your library card,1
+4,0.6666666666666666,"['Go to the library', 'Find a book you like', 'Bring it to the librarian', 'Give librarian your library card']","['Take the book home and read it', 'Go to the library']",Take the book home and read it,0
+5,0.8333333333333334,"['Go to the library', 'Find a book you like', 'Bring it to the librarian', 'Give librarian your library card', 'Take the book home and read it']","['Go back to the library', 'Find a book you like']",Go back to the library,0
+0,0.0,[],"['go to the library', 'go to the library']",go to the library,0
+1,0.2,['go to the library'],"['present your card', 'select a book']",select a book,1
+2,0.4,"['go to the library', 'select a book']","['take your book home', 'wait at the desk']",wait at the desk,1
+3,0.6,"['go to the library', 'select a book', 'wait at the desk']","['go to the library', 'present your card']",present your card,1
+4,0.8,"['go to the library', 'select a book', 'wait at the desk', 'present your card']","['take your book home', 'select a book']",take your book home,0
+0,0.0,[],"['Go to the library', 'Check out the book']",Go to the library,0
+1,0.16666666666666666,['Go to the library'],"['Find a book you would like to read', 'Leave the library.']",Find a book you would like to read,0
+2,0.3333333333333333,"['Go to the library', 'Find a book you would like to read']","['Bring the book to the librarian', 'Leave the library.']",Bring the book to the librarian,0
+3,0.5,"['Go to the library', 'Find a book you would like to read', 'Bring the book to the librarian']","['Leave the library.', 'If needed open a library account']",If needed open a library account,1
+4,0.6666666666666666,"['Go to the library', 'Find a book you would like to read', 'Bring the book to the librarian', 'If needed open a library account']","['Go to the library', 'Check out the book']",Check out the book,1
+5,0.8333333333333334,"['Go to the library', 'Find a book you would like to read', 'Bring the book to the librarian', 'If needed open a library account', 'Check out the book']","['Find a book you would like to read', 'Leave the library.']",Leave the library.,1
+0,0.0,[],"['Go to the library', 'Approach the counter']",Go to the library,0
+1,0.16666666666666666,['Go to the library'],"['Browse various sections', 'Approach the counter']",Browse various sections,0
+2,0.3333333333333333,"['Go to the library', 'Browse various sections']","['Find a book you like', 'Pay to check out the book']",Find a book you like,0
+3,0.5,"['Go to the library', 'Browse various sections', 'Find a book you like']","['Go to the library', 'Pick up the book']",Pick up the book,1
+4,0.6666666666666666,"['Go to the library', 'Browse various sections', 'Find a book you like', 'Pick up the book']","['Browse various sections', 'Approach the counter']",Approach the counter,1
+5,0.8333333333333334,"['Go to the library', 'Browse various sections', 'Find a book you like', 'Pick up the book', 'Approach the counter']","['Pay to check out the book', 'Browse various sections']",Pay to check out the book,0
+0,0.0,[],"['Take book to the front', 'Go to the library']",Go to the library,1
+1,0.2,['Go to the library'],"['Hunt for a book you would like to borrow', 'Take book to the front']",Hunt for a book you would like to borrow,0
+2,0.4,"['Go to the library', 'Hunt for a book you would like to borrow']","['Take book to the front', 'Leave library']",Take book to the front,0
+3,0.6,"['Go to the library', 'Hunt for a book you would like to borrow', 'Take book to the front']","['Go to the library', 'Use library card to borrow book']",Use library card to borrow book,1
+4,0.8,"['Go to the library', 'Hunt for a book you would like to borrow', 'Take book to the front', 'Use library card to borrow book']","['Go to the library', 'Leave library']",Leave library,1
+0,0.0,[],"['Take the book to the counter', 'Go to the library']",Go to the library,1
+1,0.16666666666666666,['Go to the library'],"['Wait while the librarian makes notes and puts the return date inside the cover', 'Find a book you want to borrow']",Find a book you want to borrow,1
+2,0.3333333333333333,"['Go to the library', 'Find a book you want to borrow']","['Take the book to the counter', 'Leave with the book']",Take the book to the counter,0
+3,0.5,"['Go to the library', 'Find a book you want to borrow', 'Take the book to the counter']","['Show the librarian your library card', 'Go to the library']",Show the librarian your library card,0
+4,0.6666666666666666,"['Go to the library', 'Find a book you want to borrow', 'Take the book to the counter', 'Show the librarian your library card']","['Find a book you want to borrow', 'Wait while the librarian makes notes and puts the return date inside the cover']",Wait while the librarian makes notes and puts the return date inside the cover,1
+5,0.8333333333333334,"['Go to the library', 'Find a book you want to borrow', 'Take the book to the counter', 'Show the librarian your library card', 'Wait while the librarian makes notes and puts the return date inside the cover']","['Leave with the book', 'Find a book you want to borrow']",Leave with the book,0
+0,0.0,[],"['Go to library', 'Find book']",Go to library,0
+1,0.16666666666666666,['Go to library'],"['Give book and card to librarian', 'Walk in door']",Walk in door,1
+2,0.3333333333333333,"['Go to library', 'Walk in door']","['Go home', 'Find book']",Find book,1
+3,0.5,"['Go to library', 'Walk in door', 'Find book']","['Go to counter', 'Go to library']",Go to counter,0
+4,0.6666666666666666,"['Go to library', 'Walk in door', 'Find book', 'Go to counter']","['Go to library', 'Give book and card to librarian']",Give book and card to librarian,1
+5,0.8333333333333334,"['Go to library', 'Walk in door', 'Find book', 'Go to counter', 'Give book and card to librarian']","['Find book', 'Go home']",Go home,1

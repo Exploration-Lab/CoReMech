@@ -1,0 +1,598 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['Arrive at airport for scheduled flight', 'Place checked luggage on scale.']",Arrive at airport for scheduled flight,0
+1,0.125,['Arrive at airport for scheduled flight'],"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter""]",Go to your airline's check-in counter,1
+2,0.25,"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter""]","['Place checked luggage on scale.', 'Answer questions about your bags']",Place checked luggage on scale.,0
+3,0.375,"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter"", 'Place checked luggage on scale.']","['Give employee your ticket and photo ID', 'Receive boarding pass and back check receipt.']",Give employee your ticket and photo ID,0
+4,0.5,"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter"", 'Place checked luggage on scale.', 'Give employee your ticket and photo ID']","[""Go to your airline's check-in counter"", 'Confirm where your flight is headed']",Confirm where your flight is headed,1
+5,0.625,"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter"", 'Place checked luggage on scale.', 'Give employee your ticket and photo ID', 'Confirm where your flight is headed']","['Answer questions about your bags', 'Proceed to airport security']",Answer questions about your bags,0
+6,0.75,"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter"", 'Place checked luggage on scale.', 'Give employee your ticket and photo ID', 'Confirm where your flight is headed', 'Answer questions about your bags']","['Give employee your ticket and photo ID', 'Receive boarding pass and back check receipt.']",Receive boarding pass and back check receipt.,1
+7,0.875,"['Arrive at airport for scheduled flight', ""Go to your airline's check-in counter"", 'Place checked luggage on scale.', 'Give employee your ticket and photo ID', 'Confirm where your flight is headed', 'Answer questions about your bags', 'Receive boarding pass and back check receipt.']","['Confirm where your flight is headed', 'Proceed to airport security']",Proceed to airport security,1
+0,0.0,[],"['Find your gate number', 'Park your car']",Park your car,1
+1,0.16666666666666666,['Park your car'],"['Take luggage to terminal', 'Wait in line']",Take luggage to terminal,0
+2,0.3333333333333333,"['Park your car', 'Take luggage to terminal']","['Wait in line', 'Find your gate number']",Wait in line,0
+3,0.5,"['Park your car', 'Take luggage to terminal', 'Wait in line']","['Find your gate number', 'Get tickets']",Get tickets,1
+4,0.6666666666666666,"['Park your car', 'Take luggage to terminal', 'Wait in line', 'Get tickets']","['Park your car', 'Turn in checked luggage']",Turn in checked luggage,1
+5,0.8333333333333334,"['Park your car', 'Take luggage to terminal', 'Wait in line', 'Get tickets', 'Turn in checked luggage']","['Wait in line', 'Find your gate number']",Find your gate number,1
+0,0.0,[],"['Leave check in counter', 'Walk up to check in counter']",Walk up to check in counter,1
+1,0.125,['Walk up to check in counter'],"['Receive confirmation of boarding', 'Hand over boarding pass']",Hand over boarding pass,1
+2,0.25,"['Walk up to check in counter', 'Hand over boarding pass']","['Give identification', 'Take seat']",Give identification,0
+3,0.375,"['Walk up to check in counter', 'Hand over boarding pass', 'Give identification']","['Check in luggage bags', 'Take seat']",Check in luggage bags,0
+4,0.5,"['Walk up to check in counter', 'Hand over boarding pass', 'Give identification', 'Check in luggage bags']","['Take seat', 'Receive confirmation of boarding']",Receive confirmation of boarding,1
+5,0.625,"['Walk up to check in counter', 'Hand over boarding pass', 'Give identification', 'Check in luggage bags', 'Receive confirmation of boarding']","['Leave check in counter', 'Give identification']",Leave check in counter,0
+6,0.75,"['Walk up to check in counter', 'Hand over boarding pass', 'Give identification', 'Check in luggage bags', 'Receive confirmation of boarding', 'Leave check in counter']","['Take seat', 'Check in luggage bags']",Take seat,0
+7,0.875,"['Walk up to check in counter', 'Hand over boarding pass', 'Give identification', 'Check in luggage bags', 'Receive confirmation of boarding', 'Leave check in counter', 'Take seat']","['Walk up to check in counter', 'Wait for plane']",Wait for plane,1
+0,0.0,[],"['Take out ticket and ID card', 'Look for your gate number in the flight information board']",Look for your gate number in the flight information board,1
+1,0.125,['Look for your gate number in the flight information board'],"['Go to the respective gate', 'Go to the respective gate']",Go to the respective gate,0
+2,0.25,"['Look for your gate number in the flight information board', 'Go to the respective gate']","['Take out ticket and ID card', 'Show your ticket and passport/ID']",Take out ticket and ID card,0
+3,0.375,"['Look for your gate number in the flight information board', 'Go to the respective gate', 'Take out ticket and ID card']","['Ask receptionist for your airline counter', 'Show them to the security guard']",Show them to the security guard,1
+4,0.5,"['Look for your gate number in the flight information board', 'Go to the respective gate', 'Take out ticket and ID card', 'Show them to the security guard']","['Enter the hall area', 'Look for your gate number in the flight information board']",Enter the hall area,0
+5,0.625,"['Look for your gate number in the flight information board', 'Go to the respective gate', 'Take out ticket and ID card', 'Show them to the security guard', 'Enter the hall area']","['Ask receptionist for your airline counter', 'Take out ticket and ID card']",Ask receptionist for your airline counter,0
+6,0.75,"['Look for your gate number in the flight information board', 'Go to the respective gate', 'Take out ticket and ID card', 'Show them to the security guard', 'Enter the hall area', 'Ask receptionist for your airline counter']","['Show them to the security guard', 'Go to the airline counter']",Go to the airline counter,1
+7,0.875,"['Look for your gate number in the flight information board', 'Go to the respective gate', 'Take out ticket and ID card', 'Show them to the security guard', 'Enter the hall area', 'Ask receptionist for your airline counter', 'Go to the airline counter']","['Show them to the security guard', 'Show your ticket and passport/ID']",Show your ticket and passport/ID,1
+0,0.0,[],"['give luggage to worker', 'Arrive at airport']",Arrive at airport,1
+1,0.125,['Arrive at airport'],"['find check-in for your airline', 'go through security']",find check-in for your airline,0
+2,0.25,"['Arrive at airport', 'find check-in for your airline']","['wait in line', 'wait at gate']",wait in line,0
+3,0.375,"['Arrive at airport', 'find check-in for your airline', 'wait in line']","['give ID to worker', 'wait at gate']",give ID to worker,0
+4,0.5,"['Arrive at airport', 'find check-in for your airline', 'wait in line', 'give ID to worker']","['wait at gate', 'give luggage to worker']",give luggage to worker,1
+5,0.625,"['Arrive at airport', 'find check-in for your airline', 'wait in line', 'give ID to worker', 'give luggage to worker']","['Arrive at airport', 'go through security']",go through security,1
+6,0.75,"['Arrive at airport', 'find check-in for your airline', 'wait in line', 'give ID to worker', 'give luggage to worker', 'go through security']","['wait in line', 'wait at gate']",wait at gate,1
+7,0.875,"['Arrive at airport', 'find check-in for your airline', 'wait in line', 'give ID to worker', 'give luggage to worker', 'go through security', 'wait at gate']","['show boarding pass to gate worker', 'Arrive at airport']",show boarding pass to gate worker,0
+0,0.0,[],"['Take your ticket to front desk', 'Take your ticket to front desk']",Take your ticket to front desk,0
+1,0.16666666666666666,['Take your ticket to front desk'],"['Give ticket to front desk person', 'Get baggage claim ticket and ID']",Give ticket to front desk person,0
+2,0.3333333333333333,"['Take your ticket to front desk', 'Give ticket to front desk person']","['Get baggage claim ticket and ID', 'Give ID to front desk']",Give ID to front desk,1
+3,0.5,"['Take your ticket to front desk', 'Give ticket to front desk person', 'Give ID to front desk']","['Take your ticket to front desk', 'Give luggage to persons']",Give luggage to persons,1
+4,0.6666666666666666,"['Take your ticket to front desk', 'Give ticket to front desk person', 'Give ID to front desk', 'Give luggage to persons']","['Get baggage claim ticket and ID', 'Give ticket to front desk person']",Get baggage claim ticket and ID,0
+5,0.8333333333333334,"['Take your ticket to front desk', 'Give ticket to front desk person', 'Give ID to front desk', 'Give luggage to persons', 'Get baggage claim ticket and ID']","['Go to screening area', 'Give ticket to front desk person']",Go to screening area,0
+0,0.0,[],"['Arrive at the airport', 'Arrive at the airport']",Arrive at the airport,1
+1,0.14285714285714285,['Arrive at the airport'],"['Check bags', 'Retrieve ticket']",Retrieve ticket,1
+2,0.2857142857142857,"['Arrive at the airport', 'Retrieve ticket']","['Show documents', 'Pass security']",Show documents,0
+3,0.42857142857142855,"['Arrive at the airport', 'Retrieve ticket', 'Show documents']","['Check bags', 'Arrive at the airport']",Check bags,0
+4,0.5714285714285714,"['Arrive at the airport', 'Retrieve ticket', 'Show documents', 'Check bags']","['Receive boarding ticket', 'Arrive at the airport']",Receive boarding ticket,0
+5,0.7142857142857143,"['Arrive at the airport', 'Retrieve ticket', 'Show documents', 'Check bags', 'Receive boarding ticket']","['Show documents', 'Pass security']",Pass security,1
+6,0.8571428571428571,"['Arrive at the airport', 'Retrieve ticket', 'Show documents', 'Check bags', 'Receive boarding ticket', 'Pass security']","['Check bags', 'Head to gate']",Head to gate,1
+0,0.0,[],"['Give ticket and ID to attendant when called.', 'Proceed to airport.']",Proceed to airport.,1
+1,0.14285714285714285,['Proceed to airport.'],"['Go to gate of the appropriate airline.', 'Give ticket and ID to attendant when called.']",Go to gate of the appropriate airline.,0
+2,0.2857142857142857,"['Proceed to airport.', 'Go to gate of the appropriate airline.']","['Stand in line to counter.', 'Proceed to gate.']",Stand in line to counter.,0
+3,0.42857142857142855,"['Proceed to airport.', 'Go to gate of the appropriate airline.', 'Stand in line to counter.']","['Give ticket and ID to attendant when called.', 'Proceed to airport.']",Give ticket and ID to attendant when called.,0
+4,0.5714285714285714,"['Proceed to airport.', 'Go to gate of the appropriate airline.', 'Stand in line to counter.', 'Give ticket and ID to attendant when called.']","['Hand over luggage and check it.', 'Go to gate of the appropriate airline.']",Hand over luggage and check it.,0
+5,0.7142857142857143,"['Proceed to airport.', 'Go to gate of the appropriate airline.', 'Stand in line to counter.', 'Give ticket and ID to attendant when called.', 'Hand over luggage and check it.']","['Receive boarding pass.', 'Proceed to airport.']",Receive boarding pass.,0
+6,0.8571428571428571,"['Proceed to airport.', 'Go to gate of the appropriate airline.', 'Stand in line to counter.', 'Give ticket and ID to attendant when called.', 'Hand over luggage and check it.', 'Receive boarding pass.']","['Proceed to gate.', 'Go to gate of the appropriate airline.']",Proceed to gate.,0
+0,0.0,[],"['wait in line', 'Take suitcases from car.']",Take suitcases from car.,1
+1,0.125,['Take suitcases from car.'],"['Go to check in counter', 'hand over bags to be checked']",Go to check in counter,0
+2,0.25,"['Take suitcases from car.', 'Go to check in counter']","['wait in line', 'wait in line']",wait in line,1
+3,0.375,"['Take suitcases from car.', 'Go to check in counter', 'wait in line']","['Take suitcases from car.', 'Give ticket and license to airline person']",Give ticket and license to airline person,1
+4,0.5,"['Take suitcases from car.', 'Go to check in counter', 'wait in line', 'Give ticket and license to airline person']","['Take suitcases from car.', 'hand over bags to be checked']",hand over bags to be checked,1
+5,0.625,"['Take suitcases from car.', 'Go to check in counter', 'wait in line', 'Give ticket and license to airline person', 'hand over bags to be checked']","['take board pass and license', 'wait in line']",take board pass and license,0
+6,0.75,"['Take suitcases from car.', 'Go to check in counter', 'wait in line', 'Give ticket and license to airline person', 'hand over bags to be checked', 'take board pass and license']","['Go to check in counter', 'Go to security']",Go to security,1
+7,0.875,"['Take suitcases from car.', 'Go to check in counter', 'wait in line', 'Give ticket and license to airline person', 'hand over bags to be checked', 'take board pass and license', 'Go to security']","['wait in line', 'wait in line']",wait in line,0
+0,0.0,[],"['Park in airport garage.', 'Check luggage at departures desk.']",Park in airport garage.,0
+1,0.14285714285714285,['Park in airport garage.'],"['Walk through security check point.', 'Take luggage into terminal.']",Take luggage into terminal.,1
+2,0.2857142857142857,"['Park in airport garage.', 'Take luggage into terminal.']","['Find gate.', 'Check luggage at departures desk.']",Check luggage at departures desk.,1
+3,0.42857142857142855,"['Park in airport garage.', 'Take luggage into terminal.', 'Check luggage at departures desk.']","['Print out board pass on kiosk.', 'Wait for plane.']",Print out board pass on kiosk.,0
+4,0.5714285714285714,"['Park in airport garage.', 'Take luggage into terminal.', 'Check luggage at departures desk.', 'Print out board pass on kiosk.']","['Walk through security check point.', 'Park in airport garage.']",Walk through security check point.,0
+5,0.7142857142857143,"['Park in airport garage.', 'Take luggage into terminal.', 'Check luggage at departures desk.', 'Print out board pass on kiosk.', 'Walk through security check point.']","['Park in airport garage.', 'Find gate.']",Find gate.,1
+6,0.8571428571428571,"['Park in airport garage.', 'Take luggage into terminal.', 'Check luggage at departures desk.', 'Print out board pass on kiosk.', 'Walk through security check point.', 'Find gate.']","['Wait for plane.', 'Take luggage into terminal.']",Wait for plane.,0
+0,0.0,[],"['Wait in line', 'Wait in line']",Wait in line,1
+1,0.125,['Wait in line'],"['When the attendant motions for you, go to the counter', 'When directed by attendant, place baggage on the scale']","When the attendant motions for you, go to the counter",0
+2,0.25,"['Wait in line', 'When the attendant motions for you, go to the counter']","['Look on the boarding pass to see what gate you need to go to', 'Show tickets to attendant']",Show tickets to attendant,1
+3,0.375,"['Wait in line', 'When the attendant motions for you, go to the counter', 'Show tickets to attendant']","['Follow the signs to get to your gate', 'Show ID to attendant']",Show ID to attendant,1
+4,0.5,"['Wait in line', 'When the attendant motions for you, go to the counter', 'Show tickets to attendant', 'Show ID to attendant']","['Look on the boarding pass to see what gate you need to go to', 'When directed by attendant, place baggage on the scale']","When directed by attendant, place baggage on the scale",1
+5,0.625,"['Wait in line', 'When the attendant motions for you, go to the counter', 'Show tickets to attendant', 'Show ID to attendant', 'When directed by attendant, place baggage on the scale']","['When the attendant motions for you, go to the counter', 'Collect boarding passes from attendant']",Collect boarding passes from attendant,1
+6,0.75,"['Wait in line', 'When the attendant motions for you, go to the counter', 'Show tickets to attendant', 'Show ID to attendant', 'When directed by attendant, place baggage on the scale', 'Collect boarding passes from attendant']","['When the attendant motions for you, go to the counter', 'Look on the boarding pass to see what gate you need to go to']",Look on the boarding pass to see what gate you need to go to,1
+7,0.875,"['Wait in line', 'When the attendant motions for you, go to the counter', 'Show tickets to attendant', 'Show ID to attendant', 'When directed by attendant, place baggage on the scale', 'Collect boarding passes from attendant', 'Look on the boarding pass to see what gate you need to go to']","['When the attendant motions for you, go to the counter', 'Follow the signs to get to your gate']",Follow the signs to get to your gate,1
+0,0.0,[],"['Go to airport', 'Leave luggage']",Go to airport,0
+1,0.14285714285714285,['Go to airport'],"['Get your luggage checked', 'Wait in line']",Wait in line,1
+2,0.2857142857142857,"['Go to airport', 'Wait in line']","['Give your passport', 'Leave check in']",Give your passport,0
+3,0.42857142857142855,"['Go to airport', 'Wait in line', 'Give your passport']","['Get your luggage checked', 'Go to airport']",Get your luggage checked,0
+4,0.5714285714285714,"['Go to airport', 'Wait in line', 'Give your passport', 'Get your luggage checked']","['Leave check in', 'Leave luggage']",Leave luggage,1
+5,0.7142857142857143,"['Go to airport', 'Wait in line', 'Give your passport', 'Get your luggage checked', 'Leave luggage']","['Go to airport', 'Get your ticket']",Get your ticket,1
+6,0.8571428571428571,"['Go to airport', 'Wait in line', 'Give your passport', 'Get your luggage checked', 'Leave luggage', 'Get your ticket']","['Wait in line', 'Leave check in']",Leave check in,1
+0,0.0,[],"['Wait for them to confirm your details.', 'Enter the airport.']",Enter the airport.,1
+1,0.14285714285714285,['Enter the airport.'],"['Find the correct airline.', 'Find the correct airline.']",Find the correct airline.,0
+2,0.2857142857142857,"['Enter the airport.', 'Find the correct airline.']","['Wait in line.', 'Wait for them to confirm your details.']",Wait in line.,0
+3,0.42857142857142855,"['Enter the airport.', 'Find the correct airline.', 'Wait in line.']","['Hand the employee your drivers license.', 'Take your ticket when it is handed to you.']",Hand the employee your drivers license.,0
+4,0.5714285714285714,"['Enter the airport.', 'Find the correct airline.', 'Wait in line.', 'Hand the employee your drivers license.']","['Give them your confirmation number.', 'Take your ticket when it is handed to you.']",Give them your confirmation number.,0
+5,0.7142857142857143,"['Enter the airport.', 'Find the correct airline.', 'Wait in line.', 'Hand the employee your drivers license.', 'Give them your confirmation number.']","['Enter the airport.', 'Wait for them to confirm your details.']",Wait for them to confirm your details.,1
+6,0.8571428571428571,"['Enter the airport.', 'Find the correct airline.', 'Wait in line.', 'Hand the employee your drivers license.', 'Give them your confirmation number.', 'Wait for them to confirm your details.']","['Take your ticket when it is handed to you.', 'Find the correct airline.']",Take your ticket when it is handed to you.,0
+0,0.0,[],"['Wait for plane', 'Pack luggage']",Pack luggage,1
+1,0.16666666666666666,['Pack luggage'],"['Go to airport', 'Go to airport']",Go to airport,0
+2,0.3333333333333333,"['Pack luggage', 'Go to airport']","['Check luggage', 'Go to check-in station']",Go to check-in station,1
+3,0.5,"['Pack luggage', 'Go to airport', 'Go to check-in station']","['Give ticket to clerk', 'Pack luggage']",Give ticket to clerk,0
+4,0.6666666666666666,"['Pack luggage', 'Go to airport', 'Go to check-in station', 'Give ticket to clerk']","['Go to airport', 'Check luggage']",Check luggage,1
+5,0.8333333333333334,"['Pack luggage', 'Go to airport', 'Go to check-in station', 'Give ticket to clerk', 'Check luggage']","['Wait for plane', 'Go to check-in station']",Wait for plane,0
+0,0.0,[],"['If needed, park your car.', 'Print your ticket out.']",Print your ticket out.,1
+1,0.125,['Print your ticket out.'],"['Check any luggage or, if preferred, carry your luggage with you.', 'Make sure you have your identification and travel documents.']",Make sure you have your identification and travel documents.,1
+2,0.25,"['Print your ticket out.', 'Make sure you have your identification and travel documents.']","['Travel to the airport.', 'Go to the appropriate ticket counter for your airline and check in.']",Travel to the airport.,0
+3,0.375,"['Print your ticket out.', 'Make sure you have your identification and travel documents.', 'Travel to the airport.']","['Go to the appropriate ticket counter for your airline and check in.', 'If needed, park your car.']","If needed, park your car.",1
+4,0.5,"['Print your ticket out.', 'Make sure you have your identification and travel documents.', 'Travel to the airport.', 'If needed, park your car.']","['Use the kiosk if you are comfortable, as they are more efficient.', 'Check any luggage or, if preferred, carry your luggage with you.']","Check any luggage or, if preferred, carry your luggage with you.",1
+5,0.625,"['Print your ticket out.', 'Make sure you have your identification and travel documents.', 'Travel to the airport.', 'If needed, park your car.', 'Check any luggage or, if preferred, carry your luggage with you.']","['Make sure you have your identification and travel documents.', 'Go to the appropriate ticket counter for your airline and check in.']",Go to the appropriate ticket counter for your airline and check in.,1
+6,0.75,"['Print your ticket out.', 'Make sure you have your identification and travel documents.', 'Travel to the airport.', 'If needed, park your car.', 'Check any luggage or, if preferred, carry your luggage with you.', 'Go to the appropriate ticket counter for your airline and check in.']","['Use the kiosk if you are comfortable, as they are more efficient.', 'Print your ticket out.']","Use the kiosk if you are comfortable, as they are more efficient.",0
+7,0.875,"['Print your ticket out.', 'Make sure you have your identification and travel documents.', 'Travel to the airport.', 'If needed, park your car.', 'Check any luggage or, if preferred, carry your luggage with you.', 'Go to the appropriate ticket counter for your airline and check in.', 'Use the kiosk if you are comfortable, as they are more efficient.']","['Check any luggage or, if preferred, carry your luggage with you.', 'Go to the security line.']",Go to the security line.,1
+0,0.0,[],"['put the luggage on the scale at the counter', 'find where to check in']",find where to check in,1
+1,0.125,['find where to check in'],"['get into line', 'put the luggage on the scale at the counter']",get into line,0
+2,0.25,"['find where to check in', 'get into line']","['have your luggage labeled', 'put the luggage on the scale at the counter']",have your luggage labeled,0
+3,0.375,"['find where to check in', 'get into line', 'have your luggage labeled']","['have your proper id and ticket ready', 'find where to check in']",have your proper id and ticket ready,0
+4,0.5,"['find where to check in', 'get into line', 'have your luggage labeled', 'have your proper id and ticket ready']","['wait to get boarding pass.', 'when your turn step up to the kiosk']",when your turn step up to the kiosk,1
+5,0.625,"['find where to check in', 'get into line', 'have your luggage labeled', 'have your proper id and ticket ready', 'when your turn step up to the kiosk']","['wait to get boarding pass.', 'give the attendant your ticket and id']",give the attendant your ticket and id,1
+6,0.75,"['find where to check in', 'get into line', 'have your luggage labeled', 'have your proper id and ticket ready', 'when your turn step up to the kiosk', 'give the attendant your ticket and id']","['put the luggage on the scale at the counter', 'have your proper id and ticket ready']",put the luggage on the scale at the counter,0
+7,0.875,"['find where to check in', 'get into line', 'have your luggage labeled', 'have your proper id and ticket ready', 'when your turn step up to the kiosk', 'give the attendant your ticket and id', 'put the luggage on the scale at the counter']","['find where to check in', 'wait to get boarding pass.']",wait to get boarding pass.,1
+0,0.0,[],"['Walk in', 'Check in bags']",Walk in,0
+1,0.14285714285714285,['Walk in'],"['Walk in', 'Go to counter']",Go to counter,1
+2,0.2857142857142857,"['Walk in', 'Go to counter']","['Give name and flight', 'Walk to gate']",Give name and flight,0
+3,0.42857142857142855,"['Walk in', 'Go to counter', 'Give name and flight']","['Walk to gate', 'Receive ticket and gate number']",Receive ticket and gate number,1
+4,0.5714285714285714,"['Walk in', 'Go to counter', 'Give name and flight', 'Receive ticket and gate number']","['Check in bags', 'Go to counter']",Check in bags,0
+5,0.7142857142857143,"['Walk in', 'Go to counter', 'Give name and flight', 'Receive ticket and gate number', 'Check in bags']","['Walk in', 'Keep carry-on']",Keep carry-on,1
+6,0.8571428571428571,"['Walk in', 'Go to counter', 'Give name and flight', 'Receive ticket and gate number', 'Check in bags', 'Keep carry-on']","['Receive ticket and gate number', 'Walk to gate']",Walk to gate,1
+0,0.0,[],"['Reach the airport', 'Go to the boarding counter']",Reach the airport,0
+1,0.125,['Reach the airport'],"['Wait at the lounge', 'Show the ticket and enter']",Show the ticket and enter,1
+2,0.25,"['Reach the airport', 'Show the ticket and enter']","['Get the boarding pass', 'Go to the boarding counter']",Go to the boarding counter,1
+3,0.375,"['Reach the airport', 'Show the ticket and enter', 'Go to the boarding counter']","['Wait at the lounge', 'Present the ticket to the officer']",Present the ticket to the officer,1
+4,0.5,"['Reach the airport', 'Show the ticket and enter', 'Go to the boarding counter', 'Present the ticket to the officer']","['Get the boarding pass', 'Get the luggage scanned']",Get the boarding pass,0
+5,0.625,"['Reach the airport', 'Show the ticket and enter', 'Go to the boarding counter', 'Present the ticket to the officer', 'Get the boarding pass']","['Pass through the body scanner', 'Wait at the lounge']",Pass through the body scanner,0
+6,0.75,"['Reach the airport', 'Show the ticket and enter', 'Go to the boarding counter', 'Present the ticket to the officer', 'Get the boarding pass', 'Pass through the body scanner']","['Get the luggage scanned', 'Reach the airport']",Get the luggage scanned,0
+7,0.875,"['Reach the airport', 'Show the ticket and enter', 'Go to the boarding counter', 'Present the ticket to the officer', 'Get the boarding pass', 'Pass through the body scanner', 'Get the luggage scanned']","['Go to the boarding counter', 'Wait at the lounge']",Wait at the lounge,1
+0,0.0,[],"['Drive to airport.', 'Drive to airport.']",Drive to airport.,1
+1,0.125,['Drive to airport.'],"['Park car in long term parking.', 'Drive to airport.']",Park car in long term parking.,0
+2,0.25,"['Drive to airport.', 'Park car in long term parking.']","['Find the right counter for airline you are flying.', 'At counter, give checked luggage to attendant.']",Find the right counter for airline you are flying.,0
+3,0.375,"['Drive to airport.', 'Park car in long term parking.', 'Find the right counter for airline you are flying.']","['Stand in line and wait for your turn.', 'Present id and a credit card to attendant.']",Stand in line and wait for your turn.,0
+4,0.5,"['Drive to airport.', 'Park car in long term parking.', 'Find the right counter for airline you are flying.', 'Stand in line and wait for your turn.']","['Get boarding pass.', 'At counter, give checked luggage to attendant.']","At counter, give checked luggage to attendant.",1
+5,0.625,"['Drive to airport.', 'Park car in long term parking.', 'Find the right counter for airline you are flying.', 'Stand in line and wait for your turn.', 'At counter, give checked luggage to attendant.']","['Present id and a credit card to attendant.', 'Park car in long term parking.']",Present id and a credit card to attendant.,0
+6,0.75,"['Drive to airport.', 'Park car in long term parking.', 'Find the right counter for airline you are flying.', 'Stand in line and wait for your turn.', 'At counter, give checked luggage to attendant.', 'Present id and a credit card to attendant.']","['Drive to airport.', 'Get boarding pass.']",Get boarding pass.,1
+7,0.875,"['Drive to airport.', 'Park car in long term parking.', 'Find the right counter for airline you are flying.', 'Stand in line and wait for your turn.', 'At counter, give checked luggage to attendant.', 'Present id and a credit card to attendant.', 'Get boarding pass.']","['Take carry on luggage and boarding pass.', 'Stand in line and wait for your turn.']",Take carry on luggage and boarding pass.,0
+0,0.0,[],"['Provide them with the information that they request', 'Enter the airport']",Enter the airport,1
+1,0.125,['Enter the airport'],"['Hand them your ID', ""Locate your flight company's terminal""]",Locate your flight company's terminal,1
+2,0.25,"['Enter the airport', ""Locate your flight company's terminal""]","['Hand over your bag to be checked', 'Approach the counter']",Approach the counter,1
+3,0.375,"['Enter the airport', ""Locate your flight company's terminal"", 'Approach the counter']","['Enter the airport', 'Tell the clerk you wish to check in']",Tell the clerk you wish to check in,1
+4,0.5,"['Enter the airport', ""Locate your flight company's terminal"", 'Approach the counter', 'Tell the clerk you wish to check in']","['Hand them your ID', 'Hand over your bag to be checked']",Hand them your ID,0
+5,0.625,"['Enter the airport', ""Locate your flight company's terminal"", 'Approach the counter', 'Tell the clerk you wish to check in', 'Hand them your ID']","[""Locate your flight company's terminal"", 'Provide them with the information that they request']",Provide them with the information that they request,1
+6,0.75,"['Enter the airport', ""Locate your flight company's terminal"", 'Approach the counter', 'Tell the clerk you wish to check in', 'Hand them your ID', 'Provide them with the information that they request']","[""Locate your flight company's terminal"", 'Hand over your bag to be checked']",Hand over your bag to be checked,1
+7,0.875,"['Enter the airport', ""Locate your flight company's terminal"", 'Approach the counter', 'Tell the clerk you wish to check in', 'Hand them your ID', 'Provide them with the information that they request', 'Hand over your bag to be checked']","['Receive ticket from clerk', 'Tell the clerk you wish to check in']",Receive ticket from clerk,0
+0,0.0,[],"['Wait in line.', 'Wait in line.']",Wait in line.,1
+1,0.14285714285714285,['Wait in line.'],"['Put items in basket.', 'Put information into a machine.']",Put information into a machine.,1
+2,0.2857142857142857,"['Wait in line.', 'Put information into a machine.']","['Get back in line.', 'Walk through security check.']",Get back in line.,0
+3,0.42857142857142855,"['Wait in line.', 'Put information into a machine.', 'Get back in line.']","['Look for terminal.', 'Put items in basket.']",Put items in basket.,1
+4,0.5714285714285714,"['Wait in line.', 'Put information into a machine.', 'Get back in line.', 'Put items in basket.']","['Look for terminal.', 'Walk through security check.']",Walk through security check.,1
+5,0.7142857142857143,"['Wait in line.', 'Put information into a machine.', 'Get back in line.', 'Put items in basket.', 'Walk through security check.']","['Get your items back.', 'Get back in line.']",Get your items back.,0
+6,0.8571428571428571,"['Wait in line.', 'Put information into a machine.', 'Get back in line.', 'Put items in basket.', 'Walk through security check.', 'Get your items back.']","['Put items in basket.', 'Look for terminal.']",Look for terminal.,1
+0,0.0,[],"['Arrive at airport', 'Talk to clerk']",Arrive at airport,0
+1,0.125,['Arrive at airport'],"['Walk into building', 'Take bags out of car']",Take bags out of car,1
+2,0.25,"['Arrive at airport', 'Take bags out of car']","['Receive ticket', 'Walk into building']",Walk into building,1
+3,0.375,"['Arrive at airport', 'Take bags out of car', 'Walk into building']","['Receive ticket', 'Go to proper boarding area']",Go to proper boarding area,1
+4,0.5,"['Arrive at airport', 'Take bags out of car', 'Walk into building', 'Go to proper boarding area']","['Wait in line', 'Receive ticket']",Wait in line,0
+5,0.625,"['Arrive at airport', 'Take bags out of car', 'Walk into building', 'Go to proper boarding area', 'Wait in line']","['Take bags out of car', 'Talk to clerk']",Talk to clerk,1
+6,0.75,"['Arrive at airport', 'Take bags out of car', 'Walk into building', 'Go to proper boarding area', 'Wait in line', 'Talk to clerk']","['Measure and hand over bags', 'Go to proper boarding area']",Measure and hand over bags,0
+7,0.875,"['Arrive at airport', 'Take bags out of car', 'Walk into building', 'Go to proper boarding area', 'Wait in line', 'Talk to clerk', 'Measure and hand over bags']","['Arrive at airport', 'Receive ticket']",Receive ticket,1
+0,0.0,[],"['Walk up to check in counter for airline', 'Put luggage on scales']",Walk up to check in counter for airline,0
+1,0.2,['Walk up to check in counter for airline'],"['Hand over reservation information and passport', 'Find out information on flight']",Hand over reservation information and passport,0
+2,0.4,"['Walk up to check in counter for airline', 'Hand over reservation information and passport']","['Put luggage on scales', 'Collect boarding passes']",Put luggage on scales,0
+3,0.6,"['Walk up to check in counter for airline', 'Hand over reservation information and passport', 'Put luggage on scales']","['Walk up to check in counter for airline', 'Find out information on flight']",Find out information on flight,1
+4,0.8,"['Walk up to check in counter for airline', 'Hand over reservation information and passport', 'Put luggage on scales', 'Find out information on flight']","['Walk up to check in counter for airline', 'Collect boarding passes']",Collect boarding passes,1
+0,0.0,[],"['Wait in line to speak with an attendant', 'Leave bags with checker at the side of the road']",Leave bags with checker at the side of the road,1
+1,0.2,['Leave bags with checker at the side of the road'],"[""Make your way to the airline's gate"", 'Check in to your flight']",Make your way to the airline's gate,0
+2,0.4,"['Leave bags with checker at the side of the road', ""Make your way to the airline's gate""]","['Wait in line to speak with an attendant', 'Walk to your boarding area and wait.']",Wait in line to speak with an attendant,0
+3,0.6,"['Leave bags with checker at the side of the road', ""Make your way to the airline's gate"", 'Wait in line to speak with an attendant']","['Check in to your flight', 'Leave bags with checker at the side of the road']",Check in to your flight,0
+4,0.8,"['Leave bags with checker at the side of the road', ""Make your way to the airline's gate"", 'Wait in line to speak with an attendant', 'Check in to your flight']","['Walk to your boarding area and wait.', 'Leave bags with checker at the side of the road']",Walk to your boarding area and wait.,0
+0,0.0,[],"['check in', 'arrive airport']",arrive airport,1
+1,0.2,['arrive airport'],"['check in', 'present booking information']",present booking information,1
+2,0.4,"['arrive airport', 'present booking information']","['board flight', 'check in']",check in,1
+3,0.6,"['arrive airport', 'present booking information', 'check in']","['sit and wait', 'arrive airport']",sit and wait,0
+4,0.8,"['arrive airport', 'present booking information', 'check in', 'sit and wait']","['board flight', 'present booking information']",board flight,0
+0,0.0,[],"['check-in', 'arrive at airport']",arrive at airport,1
+1,0.125,['arrive at airport'],"['remove luggage from vehicle', 'remove luggage from vehicle']",remove luggage from vehicle,0
+2,0.25,"['arrive at airport', 'remove luggage from vehicle']","['go through security', 'walk to ticket counter']",walk to ticket counter,1
+3,0.375,"['arrive at airport', 'remove luggage from vehicle', 'walk to ticket counter']","['check-in', 'wait in line']",wait in line,1
+4,0.5,"['arrive at airport', 'remove luggage from vehicle', 'walk to ticket counter', 'wait in line']","['remove luggage from vehicle', 'meet with airline staff']",meet with airline staff,1
+5,0.625,"['arrive at airport', 'remove luggage from vehicle', 'walk to ticket counter', 'wait in line', 'meet with airline staff']","['check-in', 'arrive at gate']",check-in,0
+6,0.75,"['arrive at airport', 'remove luggage from vehicle', 'walk to ticket counter', 'wait in line', 'meet with airline staff', 'check-in']","['wait in line', 'go through security']",go through security,1
+7,0.875,"['arrive at airport', 'remove luggage from vehicle', 'walk to ticket counter', 'wait in line', 'meet with airline staff', 'check-in', 'go through security']","['meet with airline staff', 'arrive at gate']",arrive at gate,1
+0,0.0,[],"['Pack bags', 'Go to security line']",Pack bags,0
+1,0.14285714285714285,['Pack bags'],"['Pack bags', 'Go to airport']",Go to airport,1
+2,0.2857142857142857,"['Pack bags', 'Go to airport']","['Go through security', 'Go to ticket counter']",Go to ticket counter,1
+3,0.42857142857142855,"['Pack bags', 'Go to airport', 'Go to ticket counter']","['Go through security', 'Give attendant your name and identification']",Give attendant your name and identification,1
+4,0.5714285714285714,"['Pack bags', 'Go to airport', 'Go to ticket counter', 'Give attendant your name and identification']","['Pack bags', 'Get boarding pass']",Get boarding pass,1
+5,0.7142857142857143,"['Pack bags', 'Go to airport', 'Go to ticket counter', 'Give attendant your name and identification', 'Get boarding pass']","['Go to airport', 'Go to security line']",Go to security line,1
+6,0.8571428571428571,"['Pack bags', 'Go to airport', 'Go to ticket counter', 'Give attendant your name and identification', 'Get boarding pass', 'Go to security line']","['Go through security', 'Give attendant your name and identification']",Go through security,0
+0,0.0,[],"['Go to the airport', 'Go up to the desk when your flight is called']",Go to the airport,0
+1,0.2,['Go to the airport'],"['Find your terminal', 'Go up to the desk when your flight is called']",Find your terminal,0
+2,0.4,"['Go to the airport', 'Find your terminal']","['Get on the plane', 'Find a seat']",Find a seat,1
+3,0.6,"['Go to the airport', 'Find your terminal', 'Find a seat']","['Go up to the desk when your flight is called', 'Go to the airport']",Go up to the desk when your flight is called,0
+4,0.8,"['Go to the airport', 'Find your terminal', 'Find a seat', 'Go up to the desk when your flight is called']","['Go to the airport', 'Get on the plane']",Get on the plane,1
+0,0.0,[],"['get in car', 'get flight itinerary']",get in car,0
+1,0.14285714285714285,['get in car'],"['drive to airport', 'go to check in kiosk']",drive to airport,0
+2,0.2857142857142857,"['get in car', 'drive to airport']","['enter airport', 'present ticket and identification']",enter airport,0
+3,0.42857142857142855,"['get in car', 'drive to airport', 'enter airport']","['go to check in kiosk', 'proceed through security to the gates']",go to check in kiosk,0
+4,0.5714285714285714,"['get in car', 'drive to airport', 'enter airport', 'go to check in kiosk']","['present ticket and identification', 'drive to airport']",present ticket and identification,0
+5,0.7142857142857143,"['get in car', 'drive to airport', 'enter airport', 'go to check in kiosk', 'present ticket and identification']","['get in car', 'get flight itinerary']",get flight itinerary,1
+6,0.8571428571428571,"['get in car', 'drive to airport', 'enter airport', 'go to check in kiosk', 'present ticket and identification', 'get flight itinerary']","['enter airport', 'proceed through security to the gates']",proceed through security to the gates,1
+0,0.0,[],"['Get luggage out of trunk', 'Go to airport']",Go to airport,1
+1,0.125,['Go to airport'],"['Park in lot', 'Park in lot']",Park in lot,1
+2,0.25,"['Go to airport', 'Park in lot']","['Get luggage out of trunk', 'Check in luggage']",Get luggage out of trunk,0
+3,0.375,"['Go to airport', 'Park in lot', 'Get luggage out of trunk']","['Receive boarding pass', 'Take shuttle to terminal']",Take shuttle to terminal,1
+4,0.5,"['Go to airport', 'Park in lot', 'Get luggage out of trunk', 'Take shuttle to terminal']","['Get in line at terminal desk', 'Receive boarding pass']",Get in line at terminal desk,0
+5,0.625,"['Go to airport', 'Park in lot', 'Get luggage out of trunk', 'Take shuttle to terminal', 'Get in line at terminal desk']","['Go to airport', 'Give paperwork to desk clerk']",Give paperwork to desk clerk,1
+6,0.75,"['Go to airport', 'Park in lot', 'Get luggage out of trunk', 'Take shuttle to terminal', 'Get in line at terminal desk', 'Give paperwork to desk clerk']","['Take shuttle to terminal', 'Check in luggage']",Check in luggage,1
+7,0.875,"['Go to airport', 'Park in lot', 'Get luggage out of trunk', 'Take shuttle to terminal', 'Get in line at terminal desk', 'Give paperwork to desk clerk', 'Check in luggage']","['Park in lot', 'Receive boarding pass']",Receive boarding pass,1
+0,0.0,[],"['Get on airplane', 'Go through security']",Go through security,1
+1,0.16666666666666666,['Go through security'],"['Place luggage in designated area', 'Place luggage in designated area']",Place luggage in designated area,1
+2,0.3333333333333333,"['Go through security', 'Place luggage in designated area']","['Show receptions your ticket', 'Find designated airplane']",Find designated airplane,1
+3,0.5,"['Go through security', 'Place luggage in designated area', 'Find designated airplane']","['Get on airplane', 'Get out the airport ticket']",Get out the airport ticket,1
+4,0.6666666666666666,"['Go through security', 'Place luggage in designated area', 'Find designated airplane', 'Get out the airport ticket']","['Show receptions your ticket', 'Go through security']",Show receptions your ticket,0
+5,0.8333333333333334,"['Go through security', 'Place luggage in designated area', 'Find designated airplane', 'Get out the airport ticket', 'Show receptions your ticket']","['Place luggage in designated area', 'Get on airplane']",Get on airplane,1
+0,0.0,[],"['Drive to airport', 'Walk into airport']",Drive to airport,0
+1,0.14285714285714285,['Drive to airport'],"['Park at airport', 'Walk to check in desk']",Park at airport,0
+2,0.2857142857142857,"['Drive to airport', 'Park at airport']","['Walk into airport', 'Give information to clerk']",Walk into airport,0
+3,0.42857142857142855,"['Drive to airport', 'Park at airport', 'Walk into airport']","['Give information to clerk', 'Find check in desk']",Find check in desk,1
+4,0.5714285714285714,"['Drive to airport', 'Park at airport', 'Walk into airport', 'Find check in desk']","['Walk to check in desk', 'Wait for further instruction']",Walk to check in desk,0
+5,0.7142857142857143,"['Drive to airport', 'Park at airport', 'Walk into airport', 'Find check in desk', 'Walk to check in desk']","['Walk into airport', 'Give information to clerk']",Give information to clerk,1
+6,0.8571428571428571,"['Drive to airport', 'Park at airport', 'Walk into airport', 'Find check in desk', 'Walk to check in desk', 'Give information to clerk']","['Wait for further instruction', 'Drive to airport']",Wait for further instruction,0
+0,0.0,[],"['go to bag drop off', 'go to bag drop off']",go to bag drop off,1
+1,0.2,['go to bag drop off'],"['leave bags there', 'leave bags there']",leave bags there,1
+2,0.4,"['go to bag drop off', 'leave bags there']","['wait for your turn to board plane', 'take ticket to check point']",take ticket to check point,1
+3,0.6,"['go to bag drop off', 'leave bags there', 'take ticket to check point']","['go to bag drop off', 'have it looked over']",have it looked over,1
+4,0.8,"['go to bag drop off', 'leave bags there', 'take ticket to check point', 'have it looked over']","['go to bag drop off', 'wait for your turn to board plane']",wait for your turn to board plane,1
+0,0.0,[],"['Go to kiosk.', 'Go to kiosk.']",Go to kiosk.,0
+1,0.14285714285714285,['Go to kiosk.'],"['Print boarding pass.', 'Put tags on luggage.']",Print boarding pass.,0
+2,0.2857142857142857,"['Go to kiosk.', 'Print boarding pass.']","['Find gate and wait for boarding announcement.', 'Walk up to counter.']",Walk up to counter.,1
+3,0.42857142857142855,"['Go to kiosk.', 'Print boarding pass.', 'Walk up to counter.']","['Check in luggage and get luggage tags.', 'Go to kiosk.']",Check in luggage and get luggage tags.,0
+4,0.5714285714285714,"['Go to kiosk.', 'Print boarding pass.', 'Walk up to counter.', 'Check in luggage and get luggage tags.']","['Put tags on luggage.', 'Find gate and wait for boarding announcement.']",Put tags on luggage.,0
+5,0.7142857142857143,"['Go to kiosk.', 'Print boarding pass.', 'Walk up to counter.', 'Check in luggage and get luggage tags.', 'Put tags on luggage.']","['Give luggage to attendant.', 'Print boarding pass.']",Give luggage to attendant.,0
+6,0.8571428571428571,"['Go to kiosk.', 'Print boarding pass.', 'Walk up to counter.', 'Check in luggage and get luggage tags.', 'Put tags on luggage.', 'Give luggage to attendant.']","['Find gate and wait for boarding announcement.', 'Walk up to counter.']",Find gate and wait for boarding announcement.,0
+0,0.0,[],"['get dropped off at your airline terminal', 'sign in and print ticket']",get dropped off at your airline terminal,0
+1,0.16666666666666666,['get dropped off at your airline terminal'],"['walk to counter with ticket', 'sign in and print ticket']",sign in and print ticket,1
+2,0.3333333333333333,"['get dropped off at your airline terminal', 'sign in and print ticket']","['wait', 'walk to counter with ticket']",walk to counter with ticket,1
+3,0.5,"['get dropped off at your airline terminal', 'sign in and print ticket', 'walk to counter with ticket']","['put luggage on weight scale and pay', 'get dropped off at your airline terminal']",put luggage on weight scale and pay,0
+4,0.6666666666666666,"['get dropped off at your airline terminal', 'sign in and print ticket', 'walk to counter with ticket', 'put luggage on weight scale and pay']","['walk to security', 'get dropped off at your airline terminal']",walk to security,0
+5,0.8333333333333334,"['get dropped off at your airline terminal', 'sign in and print ticket', 'walk to counter with ticket', 'put luggage on weight scale and pay', 'walk to security']","['get dropped off at your airline terminal', 'wait']",wait,1
+0,0.0,[],"['Check in baggage', 'Check in baggage']",Check in baggage,0
+1,0.2,['Check in baggage'],"['Get boarding pass', 'Go through security scan']",Get boarding pass,0
+2,0.4,"['Check in baggage', 'Get boarding pass']","['Board plane', 'Go through security scan']",Go through security scan,1
+3,0.6,"['Check in baggage', 'Get boarding pass', 'Go through security scan']","['Check in baggage', 'Find departure gate']",Find departure gate,1
+4,0.8,"['Check in baggage', 'Get boarding pass', 'Go through security scan', 'Find departure gate']","['Get boarding pass', 'Board plane']",Board plane,1
+0,0.0,[],"['Go to ticket counter', 'Tell them if you have any bags to check.']",Go to ticket counter,0
+1,0.16666666666666666,['Go to ticket counter'],"['Give agent your ID.', 'Give agent your ID.']",Give agent your ID.,0
+2,0.3333333333333333,"['Go to ticket counter', 'Give agent your ID.']","['Take ticket and ID.', 'Tell them if you have any bags to check.']",Tell them if you have any bags to check.,1
+3,0.5,"['Go to ticket counter', 'Give agent your ID.', 'Tell them if you have any bags to check.']","['Give them your bags.', 'Proceed to terminal.']",Give them your bags.,0
+4,0.6666666666666666,"['Go to ticket counter', 'Give agent your ID.', 'Tell them if you have any bags to check.', 'Give them your bags.']","['Give agent your ID.', 'Take ticket and ID.']",Take ticket and ID.,1
+5,0.8333333333333334,"['Go to ticket counter', 'Give agent your ID.', 'Tell them if you have any bags to check.', 'Give them your bags.', 'Take ticket and ID.']","['Go to ticket counter', 'Proceed to terminal.']",Proceed to terminal.,1
+0,0.0,[],"['Wait in line', 'Go to the airport']",Go to the airport,1
+1,0.125,['Go to the airport'],"['Talk to the receptionist', 'Park the car']",Park the car,1
+2,0.25,"['Go to the airport', 'Park the car']","['Going to the airport', 'Go to counter']",Going to the airport,0
+3,0.375,"['Go to the airport', 'Park the car', 'Going to the airport']","['Find my airline check-in', 'Go to counter']",Find my airline check-in,0
+4,0.5,"['Go to the airport', 'Park the car', 'Going to the airport', 'Find my airline check-in']","['Wait in line', 'Go to the airport']",Wait in line,0
+5,0.625,"['Go to the airport', 'Park the car', 'Going to the airport', 'Find my airline check-in', 'Wait in line']","['Go to counter', 'Going to the airport']",Go to counter,0
+6,0.75,"['Go to the airport', 'Park the car', 'Going to the airport', 'Find my airline check-in', 'Wait in line', 'Go to counter']","['Find my airline check-in', 'Talk to the receptionist']",Talk to the receptionist,1
+7,0.875,"['Go to the airport', 'Park the car', 'Going to the airport', 'Find my airline check-in', 'Wait in line', 'Go to counter', 'Talk to the receptionist']","['Going to the airport', 'Check in for my flight']",Check in for my flight,1
+0,0.0,[],"['SCAN PASSPORT', 'GET TO THE AIRPORT BEFORE YOUR FLIGHT']",GET TO THE AIRPORT BEFORE YOUR FLIGHT,1
+1,0.125,['GET TO THE AIRPORT BEFORE YOUR FLIGHT'],"['SCAN PASSPORT', 'GO TO THE SELF-CHECK IN DESK']",GO TO THE SELF-CHECK IN DESK,1
+2,0.25,"['GET TO THE AIRPORT BEFORE YOUR FLIGHT', 'GO TO THE SELF-CHECK IN DESK']","['SCAN PASSPORT', 'GO TO COUNTER TO CHECK BAGS']",SCAN PASSPORT,0
+3,0.375,"['GET TO THE AIRPORT BEFORE YOUR FLIGHT', 'GO TO THE SELF-CHECK IN DESK', 'SCAN PASSPORT']","['GO TO COUNTER TO CHECK BAGS', 'FOLLOW ON-SCREEN INSTRUCTIONS']",FOLLOW ON-SCREEN INSTRUCTIONS,1
+4,0.5,"['GET TO THE AIRPORT BEFORE YOUR FLIGHT', 'GO TO THE SELF-CHECK IN DESK', 'SCAN PASSPORT', 'FOLLOW ON-SCREEN INSTRUCTIONS']","['GET PRINTED BOARDING PASS', 'GO TO THE SELF-CHECK IN DESK']",GET PRINTED BOARDING PASS,0
+5,0.625,"['GET TO THE AIRPORT BEFORE YOUR FLIGHT', 'GO TO THE SELF-CHECK IN DESK', 'SCAN PASSPORT', 'FOLLOW ON-SCREEN INSTRUCTIONS', 'GET PRINTED BOARDING PASS']","['PROCEED TO SECURITY', 'GO TO COUNTER TO CHECK BAGS']",GO TO COUNTER TO CHECK BAGS,1
+6,0.75,"['GET TO THE AIRPORT BEFORE YOUR FLIGHT', 'GO TO THE SELF-CHECK IN DESK', 'SCAN PASSPORT', 'FOLLOW ON-SCREEN INSTRUCTIONS', 'GET PRINTED BOARDING PASS', 'GO TO COUNTER TO CHECK BAGS']","['CHECK BAGS', 'GET TO THE AIRPORT BEFORE YOUR FLIGHT']",CHECK BAGS,0
+7,0.875,"['GET TO THE AIRPORT BEFORE YOUR FLIGHT', 'GO TO THE SELF-CHECK IN DESK', 'SCAN PASSPORT', 'FOLLOW ON-SCREEN INSTRUCTIONS', 'GET PRINTED BOARDING PASS', 'GO TO COUNTER TO CHECK BAGS', 'CHECK BAGS']","['PROCEED TO SECURITY', 'SCAN PASSPORT']",PROCEED TO SECURITY,0
+0,0.0,[],"['Present your ticket and luggage at the counter', 'Get your baggage checked']",Get your baggage checked,1
+1,0.16666666666666666,['Get your baggage checked'],"['Get your baggage checked', 'Go through security checks']",Go through security checks,1
+2,0.3333333333333333,"['Get your baggage checked', 'Go through security checks']","['Present your ticket and luggage at the counter', 'Proceed to the waiting area']",Present your ticket and luggage at the counter,0
+3,0.5,"['Get your baggage checked', 'Go through security checks', 'Present your ticket and luggage at the counter']","['Board the plane', 'Receive your boarding pass']",Receive your boarding pass,1
+4,0.6666666666666666,"['Get your baggage checked', 'Go through security checks', 'Present your ticket and luggage at the counter', 'Receive your boarding pass']","['Go through security checks', 'Proceed to the waiting area']",Proceed to the waiting area,1
+5,0.8333333333333334,"['Get your baggage checked', 'Go through security checks', 'Present your ticket and luggage at the counter', 'Receive your boarding pass', 'Proceed to the waiting area']","['Go through security checks', 'Board the plane']",Board the plane,1
+0,0.0,[],"['Go through tsa.', 'Arrive at the airport.']",Arrive at the airport.,1
+1,0.2,['Arrive at the airport.'],"['Check in.', 'Check in.']",Check in.,1
+2,0.4,"['Arrive at the airport.', 'Check in.']","['Wait for plane.', 'Go through tsa.']",Go through tsa.,1
+3,0.6,"['Arrive at the airport.', 'Check in.', 'Go through tsa.']","['Arrive at the airport.', 'Find terminal.']",Find terminal.,1
+4,0.8,"['Arrive at the airport.', 'Check in.', 'Go through tsa.', 'Find terminal.']","['Wait for plane.', 'Check in.']",Wait for plane.,0
+0,0.0,[],"['arrive at airport', 'hand attendant your luggage']",arrive at airport,0
+1,0.16666666666666666,['arrive at airport'],"['walk to specific airline check in', 'hand attendant your luggage']",walk to specific airline check in,0
+2,0.3333333333333333,"['arrive at airport', 'walk to specific airline check in']","['hand attendant your luggage', 'wait for attendant to help you']",wait for attendant to help you,1
+3,0.5,"['arrive at airport', 'walk to specific airline check in', 'wait for attendant to help you']","['arrive at airport', 'present ticket and id to attendant']",present ticket and id to attendant,1
+4,0.6666666666666666,"['arrive at airport', 'walk to specific airline check in', 'wait for attendant to help you', 'present ticket and id to attendant']","['hand attendant your luggage', 'walk to specific airline check in']",hand attendant your luggage,0
+5,0.8333333333333334,"['arrive at airport', 'walk to specific airline check in', 'wait for attendant to help you', 'present ticket and id to attendant', 'hand attendant your luggage']","['walk to specific airline check in', 'walk to security check point']",walk to security check point,1
+0,0.0,[],"['Hand over your luggage.', 'Arrive at airport.']",Arrive at airport.,1
+1,0.125,['Arrive at airport.'],"['Locate airline that you will be flying.', 'Hand over your luggage.']",Locate airline that you will be flying.,0
+2,0.25,"['Arrive at airport.', 'Locate airline that you will be flying.']","['Hand over your luggage.', 'Locate line for your class of service.']",Locate line for your class of service.,1
+3,0.375,"['Arrive at airport.', 'Locate airline that you will be flying.', 'Locate line for your class of service.']","['Wait in line.', 'Take the boarding pass from the agent.']",Wait in line.,0
+4,0.5,"['Arrive at airport.', 'Locate airline that you will be flying.', 'Locate line for your class of service.', 'Wait in line.']","['Present your ID to the check in agent.', 'Take the boarding pass from the agent.']",Present your ID to the check in agent.,0
+5,0.625,"['Arrive at airport.', 'Locate airline that you will be flying.', 'Locate line for your class of service.', 'Wait in line.', 'Present your ID to the check in agent.']","['Locate line for your class of service.', 'Hand over your luggage.']",Hand over your luggage.,1
+6,0.75,"['Arrive at airport.', 'Locate airline that you will be flying.', 'Locate line for your class of service.', 'Wait in line.', 'Present your ID to the check in agent.', 'Hand over your luggage.']","['Locate airline that you will be flying.', 'Take the boarding pass from the agent.']",Take the boarding pass from the agent.,1
+7,0.875,"['Arrive at airport.', 'Locate airline that you will be flying.', 'Locate line for your class of service.', 'Wait in line.', 'Present your ID to the check in agent.', 'Hand over your luggage.', 'Take the boarding pass from the agent.']","['Present your ID to the check in agent.', 'Find the security checkpoint.']",Find the security checkpoint.,1
+0,0.0,[],"['Get in line at airline counter', 'Empty pockets']",Get in line at airline counter,0
+1,0.125,['Get in line at airline counter'],"['Check luggage', 'Get ticket for flight']",Get ticket for flight,1
+2,0.25,"['Get in line at airline counter', 'Get ticket for flight']","['Check luggage', 'Wait in security line']",Check luggage,0
+3,0.375,"['Get in line at airline counter', 'Get ticket for flight', 'Check luggage']","['Walk to security check area', 'Wait in security line']",Walk to security check area,0
+4,0.5,"['Get in line at airline counter', 'Get ticket for flight', 'Check luggage', 'Walk to security check area']","['Remove shoes and belt', 'Get in line at airline counter']",Remove shoes and belt,0
+5,0.625,"['Get in line at airline counter', 'Get ticket for flight', 'Check luggage', 'Walk to security check area', 'Remove shoes and belt']","['Empty pockets', 'Get ticket for flight']",Empty pockets,0
+6,0.75,"['Get in line at airline counter', 'Get ticket for flight', 'Check luggage', 'Walk to security check area', 'Remove shoes and belt', 'Empty pockets']","['Check luggage', 'Wait in security line']",Wait in security line,1
+7,0.875,"['Get in line at airline counter', 'Get ticket for flight', 'Check luggage', 'Walk to security check area', 'Remove shoes and belt', 'Empty pockets', 'Wait in security line']","['Get ticket for flight', 'Walk through metal detector']",Walk through metal detector,1
+0,0.0,[],"['Go to self check-in terminal', 'Wait in line with bags to be checked']",Go to self check-in terminal,0
+1,0.16666666666666666,['Go to self check-in terminal'],"['Enter all information required', 'Enter all information required']",Enter all information required,1
+2,0.3333333333333333,"['Go to self check-in terminal', 'Enter all information required']","['Wait in line with bags to be checked', 'Get bag tag receipt']",Wait in line with bags to be checked,0
+3,0.5,"['Go to self check-in terminal', 'Enter all information required', 'Wait in line with bags to be checked']","['Hand bags over to staff', 'Head over to security']",Hand bags over to staff,0
+4,0.6666666666666666,"['Go to self check-in terminal', 'Enter all information required', 'Wait in line with bags to be checked', 'Hand bags over to staff']","['Go to self check-in terminal', 'Get bag tag receipt']",Get bag tag receipt,1
+5,0.8333333333333334,"['Go to self check-in terminal', 'Enter all information required', 'Wait in line with bags to be checked', 'Hand bags over to staff', 'Get bag tag receipt']","['Enter all information required', 'Head over to security']",Head over to security,1
+0,0.0,[],"['walk into airport', 'place baggage on baggage counter']",walk into airport,0
+1,0.125,['walk into airport'],"['have ticket in hand', 'walk up to the counter']",have ticket in hand,0
+2,0.25,"['walk into airport', 'have ticket in hand']","['walk up to the counter', 'place baggage on baggage counter']",walk up to the counter,0
+3,0.375,"['walk into airport', 'have ticket in hand', 'walk up to the counter']","['walk into airport', 'hand ticket to person']",hand ticket to person,1
+4,0.5,"['walk into airport', 'have ticket in hand', 'walk up to the counter', 'hand ticket to person']","['place baggage on baggage counter', 'walk into airport']",place baggage on baggage counter,0
+5,0.625,"['walk into airport', 'have ticket in hand', 'walk up to the counter', 'hand ticket to person', 'place baggage on baggage counter']","['hand person id', 'take ticket and id back from person']",hand person id,0
+6,0.75,"['walk into airport', 'have ticket in hand', 'walk up to the counter', 'hand ticket to person', 'place baggage on baggage counter', 'hand person id']","['walk up to the counter', 'wait for person to put tags on bags']",wait for person to put tags on bags,1
+7,0.875,"['walk into airport', 'have ticket in hand', 'walk up to the counter', 'hand ticket to person', 'place baggage on baggage counter', 'hand person id', 'wait for person to put tags on bags']","['take ticket and id back from person', 'place baggage on baggage counter']",take ticket and id back from person,0
+0,0.0,[],"['Arrive at airport', 'Pay any fees associated with checked luggage']",Arrive at airport,0
+1,0.125,['Arrive at airport'],"['Give information', 'Have ticket information ready']",Have ticket information ready,1
+2,0.25,"['Arrive at airport', 'Have ticket information ready']","['Go to ticket booth', 'You are checked in']",Go to ticket booth,0
+3,0.375,"['Arrive at airport', 'Have ticket information ready', 'Go to ticket booth']","['Give information', 'Pay any fees associated with checked luggage']",Give information,0
+4,0.5,"['Arrive at airport', 'Have ticket information ready', 'Go to ticket booth', 'Give information']","['Give luggage to be checked', 'Wait for clerk to give you printed ticket']",Give luggage to be checked,0
+5,0.625,"['Arrive at airport', 'Have ticket information ready', 'Go to ticket booth', 'Give information', 'Give luggage to be checked']","['Pay any fees associated with checked luggage', 'Go to ticket booth']",Pay any fees associated with checked luggage,0
+6,0.75,"['Arrive at airport', 'Have ticket information ready', 'Go to ticket booth', 'Give information', 'Give luggage to be checked', 'Pay any fees associated with checked luggage']","['Wait for clerk to give you printed ticket', 'Give information']",Wait for clerk to give you printed ticket,0
+7,0.875,"['Arrive at airport', 'Have ticket information ready', 'Go to ticket booth', 'Give information', 'Give luggage to be checked', 'Pay any fees associated with checked luggage', 'Wait for clerk to give you printed ticket']","['You are checked in', 'Give luggage to be checked']",You are checked in,0
+0,0.0,[],"['Depart car in drop off lane.', 'Depart car in drop off lane.']",Depart car in drop off lane.,0
+1,0.14285714285714285,['Depart car in drop off lane.'],"['Wait at gate until departure.', 'Approach ticket counter line.']",Approach ticket counter line.,1
+2,0.2857142857142857,"['Depart car in drop off lane.', 'Approach ticket counter line.']","['Give info at ticket counter.', 'Go through security checks.']",Give info at ticket counter.,0
+3,0.42857142857142855,"['Depart car in drop off lane.', 'Approach ticket counter line.', 'Give info at ticket counter.']","['Locate departing gate.', 'Receive info at ticket counter.']",Receive info at ticket counter.,1
+4,0.5714285714285714,"['Depart car in drop off lane.', 'Approach ticket counter line.', 'Give info at ticket counter.', 'Receive info at ticket counter.']","['Wait at gate until departure.', 'Go through security checks.']",Go through security checks.,1
+5,0.7142857142857143,"['Depart car in drop off lane.', 'Approach ticket counter line.', 'Give info at ticket counter.', 'Receive info at ticket counter.', 'Go through security checks.']","['Depart car in drop off lane.', 'Locate departing gate.']",Locate departing gate.,1
+6,0.8571428571428571,"['Depart car in drop off lane.', 'Approach ticket counter line.', 'Give info at ticket counter.', 'Receive info at ticket counter.', 'Go through security checks.', 'Locate departing gate.']","['Depart car in drop off lane.', 'Wait at gate until departure.']",Wait at gate until departure.,1
+0,0.0,[],"['Go sit down.', 'Walk into airport.']",Walk into airport.,1
+1,0.2,['Walk into airport.'],"['Go to your gate.', 'Go to your gate.']",Go to your gate.,1
+2,0.4,"['Walk into airport.', 'Go to your gate.']","['Check bags with attendant.', 'Wait for airplane.']",Check bags with attendant.,0
+3,0.6,"['Walk into airport.', 'Go to your gate.', 'Check bags with attendant.']","['Go sit down.', 'Walk into airport.']",Go sit down.,0
+4,0.8,"['Walk into airport.', 'Go to your gate.', 'Check bags with attendant.', 'Go sit down.']","['Wait for airplane.', 'Walk into airport.']",Wait for airplane.,0
+0,0.0,[],"['Find correct airline terminal', 'show attendant ID']",Find correct airline terminal,0
+1,0.125,['Find correct airline terminal'],"['choose airplane seats', 'wait in line']",wait in line,1
+2,0.25,"['Find correct airline terminal', 'wait in line']","['choose airplane seats', 'enter information (credit card number, confirmation number or name) into computer']","enter information (credit card number, confirmation number or name) into computer",1
+3,0.375,"['Find correct airline terminal', 'wait in line', 'enter information (credit card number, confirmation number or name) into computer']","['print boarding passes', 'show attendant ID']",show attendant ID,1
+4,0.5,"['Find correct airline terminal', 'wait in line', 'enter information (credit card number, confirmation number or name) into computer', 'show attendant ID']","['choose airplane seats', 'wait in line']",choose airplane seats,0
+5,0.625,"['Find correct airline terminal', 'wait in line', 'enter information (credit card number, confirmation number or name) into computer', 'show attendant ID', 'choose airplane seats']","['Find correct airline terminal', 'double check flight information']",double check flight information,1
+6,0.75,"['Find correct airline terminal', 'wait in line', 'enter information (credit card number, confirmation number or name) into computer', 'show attendant ID', 'choose airplane seats', 'double check flight information']","['choose if checking luggage', 'enter information (credit card number, confirmation number or name) into computer']",choose if checking luggage,0
+7,0.875,"['Find correct airline terminal', 'wait in line', 'enter information (credit card number, confirmation number or name) into computer', 'show attendant ID', 'choose airplane seats', 'double check flight information', 'choose if checking luggage']","['print boarding passes', 'show attendant ID']",print boarding passes,0
+0,0.0,[],"['walk up to front desk', 'arrive to airport']",arrive to airport,1
+1,0.2,['arrive to airport'],"['walk up to front desk', 'walk up to front desk']",walk up to front desk,1
+2,0.4,"['arrive to airport', 'walk up to front desk']","['arrive to your port', 'ask for checking up']",ask for checking up,1
+3,0.6,"['arrive to airport', 'walk up to front desk', 'ask for checking up']","['grab your ticket', 'arrive to airport']",grab your ticket,0
+4,0.8,"['arrive to airport', 'walk up to front desk', 'ask for checking up', 'grab your ticket']","['arrive to your port', 'arrive to airport']",arrive to your port,0
+0,0.0,[],"['Put luggage on scale.', 'Wait in line at the correct airlines.']",Wait in line at the correct airlines.,1
+1,0.14285714285714285,['Wait in line at the correct airlines.'],"['Go up to the counter.', 'Answer any questions the agent may ask.']",Go up to the counter.,0
+2,0.2857142857142857,"['Wait in line at the correct airlines.', 'Go up to the counter.']","['Take your ticket from the agent.', 'Put luggage on scale.']",Put luggage on scale.,1
+3,0.42857142857142855,"['Wait in line at the correct airlines.', 'Go up to the counter.', 'Put luggage on scale.']","['Take your ticket from the agent.', 'Give your ticket and ID or passport to the agent.']",Give your ticket and ID or passport to the agent.,1
+4,0.5714285714285714,"['Wait in line at the correct airlines.', 'Go up to the counter.', 'Put luggage on scale.', 'Give your ticket and ID or passport to the agent.']","['Take your ticket from the agent.', 'Pay for any over weight luggage.']",Pay for any over weight luggage.,1
+5,0.7142857142857143,"['Wait in line at the correct airlines.', 'Go up to the counter.', 'Put luggage on scale.', 'Give your ticket and ID or passport to the agent.', 'Pay for any over weight luggage.']","['Answer any questions the agent may ask.', 'Wait in line at the correct airlines.']",Answer any questions the agent may ask.,0
+6,0.8571428571428571,"['Wait in line at the correct airlines.', 'Go up to the counter.', 'Put luggage on scale.', 'Give your ticket and ID or passport to the agent.', 'Pay for any over weight luggage.', 'Answer any questions the agent may ask.']","['Take your ticket from the agent.', 'Put luggage on scale.']",Take your ticket from the agent.,0
+0,0.0,[],"['Get your tagged luggage', 'Arrive at airport']",Arrive at airport,1
+1,0.125,['Arrive at airport'],"['Listen to any directions', 'Find your airline']",Find your airline,1
+2,0.25,"['Arrive at airport', 'Find your airline']","['Give attendant your ID and order number', 'Get printout from attendant']",Give attendant your ID and order number,0
+3,0.375,"['Arrive at airport', 'Find your airline', 'Give attendant your ID and order number']","['Get printout from attendant', 'Weigh your luggage']",Weigh your luggage,1
+4,0.5,"['Arrive at airport', 'Find your airline', 'Give attendant your ID and order number', 'Weigh your luggage']","['Find your airline', 'Get your tagged luggage']",Get your tagged luggage,1
+5,0.625,"['Arrive at airport', 'Find your airline', 'Give attendant your ID and order number', 'Weigh your luggage', 'Get your tagged luggage']","['Find your airline', 'Get printout from attendant']",Get printout from attendant,1
+6,0.75,"['Arrive at airport', 'Find your airline', 'Give attendant your ID and order number', 'Weigh your luggage', 'Get your tagged luggage', 'Get printout from attendant']","['Listen to any directions', 'Arrive at airport']",Listen to any directions,0
+7,0.875,"['Arrive at airport', 'Find your airline', 'Give attendant your ID and order number', 'Weigh your luggage', 'Get your tagged luggage', 'Get printout from attendant', 'Listen to any directions']","['Weigh your luggage', 'Start heading towards your gate']",Start heading towards your gate,1
+0,0.0,[],"['Enter the airport', 'Show the passport']",Enter the airport,0
+1,0.125,['Enter the airport'],"['Weigh the luggage', 'Go to check in area']",Go to check in area,1
+2,0.25,"['Enter the airport', 'Go to check in area']","['Show the passport', 'Stand in Queue']",Stand in Queue,1
+3,0.375,"['Enter the airport', 'Go to check in area', 'Stand in Queue']","['Give the ticket to check in staff', 'Collect the boarding pass']",Give the ticket to check in staff,0
+4,0.5,"['Enter the airport', 'Go to check in area', 'Stand in Queue', 'Give the ticket to check in staff']","['Enter the airport', 'Show the passport']",Show the passport,1
+5,0.625,"['Enter the airport', 'Go to check in area', 'Stand in Queue', 'Give the ticket to check in staff', 'Show the passport']","['Go to check in area', 'Weigh the luggage']",Weigh the luggage,1
+6,0.75,"['Enter the airport', 'Go to check in area', 'Stand in Queue', 'Give the ticket to check in staff', 'Show the passport', 'Weigh the luggage']","['Hand over the luggage', 'Stand in Queue']",Hand over the luggage,0
+7,0.875,"['Enter the airport', 'Go to check in area', 'Stand in Queue', 'Give the ticket to check in staff', 'Show the passport', 'Weigh the luggage', 'Hand over the luggage']","['Go to check in area', 'Collect the boarding pass']",Collect the boarding pass,1
+0,0.0,[],"['go to the airport', 'go through the security check']",go to the airport,0
+1,0.2,['go to the airport'],"['go through the security check', 'deposit your luggage']",deposit your luggage,1
+2,0.4,"['go to the airport', 'deposit your luggage']","['check into the flight', 'collect your boarding pass']",collect your boarding pass,1
+3,0.6,"['go to the airport', 'deposit your luggage', 'collect your boarding pass']","['go through the security check', 'go to the airport']",go through the security check,0
+4,0.8,"['go to the airport', 'deposit your luggage', 'collect your boarding pass', 'go through the security check']","['check into the flight', 'deposit your luggage']",check into the flight,0
+0,0.0,[],"['Attach tags to bags', 'Obtain luggage tags']",Obtain luggage tags,1
+1,0.125,['Obtain luggage tags'],"['Place luggage on scale', 'Attach tags to bags']",Attach tags to bags,1
+2,0.25,"['Obtain luggage tags', 'Attach tags to bags']","['Find correct airline check in counter', 'Give appropriate documents, paperwork and id to employee']",Find correct airline check in counter,0
+3,0.375,"['Obtain luggage tags', 'Attach tags to bags', 'Find correct airline check in counter']","['take luggage and get in line', 'Place luggage on scale']",take luggage and get in line,0
+4,0.5,"['Obtain luggage tags', 'Attach tags to bags', 'Find correct airline check in counter', 'take luggage and get in line']","['Attach tags to bags', 'Give appropriate documents, paperwork and id to employee']","Give appropriate documents, paperwork and id to employee",1
+5,0.625,"['Obtain luggage tags', 'Attach tags to bags', 'Find correct airline check in counter', 'take luggage and get in line', 'Give appropriate documents, paperwork and id to employee']","['Obtain luggage tags', 'Place luggage on scale']",Place luggage on scale,1
+6,0.75,"['Obtain luggage tags', 'Attach tags to bags', 'Find correct airline check in counter', 'take luggage and get in line', 'Give appropriate documents, paperwork and id to employee', 'Place luggage on scale']","['Get boarding pass', 'Find correct airline check in counter']",Get boarding pass,0
+7,0.875,"['Obtain luggage tags', 'Attach tags to bags', 'Find correct airline check in counter', 'take luggage and get in line', 'Give appropriate documents, paperwork and id to employee', 'Place luggage on scale', 'Get boarding pass']","['take luggage and get in line', 'Go to assigned boarding gate']",Go to assigned boarding gate,1
+0,0.0,[],"['Get all your identification ready', 'Show identification']",Get all your identification ready,0
+1,0.16666666666666666,['Get all your identification ready'],"['Go to front desk', 'Check your luggage']",Go to front desk,0
+2,0.3333333333333333,"['Get all your identification ready', 'Go to front desk']","['Show identification', 'Go through security check']",Show identification,0
+3,0.5,"['Get all your identification ready', 'Go to front desk', 'Show identification']","['Check your luggage', 'Go to your appropriate gate']",Check your luggage,0
+4,0.6666666666666666,"['Get all your identification ready', 'Go to front desk', 'Show identification', 'Check your luggage']","['Go to front desk', 'Go through security check']",Go through security check,1
+5,0.8333333333333334,"['Get all your identification ready', 'Go to front desk', 'Show identification', 'Check your luggage', 'Go through security check']","['Go to your appropriate gate', 'Get all your identification ready']",Go to your appropriate gate,0
+0,0.0,[],"['Enter airport.', 'Wait in line.']",Enter airport.,0
+1,0.125,['Enter airport.'],"['Find correct ticket counter.', 'Get out ID and ticket.']",Find correct ticket counter.,0
+2,0.25,"['Enter airport.', 'Find correct ticket counter.']","[""Check in any baggage that won't be carried on."", 'Wait in line.']",Wait in line.,1
+3,0.375,"['Enter airport.', 'Find correct ticket counter.', 'Wait in line.']","['Get out ID and ticket.', ""Check in any baggage that won't be carried on.""]",Get out ID and ticket.,0
+4,0.5,"['Enter airport.', 'Find correct ticket counter.', 'Wait in line.', 'Get out ID and ticket.']","['Give ID and ticket to clerk.', ""Check in any baggage that won't be carried on.""]",Give ID and ticket to clerk.,0
+5,0.625,"['Enter airport.', 'Find correct ticket counter.', 'Wait in line.', 'Get out ID and ticket.', 'Give ID and ticket to clerk.']","['Find correct ticket counter.', 'Confirm flight.']",Confirm flight.,1
+6,0.75,"['Enter airport.', 'Find correct ticket counter.', 'Wait in line.', 'Get out ID and ticket.', 'Give ID and ticket to clerk.', 'Confirm flight.']","[""Check in any baggage that won't be carried on."", 'Find correct ticket counter.']",Check in any baggage that won't be carried on.,0
+7,0.875,"['Enter airport.', 'Find correct ticket counter.', 'Wait in line.', 'Get out ID and ticket.', 'Give ID and ticket to clerk.', 'Confirm flight.', ""Check in any baggage that won't be carried on.""]","['Give ID and ticket to clerk.', 'Take boarding pass, ticket, and ID.']","Take boarding pass, ticket, and ID.",1
+0,0.0,[],"['Get into ticket line', 'Get out of taxi']",Get out of taxi,1
+1,0.125,['Get out of taxi'],"['Greet airline desk agent', 'Walk into terminal']",Walk into terminal,1
+2,0.25,"['Get out of taxi', 'Walk into terminal']","['Show identification', 'Get into ticket line']",Get into ticket line,1
+3,0.375,"['Get out of taxi', 'Walk into terminal', 'Get into ticket line']","['Check in bags', 'Greet airline desk agent']",Greet airline desk agent,1
+4,0.5,"['Get out of taxi', 'Walk into terminal', 'Get into ticket line', 'Greet airline desk agent']","['Show identification', 'Walk into terminal']",Show identification,0
+5,0.625,"['Get out of taxi', 'Walk into terminal', 'Get into ticket line', 'Greet airline desk agent', 'Show identification']","['Check in bags', 'Retrieve boarding pass']",Retrieve boarding pass,1
+6,0.75,"['Get out of taxi', 'Walk into terminal', 'Get into ticket line', 'Greet airline desk agent', 'Show identification', 'Retrieve boarding pass']","['Get into ticket line', 'Set bags on scale']",Set bags on scale,1
+7,0.875,"['Get out of taxi', 'Walk into terminal', 'Get into ticket line', 'Greet airline desk agent', 'Show identification', 'Retrieve boarding pass', 'Set bags on scale']","['Greet airline desk agent', 'Check in bags']",Check in bags,1
+0,0.0,[],"['Identify self and produce government picture ID', 'Walk to the ticket counter for the airline']",Walk to the ticket counter for the airline,1
+1,0.125,['Walk to the ticket counter for the airline'],"['Wait in line until an agent is available', 'Wait in line until an agent is available']",Wait in line until an agent is available,0
+2,0.25,"['Walk to the ticket counter for the airline', 'Wait in line until an agent is available']","['Approach the agent', 'Advise agent on number of bags to check']",Approach the agent,0
+3,0.375,"['Walk to the ticket counter for the airline', 'Wait in line until an agent is available', 'Approach the agent']","['Identify self and produce government picture ID', 'Advise agent on number of bags to check']",Identify self and produce government picture ID,0
+4,0.5,"['Walk to the ticket counter for the airline', 'Wait in line until an agent is available', 'Approach the agent', 'Identify self and produce government picture ID']","['Wait in line until an agent is available', 'Advise agent of flight information']",Advise agent of flight information,1
+5,0.625,"['Walk to the ticket counter for the airline', 'Wait in line until an agent is available', 'Approach the agent', 'Identify self and produce government picture ID', 'Advise agent of flight information']","['Advise agent on number of bags to check', 'Wait in line until an agent is available']",Advise agent on number of bags to check,0
+6,0.75,"['Walk to the ticket counter for the airline', 'Wait in line until an agent is available', 'Approach the agent', 'Identify self and produce government picture ID', 'Advise agent of flight information', 'Advise agent on number of bags to check']","['Wait in line until an agent is available', 'If required, pay bag fees']","If required, pay bag fees",1
+7,0.875,"['Walk to the ticket counter for the airline', 'Wait in line until an agent is available', 'Approach the agent', 'Identify self and produce government picture ID', 'Advise agent of flight information', 'Advise agent on number of bags to check', 'If required, pay bag fees']","['Check bags', 'Advise agent of flight information']",Check bags,0
+0,0.0,[],"['Gather luggage', 'Gather luggage']",Gather luggage,0
+1,0.2,['Gather luggage'],"['Get in the car', 'Get in the car']",Get in the car,0
+2,0.4,"['Gather luggage', 'Get in the car']","['Get driven to the airport', 'Show identification to get tickets and check baggage']",Get driven to the airport,0
+3,0.6,"['Gather luggage', 'Get in the car', 'Get driven to the airport']","['Gather luggage', 'Wait in line']",Wait in line,1
+4,0.8,"['Gather luggage', 'Get in the car', 'Get driven to the airport', 'Wait in line']","['Get in the car', 'Show identification to get tickets and check baggage']",Show identification to get tickets and check baggage,1
+0,0.0,[],"['Arrive at airport', 'Present boarding pass and ID']",Arrive at airport,0
+1,0.14285714285714285,['Arrive at airport'],"['Present your bags', 'Get in line']",Get in line,1
+2,0.2857142857142857,"['Arrive at airport', 'Get in line']","['Present boarding pass and ID', 'Attendant rips boarding pass along dotted line']",Present boarding pass and ID,0
+3,0.42857142857142855,"['Arrive at airport', 'Get in line', 'Present boarding pass and ID']","['Attendant rips boarding pass along dotted line', 'Present your bags']",Present your bags,1
+4,0.5714285714285714,"['Arrive at airport', 'Get in line', 'Present boarding pass and ID', 'Present your bags']","['Attendant weighs bags', 'Go to your gate']",Attendant weighs bags,0
+5,0.7142857142857143,"['Arrive at airport', 'Get in line', 'Present boarding pass and ID', 'Present your bags', 'Attendant weighs bags']","['Get in line', 'Attendant rips boarding pass along dotted line']",Attendant rips boarding pass along dotted line,1
+6,0.8571428571428571,"['Arrive at airport', 'Get in line', 'Present boarding pass and ID', 'Present your bags', 'Attendant weighs bags', 'Attendant rips boarding pass along dotted line']","['Present boarding pass and ID', 'Go to your gate']",Go to your gate,1
+0,0.0,[],"['go to the airline desk', 'get boarding pass']",go to the airline desk,0
+1,0.2,['go to the airline desk'],"['get boarding pass', 'present id and tickets']",present id and tickets,1
+2,0.4,"['go to the airline desk', 'present id and tickets']","['go through security', 'get boarding pass']",get boarding pass,1
+3,0.6,"['go to the airline desk', 'present id and tickets', 'get boarding pass']","['wait on security line', 'go to the airline desk']",wait on security line,0
+4,0.8,"['go to the airline desk', 'present id and tickets', 'get boarding pass', 'wait on security line']","['present id and tickets', 'go through security']",go through security,1
+0,0.0,[],"['Show the clerk any airline related documents you may have', 'Take all of your luggage and your party to the correct airline']",Take all of your luggage and your party to the correct airline,1
+1,0.125,['Take all of your luggage and your party to the correct airline'],"['Follow line up until it is your turn', 'Get in line']",Get in line,1
+2,0.25,"['Take all of your luggage and your party to the correct airline', 'Get in line']","['Follow line up until it is your turn', 'Show the clerk a Drivers License for all members of your party']",Follow line up until it is your turn,0
+3,0.375,"['Take all of your luggage and your party to the correct airline', 'Get in line', 'Follow line up until it is your turn']","['Take your luggage up to the desk', 'Wait for the clerk to load your luggage on conveyor']",Take your luggage up to the desk,0
+4,0.5,"['Take all of your luggage and your party to the correct airline', 'Get in line', 'Follow line up until it is your turn', 'Take your luggage up to the desk']","['Show the clerk a Drivers License for all members of your party', 'Take all of your luggage and your party to the correct airline']",Show the clerk a Drivers License for all members of your party,0
+5,0.625,"['Take all of your luggage and your party to the correct airline', 'Get in line', 'Follow line up until it is your turn', 'Take your luggage up to the desk', 'Show the clerk a Drivers License for all members of your party']","['Get in line', 'Show the clerk any airline related documents you may have']",Show the clerk any airline related documents you may have,1
+6,0.75,"['Take all of your luggage and your party to the correct airline', 'Get in line', 'Follow line up until it is your turn', 'Take your luggage up to the desk', 'Show the clerk a Drivers License for all members of your party', 'Show the clerk any airline related documents you may have']","['Take all of your luggage and your party to the correct airline', 'Put your luggage on the scale']",Put your luggage on the scale,1
+7,0.875,"['Take all of your luggage and your party to the correct airline', 'Get in line', 'Follow line up until it is your turn', 'Take your luggage up to the desk', 'Show the clerk a Drivers License for all members of your party', 'Show the clerk any airline related documents you may have', 'Put your luggage on the scale']","['Get in line', 'Wait for the clerk to load your luggage on conveyor']",Wait for the clerk to load your luggage on conveyor,1
+0,0.0,[],"['Enter the airport', 'Hand the checked luggage']",Enter the airport,0
+1,0.16666666666666666,['Enter the airport'],"['If there is a self-check-in kiosk, use that to get your boarding pass', 'If there is a self-check-in kiosk, use that to get your boarding pass']","If there is a self-check-in kiosk, use that to get your boarding pass",0
+2,0.3333333333333333,"['Enter the airport', 'If there is a self-check-in kiosk, use that to get your boarding pass']","['Wait in line to check your luggage', 'Wait while the luggage is weighed']",Wait in line to check your luggage,0
+3,0.5,"['Enter the airport', 'If there is a self-check-in kiosk, use that to get your boarding pass', 'Wait in line to check your luggage']","['Hand the checked luggage', 'Get the slip to claim your luggage at your destination']",Hand the checked luggage,0
+4,0.6666666666666666,"['Enter the airport', 'If there is a self-check-in kiosk, use that to get your boarding pass', 'Wait in line to check your luggage', 'Hand the checked luggage']","['Wait while the luggage is weighed', 'If there is a self-check-in kiosk, use that to get your boarding pass']",Wait while the luggage is weighed,0
+5,0.8333333333333334,"['Enter the airport', 'If there is a self-check-in kiosk, use that to get your boarding pass', 'Wait in line to check your luggage', 'Hand the checked luggage', 'Wait while the luggage is weighed']","['Get the slip to claim your luggage at your destination', 'If there is a self-check-in kiosk, use that to get your boarding pass']",Get the slip to claim your luggage at your destination,0
+0,0.0,[],"['arrive', 'park']",arrive,0
+1,0.14285714285714285,['arrive'],"['pay for baggage or extras', 'park']",park,1
+2,0.2857142857142857,"['arrive', 'park']","['pay for baggage or extras', 'enter']",enter,1
+3,0.42857142857142855,"['arrive', 'park', 'enter']","['pay for baggage or extras', 'find your service']",find your service,1
+4,0.5714285714285714,"['arrive', 'park', 'enter', 'find your service']","['get your ticket', 'present your id']",present your id,1
+5,0.7142857142857143,"['arrive', 'park', 'enter', 'find your service', 'present your id']","['park', 'pay for baggage or extras']",pay for baggage or extras,1
+6,0.8571428571428571,"['arrive', 'park', 'enter', 'find your service', 'present your id', 'pay for baggage or extras']","['enter', 'get your ticket']",get your ticket,1
+0,0.0,[],"['Print out ticket at machine', 'Drive to airport']",Drive to airport,1
+1,0.125,['Drive to airport'],"['Print out ticket at machine', 'Check bags']",Print out ticket at machine,0
+2,0.25,"['Drive to airport', 'Print out ticket at machine']","['Check in', 'Proceed to departure lounge']",Check in,0
+3,0.375,"['Drive to airport', 'Print out ticket at machine', 'Check in']","['Have carry-on bags X-rayed', 'Wait']",Wait,1
+4,0.5,"['Drive to airport', 'Print out ticket at machine', 'Check in', 'Wait']","['Check bags', 'Drive to airport']",Check bags,0
+5,0.625,"['Drive to airport', 'Print out ticket at machine', 'Check in', 'Wait', 'Check bags']","['Print out ticket at machine', 'Have carry-on bags X-rayed']",Have carry-on bags X-rayed,1
+6,0.75,"['Drive to airport', 'Print out ticket at machine', 'Check in', 'Wait', 'Check bags', 'Have carry-on bags X-rayed']","['Endure humiliating examination', 'Print out ticket at machine']",Endure humiliating examination,0
+7,0.875,"['Drive to airport', 'Print out ticket at machine', 'Check in', 'Wait', 'Check bags', 'Have carry-on bags X-rayed', 'Endure humiliating examination']","['Check in', 'Proceed to departure lounge']",Proceed to departure lounge,1
+0,0.0,[],"['Drive to airport', 'Go through security']",Drive to airport,0
+1,0.125,['Drive to airport'],"['Park car in parking garage', 'Park car in parking garage']",Park car in parking garage,1
+2,0.25,"['Drive to airport', 'Park car in parking garage']","['Find your gate', 'Get luggage out and go into terminal']",Get luggage out and go into terminal,1
+3,0.375,"['Drive to airport', 'Park car in parking garage', 'Get luggage out and go into terminal']","['Wait for your plane', 'Check in luggage at the counter']",Check in luggage at the counter,1
+4,0.5,"['Drive to airport', 'Park car in parking garage', 'Get luggage out and go into terminal', 'Check in luggage at the counter']","['Get your ticket from the workers', 'Drive to airport']",Get your ticket from the workers,0
+5,0.625,"['Drive to airport', 'Park car in parking garage', 'Get luggage out and go into terminal', 'Check in luggage at the counter', 'Get your ticket from the workers']","['Go through security', 'Get luggage out and go into terminal']",Go through security,0
+6,0.75,"['Drive to airport', 'Park car in parking garage', 'Get luggage out and go into terminal', 'Check in luggage at the counter', 'Get your ticket from the workers', 'Go through security']","['Find your gate', 'Check in luggage at the counter']",Find your gate,0
+7,0.875,"['Drive to airport', 'Park car in parking garage', 'Get luggage out and go into terminal', 'Check in luggage at the counter', 'Get your ticket from the workers', 'Go through security', 'Find your gate']","['Get luggage out and go into terminal', 'Wait for your plane']",Wait for your plane,1
+0,0.0,[],"['Go to the airport', 'Collect receipt']",Go to the airport,0
+1,0.16666666666666666,['Go to the airport'],"['Approach the check in counter', 'Check bags']",Approach the check in counter,0
+2,0.3333333333333333,"['Go to the airport', 'Approach the check in counter']","['Collect receipt', 'Express desire to check in']",Express desire to check in,1
+3,0.5,"['Go to the airport', 'Approach the check in counter', 'Express desire to check in']","['Present id', 'Go to the airport']",Present id,0
+4,0.6666666666666666,"['Go to the airport', 'Approach the check in counter', 'Express desire to check in', 'Present id']","['Check bags', 'Approach the check in counter']",Check bags,0
+5,0.8333333333333334,"['Go to the airport', 'Approach the check in counter', 'Express desire to check in', 'Present id', 'Check bags']","['Go to the airport', 'Collect receipt']",Collect receipt,1
+0,0.0,[],"['Drive to airport', 'Park']",Drive to airport,0
+1,0.2,['Drive to airport'],"['Find my gate', 'Park']",Park,1
+2,0.4,"['Drive to airport', 'Park']","['Wait in line', 'Find my gate']",Find my gate,1
+3,0.6,"['Drive to airport', 'Park', 'Find my gate']","['Get my boarding pass', 'Drive to airport']",Get my boarding pass,0
+4,0.8,"['Drive to airport', 'Park', 'Find my gate', 'Get my boarding pass']","['Wait in line', 'Drive to airport']",Wait in line,0
+0,0.0,[],"['Walk into the airport', 'Walk up to the counter']",Walk into the airport,0
+1,0.2,['Walk into the airport'],"['Walk into the airport', 'Walk up to the counter']",Walk up to the counter,1
+2,0.4,"['Walk into the airport', 'Walk up to the counter']","['Hand ticket to the person at the counter', 'Sit and wait for flight']",Hand ticket to the person at the counter,0
+3,0.6,"['Walk into the airport', 'Walk up to the counter', 'Hand ticket to the person at the counter']","['Go through security', 'Walk into the airport']",Go through security,0
+4,0.8,"['Walk into the airport', 'Walk up to the counter', 'Hand ticket to the person at the counter', 'Go through security']","['Walk up to the counter', 'Sit and wait for flight']",Sit and wait for flight,1
+0,0.0,[],"['walk up to computer', 'Walk up to check in counter']",walk up to computer,0
+1,0.16666666666666666,['walk up to computer'],"['Give person my luggage', 'Scan ticket']",Scan ticket,1
+2,0.3333333333333333,"['walk up to computer', 'Scan ticket']","['Give person my luggage', 'Enter information']",Enter information,1
+3,0.5,"['walk up to computer', 'Scan ticket', 'Enter information']","['Get confirmation', 'Walk up to check in counter']",Walk up to check in counter,1
+4,0.6666666666666666,"['walk up to computer', 'Scan ticket', 'Enter information', 'Walk up to check in counter']","['Give person my luggage', 'walk up to computer']",Give person my luggage,0
+5,0.8333333333333334,"['walk up to computer', 'Scan ticket', 'Enter information', 'Walk up to check in counter', 'Give person my luggage']","['Scan ticket', 'Get confirmation']",Get confirmation,1
+0,0.0,[],"['Present luggage at counter', 'Arrive at airport']",Arrive at airport,1
+1,0.2,['Arrive at airport'],"['Present ticket and identification at counter', 'Receive boarding pass']",Present ticket and identification at counter,0
+2,0.4,"['Arrive at airport', 'Present ticket and identification at counter']","['Present luggage at counter', 'Board plane']",Present luggage at counter,0
+3,0.6,"['Arrive at airport', 'Present ticket and identification at counter', 'Present luggage at counter']","['Receive boarding pass', 'Arrive at airport']",Receive boarding pass,0
+4,0.8,"['Arrive at airport', 'Present ticket and identification at counter', 'Present luggage at counter', 'Receive boarding pass']","['Arrive at airport', 'Board plane']",Board plane,1
+0,0.0,[],"['Go to gate', 'Go to kiosk or counter of your airline']",Go to kiosk or counter of your airline,1
+1,0.14285714285714285,['Go to kiosk or counter of your airline'],"['Go to kiosk or counter of your airline', 'Use electronic kiosk or speak to counter agent']",Use electronic kiosk or speak to counter agent,1
+2,0.2857142857142857,"['Go to kiosk or counter of your airline', 'Use electronic kiosk or speak to counter agent']","['Give luggage to airline agent', 'Go through security']",Give luggage to airline agent,0
+3,0.42857142857142855,"['Go to kiosk or counter of your airline', 'Use electronic kiosk or speak to counter agent', 'Give luggage to airline agent']","['Check departure gate', 'Board plane']",Check departure gate,0
+4,0.5714285714285714,"['Go to kiosk or counter of your airline', 'Use electronic kiosk or speak to counter agent', 'Give luggage to airline agent', 'Check departure gate']","['Go through security', 'Use electronic kiosk or speak to counter agent']",Go through security,0
+5,0.7142857142857143,"['Go to kiosk or counter of your airline', 'Use electronic kiosk or speak to counter agent', 'Give luggage to airline agent', 'Check departure gate', 'Go through security']","['Go to gate', 'Give luggage to airline agent']",Go to gate,0
+6,0.8571428571428571,"['Go to kiosk or counter of your airline', 'Use electronic kiosk or speak to counter agent', 'Give luggage to airline agent', 'Check departure gate', 'Go through security', 'Go to gate']","['Board plane', 'Give luggage to airline agent']",Board plane,0
+0,0.0,[],"['Answer their questions', 'Arrive at the terminal']",Arrive at the terminal,1
+1,0.14285714285714285,['Arrive at the terminal'],"['walk up to the counter or wait in line', 'Answer their questions']",walk up to the counter or wait in line,0
+2,0.2857142857142857,"['Arrive at the terminal', 'walk up to the counter or wait in line']","['Put your bags where they can weight and mark them', 'Receive your boarding pass and gate number']",Put your bags where they can weight and mark them,0
+3,0.42857142857142855,"['Arrive at the terminal', 'walk up to the counter or wait in line', 'Put your bags where they can weight and mark them']","[""give them your ticket and ID's"", 'Arrive at the terminal']",give them your ticket and ID's,0
+4,0.5714285714285714,"['Arrive at the terminal', 'walk up to the counter or wait in line', 'Put your bags where they can weight and mark them', ""give them your ticket and ID's""]","['Answer their questions', 'leave the counter area and proceed to gate.']",Answer their questions,0
+5,0.7142857142857143,"['Arrive at the terminal', 'walk up to the counter or wait in line', 'Put your bags where they can weight and mark them', ""give them your ticket and ID's"", 'Answer their questions']","['walk up to the counter or wait in line', 'Receive your boarding pass and gate number']",Receive your boarding pass and gate number,1
+6,0.8571428571428571,"['Arrive at the terminal', 'walk up to the counter or wait in line', 'Put your bags where they can weight and mark them', ""give them your ticket and ID's"", 'Answer their questions', 'Receive your boarding pass and gate number']","['leave the counter area and proceed to gate.', 'Arrive at the terminal']",leave the counter area and proceed to gate.,0
+0,0.0,[],"['walk up to ticket counter', 'purchase plane ticket']",purchase plane ticket,1
+1,0.125,['purchase plane ticket'],"['walk to terminal', 'drive to the airport']",drive to the airport,1
+2,0.25,"['purchase plane ticket', 'drive to the airport']","['find a parking spot', 'enter terminal']",find a parking spot,0
+3,0.375,"['purchase plane ticket', 'drive to the airport', 'find a parking spot']","['get you bags from vehicle', 'walk up to ticket counter']",get you bags from vehicle,0
+4,0.5,"['purchase plane ticket', 'drive to the airport', 'find a parking spot', 'get you bags from vehicle']","['walk up to ticket counter', 'walk to terminal']",walk to terminal,1
+5,0.625,"['purchase plane ticket', 'drive to the airport', 'find a parking spot', 'get you bags from vehicle', 'walk to terminal']","['enter terminal', 'drive to the airport']",enter terminal,0
+6,0.75,"['purchase plane ticket', 'drive to the airport', 'find a parking spot', 'get you bags from vehicle', 'walk to terminal', 'enter terminal']","['get you bags from vehicle', 'walk up to ticket counter']",walk up to ticket counter,1
+7,0.875,"['purchase plane ticket', 'drive to the airport', 'find a parking spot', 'get you bags from vehicle', 'walk to terminal', 'enter terminal', 'walk up to ticket counter']","['hand agent ticket and id', 'get you bags from vehicle']",hand agent ticket and id,0
+0,0.0,[],"['travel to the airport', 'show your travel information']",travel to the airport,0
+1,0.125,['travel to the airport'],"['get out of your transportation', 'hand over your bags']",get out of your transportation,0
+2,0.25,"['travel to the airport', 'get out of your transportation']","['walk up the ticket booth', 'receive your boarding pass']",walk up the ticket booth,0
+3,0.375,"['travel to the airport', 'get out of your transportation', 'walk up the ticket booth']","['check in your luggage if you have it', 'travel to the airport']",check in your luggage if you have it,0
+4,0.5,"['travel to the airport', 'get out of your transportation', 'walk up the ticket booth', 'check in your luggage if you have it']","['hand over your bags', 'show your travel information']",show your travel information,1
+5,0.625,"['travel to the airport', 'get out of your transportation', 'walk up the ticket booth', 'check in your luggage if you have it', 'show your travel information']","['walk up the ticket booth', 'receive your boarding pass']",receive your boarding pass,1
+6,0.75,"['travel to the airport', 'get out of your transportation', 'walk up the ticket booth', 'check in your luggage if you have it', 'show your travel information', 'receive your boarding pass']","['hand over your bags', 'walk up the ticket booth']",hand over your bags,0
+7,0.875,"['travel to the airport', 'get out of your transportation', 'walk up the ticket booth', 'check in your luggage if you have it', 'show your travel information', 'receive your boarding pass', 'hand over your bags']","['walk through the security checkpoint', 'travel to the airport']",walk through the security checkpoint,0
+0,0.0,[],"['Arrive early at airport', 'go thru security']",Arrive early at airport,0
+1,0.16666666666666666,['Arrive early at airport'],"['Arrive early at airport', 'find a check in kiosk']",find a check in kiosk,1
+2,0.3333333333333333,"['Arrive early at airport', 'find a check in kiosk']","['check in', 'go thru security']",check in,0
+3,0.5,"['Arrive early at airport', 'find a check in kiosk', 'check in']","['Get boarding pass', 'go to gate']",Get boarding pass,0
+4,0.6666666666666666,"['Arrive early at airport', 'find a check in kiosk', 'check in', 'Get boarding pass']","['go thru security', 'find a check in kiosk']",go thru security,0
+5,0.8333333333333334,"['Arrive early at airport', 'find a check in kiosk', 'check in', 'Get boarding pass', 'go thru security']","['go to gate', 'check in']",go to gate,0
+0,0.0,[],"['Get the ticket from the worker', 'Have your ticket number and ID']",Have your ticket number and ID,1
+1,0.16666666666666666,['Have your ticket number and ID'],"['Approach the ticket counter', 'Take your ID back']",Approach the ticket counter,0
+2,0.3333333333333333,"['Have your ticket number and ID', 'Approach the ticket counter']","['Provide the worker with your ID and ticket number', 'Get the ticket from the worker']",Provide the worker with your ID and ticket number,0
+3,0.5,"['Have your ticket number and ID', 'Approach the ticket counter', 'Provide the worker with your ID and ticket number']","['Get the ticket from the worker', 'Check any bags you have']",Check any bags you have,1
+4,0.6666666666666666,"['Have your ticket number and ID', 'Approach the ticket counter', 'Provide the worker with your ID and ticket number', 'Check any bags you have']","['Approach the ticket counter', 'Take your ID back']",Take your ID back,1
+5,0.8333333333333334,"['Have your ticket number and ID', 'Approach the ticket counter', 'Provide the worker with your ID and ticket number', 'Check any bags you have', 'Take your ID back']","['Approach the ticket counter', 'Get the ticket from the worker']",Get the ticket from the worker,1
+0,0.0,[],"['Walk into the airport', 'Show your ID']",Walk into the airport,0
+1,0.16666666666666666,['Walk into the airport'],"['Say hello to the attendant', 'Go to the check in counter']",Go to the check in counter,1
+2,0.3333333333333333,"['Walk into the airport', 'Go to the check in counter']","['Say hello to the attendant', 'Show your ID']",Say hello to the attendant,0
+3,0.5,"['Walk into the airport', 'Go to the check in counter', 'Say hello to the attendant']","['Walk into the airport', ""Tell them you're checking in""]",Tell them you're checking in,1
+4,0.6666666666666666,"['Walk into the airport', 'Go to the check in counter', 'Say hello to the attendant', ""Tell them you're checking in""]","['Go to the check in counter', 'Show your ID']",Show your ID,1
+5,0.8333333333333334,"['Walk into the airport', 'Go to the check in counter', 'Say hello to the attendant', ""Tell them you're checking in"", 'Show your ID']","['Go to the check in counter', 'Get your boarding pass']",Get your boarding pass,1
+0,0.0,[],"['pack id and luggage', 'take transportation to the airport']",pack id and luggage,0
+1,0.16666666666666666,['pack id and luggage'],"['take transportation to the airport', 'take transportation to the airport']",take transportation to the airport,0
+2,0.3333333333333333,"['pack id and luggage', 'take transportation to the airport']","['go to assigned flight gate', 'print out a boarding pass at airline counter']",print out a boarding pass at airline counter,1
+3,0.5,"['pack id and luggage', 'take transportation to the airport', 'print out a boarding pass at airline counter']","['go through security check-in', 'give boarding pass to attendant to check in']",go through security check-in,0
+4,0.6666666666666666,"['pack id and luggage', 'take transportation to the airport', 'print out a boarding pass at airline counter', 'go through security check-in']","['go to assigned flight gate', 'take transportation to the airport']",go to assigned flight gate,0
+5,0.8333333333333334,"['pack id and luggage', 'take transportation to the airport', 'print out a boarding pass at airline counter', 'go through security check-in', 'go to assigned flight gate']","['give boarding pass to attendant to check in', 'print out a boarding pass at airline counter']",give boarding pass to attendant to check in,0
+0,0.0,[],"['Prepare to go through security.', 'Check your flight itinerary in your email or online.']",Check your flight itinerary in your email or online.,1
+1,0.125,['Check your flight itinerary in your email or online.'],"['Get confirmation number.', 'Prepare to go through security.']",Get confirmation number.,0
+2,0.25,"['Check your flight itinerary in your email or online.', 'Get confirmation number.']","['Print boarding pass.', 'Make sure you are at the correct terminal.']",Make sure you are at the correct terminal.,1
+3,0.375,"['Check your flight itinerary in your email or online.', 'Get confirmation number.', 'Make sure you are at the correct terminal.']","[""Go up to the airline's computer kiosk or counter."", 'Print boarding pass.']",Go up to the airline's computer kiosk or counter.,0
+4,0.5,"['Check your flight itinerary in your email or online.', 'Get confirmation number.', 'Make sure you are at the correct terminal.', ""Go up to the airline's computer kiosk or counter.""]","['Print boarding pass.', 'Enter in confirmation number.']",Enter in confirmation number.,1
+5,0.625,"['Check your flight itinerary in your email or online.', 'Get confirmation number.', 'Make sure you are at the correct terminal.', ""Go up to the airline's computer kiosk or counter."", 'Enter in confirmation number.']","['Get confirmation number.', 'Confirm flight and identity.']",Confirm flight and identity.,1
+6,0.75,"['Check your flight itinerary in your email or online.', 'Get confirmation number.', 'Make sure you are at the correct terminal.', ""Go up to the airline's computer kiosk or counter."", 'Enter in confirmation number.', 'Confirm flight and identity.']","['Get confirmation number.', 'Print boarding pass.']",Print boarding pass.,1
+7,0.875,"['Check your flight itinerary in your email or online.', 'Get confirmation number.', 'Make sure you are at the correct terminal.', ""Go up to the airline's computer kiosk or counter."", 'Enter in confirmation number.', 'Confirm flight and identity.', 'Print boarding pass.']","['Prepare to go through security.', 'Get confirmation number.']",Prepare to go through security.,0
+0,0.0,[],"['Check in your luggage', 'Arrive at the airport']",Arrive at the airport,1
+1,0.2,['Arrive at the airport'],"['Find your terminal', 'Find your terminal']",Find your terminal,0
+2,0.4,"['Arrive at the airport', 'Find your terminal']","['Go to a kiosk or desk to sign in for your flight', 'Go through security']",Go to a kiosk or desk to sign in for your flight,0
+3,0.6,"['Arrive at the airport', 'Find your terminal', 'Go to a kiosk or desk to sign in for your flight']","['Check in your luggage', 'Arrive at the airport']",Check in your luggage,0
+4,0.8,"['Arrive at the airport', 'Find your terminal', 'Go to a kiosk or desk to sign in for your flight', 'Check in your luggage']","['Go through security', 'Find your terminal']",Go through security,0
+0,0.0,[],"['Find terminal.', 'Go through security.']",Find terminal.,0
+1,0.16666666666666666,['Find terminal.'],"['Check in with the desk or via phone.', 'Find terminal.']",Check in with the desk or via phone.,0
+2,0.3333333333333333,"['Find terminal.', 'Check in with the desk or via phone.']","['Go through security.', 'Be patient.']",Go through security.,0
+3,0.5,"['Find terminal.', 'Check in with the desk or via phone.', 'Go through security.']","['Be patient.', 'Make sure you have your proper tickets.']",Make sure you have your proper tickets.,1
+4,0.6666666666666666,"['Find terminal.', 'Check in with the desk or via phone.', 'Go through security.', 'Make sure you have your proper tickets.']","['Make sure you have proper identification.', 'Check in with the desk or via phone.']",Make sure you have proper identification.,0
+5,0.8333333333333334,"['Find terminal.', 'Check in with the desk or via phone.', 'Go through security.', 'Make sure you have your proper tickets.', 'Make sure you have proper identification.']","['Be patient.', 'Check in with the desk or via phone.']",Be patient.,0
+0,0.0,[],"['insert credit card', 'drive to airport']",drive to airport,1
+1,0.125,['drive to airport'],"['get luggage', 'insert credit card']",get luggage,0
+2,0.25,"['drive to airport', 'get luggage']","['retrieve flight ticket', 'walk to kiosk']",walk to kiosk,1
+3,0.375,"['drive to airport', 'get luggage', 'walk to kiosk']","['approach security checkpoint', 'insert credit card']",insert credit card,1
+4,0.5,"['drive to airport', 'get luggage', 'walk to kiosk', 'insert credit card']","['drive to airport', 'confirm check in']",confirm check in,1
+5,0.625,"['drive to airport', 'get luggage', 'walk to kiosk', 'insert credit card', 'confirm check in']","['get luggage', 'print flight ticket']",print flight ticket,1
+6,0.75,"['drive to airport', 'get luggage', 'walk to kiosk', 'insert credit card', 'confirm check in', 'print flight ticket']","['retrieve flight ticket', 'drive to airport']",retrieve flight ticket,0
+7,0.875,"['drive to airport', 'get luggage', 'walk to kiosk', 'insert credit card', 'confirm check in', 'print flight ticket', 'retrieve flight ticket']","['approach security checkpoint', 'confirm check in']",approach security checkpoint,0
+0,0.0,[],"['Enter car', 'Exit car']",Enter car,0
+1,0.125,['Enter car'],"['Turn on car', 'Enter car']",Turn on car,0
+2,0.25,"['Enter car', 'Turn on car']","['Drive car to airport', 'Wait on line']",Drive car to airport,0
+3,0.375,"['Enter car', 'Turn on car', 'Drive car to airport']","['Wait on line', 'Park car']",Park car,1
+4,0.5,"['Enter car', 'Turn on car', 'Drive car to airport', 'Park car']","['Enter car', 'Exit car']",Exit car,1
+5,0.625,"['Enter car', 'Turn on car', 'Drive car to airport', 'Park car', 'Exit car']","['Walk to gate', 'Check in']",Walk to gate,0
+6,0.75,"['Enter car', 'Turn on car', 'Drive car to airport', 'Park car', 'Exit car', 'Walk to gate']","['Enter car', 'Wait on line']",Wait on line,1
+7,0.875,"['Enter car', 'Turn on car', 'Drive car to airport', 'Park car', 'Exit car', 'Walk to gate', 'Wait on line']","['Exit car', 'Check in']",Check in,1
+0,0.0,[],"['Arrive at the correct terminal', 'Arrive at the correct terminal']",Arrive at the correct terminal,0
+1,0.2,['Arrive at the correct terminal'],"['Check bags', 'Find a skycap to take luggage.']",Find a skycap to take luggage.,1
+2,0.4,"['Arrive at the correct terminal', 'Find a skycap to take luggage.']","['Find correct counter or kiosk', 'Print/ Receive boarding pass']",Find correct counter or kiosk,0
+3,0.6,"['Arrive at the correct terminal', 'Find a skycap to take luggage.', 'Find correct counter or kiosk']","['Arrive at the correct terminal', 'Check bags']",Check bags,1
+4,0.8,"['Arrive at the correct terminal', 'Find a skycap to take luggage.', 'Find correct counter or kiosk', 'Check bags']","['Arrive at the correct terminal', 'Print/ Receive boarding pass']",Print/ Receive boarding pass,1
+0,0.0,[],"['Sit and wait until plane arrives at my gate.', 'Pass ID screening.']",Pass ID screening.,1
+1,0.2,['Pass ID screening.'],"['Pass ID screening.', 'Get passed security.']",Get passed security.,1
+2,0.4,"['Pass ID screening.', 'Get passed security.']","['Check in for my flight.', 'Take luggage and belongings onto my plane.']",Check in for my flight.,0
+3,0.6,"['Pass ID screening.', 'Get passed security.', 'Check in for my flight.']","['Sit and wait until plane arrives at my gate.', 'Pass ID screening.']",Sit and wait until plane arrives at my gate.,0
+4,0.8,"['Pass ID screening.', 'Get passed security.', 'Check in for my flight.', 'Sit and wait until plane arrives at my gate.']","['Get passed security.', 'Take luggage and belongings onto my plane.']",Take luggage and belongings onto my plane.,1

@@ -1,0 +1,571 @@
+task_step,task_completion_percentage,previous_actions,choices,correct_choice,correct_action
+0,0.0,[],"['turn bicycle upside down', 'put new tube on']",turn bicycle upside down,0
+1,0.14285714285714285,['turn bicycle upside down'],"['take off tire', 'flip bicycle back around']",take off tire,0
+2,0.2857142857142857,"['turn bicycle upside down', 'take off tire']","['take off tube', 'flip bicycle back around']",take off tube,0
+3,0.42857142857142855,"['turn bicycle upside down', 'take off tire', 'take off tube']","['pump air into new tube', 'put new tube on']",put new tube on,1
+4,0.5714285714285714,"['turn bicycle upside down', 'take off tire', 'take off tube', 'put new tube on']","['put tire over tube', 'flip bicycle back around']",put tire over tube,0
+5,0.7142857142857143,"['turn bicycle upside down', 'take off tire', 'take off tube', 'put new tube on', 'put tire over tube']","['take off tube', 'pump air into new tube']",pump air into new tube,1
+6,0.8571428571428571,"['turn bicycle upside down', 'take off tire', 'take off tube', 'put new tube on', 'put tire over tube', 'pump air into new tube']","['flip bicycle back around', 'take off tire']",flip bicycle back around,0
+0,0.0,[],"['Taking old tire off', 'Get tools']",Get tools,1
+1,0.2,['Get tools'],"['Put on spare tire', 'Get spare tire']",Get spare tire,1
+2,0.4,"['Get tools', 'Get spare tire']","['Taking old tire off', 'Put away old tire']",Taking old tire off,0
+3,0.6,"['Get tools', 'Get spare tire', 'Taking old tire off']","['Put on spare tire', 'Get tools']",Put on spare tire,0
+4,0.8,"['Get tools', 'Get spare tire', 'Taking old tire off', 'Put on spare tire']","['Put away old tire', 'Get tools']",Put away old tire,0
+0,0.0,[],"['Pull out the rubber tube', 'Take the toolbox']",Take the toolbox,1
+1,0.14285714285714285,['Take the toolbox'],"['Pull out the rubber tube', 'Open up the tire with a long screwdriver and lever']",Open up the tire with a long screwdriver and lever,1
+2,0.2857142857142857,"['Take the toolbox', 'Open up the tire with a long screwdriver and lever']","['mark all the holes as indicated by the bubbles', 'Pull out the rubber tube']",Pull out the rubber tube,1
+3,0.42857142857142855,"['Take the toolbox', 'Open up the tire with a long screwdriver and lever', 'Pull out the rubber tube']","['mark all the holes as indicated by the bubbles', 'Fill air']",Fill air,1
+4,0.5714285714285714,"['Take the toolbox', 'Open up the tire with a long screwdriver and lever', 'Pull out the rubber tube', 'Fill air']","['Take the toolbox', 'Put the aerated tube in a water tub']",Put the aerated tube in a water tub,1
+5,0.7142857142857143,"['Take the toolbox', 'Open up the tire with a long screwdriver and lever', 'Pull out the rubber tube', 'Fill air', 'Put the aerated tube in a water tub']","['look for air bubbles', 'Pull out the rubber tube']",look for air bubbles,0
+6,0.8571428571428571,"['Take the toolbox', 'Open up the tire with a long screwdriver and lever', 'Pull out the rubber tube', 'Fill air', 'Put the aerated tube in a water tub', 'look for air bubbles']","['mark all the holes as indicated by the bubbles', 'Open up the tire with a long screwdriver and lever']",mark all the holes as indicated by the bubbles,0
+0,0.0,[],"['Replace nozzle cap', 'Place bike on ground']",Place bike on ground,1
+1,0.2,['Place bike on ground'],"['Pump air into tire', 'Unscrew nozzle cap on tire']",Unscrew nozzle cap on tire,1
+2,0.4,"['Place bike on ground', 'Unscrew nozzle cap on tire']","['Replace nozzle cap', 'Place tire pump hose on nozzle']",Place tire pump hose on nozzle,1
+3,0.6,"['Place bike on ground', 'Unscrew nozzle cap on tire', 'Place tire pump hose on nozzle']","['Pump air into tire', 'Place bike on ground']",Pump air into tire,0
+4,0.8,"['Place bike on ground', 'Unscrew nozzle cap on tire', 'Place tire pump hose on nozzle', 'Pump air into tire']","['Replace nozzle cap', 'Unscrew nozzle cap on tire']",Replace nozzle cap,0
+0,0.0,[],"['Put new tire in its place', 'Get a new bicycle tire']",Get a new bicycle tire,1
+1,0.16666666666666666,['Get a new bicycle tire'],"['Get tools', 'Put new tire in its place']",Get tools,0
+2,0.3333333333333333,"['Get a new bicycle tire', 'Get tools']","['Test to make sure it is in sturdily.', 'Remove flat tire']",Remove flat tire,1
+3,0.5,"['Get a new bicycle tire', 'Get tools', 'Remove flat tire']","['Get a new bicycle tire', 'Put new tire in its place']",Put new tire in its place,1
+4,0.6666666666666666,"['Get a new bicycle tire', 'Get tools', 'Remove flat tire', 'Put new tire in its place']","['Secure the tire.', 'Get a new bicycle tire']",Secure the tire.,0
+5,0.8333333333333334,"['Get a new bicycle tire', 'Get tools', 'Remove flat tire', 'Put new tire in its place', 'Secure the tire.']","['Remove flat tire', 'Test to make sure it is in sturdily.']",Test to make sure it is in sturdily.,1
+0,0.0,[],"['Put bike upside down', 'Put bike upside down']",Put bike upside down,1
+1,0.14285714285714285,['Put bike upside down'],"['Take flat tire off', 'Flip bike right side up']",Take flat tire off,0
+2,0.2857142857142857,"['Put bike upside down', 'Take flat tire off']","['Flip bike right side up', 'Collect tools']",Collect tools,1
+3,0.42857142857142855,"['Put bike upside down', 'Take flat tire off', 'Collect tools']","['Flip bike right side up', 'Get new tire']",Get new tire,1
+4,0.5714285714285714,"['Put bike upside down', 'Take flat tire off', 'Collect tools', 'Get new tire']","['Take flat tire off', 'Align new tire']",Align new tire,1
+5,0.7142857142857143,"['Put bike upside down', 'Take flat tire off', 'Collect tools', 'Get new tire', 'Align new tire']","['Use tools to secure', 'Take flat tire off']",Use tools to secure,0
+6,0.8571428571428571,"['Put bike upside down', 'Take flat tire off', 'Collect tools', 'Get new tire', 'Align new tire', 'Use tools to secure']","['Collect tools', 'Flip bike right side up']",Flip bike right side up,1
+0,0.0,[],"['Prop bike upside down.', 'Remove wheel.']",Prop bike upside down.,0
+1,0.14285714285714285,['Prop bike upside down.'],"['Remove wheel.', 'From wheel pull out inner tube.']",Remove wheel.,0
+2,0.2857142857142857,"['Prop bike upside down.', 'Remove wheel.']","['Secure wheel on.', 'From wheel pull out inner tube.']",From wheel pull out inner tube.,1
+3,0.42857142857142855,"['Prop bike upside down.', 'Remove wheel.', 'From wheel pull out inner tube.']","['Open package with new inner tube.', 'Use pump to fill with air.']",Open package with new inner tube.,0
+4,0.5714285714285714,"['Prop bike upside down.', 'Remove wheel.', 'From wheel pull out inner tube.', 'Open package with new inner tube.']","['Remove wheel.', 'Install new inner tube.']",Install new inner tube.,1
+5,0.7142857142857143,"['Prop bike upside down.', 'Remove wheel.', 'From wheel pull out inner tube.', 'Open package with new inner tube.', 'Install new inner tube.']","['Remove wheel.', 'Use pump to fill with air.']",Use pump to fill with air.,1
+6,0.8571428571428571,"['Prop bike upside down.', 'Remove wheel.', 'From wheel pull out inner tube.', 'Open package with new inner tube.', 'Install new inner tube.', 'Use pump to fill with air.']","['Remove wheel.', 'Secure wheel on.']",Secure wheel on.,1
+0,0.0,[],"['Get air pump', 'Examine the tire']",Examine the tire,1
+1,0.14285714285714285,['Examine the tire'],"['if there are any holes, plug them up', 'Walk bike around to make sure the tire holds air']","if there are any holes, plug them up",0
+2,0.2857142857142857,"['Examine the tire', 'if there are any holes, plug them up']","['Get air pump', 'Test tire pressure with gage']",Get air pump,0
+3,0.42857142857142855,"['Examine the tire', 'if there are any holes, plug them up', 'Get air pump']","['Examine the tire', 'pump air into tire']",pump air into tire,1
+4,0.5714285714285714,"['Examine the tire', 'if there are any holes, plug them up', 'Get air pump', 'pump air into tire']","['Test tire pressure with gage', 'ride bike']",Test tire pressure with gage,0
+5,0.7142857142857143,"['Examine the tire', 'if there are any holes, plug them up', 'Get air pump', 'pump air into tire', 'Test tire pressure with gage']","['if there are any holes, plug them up', 'Walk bike around to make sure the tire holds air']",Walk bike around to make sure the tire holds air,1
+6,0.8571428571428571,"['Examine the tire', 'if there are any holes, plug them up', 'Get air pump', 'pump air into tire', 'Test tire pressure with gage', 'Walk bike around to make sure the tire holds air']","['if there are any holes, plug them up', 'ride bike']",ride bike,1
+0,0.0,[],"['Make sure it is sealed properly.', 'Get a patch for the hole in the tire.']",Get a patch for the hole in the tire.,1
+1,0.2,['Get a patch for the hole in the tire.'],"['Make sure it is sealed properly.', 'Place it over the hole.']",Place it over the hole.,1
+2,0.4,"['Get a patch for the hole in the tire.', 'Place it over the hole.']","['Enjoy your bike!', 'Make sure it is sealed properly.']",Make sure it is sealed properly.,1
+3,0.6,"['Get a patch for the hole in the tire.', 'Place it over the hole.', 'Make sure it is sealed properly.']","['Get a patch for the hole in the tire.', 'Move the bike back and forth so the patch gets accustomed to the tire.']",Move the bike back and forth so the patch gets accustomed to the tire.,1
+4,0.8,"['Get a patch for the hole in the tire.', 'Place it over the hole.', 'Make sure it is sealed properly.', 'Move the bike back and forth so the patch gets accustomed to the tire.']","['Enjoy your bike!', 'Place it over the hole.']",Enjoy your bike!,0
+0,0.0,[],"['Remove the wheel from the bike.', 'Check the tire for damage.']",Remove the wheel from the bike.,0
+1,0.16666666666666666,['Remove the wheel from the bike.'],"['Repair or replace the tube as needed.', 'Check the tire for damage.']",Check the tire for damage.,1
+2,0.3333333333333333,"['Remove the wheel from the bike.', 'Check the tire for damage.']","['Remove any debris or nails that may have caused the damage.', 'Put the tire back on the bicycle.']",Remove any debris or nails that may have caused the damage.,0
+3,0.5,"['Remove the wheel from the bike.', 'Check the tire for damage.', 'Remove any debris or nails that may have caused the damage.']","['Repair or replace the tube as needed.', 'Remove the wheel from the bike.']",Repair or replace the tube as needed.,0
+4,0.6666666666666666,"['Remove the wheel from the bike.', 'Check the tire for damage.', 'Remove any debris or nails that may have caused the damage.', 'Repair or replace the tube as needed.']","['Check the tire for damage.', 'Inflate the tire slowly.']",Inflate the tire slowly.,1
+5,0.8333333333333334,"['Remove the wheel from the bike.', 'Check the tire for damage.', 'Remove any debris or nails that may have caused the damage.', 'Repair or replace the tube as needed.', 'Inflate the tire slowly.']","['Remove the wheel from the bike.', 'Put the tire back on the bicycle.']",Put the tire back on the bicycle.,1
+0,0.0,[],"['get a spare tire', 'get a spare tire']",get a spare tire,1
+1,0.16666666666666666,['get a spare tire'],"['take flat tire off the bike', 'put air in tire']",take flat tire off the bike,0
+2,0.3333333333333333,"['get a spare tire', 'take flat tire off the bike']","['either patch it with a bike patch or a put on a new tire', 'test out bike']",either patch it with a bike patch or a put on a new tire,0
+3,0.5,"['get a spare tire', 'take flat tire off the bike', 'either patch it with a bike patch or a put on a new tire']","['put tire back on the bike', 'get a spare tire']",put tire back on the bike,0
+4,0.6666666666666666,"['get a spare tire', 'take flat tire off the bike', 'either patch it with a bike patch or a put on a new tire', 'put tire back on the bike']","['take flat tire off the bike', 'put air in tire']",put air in tire,1
+5,0.8333333333333334,"['get a spare tire', 'take flat tire off the bike', 'either patch it with a bike patch or a put on a new tire', 'put tire back on the bike', 'put air in tire']","['test out bike', 'either patch it with a bike patch or a put on a new tire']",test out bike,0
+0,0.0,[],"['Remove wheel from bicycle', 'Remove tire from wheel']",Remove wheel from bicycle,0
+1,0.14285714285714285,['Remove wheel from bicycle'],"['Attach wheel to bicycle', 'Remove tire from wheel']",Remove tire from wheel,1
+2,0.2857142857142857,"['Remove wheel from bicycle', 'Remove tire from wheel']","['Remove tube from tire', 'Attach wheel to bicycle']",Remove tube from tire,0
+3,0.42857142857142855,"['Remove wheel from bicycle', 'Remove tire from wheel', 'Remove tube from tire']","['Take new tube out of package', 'Remove wheel from bicycle']",Take new tube out of package,0
+4,0.5714285714285714,"['Remove wheel from bicycle', 'Remove tire from wheel', 'Remove tube from tire', 'Take new tube out of package']","['Attach wheel to bicycle', 'Place tube in tire']",Place tube in tire,1
+5,0.7142857142857143,"['Remove wheel from bicycle', 'Remove tire from wheel', 'Remove tube from tire', 'Take new tube out of package', 'Place tube in tire']","['Remove tube from tire', 'Replace tire onto wheel']",Replace tire onto wheel,1
+6,0.8571428571428571,"['Remove wheel from bicycle', 'Remove tire from wheel', 'Remove tube from tire', 'Take new tube out of package', 'Place tube in tire', 'Replace tire onto wheel']","['Remove wheel from bicycle', 'Attach wheel to bicycle']",Attach wheel to bicycle,1
+0,0.0,[],"['Put hose of pump on tire', 'Get pump for tire']",Get pump for tire,1
+1,0.14285714285714285,['Get pump for tire'],"['Check tire', 'Unscrew cap on bike tire']",Unscrew cap on bike tire,1
+2,0.2857142857142857,"['Get pump for tire', 'Unscrew cap on bike tire']","['Put hose of pump on tire', 'Rescrew cap on tire']",Put hose of pump on tire,0
+3,0.42857142857142855,"['Get pump for tire', 'Unscrew cap on bike tire', 'Put hose of pump on tire']","['Put pump away', 'Start pumping up tire']",Start pumping up tire,1
+4,0.5714285714285714,"['Get pump for tire', 'Unscrew cap on bike tire', 'Put hose of pump on tire', 'Start pumping up tire']","['Get pump for tire', 'Check tire']",Check tire,1
+5,0.7142857142857143,"['Get pump for tire', 'Unscrew cap on bike tire', 'Put hose of pump on tire', 'Start pumping up tire', 'Check tire']","['Rescrew cap on tire', 'Unscrew cap on bike tire']",Rescrew cap on tire,0
+6,0.8571428571428571,"['Get pump for tire', 'Unscrew cap on bike tire', 'Put hose of pump on tire', 'Start pumping up tire', 'Check tire', 'Rescrew cap on tire']","['Unscrew cap on bike tire', 'Put pump away']",Put pump away,1
+0,0.0,[],"['Find hole in tire', 'Find tire pump']",Find hole in tire,0
+1,0.2,['Find hole in tire'],"['Pump tire until full of air', 'Plug hole']",Plug hole,1
+2,0.4,"['Find hole in tire', 'Plug hole']","['Pump tire until full of air', 'Find tire pump']",Find tire pump,1
+3,0.6,"['Find hole in tire', 'Plug hole', 'Find tire pump']","['Find hole in tire', 'Insert tire pump into tire']",Insert tire pump into tire,1
+4,0.8,"['Find hole in tire', 'Plug hole', 'Find tire pump', 'Insert tire pump into tire']","['Pump tire until full of air', 'Plug hole']",Pump tire until full of air,0
+0,0.0,[],"['remove the wheel with the flat tire', 'flip the bike upside down']",flip the bike upside down,1
+1,0.14285714285714285,['flip the bike upside down'],"['remove the wheel with the flat tire', 'flip the bike upside down']",remove the wheel with the flat tire,0
+2,0.2857142857142857,"['flip the bike upside down', 'remove the wheel with the flat tire']","['use a screwdriver to pry one side of the tire off of the rim', 'press the side wall of the tire back onto the rim']",use a screwdriver to pry one side of the tire off of the rim,0
+3,0.42857142857142855,"['flip the bike upside down', 'remove the wheel with the flat tire', 'use a screwdriver to pry one side of the tire off of the rim']","['flip the bike upside down', 'pull the flat inner-tube out of the tire carefully']",pull the flat inner-tube out of the tire carefully,1
+4,0.5714285714285714,"['flip the bike upside down', 'remove the wheel with the flat tire', 'use a screwdriver to pry one side of the tire off of the rim', 'pull the flat inner-tube out of the tire carefully']","['line the valve of the new inner-tube up with to the correct spot on the rim', 'flip the bike upside down']",line the valve of the new inner-tube up with to the correct spot on the rim,0
+5,0.7142857142857143,"['flip the bike upside down', 'remove the wheel with the flat tire', 'use a screwdriver to pry one side of the tire off of the rim', 'pull the flat inner-tube out of the tire carefully', 'line the valve of the new inner-tube up with to the correct spot on the rim']","['remove the wheel with the flat tire', 'stuff the new inner-tube in the tire']",stuff the new inner-tube in the tire,1
+6,0.8571428571428571,"['flip the bike upside down', 'remove the wheel with the flat tire', 'use a screwdriver to pry one side of the tire off of the rim', 'pull the flat inner-tube out of the tire carefully', 'line the valve of the new inner-tube up with to the correct spot on the rim', 'stuff the new inner-tube in the tire']","['pull the flat inner-tube out of the tire carefully', 'press the side wall of the tire back onto the rim']",press the side wall of the tire back onto the rim,1
+0,0.0,[],"['If not possible, then purchase new inner tube.', 'Turn bike over to look at tire.']",Turn bike over to look at tire.,1
+1,0.14285714285714285,['Turn bike over to look at tire.'],"['Determine if there is something stuck in tire.', 'If not possible, then purchase new inner tube.']",Determine if there is something stuck in tire.,0
+2,0.2857142857142857,"['Turn bike over to look at tire.', 'Determine if there is something stuck in tire.']","['If not possible, then purchase new inner tube.', 'Remove inner tube from middle of tire.']",Remove inner tube from middle of tire.,1
+3,0.42857142857142855,"['Turn bike over to look at tire.', 'Determine if there is something stuck in tire.', 'Remove inner tube from middle of tire.']","['Fill tube with air.', 'Patch inner tube with patch.']",Patch inner tube with patch.,1
+4,0.5714285714285714,"['Turn bike over to look at tire.', 'Determine if there is something stuck in tire.', 'Remove inner tube from middle of tire.', 'Patch inner tube with patch.']","['Determine if there is something stuck in tire.', 'If not possible, then purchase new inner tube.']","If not possible, then purchase new inner tube.",1
+5,0.7142857142857143,"['Turn bike over to look at tire.', 'Determine if there is something stuck in tire.', 'Remove inner tube from middle of tire.', 'Patch inner tube with patch.', 'If not possible, then purchase new inner tube.']","['Insert new or fixed tube back into tire.', 'Remove inner tube from middle of tire.']",Insert new or fixed tube back into tire.,0
+6,0.8571428571428571,"['Turn bike over to look at tire.', 'Determine if there is something stuck in tire.', 'Remove inner tube from middle of tire.', 'Patch inner tube with patch.', 'If not possible, then purchase new inner tube.', 'Insert new or fixed tube back into tire.']","['Turn bike over to look at tire.', 'Fill tube with air.']",Fill tube with air.,1
+0,0.0,[],"['take tire off bike', 'drive home']",take tire off bike,0
+1,0.14285714285714285,['take tire off bike'],"['take tube out of tire tread', 'place tube in tire with the nozzle going through the tread']",take tube out of tire tread,0
+2,0.2857142857142857,"['take tire off bike', 'take tube out of tire tread']","['drive home', 'drive tube to bike shop']",drive tube to bike shop,1
+3,0.42857142857142855,"['take tire off bike', 'take tube out of tire tread', 'drive tube to bike shop']","['buy the same size tube', 'place tube in tire with the nozzle going through the tread']",buy the same size tube,0
+4,0.5714285714285714,"['take tire off bike', 'take tube out of tire tread', 'drive tube to bike shop', 'buy the same size tube']","['drive home', 'take tube out of tire tread']",drive home,0
+5,0.7142857142857143,"['take tire off bike', 'take tube out of tire tread', 'drive tube to bike shop', 'buy the same size tube', 'drive home']","['drive tube to bike shop', 'place tube in tire with the nozzle going through the tread']",place tube in tire with the nozzle going through the tread,1
+6,0.8571428571428571,"['take tire off bike', 'take tube out of tire tread', 'drive tube to bike shop', 'buy the same size tube', 'drive home', 'place tube in tire with the nozzle going through the tread']","['air up to approx 35psi', 'take tube out of tire tread']",air up to approx 35psi,0
+0,0.0,[],"['Get tire patch kit', 'Patch discovered holes in tire']",Get tire patch kit,0
+1,0.14285714285714285,['Get tire patch kit'],"['Squeeze tire', 'Take bicycle to open area']",Take bicycle to open area,1
+2,0.2857142857142857,"['Get tire patch kit', 'Take bicycle to open area']","['Flip bicycle upside down', 'Feel for hole in tire']",Flip bicycle upside down,0
+3,0.42857142857142855,"['Get tire patch kit', 'Take bicycle to open area', 'Flip bicycle upside down']","['Pump tire with air', 'Get tire patch kit']",Pump tire with air,0
+4,0.5714285714285714,"['Get tire patch kit', 'Take bicycle to open area', 'Flip bicycle upside down', 'Pump tire with air']","['Squeeze tire', 'Patch discovered holes in tire']",Squeeze tire,0
+5,0.7142857142857143,"['Get tire patch kit', 'Take bicycle to open area', 'Flip bicycle upside down', 'Pump tire with air', 'Squeeze tire']","['Get tire patch kit', 'Feel for hole in tire']",Feel for hole in tire,1
+6,0.8571428571428571,"['Get tire patch kit', 'Take bicycle to open area', 'Flip bicycle upside down', 'Pump tire with air', 'Squeeze tire', 'Feel for hole in tire']","['Pump tire with air', 'Patch discovered holes in tire']",Patch discovered holes in tire,1
+0,0.0,[],"['Removing the wheel', 'Patch or replace tube']",Removing the wheel,0
+1,0.2,['Removing the wheel'],"['Removing the tire from one side of rim', 'Patch or replace tube']",Removing the tire from one side of rim,0
+2,0.4,"['Removing the wheel', 'Removing the tire from one side of rim']","['Mount tire back to wheel', 'Remove tube']",Remove tube,1
+3,0.6,"['Removing the wheel', 'Removing the tire from one side of rim', 'Remove tube']","['Removing the wheel', 'Patch or replace tube']",Patch or replace tube,1
+4,0.8,"['Removing the wheel', 'Removing the tire from one side of rim', 'Remove tube', 'Patch or replace tube']","['Removing the wheel', 'Mount tire back to wheel']",Mount tire back to wheel,1
+0,0.0,[],"['inflate tire', 'grab tire']",grab tire,1
+1,0.16666666666666666,['grab tire'],"['locate puncture', 'locate puncture']",locate puncture,0
+2,0.3333333333333333,"['grab tire', 'locate puncture']","['ride off', 'patch puncture']",patch puncture,1
+3,0.5,"['grab tire', 'locate puncture', 'patch puncture']","['inflate tire', 'grab tire']",inflate tire,0
+4,0.6666666666666666,"['grab tire', 'locate puncture', 'patch puncture', 'inflate tire']","['locate puncture', 'test pressure']",test pressure,1
+5,0.8333333333333334,"['grab tire', 'locate puncture', 'patch puncture', 'inflate tire', 'test pressure']","['ride off', 'patch puncture']",ride off,0
+0,0.0,[],"['Get a spare tire.', 'Throw away the flat tire.']",Get a spare tire.,0
+1,0.14285714285714285,['Get a spare tire.'],"['Take off the flat tire on bicycle.', 'Unscrew the screws.']",Unscrew the screws.,1
+2,0.2857142857142857,"['Get a spare tire.', 'Unscrew the screws.']","['Unhook the bicycle chains.', 'Screw everything back.']",Unhook the bicycle chains.,0
+3,0.42857142857142855,"['Get a spare tire.', 'Unscrew the screws.', 'Unhook the bicycle chains.']","['Take off the flat tire on bicycle.', 'Put on spare tire.']",Take off the flat tire on bicycle.,0
+4,0.5714285714285714,"['Get a spare tire.', 'Unscrew the screws.', 'Unhook the bicycle chains.', 'Take off the flat tire on bicycle.']","['Screw everything back.', 'Throw away the flat tire.']",Throw away the flat tire.,1
+5,0.7142857142857143,"['Get a spare tire.', 'Unscrew the screws.', 'Unhook the bicycle chains.', 'Take off the flat tire on bicycle.', 'Throw away the flat tire.']","['Unscrew the screws.', 'Put on spare tire.']",Put on spare tire.,1
+6,0.8571428571428571,"['Get a spare tire.', 'Unscrew the screws.', 'Unhook the bicycle chains.', 'Take off the flat tire on bicycle.', 'Throw away the flat tire.', 'Put on spare tire.']","['Screw everything back.', 'Unscrew the screws.']",Screw everything back.,0
+0,0.0,[],"['Buy new tire', 'Get bike']",Buy new tire,0
+1,0.2,['Buy new tire'],"['Go to garage', 'Put new tire on']",Go to garage,0
+2,0.4,"['Buy new tire', 'Go to garage']","['Get bike', 'Put new tire on']",Get bike,0
+3,0.6,"['Buy new tire', 'Go to garage', 'Get bike']","['Buy new tire', 'Remove tire']",Remove tire,1
+4,0.8,"['Buy new tire', 'Go to garage', 'Get bike', 'Remove tire']","['Go to garage', 'Put new tire on']",Put new tire on,1
+0,0.0,[],"['Dry off tube.', 'Remove tire and tube from bicycle.']",Remove tire and tube from bicycle.,1
+1,0.14285714285714285,['Remove tire and tube from bicycle.'],"['Submerge tube in water.', 'Put tube and tire back on bicycle.']",Submerge tube in water.,0
+2,0.2857142857142857,"['Remove tire and tube from bicycle.', 'Submerge tube in water.']","['Dry off tube.', 'Squeeze tube until you see bubble to find the hole.']",Squeeze tube until you see bubble to find the hole.,1
+3,0.42857142857142855,"['Remove tire and tube from bicycle.', 'Submerge tube in water.', 'Squeeze tube until you see bubble to find the hole.']","['Take out of water.', 'Remove tire and tube from bicycle.']",Take out of water.,0
+4,0.5714285714285714,"['Remove tire and tube from bicycle.', 'Submerge tube in water.', 'Squeeze tube until you see bubble to find the hole.', 'Take out of water.']","['Remove tire and tube from bicycle.', 'Dry off tube.']",Dry off tube.,1
+5,0.7142857142857143,"['Remove tire and tube from bicycle.', 'Submerge tube in water.', 'Squeeze tube until you see bubble to find the hole.', 'Take out of water.', 'Dry off tube.']","['Use repair kit to patch up tube.', 'Submerge tube in water.']",Use repair kit to patch up tube.,0
+6,0.8571428571428571,"['Remove tire and tube from bicycle.', 'Submerge tube in water.', 'Squeeze tube until you see bubble to find the hole.', 'Take out of water.', 'Dry off tube.', 'Use repair kit to patch up tube.']","['Submerge tube in water.', 'Put tube and tire back on bicycle.']",Put tube and tire back on bicycle.,1
+0,0.0,[],"['Remove wheel from bicycle', 'Use tire irons to remove tire']",Remove wheel from bicycle,0
+1,0.14285714285714285,['Remove wheel from bicycle'],"['Use tire irons to remove tire', 'Wait for patch to seal']",Use tire irons to remove tire,0
+2,0.2857142857142857,"['Remove wheel from bicycle', 'Use tire irons to remove tire']","['Patch leak', 'Take out inner tube']",Take out inner tube,1
+3,0.42857142857142855,"['Remove wheel from bicycle', 'Use tire irons to remove tire', 'Take out inner tube']","['Find leak', 'Put inner tube back into bike tire']",Find leak,0
+4,0.5714285714285714,"['Remove wheel from bicycle', 'Use tire irons to remove tire', 'Take out inner tube', 'Find leak']","['Remove wheel from bicycle', 'Patch leak']",Patch leak,1
+5,0.7142857142857143,"['Remove wheel from bicycle', 'Use tire irons to remove tire', 'Take out inner tube', 'Find leak', 'Patch leak']","['Wait for patch to seal', 'Use tire irons to remove tire']",Wait for patch to seal,0
+6,0.8571428571428571,"['Remove wheel from bicycle', 'Use tire irons to remove tire', 'Take out inner tube', 'Find leak', 'Patch leak', 'Wait for patch to seal']","['Take out inner tube', 'Put inner tube back into bike tire']",Put inner tube back into bike tire,1
+0,0.0,[],"['buy new tire', 'fill new tire with air']",buy new tire,0
+1,0.16666666666666666,['buy new tire'],"['remove flat tire from bike', 'fill new tire with air']",remove flat tire from bike,0
+2,0.3333333333333333,"['buy new tire', 'remove flat tire from bike']","['fill new tire with air', 'throw flat tire away']",throw flat tire away,1
+3,0.5,"['buy new tire', 'remove flat tire from bike', 'throw flat tire away']","['buy new tire', 'install new tire']",install new tire,1
+4,0.6666666666666666,"['buy new tire', 'remove flat tire from bike', 'throw flat tire away', 'install new tire']","['fill new tire with air', 'remove flat tire from bike']",fill new tire with air,0
+5,0.8333333333333334,"['buy new tire', 'remove flat tire from bike', 'throw flat tire away', 'install new tire', 'fill new tire with air']","['buy new tire', 'ride away on bicycle']",ride away on bicycle,1
+0,0.0,[],"['Re-inflate the tire.', 'Remove the tire from your bike']",Remove the tire from your bike,1
+1,0.16666666666666666,['Remove the tire from your bike'],"['Wait for it to dry', 'Deflate any remaining air']",Deflate any remaining air,1
+2,0.3333333333333333,"['Remove the tire from your bike', 'Deflate any remaining air']","['Re-inflate the tire.', 'Patch up any holes in the tire with a tire patching adhesive']",Patch up any holes in the tire with a tire patching adhesive,1
+3,0.5,"['Remove the tire from your bike', 'Deflate any remaining air', 'Patch up any holes in the tire with a tire patching adhesive']","['Remove the tire from your bike', 'Wait for it to dry']",Wait for it to dry,1
+4,0.6666666666666666,"['Remove the tire from your bike', 'Deflate any remaining air', 'Patch up any holes in the tire with a tire patching adhesive', 'Wait for it to dry']","['Place the tire back on your bike', 'Deflate any remaining air']",Place the tire back on your bike,0
+5,0.8333333333333334,"['Remove the tire from your bike', 'Deflate any remaining air', 'Patch up any holes in the tire with a tire patching adhesive', 'Wait for it to dry', 'Place the tire back on your bike']","['Re-inflate the tire.', 'Patch up any holes in the tire with a tire patching adhesive']",Re-inflate the tire.,0
+0,0.0,[],"['Put tire patch on leak', 'Notice flat tire']",Notice flat tire,1
+1,0.14285714285714285,['Notice flat tire'],"['Take wheel off bike', 'Put wheel back on bike']",Take wheel off bike,0
+2,0.2857142857142857,"['Notice flat tire', 'Take wheel off bike']","['Take tire off wheel', 'Put tire back on wheel']",Take tire off wheel,0
+3,0.42857142857142855,"['Notice flat tire', 'Take wheel off bike', 'Take tire off wheel']","['Put tire patch on leak', 'Notice flat tire']",Put tire patch on leak,0
+4,0.5714285714285714,"['Notice flat tire', 'Take wheel off bike', 'Take tire off wheel', 'Put tire patch on leak']","['Put tire back on wheel', 'Take wheel off bike']",Put tire back on wheel,0
+5,0.7142857142857143,"['Notice flat tire', 'Take wheel off bike', 'Take tire off wheel', 'Put tire patch on leak', 'Put tire back on wheel']","['Take tire off wheel', 'Inflate tire']",Inflate tire,1
+6,0.8571428571428571,"['Notice flat tire', 'Take wheel off bike', 'Take tire off wheel', 'Put tire patch on leak', 'Put tire back on wheel', 'Inflate tire']","['Put wheel back on bike', 'Take tire off wheel']",Put wheel back on bike,0
+0,0.0,[],"['Remove tire from bike', 'remove tube from tire']",Remove tire from bike,0
+1,0.2,['Remove tire from bike'],"['fit tube into tire', 'remove tube from tire']",remove tube from tire,1
+2,0.4,"['Remove tire from bike', 'remove tube from tire']","['purchase new bike tube from store', 'attach tire back on to the bike']",purchase new bike tube from store,0
+3,0.6,"['Remove tire from bike', 'remove tube from tire', 'purchase new bike tube from store']","['fit tube into tire', 'Remove tire from bike']",fit tube into tire,0
+4,0.8,"['Remove tire from bike', 'remove tube from tire', 'purchase new bike tube from store', 'fit tube into tire']","['remove tube from tire', 'attach tire back on to the bike']",attach tire back on to the bike,1
+0,0.0,[],"['Fasten the hose', 'Get air pump']",Get air pump,1
+1,0.14285714285714285,['Get air pump'],"['Unfasten the hose', 'Unscrew cap on tire']",Unscrew cap on tire,1
+2,0.2857142857142857,"['Get air pump', 'Unscrew cap on tire']","['Place hose end into the tire', 'Unfasten the hose']",Place hose end into the tire,0
+3,0.42857142857142855,"['Get air pump', 'Unscrew cap on tire', 'Place hose end into the tire']","['Fasten the hose', 'Unfasten the hose']",Fasten the hose,0
+4,0.5714285714285714,"['Get air pump', 'Unscrew cap on tire', 'Place hose end into the tire', 'Fasten the hose']","['Screw cap back on tire', 'Pump air into tire']",Pump air into tire,1
+5,0.7142857142857143,"['Get air pump', 'Unscrew cap on tire', 'Place hose end into the tire', 'Fasten the hose', 'Pump air into tire']","['Place hose end into the tire', 'Unfasten the hose']",Unfasten the hose,1
+6,0.8571428571428571,"['Get air pump', 'Unscrew cap on tire', 'Place hose end into the tire', 'Fasten the hose', 'Pump air into tire', 'Unfasten the hose']","['Place hose end into the tire', 'Screw cap back on tire']",Screw cap back on tire,1
+0,0.0,[],"['Replace inner tube', 'Remove tire from wheel rim']",Remove tire from wheel rim,1
+1,0.14285714285714285,['Remove tire from wheel rim'],"['Allow to dry', 'Remove inner tube']",Remove inner tube,1
+2,0.2857142857142857,"['Remove tire from wheel rim', 'Remove inner tube']","['Pump inner tube with air to locate puncture', 'Replace inner tube']",Pump inner tube with air to locate puncture,0
+3,0.42857142857142855,"['Remove tire from wheel rim', 'Remove inner tube', 'Pump inner tube with air to locate puncture']","['Apply glue around puncture', 'Replace inner tube']",Apply glue around puncture,0
+4,0.5714285714285714,"['Remove tire from wheel rim', 'Remove inner tube', 'Pump inner tube with air to locate puncture', 'Apply glue around puncture']","['Apply patch to puncture', 'Remove inner tube']",Apply patch to puncture,0
+5,0.7142857142857143,"['Remove tire from wheel rim', 'Remove inner tube', 'Pump inner tube with air to locate puncture', 'Apply glue around puncture', 'Apply patch to puncture']","['Remove inner tube', 'Allow to dry']",Allow to dry,1
+6,0.8571428571428571,"['Remove tire from wheel rim', 'Remove inner tube', 'Pump inner tube with air to locate puncture', 'Apply glue around puncture', 'Apply patch to puncture', 'Allow to dry']","['Remove tire from wheel rim', 'Replace inner tube']",Replace inner tube,1
+0,0.0,[],"['put tire back on bike', 'get replacement tire tube']",get replacement tire tube,1
+1,0.2,['get replacement tire tube'],"['get replacement tire tube', 'release brakes from bike']",release brakes from bike,1
+2,0.4,"['get replacement tire tube', 'release brakes from bike']","['put tire back on bike', 'remove tire from bike']",remove tire from bike,1
+3,0.6,"['get replacement tire tube', 'release brakes from bike', 'remove tire from bike']","['get replacement tire tube', 'patch damaged area from tire']",patch damaged area from tire,1
+4,0.8,"['get replacement tire tube', 'release brakes from bike', 'remove tire from bike', 'patch damaged area from tire']","['put tire back on bike', 'get replacement tire tube']",put tire back on bike,0
+0,0.0,[],"['Get new tire.', 'Get new tire.']",Get new tire.,1
+1,0.16666666666666666,['Get new tire.'],"['Inflate the new tire.', 'Get air pump.']",Get air pump.,1
+2,0.3333333333333333,"['Get new tire.', 'Get air pump.']","['Take old tire off.', 'Inflate the new tire.']",Take old tire off.,0
+3,0.5,"['Get new tire.', 'Get air pump.', 'Take old tire off.']","['Get new tire.', 'Put new tire on bicycle.']",Put new tire on bicycle.,1
+4,0.6666666666666666,"['Get new tire.', 'Get air pump.', 'Take old tire off.', 'Put new tire on bicycle.']","['Inflate the new tire.', 'Get new tire.']",Inflate the new tire.,0
+5,0.8333333333333334,"['Get new tire.', 'Get air pump.', 'Take old tire off.', 'Put new tire on bicycle.', 'Inflate the new tire.']","['Get new tire.', 'Throw away the old tire.']",Throw away the old tire.,1
+0,0.0,[],"['Locate spot to insert air into tire', 'Locate spot to insert air into tire']",Locate spot to insert air into tire,0
+1,0.16666666666666666,['Locate spot to insert air into tire'],"['Attach pump to tire', 'Attach pump to tire']",Attach pump to tire,0
+2,0.3333333333333333,"['Locate spot to insert air into tire', 'Attach pump to tire']","['Start pumping air into tire', 'Ride bike']",Start pumping air into tire,0
+3,0.5,"['Locate spot to insert air into tire', 'Attach pump to tire', 'Start pumping air into tire']","['Push on tire with thumb and feel pressure', 'Ride bike']",Push on tire with thumb and feel pressure,0
+4,0.6666666666666666,"['Locate spot to insert air into tire', 'Attach pump to tire', 'Start pumping air into tire', 'Push on tire with thumb and feel pressure']","['Store pump', 'Attach pump to tire']",Store pump,0
+5,0.8333333333333334,"['Locate spot to insert air into tire', 'Attach pump to tire', 'Start pumping air into tire', 'Push on tire with thumb and feel pressure', 'Store pump']","['Start pumping air into tire', 'Ride bike']",Ride bike,1
+0,0.0,[],"['turn off air pump', 'getting an air pump']",getting an air pump,1
+1,0.16666666666666666,['getting an air pump'],"['take the cap off the tire', 'take the cap off the tire']",take the cap off the tire,0
+2,0.3333333333333333,"['getting an air pump', 'take the cap off the tire']","['turn the air pump on', 'turn off air pump']",turn the air pump on,0
+3,0.5,"['getting an air pump', 'take the cap off the tire', 'turn the air pump on']","['getting an air pump', 'refill the tire']",refill the tire,1
+4,0.6666666666666666,"['getting an air pump', 'take the cap off the tire', 'turn the air pump on', 'refill the tire']","['take the cap off the tire', 'turn off air pump']",turn off air pump,1
+5,0.8333333333333334,"['getting an air pump', 'take the cap off the tire', 'turn the air pump on', 'refill the tire', 'turn off air pump']","['getting an air pump', 'replace the cap']",replace the cap,1
+0,0.0,[],"['Buy a tire repair kit from store.', 'Locate where the hole is in bike tire.']",Locate where the hole is in bike tire.,1
+1,0.16666666666666666,['Locate where the hole is in bike tire.'],"['Check for any remaining leaks.', 'Buy a tire repair kit from store.']",Buy a tire repair kit from store.,1
+2,0.3333333333333333,"['Locate where the hole is in bike tire.', 'Buy a tire repair kit from store.']","['Remove tire from bike frame.', 'Air up tire using a air pump.']",Remove tire from bike frame.,0
+3,0.5,"['Locate where the hole is in bike tire.', 'Buy a tire repair kit from store.', 'Remove tire from bike frame.']","['Locate where the hole is in bike tire.', 'Follow directions and plug the hole.']",Follow directions and plug the hole.,1
+4,0.6666666666666666,"['Locate where the hole is in bike tire.', 'Buy a tire repair kit from store.', 'Remove tire from bike frame.', 'Follow directions and plug the hole.']","['Buy a tire repair kit from store.', 'Air up tire using a air pump.']",Air up tire using a air pump.,1
+5,0.8333333333333334,"['Locate where the hole is in bike tire.', 'Buy a tire repair kit from store.', 'Remove tire from bike frame.', 'Follow directions and plug the hole.', 'Air up tire using a air pump.']","['Remove tire from bike frame.', 'Check for any remaining leaks.']",Check for any remaining leaks.,1
+0,0.0,[],"['remove tire', 'attach pump to air valve']",remove tire,0
+1,0.14285714285714285,['remove tire'],"['find air valve', 'check psi with gauge']",find air valve,0
+2,0.2857142857142857,"['remove tire', 'find air valve']","['attach pump to air valve', 're-attach tire']",attach pump to air valve,0
+3,0.42857142857142855,"['remove tire', 'find air valve', 'attach pump to air valve']","['pump tire', 'remove tire']",pump tire,0
+4,0.5714285714285714,"['remove tire', 'find air valve', 'attach pump to air valve', 'pump tire']","['check psi with gauge', 'find air valve']",check psi with gauge,0
+5,0.7142857142857143,"['remove tire', 'find air valve', 'attach pump to air valve', 'pump tire', 'check psi with gauge']","['remove tire', 're-attach tire']",re-attach tire,1
+6,0.8571428571428571,"['remove tire', 'find air valve', 'attach pump to air valve', 'pump tire', 'check psi with gauge', 're-attach tire']","['pump tire', 'ride bike']",ride bike,1
+0,0.0,[],"['purchase tire repair kit', 'inflate tube']",purchase tire repair kit,0
+1,0.14285714285714285,['purchase tire repair kit'],"['take wheel off', 'locate bike']",locate bike,1
+2,0.2857142857142857,"['purchase tire repair kit', 'locate bike']","['inflate tube', 'turn bike upside down']",turn bike upside down,1
+3,0.42857142857142855,"['purchase tire repair kit', 'locate bike', 'turn bike upside down']","['take wheel off', 'inflate tube']",take wheel off,0
+4,0.5714285714285714,"['purchase tire repair kit', 'locate bike', 'turn bike upside down', 'take wheel off']","['purchase tire repair kit', 'take tire off']",take tire off,1
+5,0.7142857142857143,"['purchase tire repair kit', 'locate bike', 'turn bike upside down', 'take wheel off', 'take tire off']","['turn bike upside down', 'inflate tube']",inflate tube,1
+6,0.8571428571428571,"['purchase tire repair kit', 'locate bike', 'turn bike upside down', 'take wheel off', 'take tire off', 'inflate tube']","['put tube in water to find leak', 'purchase tire repair kit']",put tube in water to find leak,0
+0,0.0,[],"['get a new tube', 'place new tube inside tube']",get a new tube,0
+1,0.2,['get a new tube'],"['remove tire', 'place new tube inside tube']",remove tire,0
+2,0.4,"['get a new tube', 'remove tire']","['place new tube inside tube', 'pump full of air']",place new tube inside tube,0
+3,0.6,"['get a new tube', 'remove tire', 'place new tube inside tube']","['get a new tube', 'replace tire']",replace tire,1
+4,0.8,"['get a new tube', 'remove tire', 'place new tube inside tube', 'replace tire']","['get a new tube', 'pump full of air']",pump full of air,1
+0,0.0,[],"['use patch to repair tire from the inside', 'lay bike on side']",lay bike on side,1
+1,0.14285714285714285,['lay bike on side'],"['remove screws so you can remove the entire tire and rim.', 'use screwdriver to pry off old tire']",remove screws so you can remove the entire tire and rim.,0
+2,0.2857142857142857,"['lay bike on side', 'remove screws so you can remove the entire tire and rim.']","['use screwdriver to pry off old tire', 'wait for patch to dry']",use screwdriver to pry off old tire,0
+3,0.42857142857142855,"['lay bike on side', 'remove screws so you can remove the entire tire and rim.', 'use screwdriver to pry off old tire']","['wait for patch to dry', 'find hole in tire']",find hole in tire,1
+4,0.5714285714285714,"['lay bike on side', 'remove screws so you can remove the entire tire and rim.', 'use screwdriver to pry off old tire', 'find hole in tire']","['remove screws so you can remove the entire tire and rim.', 'use patch to repair tire from the inside']",use patch to repair tire from the inside,1
+5,0.7142857142857143,"['lay bike on side', 'remove screws so you can remove the entire tire and rim.', 'use screwdriver to pry off old tire', 'find hole in tire', 'use patch to repair tire from the inside']","['wait for patch to dry', 'use screwdriver to pry off old tire']",wait for patch to dry,0
+6,0.8571428571428571,"['lay bike on side', 'remove screws so you can remove the entire tire and rim.', 'use screwdriver to pry off old tire', 'find hole in tire', 'use patch to repair tire from the inside', 'wait for patch to dry']","['replace tire on rim', 'remove screws so you can remove the entire tire and rim.']",replace tire on rim,0
+0,0.0,[],"['Take the tire off the bike', 'Put it back on the bike']",Take the tire off the bike,0
+1,0.16666666666666666,['Take the tire off the bike'],"['Pull the tire off the wheel', 'Put the innertube back inside the tire']",Pull the tire off the wheel,0
+2,0.3333333333333333,"['Take the tire off the bike', 'Pull the tire off the wheel']","['Put it back on the bike', 'Patch the innertube']",Patch the innertube,1
+3,0.5,"['Take the tire off the bike', 'Pull the tire off the wheel', 'Patch the innertube']","['Take the tire off the bike', 'Put the innertube back inside the tire']",Put the innertube back inside the tire,1
+4,0.6666666666666666,"['Take the tire off the bike', 'Pull the tire off the wheel', 'Patch the innertube', 'Put the innertube back inside the tire']","['Put the tire back on the wheel', 'Pull the tire off the wheel']",Put the tire back on the wheel,0
+5,0.8333333333333334,"['Take the tire off the bike', 'Pull the tire off the wheel', 'Patch the innertube', 'Put the innertube back inside the tire', 'Put the tire back on the wheel']","['Patch the innertube', 'Put it back on the bike']",Put it back on the bike,1
+0,0.0,[],"['Pump air.', 'Stand the bike somewhere.']",Stand the bike somewhere.,1
+1,0.2,['Stand the bike somewhere.'],"['Find a pump.', 'Pump air.']",Find a pump.,0
+2,0.4,"['Stand the bike somewhere.', 'Find a pump.']","['Attach air pump to tire.', 'Seal tire and ride away.']",Attach air pump to tire.,0
+3,0.6,"['Stand the bike somewhere.', 'Find a pump.', 'Attach air pump to tire.']","['Pump air.', 'Stand the bike somewhere.']",Pump air.,0
+4,0.8,"['Stand the bike somewhere.', 'Find a pump.', 'Attach air pump to tire.', 'Pump air.']","['Find a pump.', 'Seal tire and ride away.']",Seal tire and ride away.,1
+0,0.0,[],"['LOCATE THE PUNCTURE ON THE TIRE', 'USE BIKE AS NORMAL']",LOCATE THE PUNCTURE ON THE TIRE,0
+1,0.2,['LOCATE THE PUNCTURE ON THE TIRE'],"['LOCATE THE PUNCTURE ON THE TIRE', 'USING A TIRE REPAIR KIT, COVER THE HOLE']","USING A TIRE REPAIR KIT, COVER THE HOLE",1
+2,0.4,"['LOCATE THE PUNCTURE ON THE TIRE', 'USING A TIRE REPAIR KIT, COVER THE HOLE']","['WHEN COVERED, CHECK THAT NO AIR ESCAPES', 'USE BIKE AS NORMAL']","WHEN COVERED, CHECK THAT NO AIR ESCAPES",0
+3,0.6,"['LOCATE THE PUNCTURE ON THE TIRE', 'USING A TIRE REPAIR KIT, COVER THE HOLE', 'WHEN COVERED, CHECK THAT NO AIR ESCAPES']","['LOCATE THE PUNCTURE ON THE TIRE', 'WHEN SATISFIED, PUT TIRE BACK ON BIKE']","WHEN SATISFIED, PUT TIRE BACK ON BIKE",1
+4,0.8,"['LOCATE THE PUNCTURE ON THE TIRE', 'USING A TIRE REPAIR KIT, COVER THE HOLE', 'WHEN COVERED, CHECK THAT NO AIR ESCAPES', 'WHEN SATISFIED, PUT TIRE BACK ON BIKE']","['USE BIKE AS NORMAL', 'USING A TIRE REPAIR KIT, COVER THE HOLE']",USE BIKE AS NORMAL,0
+0,0.0,[],"['determine what caused the flat', 'use the repair kit to fix the tire']",determine what caused the flat,0
+1,0.16666666666666666,['determine what caused the flat'],"['double check to make sure the tire is repaired properly', 'go to the store to buy a repair kit']",go to the store to buy a repair kit,1
+2,0.3333333333333333,"['determine what caused the flat', 'go to the store to buy a repair kit']","['use the repair kit to fix the tire', ""inspect the tire to make sure it doesn't leak""]",use the repair kit to fix the tire,0
+3,0.5,"['determine what caused the flat', 'go to the store to buy a repair kit', 'use the repair kit to fix the tire']","['double check to make sure the tire is repaired properly', ""inspect the tire to make sure it doesn't leak""]",double check to make sure the tire is repaired properly,0
+4,0.6666666666666666,"['determine what caused the flat', 'go to the store to buy a repair kit', 'use the repair kit to fix the tire', 'double check to make sure the tire is repaired properly']","['put air in the tire.', 'determine what caused the flat']",put air in the tire.,0
+5,0.8333333333333334,"['determine what caused the flat', 'go to the store to buy a repair kit', 'use the repair kit to fix the tire', 'double check to make sure the tire is repaired properly', 'put air in the tire.']","[""inspect the tire to make sure it doesn't leak"", 'determine what caused the flat']",inspect the tire to make sure it doesn't leak,0
+0,0.0,[],"['turn bicycle upside down', 'put outer portion of tire back on tire rim']",turn bicycle upside down,0
+1,0.16666666666666666,['turn bicycle upside down'],"['remove old tire', 'ride bicycle']",remove old tire,0
+2,0.3333333333333333,"['turn bicycle upside down', 'remove old tire']","['place new rubber tire', 'pump up tire with air']",place new rubber tire,0
+3,0.5,"['turn bicycle upside down', 'remove old tire', 'place new rubber tire']","['turn bicycle upside down', 'put outer portion of tire back on tire rim']",put outer portion of tire back on tire rim,1
+4,0.6666666666666666,"['turn bicycle upside down', 'remove old tire', 'place new rubber tire', 'put outer portion of tire back on tire rim']","['turn bicycle upside down', 'pump up tire with air']",pump up tire with air,1
+5,0.8333333333333334,"['turn bicycle upside down', 'remove old tire', 'place new rubber tire', 'put outer portion of tire back on tire rim', 'pump up tire with air']","['ride bicycle', 'turn bicycle upside down']",ride bicycle,0
+0,0.0,[],"['Remove tire and rim from bicycle', 'Get flat fixing compound']",Remove tire and rim from bicycle,0
+1,0.14285714285714285,['Remove tire and rim from bicycle'],"['Get flat fixing compound', 'Remove tire from rim']",Remove tire from rim,1
+2,0.2857142857142857,"['Remove tire and rim from bicycle', 'Remove tire from rim']","['Place tire on rim', 'Locate leak on tire']",Locate leak on tire,1
+3,0.42857142857142855,"['Remove tire and rim from bicycle', 'Remove tire from rim', 'Locate leak on tire']","['Remove tire and rim from bicycle', 'Get flat fixing compound']",Get flat fixing compound,1
+4,0.5714285714285714,"['Remove tire and rim from bicycle', 'Remove tire from rim', 'Locate leak on tire', 'Get flat fixing compound']","['Air up tire', 'Apply flat fixing compound to tire']",Apply flat fixing compound to tire,1
+5,0.7142857142857143,"['Remove tire and rim from bicycle', 'Remove tire from rim', 'Locate leak on tire', 'Get flat fixing compound', 'Apply flat fixing compound to tire']","['Remove tire and rim from bicycle', 'Place tire on rim']",Place tire on rim,1
+6,0.8571428571428571,"['Remove tire and rim from bicycle', 'Remove tire from rim', 'Locate leak on tire', 'Get flat fixing compound', 'Apply flat fixing compound to tire', 'Place tire on rim']","['Remove tire and rim from bicycle', 'Air up tire']",Air up tire,1
+0,0.0,[],"['Find the source of the air leaking from the tire.', 'Test the fix but riding a short distance.']",Find the source of the air leaking from the tire.,0
+1,0.2,['Find the source of the air leaking from the tire.'],"['Add air to the tire.', 'Apply a patch over the hole that is causing air to leak.']",Apply a patch over the hole that is causing air to leak.,1
+2,0.4,"['Find the source of the air leaking from the tire.', 'Apply a patch over the hole that is causing air to leak.']","['Test the fix but riding a short distance.', 'Wait until the glued patch is dry.']",Wait until the glued patch is dry.,1
+3,0.6,"['Find the source of the air leaking from the tire.', 'Apply a patch over the hole that is causing air to leak.', 'Wait until the glued patch is dry.']","['Add air to the tire.', 'Find the source of the air leaking from the tire.']",Add air to the tire.,0
+4,0.8,"['Find the source of the air leaking from the tire.', 'Apply a patch over the hole that is causing air to leak.', 'Wait until the glued patch is dry.', 'Add air to the tire.']","['Test the fix but riding a short distance.', 'Apply a patch over the hole that is causing air to leak.']",Test the fix but riding a short distance.,0
+0,0.0,[],"['You take tire off bike.', 'You take tire off bike.']",You take tire off bike.,1
+1,0.14285714285714285,['You take tire off bike.'],"['You put glue on hole.', 'You take out tube.']",You take out tube.,1
+2,0.2857142857142857,"['You take tire off bike.', 'You take out tube.']","['You put tube in water to find the hole.', 'You put tube back in tire.']",You put tube in water to find the hole.,0
+3,0.42857142857142855,"['You take tire off bike.', 'You take out tube.', 'You put tube in water to find the hole.']","['You wait for it to dry.', 'You put glue on hole.']",You put glue on hole.,1
+4,0.5714285714285714,"['You take tire off bike.', 'You take out tube.', 'You put tube in water to find the hole.', 'You put glue on hole.']","['You take out tube.', 'Then put a patch on glue.']",Then put a patch on glue.,1
+5,0.7142857142857143,"['You take tire off bike.', 'You take out tube.', 'You put tube in water to find the hole.', 'You put glue on hole.', 'Then put a patch on glue.']","['You wait for it to dry.', 'You take tire off bike.']",You wait for it to dry.,0
+6,0.8571428571428571,"['You take tire off bike.', 'You take out tube.', 'You put tube in water to find the hole.', 'You put glue on hole.', 'Then put a patch on glue.', 'You wait for it to dry.']","['You put tube in water to find the hole.', 'You put tube back in tire.']",You put tube back in tire.,1
+0,0.0,[],"['Connect the pump to the tire', 'Stand the bicycle up']",Stand the bicycle up,1
+1,0.14285714285714285,['Stand the bicycle up'],"['Find the hole', 'Locate an air pump']",Locate an air pump,1
+2,0.2857142857142857,"['Stand the bicycle up', 'Locate an air pump']","['Remove the pump', 'Locate tire patches']",Locate tire patches,1
+3,0.42857142857142855,"['Stand the bicycle up', 'Locate an air pump', 'Locate tire patches']","['Stand the bicycle up', 'Find the hole']",Find the hole,1
+4,0.5714285714285714,"['Stand the bicycle up', 'Locate an air pump', 'Locate tire patches', 'Find the hole']","['Connect the pump to the tire', 'Stand the bicycle up']",Connect the pump to the tire,0
+5,0.7142857142857143,"['Stand the bicycle up', 'Locate an air pump', 'Locate tire patches', 'Find the hole', 'Connect the pump to the tire']","['Locate tire patches', 'Pump the tire back up']",Pump the tire back up,1
+6,0.8571428571428571,"['Stand the bicycle up', 'Locate an air pump', 'Locate tire patches', 'Find the hole', 'Connect the pump to the tire', 'Pump the tire back up']","['Find the hole', 'Remove the pump']",Remove the pump,1
+0,0.0,[],"['Buy bike tire sealer', 'Buy bike tire sealer']",Buy bike tire sealer,0
+1,0.2,['Buy bike tire sealer'],"['Refill tire with air', 'Find hole in bicycle tire']",Find hole in bicycle tire,1
+2,0.4,"['Buy bike tire sealer', 'Find hole in bicycle tire']","['Use bike tire sealer on hole', 'Test bike to make sure it holds']",Use bike tire sealer on hole,0
+3,0.6,"['Buy bike tire sealer', 'Find hole in bicycle tire', 'Use bike tire sealer on hole']","['Refill tire with air', 'Buy bike tire sealer']",Refill tire with air,0
+4,0.8,"['Buy bike tire sealer', 'Find hole in bicycle tire', 'Use bike tire sealer on hole', 'Refill tire with air']","['Find hole in bicycle tire', 'Test bike to make sure it holds']",Test bike to make sure it holds,1
+0,0.0,[],"['Fill air in the flat tire', 'Lay the bicycle on ground']",Lay the bicycle on ground,1
+1,0.14285714285714285,['Lay the bicycle on ground'],"['Open the valve tube nut', 'Open the valve tube nut']",Open the valve tube nut,0
+2,0.2857142857142857,"['Lay the bicycle on ground', 'Open the valve tube nut']","['Fill air in the flat tire', 'Open the tire from rim']",Open the tire from rim,1
+3,0.42857142857142855,"['Lay the bicycle on ground', 'Open the valve tube nut', 'Open the tire from rim']","['Lay the bicycle on ground', 'Take out the tube from tire']",Take out the tube from tire,1
+4,0.5714285714285714,"['Lay the bicycle on ground', 'Open the valve tube nut', 'Open the tire from rim', 'Take out the tube from tire']","['Watch out for air bubbles to locate the punctured area', 'Fill air in the flat tire']",Fill air in the flat tire,1
+5,0.7142857142857143,"['Lay the bicycle on ground', 'Open the valve tube nut', 'Open the tire from rim', 'Take out the tube from tire', 'Fill air in the flat tire']","['Immerse one portion of the tube in water', 'Lay the bicycle on ground']",Immerse one portion of the tube in water,0
+6,0.8571428571428571,"['Lay the bicycle on ground', 'Open the valve tube nut', 'Open the tire from rim', 'Take out the tube from tire', 'Fill air in the flat tire', 'Immerse one portion of the tube in water']","['Take out the tube from tire', 'Watch out for air bubbles to locate the punctured area']",Watch out for air bubbles to locate the punctured area,1
+0,0.0,[],"['take off tire', 'turn bike upside down']",turn bike upside down,1
+1,0.14285714285714285,['turn bike upside down'],"['place new tube into tire', 'take off wheel']",take off wheel,1
+2,0.2857142857142857,"['turn bike upside down', 'take off wheel']","['pump up tire', 'take off tire']",take off tire,1
+3,0.42857142857142855,"['turn bike upside down', 'take off wheel', 'take off tire']","['take tube out of tire', 'make sure its ok']",take tube out of tire,0
+4,0.5714285714285714,"['turn bike upside down', 'take off wheel', 'take off tire', 'take tube out of tire']","['make sure its ok', 'place new tube into tire']",place new tube into tire,1
+5,0.7142857142857143,"['turn bike upside down', 'take off wheel', 'take off tire', 'take tube out of tire', 'place new tube into tire']","['take off tire', 'pump up tire']",pump up tire,1
+6,0.8571428571428571,"['turn bike upside down', 'take off wheel', 'take off tire', 'take tube out of tire', 'place new tube into tire', 'pump up tire']","['take tube out of tire', 'make sure its ok']",make sure its ok,1
+0,0.0,[],"['put patch on leakage', 'Buy a bicycle repair patch']",Buy a bicycle repair patch,1
+1,0.16666666666666666,['Buy a bicycle repair patch'],"['put patch on leakage', 'use glue on patch']",use glue on patch,1
+2,0.3333333333333333,"['Buy a bicycle repair patch', 'use glue on patch']","['put patch on leakage', 'inflate the wheel']",put patch on leakage,0
+3,0.5,"['Buy a bicycle repair patch', 'use glue on patch', 'put patch on leakage']","['dunk in water to make sure there are no air bubbles', 'let it dry']",let it dry,1
+4,0.6666666666666666,"['Buy a bicycle repair patch', 'use glue on patch', 'put patch on leakage', 'let it dry']","['use glue on patch', 'inflate the wheel']",inflate the wheel,1
+5,0.8333333333333334,"['Buy a bicycle repair patch', 'use glue on patch', 'put patch on leakage', 'let it dry', 'inflate the wheel']","['dunk in water to make sure there are no air bubbles', 'put patch on leakage']",dunk in water to make sure there are no air bubbles,0
+0,0.0,[],"['lay the cycle flat on the floor', 'insert the tube back again']",lay the cycle flat on the floor,0
+1,0.16666666666666666,['lay the cycle flat on the floor'],"['take out the tube from the tire', 'stick repair tape on the area of puncture']",take out the tube from the tire,0
+2,0.3333333333333333,"['lay the cycle flat on the floor', 'take out the tube from the tire']","['inflate the tire', 'stick repair tape on the area of puncture']",stick repair tape on the area of puncture,1
+3,0.5,"['lay the cycle flat on the floor', 'take out the tube from the tire', 'stick repair tape on the area of puncture']","['insert the tube back again', 'ride the repaired bicycle']",insert the tube back again,0
+4,0.6666666666666666,"['lay the cycle flat on the floor', 'take out the tube from the tire', 'stick repair tape on the area of puncture', 'insert the tube back again']","['inflate the tire', 'lay the cycle flat on the floor']",inflate the tire,0
+5,0.8333333333333334,"['lay the cycle flat on the floor', 'take out the tube from the tire', 'stick repair tape on the area of puncture', 'insert the tube back again', 'inflate the tire']","['ride the repaired bicycle', 'lay the cycle flat on the floor']",ride the repaired bicycle,0
+0,0.0,[],"['Patch up the hole', 'Turn bike on side']",Turn bike on side,1
+1,0.2,['Turn bike on side'],"['Ride bike', 'Open up tire repair kit']",Open up tire repair kit,1
+2,0.4,"['Turn bike on side', 'Open up tire repair kit']","['Ride bike', 'Patch up the hole']",Patch up the hole,1
+3,0.6,"['Turn bike on side', 'Open up tire repair kit', 'Patch up the hole']","['Put air into tire', 'Turn bike on side']",Put air into tire,0
+4,0.8,"['Turn bike on side', 'Open up tire repair kit', 'Patch up the hole', 'Put air into tire']","['Ride bike', 'Open up tire repair kit']",Ride bike,0
+0,0.0,[],"['Remove any foreign object from tire', 'Apply patch']",Remove any foreign object from tire,0
+1,0.16666666666666666,['Remove any foreign object from tire'],"['Let dry', 'Buy or get repair kit and pump']",Buy or get repair kit and pump,1
+2,0.3333333333333333,"['Remove any foreign object from tire', 'Buy or get repair kit and pump']","['Apply adhesive', 'Let dry']",Apply adhesive,0
+3,0.5,"['Remove any foreign object from tire', 'Buy or get repair kit and pump', 'Apply adhesive']","['Apply patch', 'Pump up tire']",Apply patch,0
+4,0.6666666666666666,"['Remove any foreign object from tire', 'Buy or get repair kit and pump', 'Apply adhesive', 'Apply patch']","['Buy or get repair kit and pump', 'Let dry']",Let dry,1
+5,0.8333333333333334,"['Remove any foreign object from tire', 'Buy or get repair kit and pump', 'Apply adhesive', 'Apply patch', 'Let dry']","['Buy or get repair kit and pump', 'Pump up tire']",Pump up tire,1
+0,0.0,[],"['Inflate the tire', 'Place the bicycle on the stand']",Place the bicycle on the stand,1
+1,0.2,['Place the bicycle on the stand'],"['Connect air pump to the flat tire', 'Connect air pump to the flat tire']",Connect air pump to the flat tire,1
+2,0.4,"['Place the bicycle on the stand', 'Connect air pump to the flat tire']","['Inflate the tire', 'Repair any leakages or punctures']",Inflate the tire,0
+3,0.6,"['Place the bicycle on the stand', 'Connect air pump to the flat tire', 'Inflate the tire']","['Place the bicycle on the stand', 'Check the tire for any leakages']",Check the tire for any leakages,1
+4,0.8,"['Place the bicycle on the stand', 'Connect air pump to the flat tire', 'Inflate the tire', 'Check the tire for any leakages']","['Place the bicycle on the stand', 'Repair any leakages or punctures']",Repair any leakages or punctures,1
+0,0.0,[],"['Remove wheel', 'Remove wheel']",Remove wheel,0
+1,0.14285714285714285,['Remove wheel'],"['Clean area to be patched', 'See what needs to be repaired']",See what needs to be repaired,1
+2,0.2857142857142857,"['Remove wheel', 'See what needs to be repaired']","['Gather appropriate tools/repair kit', 'Inflate tire']",Gather appropriate tools/repair kit,0
+3,0.42857142857142855,"['Remove wheel', 'See what needs to be repaired', 'Gather appropriate tools/repair kit']","['Remove wheel', 'Clean area to be patched']",Clean area to be patched,1
+4,0.5714285714285714,"['Remove wheel', 'See what needs to be repaired', 'Gather appropriate tools/repair kit', 'Clean area to be patched']","['Spread glue', 'See what needs to be repaired']",Spread glue,0
+5,0.7142857142857143,"['Remove wheel', 'See what needs to be repaired', 'Gather appropriate tools/repair kit', 'Clean area to be patched', 'Spread glue']","['Gather appropriate tools/repair kit', 'Place patch over damaged area']",Place patch over damaged area,1
+6,0.8571428571428571,"['Remove wheel', 'See what needs to be repaired', 'Gather appropriate tools/repair kit', 'Clean area to be patched', 'Spread glue', 'Place patch over damaged area']","['Inflate tire', 'Remove wheel']",Inflate tire,0
+0,0.0,[],"['Put tire with inner tube back on wheel', 'Turn bicycle upside down']",Turn bicycle upside down,1
+1,0.2,['Turn bicycle upside down'],"['Turn bicycle upside down', 'Take tire and inner tube off wheel']",Take tire and inner tube off wheel,1
+2,0.4,"['Turn bicycle upside down', 'Take tire and inner tube off wheel']","['Turn bicycle to upside', 'Replace inner tube']",Replace inner tube,1
+3,0.6,"['Turn bicycle upside down', 'Take tire and inner tube off wheel', 'Replace inner tube']","['Put tire with inner tube back on wheel', 'Turn bicycle upside down']",Put tire with inner tube back on wheel,0
+4,0.8,"['Turn bicycle upside down', 'Take tire and inner tube off wheel', 'Replace inner tube', 'Put tire with inner tube back on wheel']","['Turn bicycle to upside', 'Take tire and inner tube off wheel']",Turn bicycle to upside,0
+0,0.0,[],"['Get a patch kit', 'Get a patch kit']",Get a patch kit,1
+1,0.14285714285714285,['Get a patch kit'],"['Remove the tire', 'Remove the tire']",Remove the tire,1
+2,0.2857142857142857,"['Get a patch kit', 'Remove the tire']","['Wait for patch to dry', 'Check for holes in the tire']",Check for holes in the tire,1
+3,0.42857142857142855,"['Get a patch kit', 'Remove the tire', 'Check for holes in the tire']","['Refill the tire with air', 'Patch the holes']",Patch the holes,1
+4,0.5714285714285714,"['Get a patch kit', 'Remove the tire', 'Check for holes in the tire', 'Patch the holes']","['Put the tire back on bike', 'Wait for patch to dry']",Wait for patch to dry,1
+5,0.7142857142857143,"['Get a patch kit', 'Remove the tire', 'Check for holes in the tire', 'Patch the holes', 'Wait for patch to dry']","['Get a patch kit', 'Refill the tire with air']",Refill the tire with air,1
+6,0.8571428571428571,"['Get a patch kit', 'Remove the tire', 'Check for holes in the tire', 'Patch the holes', 'Wait for patch to dry', 'Refill the tire with air']","['Remove the tire', 'Put the tire back on bike']",Put the tire back on bike,1
+0,0.0,[],"['Inflate the tube', 'Remove the wheel from the bicycle']",Remove the wheel from the bicycle,1
+1,0.16666666666666666,['Remove the wheel from the bicycle'],"['Remove the bicycle tire and tube from the wheel', 'Install the repaired or new tube and the tire onto the wheel']",Remove the bicycle tire and tube from the wheel,0
+2,0.3333333333333333,"['Remove the wheel from the bicycle', 'Remove the bicycle tire and tube from the wheel']","['Repair or replace the tube', 'Inflate the tube']",Repair or replace the tube,0
+3,0.5,"['Remove the wheel from the bicycle', 'Remove the bicycle tire and tube from the wheel', 'Repair or replace the tube']","['Remove the wheel from the bicycle', 'Install the repaired or new tube and the tire onto the wheel']",Install the repaired or new tube and the tire onto the wheel,1
+4,0.6666666666666666,"['Remove the wheel from the bicycle', 'Remove the bicycle tire and tube from the wheel', 'Repair or replace the tube', 'Install the repaired or new tube and the tire onto the wheel']","['Remove the bicycle tire and tube from the wheel', 'Inflate the tube']",Inflate the tube,1
+5,0.8333333333333334,"['Remove the wheel from the bicycle', 'Remove the bicycle tire and tube from the wheel', 'Repair or replace the tube', 'Install the repaired or new tube and the tire onto the wheel', 'Inflate the tube']","['Install the wheel onto the bicycle', 'Remove the bicycle tire and tube from the wheel']",Install the wheel onto the bicycle,0
+0,0.0,[],"['Take the cover off of the tire valve', 'Check to see if there is a hole']",Check to see if there is a hole,1
+1,0.2,['Check to see if there is a hole'],"['Check to see if there is a hole', ""If there isn't a hole, get a pump""]","If there isn't a hole, get a pump",1
+2,0.4,"['Check to see if there is a hole', ""If there isn't a hole, get a pump""]","['Take the cover off of the tire valve', 'Ride the bike to test it out']",Take the cover off of the tire valve,0
+3,0.6,"['Check to see if there is a hole', ""If there isn't a hole, get a pump"", 'Take the cover off of the tire valve']","['Pump up the tire until it is at the desired pressure', 'Check to see if there is a hole']",Pump up the tire until it is at the desired pressure,0
+4,0.8,"['Check to see if there is a hole', ""If there isn't a hole, get a pump"", 'Take the cover off of the tire valve', 'Pump up the tire until it is at the desired pressure']","['Check to see if there is a hole', 'Ride the bike to test it out']",Ride the bike to test it out,1
+0,0.0,[],"['Obtain patch material and air pump', 'Remove item penetrating from tire puncture']",Obtain patch material and air pump,0
+1,0.2,['Obtain patch material and air pump'],"['Remove item penetrating from tire puncture', 'Apply patch or plug']",Remove item penetrating from tire puncture,0
+2,0.4,"['Obtain patch material and air pump', 'Remove item penetrating from tire puncture']","['Carefully test that patch is holding', 'Apply patch or plug']",Apply patch or plug,1
+3,0.6,"['Obtain patch material and air pump', 'Remove item penetrating from tire puncture', 'Apply patch or plug']","['Obtain patch material and air pump', 'Inflate tire to appropriate level']",Inflate tire to appropriate level,1
+4,0.8,"['Obtain patch material and air pump', 'Remove item penetrating from tire puncture', 'Apply patch or plug', 'Inflate tire to appropriate level']","['Obtain patch material and air pump', 'Carefully test that patch is holding']",Carefully test that patch is holding,1
+0,0.0,[],"['Attach patch to tube.', 'Turn bike over.']",Turn bike over.,1
+1,0.14285714285714285,['Turn bike over.'],"['Remove the tire with a flat.', 'Remove the tire with a flat.']",Remove the tire with a flat.,0
+2,0.2857142857142857,"['Turn bike over.', 'Remove the tire with a flat.']","['Take outer part of tire off carefully.', 'Find a patch kit.']",Take outer part of tire off carefully.,0
+3,0.42857142857142855,"['Turn bike over.', 'Remove the tire with a flat.', 'Take outer part of tire off carefully.']","['Allow to dry.', 'Remove inner tubing.']",Remove inner tubing.,1
+4,0.5714285714285714,"['Turn bike over.', 'Remove the tire with a flat.', 'Take outer part of tire off carefully.', 'Remove inner tubing.']","['Find a patch kit.', 'Remove the tire with a flat.']",Find a patch kit.,0
+5,0.7142857142857143,"['Turn bike over.', 'Remove the tire with a flat.', 'Take outer part of tire off carefully.', 'Remove inner tubing.', 'Find a patch kit.']","['Turn bike over.', 'Attach patch to tube.']",Attach patch to tube.,1
+6,0.8571428571428571,"['Turn bike over.', 'Remove the tire with a flat.', 'Take outer part of tire off carefully.', 'Remove inner tubing.', 'Find a patch kit.', 'Attach patch to tube.']","['Remove inner tubing.', 'Allow to dry.']",Allow to dry.,1
+0,0.0,[],"['Get repair kit out.', 'Get repair kit out.']",Get repair kit out.,0
+1,0.14285714285714285,['Get repair kit out.'],"['Take off tire from bike.', 'Take off tire from bike.']",Take off tire from bike.,0
+2,0.2857142857142857,"['Get repair kit out.', 'Take off tire from bike.']","['Put tire back on bike.', 'Take the tube out of the tire.']",Take the tube out of the tire.,1
+3,0.42857142857142855,"['Get repair kit out.', 'Take off tire from bike.', 'Take the tube out of the tire.']","['Put up repair kit.', 'Replace the tube.']",Replace the tube.,1
+4,0.5714285714285714,"['Get repair kit out.', 'Take off tire from bike.', 'Take the tube out of the tire.', 'Replace the tube.']","['Air up tire.', 'Take off tire from bike.']",Air up tire.,0
+5,0.7142857142857143,"['Get repair kit out.', 'Take off tire from bike.', 'Take the tube out of the tire.', 'Replace the tube.', 'Air up tire.']","['Get repair kit out.', 'Put tire back on bike.']",Put tire back on bike.,1
+6,0.8571428571428571,"['Get repair kit out.', 'Take off tire from bike.', 'Take the tube out of the tire.', 'Replace the tube.', 'Air up tire.', 'Put tire back on bike.']","['Put up repair kit.', 'Take the tube out of the tire.']",Put up repair kit.,0
+0,0.0,[],"['get a patch kit', 'patch the hole']",get a patch kit,0
+1,0.16666666666666666,['get a patch kit'],"['find the hole', 'test the tire']",find the hole,0
+2,0.3333333333333333,"['get a patch kit', 'find the hole']","['test the tire', 'patch the hole']",patch the hole,1
+3,0.5,"['get a patch kit', 'find the hole', 'patch the hole']","['refill the air', 'get a patch kit']",refill the air,0
+4,0.6666666666666666,"['get a patch kit', 'find the hole', 'patch the hole', 'refill the air']","['test the tire', 'find the hole']",test the tire,0
+5,0.8333333333333334,"['get a patch kit', 'find the hole', 'patch the hole', 'refill the air', 'test the tire']","['be careful', 'patch the hole']",be careful,0
+0,0.0,[],"['Access where the tire is leaking', 'Replace the tube']",Access where the tire is leaking,0
+1,0.16666666666666666,['Access where the tire is leaking'],"['Remove the bike tire', 'Check the tire once more']",Remove the bike tire,0
+2,0.3333333333333333,"['Access where the tire is leaking', 'Remove the bike tire']","['Check the tire once more', 'Replace the tube']",Replace the tube,1
+3,0.5,"['Access where the tire is leaking', 'Remove the bike tire', 'Replace the tube']","['Access where the tire is leaking', 'Inflate the tire']",Inflate the tire,1
+4,0.6666666666666666,"['Access where the tire is leaking', 'Remove the bike tire', 'Replace the tube', 'Inflate the tire']","['Access where the tire is leaking', 'Check the tire once more']",Check the tire once more,1
+5,0.8333333333333334,"['Access where the tire is leaking', 'Remove the bike tire', 'Replace the tube', 'Inflate the tire', 'Check the tire once more']","['Replace the tube', 'enjoy.']",enjoy.,1
+0,0.0,[],"['Fill the tire with air', 'Find the hole using soapy water to see bubbles']",Fill the tire with air,0
+1,0.14285714285714285,['Fill the tire with air'],"['Put the tire back on the wheel', 'Find the hole using soapy water to see bubbles']",Find the hole using soapy water to see bubbles,1
+2,0.2857142857142857,"['Fill the tire with air', 'Find the hole using soapy water to see bubbles']","['Put the tire back on the wheel', 'Mark the tire']",Mark the tire,1
+3,0.42857142857142855,"['Fill the tire with air', 'Find the hole using soapy water to see bubbles', 'Mark the tire']","['Let the air out of the tire', 'Place a patch on the hole']",Let the air out of the tire,0
+4,0.5714285714285714,"['Fill the tire with air', 'Find the hole using soapy water to see bubbles', 'Mark the tire', 'Let the air out of the tire']","['Take off the wheel', 'Fill the tire with air']",Take off the wheel,0
+5,0.7142857142857143,"['Fill the tire with air', 'Find the hole using soapy water to see bubbles', 'Mark the tire', 'Let the air out of the tire', 'Take off the wheel']","['Fill the tire with air', 'Place a patch on the hole']",Place a patch on the hole,1
+6,0.8571428571428571,"['Fill the tire with air', 'Find the hole using soapy water to see bubbles', 'Mark the tire', 'Let the air out of the tire', 'Take off the wheel', 'Place a patch on the hole']","['Let the air out of the tire', 'Put the tire back on the wheel']",Put the tire back on the wheel,1
+0,0.0,[],"['Get a wrench, tire lever and a new tube', 'Use lever to put tire back in rim.']","Get a wrench, tire lever and a new tube",0
+1,0.14285714285714285,"['Get a wrench, tire lever and a new tube']","['Inflate tire to optimal PSI', 'Flip bike and remove wheel with wrench']",Flip bike and remove wheel with wrench,1
+2,0.2857142857142857,"['Get a wrench, tire lever and a new tube', 'Flip bike and remove wheel with wrench']","['Put tire back on bike', 'Use lever to pull bike tire over the edge of the rim']",Use lever to pull bike tire over the edge of the rim,1
+3,0.42857142857142855,"['Get a wrench, tire lever and a new tube', 'Flip bike and remove wheel with wrench', 'Use lever to pull bike tire over the edge of the rim']","['Pull old tube out and fit in the new one', 'Inflate tire to optimal PSI']",Pull old tube out and fit in the new one,0
+4,0.5714285714285714,"['Get a wrench, tire lever and a new tube', 'Flip bike and remove wheel with wrench', 'Use lever to pull bike tire over the edge of the rim', 'Pull old tube out and fit in the new one']","['Use lever to put tire back in rim.', 'Put tire back on bike']",Use lever to put tire back in rim.,0
+5,0.7142857142857143,"['Get a wrench, tire lever and a new tube', 'Flip bike and remove wheel with wrench', 'Use lever to pull bike tire over the edge of the rim', 'Pull old tube out and fit in the new one', 'Use lever to put tire back in rim.']","['Get a wrench, tire lever and a new tube', 'Inflate tire to optimal PSI']",Inflate tire to optimal PSI,1
+6,0.8571428571428571,"['Get a wrench, tire lever and a new tube', 'Flip bike and remove wheel with wrench', 'Use lever to pull bike tire over the edge of the rim', 'Pull old tube out and fit in the new one', 'Use lever to put tire back in rim.', 'Inflate tire to optimal PSI']","['Flip bike and remove wheel with wrench', 'Put tire back on bike']",Put tire back on bike,1
+0,0.0,[],"['Get pump', 'Determine if tire is damaged']",Determine if tire is damaged,1
+1,0.14285714285714285,['Determine if tire is damaged'],"['If no leak flat tire is repaired', 'Get pump']",Get pump,1
+2,0.2857142857142857,"['Determine if tire is damaged', 'Get pump']","['Unscrew valve', 'If no leak flat tire is repaired']",Unscrew valve,0
+3,0.42857142857142855,"['Determine if tire is damaged', 'Get pump', 'Unscrew valve']","['If leaking obtain tire patch or new tire', 'Insert pump and fill tire']",Insert pump and fill tire,1
+4,0.5714285714285714,"['Determine if tire is damaged', 'Get pump', 'Unscrew valve', 'Insert pump and fill tire']","['Determine if tire is damaged', 'Listen to determine if any air is leaking']",Listen to determine if any air is leaking,1
+5,0.7142857142857143,"['Determine if tire is damaged', 'Get pump', 'Unscrew valve', 'Insert pump and fill tire', 'Listen to determine if any air is leaking']","['Unscrew valve', 'If no leak flat tire is repaired']",If no leak flat tire is repaired,1
+6,0.8571428571428571,"['Determine if tire is damaged', 'Get pump', 'Unscrew valve', 'Insert pump and fill tire', 'Listen to determine if any air is leaking', 'If no leak flat tire is repaired']","['If leaking obtain tire patch or new tire', 'Determine if tire is damaged']",If leaking obtain tire patch or new tire,0
+0,0.0,[],"['Go to a store', 'Go to a store']",Go to a store,0
+1,0.14285714285714285,['Go to a store'],"['Apply tire patch', 'Purchase a bicycle tire repair kit']",Purchase a bicycle tire repair kit,1
+2,0.2857142857142857,"['Go to a store', 'Purchase a bicycle tire repair kit']","['Go home', 'Refill tire with air']",Go home,0
+3,0.42857142857142855,"['Go to a store', 'Purchase a bicycle tire repair kit', 'Go home']","['Flip bike upside down', 'Go to a store']",Flip bike upside down,0
+4,0.5714285714285714,"['Go to a store', 'Purchase a bicycle tire repair kit', 'Go home', 'Flip bike upside down']","['Locate hole in tire', 'Refill tire with air']",Locate hole in tire,0
+5,0.7142857142857143,"['Go to a store', 'Purchase a bicycle tire repair kit', 'Go home', 'Flip bike upside down', 'Locate hole in tire']","['Apply tire patch', 'Go home']",Apply tire patch,0
+6,0.8571428571428571,"['Go to a store', 'Purchase a bicycle tire repair kit', 'Go home', 'Flip bike upside down', 'Locate hole in tire', 'Apply tire patch']","['Go to a store', 'Refill tire with air']",Refill tire with air,1
+0,0.0,[],"['Get tools for the job', 'Remove the old tire']",Get tools for the job,0
+1,0.14285714285714285,['Get tools for the job'],"['Remove the outside rubber from the inner balloon', 'Unscrew the bolts holding the tire in place']",Unscrew the bolts holding the tire in place,1
+2,0.2857142857142857,"['Get tools for the job', 'Unscrew the bolts holding the tire in place']","['Screw the tire to secure it in place.', 'Remove the old tire']",Remove the old tire,1
+3,0.42857142857142855,"['Get tools for the job', 'Unscrew the bolts holding the tire in place', 'Remove the old tire']","['Remove the outside rubber from the inner balloon', 'Place tire back on bicycle']",Remove the outside rubber from the inner balloon,0
+4,0.5714285714285714,"['Get tools for the job', 'Unscrew the bolts holding the tire in place', 'Remove the old tire', 'Remove the outside rubber from the inner balloon']","['Replace inner ballon', 'Get tools for the job']",Replace inner ballon,0
+5,0.7142857142857143,"['Get tools for the job', 'Unscrew the bolts holding the tire in place', 'Remove the old tire', 'Remove the outside rubber from the inner balloon', 'Replace inner ballon']","['Place tire back on bicycle', 'Remove the old tire']",Place tire back on bicycle,0
+6,0.8571428571428571,"['Get tools for the job', 'Unscrew the bolts holding the tire in place', 'Remove the old tire', 'Remove the outside rubber from the inner balloon', 'Replace inner ballon', 'Place tire back on bicycle']","['Unscrew the bolts holding the tire in place', 'Screw the tire to secure it in place.']",Screw the tire to secure it in place.,1
+0,0.0,[],"['Remove wheel from bike', 'Remove wheel from bike']",Remove wheel from bike,0
+1,0.14285714285714285,['Remove wheel from bike'],"['Find the hole where air is leaking out', 'Remove flat tire from rim']",Remove flat tire from rim,1
+2,0.2857142857142857,"['Remove wheel from bike', 'Remove flat tire from rim']","['Take out inner tube', 'Find the hole where air is leaking out']",Take out inner tube,0
+3,0.42857142857142855,"['Remove wheel from bike', 'Remove flat tire from rim', 'Take out inner tube']","['Use a patch kit to repair hole', 'Pump up tube']",Pump up tube,1
+4,0.5714285714285714,"['Remove wheel from bike', 'Remove flat tire from rim', 'Take out inner tube', 'Pump up tube']","['Remove flat tire from rim', 'Find the hole where air is leaking out']",Find the hole where air is leaking out,1
+5,0.7142857142857143,"['Remove wheel from bike', 'Remove flat tire from rim', 'Take out inner tube', 'Pump up tube', 'Find the hole where air is leaking out']","['Take out inner tube', 'Use a patch kit to repair hole']",Use a patch kit to repair hole,1
+6,0.8571428571428571,"['Remove wheel from bike', 'Remove flat tire from rim', 'Take out inner tube', 'Pump up tube', 'Find the hole where air is leaking out', 'Use a patch kit to repair hole']","['Pump up tube', 'Let glue dry']",Let glue dry,1
+0,0.0,[],"['Take out the inner-tube and find the nozzle to pump air in.', 'Properly rest the bike, then unscrew the nuts on the tire.']","Properly rest the bike, then unscrew the nuts on the tire.",1
+1,0.2,"['Properly rest the bike, then unscrew the nuts on the tire.']","['Take out the inner-tube and find the nozzle to pump air in.', 'Remove the tire and use a screwdriver to peel the rubber off.']",Remove the tire and use a screwdriver to peel the rubber off.,1
+2,0.4,"['Properly rest the bike, then unscrew the nuts on the tire.', 'Remove the tire and use a screwdriver to peel the rubber off.']","['Apply air, and when it feels full enough, re-place the tube in the rubber and on the bike.', 'Take out the inner-tube and find the nozzle to pump air in.']",Take out the inner-tube and find the nozzle to pump air in.,1
+3,0.6,"['Properly rest the bike, then unscrew the nuts on the tire.', 'Remove the tire and use a screwdriver to peel the rubber off.', 'Take out the inner-tube and find the nozzle to pump air in.']","['Get a pump and stick it in to the nozzle and adjust it so air moves through.', 'Properly rest the bike, then unscrew the nuts on the tire.']",Get a pump and stick it in to the nozzle and adjust it so air moves through.,0
+4,0.8,"['Properly rest the bike, then unscrew the nuts on the tire.', 'Remove the tire and use a screwdriver to peel the rubber off.', 'Take out the inner-tube and find the nozzle to pump air in.', 'Get a pump and stick it in to the nozzle and adjust it so air moves through.']","['Remove the tire and use a screwdriver to peel the rubber off.', 'Apply air, and when it feels full enough, re-place the tube in the rubber and on the bike.']","Apply air, and when it feels full enough, re-place the tube in the rubber and on the bike.",1
+0,0.0,[],"['Get another tire', 'Get the bike']",Get the bike,1
+1,0.2,['Get the bike'],"['Remove the flat tire', 'Get another tire']",Remove the flat tire,0
+2,0.4,"['Get the bike', 'Remove the flat tire']","['Get another tire', 'Ride the bike']",Get another tire,0
+3,0.6,"['Get the bike', 'Remove the flat tire', 'Get another tire']","['Get the bike', 'Replace the old tire with this one']",Replace the old tire with this one,1
+4,0.8,"['Get the bike', 'Remove the flat tire', 'Get another tire', 'Replace the old tire with this one']","['Remove the flat tire', 'Ride the bike']",Ride the bike,1
+0,0.0,[],"['Pull off the road safely.', 'Patch or replace the tube.']",Pull off the road safely.,0
+1,0.14285714285714285,['Pull off the road safely.'],"['Re-install tube into tire and put it back on.', 'Look for visible punctures.']",Look for visible punctures.,1
+2,0.2857142857142857,"['Pull off the road safely.', 'Look for visible punctures.']","['Check for proper inflation.', 'Remove tire using your tools.']",Remove tire using your tools.,1
+3,0.42857142857142855,"['Pull off the road safely.', 'Look for visible punctures.', 'Remove tire using your tools.']","['Check for proper inflation.', 'Observe tube for punctures and/or tears.']",Observe tube for punctures and/or tears.,1
+4,0.5714285714285714,"['Pull off the road safely.', 'Look for visible punctures.', 'Remove tire using your tools.', 'Observe tube for punctures and/or tears.']","['Patch or replace the tube.', 'Look for visible punctures.']",Patch or replace the tube.,0
+5,0.7142857142857143,"['Pull off the road safely.', 'Look for visible punctures.', 'Remove tire using your tools.', 'Observe tube for punctures and/or tears.', 'Patch or replace the tube.']","['Re-install tube into tire and put it back on.', 'Look for visible punctures.']",Re-install tube into tire and put it back on.,0
+6,0.8571428571428571,"['Pull off the road safely.', 'Look for visible punctures.', 'Remove tire using your tools.', 'Observe tube for punctures and/or tears.', 'Patch or replace the tube.', 'Re-install tube into tire and put it back on.']","['Check for proper inflation.', 'Pull off the road safely.']",Check for proper inflation.,0
+0,0.0,[],"['Check the air pressure in the tire.', 'Unscrew the cap on the tube.']",Check the air pressure in the tire.,0
+1,0.14285714285714285,['Check the air pressure in the tire.'],"['Grab the bicycle pump.', 'Unscrew the cap on the tube.']",Grab the bicycle pump.,0
+2,0.2857142857142857,"['Check the air pressure in the tire.', 'Grab the bicycle pump.']","[""Go slowly and check the tire's pressure as you pump."", 'Remove the inner tubing of the tire from the tire and the wheel if necessary.']",Remove the inner tubing of the tire from the tire and the wheel if necessary.,1
+3,0.42857142857142855,"['Check the air pressure in the tire.', 'Grab the bicycle pump.', 'Remove the inner tubing of the tire from the tire and the wheel if necessary.']","['Unscrew the cap on the tube.', 'Check the air pressure in the tire.']",Unscrew the cap on the tube.,0
+4,0.5714285714285714,"['Check the air pressure in the tire.', 'Grab the bicycle pump.', 'Remove the inner tubing of the tire from the tire and the wheel if necessary.', 'Unscrew the cap on the tube.']","[""Place the pump's opening on the tube."", ""Go slowly and check the tire's pressure as you pump.""]",Place the pump's opening on the tube.,0
+5,0.7142857142857143,"['Check the air pressure in the tire.', 'Grab the bicycle pump.', 'Remove the inner tubing of the tire from the tire and the wheel if necessary.', 'Unscrew the cap on the tube.', ""Place the pump's opening on the tube.""]","['Begin pumping.', 'Check the air pressure in the tire.']",Begin pumping.,0
+6,0.8571428571428571,"['Check the air pressure in the tire.', 'Grab the bicycle pump.', 'Remove the inner tubing of the tire from the tire and the wheel if necessary.', 'Unscrew the cap on the tube.', ""Place the pump's opening on the tube."", 'Begin pumping.']","['Check the air pressure in the tire.', ""Go slowly and check the tire's pressure as you pump.""]",Go slowly and check the tire's pressure as you pump.,1
+0,0.0,[],"['put wrench away', 'get new bicycle tire and wrench']",get new bicycle tire and wrench,1
+1,0.2,['get new bicycle tire and wrench'],"['wrench out the flat tire from bicycle', 'get new bicycle tire and wrench']",wrench out the flat tire from bicycle,0
+2,0.4,"['get new bicycle tire and wrench', 'wrench out the flat tire from bicycle']","['throw flat tire away or recycle it', 'wrench in the new bicycle tire']",wrench in the new bicycle tire,1
+3,0.6,"['get new bicycle tire and wrench', 'wrench out the flat tire from bicycle', 'wrench in the new bicycle tire']","['get new bicycle tire and wrench', 'put wrench away']",put wrench away,1
+4,0.8,"['get new bicycle tire and wrench', 'wrench out the flat tire from bicycle', 'wrench in the new bicycle tire', 'put wrench away']","['throw flat tire away or recycle it', 'get new bicycle tire and wrench']",throw flat tire away or recycle it,0
+0,0.0,[],"['Take the tire off', 'Go to a bicycle shop']",Take the tire off,0
+1,0.2,['Take the tire off'],"['Go to a bicycle shop', 'Take the tire off']",Go to a bicycle shop,0
+2,0.4,"['Take the tire off', 'Go to a bicycle shop']","['Buy a new tire', 'Ride your bicycle']",Buy a new tire,0
+3,0.6,"['Take the tire off', 'Go to a bicycle shop', 'Buy a new tire']","['Take the tire off', 'Replace the tire']",Replace the tire,1
+4,0.8,"['Take the tire off', 'Go to a bicycle shop', 'Buy a new tire', 'Replace the tire']","['Take the tire off', 'Ride your bicycle']",Ride your bicycle,1
+0,0.0,[],"['Go to the store', 'Install the new tire']",Go to the store,0
+1,0.2,['Go to the store'],"['Find a replacement bicycle tire', 'Find a replacement bicycle tire']",Find a replacement bicycle tire,0
+2,0.4,"['Go to the store', 'Find a replacement bicycle tire']","['Install the new tire', 'Buy the replacement bicycle tire']",Buy the replacement bicycle tire,1
+3,0.6,"['Go to the store', 'Find a replacement bicycle tire', 'Buy the replacement bicycle tire']","['Go to the store', 'remove the flat tire from the bicycle']",remove the flat tire from the bicycle,1
+4,0.8,"['Go to the store', 'Find a replacement bicycle tire', 'Buy the replacement bicycle tire', 'remove the flat tire from the bicycle']","['Install the new tire', 'Find a replacement bicycle tire']",Install the new tire,0
+0,0.0,[],"['Get air pump', 'Eject air pump from tire']",Get air pump,0
+1,0.14285714285714285,['Get air pump'],"['Inspect tire', 'Insert air pump into tire']",Inspect tire,0
+2,0.2857142857142857,"['Get air pump', 'Inspect tire']","['Pump air into tire', 'Locate puncture point']",Locate puncture point,1
+3,0.42857142857142855,"['Get air pump', 'Inspect tire', 'Locate puncture point']","['Stitch puncture point', 'Pump air into tire']",Stitch puncture point,0
+4,0.5714285714285714,"['Get air pump', 'Inspect tire', 'Locate puncture point', 'Stitch puncture point']","['Insert air pump into tire', 'Inspect tire']",Insert air pump into tire,0
+5,0.7142857142857143,"['Get air pump', 'Inspect tire', 'Locate puncture point', 'Stitch puncture point', 'Insert air pump into tire']","['Pump air into tire', 'Locate puncture point']",Pump air into tire,0
+6,0.8571428571428571,"['Get air pump', 'Inspect tire', 'Locate puncture point', 'Stitch puncture point', 'Insert air pump into tire', 'Pump air into tire']","['Stitch puncture point', 'Eject air pump from tire']",Eject air pump from tire,1
+0,0.0,[],"['remove tire', 'skuff the tube up']",remove tire,0
+1,0.14285714285714285,['remove tire'],"['remove tire', 'remove tube']",remove tube,1
+2,0.2857142857142857,"['remove tire', 'remove tube']","['apply glue', 'find hole in tube']",find hole in tube,1
+3,0.42857142857142855,"['remove tire', 'remove tube', 'find hole in tube']","['apply the patch', 'skuff the tube up']",skuff the tube up,1
+4,0.5714285714285714,"['remove tire', 'remove tube', 'find hole in tube', 'skuff the tube up']","['apply glue', 'remove tire']",apply glue,0
+5,0.7142857142857143,"['remove tire', 'remove tube', 'find hole in tube', 'skuff the tube up', 'apply glue']","['apply the patch', 'remove tube']",apply the patch,0
+6,0.8571428571428571,"['remove tire', 'remove tube', 'find hole in tube', 'skuff the tube up', 'apply glue', 'apply the patch']","['let the patch dry', 'skuff the tube up']",let the patch dry,0
+0,0.0,[],"['Obtain a bicycle pump and new tire tube.', 'Put the tire back on the wheel.']",Obtain a bicycle pump and new tire tube.,0
+1,0.14285714285714285,['Obtain a bicycle pump and new tire tube.'],"['Remove the flat tire from the bicycle.', 'Obtain a bicycle pump and new tire tube.']",Remove the flat tire from the bicycle.,0
+2,0.2857142857142857,"['Obtain a bicycle pump and new tire tube.', 'Remove the flat tire from the bicycle.']","['Remove the inner tire tube.', 'Remove the rubber part of the tire from the wheel.']",Remove the rubber part of the tire from the wheel.,1
+3,0.42857142857142855,"['Obtain a bicycle pump and new tire tube.', 'Remove the flat tire from the bicycle.', 'Remove the rubber part of the tire from the wheel.']","['Inspect the rubber for damage. If it is heavily damaged obtain a new one.', 'Obtain a bicycle pump and new tire tube.']",Inspect the rubber for damage. If it is heavily damaged obtain a new one.,0
+4,0.5714285714285714,"['Obtain a bicycle pump and new tire tube.', 'Remove the flat tire from the bicycle.', 'Remove the rubber part of the tire from the wheel.', 'Inspect the rubber for damage. If it is heavily damaged obtain a new one.']","['Obtain a bicycle pump and new tire tube.', 'Remove the inner tire tube.']",Remove the inner tire tube.,1
+5,0.7142857142857143,"['Obtain a bicycle pump and new tire tube.', 'Remove the flat tire from the bicycle.', 'Remove the rubber part of the tire from the wheel.', 'Inspect the rubber for damage. If it is heavily damaged obtain a new one.', 'Remove the inner tire tube.']","['Insert the new inner tire tube into the rubber of the tire.', 'Obtain a bicycle pump and new tire tube.']",Insert the new inner tire tube into the rubber of the tire.,0
+6,0.8571428571428571,"['Obtain a bicycle pump and new tire tube.', 'Remove the flat tire from the bicycle.', 'Remove the rubber part of the tire from the wheel.', 'Inspect the rubber for damage. If it is heavily damaged obtain a new one.', 'Remove the inner tire tube.', 'Insert the new inner tire tube into the rubber of the tire.']","['Inspect the rubber for damage. If it is heavily damaged obtain a new one.', 'Put the tire back on the wheel.']",Put the tire back on the wheel.,1
+0,0.0,[],"['Obtain new tire tube.', 'Life the edges of the tire and work off rim.']",Obtain new tire tube.,0
+1,0.14285714285714285,['Obtain new tire tube.'],"['Remove old tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.']","Put bike on bike stand, or flipped resting on seat / handlebars.",1
+2,0.2857142857142857,"['Obtain new tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.']","['Remove bolts or quick release to get tire off the bike.', 'Replace with new tire tube.']",Remove bolts or quick release to get tire off the bike.,0
+3,0.42857142857142855,"['Obtain new tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.', 'Remove bolts or quick release to get tire off the bike.']","['Obtain new tire tube.', 'Life the edges of the tire and work off rim.']",Life the edges of the tire and work off rim.,1
+4,0.5714285714285714,"['Obtain new tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.', 'Remove bolts or quick release to get tire off the bike.', 'Life the edges of the tire and work off rim.']","['Put tire back on rim.', 'Remove old tire tube.']",Remove old tire tube.,1
+5,0.7142857142857143,"['Obtain new tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.', 'Remove bolts or quick release to get tire off the bike.', 'Life the edges of the tire and work off rim.', 'Remove old tire tube.']","['Replace with new tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.']",Replace with new tire tube.,0
+6,0.8571428571428571,"['Obtain new tire tube.', 'Put bike on bike stand, or flipped resting on seat / handlebars.', 'Remove bolts or quick release to get tire off the bike.', 'Life the edges of the tire and work off rim.', 'Remove old tire tube.', 'Replace with new tire tube.']","['Put bike on bike stand, or flipped resting on seat / handlebars.', 'Put tire back on rim.']",Put tire back on rim.,1
+0,0.0,[],"['Take out leaking tube.', 'Take the tire and check for leaks.']",Take the tire and check for leaks.,1
+1,0.14285714285714285,['Take the tire and check for leaks.'],"['Pump the tire up to check for leaks.', 'Take out leaking tube.']",Pump the tire up to check for leaks.,0
+2,0.2857142857142857,"['Take the tire and check for leaks.', 'Pump the tire up to check for leaks.']","['Take out leaking tube.', 'If there are no leaks then you have to buy a new tube.']",If there are no leaks then you have to buy a new tube.,1
+3,0.42857142857142855,"['Take the tire and check for leaks.', 'Pump the tire up to check for leaks.', 'If there are no leaks then you have to buy a new tube.']","['Put tire back on rim.', 'Take tire off.']",Take tire off.,1
+4,0.5714285714285714,"['Take the tire and check for leaks.', 'Pump the tire up to check for leaks.', 'If there are no leaks then you have to buy a new tube.', 'Take tire off.']","['Pump the tire up to check for leaks.', 'Take out leaking tube.']",Take out leaking tube.,1
+5,0.7142857142857143,"['Take the tire and check for leaks.', 'Pump the tire up to check for leaks.', 'If there are no leaks then you have to buy a new tube.', 'Take tire off.', 'Take out leaking tube.']","['Put new tube into tire.', 'Take the tire and check for leaks.']",Put new tube into tire.,0
+6,0.8571428571428571,"['Take the tire and check for leaks.', 'Pump the tire up to check for leaks.', 'If there are no leaks then you have to buy a new tube.', 'Take tire off.', 'Take out leaking tube.', 'Put new tube into tire.']","['Put tire back on rim.', 'If there are no leaks then you have to buy a new tube.']",Put tire back on rim.,0
+0,0.0,[],"['Turn on compressor', 'Inspect tire to determine if popped or just low on air']",Inspect tire to determine if popped or just low on air,1
+1,0.14285714285714285,['Inspect tire to determine if popped or just low on air'],"['If just flat but not popped, find air compressor', 'Fill tire with air until feels full']","If just flat but not popped, find air compressor",0
+2,0.2857142857142857,"['Inspect tire to determine if popped or just low on air', 'If just flat but not popped, find air compressor']","['Remove valve cap by unscrewing', 'Turn on compressor']",Remove valve cap by unscrewing,0
+3,0.42857142857142855,"['Inspect tire to determine if popped or just low on air', 'If just flat but not popped, find air compressor', 'Remove valve cap by unscrewing']","['Attach air compressor hose', 'Inspect tire to determine if popped or just low on air']",Attach air compressor hose,0
+4,0.5714285714285714,"['Inspect tire to determine if popped or just low on air', 'If just flat but not popped, find air compressor', 'Remove valve cap by unscrewing', 'Attach air compressor hose']","['Remove compressor hose', 'Turn on compressor']",Turn on compressor,1
+5,0.7142857142857143,"['Inspect tire to determine if popped or just low on air', 'If just flat but not popped, find air compressor', 'Remove valve cap by unscrewing', 'Attach air compressor hose', 'Turn on compressor']","['Remove valve cap by unscrewing', 'Fill tire with air until feels full']",Fill tire with air until feels full,1
+6,0.8571428571428571,"['Inspect tire to determine if popped or just low on air', 'If just flat but not popped, find air compressor', 'Remove valve cap by unscrewing', 'Attach air compressor hose', 'Turn on compressor', 'Fill tire with air until feels full']","['Remove valve cap by unscrewing', 'Remove compressor hose']",Remove compressor hose,1
+0,0.0,[],"['Make sure spare tire has enough air in it', 'Pull over to side of the road']",Pull over to side of the road,1
+1,0.14285714285714285,['Pull over to side of the road'],"['Pull over to side of the road', 'Have a bike pump handy']",Have a bike pump handy,1
+2,0.2857142857142857,"['Pull over to side of the road', 'Have a bike pump handy']","['Fasten spare tire on.', 'Grab spare tire']",Grab spare tire,1
+3,0.42857142857142855,"['Pull over to side of the road', 'Have a bike pump handy', 'Grab spare tire']","['Remove flat tire', 'Make sure spare tire has enough air in it']",Make sure spare tire has enough air in it,1
+4,0.5714285714285714,"['Pull over to side of the road', 'Have a bike pump handy', 'Grab spare tire', 'Make sure spare tire has enough air in it']","['Unbolt tire.', 'Have a bike pump handy']",Unbolt tire.,0
+5,0.7142857142857143,"['Pull over to side of the road', 'Have a bike pump handy', 'Grab spare tire', 'Make sure spare tire has enough air in it', 'Unbolt tire.']","['Remove flat tire', 'Have a bike pump handy']",Remove flat tire,0
+6,0.8571428571428571,"['Pull over to side of the road', 'Have a bike pump handy', 'Grab spare tire', 'Make sure spare tire has enough air in it', 'Unbolt tire.', 'Remove flat tire']","['Fasten spare tire on.', 'Pull over to side of the road']",Fasten spare tire on.,0
+0,0.0,[],"['Deflate old tire', 'Unscrew wheel off bike']",Deflate old tire,0
+1,0.14285714285714285,['Deflate old tire'],"['Get hex wrench', 'Get hex wrench']",Get hex wrench,1
+2,0.2857142857142857,"['Deflate old tire', 'Get hex wrench']","['Place in water to determine puncture', 'Unscrew wheel off bike']",Unscrew wheel off bike,1
+3,0.42857142857142855,"['Deflate old tire', 'Get hex wrench', 'Unscrew wheel off bike']","['Place in water to determine puncture', 'Take off outer protective shell']",Take off outer protective shell,1
+4,0.5714285714285714,"['Deflate old tire', 'Get hex wrench', 'Unscrew wheel off bike', 'Take off outer protective shell']","['Deflate old tire', 'Take off inner tube']",Take off inner tube,1
+5,0.7142857142857143,"['Deflate old tire', 'Get hex wrench', 'Unscrew wheel off bike', 'Take off outer protective shell', 'Take off inner tube']","['Place in water to determine puncture', 'Deflate old tire']",Place in water to determine puncture,0
+6,0.8571428571428571,"['Deflate old tire', 'Get hex wrench', 'Unscrew wheel off bike', 'Take off outer protective shell', 'Take off inner tube', 'Place in water to determine puncture']","['Unscrew wheel off bike', 'Spread glue on area']",Spread glue on area,1
+0,0.0,[],"['Release the brakes of the bike that holds the flat wheel', 'Repair tire (Patch) or replace tire depending on the damage of the tire.']",Release the brakes of the bike that holds the flat wheel,0
+1,0.14285714285714285,['Release the brakes of the bike that holds the flat wheel'],"['Remove the flat wheel from the bicycle', 'Decide if the tire is flat because of natural deflation or a hole in the tube and tire']",Remove the flat wheel from the bicycle,0
+2,0.2857142857142857,"['Release the brakes of the bike that holds the flat wheel', 'Remove the flat wheel from the bicycle']","['(If natural deflation) re-inflate tire with air pump', 'Check for damage of tire']",Check for damage of tire,1
+3,0.42857142857142855,"['Release the brakes of the bike that holds the flat wheel', 'Remove the flat wheel from the bicycle', 'Check for damage of tire']","['Decide if the tire is flat because of natural deflation or a hole in the tube and tire', '(if hole in tube and/or tire) Replace the tube if damaged']",Decide if the tire is flat because of natural deflation or a hole in the tube and tire,0
+4,0.5714285714285714,"['Release the brakes of the bike that holds the flat wheel', 'Remove the flat wheel from the bicycle', 'Check for damage of tire', 'Decide if the tire is flat because of natural deflation or a hole in the tube and tire']","['(If natural deflation) re-inflate tire with air pump', 'Release the brakes of the bike that holds the flat wheel']",(If natural deflation) re-inflate tire with air pump,0
+5,0.7142857142857143,"['Release the brakes of the bike that holds the flat wheel', 'Remove the flat wheel from the bicycle', 'Check for damage of tire', 'Decide if the tire is flat because of natural deflation or a hole in the tube and tire', '(If natural deflation) re-inflate tire with air pump']","['Release the brakes of the bike that holds the flat wheel', '(if hole in tube and/or tire) Replace the tube if damaged']",(if hole in tube and/or tire) Replace the tube if damaged,1
+6,0.8571428571428571,"['Release the brakes of the bike that holds the flat wheel', 'Remove the flat wheel from the bicycle', 'Check for damage of tire', 'Decide if the tire is flat because of natural deflation or a hole in the tube and tire', '(If natural deflation) re-inflate tire with air pump', '(if hole in tube and/or tire) Replace the tube if damaged']","['Repair tire (Patch) or replace tire depending on the damage of the tire.', 'Decide if the tire is flat because of natural deflation or a hole in the tube and tire']",Repair tire (Patch) or replace tire depending on the damage of the tire.,0
+0,0.0,[],"['Take tire to bike shop', 'Remove tire from bicycle']",Remove tire from bicycle,1
+1,0.2,['Remove tire from bicycle'],"['Put fixed tire on bike', 'Take tire to bike shop']",Take tire to bike shop,1
+2,0.4,"['Remove tire from bicycle', 'Take tire to bike shop']","['Put fixed tire on bike', 'Give tire to shop owner to be fixed']",Give tire to shop owner to be fixed,1
+3,0.6,"['Remove tire from bicycle', 'Take tire to bike shop', 'Give tire to shop owner to be fixed']","['Take tire home', 'Remove tire from bicycle']",Take tire home,0
+4,0.8,"['Remove tire from bicycle', 'Take tire to bike shop', 'Give tire to shop owner to be fixed', 'Take tire home']","['Put fixed tire on bike', 'Take tire to bike shop']",Put fixed tire on bike,0
+0,0.0,[],"['if not able to repair, purchase a new tire', 'find the hole in the bicycle tire']",find the hole in the bicycle tire,1
+1,0.14285714285714285,['find the hole in the bicycle tire'],"['if not able to repair, purchase a new tire', 'get appropriate tools (e.g. wrench)']",get appropriate tools (e.g. wrench),1
+2,0.2857142857142857,"['find the hole in the bicycle tire', 'get appropriate tools (e.g. wrench)']","['disassemble the tire from the base', 'if not able to repair, purchase a new tire']",disassemble the tire from the base,0
+3,0.42857142857142855,"['find the hole in the bicycle tire', 'get appropriate tools (e.g. wrench)', 'disassemble the tire from the base']","['locate the hole and remove whatever punctured the flat', 'find the hole in the bicycle tire']",locate the hole and remove whatever punctured the flat,0
+4,0.5714285714285714,"['find the hole in the bicycle tire', 'get appropriate tools (e.g. wrench)', 'disassemble the tire from the base', 'locate the hole and remove whatever punctured the flat']","['patch up the flat tire', 'find the hole in the bicycle tire']",patch up the flat tire,0
+5,0.7142857142857143,"['find the hole in the bicycle tire', 'get appropriate tools (e.g. wrench)', 'disassemble the tire from the base', 'locate the hole and remove whatever punctured the flat', 'patch up the flat tire']","['find the hole in the bicycle tire', 'if not able to repair, purchase a new tire']","if not able to repair, purchase a new tire",1
+6,0.8571428571428571,"['find the hole in the bicycle tire', 'get appropriate tools (e.g. wrench)', 'disassemble the tire from the base', 'locate the hole and remove whatever punctured the flat', 'patch up the flat tire', 'if not able to repair, purchase a new tire']","['find the hole in the bicycle tire', 'fill up the tire with air']",fill up the tire with air,1
+0,0.0,[],"['Retrieve Fix-a-Flat from garage', 'Remove cap on Fix-a-Flat']",Retrieve Fix-a-Flat from garage,0
+1,0.14285714285714285,['Retrieve Fix-a-Flat from garage'],"['Replace cap on Fix-a-Flat canister.', 'Take nipple cap off bike tire']",Take nipple cap off bike tire,1
+2,0.2857142857142857,"['Retrieve Fix-a-Flat from garage', 'Take nipple cap off bike tire']","['Remove cap on Fix-a-Flat', 'Replace nipple cap on bicycle tire']",Remove cap on Fix-a-Flat,0
+3,0.42857142857142855,"['Retrieve Fix-a-Flat from garage', 'Take nipple cap off bike tire', 'Remove cap on Fix-a-Flat']","['Replace cap on Fix-a-Flat canister.', 'Hook Fix-a-Flat to bicycle tire nipple']",Hook Fix-a-Flat to bicycle tire nipple,1
+4,0.5714285714285714,"['Retrieve Fix-a-Flat from garage', 'Take nipple cap off bike tire', 'Remove cap on Fix-a-Flat', 'Hook Fix-a-Flat to bicycle tire nipple']","['Take nipple cap off bike tire', 'Inflate bicycle tire with Fix-a-Flat']",Inflate bicycle tire with Fix-a-Flat,1
+5,0.7142857142857143,"['Retrieve Fix-a-Flat from garage', 'Take nipple cap off bike tire', 'Remove cap on Fix-a-Flat', 'Hook Fix-a-Flat to bicycle tire nipple', 'Inflate bicycle tire with Fix-a-Flat']","['Replace nipple cap on bicycle tire', 'Remove cap on Fix-a-Flat']",Replace nipple cap on bicycle tire,0
+6,0.8571428571428571,"['Retrieve Fix-a-Flat from garage', 'Take nipple cap off bike tire', 'Remove cap on Fix-a-Flat', 'Hook Fix-a-Flat to bicycle tire nipple', 'Inflate bicycle tire with Fix-a-Flat', 'Replace nipple cap on bicycle tire']","['Remove cap on Fix-a-Flat', 'Replace cap on Fix-a-Flat canister.']",Replace cap on Fix-a-Flat canister.,1
